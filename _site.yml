@@ -1,0 +1,20 @@
+name: "Ryan Miller"
+navbar:
+  title: "Ryan Miller"
+  left:
+    - text: "Home"
+      icon: fa-home  # handy way to use FontAwesome icons in nav!
+      href: index.html
+    - text: "Research"
+      icon: fa-newspaper-o
+      href: about.html
+    - text: "Teaching"
+      icon: fa-graduation-cap
+      href: teaching.html
+    - text: "Personal"
+      icon: fa-dumbbell
+      href: personal.html
+    - text: "CV"
+      icon: fa-file
+      href: CV_2018.pdf
+output_dir: "."

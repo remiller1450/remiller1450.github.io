@@ -1,0 +1,17 @@
+---
+title: "Teaching"
+---
+
+Teaching is a passion of mine and fortunately I've been afforded numerous teaching opportunities throughout my professional development.  I began as a high school math teacher before attending graduate school, were I served as both a teaching assistant and course instructor for Introduction to Biostatistics at the University of Iowa.  At Grinnell College I will be teaching courses in statistics and data science.  Below are brief descriptions of courses that I've taught as the primary instructor.
+
+### STA-209 - Grinnell College
+
+STA-209 is an introductory course in applied statistic covering graphics, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  Students analyze real data using Minitab.  The course includes a project where students formulate a research question, collect data, apply appropriate statistical methods, and present their results.
+
+### BIOS-4120 - University of Iowa
+
+BIOS-4120 is an introductory statistics course that covers basic statistical concepts and methods that are frequently used in medicine, public health, and the biological sciences.  Some topics covered include study design, descriptive statistics, basic rules of probability, measures of association, hypothesis testing for one and two sample continuous and categorical data, confidence intervals, correlation, and an introduction to regression.
+
+### Calculus I, Algebra II with Trig, Algebra I - Pawnee High School (IL)
+
+At the high school level I've taught: one section of Calc I - covering limits, derivatives/anti-derivatives, finding minima and maxima, and applications; two sections of Algebra II with Trig - covering functions, graphs, exponents and logarithms, and trigonometry; two sections of Algebra I - covering order of operations, equations, and inequalities. 
