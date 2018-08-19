@@ -2,7 +2,7 @@
 title: "Research"
 ---
 
-Much of my methodological research pertains to high-dimensional data, or situations where the number of variables available for analysis is large.  Specifically, I'm interested in penalized regression models and false discovery rate approaches to inference.  High-dimensional data frequently arise in the areas of genetics and genomics, but as the size and complexity of modern data continue to grow these methods have become popular in many other applications as well.  My contributions involve false discovery rate based approaches to inference, many of which are implemented in the R package [ncvreg](https://cran.r-project.org/web/packages/ncvreg/index.html) developed and maintained by my dissertation advisor [Patrick Breheny](http://myweb.uiowa.edu/pbreheny/index.html).  A description of these contributions, a short sampling of applied research I've worked on, and some other statistical interests of mine are provided below.
+My methodological research primarily pertains to high-dimensional data, or situations where the number of variables available for analysis is large or even exceeds the sample size.  Specifically, I'm interested in penalized regression approaches to modeling and false discovery rate approaches to inference.  High-dimensional data frequently arise in the areas of genetics and genomics, but as the size and complexity of modern data continue to grow these methods have become popular in many other applications as well.  My contributions involve marginal false discovery rate based approaches to inference using penalized regression models; many of these are implemented in the R package [ncvreg](https://cran.r-project.org/web/packages/ncvreg/index.html) that is developed and maintained by my dissertation advisor [Patrick Breheny](http://myweb.uiowa.edu/pbreheny/index.html).  A description of these contributions, a short sampling of applied research I've worked on, and some other statistical interests of mine are provided below.
 
 ### Marginal False Discovery Rates for Penalized Likelihood Models
 
@@ -12,9 +12,430 @@ Details can be found here: [pdf link](https://arxiv.org/pdf/1710.11459.pdf)
 
 ### Feature Specific Inference using Local False Discovery Rate 
 
-It is useful to know the overall false discovery rate of a given model, but what about the individual variables in the model?  This work answers that question using a [local approach to false discovery rates](http://statweb.stanford.edu/~ckirby/brad/LSI/chapter5.pdf).
+It is useful to know the overall false discovery rate of a given model, but what can be said about individual variables in the model?  This work addresses the question using a [local approach to false discovery rates](http://statweb.stanford.edu/~ckirby/brad/LSI/chapter5.pdf).
 
-<img align = "middle" src="locfdr_plot.png"> 
+```{r, echo=FALSE, include = FALSE}
+######################################################################
+############# NOTE: DOESN'T REQUIRE ANYTHING RUN FIRST  ##############
+######################################################################
+
+library(ncvreg)
+library(Matrix)
+#install.packages('locfdr')
+library(locfdr)
+
+
+genData <- function(n, J, K=1, beta, family=c("gaussian","binomial","survival"), J0=ceiling(J/2), K0=K, SNR=1, sig = c("homogeneous","heterogeneous"), sig.g = c("homogeneous","heterogeneous"), rho = 0, rho.g = rho, corr=c("exchangeable", "autoregressive")) {
+  family <- match.arg(family)
+  sig <- match.arg(sig)
+  sig.g <- match.arg(sig.g)
+  corr <- match.arg(corr)
+  
+  ## Gen X, S
+  if (corr=="exchangeable") {
+    X <- genX(n=n, J=J, K=K, rho=rho, rho.g=rho.g)
+  } else {
+    RHO <- matrix(rho^(0:(J-1)), J, J, byrow=TRUE)
+    S <- bandSparse(J, k=0:(J-1), diagonals=RHO, symmetric=TRUE)
+    R <- chol(S)
+    X <- as.matrix(matrix(rnorm(n*J), n, J) %*% R)
+  }
+  
+  j <- rep(1:J,rep(K,J))
+  
+  ## Gen beta
+  if (missing(beta) || length(beta)==1) {
+    k <- rep(1:K,J)
+    b <- (j <= J0) * (k <= K0)
+    s <- c(1,-1)[1+j%%2] * c(1,-1)[1+k%%2]
+    if (missing(beta)) {
+      S <- matrix(rho, nrow=J*K, ncol=J*K)
+      for (i in 1:J) S[(i-1)*K+1:K,(i-1)*K+1:K] <- rho.g
+      diag(S) <- rep(1,J*K)
+      if (sig=="heterogeneous") b <- b*j
+      if (sig.g=="heterogeneous") b <- b*k
+      b <- b*s
+      beta <- b*sqrt(SNR)/sqrt(crossprod(b,S)%*%b)
+    } else beta <- b*s*beta
+  }
+  
+  ## Gen y
+  y <- genY(X%*%beta, family=family, sigma=sqrt(n))
+  return(list(X=X,y=y,beta=beta,family=family,group=j))
+}
+
+## rho  : correlation across all explanatory variables
+## rho.g: correlation within group (must be at least rho)
+genX <- function(n, J, K=1, rho=0, rho.g=rho, corr=corr) {
+  a <- sqrt(rho/(1-rho.g))
+  b <- sqrt((rho.g-rho)/(1-rho.g))
+  Z <- rnorm(n)
+  ZZ <- t(matrix(rep(rnorm(n*J), rep(K,n*J)), ncol=n))
+  ZZZ <- matrix(rnorm(n*J*K),nrow=n)
+  return(matrix(as.numeric(a*Z + b*ZZ + ZZZ),nrow=n)/sqrt(1+a^2+b^2))
+}
+
+genY <- function(eta,family=c("gaussian","binomial","survival"),sigma=1,lam.0=1) {
+  family=match.arg(family)
+  n <- length(eta)
+  if (family=="gaussian") y <- rnorm(n,mean=eta,sd=sigma)
+  else if (family=="binomial")
+  {
+    pi. <- exp(eta)/(1+exp(eta))
+    pi.[eta > log(.9999/.0001)] <- 1
+    pi.[eta < log(.0001/.9999)] <- 0
+    y <- rbinom(n,1,pi.)
+  } else if (family == "survival")
+  {
+    haz <- lam.0*exp(eta)
+    y <- rexp(n, haz)
+  }
+  return(y)
+}
+
+
+
+
+locmfdr.new <- function(fit, lambda, X = NULL, y = NULL, number = NULL, alpha = NULL){
+  ### Check for valid args
+  if(!is.null(number)){
+    if(number < 1) stop("'number' should be a positive integer")
+  }
+  if(!is.null(alpha)){
+    if(alpha > 1 | alpha <= 0) stop("'alpha' should be in the interval (0,1]")
+  }
+  
+  ### Setup standardized X
+  if(is.null(X)){
+    if(is.null(fit$X)){
+      stop("This procedure requires X and y, either supply X and y, or fit the model using the option 'returnX = TRUE'")
+    } else {XX <- fit$X
+    y <- fit$y} 
+  } else {
+    if(class(fit)[1] == "ncvsurv"){XX <- std(X[fit$order,])}
+    else {XX <- std(X)}
+  }
+  
+  
+  ### Setup general
+  lid <- which(fit$lambda == lambda)
+  ns <- attr(XX, "nonsingular")
+  sc <- attr(XX, "scale")
+  n <- nrow(XX)
+  p <- ncol(XX)
+  S <- predict(fit, type = "nvars", lambda = lambda)
+  pen.idx <- fit$penalty.factor > 0
+  
+  ##### Linear Regression
+  if(class(fit)[1] == "ncvreg"){
+    if(fit$family == "gaussian"){
+      ### Setup standardized beta and centered y
+      yy <- y - mean(y)
+      bb <- c(mean(y), fit$beta[ns+1,lid]*sc)
+      
+      ### Calculate standardized z_j's
+      R <- yy - cbind(1, XX) %*% bb
+      z <- (1/n)*t(XX) %*% R + bb[-1]
+      sig.est <- sqrt(fit$loss[lid]/(n - S + 1))
+      z <- z/(sig.est/sqrt(n))
+    }
+    
+    ### Logistic regression 
+    else if (fit$family == "binomial"){
+      ## Setup standardized beta
+      if(is.factor(y)){
+        y <- as.numeric(y)-1
+      }
+      bb <- c(mean(y), fit$beta[ns+1,lid]*sc)
+      
+      ### Setup the score vector and W matrix
+      P <-  predict(fit, X, lambda = lambda, type = 'response')
+      U <- y - P   
+      W <- diag(as.vector(P*(1 - P)))  
+      
+      ### Calculate v_j and z_j
+      z <- numeric(p)
+      for (j in 1:p){
+        vj <- t(XX[,j]) %*% W %*% XX[,j]
+        z[j] <- (XX[,j] %*% U + vj * bb[j+1])/(sqrt(vj))  ### j+1 bc intercept
+      }
+    }
+  }
+  
+  
+  ### Cox regression
+  if(class(fit)[1] == "ncvsurv"){
+    ## Setup standardized beta
+    bb <- fit$beta[ns,lid]*sc
+    
+    ### Calculate score vector and W (maybe diagonalize it for speed?)
+    d <- fit$fail
+    rsk <- rev(cumsum(rev(exp(fit$Eta[,lid]))))
+    P <- outer(exp(fit$Eta[,lid]), rsk, '/')
+    P[upper.tri(P)] <- 0
+    U <- d - P%*%d  
+    W <- -P %*% diag(d) %*% t(P)
+    #W <- matrix(0,n,n)
+    diag(W) <- diag(P %*% diag(d) %*% t(1-P))
+    
+    ### Calculate v_j and z_j
+    z <- numeric(p)
+    for (j in 1:p){
+      vj <- t(XX[,j]) %*% W %*% XX[,j]
+      z[j] <- (XX[,j] %*% U + vj * bb[j])/(sqrt(vj))
+    }
+  }
+  
+  ### Calculate locfdr
+  f <- density(z[pen.idx])
+  ff <- approxfun(f$x, f$y)
+  est.gam <- pmin(dnorm(z, 0, 1)/ff(z), 1)
+  est.gam[!pen.idx] <- NA
+  
+  
+  #### Calculate Fdr (using both est cdf and empirical cdf)
+  est.Fdr <- emp.Fdr <- numeric(p)
+  est.Fdr[!pen.idx] <- emp.Fdr[!pen.idx] <- NA
+  
+  #for(j in (1:p)[pen.idx]){
+  #  if(z[j] < 0) {
+  #    est.Fdr[j] <- pnorm(z[j])/integrate(ff, f$x[1], z[j])$value
+  #    emp.Fdr[j] <- pnorm(z[j])/(sum(z <= z[j])/p)
+  #  } else {
+  #    est.Fdr[j] <- (1-pnorm(z[j]))/integrate(ff, z[j], f$x[length(f$x)])$value
+  #    emp.Fdr[j] <- (1-pnorm(z[j]))/(sum(z >= z[j])/p)
+  #  }
+  #}
+  
+  ### setup results
+  
+  if(class(fit)[1] == "ncvreg"){
+    results <- data.frame(beta = fit$beta[-1,lid], z = z, locfdr = est.gam, est.mFdr = est.Fdr, emp.mFdr = emp.Fdr)
+    results$selected <- ifelse(fit$beta[-1,lid] != 0, "*"," ")
+    rownames(results) <- rownames(fit$beta)[-1]
+  } else {
+    results <- data.frame(beta = fit$beta[,lid], z = z, locfdr = est.gam, est.mFdr = est.Fdr, emp.mFdr = emp.Fdr)
+    results$selected <- ifelse(fit$beta[,lid] != 0, "*"," ")
+    rownames(results) <- rownames(fit$beta)
+  }
+  
+  return(results[pen.idx,])
+}
+
+
+### Setup
+n <- 200
+p <- 100
+bb <- c(3.5,0,-3.5,0)
+set.seed(31236) ### Good for illustrating both!?!?
+## seed = 31236
+set.seed(13351)  ### Also might be good with bb = c(3.5,0,-3.3,0)
+#set.seed(81649)  ### Also might be good with beta c(2.8,0,-2.3,0)
+
+D1 <- genData(n, J=2, J0=2, K=2, K0=1, rho=0, rho.g=0.83, beta=bb)  #### 9 correlated vars for each true (type B)
+D2 <- genData(n, p - 4, rho=0, beta=0, corr="auto")
+X <- cbind(D1$X, .6*D2$X)
+y <- D1$y
+fit <- cv.ncvreg(X,y, penalty = "lasso", returnX = TRUE)
+lseq <- fit$lambda
+
+locfdr.res <- matrix(NA, nrow = ncol(X), ncol = length(lseq))
+sel.mat <- matrix(NA, nrow = ncol(X), ncol = length(lseq))
+for(i in 1:length(lseq)){
+  temp <- locmfdr.new(fit$fit, lambda = lseq[i], number = ncol(X))
+  locfdr.res[,i] <- temp$locfdr
+  sel.mat[,i] <- (temp$selected == '*')
+}
+
+cols <- numeric(p)
+cols[c(1,3)] <- 1
+cols[c(2,4)] <- 2
+cols[5:p] <- 3
+
+#plot(-lseq[sel.mat[1,]], locfdr.res[1,sel.mat[1,]], xlim = range(-lseq), ylim = c(0,1), ylab = "locfdr", xlab = "-lambda")
+#points(-lseq[!sel.mat[1,]], locfdr.res[1,!sel.mat[1,]], pch = 2)
+#for(i in 2:p){
+#  points(-lseq[sel.mat[i,]], locfdr.res[i,sel.mat[i,]], col = cols[i])
+#  points(-lseq[!sel.mat[i,]], locfdr.res[i,!sel.mat[i,]], col = cols[i], pch = 2)
+#}
+
+library(ggplot2)
+library(reshape2)
+
+### Format results for plotting
+colnames(locfdr.res) <- lseq
+wide <- data.frame(var = rownames(temp), col = cols, locfdr.res)
+long <- melt(wide, id.vars = c("var","col"))
+long$lambda<- -as.numeric(substr(long$variable,2,10))
+
+wide.sel <- data.frame(var = rownames(temp), sel.mat)
+long.sel <- melt(wide.sel, id.vars = c('var'))
+long <- data.frame(long, sel = long.sel[,3])
+
+
+nexts <- which(diff(long[order(long$var),]$sel) == 1) + 1
+nexts.pos <- numeric(nrow(long))
+nexts.pos[nexts] <- 1
+long <- long[order(long$var),]
+
+#### Univariate
+z <- numeric(p)
+for(i in 1:p){
+  t <- summary(lm(y ~ X[,i]))$coefficients[2,3]
+  z[i] <- qnorm(pt(t,p-2))
+}
+res <- locfdr(z, nulltype = 0, plot = 0)
+points <- data.frame(value = res$fdr, lambda = -(max(lseq)+.25), col = cols)
+
+### Univariate by hand
+d <- density(z)
+dd <- approxfun(d$x, d$y)
+fdr.u <- dnorm(z)/dd(z)
+fdr.u[fdr.u > 1] <- 1
+fdr.points <- data.frame(value = fdr.u, lambda = -(max(lseq)+.25), col = cols)
+
+#ggplot(data=long, aes(x=lambda, y=value, group=var, col = factor(col))) +
+#  geom_line(data = rbind(long[long$sel,],long[nexts,]), size=1, linetype = "solid") + 
+#  geom_line(data = rbind(long[!long$sel,], long[nexts,]), size=1, linetype = "dashed") +
+#  geom_vline(xintercept=-fit$lambda.min) + 
+#  scale_x_continuous(limits=c(-6,0)) 
+
+
+p1 <- ggplot() +
+  geom_line(data = rbind(long[long$sel,],long[nexts,]),aes(x=-lambda, y=value, group=var, col = factor(col)), size=1, linetype = "solid") + 
+  geom_line(data = rbind(long[!long$sel,], long[nexts,]), aes(x=-lambda, y=value, group=var, col = factor(col)), size=1, linetype = "dashed") +
+  geom_vline(xintercept=fit$lambda.min, linetype = "dotted") + 
+  scale_x_reverse(limits=c((max(lseq)+.25),0)) +
+  geom_point(data = fdr.points, mapping = aes(x = -lambda, y = value, col = factor(col)), shape = 2, size = 1.5) +
+  scale_color_manual(name = "Feature Type", values = c("green","orange","red"), labels = c("Causal", "Correlated", "Noise")) +
+  labs(x = expression(lambda), y = expression(widehat(mfdr))) + theme(legend.position="bottom") + ggtitle("")
+
+long.coef <- melt(fit$fit$beta[-1,])
+coef.path <- data.frame(long.coef, col = cols)
+p2 <- ggplot() + geom_line(data = coef.path, aes(x = Var2, y = value, group = Var1, col = factor(col)), size = 1) + scale_x_reverse() +
+  scale_color_manual(name = "Feature Type", values = c("green","orange","red"), labels = c("Causal", "Correlated", "Noise")) +
+  geom_vline(xintercept=fit$lambda.min, linetype = "dotted") + 
+  labs(x = expression(lambda), y = "Coefficient Estimate") + ggtitle("")
+
+
+
+
+
+### Setup
+n <- 200
+p <- 100
+bb <- c(4,0,-4,0)
+set.seed(31236) ### Good for illustrating both!?!?
+## seed = 31236
+#set.seed(13351)  ### Also might be good with bb = c(3.5,0,-3.3,0)
+#set.seed(81649)  ### Also might be good with beta c(2.8,0,-2.3,0)
+
+D1 <- genData(n, J=2, J0=2, K=2, K0=1, rho=0, rho.g=0.8, beta=bb)  #### 9 correlated vars for each true (type B)
+D2 <- genData(n, p - 4, rho=0, beta=0, corr="auto")
+X <- cbind(D1$X, .585*D2$X)
+y <- D1$y
+fit <- cv.ncvreg(X,y, penalty = "lasso", returnX = TRUE)
+lseq <- fit$lambda
+
+locfdr.res <- matrix(NA, nrow = ncol(X), ncol = length(lseq))
+sel.mat <- matrix(NA, nrow = ncol(X), ncol = length(lseq))
+for(i in 1:length(lseq)){
+  temp <- locmfdr.new(fit$fit, lambda = lseq[i], number = ncol(X))
+  locfdr.res[,i] <- temp$locfdr
+  sel.mat[,i] <- (temp$selected == '*')
+}
+
+cols <- numeric(p)
+cols[c(1,3)] <- 1
+cols[c(2,4)] <- 2
+cols[5:p] <- 3
+
+#plot(-lseq[sel.mat[1,]], locfdr.res[1,sel.mat[1,]], xlim = range(-lseq), ylim = c(0,1), ylab = "locfdr", xlab = "-lambda")
+#points(-lseq[!sel.mat[1,]], locfdr.res[1,!sel.mat[1,]], pch = 2)
+#for(i in 2:p){
+#  points(-lseq[sel.mat[i,]], locfdr.res[i,sel.mat[i,]], col = cols[i])
+#  points(-lseq[!sel.mat[i,]], locfdr.res[i,!sel.mat[i,]], col = cols[i], pch = 2)
+#}
+
+library(ggplot2)
+library(reshape2)
+
+### Format results for plotting
+colnames(locfdr.res) <- lseq
+wide <- data.frame(var = rownames(temp), col = cols, locfdr.res)
+long <- melt(wide, id.vars = c("var","col"))
+long$lambda<- -as.numeric(substr(long$variable,2,10))
+
+wide.sel <- data.frame(var = rownames(temp), sel.mat)
+long.sel <- melt(wide.sel, id.vars = c('var'))
+long <- data.frame(long, sel = long.sel[,3])
+
+
+nexts <- which(diff(long[order(long$var),]$sel) == 1) + 1
+nexts.pos <- numeric(nrow(long))
+nexts.pos[nexts] <- 1
+long <- long[order(long$var),]
+
+#### Univariate
+z <- numeric(p)
+for(i in 1:p){
+  t <- summary(lm(y ~ X[,i]))$coefficients[2,3]
+  z[i] <- qnorm(pt(t,p-2))
+}
+res <- locfdr(z, nulltype = 0, plot = 0)
+points <- data.frame(value = res$fdr, lambda = -(max(lseq)+.25), col = cols)
+
+### Univariate by hand
+d <- density(z)
+dd <- approxfun(d$x, d$y)
+fdr.u <- dnorm(z)/dd(z)
+fdr.u[fdr.u > 1] <- 1
+fdr.points <- data.frame(value = fdr.u, lambda = -(max(lseq)+.25), col = cols)
+
+#ggplot(data=long, aes(x=lambda, y=value, group=var, col = factor(col))) +
+#  geom_line(data = rbind(long[long$sel,],long[nexts,]), size=1, linetype = "solid") + 
+#  geom_line(data = rbind(long[!long$sel,], long[nexts,]), size=1, linetype = "dashed") +
+#  geom_vline(xintercept=-fit$lambda.min) + 
+#  scale_x_continuous(limits=c(-6,0)) 
+
+
+p3 <- ggplot() +
+  geom_line(data = rbind(long[long$sel,],long[nexts,]),aes(x=-lambda, y=value, group=var, col = factor(col)), size=1, linetype = "solid") + 
+  geom_line(data = rbind(long[!long$sel,], long[nexts,]), aes(x=-lambda, y=value, group=var, col = factor(col)), size=1, linetype = "dashed") +
+  geom_vline(xintercept=fit$lambda.min, linetype = "dotted") + 
+  scale_x_reverse(limits=c((max(lseq)+.25),0)) +
+  geom_point(data = fdr.points, mapping = aes(x = -lambda, y = value, col = factor(col)), shape = 2, size = 1.5) +
+  scale_color_manual(name = "Feature Type", values = c("green","orange","red"), labels = c("Causal", "Correlated", "Noise")) +
+  labs(x = expression(lambda), y = expression(widehat(mfdr))) + theme(legend.position="bottom") + ggtitle("mfdr Path")
+
+long.coef <- melt(fit$fit$beta[-1,])
+coef.path <- data.frame(long.coef, col = cols)
+p4 <- ggplot() + geom_line(data = coef.path, aes(x = Var2, y = value, group = Var1, col = factor(col)), size = 1) + scale_x_reverse() +
+  scale_color_manual(name = "Feature Type", values = c("green","orange","red"), labels = c("Causal", "Correlated", "Noise")) +
+  geom_vline(xintercept=fit$lambda.min, linetype = "dotted") + 
+  labs(x = expression(lambda), y = "Coefficient Estimate") + ggtitle("Coefficient Path")
+
+
+library(gridExtra)
+library(grid)
+g_legend<-function(a.gplot){
+  tmp <- ggplot_gtable(ggplot_build(a.gplot))
+  leg <- which(sapply(tmp$grobs, function(x) x$name) == "guide-box")
+  legend <- tmp$grobs[[leg]]
+  return(legend)}
+
+mylegend<-g_legend(p1)
+```
+
+```{r, echo = FALSE, fig.width=11, fig.height=5}
+
+grid.arrange(arrangeGrob(
+                         p2 + theme(legend.position="none"),
+                         p1 + theme(legend.position="none"),
+                         nrow=1),
+             mylegend, nrow=2,heights=c(10, 1))
+
+```
 
 The figure above displays modeling results from a single simulated data set containing various types of variables (features).  The left panel shows the standard LASSO coefficient path that is returned by default from most standard software packages such as [glmnet]( https://cran.r-project.org/web/packages/glmnet/index.html).  From this path it is difficult to distinguish between important features and noise.  The cross-validated model, which is indicated by the dotted vertical line, contains several noise variables that cannot be easily identified using just the coefficient path.  The right panel displays each feature's local marginal false discovery rate (mfdr) along the same sequence of models.  This approach is capable of clearly distinguishing between important variables and noise; the method characterizes each of the noise variables in the cross-validated model as having a greater than 50% chance of being a false discovery.
 
