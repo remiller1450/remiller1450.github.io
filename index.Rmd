@@ -2,8 +2,12 @@
 title: "Introduction"
 ---
 
+<<<<<<< HEAD
 <img style="float: right;" src="pphoto.jpg"> Welcome to my website!  I am a currently a faculty member at Grinnell College in the [Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I teach classes in statistics and data science.  
 
 Prior to joining Grinnell I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in the summer of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.  
 
 This site provides a short introduction to my research and teaching, as well as a brief personal biography.
+=======
+<img style="float: left;" src="pphoto.jpg"> Welcome to my website!  I am a currently a faculty member at Grinnell College in the [Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I teach classes in statistics and data science.  Prior to joining Grinnell I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in the summer of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/).  This site provides a short introduction to my research and teaching, as well as a brief personal biography.
+>>>>>>> c9413176ab8d016bb71f36ae66d294ee6ba29ada
