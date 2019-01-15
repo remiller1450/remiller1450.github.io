@@ -1,0 +1,54 @@
+Section,Q1: Time,Q1: Time2,Q2: Random Number,Q3: Area of Study,Q4: Agreeable,Q4: Creative,Q4: Enthusiatic,Q4: Logical,Q4: Persistent,Q4: Cautious,Q4: Decisive,Q4: Efficient,Q4: Loyal,Q4: Practical,Q4: Conceptual,Q4: Dependable,Q4: Independent,Q4: Organized,Q4: Prudent,Q4: Competitive,Q4: Dramatic,Q4: Imginative,Q4: Patient,Q4: Supportive,Q5: Reason,Q6: Stats Class Before,Q7: Morning or Night,Q8: Perception,Q9: Finish Time,Q9: Finish Time2,Completion Time (min)
+J,10:52 PM,22:52:00,15,Humanities,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,1,1,Fun,No,Night,Dislike,10:54 PM,22:54:00,2
+J,6:30 PM,18:30:00,17,Social Sciences,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,Major,No,Night,Neutral,6:33 PM,18:33:00,3
+J,11:40 AM,11:40:00,7,Social Sciences,0,0,1,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,Major,No,Night,Like,11:42 AM,11:42:00,2
+J,11:18 PM,23:18:00,17,Sciences,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Prereq,No,Night,Like,11:21 PM,23:21:00,3
+J,1:54 PM,13:54:00,7,Social Sciences,0,0,0,1,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,Major,Yes,Night,Like,1:56 PM,13:56:00,2
+J,10:51 AM,10:51:00,18,Sciences,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Major,Yes,Night,Like,10:52 AM,10:52:00,1
+J,10:44 PM,22:44:00,19,Humanities,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,1,0,0,0,Prereq,No,Night,Like,10:45 PM,22:45:00,1
+J,5:12 PM,17:12:00,5,Sciences,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,Prereq,No,Morning,Dislike,5:14 PM,17:14:00,2
+J,2:14 PM,14:14:00,17,Social Sciences,1,0,0,0,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,Major,Yes,Night,Like,2:15 PM,14:15:00,1
+J,1:09 PM,13:09:00,16,Humanities,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,1,0,0,Major,Yes,Night,Dislike,1:14 PM,13:14:00,5
+J,10:32 AM,10:32:00,7,Social Sciences,0,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Major,No,Night,Dislike,10:33 AM,10:33:00,1
+J,1:56 PM,13:56:00,1,Sciences,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,0,0,0,0,1,Major,Yes,Morning,Strongly Like,1:59 PM,13:59:00,3
+J,1:43 PM,13:43:00,19,Social Sciences,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Major,Yes,Night,Neutral,1:44 PM,13:44:00,1
+J,9:26 PM,21:26:00,12,Social Sciences,1,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Major,No,Night,Neutral,9:31 PM,21:31:00,5
+J,9:39 PM,21:39:00,17,Sciences,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Fun,No,Night,Dislike,9:44 PM,21:44:00,5
+J,6:03 PM,18:03:00,17,Humanities,0,0,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,1,Fun,Yes,Morning,Like,6:06 PM,18:06:00,3
+J,11:19 AM,11:19:00,16,Social Sciences,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,1,Fun,No,Morning,Neutral,11:21 AM,11:21:00,2
+J,11:34 AM,11:34:00,16,Social Sciences,0,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Other,No,Night,Strongly Like,11:35 AM,11:35:00,1
+J,10:41 AM,10:41:00,11,Sciences,0,0,0,0,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,Fun,Yes,Morning,Like,10:43 AM,10:43:00,2
+J,7:30 PM,19:30:00,18,Sciences,1,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,Fun,No,Morning,Like,7:32 PM,19:32:00,2
+J,10:08 AM,10:08:00,8,Social Sciences,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,1,0,1,Major,Yes,Night,Neutral,10:10 AM,10:10:00,2
+J,8:44 PM,20:44:00,11,Sciences,0,1,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,Fun,No,Morning,Like,8:46 PM,20:46:00,2
+J,11:21 AM,11:21:00,6,Sciences,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Major,No,Night,Neutral,11:23 AM,11:23:00,2
+J,5:24 PM,17:24:00,17,Social Sciences,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,Fun,Yes,Night,Neutral,5:26 PM,17:26:00,2
+J,5:05 PM,17:05:00,6,Social Sciences,0,0,0,1,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,Fun,Yes,Morning,Like,5:07 PM,17:07:00,2
+J,4:01 PM,16:01:00,19,Sciences,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,1,0,0,Major,No,Night,Dislike,4:03 PM,16:03:00,2
+K,4:00 PM,16:00:00,8,Social Sciences,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Fun,No,Morning,Strongly Like,4:02 PM,16:02:00,2
+K,3:48 PM,15:48:00,19,Social Sciences,0,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Major,Yes,Night,Neutral,4:02 PM,16:02:00,14
+K,6:27 PM,18:27:00,20,Social Sciences,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,Major,No,Night,Neutral,6:29 PM,18:29:00,2
+K,6:39 PM,18:39:00,8,Social Sciences,0,0,0,0,0,1,0,0,1,0,0,1,0,0,0,0,0,0,1,0,Major,Yes,Night,Like,6:41 PM,18:41:00,2
+K,3:26 PM,15:26:00,8,Sciences,0,1,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,Major,No,Night,Neutral,3:28 PM,15:28:00,2
+K,2:26 PM,14:26:00,17,Sciences,0,1,0,1,0,0,0,1,0,0,0,0,0,0,0,1,0,0,0,0,Prereq,No,Morning,Like,2:29 PM,14:29:00,3
+K,8:53 AM,8:53:00,7,Sciences,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,1,Fun,Yes,Morning,Like,8:58 AM,8:58:00,5
+K,11:11 AM,11:11:00,5,Sciences,0,0,1,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Fun,No,NA,Like,11:14 AM,11:14:00,3
+K,12:16 PM,12:16:00,19,Sciences,0,1,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,1,Prereq,No,Morning,Like,12:18 PM,12:18:00,2
+K,5:24 PM,17:24:00,8,Social Sciences,0,0,0,0,0,1,0,0,1,0,0,1,0,1,0,0,0,0,0,0,Major,Yes,Night,Neutral,5:26 PM,17:26:00,2
+K,3:44 PM,15:44:00,5,Sciences,0,0,0,0,0,0,0,1,0,1,0,0,1,1,0,0,0,0,0,0,Fun,No,Night,Neutral,3:45 PM,15:45:00,1
+K,12:16 PM,12:16:00,12,Humanities,0,1,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,Major,No,Morning,Dislike,12:18 PM,12:18:00,2
+K,5:58 PM,17:58:00,9,Social Sciences,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Major,Yes,Night,Like,6:03 PM,18:03:00,5
+K,10:06 PM,22:06:00,7,Social Sciences,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Major,Yes,Night,Like,10:11 PM,22:11:00,5
+K,12:33 PM,12:33:00,17,Sciences,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,Fun,No,Night,Like,12:35 PM,12:35:00,2
+K,11:17 AM,11:17:00,18,Sciences,0,0,1,0,0,0,0,0,1,0,0,1,0,0,0,1,0,0,0,0,Fun,Yes,Night,Neutral,11:19 AM,11:19:00,2
+K,8:59 AM,8:59:00,17,Social Sciences,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,0,0,Prereq,Yes,Morning,Neutral,2:22 PM,14:22:00,323
+K,4:59 PM,16:59:00,3,Social Sciences,0,0,1,1,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,Major,No,Night,Neutral,5:01 PM,17:01:00,2
+K,3:49 PM,15:49:00,8,Sciences,0,0,1,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,1,Major,No,Morning,Dislike,5:52 PM,17:52:00,123
+K,3:48 PM,15:48:00,20,Social Sciences,1,0,1,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,Fun,Yes,Morning,Like,3:50 PM,15:50:00,2
+K,11:05 PM,23:05:00,18,Sciences,0,1,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Fun,No,Night,Like,11:09 PM,23:09:00,4
+K,12:12 PM,12:12:00,12,Sciences,1,0,0,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,Fun,No,Night,Strongly Like,12:28 PM,12:28:00,16
+K,1:29 PM,13:29:00,13,Sciences,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,Fun,No,Night,Like,1:32 PM,13:32:00,3
+K,9:16 PM,21:16:00,17,Social Sciences,0,0,0,1,0,0,0,0,0,1,0,1,1,0,0,0,0,0,0,0,Major,Yes,Night,Neutral,9:17 PM,21:17:00,1
+K,4:05 PM,16:05:00,7,Sciences,0,0,0,0,0,1,0,0,0,0,0,0,1,1,0,0,0,0,0,1,Fun,No,Night,Neutral,4:08 PM,16:08:00,3
+K,4:00 PM,16:00:00,8,Social Sciences,0,1,0,1,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,Fun,No,Morning,Strongly Like,4:02 PM,16:02:00,2
+K,4:27 PM,16:27:00,15,Sciences,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,1,1,Fun,Yes,Night,Strongly Like,4:28 PM,16:28:00,1

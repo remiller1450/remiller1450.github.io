@@ -6,11 +6,15 @@ My methodological research primarily pertains to high-dimensional data, or situa
 
 ### Marginal False Discovery Rates for Penalized Likelihood Models
 
-When analyzing high-dimensional data an inherent concern is the increased potential for false discoveries due to the large number of predictor variables that are being considered.  Despite these concerns very few approaches are available for assessing the false discovery rates of sparse likelihood-based models, such as penalized logistic or Cox regression models.  This work derives a general approach for controlling the false discovery rate of any penalized likelihood-based model.  The method applies to many popular penalizations schemes, including [LASSO](http://statweb.stanford.edu/~tibs/lasso.html), [elastic net](https://en.wikipedia.org/wiki/Elastic_net_regularization), [SCAD, and MCP](http://myweb.uiowa.edu/pbreheny/7600/s16/notes/2-29.pdf).  The approach is conservative, but it is also fast, flexible, and robust in situations where the data violate the method's underlying assumptions.
+In the analysis of high-dimensional data an inherent concern is the increased potential for false discoveries due to the large number of predictor variables under consideration.  Very few approaches are currently available for assessing the false discovery rates of sparse likelihood-based models, such as penalized logistic or Cox regression.  This work derives a general approach for controlling the false discovery rate of a broad range of penalized likelihood-based models.  This includes many popular penalizations schemes, including [LASSO](http://statweb.stanford.edu/~tibs/lasso.html), [elastic net](https://en.wikipedia.org/wiki/Elastic_net_regularization), [SCAD, and MCP](http://myweb.uiowa.edu/pbreheny/7600/s16/notes/2-29.pdf).  The false discovery rate control provided by the approach is inherently conservative, but the method compares favorably to many existing approaches and its implementation in the [`ncvreg` package](http://pbreheny.github.io/ncvreg/) is very fast, making it a useful tool when assessing several different penalized likelihood models in the early stages on analysis.
 
-Details can be found here: [pdf link](https://arxiv.org/pdf/1710.11459.pdf)
+Details can be found in the publication: 
 
-### Feature Specific Inference using Local False Discovery Rate 
+- **Marginal false discovery rate control for likelihood-based penalized regression models**
+Miller R and Breheny P
+*Biometrical Journal*, to appear. [pdf link](https://arxiv.org/pdf/1710.11459.pdf)
+
+### Feature Specific Inference using Local False Discovery Rates 
 
 It is useful to know the overall false discovery rate of a given model, but what can be said about individual variables in the model?  This work addresses the question using a [local approach to false discovery rates](http://statweb.stanford.edu/~ckirby/brad/LSI/chapter5.pdf).
 

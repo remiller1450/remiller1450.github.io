@@ -1,0 +1,100 @@
+INSTNM,CITY,STABBR,REGION,LOCALE,ADM_RATE,ACTCMMID,ACTENMID,ACTMTMID,UGDS,PFTFAC,PCTPELL,COSTT4_A,AVGFACSAL
+Birmingham Southern College,Birmingham,AL,5,12,0.4839,26,26,24,1289,0.6226,0.1888,48510,72330
+Huntingdon College,Montgomery,AL,5,12,0.5676,22,21,20,1140,0.5044,0.4425,34207,66150
+Ouachita Baptist University,Arkadelphia,AR,5,32,0.6688,25,26,23,1477,1,0.2848,34740,62700
+Occidental College,Los Angeles,CA,8,11,0.4581,30,31,29,1957,0.7093,0.2024,67046,111800
+Pomona College,Claremont,CA,8,21,0.0944,33,33,31,1547,0.9612,0.1954,64870,128640
+Westmont College,Santa Barbara,CA,8,22,0.8276,26,28,26,1277,0.5721,0.1902,57387,74530
+Eckerd College,Saint Petersburg,FL,5,11,0.7213,25,25,24,2028,0.7989,0.2389,55113,75370
+Flagler College-St Augustine,Saint Augustine,FL,5,23,0.5505,24,24,22,2611,0.4894,0.2925,30334,63450
+Abraham Baldwin Agricultural College,Tifton,GA,5,32,0.6561,20,18,19,3233,0.6865,0.4324,13171,52770
+Point University,West Point,GA,5,32,0.5144,20,19,18,1358,0.1963,0.6044,28898,55990
+College of Coastal Georgia,Brunswick,GA,5,13,0.9521,19,18,19,3174,0.5022,0.4855,15763,59420
+Gordon State College,Barnesville,GA,5,32,0.5433,18,17,18,3577,0.6372,0.569,18449,54120
+Morehouse College,Atlanta,GA,5,11,0.6607,22,22,21,2104,0.7773,0.4874,47860,74380
+Oglethorpe University,Atlanta,GA,5,21,0.804,25,25,23,1183,1,0.3697,48302,67030
+Spelman College,Atlanta,GA,5,11,0.3573,24,22,24,2122,0.7008,0.4907,44933,80550
+Lewis-Clark State College,Lewiston,ID,7,13,0.9715,21,19,20,3038,0.9892,0.3848,15475,58170
+Illinois Wesleyan University,Bloomington,IL,3,13,0.5821,27,28,27,1763,0.704,0.1911,54580,81600
+Monmouth College,Monmouth,IL,3,32,0.5206,23,22,22,1133,0.7176,0.4127,45005,67920
+DePauw University,Greencastle,IN,3,32,0.6533,27,27,26,2186,0.8737,0.186,58478,94150
+Hanover College,Hanover,IN,3,32,0.5733,25,25,24,1083,0.8586,0.3098,47421,76260
+Saint Mary's College,Notre Dame,IN,3,21,0.8165,25,27,25,1576,0.6583,0.2199,50909,74660
+Central College,Pella,IA,4,32,0.7343,24,23,23,1184,0.9619,0.2563,47878,71690
+Coe College,Cedar Rapids,IA,4,12,0.4995,25,25,25,1323,0.6516,0.3125,50982,72540
+Grinnell College,Grinnell,IA,4,33,0.2019,32,33,31,1657,0.7802,0.2164,61098,95490
+Luther College,Decorah,IA,4,33,0.6763,26,26,25,2121,0.786,0.1763,51165,75260
+Wartburg College,Waverly,IA,4,32,0.6825,24,24,24,1449,1,0.2173,48469,66660
+Berea College,Berea,KY,5,32,0.328,25,25,23,1612,0.882,0.8326,34980,77170
+Centre College,Danville,KY,5,32,0.7426,29,31,27,1422,0.9155,0.1441,50976,82320
+Dillard University,New Orleans,LA,5,11,0.394,20,19,18,1261,0.5299,0.7662,29900,62030
+Louisiana State University-Alexandria,Alexandria,LA,5,41,0.3332,21,21,20,2579,0.5576,0.3753,13520,55210
+Colby College,Waterville,ME,1,33,0.1871,32,32,30,1879,0.9025,0.091,63330,117590
+University of Maine at Fort Kent,Fort Kent,ME,1,43,0.815,19,17,18,1076,0.4762,0.2784,18248,65530
+Amherst College,Amherst,MA,1,21,0.1369,33,34,32,1846,0.8984,0.2334,66572,127510
+Becker College,Worcester,MA,1,12,0.6534,24,22,22,1951,0.2292,0.3948,48927,77210
+Wellesley College,Wellesley,MA,1,21,0.2859,32,33,31,2350,0.7941,0.1845,63340,119850
+Albion College,Albion,MI,3,31,0.7226,23,23,23,1393,0.8931,0.2914,51883,73410
+Alma College,Alma,MI,3,32,0.6795,24,24,24,1414,0.6319,0.2888,48453,73080
+Hope College,Holland,MI,3,13,0.8441,26,27,26,3083,0.644,0.1848,42379,82070
+Lake Superior State University,Sault Ste Marie,MI,3,33,0.9075,23,23,22,2063,0.9292,0.3763,20709,66810
+Macalester College,Saint Paul,MN,4,11,0.371,31,33,30,2122,0.7932,0.1542,61853,101790
+University of Minnesota-Crookston,Crookston,MN,4,32,0.6817,22,21,22,1821,0.9,0.2012,22641,71630
+University of Minnesota-Morris,Morris,MN,4,33,0.5806,25,25,25,1680,0.96,0.2969,23319,71020
+College of Saint Benedict,Saint Joseph,MN,4,22,0.8774,25,25,25,1958,0.85,0.2367,53390,82830
+St Olaf College,Northfield,MN,4,32,0.4476,29,30,28,2991,0.7227,0.155,54630,87770
+Rust College,Holly Springs,MS,5,32,0.4686,15,14,16,1005,0.9375,0.8528,16093,46650
+Central Methodist University-College of Liberal Arts and Sciences,Fayette,MO,4,32,0.6103,22,22,21,1090,1,0.3976,35660,59130
+College of the Ozarks,Point Lookout,MO,4,32,0.1422,23,23,22,1512,0.6585,0.548,28103,73220
+Carroll College,Helena,MT,7,33,0.7148,25,25,24,1342,0.6383,0.211,44557,64490
+Doane University-Arts & Sciences,Crete,NE,4,32,0.7586,24,23,23,1041,0.72,0.3018,42410,60870
+Saint Anselm College,Manchester,NH,1,22,0.759,26,25,25,1916,0.7438,0.1396,53456,85540
+Barnard College,New York,NY,2,11,0.1674,31,33,30,2496,0.6061,0.1805,65142,129810
+Marymount Manhattan College,New York,NY,2,11,0.7816,25,26,22,2027,1,0.2448,49721,83990
+SUNY College of Technology at Alfred,Alfred,NY,2,33,0.7199,22,20,23,3712,0.7293,0.5223,22556,58730
+SUNY College of Technology at Canton,Canton,NY,2,33,0.8257,20,18,20,3094,0.5526,0.5838,20980,61760
+Morrisville State College,Morrisville,NY,2,42,0.7735,20,19,20,2765,0.6034,0.566,24159,59830
+Vassar College,Poughkeepsie,NY,2,21,0.2688,32,33,30,2400,0.8439,0.2394,65480,115720
+Belmont Abbey College,Belmont,NC,5,22,0.9737,21,20,21,1480,0.5758,0.3906,31593,46900
+Chowan University,Murfreesboro,NC,5,32,0.5697,16,14,16,1525,1,0.724,33884,66930
+Livingstone College,Salisbury,NC,5,22,0.4778,15,13,16,1198,0.9268,0.7938,27143,50410
+North Carolina Wesleyan College,Rocky Mount,NC,5,13,0.6157,20,18,19,2081,0.2071,0.5451,40329,58820
+William Peace University,Raleigh,NC,5,11,0.6284,19,18,19,1034,0.2328,0.5655,41113,56030
+Dickinson State University,Dickinson,ND,4,33,0.9171,25,20,21,1153,1,0.2305,14720,69990
+Denison University,Granville,OH,3,23,0.4361,30,29,29,2261,1,0.1903,60604,88000
+Kenyon College,Gambier,OH,3,32,0.2658,31,33,30,1688,0.9579,0.0947,64360,86590
+Wilmington College,Wilmington,OH,3,32,0.8659,21,21,20,1140,0.5833,0.4299,36345,58980
+The College of Wooster,Wooster,OH,3,32,0.5816,27,28,26,1980,0.8416,0.1854,57466,82810
+Wright State University-Lake Campus,Celina,OH,3,41,0.9881,22,20,22,1073,1,0.3169,13695,92960
+Linfield College-McMinnville Campus,McMinnville,OR,8,32,0.8075,22,23,24,1603,0.9531,0.2735,52357,72590
+Haverford College,Haverford,PA,2,21,0.214,33,34,32,1261,0.8395,0.1817,66648,102270
+Lafayette College,Easton,PA,2,21,0.2829,29,30,30,2518,0.8403,0.0916,63680,116660
+Muhlenberg College,Allentown,PA,2,12,0.4825,28,29,27,2375,0.5882,0.1414,59588,87090
+Pennsylvania State University-Penn State Altoona,Altoona,PA,2,13,0.8949,22,21,22,3431,0.6873,0.3046,30033,77600
+Pennsylvania State University-Penn State Brandywine,Media,PA,2,21,0.8263,22,21,22,1284,0.5379,0.359,20417,82340
+University of Pittsburgh-Bradford,Bradford,PA,2,33,0.526,21,21,21,1435,0.7766,0.4281,25788,73920
+University of Pittsburgh-Greensburg,Greensburg,PA,2,21,0.7493,23,21,22,1517,0.8636,0.363,24750,68730
+University of Pittsburgh-Johnstown,Johnstown,PA,2,23,0.7426,23,22,22,2765,0.9286,0.2987,25747,70530
+Swarthmore College,Swarthmore,PA,2,21,0.128,32,33,32,1540,0.8687,0.158,64363,126420
+Newberry College,Newberry,SC,5,32,0.5965,20,19,20,1063,1,0.453,39896,54600
+University of South Carolina-Beaufort,Bluffton,SC,5,31,0.6513,21,19,19,1987,0.687,0.4515,21321,71190
+Wofford College,Spartanburg,SC,5,13,0.7011,27,27,25,1675,0.8272,0.1795,53305,81050
+Baptist Memorial College of Health Sciences,Memphis,TN,5,11,0.5361,23,23,22,1056,1,0.5264,20219,67970
+Lane College,Jackson,TN,5,13,0.5027,15,14,15,1427,0.8734,0.9113,20154,52190
+Maryville College,Maryville,TN,5,21,0.5779,24,24,23,1177,1,0.4287,46000,64570
+Southwestern University,Georgetown,TX,6,21,0.4503,26,26,25,1486,0.7188,0.2673,50893,78860
+Brigham Young University-Hawaii,Laie,HI,8,31,0.2708,24,25,24,2601,1,0.2362,16929,91260
+Bridgewater College,Bridgewater,VA,5,23,0.5275,23,22,22,1871,0.764,0.2797,45705,65030
+Ferrum College,Ferrum,VA,5,42,0.7202,18,18,17,1289,1,0.5787,43316,60870
+Hampden-Sydney College,Hampden-Sydney,VA,5,42,0.556,25,25,24,1027,0.9273,0.1923,59141,80810
+Randolph-Macon College,Ashland,VA,5,21,0.614,24,24,24,1429,0.645,0.2335,50444,79920
+Roanoke College,Salem,VA,5,22,0.7304,24,25,23,1946,0.7877,0.2349,54434,76100
+The University of Virginia's College at Wise,Wise,VA,5,32,0.7771,21,19,20,1367,1,0.3764,21138,72320
+Virginia Military Institute,Lexington,VA,5,32,0.5095,26,25,25,1713,1,0.1369,28352,72580
+Virginia Wesleyan University,Virginia Beach,VA,5,11,0.8996,21,20,20,1342,0.76,0.3893,46730,79320
+Bluefield State College,Bluefield,WV,5,32,0.8331,20,19,19,1337,1,0.5801,15425,62150
+Glenville State College,Glenville,WV,5,33,0.6945,19,19,19,1347,0.6522,0.3776,20962,58280
+West Virginia University Institute of Technology,Beckley,WV,5,13,0.527,22,21,21,1109,0.8636,0.3698,16746,72480
+Beloit College,Beloit,WI,3,13,0.6986,27,28,26,1315,0.8194,0.2423,55178,74860
+Lawrence University,Appleton,WI,3,13,0.6298,29,30,28,1507,0.8274,0.1863,55275,78310
+University of Florida-Online,Gainesville,FL,5,12,0.6415,26,27,25,2160,0.0105,0.3626,16062,33750
