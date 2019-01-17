@@ -2,31 +2,23 @@
 title: "Teaching"
 ---
 
-Teaching has long been a passion of mine and throughout my career I've taught numerous courses in a variety of academic settings.  I began as a high school math teacher before attending graduate school, were I served as both a teaching assistant and course instructor for Introduction to Biostatistics at the University of Iowa.  Most recently I've taught classes in applied statistics and data science at Grinnell College.  Content from the most recent iteration of these courses can be found below.  
+Teaching has long been a passion of mine and throughout my career I've taught numerous courses in a variety of academic settings.  Materials and descriptions of the courses I've taught can be found below.
 
 ### STA-209 - Applied Statistics - Grinnell College
 
-STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software. Materials from the most recent verision of the course can be found below:
+STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software. 
 
-```{r, echo = FALSE}
-df209 <- data.frame(Topic = c(paste0("[Introduction](s209/h1.1.pdf)"), paste0("[Samples and Populations](s209/h1.2.pdf)"), "Describing Data (summary statistics and graphs)",  paste0("[Experiments and Observational Studies](s209/h1.3.pdf)"), paste0("[Describing Data (correlation and regression)](s209/h2.5.pdf)"), paste0("[Sampling Distributions](s209/h3.1.pdf)"), paste0("[Confidence Intervals (bootstrapping)](s209/h3.2.pdf)"), paste0("[Hypothesis Testing (randomization tests)](s209/h4.1.pdf)"), paste0("[Normal Distributions and Central Limit Theorem](s209/h5.1.pdf)"), paste0("[One-sample Statistical Inference](h6.1.pdf)"), paste0("[Two-sample Statistical Inference](s209/h6.3.pdf)"), paste0("[Chi-squared Tests](s209/h7.pdf)"), paste0("[Observational Designs and Association](s209/h.7sup.pdf)"), paste0("[Analysis of Variance](s209/h.8.pdf)"), paste0("[Regression (one explanatory variable)](s209/h9.pdf)"), paste0("[Regression (multiple explanatory variables)](s209/h.10.pdf)")), 
-                 Lab = c(" ", " ",  paste0("[Lab #1](s209/lab1.pdf)"), " ",  paste0("[Lab #2](s209/lab2.pdf)"), " ",  paste0("[Lab #3](s209/lab3.pdf)"),  paste0("[Lab #4](s209/lab4.pdf)"),  paste0("[Lab #5](s209/lab5.pdf)"), " ", paste0("[Lab #6](s209/lab6.pdf)"), " ", " ",  paste0("[Lab #7](s209/lab7.pdf)"), " ",  paste0("[Lab #8](s209/lab8.pdf)")),
-Data = c(paste0("[HappyPlanet](s209/HappyPlanet.csv)", ", ", "[AntiquitiesAct](s209/AntiquitiesAct.csv)"), " ", paste0("[ClassSurvey](s209/ClassSurvey.csv)"), paste0("[FloridaDeathPenalty](s209/FloridaDeathPenalty.csv)"), 
- paste0("[ElectionMargin](s209/ElectionMargin.csv)", ", ", "[IowaCityHomeSales](s209/IowaCityHomeSales.csv)"), " ", "[SmallColleges](s209/CollegeData.csv)", " ", " ", " ", paste0("[LeadIQ](s209/LeadIQ.csv)", ", " , "[HollywoodMovies](s209/HollywoodMovies.csv)", ", ", "[GoldenStateWarriors](s209/GSWarriors.csv)"), " ", " ", paste0("[Tailgating](s209/Tailgating.csv)", ", " , "[CommuteTracker](s209/CommuteTracker.csv)"), paste0("[ProfessorEvaluations](s209/UT-Austin_Professors.csv)"), paste0("[ProfessorSalaries](s209/Salaries.csv)", ", ", "[BreastCancer](s209/Breast_Cancer_Data.csv)")))
-#library(knitr)
-knitr::kable(df209)
-```
+Visit the course website linked below to view content from the most recent iteration of the course:
+
+[Sta-209 webpage](sta209.html)
 
 ### STA-230 - Introduction to Data Science - Grinnell College
 
 STA-230 introduces core topics in data science using the R programming langauge. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.  Materials from the most recent version of the course are provided below, many of these materials were created by Shonda Kuiper (Grinnell College), Adam Loy (Lawrence University), and Laura Chihara (Carleton College) under ACM and Teagle foundation grants.  See the 2017 USCOTS [Data Science for Statistics webpage](https://ds4stats.github.io/uscots2017/) or Shonda Kuiper's [R Tutorials webpage](http://web.grinnell.edu/individuals/kuipers/stat2labs/RTutorials.html) for details.
 
-```{r, echo = FALSE}
-df230 <- data.frame(Topic = c("Describing Data", "Introduction to R", "Tidying Data","Data Wrangling", "Merging Data", "Data Visualization with ggplot", "Creating Maps with ggplot", "Custom Maps using Shapefiles", "Manipulating Text Strings", "Working with Dates and Times", "Data Scraping", "Unsupervised Learning (Principle Components Analysis)", "Unsupervised Learning (Clustering)", "Model Validation", "Supervised Learning (Regression)", "Supervised Learning (CART)", "Supervised Learning (Random Forest)", "Interactive Visuals with RShiny"),
-Data = " ", Resources = " ")
-#library(knitr)
-knitr::kable(df230)
-```
+Visit the course website linked below to view content from the most recent iteration of the course:
+
+[Sta-230 webpage](sta230.html)
 
 ### BIOS-4120 - Introduction to Biostatistics - University of Iowa
 

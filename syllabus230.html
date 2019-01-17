@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Sta-230 Introduction to Data Science (Spring 2019)</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Sta-230 Introduction to Data Science (Spring 2019)</h1>
+
+</div>
+
+
+<div id="course-information" class="section level2">
+<h2>Course Information:</h2>
+<p><strong>Instructor</strong>:</p>
+<ul>
+<li>Ryan Miller, Noyce 2217, millerry@grinnell.edu</li>
+</ul>
+<p><strong>Class Meetings</strong>:</p>
+<ul>
+<li>Noyce 2402, T/Th 9:30-10:50AM (Section 01)</li>
+<li>Noyce 3820, M/W 2:30-3:50PM (Section 02)</li>
+</ul>
+<p><strong>Office Hours</strong></p>
+<ul>
+<li>Noyce 2217, T 1:00-2:00PM, Th 2:30-3:30PM, F 1:30-2:30PM</li>
+</ul>
+</div>
+<div id="course-description" class="section level2">
+<h2>Course Description:</h2>
+<p>This course introduces core topics in data science using R programming. This includes introductions to getting and cleaning data, data management, exploratory data analysis, reproducible research, and data visualization. This course incorporates case studies from multiple disciplines and emphasizes the importance of properly communicating statistical ideas.</p>
+</div>
+<div id="course-pre-requirements" class="section level2">
+<h2>Course Pre-requirements:</h2>
+<p>STA-209 (MAT-209) is required, CSC-151 or other programming experience is advised</p>
+</div>
+<div id="texts" class="section level2">
+<h2>Texts</h2>
+<p>This course will incorperate materials, readings, and exercises from several texts, all of which are freely available online and do not need to be purchased.</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://moderndive.com/">An Introduction to Statistical and Data Science via R</a> by Ismay and Kim</li>
+<li><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Grolemund and Wickham</li>
+<li><a href="https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf">An Introduction to Statistical Learning</a> by James, Witten, Hastie, and Tibshirani</li>
+</ol>
+</div>
+<div id="course-aims" class="section level2">
+<h2>Course Aims</h2>
+<p>This course aims to prepare students to answer questions using data driven approaches. This includes formulating answerable questions, evaluating the appropriateness of available data for answering these questions, choosing the right data science tools for the job, undertaking the required analyses in a reproducible manner, drawing statistically and scientifically sound conclusions, and effectively communicating the results to a variety of audiences.</p>
+</div>
+<div id="learning-objectives" class="section level2">
+<h2>Learning Objectives</h2>
+<p>After completing this course, students should be able to:</p>
+<ul>
+<li>Translate research questions into quantifiable metrics or models that can be evaluated</li>
+<li>Apply methods of data exploration, visualization, and statistical analysis to illustrate key findings and make justifiable inferences</li>
+<li>Use the R programming to manage, process, and format unstructured data, to generate meaningful data visualizations, and to fit and evaluate supervised or unsupervised learning models</li>
+<li>Effectively communicate the results of data driven analyses to both statistical and non-statistical audiences</li>
+</ul>
+</div>
+<div id="software" class="section level2">
+<h2>Software</h2>
+<p>Software is an essential component of data science and will a critical component of this course. We will primarily use R, an open-source statistical software program. The course will involve many guided lab activities in the RStudio environment. You will also be expected to write, document, and submit code used for projects throughout the semester.</p>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies</h2>
+<p><strong>Attendance</strong></p>
+<p>No formal attendance will be kept; however, seats will be randomly assigned for almost every class meeting, making it apparent when you are not in class. Additionally, as an instructor I cannot assess your engagement with course material if you are not in class, so a large number of absences (particularly if they are unexcused) will likely negatively affect the “Engagement and Participation” component of your grade. That said, I understand that there are numerous valid reasons for missing class; and I also understand that unexpected events can lead to absences during the semester. If you will be missing class for any reason I ask to be notified as soon as possible.</p>
+<p><strong>Academic Honesty</strong></p>
+<p>At Grinnell College you join a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit—all these are ways you participate in this conversation.</p>
+<p>The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.</p>
+<p>Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else’s intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose. A complete list of dishonest behaviors, as defined by Grinnell College, <a href="https://catalog.grinnell.edu/content.php?catoid=12&amp;navoid=2537#alleged-violation">can be found here</a>.</p>
+<p><strong>Inclusive Classroom</strong></p>
+<p>Grinnell College makes reasonable accommodations for students with documented disabilities. Students need to provide documentation to the Coordinator for Disability Resources, information <a href="http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services">can be found here</a>. Students should then speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course and coordinate your accommodations.</p>
+<p><strong>Religious Holidays</strong></p>
+<p>Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.</p>
+<p><strong>Course Outline</strong></p>
+<p><a href="s230\schedule230.hmtl">Click Here for Tentative Course Schedule</a></p>
+</div>
+<div id="grading" class="section level2">
+<h2>Grading:</h2>
+<p><strong>Engagement and Participation</strong> - 10%</p>
+<p>Active participation during class is expected. In class there may be times when you will be expected to critique possible approaches to problems, discuss the choices made during an analysis, or assess potential ethical or reproducibility concerns. As an instructor, I will keep notes of participation (or lack thereof) during these situations, which will be used to qualitatively assess this portion of your grade. Class attendance indirectly contributes to this area of your grade – if you aren’t in class it is difficult for me to discern your level of engagement with the course material.</p>
+<p><strong>Homework</strong> - 30%</p>
+<p>Guided labs are a major component of this class. These labs include questions and review exercises that provide practice with the concepts and tools we are studying. Some or all of these questions will be submitted and graded as homework. Others might serve as discussion questions or extra practice. Occasionally, short programming or writing exercises (separate from labs) might be assigned as homework.</p>
+<p><strong>Midterm Project #1</strong> - 15%</p>
+<p>This project will focus on data visualization, including a 5-minute in-class presentation and code submission. Details can be found in the <a href="s230\project1.hmtl">Project 1 Assignment Sheet</a></p>
+<p><strong>Midterm Project #2</strong> - 15%</p>
+<p>This project will focus on interactive data visualization using <a href="https://shiny.rstudio.com/">RShiny</a>, including a 5-minute in-class presentation and code submission. Details can be found in the <a href="s230\project2.hmtl">Project 2 Assignment Sheet</a></p>
+<p><strong>Final Project</strong> - 30%</p>
+<p>This project will involve a comprehensive, start-to-finish, data-driven analysis using real data to address an open-ended question of your choosing. Details can be found in the <a href="s230\project3.hmtl">Final Project Assignment Sheet</a></p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

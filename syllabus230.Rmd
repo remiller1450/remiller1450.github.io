@@ -1,0 +1,100 @@
+---
+title: "Sta-230 Introduction to Data Science (Spring 2019)"
+output: html_document
+---
+
+## Course Information:
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2217, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- Noyce 2402, T/Th 9:30-10:50AM (Section 01)
+- Noyce 3820, M/W 2:30-3:50PM (Section 02)
+
+**Office Hours**
+
+- Noyce 2217, T 1:00-2:00PM, Th 2:30-3:30PM, F 1:30-2:30PM
+
+## Course Description:
+
+This course introduces core topics in data science using R programming. This includes introductions to getting and cleaning data, data management, exploratory data analysis, reproducible research, and data visualization. This course incorporates case studies from multiple disciplines and emphasizes the importance of properly communicating statistical ideas.
+
+## Course Pre-requirements:
+
+STA-209 (MAT-209) is required, CSC-151 or other programming experience is advised 
+
+## Texts
+
+This course will incorperate materials, readings, and exercises from several texts, all of which are freely available online and do not need to be purchased. 
+
+1. [An Introduction to Statistical and Data Science via R](https://moderndive.com/) by Ismay and Kim
+2. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham 
+3. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani
+
+## Course Aims
+
+This course aims to prepare students to answer questions using data driven approaches.  This includes formulating answerable questions, evaluating the appropriateness of available data for answering these questions, choosing the right data science tools for the job, undertaking the required analyses in a reproducible manner, drawing statistically and scientifically sound conclusions, and effectively communicating the results to a variety of audiences.
+
+## Learning Objectives
+
+After completing this course, students should be able to:
+
+- Translate research questions into quantifiable metrics or models that can be evaluated
+- Apply methods of data exploration, visualization, and statistical analysis to illustrate key findings and make justifiable inferences
+- Use the R programming to manage, process, and format unstructured data, to generate meaningful data visualizations, and to fit and evaluate supervised or unsupervised learning models
+- Effectively communicate the results of data driven analyses to both statistical and non-statistical audiences
+
+## Software
+
+Software is an essential component of data science and will a critical component of this course.  We will primarily use R, an open-source statistical software program.  The course will involve many guided lab activities in the RStudio environment.  You will also be expected to write, document, and submit code used for projects throughout the semester.
+
+## Policies
+
+**Attendance**
+
+No formal attendance will be kept; however, seats will be randomly assigned for almost every class meeting, making it apparent when you are not in class.  Additionally, as an instructor I cannot assess your engagement with course material if you are not in class, so a large number of absences (particularly if they are unexcused) will likely negatively affect the “Engagement and Participation” component of your grade.  That said, I understand that there are numerous valid reasons for missing class; and I also understand that unexpected events can lead to absences during the semester.  If you will be missing class for any reason I ask to be notified as soon as possible.
+
+**Academic Honesty**
+
+At Grinnell College you join a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit—all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose.  A complete list of dishonest behaviors, as defined by Grinnell College, [can be found here](https://catalog.grinnell.edu/content.php?catoid=12&navoid=2537#alleged-violation).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  Students need to provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  Students should then speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course and coordinate your accommodations.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+**Course Outline**
+
+[Click Here for Tentative Course Schedule](s230\schedule230.hmtl)
+
+## Grading:
+
+**Engagement and Participation** - 10\%
+
+Active participation during class is expected.  In class there may be times when you will be expected to critique possible approaches to problems, discuss the choices made during an analysis, or assess potential ethical or reproducibility concerns.  As an instructor, I will keep notes of participation (or lack thereof) during these situations, which will be used to qualitatively assess this portion of your grade.  Class attendance indirectly contributes to this area of your grade – if you aren’t in class it is difficult for me to discern your level of engagement with the course material.
+
+**Homework** - 30\%
+
+Guided labs are a major component of this class.  These labs include questions and review exercises that provide practice with the concepts and tools we are studying.  Some or all of these questions will be submitted and graded as homework. Others might serve as discussion questions or extra practice.  Occasionally, short programming or writing exercises (separate from labs) might be assigned as homework.
+
+**Midterm Project #1** - 15\%
+
+This project will focus on data visualization, including a 5-minute in-class presentation and code submission. Details can be found in the [Project 1 Assignment Sheet](s230\project1.hmtl) 
+
+**Midterm Project #2** - 15\%
+
+This project will focus on interactive data visualization using [RShiny](https://shiny.rstudio.com/), including a 5-minute in-class presentation and code submission. Details can be found in the [Project 2 Assignment Sheet](s230\project2.hmtl) 
+
+**Final Project** - 30\%
+
+This project will involve a comprehensive, start-to-finish, data-driven analysis using real data to address an open-ended question of your choosing. Details can be found in the [Final Project Assignment Sheet](s230\project3.hmtl) 
