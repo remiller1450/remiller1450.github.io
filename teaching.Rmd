@@ -2,23 +2,24 @@
 title: "Teaching"
 ---
 
-Teaching has long been a passion of mine and throughout my career I've taught numerous courses in a variety of academic settings.  Materials and descriptions of the courses I've taught can be found below.
+Teaching has long been a passion of mine and throughout my career I've taught numerous courses in a variety of academic settings.  Descriptions of the courses I've taught can be found below.
 
 ### STA-209 - Applied Statistics - Grinnell College
 
 STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software. 
 
-Visit the course website linked below to view content from the most recent iteration of the course:
+Visit the webpages below to view materials and course content:
 
-[Sta-209 webpage](sta209.html)
+- [Sta-209 website (Spring 2019)](sta209s19.html)
+- [Sta-209 website (Fall 2018)](sta209f18.html)
 
 ### STA-230 - Introduction to Data Science - Grinnell College
 
 STA-230 introduces core topics in data science using the R programming langauge. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.  Materials from the most recent version of the course are provided below, many of these materials were created by Shonda Kuiper (Grinnell College), Adam Loy (Lawrence University), and Laura Chihara (Carleton College) under ACM and Teagle foundation grants.  See the 2017 USCOTS [Data Science for Statistics webpage](https://ds4stats.github.io/uscots2017/) or Shonda Kuiper's [R Tutorials webpage](http://web.grinnell.edu/individuals/kuipers/stat2labs/RTutorials.html) for details.
 
-Visit the course website linked below to view content from the most recent iteration of the course:
+Visit the webpages below to view materials and course content:
 
-[Sta-230 webpage](sta230.html)
+- [Sta-230 website (Spring 2019)](sta230s19.html)
 
 ### BIOS-4120 - Introduction to Biostatistics - University of Iowa
 

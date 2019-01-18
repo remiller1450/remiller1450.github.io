@@ -1,0 +1,18 @@
+---
+title: "Sta-209 Applied Statistics (Fall 2018)"
+output: html_document
+---
+
+Welcome to Sta-209, Applied Statistics. 
+
+- [Click here](syllabus209f18.pdf) to view the course syllabus
+- To view other course materials, such as lecture slides, labs, and data sets, consult the table below:
+
+```{r, echo = FALSE}
+df209 <- data.frame(Topic = c(paste0("[Introduction](s209f18/h1.1.pdf)"), paste0("[Samples and Populations](s209f18/h1.2.pdf)"), "Describing Data (summary statistics and graphs)",  paste0("[Experiments and Observational Studies](s209f18/h1.3.pdf)"), paste0("[Describing Data (correlation and regression)](s209f18/h2.5.pdf)"), paste0("[Sampling Distributions](s209f18/h3.1.pdf)"), paste0("[Confidence Intervals (bootstrapping)](s209f18/h3.2.pdf)"), paste0("[Hypothesis Testing (randomization tests)](s209f18/h4.1.pdf)"), paste0("[Normal Distributions and Central Limit Theorem](s209f18/h5.1.pdf)"), paste0("[One-sample Statistical Inference](s209f18/h6.1.pdf)"), paste0("[Two-sample Statistical Inference](s209f18/h6.3.pdf)"), paste0("[Chi-squared Tests](s209f18/h7.pdf)"), paste0("[Observational Designs and Association](s209f18/h.7sup.pdf)"), paste0("[Analysis of Variance](s209f18/h.8.pdf)"), paste0("[Regression (one explanatory variable)](s209f18/h9.pdf)"), paste0("[Regression (multiple explanatory variables)](s209f18/h.10.pdf)")), 
+                 Lab = c(" ", " ",  paste0("[Lab #1](s209f18/lab1.docx)"), " ",  paste0("[Lab #2](s209f18/lab2.docx)"), " ",  paste0("[Lab #3](s209/lab3.docx)"),  paste0("[Lab #4](s209f18/lab4.docx)"),  paste0("[Lab #5](s209/lab5.docx)"), " ", paste0("[Lab #6](s209f18/lab6.docx)"), " ", " ",  paste0("[Lab #7](s209f18/lab7.docx)"), " ",  paste0("[Lab #8](s209f18/lab8.docx)")),
+Data = c(paste0("[HappyPlanet](data/HappyPlanet.csv)", ", ", "[AntiquitiesAct](data/AntiquitiesAct.csv)"), " ", paste0("[ClassSurvey](data/ClassSurvey.csv)"), paste0("[FloridaDeathPenalty](data/FloridaDeathPenalty.csv)"), 
+ paste0("[ElectionMargin](data/ElectionMargin.csv)", ", ", "[IowaCityHomeSales](data/IowaCityHomeSales.csv)"), " ", "[SmallColleges](data/CollegeData.csv)", " ", " ", " ", paste0("[LeadIQ](data/LeadIQ.csv)", ", " , "[HollywoodMovies](data/HollywoodMovies.csv)", ", ", "[GoldenStateWarriors](data/GSWarriors.csv)"), " ", " ", paste0("[Tailgating](data/Tailgating.csv)", ", " , "[CommuteTracker](data/CommuteTracker.csv)"), paste0("[ProfessorEvaluations](data/UT-Austin_Professors.csv)"), paste0("[ProfessorSalaries](data/Salaries.csv)", ", ", "[BreastCancer](data/Breast_Cancer_Data.csv)")))
+#library(knitr)
+knitr::kable(df209)
+```

@@ -6,3 +6,10 @@ title: "Introduction"
 
 Prior to joining Grinnell I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in the summer of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
 
+Quick links to course websites:
+
+- Spring 2019
+    - [Sta-209 website (Spring 2019)](sta209s19.html)
+    - [Sta-230 website (Spring 2019)](sta230s19.html)
+- Fall 2018
+    - [Sta-209 website (Fall 2018)](sta209f18.html)

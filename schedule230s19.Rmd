@@ -1,0 +1,12 @@
+---
+title: "Sta-230 Introduction to Data Science (Spring 2019)"
+output: html_document
+---
+
+```{r, echo = FALSE}
+df230 <- data.frame(Day1 = c("Tues 1/22", "Thur 1/24", "Tues 1/29"), Day2 = c("Wed 1/23", "On your own", "Mon 1/28"), Inclass = c(paste0("[Using Data to Answer Tough Questions](s230s19/Using_Data.html)"), paste0("[An Introduction to R](s230s19/Intro_to_R.html)"), "Tidy Data"), HW_due = c(" ", " ", "First Day Survey, Questions #1-6 from Intro to R"))
+
+colnames(df230) <- c("Section 01", "Section 02", "Topic", "Homework Due")
+#library(knitr)
+knitr::kable(df230)
+```

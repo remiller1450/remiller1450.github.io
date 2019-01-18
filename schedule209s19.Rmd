@@ -1,0 +1,12 @@
+---
+title: "Sta-209 Applied Statistics (Spring 2019)"
+output: html_document
+---
+
+```{r, echo = FALSE}
+df230 <- data.frame(Day1 = c("Wed 1/23", "Fri 1/25", "Mon 1/28"),  Inclass = c(paste0("[Introduction](s209s19/h1.1.pdf)"), paste0("[Samples and Populations](s230s19/h1.2.pdf)"), "Descriptive Statistics and Graphs"), text = c("1.1", "1.2", "2.1-2.4"), HW_assign = c("Intro Survey", " ", " "), HW_due = c(" ", "Intro Survey", " "))
+
+colnames(df230) <- c("Date", "Topic", "Textbook", "Homework Assigned", "Homework Due")
+#library(knitr)
+knitr::kable(df230)
+```

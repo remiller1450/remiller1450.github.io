@@ -75,7 +75,7 @@ Grinnell College encourages students who plan to observe holy days that coincide
 
 **Course Outline**
 
-[Click Here for Tentative Course Schedule](s230\schedule230.hmtl)
+[Click Here for Tentative Course Schedule](schedule230s19.html)
 
 ## Grading:
 
@@ -89,12 +89,12 @@ Guided labs are a major component of this class.  These labs include questions a
 
 **Midterm Project #1** - 15\%
 
-This project will focus on data visualization, including a 5-minute in-class presentation and code submission. Details can be found in the [Project 1 Assignment Sheet](s230\project1.hmtl) 
+This project will focus on data visualization, including a 5-minute in-class presentation and code submission. Details can be found in the [Project 1 Assignment Sheet](s230s19\project1.hmtl) 
 
 **Midterm Project #2** - 15\%
 
-This project will focus on interactive data visualization using [RShiny](https://shiny.rstudio.com/), including a 5-minute in-class presentation and code submission. Details can be found in the [Project 2 Assignment Sheet](s230\project2.hmtl) 
+This project will focus on interactive data visualization using [RShiny](https://shiny.rstudio.com/), including a 5-minute in-class presentation and code submission. Details can be found in the [Project 2 Assignment Sheet](s230s19\project2.hmtl) 
 
 **Final Project** - 30\%
 
-This project will involve a comprehensive, start-to-finish, data-driven analysis using real data to address an open-ended question of your choosing. Details can be found in the [Final Project Assignment Sheet](s230\project3.hmtl) 
+This project will involve a comprehensive, start-to-finish, data-driven analysis using real data to address an open-ended question of your choosing. Details can be found in the [Final Project Assignment Sheet](s230s19\project3.hmtl) 
