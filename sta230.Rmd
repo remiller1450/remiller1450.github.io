@@ -5,8 +5,8 @@ output: html_document
 
 Welcome to Sta-230, Introduction to Data Science. 
 
-- [Click here](remiller1450.github.io/syllabus230.html) to view the course syllabus
-- [Click here](remiller1450.github.io/schedule230.html) to view the course schedule (including homework assignments and their due dates)
+- [Click here](syllabus230.html) to view the course syllabus
+- [Click here](schedule230.html) to view the course schedule (including homework assignments and their due dates)
 - To view other course materials, such as lecture slides, labs, data sets, or other resources, consult the table below:
 
 ```{r, echo = FALSE}

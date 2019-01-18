@@ -1,0 +1,95 @@
+---
+title: "Sta-209 Applied Statistics (Spring 2019)"
+output: html_document
+---
+
+## Course Information:
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2217, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- Noyce 2402, M/W/F 10:00-11:50AM
+
+**Office Hours**
+
+- Noyce 2217, T 1:00-2:00PM, Th 2:30-3:30PM, F 1:30-2:30PM
+
+## Course Description:
+
+This course covers the application of basic statistical methods such as univariate graphics and summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  Students use statistical software to analyze data and conduct simulations.  
+
+## Text:
+
+- [Statistics: Unlocking the Power of Data, 2nd Edition](https://www.wiley.com/en-us/Statistics%3A+Unlocking+the+Power+of+Data%2C+2nd+Edition-p-9781119308843) by Robin H. Lock, Patti Frazer Lock, Kari Lock Morgan, Eric F. Lock, Dennis F. Lock
+
+Please note:
+
+- You'll need the second edition or else the homework problems won't match-up
+- A copy of the text is available for short-term use in Kistle Science Library
+
+## Course Aims:
+
+This course aims to introduce students to the field of statistics, including its vocabulary and fundamental principles.  The course will prepare to students to read, recognize, interpret, and discuss statistical concepts and their use in scientific applications.  The course will provide students an understanding of the role of statistics within in the scientific method, and provide students the tools to use data to make informed conclusions.
+
+## Learning Objectives:
+
+After completing this course, students should be able to:
+
+- Apply methods of exploration, visualization, and statistical analysis to data in order to illustrate key findings and make justifiable inferences using statistical software (Minitab)
+- Communicate the methods and results of statistical analyses succinctly and accurately in both writing and speaking
+- Read, identify, and critique the statistical concepts and choices of data presentation used in various media publications (newspaper articles, reports, blogs, etc.)
+
+## Software:
+
+This course will make use of Minitab for in class labs and out of class assignments.  Minitab is available on many campus computers and on our classroom computers.  In recent years computing has become an essential part of statistics.  While our course material will be based on Minitab, many other programs are frequently used by statisticians and I encourage interested students to explore other tools throughout the course, particularly on the final project.
+
+## Policies:
+
+**Attendance**
+
+No formal attendance will be kept; however, seats will be randomly assigned for almost every class meeting, making it apparent when you are not in class.  Additionally, as an instructor, I cannot assess your engagement with course material if you are not in class, so a large number of absences (especially if they are unexcused) will negatively affect the "Engagement and Participation" component of your grade.  That said, I understand that there are numerous valid reasons for missing class; and I also understand that unexpected events can lead to absences during the semester.  If you will be missing class for any reason I ask to be notified as soon as possible.
+
+**Academic Honesty**
+
+At Grinnell College you join a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose.  A complete list of dishonest behaviors, as defined by Grinnell College, [can be found here](https://catalog.grinnell.edu/content.php?catoid=12&navoid=2537#alleged-violation).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  Students need to provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  Students should then speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course and coordinate your accommodations.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+**Getting Help**
+
+The Math Lab (Mathematics Learning Center - 2012 Noyce Science Center) has tutors in statistics that are available 7 days a week.  See the website for additional information and hours: http://www.grinnell.edu/academics/areas/math-stats/math-lab 
+
+**Course Outline**
+
+[Click Here for Tentative Course Schedule](s209\schedule230.hmtl)
+
+## Grading:
+
+**Engagement and Participation** - 15\%
+
+Active participation during class is expected.  In class there may be times when you will be expected to critique possible approaches to problems, discuss the choices made during an analysis, or assess potential ethical or reproducibility concerns.  As an instructor, I will keep notes of participation (or lack thereof) during these situations, which will be used to qualitatively assess this portion of your grade.  Class attendance indirectly contributes to this area of your grade - if you aren't in class it is difficult for me to discern your level of engagement with the course material.
+
+**Homework** - 15\%
+
+Homework will be assigned once per week.  No late homework will be accepted (unless my permission is obtained in advance of the due date), but your lowest two (2) scores will be dropped.  Homework is due at the beginning of class on the specified due date.  Please turn in a paper copy of your assignment, including any printed graphs (if they are asked for).  I encourage you to work with other students or visit the Math Lab for help on homework questions, but you should clearly understand all your answers and your assignment should be entirely in your own words.  If you engage in significant collaboration with classmates or tutors, you must explicitly acknowledge that person(s) on the top of your assignment (again, you are encouraged to collaborate, I want to emphasize that there is no penalty for doing so).
+
+**Exams (3)** - 15\%, 15\%, 20\%
+
+Exams will be closed notes and only basic calculators will be allowed (ie: no cellphone or graphing TI-8X calculators).  You are expected to take the exam on the scheduled date and time, if you have a conflict with an exam date make sure to notify me immediately.  Alternative exam arrangements need to be made at least one week in advance of the time you plan to take the exam; this includes taking the exam in a different location, or times going beyond the given class time.  Alternative arrangements are not guaranteed unless proper notification is given.
+
+**Final Project** - 20\%
+
+There will be an ongoing group project throughout the semester. The project will include a few short progress reports before culminating in a short in-class presentation and a three (3) page written report in the last week of the semester. Details can be found in the [Final Project Assignment Sheet](s209\project209.hmtl) 
