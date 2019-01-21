@@ -3,10 +3,14 @@ title: "Sta-230 Introduction to Data Science (Spring 2019)"
 output: html_document
 ---
 
+- [Click here](sta230s19.html) to return to the course materials page
+
+
 ```{r, echo = FALSE}
-df230 <- data.frame(Day1 = c("Tues 1/22", "Thur 1/24", "Tues 1/29"), Day2 = c("Wed 1/23", "On your own", "Mon 1/28"), Inclass = c(paste0("[Using Data to Answer Tough Questions](s230s19/Using_Data.html)"), paste0("[An Introduction to R](s230s19/Intro_to_R.html)"), "Tidy Data"), HW_due = c(" ", " ", "First Day Survey, Questions #1-6 from Intro to R"))
+df230 <- data.frame(Day1 = c("Tues 1/22", "Thur 1/24", "Tues 1/29", "Thur 1/31", "Tue 2/5", "Thur 2/7", "Tue 2/12", "Thur 2/14", "Tue 2/19", "Thur 2/21", "Tue 2/26", "Thur 2/28", "Tue 3/5", "Thur 3/7", "Tue 3/12", "Thur 3/14", "Spring Break", "Tue 4/2", "Thur 4/4", "Tue 4/9", "Thur 4/11", "Tue 4/16", "Thur 4/18", "Tue 4/23", "Thur 4/25", "Tue 4/30", "Thur 5/2", "Tue 5/7", "Thur 5/9"), Day2 = c("Wed 1/23", "On your own", "Mon 1/28", "Wed 1/30", "Mon 2/4", "Wed 2/6", "Mon 2/11", "Wed 2/13", "Mon 2/19", "Wed 2/21", "Mon 2/25", "Wed 2/27", "Mon 3/4", "Wed 3/6", "Mon 3/11", "Wed 3/13", "----->", "Mon 4/1", "Wed 4/3", "Mon 4/8", "Wed 4/10", "Mon 4/15", "Wed 4/17", "Mon 4/22", "Wed 4/24", "Mon 4/29", "Wed 5/1", "Mon 5/6", "Wed 5/8"), Inclass = c(paste0("[Using Data to Answer Tough Questions](s230s19/Using_Data.html)"), paste0("[An Introduction to R](s230s19/Intro_to_R.html)"), "Tidy Data", rep(" ", 26)), HW_due = c(" ", " ", "First Day Survey, Questions #1-6 from Intro to R", rep(" ", 26)))
 
 colnames(df230) <- c("Section 01", "Section 02", "Topic", "Homework Due")
 #library(knitr)
 knitr::kable(df230)
+#length(Day2)
 ```

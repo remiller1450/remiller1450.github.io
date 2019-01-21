@@ -26,7 +26,7 @@ This course introduces core topics in data science using R programming. This inc
 
 STA-209 (MAT-209) is required, CSC-151 or other programming experience is advised 
 
-## Texts
+## Texts:
 
 This course will incorperate materials, readings, and exercises from several texts, all of which are freely available online and do not need to be purchased. 
 
@@ -34,11 +34,11 @@ This course will incorperate materials, readings, and exercises from several tex
 2. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham 
 3. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani
 
-## Course Aims
+## Course Aims:
 
 This course aims to prepare students to answer questions using data driven approaches.  This includes formulating answerable questions, evaluating the appropriateness of available data for answering these questions, choosing the right data science tools for the job, undertaking the required analyses in a reproducible manner, drawing statistically and scientifically sound conclusions, and effectively communicating the results to a variety of audiences.
 
-## Learning Objectives
+## Learning Objectives:
 
 After completing this course, students should be able to:
 
@@ -47,11 +47,11 @@ After completing this course, students should be able to:
 - Use the R programming to manage, process, and format unstructured data, to generate meaningful data visualizations, and to fit and evaluate supervised or unsupervised learning models
 - Effectively communicate the results of data driven analyses to both statistical and non-statistical audiences
 
-## Software
+## Software:
 
 Software is an essential component of data science and will a critical component of this course.  We will primarily use R, an open-source statistical software program.  The course will involve many guided lab activities in the RStudio environment.  You will also be expected to write, document, and submit code used for projects throughout the semester.
 
-## Policies
+## Policies:
 
 **Attendance**
 
@@ -75,7 +75,7 @@ Grinnell College encourages students who plan to observe holy days that coincide
 
 **Course Outline**
 
-[Click Here for Tentative Course Schedule](schedule230s19.html)
+[Click Here to go to the Course Schedule](schedule230s19.html)
 
 ## Grading:
 
