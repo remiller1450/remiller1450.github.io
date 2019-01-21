@@ -74,13 +74,13 @@ The Math Lab (Mathematics Learning Center - 2012 Noyce Science Center) has tutor
 
 **Course Outline**
 
-[Click Here to go to the Course Schedule](schedule209s19.hmtl)
+[Click Here to go to the Course Schedule](schedule209s19.html)
 
 ## Grading:
 
-**Engagement and Participation** - 15\%
+**Engagement, Participation, and Labs** - 15\%
 
-Active participation during class is expected.  In class there may be times when you will be expected to critique possible approaches to problems, discuss the choices made during an analysis, or assess potential ethical or reproducibility concerns.  As an instructor, I will keep notes of participation (or lack thereof) during these situations, which will be used to qualitatively assess this portion of your grade.  Class attendance indirectly contributes to this area of your grade - if you aren't in class it is difficult for me to discern your level of engagement with the course material.
+Active participation during class is expected. Lectures include numerous disucssion questions, practice problems, and applications. As an instructor, I will keep notes of participation (or lack thereof) during these situations, which will be used to qualitatively assess this portion of your grade.  Class attendance indirectly contributes to this area of your grade - if you aren't in class it is difficult for me to discern your level of engagement with the course materials.  Labs will also contribute to this category.  After each lab you and your group will submit a lab write-up, these write-ups are graded primarily for effort and completion with a lower empthasis on correctness than other course assignments.  
 
 **Homework** - 15\%
 

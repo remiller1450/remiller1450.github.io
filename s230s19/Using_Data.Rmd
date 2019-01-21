@@ -1,5 +1,5 @@
 ---
-title: "Using Data to Answer Tough Questions"
+title: "Intro to Data Science"
 output: html_document
 ---
 
@@ -9,9 +9,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introduction
 
-Data science is an already huge field that growing larger every day, it is unrealistic to expect to master it by taking a single course or reading a single book.  The goal of this course is to provide you with a solid foundation in the most important data science tools.  
+Data science is an already huge field that growing larger every day, it is unrealistic to expect to master it by taking a single course or reading a single book.  Instead, the goal of this course is to provide you with a solid foundation in the most important data science tools.  
 
-On the surface the topics of this course might seem like mostly programming tasks, but if ask veteran data scientists, or read any of the dozens of "What makes a data scientist blogposts", you will continuously hear things like "thinking", "communication", and "problem solving skills", while hearing comparatively little about specific programming tools.  If you don't believe me, here are links to a few examples:
+On the surface, many topics in this course (or in Data Science textbooks) might seem like mostly routine programming tasks, but if ask veteran data scientists, or read any of the countless of "What makes a good data scientist?" blogposts, you will continuously hear more about things like "thinking", "communication", and "problem solving skills"; and comparatively little about specific programming tools.  If you don't believe me, here are links to a few examples:
 
 - [What Makes a Great Data Scientist?](https://www.kdnuggets.com/2017/03/what-makes-great-data-scientist.html)
 - [The Top 3 Qualities of a Great Data Scientist](https://venturebeat.com/2015/04/20/the-top-3-qualities-of-a-great-data-scientist/)
@@ -19,7 +19,7 @@ On the surface the topics of this course might seem like mostly programming task
 
 ## The Goals of this Activity
 
-The focus of this activity will be thinking and communicating. We'll rely upon an interactive visualization app that has already been created; I will mention that, although we didn't make this one, we will learn how to develop these types of interactive visualizations later on in the course.
+The focus of this activity will be primarily on thinking and communicating, but we'll also get a preview of some data science tools that we'll learn to build later on in the course. For the activity we'll use an interactive visualization app that was created by a couple years ago by Professor Kuiper and a group of Grinnell students.
 
 ## Background
 
@@ -29,11 +29,11 @@ Stop-and-frisk policies were first implented in New York as a means of reducing 
 
 Prior to the 2013 District Court ruling, a record 685,724 stops were made in 2011, the majority which involved Black and Hispanic individuals  After the ruling, a mandate was passed which required officers to thoroughly justify their reasons for making a stop.  By 2013, the number of stops fell to 22,929.
 
-In this lab we will use data to explore the controversy surrounding stop-and-frisk using an interactive visualization tool:
+In this lab we will use data to explore the controversy surrounding the NYPD stop-and-frisk policy using an interactive visualization tool:
 
 - [The NYPD Bar Charts App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)
 
-The was built using data provided by New York public records. Within this app there are several potential outcome variables, understanding these variables is essential to making sense of the data:
+The app was built using data provided by New York public records and allows the use of several potential outcome variables. A thorough understanding these variables is essential to making sense of the data:
 
 - Stopped: indicates an individual was stopped by the NYPD
 - Frisked: individuals who are stopped may be frisked (patted down)
@@ -45,7 +45,7 @@ For more details on the data see: [NYPD App Variable Descriptions Link](http://w
 
 ## Investigating Disparities using Bar Charts
 
-Prior to starting questions 1-5, make certain the app is set to the following:
+Prior to starting questions 1-5, make sure the app is set to the following:
 
 - Y-axis Variable:	Stopped
 - X-axis Variable:	Race
@@ -56,23 +56,32 @@ Prior to starting questions 1-5, make certain the app is set to the following:
 
 **Question #1**
 
-According to a study using data from the late 1990s (Gelman, Fagan, Kiss, 2012), Blacks and Hispanics represented 51\% and 33\% of stops while only making up 26\% and 24\% of the New York City population.  Do Blacks and Hispanics appear to make up a similar proportion of stops in 2006-2014? Estimate the percentage of stops for Black and Hispanics individuals using the information in the bar chart.
+According to a study using data from the late 1990s (Gelman, Fagan, Kiss, 2012), Blacks and Hispanics represented 51\% and 33\% of NYPD stops, while only making up 26\% and 24\% of the New York City population.  As of the 2010 Census, the population of New York City was 33.3% non-Hispanic white, 23% non-Hispanic black, 0.6% Native American, 12.7% Asian, 28.6% Hispanic (of any race), and 1.8% other races. Are the trends found by Gelman et al (2012), still present in 2006-2016? Estimate the percentage of stops for Black and Hispanics individuals using the information in the bar chart and use it answer this question.
 
 **Question #2**
 
-As of the 2010 Census, the population of New York City was 33.3% non-Hispanic white, 23% non-Hispanic black, 0.6% Native American, 12.7% Asian, 28.6% Hispanic (of any race), and 1.8% other races.  Briefly explain why this information is important to consider?
+Briefly explain why using Census data is important.  Why should't we just look at the counts of who was stopped?
 
 **Question #3**
 
-Choose *year* in the Facet By menu. Is the racial breakdown of stops consistent from 2006-2014? Are Black and Hispanic individuals consistently stopped more often than individuals of other races?
+Choose *year* in the Facet By menu. What trends do you see in the number of individuals stopped from 2006-2016? What happened after 2012?
 
 **Question #4**
 
-Change the Y-axis variable to *Frisked*. What do you see?  Now change the Y-axis variable to *Arrested*. What do you see?
+Change the Y-axis variable to *Frisked*. What do you see? How do these trends compare with what you saw for the variable *Stopped*? What happened after 2012?
 
-## Counts versus Percentages
+**Question #5**
 
-At this point we've confirmed that the NYPD police reports show more Black and Hispanic individuals are stopped, frisked, and arrested than people of other races.  We also saw that this patterns appears to be fairly consistent over time.  My these trends might be indicative of a problem, there are numerous other factors that need to be carefuly considered before concluding that there is evidence of discrimination.  The population, the location, the type of crime, and whether or not the person is guilty should all be taken into account.  Additionally, the patterns we see in the numbers of frisked or arrested suspects is directly impacted by the number of stops.  For example, if there are more stops of a particular race, it is reasonable to expect more frisks and arrests of that race assuming those stops were warranted.  To address this issue, we can consider looking at conditional percentages rather than counts
+Now change the Y-axis variable to *Arrested*. What do you see? How do these trends compare with what you saw for the variables *Stopped* and *Frisked*?
+
+
+## Counts vs. Percentages
+
+At this point we've confirmed that the NYPD police reports show more Black and Hispanic individuals are stopped, frisked, and arrested than people of other races.  We also saw that this patterns appears to be fairly consistent over time.  
+
+These trends might be indicative of a problem, but there are numerous other factors that need to be carefuly considered before concluding that there is evidence of discrimination.  The population, the location, the type of crime, and whether or not the person is guilty should all be taken into account.  Additionally, the patterns we see in the numbers of frisked or arrested suspects is directly impacted by the number of stops. 
+
+For example, if there are more stops of a particular race, it is reasonable to expect more frisks and arrests of that race assuming those stops were warranted.  To address this issue, we can consider using conditional percentages rather than counts.
 
 For questions 5 and 6, use the following settings:
 
@@ -83,30 +92,43 @@ For questions 5 and 6, use the following settings:
 - Facet By:	None
 - Color By:	None
 
-**Question #5**
-
-In a 2007 study, Ridgeway concludes "Nonwhites generally experienced slightly more intrusive stops, in terms of having more frequent frisks and searchs than similarly situated white suspects".  Looking at both frisks and searches as a percentage of stops, is this claim verified? Why should have the Y-axis measurement be the percentage of stops, rather than just the raw numbers, when evaluating this claim?  
-
 **Question #6**
 
-Change Facet By to *Year*, have there been any changes in frisks and searches over time? What might be driving these changes?
+In a 2007 study, Ridgeway claims "Non-whites generally experienced slightly more intrusive stops, in terms of having more frequent frisks and searches than similarly situated white suspects".  Using the app to look at both frisks and searches as a percentage of stops, is this claim verified? Why does the Y-axis measurement need to be the percentage of stops, rather than just the raw counts, to evaluate the claim?  
+
+**Question #7**
+
+Change Facet By to *Year*, have there been any changes over time in the proportion of stops that result in frisks and searches? What might be driving these changes?
+
+**Question #8**
+
+Change the Y-axis variable to *Arrested*, what do you see?
 
 ## Using the Data to Tell a Story
 
 We've now seen that after changing from counts to percentages the differences between Black, Hispanic, and White groups is much smaller.  In fact, there are several years where White individuals have a slightly higher percentage of searches during stops. 
 
-**Question #7**
+**Question #9**
 
-Putting yourself in the shoes of an opponent of the NYPD stop-and-frisk policy, choose 1-2 visuals that you feel make the strongest case against the legitimacy of the policy. Using your chosen visuals, write a short paragraph (3-5 sentences) that uses the data to argue against the policy. Your answer should include and reference screenshots of the specific visuals you chose.
+Putting yourself in the shoes of an opponent of the NYPD stop-and-frisk policy, choose one visual (or a series of 2-3 visuals) that you feel make the strongest case against the legitimacy of the policy. Using your chosen visuals, write a short paragraph (3-5 sentences) that uses the data to argue against the policy. Your answer should include and reference screenshots of the specific visual(s) that you chose.  Feel free to explore options that you weren't asked to manipulate earlier in this activity.
 
-**Question #8**
+**Question #10**
 
-Putting yourself in the shoes of a proponent of the NYPD stop-and-frisk policy, choose 1-2 visuals that you feel make the strongest case for the legitimacy of the policy. Using your chosen visuals, write a short paragraph (3-5 sentences) that uses the data to argue against the policy. Your answer should include and reference screenshots of the specific visuals you chose.
+Putting yourself in the shoes of a proponent of the NYPD stop-and-frisk policy, choose one visual (or a series of 2-3 visuals) that you feel make the strongest case for the legitimacy of the policy. Using your chosen visuals, write a short paragraph (3-5 sentences) that uses the data to argue against the policy. Your answer should include and reference screenshots of the specific visual(s) that you chose.   Feel free to explore options that you weren't asked to manipulate earlier in this activity.
 
-## Drawing Conclusions 
+## Conclusions
 
-While all of the graphs created in this activity come from the same dataset, each can be used to tell seemingly different stories. This highlights the importance of quantitative reasoning when viewing any numeric or graphical summary. In addition to the important details of how the data were collected, one should be cogniscent of both what is being shown, as well as what is not being shown.  Even when the data is accurate and the graphs are made correctly, data displays can be easily misunderstood. 
+All of the graphs created in this activity cam from the same dataset, but each can be used to tell seemingly different stories. This highlights the importance of quantitative reasoning when viewing any numeric or graphical summary. 
 
+In addition to the important details of how the data were collected, one should be aware of what exactly is being shown, as well as what is not being shown.  Even when the data is accurate and the graphs are made correctly, data displays can easily be misunderstood, and there is always the potential for important information to be missing.  For example, we didn't consider the influence of geographic data in this activity, but we certainly could make the argument that it is important to understanding stop-and-frisk policies.   
+
+Checkout this app: [http://shiny.grinnell.edu/NYPD_Basic/](http://shiny.grinnell.edu/NYPD_Basic/) which was also created by Grinnell students.  Later on in the course we'll learn how to make similar apps, but first we'll need to add some things to our `R` programming toolbox.
+
+$~$
+
+$~$
+
+$~$
 
 #### Endnotes
 
@@ -117,10 +139,10 @@ While all of the graphs created in this activity come from the same dataset, eac
 \small - Fagan 2010. Report from Jeffrey Fagan, retrieved from:
 [http://ccrjustice.org/sites/default/files/assets/files/Expert_Report_JeffreyFagan.pdf](http://ccrjustice.org/sites/default/files/assets/files/Expert_Report_JeffreyFagan.pdf)
 
-\small - Gelman,	Fagan,	&	Kiss.	(2012).	An Analysis of the New York City Police Department's “Stop‐
-and‐Frisk” Policy in the Context of Claims of Racial Bias,	Retrieved	from [http://www.stat.columbia.edu/~gelman/research/published/frisk9.pdf](http://www.stat.columbia.edu/~gelman/research/published/frisk9.pdf)
+\small - Gelman,	Fagan,	&	Kiss.	(2012).	An Analysis of the New York City Police Department's Stop
+and FriskPolicy in the Context of Claims of Racial Bias,	Retrieved	from [http://www.stat.columbia.edu/~gelman/research/published/frisk9.pdf](http://www.stat.columbia.edu/~gelman/research/published/frisk9.pdf)
 
-\small - New	York	Civil	Liberties	Union.	(2015).	Retrieved	from http://www.nyclu.org/content/stop‐and‐frisk‐data
+\small - New	York	Civil	Liberties	Union.	(2015).	Retrieved	from http://www.nyclu.org/content/stopandfriskdata
 
 \small - Ridgeway.	(2007).	Analysis of Racial Disparities in the New York Police Department's Stop,
 Question, and Frisk Practices.	Retrieved	from

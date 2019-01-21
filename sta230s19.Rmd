@@ -10,8 +10,8 @@ Welcome to Sta-230, Introduction to Data Science.
 - To view other course materials, such as lecture slides, labs, data sets, or other resources, consult the table below:
 
 ```{r, echo = FALSE}
-df230 <- data.frame(Topic = c(paste0("[Using Data to Answer Tough Questions](s230s19/Using_Data.html)")), Rmd = c(paste0("[.Rmd](s230s19/Using_Data.Rmd)")),
-Data = " ", Resources = c(paste0("[NYPD App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)")), Other = c(" "))
+df230 <- data.frame(Topic = c(paste0("[Intro to Data Science](s230s19/Using_Data.html)"), paste0("[Intro to `RStudio`](s230s19/Intro_to_R.html)")), Rmd = c(paste0("[.Rmd](s230s19/Using_Data.Rmd)"), paste0("[.Rmd](s230s19/Intro_to_R.Rmd)")),
+Data = c(" ", paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)")), Resources = c(paste0("[NYPD App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)"), " "), Other = c(" ", paste0("[More on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)")))
 
 #library(knitr)
 knitr::kable(df230)
