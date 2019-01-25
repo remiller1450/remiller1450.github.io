@@ -1,0 +1,47 @@
+---
+title: "HW Template"
+author: "YOUR_NAME"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) ## Keep this, it sets up options for the rest of the document
+```
+
+## Question 1
+
+```{r}
+# Code that loads the data should go here
+```
+
+## Question 2
+
+```{r}
+mean(1:5) # This isn't actually what the question asks for
+```
+
+## Question 3
+
+```{r}
+hist(rnorm(100)) # This is just an example
+```
+
+## Question 4
+
+```{r}
+length(c(1,2,3)) # This has nothing to do with the actual question 4
+```
+
+## Question 5
+
+```{r}
+table(iris$Species) ## Hopefully you get the point by now
+```
+
+## Question 6
+
+```{r}
+## This is just an example
+setosa <- iris[iris$Species != "versicolor" & iris$Species != "virginica", ] 
+nrow(setosa)  
+```

@@ -10,8 +10,8 @@ Welcome to Sta-209, Applied Statistics.
 - To view other course materials, such as lecture slides, labs, and data sets, consult the table below:
 
 ```{r, echo = FALSE}
-df209 <- data.frame(Topic = c(paste0("[Introduction](s209s19/h1.1.pdf)")), Lab = c(" "),
-Data = c(paste0("[HappyPlanet](data/HappyPlanet.csv)", ", ", "[AntiquitiesAct](data/AntiquitiesAct.csv)")), Other = " ")
+df209 <- data.frame(Topic = c(paste0("[Introduction](s209s19/h1.1.pdf)"), paste0("[Populations and Samples](s209s19/h1.2.pdf)")), Lab = c(" ", " "),
+Data = c(paste0("[HappyPlanet](data/HappyPlanet.csv)", ", ", "[AntiquitiesAct](data/AntiquitiesAct.csv)"), " "), Other = " ")
 #library(knitr)
 knitr::kable(df209)
 ```

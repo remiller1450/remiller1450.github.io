@@ -343,7 +343,7 @@ Directions:
 
 **Question #1**
 
-Write code that reads in the data file "CollegeData.csv", which is available at the url: "https://remiller1450.github.io/s209/CollegeData.csv", and stores the data as an object named "Dat".  
+Write code that reads in the data file "CollegeData.csv", which is available at the url: "https://remiller1450.github.io/data/CollegeData.csv", and stores the data as an object named "Dat".  
 
 **Question #2**
 

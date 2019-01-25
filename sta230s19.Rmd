@@ -11,7 +11,7 @@ Welcome to Sta-230, Introduction to Data Science.
 
 ```{r, echo = FALSE}
 df230 <- data.frame(Topic = c(paste0("[Intro to Data Science](s230s19/Using_Data.html)"), paste0("[Intro to `RStudio`](s230s19/Intro_to_R.html)")), Rmd = c(paste0("[.Rmd](s230s19/Using_Data.Rmd)"), paste0("[.Rmd](s230s19/Intro_to_R.Rmd)")),
-Data = c(" ", paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)")), Resources = c(paste0("[NYPD App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)"), " "), Other = c(" ", paste0("[More on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)")))
+Data = c(" ", paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)", ", ", "[CollegeData](data/CollegeData.csv)")), Resources = c(paste0("[NYPD App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)"), paste0("[College Data Dictionary](s230s19/CollegeDataDictionary.html)")), Other = c(" ", paste0("[More on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)", ", ", "[HW Template](s230s19/HW_Template.Rmd)")))
 
 #library(knitr)
 knitr::kable(df230)
