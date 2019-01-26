@@ -92,4 +92,4 @@ Exams will be closed notes and only basic calculators will be allowed (ie: no ce
 
 **Final Project** - 20\%
 
-There will be an ongoing group project throughout the semester. The project will include a few short progress reports before culminating in a short in-class presentation and a three (3) page written report in the last week of the semester. Details can be found in the [Final Project Assignment Sheet](s209\project209.hmtl) 
+There will be an ongoing group project throughout the semester. The project will include a few short progress reports before culminating in a short in-class presentation and a three (3) page written report in the last week of the semester. Details can be found in the [Final Project Assignment Sheet](s209s19\project209.html) 

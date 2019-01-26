@@ -8,7 +8,7 @@ output:
     fig_width: 5
 ---
 
-Data sets are stored in tabular format and there are many possible ways to organize tabular data. Some organizational schemes are designed to be easily read on the page (or screen), while others are designed to be easily used in analysis. In this tutorial, we focus on how a data set should be formatted for analysis in R.
+Data sets are stored in tabular format and there are many possible ways to organize tabular data. Some organizational schemes are designed to be easily read on the page (or screen), while others are designed to be easily used in analysis. In this tutorial, we focus on how a data set should be formatted for analysis in `R`.
 
 Make sure that the following packages are installed and loaded
 
@@ -24,9 +24,9 @@ library(readr)     # a package for parsing data
 and load in the example data sets
 
 ```{r}
-UBSprices <- read.csv("data/UBSprices.csv", as.is = TRUE)
-polls <- read.csv("data/rcp-polls.csv", na.strings = "--", as.is = TRUE)
-airlines <- read.csv("data/airline-safety.csv", as.is = TRUE)
+UBSprices <- read.csv("https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/UBSprices.csv", as.is = TRUE)
+polls <- read.csv("https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/rcp-polls.csv", na.strings = "--", as.is = TRUE)
+airlines <- read.csv("https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/airline-safety.csv", as.is = TRUE)
 ```
 
 
@@ -242,19 +242,19 @@ Notice that the first argument given to `spread` is the data frame, followed by 
 
 #### Option #1 (Questions 1 - 4)
 
-1. The file `daily_show_guests.csv` contains information on every guest Jon Stewart ever had on *The Daily Show*. (Source: https://github.com/fivethirtyeight/data/tree/master/daily-show-guests) 
+1. The file `daily_show_guests.csv` (available at the url "https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/daily_show_guests.csv") contains information on every guest Jon Stewart ever had on *The Daily Show*. (Source: https://github.com/fivethirtyeight/data/tree/master/daily-show-guests) 
 
     Inspect these data and briefly explain whether they fit the definition of tidy data.
 
-2. The file `under5mortality.csv` contains the child mortality rate per 1,000 children born for each country from 1800 to 2015. (Source: https://www.gapminder.org/data/)
+2. The file `under5mortality.csv` (available at the url "https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/under5mortality.csv")) contains the child mortality rate per 1,000 children born for each country from 1800 to 2015. (Source: https://www.gapminder.org/data/)
     a. Briefly describe why it is not considered to be tidy data and what changes need to be made to tidy it.
     b. Use `gather` to create a tidy data set with columns `country`, `year` and `mortality`. Use `parse_number` to ensure that the `year` column is numeric.
 
-3. The file `mlb2016.csv` contains the salary information presented by *USA Today* for all 862 players in Major League Baseball. (Source: http://www.usatoday.com/sports/mlb/salaries/2016/player/all/)
+3. The file `mlb2016.csv` (available at the url "https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/mlb2016.csv") contains the salary information presented by *USA Today* for all 862 players in Major League Baseball. (Source: http://www.usatoday.com/sports/mlb/salaries/2016/player/all/)
     a. Briefly describe why it is not considered to be tidy data and what changes need to be made to tidy it.
     b. Use `separate` and `parse_number` to tidy this data set.
 
-4.  The data set in `UBSprices2.csv` contains prices of a 1 kg bag of rice, a 1 kg loaf of bread, and a Big Mac in major world cities in 2009 and 2003.
+4.  The data set in `UBSprices2.csv` (available at the url "https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/UBSprices2.csv") contains prices of a 1 kg bag of rice, a 1 kg loaf of bread, and a Big Mac in major world cities in 2009 and 2003.
     a. Briefly describe why it is not considered to be tidy data and what changes need to be made to tidy it.
     b. Use `gather` and `separate` to tidy this data set. <br>
     (Hint: In addition to accepting characters, the `sep` argument can also be set to the position at which to create a split. For example, if we specify `sep = 2`, then the character strings will be split into the first two characters and the remaining characters. In this example the type of commodity is of variable length, so it is easiest to count from the left. This is specified by using a negative value.)

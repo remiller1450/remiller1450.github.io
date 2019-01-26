@@ -10,8 +10,8 @@ Welcome to Sta-230, Introduction to Data Science.
 - To view other course materials, such as lecture slides, labs, data sets, or other resources, consult the table below:
 
 ```{r, echo = FALSE}
-df230 <- data.frame(Topic = c(paste0("[Intro to Data Science](s230s19/Using_Data.html)"), paste0("[Intro to `RStudio`](s230s19/Intro_to_R.html)")), Rmd = c(paste0("[.Rmd](s230s19/Using_Data.Rmd)"), paste0("[.Rmd](s230s19/Intro_to_R.Rmd)")),
-Data = c(" ", paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)", ", ", "[CollegeData](data/CollegeData.csv)")), Resources = c(paste0("[NYPD App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)"), paste0("[College Data Dictionary](s230s19/CollegeDataDictionary.html)")), Other = c(" ", paste0("[More on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)", ", ", "[HW Template](s230s19/HW_Template.Rmd)")))
+df230 <- data.frame(Topic = c(paste0("[Intro to Data Science](s230s19/Using_Data.html)"), paste0("[Intro to `RStudio`](s230s19/Intro_to_R.html)"), paste0("[Tidy Data](s230s19/Tidy_Data.html)"), paste0("[Data Wrangling](s230s19/Data_Wrangling.html)")), Rmd = c(paste0("[.Rmd](s230s19/Using_Data.Rmd)"), paste0("[.Rmd](s230s19/Intro_to_R.Rmd)"), paste0("[.Rmd](s230s19/Tidy_Data.Rmd)"), paste0("[.Rmd](s230s19/Data_Wrangling.Rmd)")),
+Data = c(" ", paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)", ", ", "[CollegeData](data/CollegeData.csv)"), paste0("[Several data sets](https://github.com/ds4stats/r-tutorials/tree/master/tidying-data/data)"), paste0("[Colleges2015](https://raw.githubusercontent.com/ds4stats/r-tutorials/master/data-wrangling/data/colleges2015.csv)")), Resources = c(paste0("[NYPD App](http://shiny.grinnell.edu/NYPD_Bar_Charts/)"), paste0("[College Data Dictionary](s230s19/CollegeDataDictionary.html)"), " ", " "), Other = c(" ", paste0("[More on RMarkdown](https://rmarkdown.rstudio.com/lesson-1.html)", ", ", "[HW Template](s230s19/HW_Template.Rmd)"), paste0("[Hadley Wickham's Tidy Data Paper](http://vita.had.co.nz/papers/tidy-data.pdf)"), paste0("[Piping](s230s19/Piping.html)", ", ", paste0("[Base `R` vs dplyr ](https://rpubs.com/mccannecology/54011)"))))
 
 #library(knitr)
 knitr::kable(df230)
