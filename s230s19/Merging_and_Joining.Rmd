@@ -232,7 +232,7 @@ The files `books.csv`, `authors.csv`, and `book-authors.csv` give details about 
 5. Are there any authors in the **authors** data table that do not correspond to books in the **books** data table? Use an appropriate join statement to do this.
 
 
-6. After reading *A Game of Thrones* the student decides to read the rest of the series over the summer. `books2.csv` (available at https://raw.githubusercontent.com/ds4stats/r-tutorials/master/merging/data/book-authors.csv) contains the updated books on the student's reading list. Read this file into R, naming it **books2**.
+6. After reading *A Game of Thrones* the student decides to read the rest of the series over the summer. `books2.csv` (available at https://raw.githubusercontent.com/ds4stats/r-tutorials/master/merging/data/books2.csv) contains the updated books on the student's reading list. Read this file into R, naming it **books2**.
 
 
 7. Use the same join statement that you did in #4, but using **books2** rather than **books**.
