@@ -252,64 +252,31 @@ ggplot(AmesHousing2, aes(x = Fireplace2, y = SalePrice, color = PavedDrive)) +
 
 ### 7. On your own
 
-In order to complete this activity, you will need to use the `dplyr` package to manipulate the dataset before making any graphics.
+For this activity you should use the `dplyr` package to manipulate the dataset before making any graphics.
 
-#### Option #1
+#### Option #1 (there is no second option this time, but I encourage you to do the "More Practice" question)
 
 * Restrict the `AmesHousing` data to only sales under normal conditions. In other words, `Condition1 == Norm`
 * Create a new variable called `TotalSqFt = GrLivArea  +  TotalBsmtSF` and remove any homes with more than 3000 total square feet.
 * Create a new variable, where `No` indicates no fireplaces in the home and `Yes` indicates at least one fireplace in the home.
-* With this modified data file, create a graphic involving no more than three explanatory variables that best portrays how to predict sales price. For example, Figure 12 uses a linear model of kitchen quality, above ground square footage, and number of fireplaces to predict sale price.
+* Create any other new variables you believe to be informative.
+* With this modified data file, create a graphic involving no more than three explanatory variables that best portrays how to predict sales price. For example, Figure 12 uses a linear model of kitchen quality, above ground square footage, and number of fireplaces to predict sale price. Another example is the figure in the **Customizing graphs** section, which uses the fireplaces and paved driveway to predict sale price. 
+* In addition to submitting your graphic, you should also submit a paragraph explaining what your graph shows and a short justification of the choices you made. Your graphic uses a newly created, derived variable, you should include an explanation of what that variable is.
 
-#### Option #2
+#### More Practice
 
-The data "economics" is included in the `ggplot2` package (see the documentation [provided here](https://ggplot2.tidyverse.org/reference/economics.html) for descriptions of the variables).  For this questions I'd like you to create two line graphs using `facet_grid` or `facet_wrap` showing the yearly mean of two different variables.  You may choose any two variables from the economics data (other than date) that you find interesting.  Each graph should display the yearly mean and be colored according to the president that year.  The code below provides the necessary presidential data.
+The data "economics" is included in the `ggplot2` package (see the documentation [provided here](https://ggplot2.tidyverse.org/reference/economics.html) for descriptions of the variables).  
+
+```{r}
+data("economics")
+head(economics)
+```
+
+For this question I'd like you to create two line graphs using `facet_grid` or `facet_wrap` showing the yearly mean of two different variables. You may choose any two variables from the economics data (other than date) that you find interesting.  Your graphs should display the *yearly mean* of those variables, and be colored according to the president in office that year. The code below provides the necessary presidential data, which you should merge with the economics data.
 
 ```{r}
 presidents <- data.frame(year = 1967:2015, president = c(rep("Johnson",2), rep("Nixon", 5), rep("Ford", 3), rep("Carter", 4), rep("Reagan", 8), rep("Bush1", 4), rep("Clinton", 8), rep("Bush2", 8), rep("Obama", 7)))
 ```
-
-Bonus (not required): Use `geom_ribbon` ([see an example](https://ggplot2.tidyverse.org/reference/geom_ribbon.html)) to add an uncertainty band using each year's minimum and maximum values.
-
-```{r}
-library(tidyr)
-data("economics")
-head(economics)
-
-economics2 <- separate(economics, date, into = c("year", "month", "day"), sep = "-")
-
-econonomics_means <- economics2 %>% 
-  group_by(year) %>% 
-  summarise(mean_psavert = mean(psavert), mean_uempmed = mean(uempmed))
-
-
-#president <- c(rep(NA,14), rep("Reagan", 8), rep("Bush1", 4), rep("Clinton", 8), rep("Bush2", 8), rep("Obama", 7))
-econonomics_means$president <- presidents$president
-
-econonomics_means2 <- gather(econonomics_means, var, val, 2:3)
-
-p <- ggplot(data = econonomics_means2, aes(x = year, y = val, group = var, color = president)) + geom_line(size = 1.5) + facet_wrap(~ var)
-p
-
-econonomics_rib <- economics2 %>% 
-  group_by(year) %>% 
-  summarise(min_psavert = min(psavert), min_uempmed = min(uempmed), max_psavert = max(psavert), max_uempmed = max(uempmed))
-
-econonomics_rib_min <- select(econonomics_rib, year, min_psavert, min_uempmed)
-econonomics_rib_min2 <- gather(econonomics_rib_min, var, valmi, 2:3)
-
-econonomics_rib_max <- select(econonomics_rib, year, max_psavert, max_uempmed)
-econonomics_rib_max2 <- gather(econonomics_rib_max, var, valma, 2:3)
-
-df <- data.frame(econonomics_means2, valmi = econonomics_rib_min2$valmi, valma = econonomics_rib_max2$valma)
-p <- ggplot(data = df, aes(x = year, group = var)) + geom_ribbon(aes(ymin = valmi, ymax = valmi))+ facet_wrap(~ var)
-
-+ geom_line(aes(y = val, group = var, color = president)) 
-
-p
-
-```
-
 
 
 ### Additional resources
