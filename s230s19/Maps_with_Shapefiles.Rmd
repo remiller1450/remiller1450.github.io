@@ -175,7 +175,7 @@ If you are using electronic handouts or websites, you may want to be able to zoo
 
 Below is some code which renders terrorist incidents in Europe using the `leaflet` package. Note that the code does run within Rstudio, but a graphic cannot be posted to a knitted HTML or word document.
 
-```{r eval = FALSE}
+```{r eval = TRUE}
 library(leaflet)
 
 # Subset terrorism database to only contain events in Europe in 1984
