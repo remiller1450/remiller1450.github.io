@@ -21,7 +21,7 @@ library(ggplot2)
 library(mosaic)
 ```
 
-**Data**: In this tutorial, we will use the  [AmesHousing](http://www.amstat.org/publications/jse/v19n3/decock.pdf) data, which provides information on the sales of individual residential properties in Ames, Iowa from 2006 to 2010. The data set contains 2930 observations, and a large number of explanatory variables involved in assessing home values. A full description of this dataset can be found [here](http://www.amstat.org/publications/jse/v19n3/Decock/DataDocumentation.txt).
+**Data**: In this tutorial, we will use the  [AmesHousing](http://www.amstat.org/publications/jse/v19n3/decock.pdf) data, which provides information on the sales of individual residential properties in Ames, Iowa from 2006 to 2010. The data set contains 2930 observations, and a large number of explanatory variables involved in assessing home values. A full description of this dataset can be found [here](http://www.amstat.org/publications/jse/v19n3/decock/DataDocumentation.txt).
 
 ```{r}
 # The csv file should be imported into rstudio:

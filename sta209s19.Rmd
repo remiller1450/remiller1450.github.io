@@ -10,8 +10,8 @@ Welcome to Sta-209, Applied Statistics.
 - To view other course materials, such as lecture slides, labs, and data sets, consult the table below:
 
 ```{r, echo = FALSE}
-df209 <- data.frame(Topic = c(paste0("[Introduction](s209s19/h1.1.pdf)"), paste0("[Populations and Samples](s209s19/h1.2.pdf)"), paste0("[Descriptive Statistics](s209s19/Lab_1.html)"), paste0("[Randomized Experiments](s209s19/h1.3.pdf)"),  paste0("[Correlation and Regression](s209s19/h2.5.pdf)"), paste0("[Sampling Distributions](s209s19/h3.1N.pdf)")), Lab = c(" ", " ", paste0("[Lab 1](s209s19/Lab_1.html)"), paste0("[Lab 2](s209s19/Lab_2.html)"), paste0("[Lab 3](s209s19/Lab_3.html)"), " "),
-Data = c(paste0("[HappyPlanet](data/HappyPlanet.csv)", ", ", "[AntiquitiesAct](data/AntiquitiesAct.csv)"), " ", paste0("[ClassSurvey](data/ClassSurvey.csv)"), paste0("[DeathPenaltySentencing](data/DeathPenaltySentencing.csv)"),  paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)", ", ", "[ElectionMargin](data/ElectionMargin.csv)"), " "), Other = " ")
+df209 <- data.frame(Topic = c(paste0("[Introduction](s209s19/h1.1.pdf)"), paste0("[Populations and Samples](s209s19/h1.2.pdf)"), paste0("[Descriptive Statistics](s209s19/Lab_1.html)"), paste0("[Randomized Experiments](s209s19/h1.3.pdf)"),  paste0("[Correlation and Regression](s209s19/h2.5.pdf)"), paste0("[Sampling Distributions](s209s19/h3.1N.pdf)"), "Interval Estimation", "Bootstrapping"), Lab = c(" ", " ", paste0("[Lab 1](s209s19/Lab_1.html)"), paste0("[Lab 2](s209s19/Lab_2.html)"), paste0("[Lab 3](s209s19/Lab_3.html)"), " ", " ", paste0("[Lab 4](s209s19/Lab_4.html)")),
+Data = c(paste0("[HappyPlanet](data/HappyPlanet.csv)", ", ", "[AntiquitiesAct](data/AntiquitiesAct.csv)"), " ", paste0("[ClassSurvey](data/ClassSurvey.csv)"), paste0("[DeathPenaltySentencing](data/DeathPenaltySentencing.csv)"),  paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)", ", ", "[ElectionMargin](data/ElectionMargin.csv)"), " ", " ", paste0("[Small Colleges](data/CollegeData.csv)")), Other = " ")
 #library(knitr)
 knitr::kable(df209)
 ```
