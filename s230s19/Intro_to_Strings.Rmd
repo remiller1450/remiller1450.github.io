@@ -278,10 +278,6 @@ emails = c(
 "this.email.is.fake@gmail.xcom")
 ```
 
-```{r}
-email_pat = "^([a-z0-9_\\.-]+)@([\\da-z\\.-]+)\\.([a-z\\.]{2,3})$"
-str_detect(string=emails, pattern=email_pat)
-```
 
 
 ### Resources
