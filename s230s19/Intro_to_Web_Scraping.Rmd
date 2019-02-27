@@ -139,28 +139,28 @@ Cleaning up the remaining variables of the movies table is left as an exercise.
 
 ### 5. Non-table Nodes
 
-So far the two examples we've looked at extract tables from a webpage.  Many other types of html nodes can be extracted using `rvest`.  The example below extracts information of the images on Box Office Mojo:
+So far the two examples we've looked at extract tables from a webpage, but lots of other information from a webpage can be extracted using `rvest`.  The example below extracts data on the images contained on the Box Office Mojo webpage:
 
 
 ```{r}
 moviesImg <- html_nodes(movieParse, "img")
-
-moviesImg
+head(moviesImg)
 ```
 
 
-We can see that there are 10 images on this page.  We can also see that the page has Twitter and Facebook accounts.  There are a huge variety of nodes that we could extract, the next section provides another example of extracting a non-table node.
+We see that there are 10 images on the page.  We can also see that the page has Twitter and Facebook accounts, items we might consider extracting using string processing. In general, there are a huge variety of nodes that we could extract, the next section provides a more detailed example of extracting data from a non-table html node.
 
 ### 6. A NY Times Article Example
 
-Sometimes we might want to extract nodes defined by CSS. To do this it can be helpful to view to html source code of a webpage for guidance.
+Sometimes we might want to extract specific nodes that are defined by CSS (Cascading Style Sheets, a langauge which defines the style of an html page). For this goal, it can be very useful to view to html source code of a page  for guidance.
 
-To view the HTML code that generates a web page, you right click on it and select "View Page Source" in Chrome or Firefox, "View Source" in Internet Explorer, or "Show Page Source" in Safari. (If that option doesn't appear in Safari, just open Safari Preferences, select the Advanced tab, and check "Show Develop menu in menu bar".)
+To view the HTML code behind a webpage, right click anywhere on the page and select "View Page Source" in Chrome or Firefox, "View Source" in Internet Explorer, or "Show Page Source" in Safari. (If that option doesn't appear in Safari, just open Safari Preferences, select the Advanced tab, and check "Show Develop menu in menu bar".)
 
-The example we will look at is a [New York Times article](https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html).  The goal for this example is transform the body of text into a tidy data.frame containing:
+The example we will look at is a [New York Times article](https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html).  The goal for this example is transform the body of text into a clean data.frame containing:
 
 1. The lie itself
 2. The date of that lie
+3. A url sourcing the lie
 
 By inspecting the html source code, we see that each lie has the following format:
 
@@ -195,13 +195,27 @@ lies_var <- xml_contents(lies)
 We see that each lie has three components, the second containing the lie itself, and these components are arranged in a vector. We can exploit this ordering and extract the lies using their positions:
 
 ```{r}
-lies_var <- lies_var[seq(2, length(lies_var), by = 3)]
+lies_var2 <- lies_var[seq(2, length(lies_var), by = 3)]
 ```
 
-At this point we've satisfied the goal of this example, next step might be a textual analysis.
+We can use a similar strategy to get the urls:
 
 ```{r}
-lies_clean <- data.frame(date = dates, lie = as.character(lies_var))
+lies_var3 <- lies_var[seq(3, length(lies_var), by = 3)]
+```
+
+From here we see that all the urls are tagged with "a", we can select these nodes using the tag, and then select the href object to get the url itself.  Note that we could have noticed this right away and eliminated the prior step.
+
+```{r}
+lies_var3 <- html_node(lies_var3, "a")
+url_var <- html_attr(lies_var3, "href")
+```
+
+At this point we've satisfied the goal of this example, next step might be a textual analysis that further extracts key words or categorizes the urls.
+
+```{r}
+lies_clean <- data.frame(date = dates, lie = as.character(lies_var2), url = url_var)
+head(lies_clean)
 ```
 
 ### 7.  A Billboard Top 100 example
@@ -243,11 +257,18 @@ head(top50women, 5)
 
 1. The web site [BikeRaceInfo](http://www.bikeraceinfo.com/tdf/tdfstats.html) has a table with data on past winners of the Tour de France. Create a cleaned-up data.frame of this data.
 
-2. The web site [NY Times Best Sellers: Hardcover Fiction](http://www.nytimes.com/books/best-sellers/hardcover-fiction) contains a list of best-selling fiction books. Scrape the names of these top books. The list of books are tagged via `<h2>title</h2>`.
+2. The web site [NY Times Best Sellers: Hardcover Fiction](http://www.nytimes.com/books/best-sellers/hardcover-fiction) contains a list of best-selling fiction books. Scrape the names and authors of these top books and store the results in a clean data.frame.
 
 #### Option #2
 
-3. The link https://www.auhouseprices.com/rent/list/NSW/2131/Ashfield/1/?sort=date&type=apartment&bmin=2&bmax=2 shows two-bedroom rental listings in Ashfield Australia.  Scrap this webpage to create a clean data.frame containing three variables: the rental's address, its price, and the month/year that the price is offered. 
+3. The link https://www.auhouseprices.com/rent/list/NSW/2131/Ashfield/1/?sort=date&type=apartment&bmin=2&bmax=2 shows two-bedroom rental listings in Ashfield Australia.  Scrap this webpage to create a clean data.frame containing three variables: each rental's address, its price, and the month/year when the price was offered. Hint: this is best accomplished by writing a function and using a *for loop*.
+
+```{r}
+N <- 3
+for(i in 1:N){
+  print(i)
+}
+```
 
 ### Resources
 

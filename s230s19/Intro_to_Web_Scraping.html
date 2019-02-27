@@ -231,31 +231,27 @@ head(out)</code></pre>
 </div>
 <div id="non-table-nodes" class="section level3">
 <h3>5. Non-table Nodes</h3>
-<p>So far the two examples we’ve looked at extract tables from a webpage. Many other types of html nodes can be extracted using <code>rvest</code>. The example below extracts information of the images on Box Office Mojo:</p>
+<p>So far the two examples we’ve looked at extract tables from a webpage, but lots of other information from a webpage can be extracted using <code>rvest</code>. The example below extracts data on the images contained on the Box Office Mojo webpage:</p>
 <pre class="r"><code>moviesImg &lt;- html_nodes(movieParse, &quot;img&quot;)
-
-moviesImg</code></pre>
-<pre><code>## {xml_nodeset (10)}
-##  [1] &lt;img src=&quot;//bs.serving-sys.com/Serving/adServer.bs?c=8&amp;amp;cn=displ ...
-##  [2] &lt;img src=&quot;/img/misc/bom_logo1.png&quot; width=&quot;245&quot; height=&quot;56&quot; alt=&quot;Box ...
-##  [3] &lt;img src=&quot;/images/IMDbPro.png&quot; alt=&quot;Get industry info at IMDbPro&quot; h ...
-##  [4] &lt;img src=&quot;/images/glyphicons-social-32-twitter@2x.png&quot; alt=&quot;Follow  ...
-##  [5] &lt;img src=&quot;/images/glyphicons-social-31-facebook@2x.png&quot; alt=&quot;Follow ...
-##  [6] &lt;img src=&quot;/images/mojo_imdb_sm.png&quot;&gt;
-##  [7] &lt;img src=&quot;/images/space.gif&quot; border=&quot;0&quot; width=&quot;1&quot; height=&quot;5&quot;&gt;
-##  [8] &lt;img src=&quot;/img/misc/bom_logo1.png&quot; width=&quot;245&quot; height=&quot;56&quot; alt=&quot;Box ...
-##  [9] &lt;img src=&quot;/img/misc/IMDbSm.png&quot; width=&quot;34&quot; height=&quot;16&quot; alt=&quot;IMDb&quot; v ...
-## [10] &lt;img src=&quot;http://b.scorecardresearch.com/p?c1=2&amp;amp;c2=6034961&amp;amp; ...</code></pre>
-<p>We can see that there are 10 images on this page. We can also see that the page has Twitter and Facebook accounts. There are a huge variety of nodes that we could extract, the next section provides another example of extracting a non-table node.</p>
+head(moviesImg)</code></pre>
+<pre><code>## {xml_nodeset (6)}
+## [1] &lt;img src=&quot;//bs.serving-sys.com/Serving/adServer.bs?c=8&amp;amp;cn=displa ...
+## [2] &lt;img src=&quot;/img/misc/bom_logo1.png&quot; width=&quot;245&quot; height=&quot;56&quot; alt=&quot;Box  ...
+## [3] &lt;img src=&quot;/images/IMDbPro.png&quot; alt=&quot;Get industry info at IMDbPro&quot; he ...
+## [4] &lt;img src=&quot;/images/glyphicons-social-32-twitter@2x.png&quot; alt=&quot;Follow u ...
+## [5] &lt;img src=&quot;/images/glyphicons-social-31-facebook@2x.png&quot; alt=&quot;Follow  ...
+## [6] &lt;img src=&quot;/images/mojo_imdb_sm.png&quot;&gt;</code></pre>
+<p>We see that there are 10 images on the page. We can also see that the page has Twitter and Facebook accounts, items we might consider extracting using string processing. In general, there are a huge variety of nodes that we could extract, the next section provides a more detailed example of extracting data from a non-table html node.</p>
 </div>
 <div id="a-ny-times-article-example" class="section level3">
 <h3>6. A NY Times Article Example</h3>
-<p>Sometimes we might want to extract nodes defined by CSS. To do this it can be helpful to view to html source code of a webpage for guidance.</p>
-<p>To view the HTML code that generates a web page, you right click on it and select “View Page Source” in Chrome or Firefox, “View Source” in Internet Explorer, or “Show Page Source” in Safari. (If that option doesn’t appear in Safari, just open Safari Preferences, select the Advanced tab, and check “Show Develop menu in menu bar”.)</p>
-<p>The example we will look at is a <a href="https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html">New York Times article</a>. The goal for this example is transform the body of text into a tidy data.frame containing:</p>
+<p>Sometimes we might want to extract specific nodes that are defined by CSS (Cascading Style Sheets, a langauge which defines the style of an html page). For this goal, it can be very useful to view to html source code of a page for guidance.</p>
+<p>To view the HTML code behind a webpage, right click anywhere on the page and select “View Page Source” in Chrome or Firefox, “View Source” in Internet Explorer, or “Show Page Source” in Safari. (If that option doesn’t appear in Safari, just open Safari Preferences, select the Advanced tab, and check “Show Develop menu in menu bar”.)</p>
+<p>The example we will look at is a <a href="https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html">New York Times article</a>. The goal for this example is transform the body of text into a clean data.frame containing:</p>
 <ol style="list-style-type: decimal">
 <li>The lie itself</li>
 <li>The date of that lie</li>
+<li>A url sourcing the lie</li>
 </ol>
 <p>By inspecting the html source code, we see that each lie has the following format:</p>
 <pre><code>&lt;span class=&quot;short-desc&quot;&gt;&lt;strong&gt; DATE &lt;/strong&gt; LIE &lt;span class=&quot;short-truth&quot;&gt;&lt;a href=&quot;URL&quot;&gt; EXPLANATION &lt;/a&gt;&lt;/span&gt;&lt;/span&gt;</code></pre>
@@ -294,9 +290,20 @@ head(dates)</code></pre>
 <p>Extracting each lie requires a different strategy. We could do it using regular expressions, but instead we use the <code>xml_contents</code> function:</p>
 <pre class="r"><code>lies_var &lt;- xml_contents(lies)</code></pre>
 <p>We see that each lie has three components, the second containing the lie itself, and these components are arranged in a vector. We can exploit this ordering and extract the lies using their positions:</p>
-<pre class="r"><code>lies_var &lt;- lies_var[seq(2, length(lies_var), by = 3)]</code></pre>
-<p>At this point we’ve satisfied the goal of this example, next step might be a textual analysis.</p>
-<pre class="r"><code>lies_clean &lt;- data.frame(date = dates, lie = as.character(lies_var))</code></pre>
+<pre class="r"><code>lies_var2 &lt;- lies_var[seq(2, length(lies_var), by = 3)]</code></pre>
+<p>We can use a similar strategy to get the urls:</p>
+<pre class="r"><code>lies_var3 &lt;- lies_var[seq(3, length(lies_var), by = 3)]</code></pre>
+<p>From here we see that all the urls are tagged with “a”, we can select these nodes using the tag, and then select the href object to get the url itself. Note that we could have noticed this right away and eliminated the prior step.</p>
+<pre class="r"><code>lies_var3 &lt;- html_node(lies_var3, &quot;a&quot;)
+url_var &lt;- html_attr(lies_var3, &quot;href&quot;)</code></pre>
+<p>At this point we’ve satisfied the goal of this example, next step might be a textual analysis that further extracts key words or categorizes the urls.</p>
+<pre class="r"><code>lies_clean &lt;- data.frame(date = dates, lie = as.character(lies_var2), url = url_var)
+head(lies_clean)</code></pre>
+<div data-pagedtable="false">
+<script data-pagedtable-source type="application/json">
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["date"],"name":[1],"type":["fctr"],"align":["left"]},{"label":["lie"],"name":[2],"type":["fctr"],"align":["left"]},{"label":["url"],"name":[3],"type":["fctr"],"align":["left"]}],"data":[{"1":"Jan. 21","2":"I wasn't a fan of Iraq. I didn't want to go into Iraq.","3":"https://www.buzzfeed.com/andrewkaczynski/in-2002-donald-trump-said-he-supported-invading-iraq-on-the","_rn_":"1"},{"1":"Jan. 21","2":"A reporter for Time magazine  and I have been on their cover 14 or 15 times. I think we have the all-time record in the history of Time magazine.","3":"http://nation.time.com/2013/11/06/10-things-you-didnt-know-about-time/","_rn_":"2"},{"1":"Jan. 23","2":"Between 3 million and 5 million illegal votes caused me to lose the popular vote.","3":"https://www.nytimes.com/2017/01/23/us/politics/donald-trump-congress-democrats.html","_rn_":"3"},{"1":"Jan. 25","2":"Now, the audience was the biggest ever. But this crowd was massive. Look how far back it goes. This crowd was massive.","3":"https://www.nytimes.com/2017/01/21/us/politics/trump-white-house-briefing-inauguration-crowd-size.html","_rn_":"4"},{"1":"Jan. 25","2":"Take a look at the Pew reports (which show voter fraud.)","3":"https://www.nytimes.com/2017/01/24/us/politics/unauthorized-immigrant-voting-trump-lie.html","_rn_":"5"},{"1":"Jan. 25","2":"You had millions of people that now aren't insured anymore.","3":"https://www.nytimes.com/2017/03/13/us/politics/fact-check-trump-obamacare-health-care.html","_rn_":"6"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+  </script>
+</div>
 </div>
 <div id="a-billboard-top-100-example" class="section level3">
 <h3>7. A Billboard Top 100 example</h3>
@@ -376,14 +383,21 @@ head(top50women, 5)</code></pre>
 <h4>Option #1</h4>
 <ol style="list-style-type: decimal">
 <li><p>The web site <a href="http://www.bikeraceinfo.com/tdf/tdfstats.html">BikeRaceInfo</a> has a table with data on past winners of the Tour de France. Create a cleaned-up data.frame of this data.</p></li>
-<li><p>The web site <a href="http://www.nytimes.com/books/best-sellers/hardcover-fiction">NY Times Best Sellers: Hardcover Fiction</a> contains a list of best-selling fiction books. Scrape the names of these top books. The list of books are tagged via <code>&lt;h2&gt;title&lt;/h2&gt;</code>.</p></li>
+<li><p>The web site <a href="http://www.nytimes.com/books/best-sellers/hardcover-fiction">NY Times Best Sellers: Hardcover Fiction</a> contains a list of best-selling fiction books. Scrape the names and authors of these top books and store the results in a clean data.frame.</p></li>
 </ol>
 </div>
 <div id="option-2" class="section level4">
 <h4>Option #2</h4>
 <ol start="3" style="list-style-type: decimal">
-<li>The link <a href="https://www.auhouseprices.com/rent/list/NSW/2131/Ashfield/1/?sort=date&amp;type=apartment&amp;bmin=2&amp;bmax=2" class="uri">https://www.auhouseprices.com/rent/list/NSW/2131/Ashfield/1/?sort=date&amp;type=apartment&amp;bmin=2&amp;bmax=2</a> shows two-bedroom rental listings in Ashfield Australia. Scrap this webpage to create a clean data.frame containing three variables: the rental’s address, its price, and the month/year that the price is offered.</li>
+<li>The link <a href="https://www.auhouseprices.com/rent/list/NSW/2131/Ashfield/1/?sort=date&amp;type=apartment&amp;bmin=2&amp;bmax=2" class="uri">https://www.auhouseprices.com/rent/list/NSW/2131/Ashfield/1/?sort=date&amp;type=apartment&amp;bmin=2&amp;bmax=2</a> shows two-bedroom rental listings in Ashfield Australia. Scrap this webpage to create a clean data.frame containing three variables: each rental’s address, its price, and the month/year when the price was offered. Hint: this is best accomplished by writing a function and using a <em>for loop</em>.</li>
 </ol>
+<pre class="r"><code>N &lt;- 3
+for(i in 1:N){
+  print(i)
+}</code></pre>
+<pre><code>## [1] 1
+## [1] 2
+## [1] 3</code></pre>
 </div>
 </div>
 <div id="resources" class="section level3">
