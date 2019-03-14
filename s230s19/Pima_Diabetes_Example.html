@@ -19815,14 +19815,14 @@ pos
 <li>For <em>all</em> of the modeling building process we use <em>only</em> the training data, allowing the test data to be a completely independent set</li>
 <li>We start our analysis looking at the outcome variable <code>diabetes</code></li>
 </ul>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">table</span>(test.data<span class="op">$</span>diabetes) ## Frequencies</code></pre></div>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">table</span>(train.data<span class="op">$</span>diabetes) ## Frequencies</code></pre></div>
 <pre><code>## 
 ## neg pos 
-##  99  54</code></pre>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">prop.table</span>(<span class="kw">table</span>(test.data<span class="op">$</span>diabetes)) ## Proportion from a table</code></pre></div>
+## 401 214</code></pre>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">prop.table</span>(<span class="kw">table</span>(train.data<span class="op">$</span>diabetes)) ## Proportion from a table</code></pre></div>
 <pre><code>## 
 ##       neg       pos 
-## 0.6470588 0.3529412</code></pre>
+## 0.6520325 0.3479675</code></pre>
 <ul>
 <li>About 35% of the subjects in our training data have diabetes, so we could achieve 65% classification accuracy with an uninformative model</li>
 <li>In this application, false negatives are <em>more harmful</em> than false positives, so we might focus on <em>sensitivity</em> when evaluating models</li>
