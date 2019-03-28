@@ -1,0 +1,107 @@
+---
+title: "Variable Selection (part I)"
+author: "Ryan Miller"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyr)
+library(caret)
+```
+
+## Introduction
+
+- In supervised learning we use $\mathbf{X}$ to predict $Y$ via: $Y = f(\mathbf{X}) + \epsilon$
+- For **linear regression**, $f(\mathbf{X}) = \mathbf{X} \mathbf{\beta}$ and $\epsilon_i \sim N(0,\sigma^2)$
+- The linear regression model is fit (trained) by finding estimates $\hat{\mathbf{\beta}}$ which minimize the residual sum of squares:
+$$RSS = \sum_i (y_i - \mathbf{x}_i^T \hat{\mathbf{\beta}})^2$$
+- When training a linear regression model might ask ourselves: "Should we include all of the available predictor variables?"
+
+## Overfitting
+
+- Consider an application large number of predictor variables (say $p = 600$)
+- We might think to use hypothesis testing to determine which variables are important contributors
+- Unfortunately, in this simulation example, 28 of the 30 statistically significant (using $\alpha = 0.05$) variables are *not related* with the outcome
+
+```{r, echo = TRUE}
+
+set.seed(123)
+p <- 600
+n <- 1000
+## Randomly generate matrix of independent predictors
+X <- matrix(rnorm(n*p), nrow = n, ncol = p)
+## Only first two variables have true effects
+beta <- c(.2,-.2,rep(0,p-2))
+## Generate y from the true model
+y <- X %*% beta + rnorm(n,mean = 0, sd = 1)
+## Fit a linear regression model to the data
+lm.fit <- lm(y ~ X)
+## See which variables are significant
+lm.summary <- summary(lm.fit)
+names(which(lm.summary$coefficients[,4] < 0.05))
+sum(lm.summary$coefficients[,4] < 0.05)
+```
+
+## Adjust the Significance Threshold?
+
+- In the simulation example, there were 598 true null hypotheses, we incorrectly rejected 28 of them (4.7%)
+    - This is purely an artifact the $\alpha$ we used
+    - Lowering $\alpha$ might resolve this problem, but if we use the Bonferroni adjustment we end up selecting only one of the two important variables
+    
+```{r, echo = TRUE}
+## Using the previous model, adjust alpha to 0.05/p
+names(which(lm.summary$coefficients[,4] < 0.05/600))
+sum(lm.summary$coefficients[,4] < 0.05/600)
+```
+
+## Cross Validation?
+
+- Another thought is that cross-validation might be able to help
+    - Indeed it can, provided we know which models to compare:
+
+```{r, echo = TRUE}
+# Setup fit control
+fit.control <- trainControl(method = "repeatedcv", number = 5, repeats = 10)
+
+# Formulas for models using first 10, 20 predictors
+mod10 <- formula(y ~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10)
+mod20 <- formula(y ~ X1 + X2 + X3 + X4 + X5 + X6 + X7 + X8 + X9 + X10 + X11 + X12 + X13 + X14 + X15 + X16 + X17 + X18 + X19 + X20)
+
+# How about a 20 randomly chosen predictors?
+set.seed(123)
+modrand20 <- as.formula(paste0("y ~ ", paste0("X", sample(1:600,size = 20), collapse = " + ")))
+
+# Four different linear models
+set.seed(123)
+fit.all <- train(y ~ ., data = data.frame(y = y, X), trControl = fit.control, method = "lm")
+set.seed(123)
+fit.random20 <- train(modrand20, data = data.frame(y = y, X), trControl = fit.control, method = "lm")
+set.seed(123)
+fit.first20 <- train(mod20, data = data.frame(y = y, X), trControl = fit.control, method = "lm")
+set.seed(123)
+fit.first10 <- train(mod10, data = data.frame(y = y, X), trControl = fit.control, method = "lm")
+set.seed(123)
+fit.oracle <- train(y ~ X1 + X2, data = data.frame(y = y, X), trControl = fit.control, method = "lm")
+
+# Compare their cv-estimated performance
+resamps <- resamples(list(all = fit.all, random20 = fit.random20, first20 = fit.first20,  first10 = fit.first10, oracle = fit.oracle))
+
+## Process the resamples results for visualization
+resamps2 <- gather(resamps$values, key = "Var", value = "Val", 2:ncol(resamps$values))
+resamps2 <- separate(resamps2, col = "Var", into = c("Model", "Metric"), sep = "~")
+resamps2$Model <- factor(resamps2$Model, levels = c("all", "random20", "first20", "first10", "oracle"))
+
+## The logistic regression model (LREG) has the best AUC, but it's sensitivity isn't good...
+ggplot(resamps2, aes(x = Model, y = Val)) + geom_boxplot() + facet_wrap(~ Metric, scales = "free")
+```
+
+## How to choose subsets of predictors?
+
+- Blindly using all 600 predictors doesn't work very well, so do we make the problem manageable?
+    - In the coming weeks, we will discuss a few automated approaches to variable selection (variable selection algorithms and penalized regression)
+    - Automated approaches aren't a cure-all, oftentines the best approach is apply content area knowledge and use residuals plots 
+
+## Prediction Surfaces and Residual Plots
+
+[Demonstrated with an RShiny App](https://remiller1450.github.io/s230s19/app.R)
