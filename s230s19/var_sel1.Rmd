@@ -20,7 +20,7 @@ $$RSS = \sum_i (y_i - \mathbf{x}_i^T \hat{\mathbf{\beta}})^2$$
 
 ## Overfitting
 
-- Consider an application large number of predictor variables (say $p = 600$)
+- Consider an application with a large number of predictor variables (say $p = 600$)
 - We might think to use hypothesis testing to determine which variables are important contributors
 - Unfortunately, in this simulation example, 28 of the 30 statistically significant (using $\alpha = 0.05$) variables are *not related* with the outcome
 
@@ -57,8 +57,8 @@ sum(lm.summary$coefficients[,4] < 0.05/600)
 
 ## Cross Validation?
 
-- Another thought is that cross-validation might be able to help
-    - Indeed it can, provided we know which models to compare:
+- Another thought is that cross-validation might be able to help assess variables
+    - It can, provided we know which models to compare:
 
 ```{r, echo = TRUE}
 # Setup fit control
@@ -87,12 +87,12 @@ fit.oracle <- train(y ~ X1 + X2, data = data.frame(y = y, X), trControl = fit.co
 # Compare their cv-estimated performance
 resamps <- resamples(list(all = fit.all, random20 = fit.random20, first20 = fit.first20,  first10 = fit.first10, oracle = fit.oracle))
 
-## Process the resamples results for visualization
+# Process the resamples results for visualization
 resamps2 <- gather(resamps$values, key = "Var", value = "Val", 2:ncol(resamps$values))
 resamps2 <- separate(resamps2, col = "Var", into = c("Model", "Metric"), sep = "~")
 resamps2$Model <- factor(resamps2$Model, levels = c("all", "random20", "first20", "first10", "oracle"))
 
-## The logistic regression model (LREG) has the best AUC, but it's sensitivity isn't good...
+# The logistic regression model (LREG) has the best AUC, but it's sensitivity isn't good...
 ggplot(resamps2, aes(x = Model, y = Val)) + geom_boxplot() + facet_wrap(~ Metric, scales = "free")
 ```
 
@@ -100,7 +100,7 @@ ggplot(resamps2, aes(x = Model, y = Val)) + geom_boxplot() + facet_wrap(~ Metric
 
 - Blindly using all 600 predictors doesn't work very well, so do we make the problem manageable?
     - In the coming weeks, we will discuss a few automated approaches to variable selection (variable selection algorithms and penalized regression)
-    - Automated approaches aren't a cure-all, oftentines the best approach is apply content area knowledge and use residuals plots 
+    - Automated approaches aren't a cure-all, oftentimes the best approach is apply content area knowledge and use residuals plots, but in many situations there is too much data to not also use some automation to streamline the process
 
 ## Prediction Surfaces and Residual Plots
 
