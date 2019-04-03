@@ -16,7 +16,7 @@ Lab = c(" ", " ", paste0("[Lab 1](s209s19/Lab_1.html)"), paste0("[Lab 2](s209s19
 
 Data = c(paste0("[HappyPlanet](data/HappyPlanet.csv)", ", ", "[AntiquitiesAct](data/AntiquitiesAct.csv)"), " ", paste0("[ClassSurvey](data/ClassSurvey.csv)"), paste0("[DeathPenaltySentencing](data/DeathPenaltySentencing.csv)"),  paste0("[IowaCityHomes](data/IowaCityHomeSales.csv)", ", ", "[ElectionMargin](data/ElectionMargin.csv)"), " ", " ", paste0("[Small Colleges](data/CollegeData.csv)"), paste0("[Parking](data/Parking.csv)", ", ", "[HairEyeColor](data/HairEyeColor.csv)"), " ", paste0("[A/B Testing](data/ab_test.csv)"), paste0("[Lead IQ](data/LeadIQ.csv)", ", ", "[Wetsuits](data/Wetsuits.csv)"), " ", paste0("[Police Killings](data/PoliceKillings.csv)", ", ", "[Golden State Warriors](data/GSWarriors.csv)")), 
 
-Other = c(rep(" ", 7), paste0("[Exam 1 Review](s209s19/Exam1_rev.pdf)"), paste0("[Final Project Assignment](s209s19/project209.html)"), " ", " ", " ", " ", " "))
+Other = c(rep(" ", 7), paste0("[Exam 1 Review](s209s19/Exam1_rev.pdf)"), paste0("[Final Project Assignment](s209s19/project209.html)"), " ", " ", " ", " ", paste0("[Exam 2 Formula Sheet](s209s19/EXAM2_Formulas.pdf)")))
 #library(knitr)
 knitr::kable(df209)
 ```
