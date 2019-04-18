@@ -193,7 +193,7 @@ sil_ag &lt;-<span class="st"> </span><span class="kw">silhouette</span>(<span cl
 <li><span class="math inline">\(d_{a,b} = \sum_{j = 1}^{p} h_j( x_{a,j}, x_{b,j})\)</span></li>
 <li><span class="math inline">\(h_j()\)</span> depends on the type of variable <span class="math inline">\(j\)</span></li>
 <li>For numeric variables, <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = \tfrac{|x_{a,j} - x_{b,j}|}{R_j}\)</span>, where <span class="math inline">\(R_j\)</span> is the range of the <span class="math inline">\(j^{th}\)</span> variable</li>
-<li>For categorical variables, <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = 1\)</span> if the <span class="math inline">\(x_{a,j}\)</span> and <span class="math inline">\(x_{b,j}\)</span> are the same category, and <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = 0\)</span> otherwise</li>
+<li>For categorical variables, <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = 0\)</span> if the <span class="math inline">\(x_{a,j}\)</span> and <span class="math inline">\(x_{b,j}\)</span> are the same category, and <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = 1\)</span> otherwise</li>
 </ul></li>
 </ul>
 </div>
