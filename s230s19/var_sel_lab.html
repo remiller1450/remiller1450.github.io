@@ -386,7 +386,7 @@ backward_subs_original</code></pre>
 ## 
 ## The top 5 variables (out of 16):
 ##    NumSulfer, NumMultBonds, NumAromaticBonds, NumNitrogen, NumOxygen</code></pre>
-<p><strong>Question 5</strong>: Of all the models considered at so far, which do you prefer? Create a plot that shows the top three models side-by-side.</p>
+<p><strong>Question 5</strong>: Of all the models considered so far, which do you prefer? Create a plot that shows the top three models side-by-side.</p>
 </div>
 <div id="partial-least-squares-pls" class="section level2">
 <h2>Partial Least Squares (PLS)</h2>
@@ -459,7 +459,7 @@ pls.fit</code></pre>
 ## NumBonds            1.680
 ## NumAtoms            0.000</code></pre>
 <pre class="r"><code>#pls.fit$finalModel$loadings # See the loadings for each component</code></pre>
-<p><strong>Question 7</strong>: Compare the PLS models (contained in <code>pls.fit</code>) with the previous best models (which you plotted in Question 5). Update your plot to include your chosen PLS model.</p>
+<p><strong>Question 7</strong>: Compare the PLS models (contained in <code>pls.fit</code>) with the previous best models (which you plotted in Question 5). Update your plot (created in Question 5) to include one of these PLS models.</p>
 </div>
 <div id="least-absolute-shrinkage-and-selection-operator-lasso" class="section level2">
 <h2>Least Absolute Shrinkage and Selection Operator (LASSO)</h2>
@@ -491,6 +491,7 @@ all_coefs[all_coefs != 0]</code></pre>
 <div id="conclusions" class="section level2">
 <h2>Conclusions</h2>
 <p>In this application we saw that using a reduced set of derived dimensions offered an advantage over using subsets of the original variables, but only if the construction of those dimensions took the outcome variable into consideration (partial least squares performed better than principle components regression). We then saw that the 208 binary features could aid prediction even further the appropriate method was used to perform feature selection.</p>
+<p>The final step in this analysis would be to apply our selected model to the test data. This would be done using the <code>predict</code> function, and a would be a key determinant of how successful your chosen model is.</p>
 </div>
 
 
