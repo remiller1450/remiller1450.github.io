@@ -486,7 +486,7 @@ summary(cv.fit)</code></pre>
 ## We want only the column of beta corresponding to the lambda that minimizes CV RSME
 all_coefs &lt;- cv.fit$fit$beta[,cv.fit$fit$lambda == cv.fit$lambda.min]
 all_coefs[all_coefs != 0]</code></pre>
-<p><strong>Question 8</strong>: Use forward feature selection (implemented in the <code>ffs</code> function, see the slides for an example) on the data (including the 208 binary structure features) using <code>method = &quot;lm&quot;</code>. How does this model compare to the LASSO model? (compare their predictive performance and selected variables)</p>
+<p><strong>Question 8</strong>: (<strong>THIS QUESTION WILL NOT BE GRADED, IT TAKES TOO LONG FOR ffs to RUN</strong>) Use forward feature selection (implemented in the <code>ffs</code> function, see the slides for an example) on the data (including the 208 binary structure features) using <code>method = &quot;lm&quot;</code>. How does this model compare to the LASSO model? (compare their predictive performance and selected variables)</p>
 </div>
 <div id="conclusions" class="section level2">
 <h2>Conclusions</h2>
