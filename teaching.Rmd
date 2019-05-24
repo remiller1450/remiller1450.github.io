@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-Teaching has long been a passion of mine and throughout my career I've taught numerous courses in a variety of academic settings.  Descriptions of the courses I've taught can be found below.
+Teaching has long been a passion of mine and throughout my career I've taught numerous courses in mathematics, statistics, and data science in a variety of settings.  Information on the courses I've taught can be found below.
 
 ### STA-209 - Applied Statistics - Grinnell College
 
