@@ -1,0 +1,295 @@
+---
+title: "Sta-209 (Fall 2019)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigation panel on the left side of this page to view the course schedule
+
+- [Click here](syllabus209f19.html) to view the course syllabus
+- [Click here](tabs209f19.html) to view a compact table displaying important course materials
+
+<br/><br/>
+<br/><br/>
+
+## Unit #1 - Describing Data
+
+### Week 1 (5/30)
+
+**In Class**:
+
+- Friday 5/30
+    - Discuss [syllabus](syllabus209f19.html)
+    - [Introduction to Statistics Notes](ADD)
+    
+**Assignments**:
+
+- First Day Survey (due Monday 9/2)
+
+**Assignments Due**:
+
+- None
+
+<br/><br/>
+<br/><br/>
+
+### Week 2 (9/2 - 9/6)
+
+**In Class**:
+
+- Monday 9/2
+
+- Wednesday 9/4
+
+- Friday 9/6
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 3 (9/9 - 9/13)
+
+**In Class**:
+
+- Monday 9/9
+
+- Wednesday 9/11
+
+- Friday 9/13
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 4 (9/16 - 9/20)
+
+**In Class**:
+
+- Monday 9/16
+
+- Wednesday 9/18
+
+- Friday 9/20
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 5 (9/23 - 9/27)
+
+**In Class**:
+
+- Monday 9/23
+
+- Wednesday 9/25
+
+- Friday 9/27
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+## Unit #2 - Statistical Inference
+
+### Week 6 (9/30 - 10/4)
+
+**In Class**:
+
+- Monday 9/30
+
+- Wednesday 10/2
+
+- Friday 10/4
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 7 (10/7 - 10/11)
+
+**In Class**:
+
+- Monday 10/7
+
+- Wednesday 10/9
+
+- Friday 10/11
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 8 (10/14 - 10/18)
+
+**In Class**:
+
+- Monday 10/14
+
+- Wednesday 10/16
+
+- Friday 10/18
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+**FALL BREAK (10/21 - 10/24)**
+
+<br/><br/>
+<br/><br/>
+
+### Week 9 (10/28 - 11/1)
+
+**In Class**:
+
+- Monday 10/28
+
+- Wednesday 10/30
+
+- Friday 11/1
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 10 (11/4 - 11/8)
+
+**In Class**:
+
+- Monday 11/4
+
+- Wednesday 11/6
+
+- Friday 11/8
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 11 (11/11 - 11/15)
+
+**In Class**:
+
+- Monday 11/11
+
+- Wednesday 11/13
+
+- Friday 11/15
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 12 (11/18 - 11/22)
+
+**In Class**:
+
+- Monday 11/18
+
+- Wednesday 11/20
+
+- Friday 11/22
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+## Unit #3 - Statistical Models
+
+### Week 13 (11/25 - 11/27)
+
+**In Class**:
+
+- Monday 11/25
+
+- Wednesday 11/27
+
+- Friday 11/29 (no class)
+    - Happy Thanksgiving!
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 14 (12/2 - 12/6)
+
+**In Class**:
+
+- Monday 12/2
+
+- Wednesday 12/4
+
+- Friday 12/6
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Week 15 (12/9 - 12/13)
+
+**In Class**:
+
+- Monday 12/9
+
+- Wednesday 12/11
+
+- Friday 12/13
+    
+**Assignments**:
+
+**Assignments Due**:
+
+<br/><br/>
+<br/><br/>
+
+### Exam Week (12/16 - 12/20)
+
+**Information Coming Soon**
