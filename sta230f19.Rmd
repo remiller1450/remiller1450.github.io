@@ -1,5 +1,5 @@
 ---
-title: "Sta-209 (Fall 2019)"
+title: "Sta-230 (Fall 2019)"
 output:
   html_document:
     toc: true
@@ -13,31 +13,33 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigation panel on the left side of this page to view the course schedule
+Welcome to Sta-209, Introduction to Data Science! 
 
-- [Click here](syllabus209f19.html) to view the course syllabus
-- [Click here](tabs209f19.html) to view a compact table displaying important course materials
+- [Click here](syllabus230f19.html) to view the course syllabus
+- [Click here](tabs230f19.html) to view a compact page of important course materials
+
+You can scroll down this page, or use the navigation panel on the left side of this page to view the course schedule
 
 <br/><br/>
-<br/><br/>
 
-## Unit #1 - Describing Data
+## Unit #1 - `R` Programming and Data Science Principles
 
-### Week 1 (8/30)
+### Week 1 (8/29 - 8/30)
 
 **In Class**:
 
-- Friday 8/30
-    - Discuss the [syllabus](syllabus209f19.html)
-    - Introduction to Statistics [Notes](ADD)
+- Thursday 8/29
+    - Discuss the [syllabus](syllabus230f19.html)
+    - [NYPD Activity](ADD)
     
 **Assignments**:
 
-- First Day Survey (due Monday 9/2)
+- First Day Survey (due Tuesday 9/3)
 
 **Assignments Due**:
 
 - None
+
 
 <br/><br/>
 <br/><br/>
@@ -46,15 +48,20 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 9/2
+- Tuesday 9/3
 
-- Wednesday 9/4
 
-- Friday 9/6
+- Thursday 9/5
+
     
 **Assignments**:
 
+- Lab Questions Set #1 (due Tuesday 9/10)
+- Individual Problem Set #1 (due Friday 9/13)
+
 **Assignments Due**:
+
+- First Day Survey (due Tuesday 9/3)
 
 <br/><br/>
 <br/><br/>
@@ -63,15 +70,19 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 9/9
+- Tuesday 9/10
 
-- Wednesday 9/11
+- Thursday 9/12
 
-- Friday 9/13
     
 **Assignments**:
 
+- Lab Questions Set #2 (due Tuesday 9/17)
+
 **Assignments Due**:
+
+- Lab Questions Set #1 (due Tuesday 9/10)
+- Individual Problem Set #1 (due Friday 9/13)
 
 <br/><br/>
 <br/><br/>
@@ -80,15 +91,20 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 9/16
+- Tuesday 9/17
 
-- Wednesday 9/18
 
-- Friday 9/20
+- Thursday 9/19
+
     
 **Assignments**:
 
+- Lab Questions Set #3 (due Tuesday 9/24)
+- Individual Problem Set #2 (due Friday 9/27)
+
 **Assignments Due**:
+
+- Lab Questions Set #2 (due Tuesday 9/17)
 
 <br/><br/>
 <br/><br/>
@@ -97,30 +113,27 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 9/23
+- Tuesday 9/24
 
-- Wednesday 9/25
+- Thursday 9/26
 
-- Friday 9/27
-    
 **Assignments**:
+
 
 **Assignments Due**:
 
 <br/><br/>
 <br/><br/>
 
-## Unit #2 - Statistical Inference
 
 ### Week 6 (9/30 - 10/4)
 
 **In Class**:
 
-- Monday 9/30
+- Tuesday 10/1
+    
+- Thursday 10/3 
 
-- Wednesday 10/2
-
-- Friday 10/4
     
 **Assignments**:
 
@@ -133,11 +146,9 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 10/7
-
-- Wednesday 10/9
-
-- Friday 10/11
+- Tuesday 10/8
+    
+- Thursday 10/10
     
 **Assignments**:
 
@@ -150,11 +161,10 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 10/14
+- Tuesday 10/15
 
-- Wednesday 10/16
+- Thursday 10/17
 
-- Friday 10/18
     
 **Assignments**:
 
@@ -168,15 +178,16 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 <br/><br/>
 <br/><br/>
 
+## Unit #2 - Unsupervised Learning
+
 ### Week 9 (10/28 - 11/1)
 
 **In Class**:
 
-- Monday 10/28
+- Tuesday 10/29
 
-- Wednesday 10/30
+- Thursday 10/31
 
-- Friday 11/1
     
 **Assignments**:
 
@@ -184,16 +195,16 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 <br/><br/>
 <br/><br/>
+
 
 ### Week 10 (11/4 - 11/8)
 
 **In Class**:
 
-- Monday 11/4
+- Tuesday 11/5
 
-- Wednesday 11/6
+- Thursday 11/7
 
-- Friday 11/8
     
 **Assignments**:
 
@@ -201,36 +212,32 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 <br/><br/>
 <br/><br/>
+
+## Unit #3 - Supervised Learning
 
 ### Week 11 (11/11 - 11/15)
 
 **In Class**:
 
-- Monday 11/11
+- Tuesday 11/12
 
-- Wednesday 11/13
+- Thursday 11/14
 
-- Friday 11/15
-    
 **Assignments**:
 
 **Assignments Due**:
 
 <br/><br/>
 <br/><br/>
-
-## Unit #3 - Statistical Models
 
 ### Week 12 (11/18 - 11/22)
 
 **In Class**:
 
-- Monday 11/18
+- Tuesday 11/19
 
-- Wednesday 11/20
+- Thursday 11/21
 
-- Friday 11/22
-    
 **Assignments**:
 
 **Assignments Due**:
@@ -238,16 +245,13 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 <br/><br/>
 <br/><br/>
 
-
-### Week 13 (11/25 - 11/27)
+### Week 13 (11/25 - 11/29)
 
 **In Class**:
 
-- Monday 11/25
+- Tuesday 11/26
 
-- Wednesday 11/27
-
-- Friday 11/29 (no class)
+- Thursday 11/28 (no class)
     - Happy Thanksgiving!
     
 **Assignments**:
@@ -261,11 +265,10 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 12/2
+- Tuesday 12/3
+    
+- Tuesday 12/5
 
-- Wednesday 12/4
-
-- Friday 12/6
     
 **Assignments**:
 
@@ -278,11 +281,11 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 **In Class**:
 
-- Monday 12/9
-
-- Wednesday 12/11
-
-- Friday 12/13
+- Tuesday 12/10 (no class)
+    - Final project meetings
+    
+- Tuesday 12/5 (no class)
+    - Final project meetings
     
 **Assignments**:
 
@@ -293,4 +296,8 @@ Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigatio
 
 ### Exam Week (12/16 - 12/20)
 
-**Information Coming Soon**
+- Date TBD
+    - Final project presentations
+    
+- Friday 12/20
+    - Final paper and code due (emailed before 5:00pm)

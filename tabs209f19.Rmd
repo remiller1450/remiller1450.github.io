@@ -1,0 +1,85 @@
+---
+title: "Sta-230 (Spring 2019) Materials"
+output: html_document
+---
+
+**Note**: Links will not become active until we've reached the appropriate point in the course
+
+### Presentations
+
+- [Numeric Summaries](s230f19/summaries_pres.html)
+- [The Simple-to-Complex Principle, Confounding, and Stratification](s230f19/simple_complex.html)
+- [Feature Construction and Transformations](s230f19/simple_complex.html)
+- [Smoothing](s230f19/smoothing.html)
+- [Density](s230f19/density.html)
+- [Relational Databases](s230f19/relational_data.html)
+- [Intro to R Shiny](s230f19/shiny_intro.html)
+- [Principle Components Analysis (part I)](s230f19/pca1.html)
+- [Principle Components Analysis (part II)](s230f19/pca2.html)
+- [Clustering (part I)](s230f19/clustering1.html)
+- [Clustering (part II)](s230f19/clustering2.html)
+- [Linear Regression and k-nearest Neighbors](s230f19/supervised_numeric.html)
+- [Cross-validation](s230f19/cross_validation.html)
+- [Logistic Regression, k-nearest Neighbors, and Naive Bayes](s230f19/supervised_categorical.html)
+- [Sensitivity, Specificity, and Kappa](s230f19/accuracy.html)
+- [Black Box Methods (part I)](s230f19/black_box1.html)
+- [Black Box Methods (part II)](s230f19/black_box1.html)
+- [Case Study #1 (Final Project Example)](s230f19/case_study1.html)
+- [Case Study #2 (Final Project Example)](s230f19/case_study2.html)
+
+
+### Labs
+
+- [NYPD Activity](s230f19/NYPD.html)
+- [Intro to R](s230f19/Intro_R.html)
+- [Tidy Data](s230f19/tidyr.html)
+- [Data Wrangling](s230f19/dplyr.html)
+- [Creating Visuals](s230f19/ggplot.html)
+- [Interactive Visuals](s230f19/plotly.html)
+- [Merging and Joining](s230f19/merging.html)
+- [Making Maps (basic)](s230f19/maps1.html)
+- [Making Maps (with shapefiles)](s230f19/maps2.html)
+- [Web Scraping](s230f19/scraping.html)
+- [String Processing](s230f19/stringr.html)
+- [Principle Components Analysis](s230f19/pca_lab.html)
+- [Clustering](s230f19/clustering_lab.html)
+- [Supervised Learning with `caret`](s230f19/caret_lab.html)
+- [Black Box Machine Learning](s230f19/black_box_lab.html)
+
+### Group Lab Assignments
+
+- Lab Submission #1 (due Tuesday 9/10)
+    - All questions from the [Intro to R](s230f19/Intro_R.html) and [Tidy Data](s230f19/tidyr.html) labs
+- Lab Submission #2 (due Tuesday 9/17)
+    - All questions from the [Data Wrangling](s230f19/dplyr.html) and [Creating Visuals](s230f19/ggplot.html) labs
+- Lab Submission #3 (due Tuesday 9/24)
+    - All questions from the [Interactive Visuals](s230f19/dplyr.html) and [Merging and Joining](s230f19/ggplot.html) labs
+- Lab Submission #4 (due Tuesday 10/1)
+    - All questions from the [Making Maps (basic)](s230f19/maps1.html) lab (Extra credit for the [Making Maps (with shapefiles)](s230f19/maps2.html) on-your-own question)
+- Lab Submission #5 (due *Friday* 10/21)
+    - All questions from the [Web Scraping](s230f19/scraping.html) and [String Processing](s230f19/stringr.html) labs
+- Lab Submission #6 (due Tuesday 11/5)
+    - All questions from the [Principle Components Analysis](s230f19/pca_lab.html) lab
+- Lab Submission #7 (due Tuesday 11/12)
+    - All questions from the [Clustering](s230f19/clustering_lab.html) lab
+- Lab Submission #8 (due Tuesday 11/19)
+    - All questions from the [Supervised Learning with `caret`](s230f19/caret_lab.html) lab
+- Lab Submission #9 (due Tuesday 12/3)
+    - All questions from the [Black Box Machine Learning](s230f19/black_box_lab.html) lab
+                      
+    
+### Individual Problem Sets
+
+- Problem Set #1 (due Friday 9/13)
+- Problem Set #2 (due Friday 9/27)
+- Problem Set #3 (due Friday 10/11)
+- Problem Set #4 (due *Monday* 10/28)
+- Problem Set #5 (due Friday 11/8)
+- Problem Set #6 (due Friday 11/22)
+- Problem Set #7 (due Friday 12/6)
+
+
+
+### Datasets and Dictionaries
+
+-
