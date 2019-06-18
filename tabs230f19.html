@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-230 (Spring 2019) Materials</title>
+<title>Sta-230 Schedule (Fall 2019)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -169,6 +172,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -230,118 +328,239 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Sta-230 (Spring 2019) Materials</h1>
+<h1 class="title toc-ignore">Sta-230 Schedule (Fall 2019)</h1>
 
 </div>
 
 
-<p><strong>Note</strong>: Links will not become active until we’ve reached the appropriate point in the course</p>
-<div id="presentations" class="section level3">
-<h3>Presentations</h3>
+<p>You can scroll down this page, or use the navigation panel on the left side of this page to view the course schedule.</p>
+<p><br/><br/></p>
+<div id="august-and-september" class="section level2">
+<h2>August and September</h2>
+<div id="week-1-829---830" class="section level3">
+<h3>Week 1 (8/29 - 8/30)</h3>
+<p><strong>In Class</strong>:</p>
 <ul>
-<li><a href="s230f19/summaries_pres.html">Numeric Summaries</a></li>
-<li><a href="s230f19/simple_complex.html">The Simple-to-Complex Principle, Confounding, and Stratification</a></li>
-<li><a href="s230f19/simple_complex.html">Feature Construction and Transformations</a></li>
-<li><a href="s230f19/smoothing.html">Smoothing</a></li>
-<li><a href="s230f19/density.html">Density</a></li>
-<li><a href="s230f19/relational_data.html">Relational Databases</a></li>
-<li><a href="s230f19/shiny_intro.html">Intro to R Shiny</a></li>
-<li><a href="s230f19/pca1.html">Principle Components Analysis (part I)</a></li>
-<li><a href="s230f19/pca2.html">Principle Components Analysis (part II)</a></li>
-<li><a href="s230f19/clustering1.html">Clustering (part I)</a></li>
-<li><a href="s230f19/clustering2.html">Clustering (part II)</a></li>
-<li><a href="s230f19/supervised_numeric.html">Linear Regression and k-nearest Neighbors</a></li>
-<li><a href="s230f19/cross_validation.html">Cross-validation</a></li>
-<li><a href="s230f19/supervised_categorical.html">Logistic Regression, k-nearest Neighbors, and Naive Bayes</a></li>
-<li><a href="s230f19/accuracy.html">Sensitivity, Specificity, and Kappa</a></li>
-<li><a href="s230f19/black_box1.html">Black Box Methods (part I)</a></li>
-<li><a href="s230f19/black_box1.html">Black Box Methods (part II)</a></li>
-<li><a href="s230f19/case_study1.html">Case Study #1 (Final Project Example)</a></li>
-<li><a href="s230f19/case_study2.html">Case Study #2 (Final Project Example)</a></li>
-</ul>
-</div>
-<div id="labs" class="section level3">
-<h3>Labs</h3>
+<li>Thursday 8/29
 <ul>
+<li>Discuss the <a href="syllabus230f19.html">syllabus</a></li>
 <li><a href="s230f19/NYPD.html">NYPD Activity</a></li>
-<li><a href="s230f19/Intro_R.html">Intro to R</a></li>
-<li><a href="s230f19/tidyr.html">Tidy Data</a></li>
-<li><a href="s230f19/dplyr.html">Data Wrangling</a></li>
-<li><a href="s230f19/ggplot.html">Creating Visuals</a></li>
-<li><a href="s230f19/plotly.html">Interactive Visuals</a></li>
-<li><a href="s230f19/merging.html">Merging and Joining</a></li>
-<li><a href="s230f19/maps1.html">Making Maps (basic)</a></li>
-<li><a href="s230f19/maps2.html">Making Maps (with shapefiles)</a></li>
-<li><a href="s230f19/scraping.html">Web Scraping</a></li>
-<li><a href="s230f19/stringr.html">String Processing</a></li>
-<li><a href="s230f19/pca_lab.html">Principle Components Analysis</a></li>
-<li><a href="s230f19/clustering_lab.html">Clustering</a></li>
-<li><a href="s230f19/caret_lab.html">Supervised Learning with <code>caret</code></a></li>
-<li><a href="s230f19/black_box_lab.html">Black Box Machine Learning</a></li>
+</ul></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<ul>
+<li>First Day Survey (due Tuesday 9/3)</li>
+</ul>
+<p><strong>Assignments Due</strong>:</p>
+<ul>
+<li>None</li>
+</ul>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-2-92---96" class="section level3">
+<h3>Week 2 (9/2 - 9/6)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 9/3</p></li>
+<li><p>Thursday 9/5</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<ul>
+<li>Lab Questions Set #1 (due Tuesday 9/10)</li>
+<li>Individual Problem Set #1 (due Friday 9/13)</li>
+</ul>
+<p><strong>Assignments Due</strong>:</p>
+<ul>
+<li>First Day Survey (due Tuesday 9/3)</li>
+</ul>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-3-99---913" class="section level3">
+<h3>Week 3 (9/9 - 9/13)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 9/10</p></li>
+<li><p>Thursday 9/12</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<ul>
+<li>Lab Questions Set #1 (due Tuesday 9/10)</li>
+<li>Individual Problem Set #1 (due Friday 9/13)</li>
+</ul>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-4-916---920" class="section level3">
+<h3>Week 4 (9/16 - 9/20)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 9/17</p></li>
+<li><p>Thursday 9/19</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-5-923---927" class="section level3">
+<h3>Week 5 (9/23 - 9/27)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 9/24</p></li>
+<li><p>Thursday 9/26</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+</div>
+<div id="october" class="section level2">
+<h2>October</h2>
+<div id="week-6-930---104" class="section level3">
+<h3>Week 6 (9/30 - 10/4)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 10/1</p></li>
+<li><p>Thursday 10/3</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-7-107---1011" class="section level3">
+<h3>Week 7 (10/7 - 10/11)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 10/8</p></li>
+<li><p>Thursday 10/10</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-8-1014---1018" class="section level3">
+<h3>Week 8 (10/14 - 10/18)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 10/15</p></li>
+<li><p>Thursday 10/17</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+<p><strong>FALL BREAK (10/21 - 10/24)</strong></p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-9-1028---111" class="section level3">
+<h3>Week 9 (10/28 - 11/1)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 10/29</p></li>
+<li><p>Thursday 10/31</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+</div>
+<div id="november" class="section level2">
+<h2>November</h2>
+<div id="week-10-114---118" class="section level3">
+<h3>Week 10 (11/4 - 11/8)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 11/5</p></li>
+<li><p>Thursday 11/7</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-11-1111---1115" class="section level3">
+<h3>Week 11 (11/11 - 11/15)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 11/12</p></li>
+<li><p>Thursday 11/14</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-12-1118---1122" class="section level3">
+<h3>Week 12 (11/18 - 11/22)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 11/19</p></li>
+<li><p>Thursday 11/21</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-13-1125---1129" class="section level3">
+<h3>Week 13 (11/25 - 11/29)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 11/26</p></li>
+<li>Thursday 11/28 (no class)
+<ul>
+<li>Happy Thanksgiving!</li>
+</ul></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+</div>
+<div id="december" class="section level2">
+<h2>December</h2>
+<div id="week-14-122---126" class="section level3">
+<h3>Week 14 (12/2 - 12/6)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Tuesday 12/3</p></li>
+<li><p>Tuesday 12/5</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-15-129---1213" class="section level3">
+<h3>Week 15 (12/9 - 12/13)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li>Tuesday 12/10 (no class)
+<ul>
+<li>Final project meetings</li>
+</ul></li>
+<li>Tuesday 12/5 (no class)
+<ul>
+<li>Final project meetings</li>
+</ul></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="exam-week-1216---1220" class="section level3">
+<h3>Exam Week (12/16 - 12/20)</h3>
+<ul>
+<li>Date TBD
+<ul>
+<li>Final project presentations</li>
+</ul></li>
+<li>Friday 12/20
+<ul>
+<li>Final paper and code due (emailed before 5:00pm)</li>
+</ul></li>
 </ul>
 </div>
-<div id="group-lab-assignments" class="section level3">
-<h3>Group Lab Assignments</h3>
-<ul>
-<li>Lab Submission #1 (due Tuesday 9/10)
-<ul>
-<li>All questions from the <a href="s230f19/Intro_R.html">Intro to R</a> and <a href="s230f19/tidyr.html">Tidy Data</a> labs</li>
-</ul></li>
-<li>Lab Submission #2 (due Tuesday 9/17)
-<ul>
-<li>All questions from the <a href="s230f19/dplyr.html">Data Wrangling</a> and <a href="s230f19/ggplot.html">Creating Visuals</a> labs</li>
-</ul></li>
-<li>Lab Submission #3 (due Tuesday 9/24)
-<ul>
-<li>All questions from the <a href="s230f19/dplyr.html">Interactive Visuals</a> and <a href="s230f19/ggplot.html">Merging and Joining</a> labs</li>
-</ul></li>
-<li>Lab Submission #4 (due Tuesday 10/1)
-<ul>
-<li>All questions from the <a href="s230f19/maps1.html">Making Maps (basic)</a> lab (Extra credit for the <a href="s230f19/maps2.html">Making Maps (with shapefiles)</a> on-your-own question)</li>
-</ul></li>
-<li>Lab Submission #5 (due <em>Friday</em> 10/21)
-<ul>
-<li>All questions from the <a href="s230f19/scraping.html">Web Scraping</a> and <a href="s230f19/stringr.html">String Processing</a> labs</li>
-</ul></li>
-<li>Lab Submission #6 (due Tuesday 11/5)
-<ul>
-<li>All questions from the <a href="s230f19/pca_lab.html">Principle Components Analysis</a> lab</li>
-</ul></li>
-<li>Lab Submission #7 (due Tuesday 11/12)
-<ul>
-<li>All questions from the <a href="s230f19/clustering_lab.html">Clustering</a> lab</li>
-</ul></li>
-<li>Lab Submission #8 (due Tuesday 11/19)
-<ul>
-<li>All questions from the <a href="s230f19/caret_lab.html">Supervised Learning with <code>caret</code></a> lab</li>
-</ul></li>
-<li>Lab Submission #9 (due Tuesday 12/3)
-<ul>
-<li>All questions from the <a href="s230f19/black_box_lab.html">Black Box Machine Learning</a> lab</li>
-</ul></li>
-</ul>
-</div>
-<div id="individual-problem-sets" class="section level3">
-<h3>Individual Problem Sets</h3>
-<ul>
-<li>Problem Set #1 (due Friday 9/13)</li>
-<li>Problem Set #2 (due Friday 9/27)</li>
-<li>Problem Set #3 (due Friday 10/11)</li>
-<li>Problem Set #4 (due <em>Monday</em> 10/28)</li>
-<li>Problem Set #5 (due Friday 11/8)</li>
-<li>Problem Set #6 (due Friday 11/22)</li>
-<li>Problem Set #7 (due Friday 12/6)</li>
-</ul>
-</div>
-<div id="datasets-and-dictionaries" class="section level3">
-<h3>Datasets and Dictionaries</h3>
-<ul>
-<li></li>
-</ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
