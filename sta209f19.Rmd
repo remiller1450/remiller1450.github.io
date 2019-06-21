@@ -1,296 +1,113 @@
 ---
-title: "Sta-209 (Fall 2019)"
-output:
-  html_document:
-    toc: true
-    toc_float:
-      collapsed: true
-      smooth_scroll: false
+title: "Sta-209 Applied Statistics (Spring 2019)"
+output: html_document
 ---
 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigation panel on the left side of this page to view the course schedule
+Welcome to Sta-209, Applied Statistics!  On this page you can find all of the materials we'll use during the semester, starting with the syllabus linked below:
 
 - [Click here](syllabus209f19.html) to view the course syllabus
-- [Click here](tabs209f19.html) to view a compact table displaying important course materials
 
-<br/><br/>
-<br/><br/>
+To see when and how we'll use these materials please visit the schedule page linked below:
 
-## Unit #1 - Describing Data
+- [Click here](tabs209f19.html) to view the course schedule
 
-### Week 1 (8/30)
+You can find course content in the sections below.  Please note:
 
-**In Class**:
+1. Links will not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is because haven't gotten to that topic yet.
+2. Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.
 
-- Friday 8/30
-    - Discuss the [syllabus](syllabus209f19.html)
-    - Introduction to Statistics [Notes](ADD)
+
+### Lectures
+
+- Introduction
+- Populations and Samples
+- Descriptive Statistics
+- Causation and Randomized Experiments
+- Interval Estimation Part I (Sampling Distributions)
+- Interval Estimation Part II (Bootstrapping)
+- Interval Estimation Part III (Normal Approximations)
+- Hypothesis Testing Part I (Null Distributions and p-values)
+- Hypothesis Testing Part II (Randomization Tests)
+- Hypothesis Testing Part III (Normal Approximations)
+- Testing Errors and Multiple Comparisons
+- Chi-Squared Tests
+- Contingency Tables
+- Outliers and Transformations
+- Analysis of Variance (ANOVA)
+- Regression Part I (Simple Linear Regression)
+- Regression Part II (Multiple Regression)
+
+### Labs
+
+- Lab #1 - Graphs and Desctiptive Statistics
+    - due date: TBD
+- Lab #2 - Confounding Variables and Stratification
+    - due date: TBD
+- Lab #3 - Bootstrapping
+    - due date: TBD
+- Lab #4 - Confidence Intervals
+    - due date: TBD
+- Lab #5 - Randomization Testing
+    - due date: TBD
+- Lab #6 - Hypothesis Testing
+    - due date: TBD
+- Lab #7 - Case Studies in Statistical Inference
+    - due date: TBD
+- Lab #8 - Case Studies in Statistical Inference
+    - due date: TBD
+- Lab #9 - Analysis of Variance
+    - due date: TBD
+- Lab #10 - Regression
+    - due date: TBD
+
+### Datasets
+
+- Happy Planet Data
+- Class Survey Results
+- Florida Death Penalty Sentencing
+- Iowa City Home Sales
+- Election Margins
+- Small Colleges
+- Parking Behavior
+- Webpage A/B Testing
+- Lead IQ
+- Wetsuits
+- Police Killings
+- Golden State Warriors
+- Tailgating
+- TSA Claims
+- Tips
+- Professor Beauty and Student Evaluations
+- Breast Cancer Survival
     
-**Assignments**:
-
-- First Day Survey (due Monday 9/2)
-
-**Assignments Due**:
-
-- None
-
-<br/><br/>
-<br/><br/>
-
-### Week 2 (9/2 - 9/6)
-
-**In Class**:
-
-- Monday 9/2
-
-- Wednesday 9/4
-
-- Friday 9/6
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 3 (9/9 - 9/13)
-
-**In Class**:
-
-- Monday 9/9
-
-- Wednesday 9/11
-
-- Friday 9/13
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 4 (9/16 - 9/20)
-
-**In Class**:
-
-- Monday 9/16
-
-- Wednesday 9/18
-
-- Friday 9/20
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 5 (9/23 - 9/27)
-
-**In Class**:
-
-- Monday 9/23
-
-- Wednesday 9/25
-
-- Friday 9/27
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-## Unit #2 - Statistical Inference
-
-### Week 6 (9/30 - 10/4)
-
-**In Class**:
-
-- Monday 9/30
-
-- Wednesday 10/2
-
-- Friday 10/4
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 7 (10/7 - 10/11)
-
-**In Class**:
-
-- Monday 10/7
-
-- Wednesday 10/9
-
-- Friday 10/11
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 8 (10/14 - 10/18)
-
-**In Class**:
-
-- Monday 10/14
-
-- Wednesday 10/16
-
-- Friday 10/18
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-**FALL BREAK (10/21 - 10/24)**
-
-<br/><br/>
-<br/><br/>
-
-### Week 9 (10/28 - 11/1)
-
-**In Class**:
-
-- Monday 10/28
-
-- Wednesday 10/30
-
-- Friday 11/1
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 10 (11/4 - 11/8)
-
-**In Class**:
-
-- Monday 11/4
-
-- Wednesday 11/6
-
-- Friday 11/8
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 11 (11/11 - 11/15)
-
-**In Class**:
-
-- Monday 11/11
-
-- Wednesday 11/13
-
-- Friday 11/15
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-## Unit #3 - Statistical Models
-
-### Week 12 (11/18 - 11/22)
-
-**In Class**:
-
-- Monday 11/18
-
-- Wednesday 11/20
-
-- Friday 11/22
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-
-### Week 13 (11/25 - 11/27)
-
-**In Class**:
-
-- Monday 11/25
-
-- Wednesday 11/27
-
-- Friday 11/29 (no class)
-    - Happy Thanksgiving!
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 14 (12/2 - 12/6)
-
-**In Class**:
-
-- Monday 12/2
-
-- Wednesday 12/4
-
-- Friday 12/6
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Week 15 (12/9 - 12/13)
-
-**In Class**:
-
-- Monday 12/9
-
-- Wednesday 12/11
-
-- Friday 12/13
-    
-**Assignments**:
-
-**Assignments Due**:
-
-<br/><br/>
-<br/><br/>
-
-### Exam Week (12/16 - 12/20)
-
-**Information Coming Soon**
+### Homeworks
+
+- HW #1: TBD
+    - due date: Friday 9/6
+- HW #2: TBD
+    - due date: Friday 9/13
+- HW #3: TBD
+    - due date: Friday 9/20
+- HW #4: TBD
+    - due date: Friday 9/27
+- HW #5: TBD
+    - due date: Friday 10/4
+- HW #6: TBD
+    - due date: Friday 10/11
+- HW #7: TBD
+    - due date: Friday 10/18
+- HW #8: TBD
+    - due date: Friday 11/1
+- HW #9: TBD
+    - due date: Friday 11/8
+- HW #10: TBD
+    - due date: Friday 11/15
+- HW #11: TBD
+    - due date: Friday 11/22
+- HW #12: TBD
+    - due date: Wednesday 11/27
+
+
+### Other Materials
+
+- To be added as needed

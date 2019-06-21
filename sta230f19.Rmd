@@ -13,7 +13,7 @@ To see when and how we'll use these materials please visit the schedule page lin
 
 You can find course content in the sections below.  Please note:
 
-1. Links will not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is because haven't gotten to that topic yet
+1. Links will not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is because haven't gotten to that topic yet.
 2. As a data scientist you should realize that it is difficult to predict far into the future, so some details on this page might be subject to change as we progress through the semester.
 
 ### Labs

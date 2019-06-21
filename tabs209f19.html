@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-209 (Spring 2019) Materials</title>
+<title>Sta-209 Schedule (Fall 2019)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -169,6 +172,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -230,45 +328,227 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Sta-209 (Spring 2019) Materials</h1>
+<h1 class="title toc-ignore">Sta-209 Schedule (Fall 2019)</h1>
 
 </div>
 
 
-<p><strong>Note</strong>: Links will not become active until we’ve reached the appropriate point in the course</p>
-<div id="lectures" class="section level3">
-<h3>Lectures</h3>
+<p>You can scroll down this page, or use the navigation panel on the left side of this page to view the course schedule.</p>
+<p><br/><br/></p>
+<div id="august-and-september" class="section level2">
+<h2>August and September</h2>
+<div id="week-1-830" class="section level3">
+<h3>Week 1 (8/30)</h3>
+<p><strong>In Class</strong>:</p>
 <ul>
-<li></li>
-</ul>
-</div>
-<div id="labs" class="section level3">
-<h3>Labs</h3>
+<li>Friday 8/30
 <ul>
-<li></li>
+<li>Discuss the <a href="syllabus209f19.html">syllabus</a></li>
+<li>Introduction to Statistics <a href="ADD">Notes</a></li>
+</ul></li>
 </ul>
-</div>
-<div id="datasets-and-data-dictionaries" class="section level3">
-<h3>Datasets and Data Dictionaries</h3>
+<p><strong>Assignments</strong>:</p>
 <ul>
-<li></li>
+<li>First Day Survey (due Monday 9/2)</li>
 </ul>
-</div>
-<div id="homeworks" class="section level3">
-<h3>Homeworks</h3>
+<p><strong>Assignments Due</strong>:</p>
 <ul>
-<li></li>
+<li>None</li>
 </ul>
+<p><br/><br/> <br/><br/></p>
 </div>
-<div id="other-materials" class="section level3">
-<h3>Other Materials</h3>
+<div id="week-2-92---96" class="section level3">
+<h3>Week 2 (9/2 - 9/6)</h3>
+<p><strong>In Class</strong>:</p>
 <ul>
-<li></li>
+<li><p>Monday 9/2</p></li>
+<li><p>Wednesday 9/4</p></li>
+<li><p>Friday 9/6</p></li>
 </ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-3-99---913" class="section level3">
+<h3>Week 3 (9/9 - 9/13)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 9/9</p></li>
+<li><p>Wednesday 9/11</p></li>
+<li><p>Friday 9/13</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-4-916---920" class="section level3">
+<h3>Week 4 (9/16 - 9/20)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 9/16</p></li>
+<li><p>Wednesday 9/18</p></li>
+<li><p>Friday 9/20</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-5-923---927" class="section level3">
+<h3>Week 5 (9/23 - 9/27)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 9/23</p></li>
+<li><p>Wednesday 9/25</p></li>
+<li><p>Friday 9/27</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+</div>
+<div id="october" class="section level2">
+<h2>October</h2>
+<div id="week-6-930---104" class="section level3">
+<h3>Week 6 (9/30 - 10/4)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 9/30</p></li>
+<li><p>Wednesday 10/2</p></li>
+<li><p>Friday 10/4</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-7-107---1011" class="section level3">
+<h3>Week 7 (10/7 - 10/11)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 10/7</p></li>
+<li><p>Wednesday 10/9</p></li>
+<li><p>Friday 10/11</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-8-1014---1018" class="section level3">
+<h3>Week 8 (10/14 - 10/18)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 10/14</p></li>
+<li><p>Wednesday 10/16</p></li>
+<li><p>Friday 10/18</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+<p><strong>FALL BREAK (10/21 - 10/24)</strong></p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-9-1028---111" class="section level3">
+<h3>Week 9 (10/28 - 11/1)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 10/28</p></li>
+<li><p>Wednesday 10/30</p></li>
+<li><p>Friday 11/1</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+</div>
+<div id="november" class="section level2">
+<h2>November</h2>
+<div id="week-10-114---118" class="section level3">
+<h3>Week 10 (11/4 - 11/8)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 11/4</p></li>
+<li><p>Wednesday 11/6</p></li>
+<li><p>Friday 11/8</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-11-1111---1115" class="section level3">
+<h3>Week 11 (11/11 - 11/15)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 11/11</p></li>
+<li><p>Wednesday 11/13</p></li>
+<li><p>Friday 11/15</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-12-1118---1122" class="section level3">
+<h3>Week 12 (11/18 - 11/22)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 11/18</p></li>
+<li><p>Wednesday 11/20</p></li>
+<li><p>Friday 11/22</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-13-1125---1127" class="section level3">
+<h3>Week 13 (11/25 - 11/27)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 11/25</p></li>
+<li><p>Wednesday 11/27</p></li>
+<li>Friday 11/29 (no class)
+<ul>
+<li>Happy Thanksgiving!</li>
+</ul></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+</div>
+<div id="december" class="section level2">
+<h2>December</h2>
+<div id="week-14-122---126" class="section level3">
+<h3>Week 14 (12/2 - 12/6)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 12/2</p></li>
+<li><p>Wednesday 12/4</p></li>
+<li><p>Friday 12/6</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="week-15-129---1213" class="section level3">
+<h3>Week 15 (12/9 - 12/13)</h3>
+<p><strong>In Class</strong>:</p>
+<ul>
+<li><p>Monday 12/9</p></li>
+<li><p>Wednesday 12/11</p></li>
+<li><p>Friday 12/13</p></li>
+</ul>
+<p><strong>Assignments</strong>:</p>
+<p><strong>Assignments Due</strong>:</p>
+<p><br/><br/> <br/><br/></p>
+</div>
+<div id="exam-week-1216---1220" class="section level3">
+<h3>Exam Week (12/16 - 12/20)</h3>
+<p><strong>Information Coming Soon</strong></p>
+</div>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 

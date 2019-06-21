@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-209 (Fall 2019)</title>
+<title>Sta-209 Applied Statistics (Spring 2019)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -172,101 +169,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = false;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -328,228 +230,175 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Sta-209 (Fall 2019)</h1>
+<h1 class="title toc-ignore">Sta-209 Applied Statistics (Spring 2019)</h1>
 
 </div>
 
 
-<p>Welcome to Sta-209, Applied Statistics! You can scroll down or use the navigation panel on the left side of this page to view the course schedule</p>
+<p>Welcome to Sta-209, Applied Statistics! On this page you can find all of the materials we’ll use during the semester, starting with the syllabus linked below:</p>
 <ul>
 <li><a href="syllabus209f19.html">Click here</a> to view the course syllabus</li>
-<li><a href="tabs209f19.html">Click here</a> to view a compact table displaying important course materials</li>
 </ul>
-<p><br/><br/> <br/><br/></p>
-<div id="unit-1---describing-data" class="section level2">
-<h2>Unit #1 - Describing Data</h2>
-<div id="week-1-830" class="section level3">
-<h3>Week 1 (8/30)</h3>
-<p><strong>In Class</strong>:</p>
+<p>To see when and how we’ll use these materials please visit the schedule page linked below:</p>
 <ul>
-<li>Friday 8/30
+<li><a href="tabs209f19.html">Click here</a> to view the course schedule</li>
+</ul>
+<p>You can find course content in the sections below. Please note:</p>
+<ol style="list-style-type: decimal">
+<li>Links will not become active until we’ve reached the appropriate point in the course, so if you get a “404 page not found” error it is because haven’t gotten to that topic yet.</li>
+<li>Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.</li>
+</ol>
+<div id="lectures" class="section level3">
+<h3>Lectures</h3>
 <ul>
-<li>Discuss the <a href="syllabus209f19.html">syllabus</a></li>
-<li>Introduction to Statistics <a href="ADD">Notes</a></li>
+<li>Introduction</li>
+<li>Populations and Samples</li>
+<li>Descriptive Statistics</li>
+<li>Causation and Randomized Experiments</li>
+<li>Interval Estimation Part I (Sampling Distributions)</li>
+<li>Interval Estimation Part II (Bootstrapping)</li>
+<li>Interval Estimation Part III (Normal Approximations)</li>
+<li>Hypothesis Testing Part I (Null Distributions and p-values)</li>
+<li>Hypothesis Testing Part II (Randomization Tests)</li>
+<li>Hypothesis Testing Part III (Normal Approximations)</li>
+<li>Testing Errors and Multiple Comparisons</li>
+<li>Chi-Squared Tests</li>
+<li>Contingency Tables</li>
+<li>Outliers and Transformations</li>
+<li>Analysis of Variance (ANOVA)</li>
+<li>Regression Part I (Simple Linear Regression)</li>
+<li>Regression Part II (Multiple Regression)</li>
+</ul>
+</div>
+<div id="labs" class="section level3">
+<h3>Labs</h3>
+<ul>
+<li>Lab #1 - Graphs and Desctiptive Statistics
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #2 - Confounding Variables and Stratification
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #3 - Bootstrapping
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #4 - Confidence Intervals
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #5 - Randomization Testing
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #6 - Hypothesis Testing
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #7 - Case Studies in Statistical Inference
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #8 - Case Studies in Statistical Inference
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #9 - Analysis of Variance
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #10 - Regression
+<ul>
+<li>due date: TBD</li>
 </ul></li>
 </ul>
-<p><strong>Assignments</strong>:</p>
+</div>
+<div id="datasets" class="section level3">
+<h3>Datasets</h3>
 <ul>
-<li>First Day Survey (due Monday 9/2)</li>
+<li>Happy Planet Data</li>
+<li>Class Survey Results</li>
+<li>Florida Death Penalty Sentencing</li>
+<li>Iowa City Home Sales</li>
+<li>Election Margins</li>
+<li>Small Colleges</li>
+<li>Parking Behavior</li>
+<li>Webpage A/B Testing</li>
+<li>Lead IQ</li>
+<li>Wetsuits</li>
+<li>Police Killings</li>
+<li>Golden State Warriors</li>
+<li>Tailgating</li>
+<li>TSA Claims</li>
+<li>Tips</li>
+<li>Professor Beauty and Student Evaluations</li>
+<li>Breast Cancer Survival</li>
 </ul>
-<p><strong>Assignments Due</strong>:</p>
-<ul>
-<li>None</li>
-</ul>
-<p><br/><br/> <br/><br/></p>
 </div>
-<div id="week-2-92---96" class="section level3">
-<h3>Week 2 (9/2 - 9/6)</h3>
-<p><strong>In Class</strong>:</p>
+<div id="homeworks" class="section level3">
+<h3>Homeworks</h3>
 <ul>
-<li><p>Monday 9/2</p></li>
-<li><p>Wednesday 9/4</p></li>
-<li><p>Friday 9/6</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-3-99---913" class="section level3">
-<h3>Week 3 (9/9 - 9/13)</h3>
-<p><strong>In Class</strong>:</p>
+<li>HW #1: TBD
 <ul>
-<li><p>Monday 9/9</p></li>
-<li><p>Wednesday 9/11</p></li>
-<li><p>Friday 9/13</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-4-916---920" class="section level3">
-<h3>Week 4 (9/16 - 9/20)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 9/6</li>
+</ul></li>
+<li>HW #2: TBD
 <ul>
-<li><p>Monday 9/16</p></li>
-<li><p>Wednesday 9/18</p></li>
-<li><p>Friday 9/20</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-5-923---927" class="section level3">
-<h3>Week 5 (9/23 - 9/27)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 9/13</li>
+</ul></li>
+<li>HW #3: TBD
 <ul>
-<li><p>Monday 9/23</p></li>
-<li><p>Wednesday 9/25</p></li>
-<li><p>Friday 9/27</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-</div>
-<div id="unit-2---statistical-inference" class="section level2">
-<h2>Unit #2 - Statistical Inference</h2>
-<div id="week-6-930---104" class="section level3">
-<h3>Week 6 (9/30 - 10/4)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 9/20</li>
+</ul></li>
+<li>HW #4: TBD
 <ul>
-<li><p>Monday 9/30</p></li>
-<li><p>Wednesday 10/2</p></li>
-<li><p>Friday 10/4</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-7-107---1011" class="section level3">
-<h3>Week 7 (10/7 - 10/11)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 9/27</li>
+</ul></li>
+<li>HW #5: TBD
 <ul>
-<li><p>Monday 10/7</p></li>
-<li><p>Wednesday 10/9</p></li>
-<li><p>Friday 10/11</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-8-1014---1018" class="section level3">
-<h3>Week 8 (10/14 - 10/18)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 10/4</li>
+</ul></li>
+<li>HW #6: TBD
 <ul>
-<li><p>Monday 10/14</p></li>
-<li><p>Wednesday 10/16</p></li>
-<li><p>Friday 10/18</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-<p><strong>FALL BREAK (10/21 - 10/24)</strong></p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-9-1028---111" class="section level3">
-<h3>Week 9 (10/28 - 11/1)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 10/11</li>
+</ul></li>
+<li>HW #7: TBD
 <ul>
-<li><p>Monday 10/28</p></li>
-<li><p>Wednesday 10/30</p></li>
-<li><p>Friday 11/1</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-10-114---118" class="section level3">
-<h3>Week 10 (11/4 - 11/8)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 10/18</li>
+</ul></li>
+<li>HW #8: TBD
 <ul>
-<li><p>Monday 11/4</p></li>
-<li><p>Wednesday 11/6</p></li>
-<li><p>Friday 11/8</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-11-1111---1115" class="section level3">
-<h3>Week 11 (11/11 - 11/15)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 11/1</li>
+</ul></li>
+<li>HW #9: TBD
 <ul>
-<li><p>Monday 11/11</p></li>
-<li><p>Wednesday 11/13</p></li>
-<li><p>Friday 11/15</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-</div>
-<div id="unit-3---statistical-models" class="section level2">
-<h2>Unit #3 - Statistical Models</h2>
-<div id="week-12-1118---1122" class="section level3">
-<h3>Week 12 (11/18 - 11/22)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 11/8</li>
+</ul></li>
+<li>HW #10: TBD
 <ul>
-<li><p>Monday 11/18</p></li>
-<li><p>Wednesday 11/20</p></li>
-<li><p>Friday 11/22</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-13-1125---1127" class="section level3">
-<h3>Week 13 (11/25 - 11/27)</h3>
-<p><strong>In Class</strong>:</p>
+<li>due date: Friday 11/15</li>
+</ul></li>
+<li>HW #11: TBD
 <ul>
-<li><p>Monday 11/25</p></li>
-<li><p>Wednesday 11/27</p></li>
-<li>Friday 11/29 (no class)
+<li>due date: Friday 11/22</li>
+</ul></li>
+<li>HW #12: TBD
 <ul>
-<li>Happy Thanksgiving!</li>
+<li>due date: Wednesday 11/27</li>
 </ul></li>
 </ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
 </div>
-<div id="week-14-122---126" class="section level3">
-<h3>Week 14 (12/2 - 12/6)</h3>
-<p><strong>In Class</strong>:</p>
+<div id="other-materials" class="section level3">
+<h3>Other Materials</h3>
 <ul>
-<li><p>Monday 12/2</p></li>
-<li><p>Wednesday 12/4</p></li>
-<li><p>Friday 12/6</p></li>
+<li>To be added as needed</li>
 </ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="week-15-129---1213" class="section level3">
-<h3>Week 15 (12/9 - 12/13)</h3>
-<p><strong>In Class</strong>:</p>
-<ul>
-<li><p>Monday 12/9</p></li>
-<li><p>Wednesday 12/11</p></li>
-<li><p>Friday 12/13</p></li>
-</ul>
-<p><strong>Assignments</strong>:</p>
-<p><strong>Assignments Due</strong>:</p>
-<p><br/><br/> <br/><br/></p>
-</div>
-<div id="exam-week-1216---1220" class="section level3">
-<h3>Exam Week (12/16 - 12/20)</h3>
-<p><strong>Information Coming Soon</strong></p>
-</div>
 </div>
 
 
 
-</div>
-</div>
 
 </div>
 
