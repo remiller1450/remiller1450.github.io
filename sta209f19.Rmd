@@ -21,8 +21,8 @@ You can find course content in the sections below.  Please note:
 
 - Introduction
 - Populations and Samples
-- Descriptive Statistics
-- Causation and Randomized Experiments
+- Correlation, Association, and Causation
+- Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
 - Interval Estimation Part II (Bootstrapping)
 - Interval Estimation Part III (Normal Approximations)
@@ -36,6 +36,31 @@ You can find course content in the sections below.  Please note:
 - Analysis of Variance (ANOVA)
 - Regression Part I (Simple Linear Regression)
 - Regression Part II (Multiple Regression)
+
+```{r, include = FALSE, eval = FALSE}
+#-	Intro
+#	Keep as-is
+#-	Pop and Samples
+#	Keep as-is
+#-	Do Lab #1 (descriptive stats, update lab)
+#-	Correlation, association, and causation
+#	Need to create
+#-	Do Lab #2 (Florida death penalty, update but mostly good)
+#-	Randomized Experiments
+#	Mostly okay
+#-	Interval Estimation Part I (Sampling Distributions)
+#	Need to make/update
+#-	Interval Estimation Part II (Bootstrapping)
+#	Need to make/update
+#-	Lab #3 (bootstrapping, mostly okay)
+#-	Interval Estimation Part III (Normal Approximations)
+#	Need to make/update
+#	1 prop -> 2 prop -> 1 mean -> 2 means, but quick
+#-	Lab #4 (confidence intervals, need to make, include confounding in there and maybe intro to using intervals to do a test?)
+#-	Hypothesis Testing Part I (Null Distributions and p-values)
+#	Mostly good, might need to update
+```
+
 
 ### Labs
 
