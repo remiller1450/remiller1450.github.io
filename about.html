@@ -235,38 +235,54 @@ $(document).ready(function () {
 </div>
 
 
-<p>My methodological research primarily pertains to high-dimensional data, or situations where the number of variables available for analysis is large or even exceeds the sample size. Specifically, I’m interested in penalized regression approaches to modeling and false discovery rate approaches to inference. High-dimensional data frequently arise in the areas of genetics and genomics, but as the size and complexity of modern data continue to grow these methods have become popular in many other applications as well. My contributions involve marginal false discovery rate based approaches to inference using penalized regression models; many of these are implemented in the R package <a href="https://cran.r-project.org/web/packages/ncvreg/index.html">ncvreg</a> that is developed and maintained by my dissertation advisor <a href="http://myweb.uiowa.edu/pbreheny/index.html">Patrick Breheny</a>. A description of these contributions, a short sampling of applied research I’ve worked on, and some other statistical interests of mine are provided below.</p>
-<div id="marginal-false-discovery-rates-for-penalized-likelihood-models" class="section level3">
-<h3>Marginal False Discovery Rates for Penalized Likelihood Models</h3>
-<p>In the analysis of high-dimensional data an inherent concern is the increased potential for false discoveries due to the large number of predictor variables under consideration. Very few approaches are currently available for assessing the false discovery rates of sparse likelihood-based models, such as penalized logistic or Cox regression. This work derives a general approach for controlling the false discovery rate of a broad range of penalized likelihood-based models. This includes many popular penalizations schemes, including <a href="http://statweb.stanford.edu/~tibs/lasso.html">LASSO</a>, <a href="https://en.wikipedia.org/wiki/Elastic_net_regularization">elastic net</a>, <a href="http://myweb.uiowa.edu/pbreheny/7600/s16/notes/2-29.pdf">SCAD, and MCP</a>. The false discovery rate control provided by the approach is inherently conservative, but the method compares favorably to many existing approaches and its implementation in the <a href="http://pbreheny.github.io/ncvreg/"><code>ncvreg</code> package</a> is very fast, making it a useful tool when assessing several different penalized likelihood models in the early stages on analysis.</p>
+<p>My methodological research focuses on penalized regression modeling, a popular tool high-dimensional data analysis. I’m specifically interested in inferential approaches for sparse penalized regression models.</p>
+<p>In this area my contributions include marginal false discovery rate inferential methods for penalized regression models, many of which are implemented in <a href="https://cran.r-project.org/web/packages/ncvreg/index.html">ncvreg</a>, an <code>R</code> package for fitting penalized regression models developed and maintained by my thesis advisor <a href="http://myweb.uiowa.edu/pbreheny/index.html">Patrick Breheny</a>.</p>
+<p>A description of these contributions, details on some of the applied research projects I’ve worked on, and some other statistical interests of mine are given in the sections that follow.</p>
+<div id="marginal-false-discovery-rates" class="section level3">
+<h3>Marginal False Discovery Rates</h3>
+<p>Many penalized regression methods such as <a href="http://statweb.stanford.edu/~tibs/lasso.html">LASSO</a>, <a href="https://en.wikipedia.org/wiki/Elastic_net_regularization">elastic net</a>, <a href="http://myweb.uiowa.edu/pbreheny/7600/s16/notes/2-29.pdf">SCAD, and MCP</a>, naturally perform variable selection during the model fitting process. For these models a simple question that an analyst might ask is: “How many of the variables selected by the model are expected to be false discoveries?”</p>
+<p>Marginal false discovery rates provide a very general method for answering this question. The method is currently implemented for linear, logistic, and Cox regression under the LASSO, Elastic Net, SCAD, and MCP penalties in the <a href="http://pbreheny.github.io/ncvreg/"><code>ncvreg</code> package</a>.</p>
 <p>Details can be found in the publication:</p>
 <ul>
-<li><strong>Marginal false discovery rate control for likelihood-based penalized regression models</strong> Miller R and Breheny P <em>Biometrical Journal</em>, to appear. <a href="https://arxiv.org/pdf/1710.11459.pdf">pdf link</a></li>
+<li><strong>Marginal false discovery rate control for likelihood-based penalized regression models</strong> Miller R and Breheny P <em>Biometrical Journal</em>, 2019. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.201800138">link</a></li>
 </ul>
 </div>
 <div id="feature-specific-inference-using-local-false-discovery-rates" class="section level3">
 <h3>Feature Specific Inference using Local False Discovery Rates</h3>
-<p>It is useful to know the overall false discovery rate of a given model, but what can be said about individual variables in the model? This work addresses the question using a <a href="http://statweb.stanford.edu/~ckirby/brad/LSI/chapter5.pdf">local approach to false discovery rates</a>.</p>
+<p>Knowing the overall false discovery rate for the selections made by a model is useful, but more valuable is information on individual variables within the model. To address this goal we develop feature specific inference for penalized regression models using <a href="http://statweb.stanford.edu/~ckirby/brad/LSI/chapter5.pdf">local false discovery rates</a>.</p>
 <p><img src="about_files/figure-html/unnamed-chunk-2-1.png" width="1056" /></p>
 <p>The figure above displays modeling results from a single simulated data set containing various types of variables (features). The left panel shows the standard LASSO coefficient path that is returned by default from most standard software packages such as <a href="https://cran.r-project.org/web/packages/glmnet/index.html">glmnet</a>. From this path it is difficult to distinguish between important features and noise. The cross-validated model, which is indicated by the dotted vertical line, contains several noise variables that cannot be easily identified using just the coefficient path. The right panel displays each feature’s local marginal false discovery rate (mfdr) along the same sequence of models. This approach is capable of clearly distinguishing between important variables and noise; the method characterizes each of the noise variables in the cross-validated model as having a greater than 50% chance of being a false discovery.</p>
-<p>Details on the method can be found here: <a href="http://pbreheny.github.io/ncvreg/">ncvreg website</a></p>
+<p>The method is currently implemented in the <a href="http://pbreheny.github.io/ncvreg/"><code>ncvreg</code> package</a> and you can read about it on <a href="http://pbreheny.github.io/ncvreg/articles/web/inference-local.html">this page of the ncvreg website</a>.</p>
+<p>Details can be found in the paper below (currently in submission):</p>
+<ul>
+<li><strong>Feature-specific inference for penalized regression models using local false discovery rates</strong> Miller R and Breheny P, <em>In Submission</em> <a href="https://arxiv.org/pdf/1809.05497.pdf">arxiv link</a></li>
+</ul>
 </div>
 <div id="marginal-false-discovery-rate-approaches-for-group-lasso-models" class="section level3">
 <h3>Marginal False Discovery Rate Approaches for Group LASSO Models</h3>
-<p>In many modeling applications the predictor variables are not unrelated entities, but rather are members of structured groups. Some common examples include groups of binary indicator variables representing a single categorical variable, or basis expansions aimed at capturing the non-linear effects of a continuous variable. The <a href="http://myweb.uiowa.edu/pbreheny/7600/s16/notes/4-27.pdf">group LASSO</a> is an extension of the LASSO that is well-suited for these applications and achieves sparsity at the group level rather than the individual level. My work in this domain primarily involves group level false discoveries, however I’m generally interested in grouped or hierarchical variable selection approaches.</p>
-<p>Details can be found here: (Link to come)</p>
+<p>In many modeling applications the predictor variables are not unrelated entities, but rather are members of structured groups. Some examples include groups of binary indicators representing a single categorical variable, or basis expansions used to capture non-linear effects of a continuous variable. The <a href="http://myweb.uiowa.edu/pbreheny/7600/s16/notes/4-27.pdf">group LASSO</a> is an extension of the LASSO that is well-suited for these applications and achieves sparsity at the group level rather than the individual variable level. My work in this domain primarily involves group level false discoveries, however I’m generally interested in grouped or hierarchical variable selection approaches.</p>
+<p>Details can be found in the paper below (currently in development):</p>
+<ul>
+<li><strong>Marginal False Discovery Rate Methods for the Group LASSO</strong> (link to come)</li>
+</ul>
 </div>
 <div id="iowa-medicaid-expansion" class="section level3">
 <h3>Iowa Medicaid Expansion</h3>
 <p>As states sought to expand Medicaid under the Affordable Care Act, Iowa adopted an expansion model based upon personal responsibility. As part of this expansion some recipients were required to pay a monthly premium; however, these premiums would be waived if the member completed Iowa’s Healthy Behaviors Program. Members who did not complete the requisite behaviors and did not pay their monthly premium were disenrolled from the program. The project I’m involved with seeks to understand who is being disenrolled using claims and encounter data. This work has been sponsored by the <a href="http://ppc.uiowa.edu/">Iowa Public Policy Center</a>, and is a collaborative effort with <a href="http://ppc.uiowa.edu/people/natoshia-askelson">Natoshia Askelson</a>, <a href="http://ppc.uiowa.edu/people/elizabeth-momany">Elizabeth Momany</a>.</p>
 </div>
-<div id="teen-driving" class="section level3">
-<h3>Teen Driving</h3>
-<p>I’ve worked as both a research assistant and a statistical consultant on projects involving teen driving utilizing data from Iowa Department of Transportation (IDOT). A couple of research interests of mine that have developed from this work are: multiple imputation approaches for structured datasets and Bradley-Terry models for induced exposure comparisons.</p>
+<div id="driving-research" class="section level3">
+<h3>Driving Research</h3>
+<p>I’ve worked as both a research assistant and a statistical consultant on projects involving teen driving utilizing data from Iowa Department of Transportation (IDOT). Some projects I’ve work on include studying factors associated with crash severity among teen drivers and linking licensure and accident reporting records databases. From my work in this area I’m interested in studying multiple imputation approaches for structured datasets, and comparing induced exposure models versus rate-based models for evaluating crash risk factors.</p>
+<p>I’m currently collaborating with researchers at the National Advanced Driving Simulator <a href="https://www.nads-sc.uiowa.edu/">(NADS)</a> on projects in drugged an impaired driving and vehicle to vehicle alert systems. Right now I’m working with 4 summer MAP students in these areas.</p>
 </div>
-<div id="other-topics" class="section level3">
-<h3>Other Topics</h3>
-<p>A few other topics that I’m interested in include: causal inference - how can causality be evaluated in observational studies, survival data analysis - how to appropriately model the time until an event occurs (or doesn’t occur), and statistics in sports - how to leverage data and statistical methods to gain new insights in the realm of sports</p>
+<div id="secondary-interests" class="section level3">
+<h3>Secondary Interests</h3>
+<p>A few other topics that I’m interested are:</p>
+<ul>
+<li>Causal Inference - how can causality be evaluated in observational studies</li>
+<li>Statistics in Sports - how to leverage data and statistical methods to gain new insights in the realm of sports</li>
+<li>Data Science Education - what content belongs in a data science curriculum, and what is the most effective way to teach that content to students</li>
+</ul>
 </div>
 
 

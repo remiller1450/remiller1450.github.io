@@ -1,12 +1,12 @@
 ---
-title: "Introduction"
+title: " "
 ---
 
 <img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website!  I'm a currently a Visiting Assistant Professor of Statistics in the [Grinnell College Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I teach classes in statistics and data science.
 
-Prior to joining Grinnell, I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in the summer of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
+Prior to joining Grinnell, I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in August of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
 
-Below are quick links to course websites:
+Below are course website quick links:
 
 - Fall 2019
     - [Sta-209 website (Fall 2019)](sta209f19.html)

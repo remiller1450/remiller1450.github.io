@@ -2,8 +2,11 @@
 title: "Personal"
 ---
 
-<img style="float: right;" src="running.jpg"> I'm originally from the northwest suburbs of Chicago, which is also where I met my wife Alissa.  We've both lived the midwest for our entire lives in various locations across Illinois, Iowa, and Wisconsin.
+<img style="float: right;" src="running.jpg"> 
+This page contains some information on my background and hobbies. It might seem strange to share these details, but I believe that knowing just a little bit about a person goes a long way towards being comfortable enough to ask for help, attend office hours, or even just make small talk before/after class.
 
-In my younger days I was competitive in many sports, and I enjoy lifting weights and running outdoors during my leisure time.  I was a varisity cross country runner at Augustana College and, while I'm not nearly as fast as I used to be, I still enjoy running a race or two each year.  The picture of me comes from the [2017 Sno-fun-run](http://racinearearunningclub.org/s-no-w-fun-run/), a race I've ran with old cross country teammates every January for the last 6 years.
+Currently I live in Grinnell Iowa with my wife Alissa.  I'm from the northwest suburbs of Chicago, and have lived in various locations in Illinois, Iowa, and Wisconsin.  I enjoy living in a small town and I'm very appreciative of the lack of traffic, the peaceful atmosphere, and the views of the countryside.
+
+In my younger days I was competitive in many sports (football, basketball, track) and I currently spend much of my leisure time lifting weights and running. I follow a twice per week upper-lower split and run on the other days (or more if I feel like it and have the time). I was varisity cross country runner at Augustana College and, while I'm not nearly as fast as I used to be, I still enjoy running a race or two each year.  The picture of me comes from the [2017 Sno-fun-run](http://racinearearunningclub.org/s-no-w-fun-run/), a race I've ran with old cross country teammates every January for the last 6 years.
 
 Some of my other hobbies include: listening to music, my favorite songs include: ["Ocean Avenue"](https://www.youtube.com/watch?v=X9fLbfzCqWw), ["Mr. Brightside"](https://www.youtube.com/watch?v=gGdGFtwCNBE), and ["I'm Ready"](https://www.youtube.com/watch?v=q1_WMPFaq-4), doing crossword puzzles, playing trivia, following the Green Bay Packers and Iowa Hawkeyes, and watching documentaries or true crime shows like Forensic Files.
