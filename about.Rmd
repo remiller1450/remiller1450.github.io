@@ -478,7 +478,7 @@ I'm currently collaborating with researchers at the National Advanced Driving Si
 
 ### Secondary Interests
 
-A few other topics that I'm interested are: 
+A few other areas that I'm interested are: 
 
 - Causal Inference - how can causality be evaluated in observational studies
 - Statistics in Sports - how to leverage data and statistical methods to gain new insights in the realm of sports
