@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-230 Introduction to Data Science (Spring 2019)</title>
+<title>Sta-230 (Fall 2019)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -169,6 +172,107 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -230,11 +334,13 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Sta-230 Introduction to Data Science (Spring 2019)</h1>
+<h1 class="title toc-ignore">Sta-230 (Fall 2019)</h1>
 
 </div>
 
 
+<div id="schedule-and-syllabus" class="section level3">
+<h3>Schedule and Syllabus</h3>
 <p>Welcome to Sta-230, Introduction to Data Science! On this page you can find all of the materials we’ll use this semester, starting with the syllabus linked below:</p>
 <ul>
 <li><a href="syllabus230f19.html">Click here</a> to view the course syllabus</li>
@@ -248,35 +354,36 @@ $(document).ready(function () {
 <li>Links will not become active until we’ve reached the appropriate point in the course, so if you get a “404 page not found” error it is because haven’t gotten to that topic yet.</li>
 <li>As a data scientist you should realize that it is difficult to predict far into the future, so some details on this page might be subject to change as we progress through the semester.</li>
 </ol>
+</div>
 <div id="labs" class="section level3">
 <h3>Labs</h3>
 <ul>
 <li><a href="s230f19/NYPD.html">NYPD Activity</a></li>
 <li><a href="s230f19/Intro_R.html">Intro to R</a></li>
-<li><a href="s230f19/tidyr.html">Tidy Data</a></li>
-<li><a href="s230f19/dplyr.html">Data Wrangling</a></li>
-<li><a href="s230f19/ggplot.html">Creating Visuals</a></li>
-<li><a href="s230f19/plotly.html">Interactive Visuals</a></li>
-<li><a href="s230f19/merging.html">Merging and Joining</a></li>
-<li><a href="s230f19/maps1.html">Making Maps (basic)</a></li>
-<li><a href="s230f19/maps2.html">Making Maps (with shapefiles)</a></li>
-<li><a href="s230f19/scraping.html">Web Scraping</a></li>
-<li><a href="s230f19/stringr.html">String Processing</a></li>
-<li><a href="s230f19/pca_lab.html">Principle Components Analysis</a></li>
-<li><a href="s230f19/clustering_lab.html">Clustering</a></li>
-<li><a href="s230f19/caret_lab.html">Supervised Learning with <code>caret</code></a></li>
-<li><a href="s230f19/black_box_lab.html">Black Box Machine Learning</a></li>
+<li><a href="s230f19/tidyr.html">Tidy Data with <code>tidyr</code></a></li>
+<li><a href="s230f19/dplyr.html">Data Wrangling with <code>dplyr</code></a></li>
+<li><a href="s230f19/ggplot.html">Data Visualization with <code>ggplot2</code></a></li>
+<li><a href="s230f19/plotly.html">Interactive Visualization with <code>plotly</code></a></li>
+<li><a href="s230f19/merging.html">Merging and Joining with <code>dply</code></a></li>
+<li><a href="s230f19/maps.html">Making Maps with <code>leaflet</code></a></li>
+<li><a href="s230f19/stringr.html">String Processing with <code>stringr</code></a></li>
+<li><a href="s230f19/scraping.html">Web Scraping with <code>rvest</code></a></li>
+<li><a href="s230f19/pca.html">Principle Components Analysis</a></li>
+<li><a href="s230f19/clustering.html">Clustering</a></li>
+<li><a href="s230f19/caret1.html">Model Building with <code>caret</code> (numeric outcomes)</a></li>
+<li><a href="s230f19/caret2.html">Model Building with <code>caret</code> (categorical outcomes)</a></li>
+<li><a href="s230f19/blackboxes.html">Black Box Models</a></li>
 </ul>
 </div>
 <div id="presentations" class="section level3">
 <h3>Presentations</h3>
 <ul>
-<li><a href="s230f19/summaries_pres.html">Numeric Summaries</a></li>
+<li><a href="s230f19/summaries_pres.html">Summary Statistics</a></li>
 <li><a href="s230f19/simple_complex.html">The Simple-to-Complex Principle</a></li>
 <li><a href="s230f19/features.html">Variable Transformations</a></li>
 <li><a href="s230f19/smoothing.html">Smoothing</a></li>
-<li><a href="s230f19/density.html">Density</a></li>
-<li><a href="s230f19/relational_data.html">Relational Databases</a></li>
+<li><a href="s230f19/density.html">Densities</a></li>
+<li><a href="s230f19/visuals.html">Visualization Principles</a></li>
 <li><a href="s230f19/shiny_intro.html">Intro to R Shiny</a></li>
 <li><a href="s230f19/pca1.html">Principle Components Analysis (part I)</a></li>
 <li><a href="s230f19/pca2.html">Principle Components Analysis (part II)</a></li>
@@ -288,8 +395,6 @@ $(document).ready(function () {
 <li><a href="s230f19/accuracy.html">Sensitivity, Specificity, and Kappa</a></li>
 <li><a href="s230f19/black_box1.html">Black Box Methods (part I)</a></li>
 <li><a href="s230f19/black_box1.html">Black Box Methods (part II)</a></li>
-<li><a href="s230f19/case_study1.html">Case Study #1 (Final Project Example)</a></li>
-<li><a href="s230f19/case_study2.html">Case Study #2 (Final Project Example)</a></li>
 </ul>
 </div>
 <div id="group-lab-assignments" class="section level3">
@@ -301,31 +406,31 @@ $(document).ready(function () {
 </ul></li>
 <li>Lab Submission #2 (due Tuesday 9/17)
 <ul>
-<li>All questions from the <a href="s230f19/dplyr.html">Data Wrangling</a> and <a href="s230f19/ggplot.html">Creating Visuals</a> labs</li>
+<li>All questions from the <a href="s230f19/dplyr.html">Data Wrangling</a> and <a href="s230f19/ggplot.html">Data Visualization (ggplot2)</a> labs</li>
 </ul></li>
 <li>Lab Submission #3 (due Tuesday 9/24)
 <ul>
-<li>All questions from the <a href="s230f19/dplyr.html">Interactive Visuals</a> and <a href="s230f19/ggplot.html">Merging and Joining</a> labs</li>
+<li>All questions from the <a href="s230f19/dplyr.html">Interactive Visualization</a> and <a href="s230f19/ggplot.html">Merging and Joining</a> labs</li>
 </ul></li>
 <li>Lab Submission #4 (due Tuesday 10/1)
 <ul>
-<li>All questions from the <a href="s230f19/maps1.html">Making Maps (basic)</a> lab (Extra credit for doing the <a href="s230f19/maps2.html">Making Maps (with shapefiles)</a> on-your-own question)</li>
+<li>All questions from the <a href="s230f19/maps.html">Making Maps</a> lab (Extra credit for doing the <a href="s230f19/tables.html">Making Tables</a> on-your-own questions)</li>
 </ul></li>
 <li>Lab Submission #5 (due <em>Friday</em> 10/21)
 <ul>
-<li>All questions from the <a href="s230f19/scraping.html">Web Scraping</a> and <a href="s230f19/stringr.html">String Processing</a> labs</li>
+<li>All questions from the <a href="s230f19/stringr.html">String Processing</a> and <a href="s230f19/scraping.html">Web Scraping</a> labs</li>
 </ul></li>
 <li>Lab Submission #6 (due Tuesday 11/5)
 <ul>
-<li>All questions from the <a href="s230f19/pca_lab.html">Principle Components Analysis</a> lab</li>
+<li>All questions from the <a href="s230f19/pca.html">Principle Components Analysis</a> lab</li>
 </ul></li>
 <li>Lab Submission #7 (due Tuesday 11/12)
 <ul>
-<li>All questions from the <a href="s230f19/clustering_lab.html">Clustering</a> lab</li>
+<li>All questions from the <a href="s230f19/clustering.html">Clustering</a> lab</li>
 </ul></li>
 <li>Lab Submission #8 (due Tuesday 11/19)
 <ul>
-<li>All questions from the <a href="s230f19/caret_lab.html">Supervised Learning with <code>caret</code></a> lab</li>
+<li>All questions from the <a href="s230f19/caret1.html">Supervised Learning with <code>caret</code></a> labs</li>
 </ul></li>
 <li>Lab Submission #9 (due Tuesday 12/3)
 <ul>
@@ -348,44 +453,17 @@ $(document).ready(function () {
 <li><a href="s230f19/f19_hw7.html">Problem Set #7</a> (due Friday 12/6)</li>
 </ul>
 </div>
-<div id="select-datasets-and-dictionaries" class="section level3">
-<h3>Select Datasets and Dictionaries</h3>
+<div id="select-data-dictionaries" class="section level3">
+<h3>Select Data Dictionaries</h3>
 <ul>
-<li>Iowa City Home Sales
-<ul>
-<li>Link to the data</li>
-<li>Link to the data dictionary</li>
-</ul></li>
-<li>Small Colleges
-<ul>
-<li>Link to the data</li>
-<li>Link to the data dictionary</li>
-</ul></li>
-<li>Florida Death Penalty Sentencing
-<ul>
-<li>Link to the data</li>
-<li>Link to the data dictionary</li>
-</ul></li>
-<li>Parking Behavior
-<ul>
-<li>Link to the data</li>
-<li>Link to the data dictionary</li>
-</ul></li>
-<li>Major League Baseball Salaries
-<ul>
-<li>Link to the data</li>
-<li>Link to the data dictionary</li>
-</ul></li>
-<li>College Scorecard (bachelor’s-degree institutions)
-<ul>
-<li>Link to the data</li>
-<li>Link to the data dictionary</li>
-</ul></li>
+<li>Coming Soon</li>
 </ul>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
