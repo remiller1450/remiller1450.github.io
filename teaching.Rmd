@@ -2,7 +2,7 @@
 title: "Teaching"
 ---
 
-Teaching has long been a passion of mine and throughout my career I've taught numerous courses in mathematics, statistics, and data science in a variety of settings.  Information on the courses I've taught can be found below.
+Throughout my career I've taught numerous courses in mathematics, statistics, and data science in a variety of settings.  Information on the courses I've taught can be found below.
 
 ### STA-209 - Applied Statistics - Grinnell College
 
@@ -10,6 +10,7 @@ STA-209 is an introductory course in applied statistics covering topics includin
 
 Visit the webpages below to view materials and course content:
 
+- [Sta-209 website (Fall 2019)](sta209f19.html)
 - [Sta-209 website (Spring 2019)](sta209s19.html)
 - [Sta-209 website (Fall 2018)](sta209f18.html)
 
@@ -19,6 +20,7 @@ STA-230 introduces core topics in data science using the R programming langauge.
 
 Visit the webpages below to view materials and course content:
 
+- [Sta-230 website (Fall 2019)](sta230f19.html)
 - [Sta-230 website (Spring 2019)](sta230s19.html)
 
 ### BIOS-4120 - Introduction to Biostatistics - University of Iowa
