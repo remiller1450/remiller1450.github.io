@@ -1,5 +1,5 @@
 ---
-title: "Sta-209 Applied Statistics (Spring 2019)"
+title: "Sta-209 Applied Statistics (Fall 2019)"
 output: html_document
 ---
 
@@ -87,23 +87,7 @@ You can find course content in the sections below.  Please note:
 
 ### Datasets
 
-- Happy Planet Data
-- Class Survey Results
-- Florida Death Penalty Sentencing
-- Iowa City Home Sales
-- Election Margins
-- Small Colleges
-- Parking Behavior
-- Webpage A/B Testing
-- Lead IQ
-- Wetsuits
-- Police Killings
-- Golden State Warriors
-- Tailgating
-- TSA Claims
-- Tips
-- Professor Beauty and Student Evaluations
-- Breast Cancer Survival
+- To be added as needed
     
 ### Homeworks
 
