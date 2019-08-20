@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -169,6 +172,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -235,6 +333,8 @@ $(document).ready(function () {
 </div>
 
 
+<div id="schedule-and-syllabus" class="section level3">
+<h3>Schedule and Syllabus</h3>
 <p>Welcome to Sta-209, Applied Statistics! On this page you can find all of the materials we’ll use during the semester, starting with the syllabus linked below:</p>
 <ul>
 <li><a href="syllabus209f19.html">Click here</a> to view the course syllabus</li>
@@ -243,11 +343,13 @@ $(document).ready(function () {
 <ul>
 <li><a href="tabs209f19.html">Click here</a> to view the course schedule</li>
 </ul>
-<p>You can find course content in the sections below. Please note:</p>
+<p>You can find course content by scrolling, or by using the navigation bar in the upper left. Please note:</p>
 <ol style="list-style-type: decimal">
-<li>Links will not become active until we’ve reached the appropriate point in the course, so if you get a “404 page not found” error it is because haven’t gotten to that topic yet.</li>
+<li>Occansionally I will not post a lecture in advance, this is usually because it contains some type of “suprise” that I don’t want you to see ahead of time.</li>
+<li>Links may not become active until we’ve reached the appropriate point in the course, so if you get a “404 page not found” error it is likely because haven’t gotten to that topic yet.</li>
 <li>Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.</li>
 </ol>
+</div>
 <div id="lectures" class="section level3">
 <h3>Lectures</h3>
 <ul>
@@ -318,7 +420,14 @@ $(document).ready(function () {
 <div id="datasets" class="section level3">
 <h3>Datasets</h3>
 <ul>
-<li>To be added as needed</li>
+<li><a href="https://remiller1450.github.io/data/HappyPlanet.csv">Happy Planet</a>
+<ul>
+<li>This dataset was assembled by <a href="http://happyplanetindex.org/">The Happy Planet Index</a> using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/MassShootings.csv">Mass Shootings</a>
+<ul>
+<li>This dataset was originally assembled in response to the movie theater shooting in Aurora Colorado by <a href="https://en.wikipedia.org/wiki/Mother_Jones_(magazine)">Mother Jones</a>, a liberal news organization. It documents shootings in the United States where a lone gunman (with a few exceptions involving two shooters) killed at least four individuals (not including themselves) at a single location (with a few exceptions involving multiple locations within a short period). Variables include: demographic characteristics of the shooter, information on when/where the shooting occurred, information on the number of victims, and information about the mental health status of the shooter.</li>
+</ul></li>
 </ul>
 </div>
 <div id="homeworks" class="section level3">
@@ -383,6 +492,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 

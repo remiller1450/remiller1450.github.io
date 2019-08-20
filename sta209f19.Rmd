@@ -1,7 +1,14 @@
 ---
 title: "Sta-209 Applied Statistics (Fall 2019)"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
 ---
+
+### Schedule and Syllabus
 
 Welcome to Sta-209, Applied Statistics!  On this page you can find all of the materials we'll use during the semester, starting with the syllabus linked below:
 
@@ -11,10 +18,11 @@ To see when and how we'll use these materials please visit the schedule page lin
 
 - [Click here](tabs209f19.html) to view the course schedule
 
-You can find course content in the sections below.  Please note:
+You can find course content by scrolling, or by using the navigation bar in the upper left. Please note:
 
-1. Links will not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is because haven't gotten to that topic yet.
-2. Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.
+1. Occansionally I will not post a lecture in advance, this is usually because it contains some type of "suprise" that I don't want you to see ahead of time.
+2. Links may not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is likely because haven't gotten to that topic yet.
+3. Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.
 
 
 ### Lectures
@@ -87,8 +95,11 @@ You can find course content in the sections below.  Please note:
 
 ### Datasets
 
-- To be added as needed
-    
+- [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
+    - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world. 
+- [Mass Shootings](https://remiller1450.github.io/data/MassShootings.csv)
+    - This dataset was originally assembled in response to the movie theater shooting in Aurora Colorado by [Mother Jones](https://en.wikipedia.org/wiki/Mother_Jones_(magazine)), a liberal news organization.  It documents shootings in the United States where a lone gunman (with a few exceptions involving two shooters) killed at least four individuals (not including themselves) at a single location (with a few exceptions involving multiple locations within a short period). Variables include: demographic characteristics of the shooter, information on when/where the shooting occurred, information on the number of victims, and information about the mental health status of the shooter.
+
 ### Homeworks
 
 - HW #1: TBD

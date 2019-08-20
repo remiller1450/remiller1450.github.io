@@ -15,6 +15,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 You can scroll down this page, or use the navigation panel on the left side of this page to view the course schedule.
 
+You can [click here](https://remiller1450.github.io/sta209f19.html) to return to the course homepage.
+
 <br/><br/>
 
 ## August and September
@@ -25,7 +27,7 @@ You can scroll down this page, or use the navigation panel on the left side of t
 
 - Friday 8/30
     - Discuss the [syllabus](syllabus209f19.html)
-    - Introduction to Statistics [Notes](ADD)
+    - [Introduction to Statistics](coming_soon)
     
 **Assignments**:
 
@@ -43,14 +45,26 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Monday 9/2
+    - [Summarizing Data](coming_soon)
+    - Start [Lab #1 - Descriptive Statistics and Graphs](coming_soon)
 
 - Wednesday 9/4
+    - Finish Lab #1
 
 - Friday 9/6
+    - Discuss Lab #1
+    - [Populations and Samples](coming_soon)
     
 **Assignments**:
 
+- Lab #1 (due Friday 9/6)
+- Homework #1 - TBD (due Friday 9/6)
+
 **Assignments Due**:
+
+- First Day Survey (due Monday 9/2)
+- Lab #1 (due Friday 9/6)
+- Homework #1 - TBD (due Friday 9/6)
 
 <br/><br/>
 <br/><br/>
