@@ -29,7 +29,7 @@ This course covers the application of basic statistical methods such as univaria
 
 #### Text
 
-- [Statistics: Unlocking the Power of Data, 2nd Edition](https://www.wiley.com/en-us/Statistics%3A+Unlocking+the+Power+of+Data%2C+2nd+Edition-p-9781119308843) by Robin H. Lock, Patti Frazer Lock, Kari Lock Morgan, Eric F. Lock, Dennis F. Lock
+- [Statistics: Unlocking the Power of Data, 2nd Edition](https://www.wiley.com/en-us/Statistics%3A+Unlocking+the+Power+of+Data%2C+2nd+Edition-p-9781119308843) by Robin H. Lock, Patti Frazer Lock, Kari Lock Morgan, Eric F. Lock, Dennis F. Lock (required)
 
 Please note:
 
@@ -68,7 +68,7 @@ Failure to live up to this expectation constitutes academic dishonesty. Academic
 
 **Inclusive Classroom**
 
-Grinnell College makes reasonable accommodations for students with documented disabilities.  Students need to provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  Students should then speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course and coordinate your accommodations.
+Grinnell College makes reasonable accommodations for students with documented disabilities. Students need to provide documentation to the Coordinator for Student Disability Resources, John Hirschman, located on the 3rd floor of Goodnow Hall (x3089) and discuss your needs. Students should then notify me within the first few days of classes so that we can discuss ways to ensure your full participation in the course and coordinate your accommodations.  Additional information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).
 
 **Religious Holidays**
 
@@ -78,13 +78,15 @@ Grinnell College encourages students who plan to observe holy days that coincide
 
 The Math Lab (Mathematics Learning Center - 2012 Noyce Science Center) has tutors in statistics that are available 7 days a week.  See the website for additional information and hours: http://www.grinnell.edu/academics/areas/math-stats/math-lab 
 
+The Writing Lab, located in HSSC N3129, supports students working on papers, projects, and presentations.  For a link to the schedule and appointment system, search "Writing Lab" on grinnell.edu or grinnellshare.grinnell.edu.
+
 **Software**
 
 This course will make use of Minitab for in class labs and out of class assignments.  Minitab is available on many campus computers and on our classroom computers.  In recent years computing has become an essential part of statistics.  While our course materials will be based on Minitab, other programs are more frequently used by statisticians and I encourage interested students to explore other tools throughout the course, particularly on the final project.
 
 **Course Outline**
 
-[Click Here to return to the Course Schedule](sta209f19.html)
+[Click Here](sta209f19.html) visit the course webpage containing a schedule and course materials.
 
 <br/><br/>
 

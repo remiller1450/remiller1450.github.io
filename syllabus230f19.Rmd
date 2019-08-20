@@ -33,8 +33,7 @@ There is no required textbook for this course.  All necessary materials will be 
 
 1. [An Introduction to Statistical and Data Science via R](https://moderndive.com/) by Ismay and Kim
 2. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham 
-3. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani
-
+3. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani 
 
 <br/><br/>
 
@@ -57,13 +56,13 @@ After completing this course, students should be able to:
 
 **Class Sessions**
 
-The core component of most classes (45-60 minutes) will be working through hands-on labs in a pair programming enivornment.  For the first few weeks of the semester these groups will be assigned; after that you will be allowed to choose your own partner(s) or choose to work independently.  During lab time it is essential that you and your partner(s) work together, making sure that each of you understands the code equally well.
+The core component of most classes (45-60 minutes) will be working through hands-on labs in a paired programming enivornment.  For the first few weeks of the semester these groups will be assigned; after that you will be allowed to choose your own partner(s), or work independently.  During labs it is essential that you and your partner(s) work together, making certain that each of you understands your code equally well.
 
-In addition to these labs, most class sessions will begin with a 15-30 minute presentation. These presentations cover cotent that is important, but might not warrant an entire lab.  Their content may complement that day's lab, or it may be fairly distinct.
+In addition to labs, most class sessions will begin with a 15-30 minute presentation. These presentations will cover cotent that is important, but might not warrant an entire lab.  Sometimes that content will complement that day's lab, and sometimes it will seem distinct. You will be expected to use the content of these presentations in homework and projects.
 
 **Attendance** 
 
-This course involves substantial group work, meaning that absences affect not only yourself, but also your classmates.  That said, I understand that absences are sometimes necessary.  If you will be missing class for any reason I ask to be notified as soon as possible. Showing up late or missing class without prior notice will negatively impact the participation component of your grade.
+This course involves substantial group work, meaning absences affect not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absentfor any reason I ask to be notified as soon as possible. Showing up late or missing class without prior notice will negatively impact the participation component of your grade.
 
 **Academic Honesty**
 
@@ -99,20 +98,20 @@ Software is an essential component of data science and will a critical component
 
 **Engagement and Participation** - 10\%
 
-Participation during a lab-based course is absolutely critical. When pair programming you are expected to help your classmates learn the material (which goes beyond simply answering the lab questions).  You will start the semester with a participation score of 80\%, which will go up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score to 100\% by doing a superb job helping your lab partner(s) and working dilligently to understand course material.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  I will provide a midterm update on your participation score, and you may ask me about your current standing at any point in the semester.
+Participation during a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions).  You will start the semester with a participation score of 80\%, which will then move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score to 100\% by doing a superb job helping your lab partner(s), and working dilligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  I will provide a midterm update on your participation score, and you may ask me about your approximate standing at any point during the semester.
 
 **Group Labs** - 15\%
 
-Each lab that you and your partner(s) work on during class contains embedded questions that you will be expected to answer together.  Each group will submit a single set of answers, which will be scored primarily for effort.  If it becomes clear that you are your partner are using a "divide and conquer" approach to lab questions your score on that assignment will be penalized.
+Each lab contains embedded questions that you and your lab partner(s) are expected to answer together.  Each group will submit a single set of answers, which are scored primarily for effort.  If it becomes clear that you are your partner are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized.
 
 **Individual Homework** - 25\%
 
-Homework will be assigned approximately every two weeks (resulting in 5-7 assignments throughout the semester).  You are given two weeks for each assignment because they require a substantial amount of coding in `R` and can take a long time to complete. Coding errors can be difficult to debug, so I advise you to start each assignment as early as possible.  You are welcome to get help from your classmates on these assignments, though your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with.
+Individual homework will be assigned approximately every two weeks (resulting in 5-7 assignments throughout the semester).  You are given two weeks for these assignments because they might take you a while to complete and require a substantial amount of coding in `R`. Coding errors can be difficult to debug, so I advise you to start each assignment as early as possible.  You are welcome to get help from DASIL mentors or myself on these assignments, though your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with.
 
 **Midterm Project** - 20\%
 
-For this project you will develop an `R Shiny` app that visualizes data of your choosing. You may work on this project individually or with one classmate of your choosing.  You will publish your app online and give a 5 minute in-class presentation demonstrating the capabilities of your app and discussing some of the trends in your data that the app elucidates. You will be evaluated on both the features of your app and how well you communicate what you see in your data. Details can be found in the [Midterm Project Assignment Sheet](s230f19\midterm.html) 
+For this project you will develop an `R Shiny` app that visually explores a dataset of your choosing. You may work on this project individually, or with *one classmate* of your choosing.  You will publish your app online and give a 5 minute in-class presentation demonstrating the capabilities of your app and discussing some of the trends in your data that the app elucidates. You will be evaluated on both the features of your app and how well you communicate what you see in the data. Additional details can be found in the [Midterm Project Assignment Sheet](s230f19\midterm.html) 
 
 **Final Project** - 30\%
 
-This project is a comprehensive data analysis. You will work with either one or two classmates of your choosing, but you may not work with person you partnered with on the midterm.  The project will include a few short progress reports before culminating in a short in-class presentation and a three (3) page written report in the last week of the semester. Details can be found in the [Final Project Assignment Sheet](s230f19\final.html) 
+This project is a comprehensive data analysis. You will work with either one or two classmates of your choosing, but you may not work with person you partnered with on the midterm.  The project will include a few short progress reports before culminating in a short in-class presentation and a 3 page written report in the last week of the semester. Additional details can be found in the [Final Project Assignment Sheet](s230f19\final.html) 

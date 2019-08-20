@@ -29,7 +29,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 - Introduction
 - Populations and Samples
-- Correlation, Association, and Causation
+- Causation and Confounding
 - Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
 - Interval Estimation Part II (Bootstrapping)
@@ -72,8 +72,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-- Lab #1 - Graphs and Desctiptive Statistics
-    - due date: TBD
+- Lab #1 - Desctiptive Statistics and Graphs
+    - due date: Friday 9/6
 - Lab #2 - Confounding Variables and Stratification
     - due date: TBD
 - Lab #3 - Bootstrapping
