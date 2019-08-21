@@ -28,6 +28,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 ### Lectures
 
 - Introduction
+- Summarizing Data
 - Populations and Samples
 - Causation and Confounding
 - Randomized Experiments
@@ -102,7 +103,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Homeworks
 
-- HW #1: TBD
+- HW #1: 1.15, 1.16, 1.22, 2.20, 2.66, 2.116 2.117, 2.118
+    - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)
     - due date: Friday 9/6
 - HW #2: TBD
     - due date: Friday 9/13
