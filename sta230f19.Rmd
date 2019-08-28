@@ -20,46 +20,47 @@ To see when and how we'll use these materials please visit the schedule page lin
 
 You can find course content in the sections below.  Please note:
 
-1. Links will not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is because haven't gotten to that topic yet.
+1. Links may not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is because haven't gotten to that topic yet.
 2. As a data scientist you should realize that it is difficult to predict far into the future, so some details on this page might be subject to change as we progress through the semester.
 
 ### Labs
 
-- [NYPD Activity](s230f19/NYPD.html)
-- [Intro to R](s230f19/Intro_R.html)
-- [Tidy Data with `tidyr`](s230f19/tidyr.html)
-- [Data Wrangling with `dplyr`](s230f19/dplyr.html)
-- [Data Visualization with `ggplot2`](s230f19/ggplot.html)
-- [Interactive Visualization with `plotly`](s230f19/plotly.html)
-- [Merging and Joining with `dply`](s230f19/merging.html)
-- [Making Maps with `leaflet`](s230f19/maps.html)
-- [String Processing with `stringr`](s230f19/stringr.html)
-- [Web Scraping with `rvest`](s230f19/scraping.html)
-- [Principle Components Analysis](s230f19/pca.html)
-- [Clustering](s230f19/clustering.html)
-- [Model Building with `caret` (numeric outcomes)](s230f19/caret1.html)
-- [Model Building with `caret` (categorical outcomes)](s230f19/caret2.html)
-- [Black Box Models](s230f19/blackboxes.html)
+- [NYPD Activity](s230f19/Using_Data.html)
+- Intro to R
+- Tidy Data with `tidyr`
+- Data Wrangling with `dplyr`
+- Data Visualization with `ggplot2`
+- Interactive Visualization with `plotly`
+- Merging and Joining with `dplyr`
+- Making Maps with `leaflet`
+- String Processing with `stringr`
+- Web Scraping with `rvest`
+- Principle Components Analysis
+- Clustering
+- Model Building with `caret` (numeric outcomes)
+- Model Building with `caret` (binary outcomes)
+- Model Building with `caret` (categorical outcomes)
+- Black Box Models in `caret`
 
 ### Presentations
 
-- [Summary Statistics](s230f19/summaries_pres.html)
-- [The Simple-to-Complex Principle](s230f19/simple_complex.html)
-- [Variable Transformations](s230f19/features.html)
-- [Smoothing](s230f19/smoothing.html)
-- [Densities](s230f19/density.html)
-- [Visualization Principles](s230f19/visuals.html)
-- [Intro to R Shiny](s230f19/shiny_intro.html)
-- [Principle Components Analysis (part I)](s230f19/pca1.html)
-- [Principle Components Analysis (part II)](s230f19/pca2.html)
-- [Clustering (part I)](s230f19/clustering1.html)
-- [Clustering (part II)](s230f19/clustering2.html)
-- [Linear Regression and k-nearest Neighbors](s230f19/supervised_numeric.html)
-- [Cross-validation](s230f19/cross_validation.html)
-- [Logistic Regression, k-nearest Neighbors, and Naive Bayes](s230f19/supervised_categorical.html)
-- [Sensitivity, Specificity, and Kappa](s230f19/accuracy.html)
-- [Black Box Methods (part I)](s230f19/black_box1.html)
-- [Black Box Methods (part II)](s230f19/black_box1.html)
+- Summary Statistics (Intro Stats Review)
+- The Simple-to-Complex Principle
+- Variable Transformations
+- Smoothing
+- Densities
+- Visualization Principles
+- Intro to R Shiny
+- Principle Components Analysis (part I)
+- Principle Components Analysis (part II)
+- Clustering (part I)
+- Clustering (part II)
+- Linear Regression and Variants
+- Cross-validation
+- Logistic Regression and Variants
+- Accuracy, Kappa, Sensitivity, Specificity, and ROC curves
+- k-Nearest Neighbors and Trees
+- Black Box Models
 
 ### Group Lab Assignments
 
@@ -95,7 +96,17 @@ You can find course content in the sections below.  Please note:
 - [Problem Set #7](s230f19/f19_hw7.html) (due Friday 12/6)
 
 
+### Projects
 
-### Select Data Dictionaries
+- Midterm Project
+    - Assigned: Date TBD
+    - Presentations: Tuesday 10/15 and Thursday 10/17
+- Final Project
+    - Assigned: Date TBD
+    - Meetings: Tuesday 12/10 and Thursday 12/15
+    - Presentation: Finals Week (date TBD)
+    - Paper and Code: Friday 12/20 before 5:00pm
+
+### Select Datasets and Dictionaries
 
 - Coming Soon
