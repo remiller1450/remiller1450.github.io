@@ -27,7 +27,7 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 
 - Friday 8/30
     - Discuss the [syllabus](syllabus209f19.html)
-    - [Introduction to Statistics](coming_soon)
+    - [Introduction to Statistics](s209f19/intro_h.pdf)
     
 **Assignments**:
 
@@ -45,15 +45,15 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 9/2
-    - [Summarizing Data](coming_soon)
-    - Start [Lab #1 - Descriptive Statistics and Graphs](coming_soon)
+    - Summarizing Data
+    - Start [Lab #1 - Descriptive Statistics and Graphs](s209f19/Lab1.html)
 
 - Wednesday 9/4
     - Finish Lab #1
 
 - Friday 9/6
     - Discuss Lab #1
-    - [Populations and Samples](coming_soon)
+    - Populations and Samples
     
 **Assignments**:
 

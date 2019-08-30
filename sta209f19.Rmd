@@ -27,7 +27,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lectures
 
-- Introduction
+- [Introduction](s209f19/intro_h.pdf)
 - Summarizing Data
 - Populations and Samples
 - Causation and Confounding
