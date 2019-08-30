@@ -1,0 +1,215 @@
+---
+title: "Homework #1"
+author: "Your_Name_Here"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(ggplot2)
+```
+
+### Directions
+
+For this assignment you should edit the "author" info in the header to include your name.  You should save your file as "HW1_Your_Name.Rmd" before knitting.
+
+For each question, you should add or modify code in blocks provided. You should provide any written responses in the section that follows the code block.
+
+If code for a question has been provided, but you were not asked to modify it, please don't delete it or your .Rmd file might not knit properly.
+
+#### Question #1 (intro to R)
+
+Use the `read.csv` function to read and store the data file "CollegeData.csv", which is available at the url https://remiller1450.github.io/data/CollegeData.csv, as an `R` object named "mydata". Then use the `dim` function to print the dimensions of `mydata`.  In the space below the code chunk, state how many rows `mydata` contains, as well as what each row represents; also state how many columns `mydata` contains, and what each column represents.
+
+```{r}
+
+## Your code for question 1 goes here
+
+```
+
+Your written answer to question 1 should go here
+
+*indicate any help you received on this question here*
+
+
+#### Question #2 (intro to R, summarization)
+
+Write code that loads the `ggplot2` package (assume the package is already installed). The use the `qplot` function to graph the variable "COSTT4_A", the average yearly tuition for a given college.  In the space below the code chunk, write 2-3 sentences describing what this plot tells you about "COSTT4_A". You should discuss which values are typical, and/or whether there are any unusual values. You should be specific about these values, using functions like `mean`, `median`, or `quantile` to calculate them.
+
+```{r}
+
+## Your code for question 2 goes here
+
+```
+
+Your written answer to question 2 should go here
+
+*indicate any help you received on this question here*
+
+
+#### Question #3 (intro to R)
+
+The code below is an unsuccessful attempt to subset the Iowa City home sales data to only include homes with four or more bedrooms. Correct this code so that it creates the intended subset and store the result as `mysubset`.  After doing so, change the comment to indicate you corrected the error.  In the space below the code chunk, write a sentence or two explaining what went wrong with the original attempt (ie: what was wrong with the code before you changed it).
+
+```{r, eval = FALSE}
+homesales <- read.csv('https://remiller1450.github.io/data/IowaCityHomeSales.csv')
+mysubset <- homesales[homesales$bedrooms >= 4] ## This is incorrect and causes an error
+
+
+```
+
+Your written answer to question 3 should go here
+
+*indicate any help you recieved on this question here*
+
+
+#### Question #4 (Variable Transformations)
+
+By default, the `log` function will take the natural log of its input, which can be a vector or a single number.  You can specify a different base using the `base` argument.  For this question, write code that uses the `qplot` function to plot the base2 log of the variable "sale.amount" in the Iowa City home sales data.  In the space below the code chunk, briefly describe what a one unit increase in the transformed variable means (in terms of the original units).
+
+```{r}
+
+## Your code for question 4 goes here
+
+```
+
+Your written answer to question 4 should go here
+
+*indicate any help you received on this question here*
+
+
+#### Question #5 (Simple-to-Complex)
+
+Below I've provided code that plots two representations of the same data.  For this question you can ignore the code itself and focus on its output.
+
+As background, these data describe death penalty verdicts in the state of Florida (in the 1980s) broken down by the race of the victim and the race of the offender.
+
+In the space below the code chunk, write 1-2 sentences explaining which plot is simpler and whether the more complex representation of the data is necessary.
+
+
+```{r}
+death <- read.csv('https://remiller1450.github.io/data/DeathPenaltySentencing.csv')
+ggplot(data = death, aes(x = OffenderRace, fill = DeathPenalty)) + 
+  geom_bar(position = position_fill()) + 
+  labs(title = "Plot #1", y = "%")
+
+levels(death$VictimRace) <- c("Black Victim", "White Victim")
+ggplot(data = death, aes(x = OffenderRace, fill = DeathPenalty)) + 
+  geom_bar(position = position_fill()) + facet_grid(~VictimRace) +
+  labs(title = "Plot #2", y = "%")
+```
+
+Your written answer to Question 5 should go here.
+
+*indicate any help you received on this question here*
+
+
+#### Question #6 (Simple-to-Complex)
+
+Below I've provided code that plots two representations of the same data.  For this question you can ignore the code itself and focus on its output.
+
+As background, these data describe the behavior of male and female drivers exiting parking lots. Specifically, researchers timed the number of seconds it took for drivers to vacate their parking space upon entering their vehicle. They also recorded whether or not another vehicle was waiting to take the parking space.
+
+In the space below the code chunk, write 1-2 sentences explaining which plot is simpler and whether the more complex representation of the data is necessary.
+
+```{r}
+parking <- read.csv('https://remiller1450.github.io/data/Parking.csv')
+
+yvar <- parking[,colnames(parking) == 'time']
+
+ggplot(data = parking, aes(x = waiting, y = time)) + 
+  geom_boxplot() + 
+  coord_flip() +
+  labs(title = "Plot #1", x = "Is a Vehicle Waiting?", y = "Time to Exit Parking Space (seconds)")
+
+levels(parking$gender) <- c("Males", "Females")
+ggplot(data = parking, aes(x = waiting, y = time)) + 
+  geom_boxplot() + 
+  coord_flip() +
+  facet_grid(~gender) + 
+  labs(title = "Plot #2", x = "Is a Vehicle Waiting?", y = "Time to Exit Parking Space (seconds)") 
+```
+
+Your written answer to Question 6 should go here.
+
+*indicate any help you received on this question here*
+
+
+#### Question #7 (Tidy Data)
+
+The code below reads in data containing salary information presented by USA Today for all 862 players in Major League Baseball, storing the result in the object `mlb`.
+
+In the space below, add code that tidies these data and stores the final result in an object named "tidy_mlb". (Hint: Pay attention to variable types. `parse_number` only works on character vectors, so you may need to use `as.character` on these data)
+
+In the space below the code chunk, write 1-2 sentences explaining why the original data was not tidy and what you did to tidy it.
+
+```{r}
+mlb <- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/mlb2016.csv')
+
+## Your code for question 7 goes here
+
+```
+
+Your written answer to Question 7 should go here.
+
+*indicate any help you received on this question here*
+
+#### Question #8 (Tidy Data)
+
+The code below reads in data which contains prices of a 1 kg bag of rice, a 1 kg loaf of bread, and a Big Mac in major world cities in 2009 and 2003.
+
+In the space below, write code that tidies these data and stores the final result in an object named "tidy_ubs".
+
+In the space below the code chunk, write 1-2 sentences explaining why the original data was not tidy and what you did to tidy it.
+
+```{r}
+ubs <- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/mlb2016.csv')
+
+## Your code for question 8 goes here
+
+```
+
+Your written answer to Question 8 should go here.
+
+*indicate any help you received on this question here*
+
+
+#### Question #9 (Data Wrangling)
+
+The code below reads in data describing predominantly bachelor's-degree granting institutions from 2015.
+
+In the code chunk add code that filters the data to only include colleges in the Great Lakes or Plains regions, then constructs a new variable called "total.avg.cost4", which is the cumulative average cost of attendance (assuming students finish in four years and costs increase 3% each year). Store this modified data set in an object named "filtered_colleges" use the `head` function to print the first six values of the new variable "total.avg.cost4"
+
+```{r}
+colleges <- read.csv("https://raw.githubusercontent.com/ds4stats/r-tutorials/master/data-wrangling/data/colleges2015.csv")
+
+### Add your code here
+
+```
+
+*indicate any help you received on this question here*
+
+#### Question #10 (Numeric Summaries, Data Wrangling, and Simple-to-Complex)
+
+The code below takes the colleges data set, subsets it to include only colleges without any missing data, then finds the correlation coefficient summarizing the relationship between `cost` and `debt` and plots this relationship colored by type of school.
+
+Below the already existing code, add your own code that uses the `group_by` and `summarize` functions to find the correlation coefficient between these variables for each `type` of school (public or private).
+
+In the space below the code chunk write 2-3 sentences describing your findings (your discussion may reference the plot that was provided). Be sure to address whether you believe it's necessary to present private and public schools separately in this application.
+
+```{r}
+colleges <- read.csv("https://raw.githubusercontent.com/ds4stats/r-tutorials/master/data-wrangling/data/colleges2015.csv")
+colleges2 <- colleges[complete.cases(colleges),] ## Subsets the data to include only colleges w/ no missing data
+cor(colleges2$cost, colleges2$debt) ## The cor function finds the correlation coefficient between the two variables
+ggplot(colleges2, aes(x = cost, y = debt, col = type)) + geom_point() ## Plot by type
+
+
+### Add your code here
+
+```
+
+Your written answer to Question 10 should go here.
+
+*indicate any help you received on this question here*
+
+

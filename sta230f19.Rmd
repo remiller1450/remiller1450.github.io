@@ -35,7 +35,7 @@ You can find course content in the sections below.  Please note:
 - Making Maps with `leaflet`
 - String Processing with `stringr`
 - Web Scraping with `rvest`
-- Principle Components Analysis
+- Principal Components Analysis
 - Clustering
 - Model Building with `caret` (numeric outcomes)
 - Model Building with `caret` (binary outcomes)
@@ -51,8 +51,8 @@ You can find course content in the sections below.  Please note:
 - Densities
 - Visualization Principles
 - Intro to R Shiny
-- Principle Components Analysis (part I)
-- Principle Components Analysis (part II)
+- Principal Components Analysis (part I)
+- Principal Components Analysis (part II)
 - Clustering (part I)
 - Clustering (part II)
 - Linear Regression and Variants
@@ -88,12 +88,12 @@ You can find course content in the sections below.  Please note:
 
 - [Problem Set #1](s230f19/f19_hw1.html) (due Friday 9/13)
      - [R Markdown Template](s230f19/f19_hw1.Rmd)
-- [Problem Set #2](s230f19/f19_hw2.html) (due Friday 9/27)
-- [Problem Set #3](s230f19/f19_hw3.html) (due Friday 10/11)
-- [Problem Set #4](s230f19/f19_hw4.html)(due *Monday* 10/28)
-- [Problem Set #5](s230f19/f19_hw5.html)(due Friday 11/8)
-- [Problem Set #6](s230f19/f19_hw6.html) (due Friday 11/22)
-- [Problem Set #7](s230f19/f19_hw7.html) (due Friday 12/6)
+- Problem Set #2 (due Friday 9/27)
+- Problem Set #3 (due Friday 10/11)
+- Problem Set #4 (due *Monday* 10/28)
+- Problem Set #5 (due Friday 11/8)
+- Problem Set #6 (due Friday 11/22)
+- Problem Set #7 (due Friday 12/6)
 
 
 ### Projects
