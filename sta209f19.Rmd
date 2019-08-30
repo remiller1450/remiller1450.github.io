@@ -73,7 +73,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-- Lab #1 - Desctiptive Statistics and Graphs
+- [Lab #1 - Desctiptive Statistics and Graphs](s209f19/Lab1.html)
     - due date: Friday 9/6
 - Lab #2 - Confounding Variables and Stratification
     - due date: TBD
