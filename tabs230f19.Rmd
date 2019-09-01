@@ -52,6 +52,11 @@ You can scroll down this page, or use the navigation panel on the left side of t
     - The Simple-to-Complex Principle
     - Tidy Data Lab
 
+**Suggested Readings**:
+
+- [Modern Dive Ch 1 "Getting Started with Data in R"](https://moderndive.com/1-getting-started.html) (Tuesday)
+- [R FAQ and Common Errors](https://remiller1450.github.io/R_FAQ.html) (Tuesday)
+- [R for Data Science Ch 12 "Tidy data"](https://r4ds.had.co.nz/tidy-data.html) (Thursday)
     
 **Assignments**:
 
@@ -72,6 +77,10 @@ You can scroll down this page, or use the navigation panel on the left side of t
 - Tuesday 9/10
 
 - Thursday 9/12
+
+**Suggested Readings**
+
+- [Simplify your code with %>%](https://uc-r.github.io/pipe) (Tuesday)
 
     
 **Assignments**:
