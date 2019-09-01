@@ -28,6 +28,10 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 - Friday 8/30
     - Discuss the [syllabus](syllabus209f19.html)
     - [Introduction to Statistics](s209f19/intro_h.pdf)
+
+**Suggested Readings**:
+
+- Ch 1.1 (Friday)
     
 **Assignments**:
 
@@ -54,6 +58,12 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 - Friday 9/6
     - Discuss Lab #1
     - Populations and Samples
+
+**Suggested Readings**:
+
+- Ch 2.1-2.2 (Monday)
+- Ch 2.3-2.5 (Wednesday)
+- Ch 1.2 (Friday)
     
 **Assignments**:
 
@@ -78,6 +88,10 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 - Wednesday 9/11
 
 - Friday 9/13
+
+**Suggested Readings**:
+
+- Ch 1.3 (Monday)
     
 **Assignments**:
 
