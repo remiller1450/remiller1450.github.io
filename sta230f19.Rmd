@@ -26,7 +26,7 @@ You can find course content in the sections below.  Please note:
 ### Labs
 
 - [NYPD Activity](s230f19/Using_Data.html)
-- Intro to R
+- [Intro to R](s230f19/Intro_to_R.html)
 - Tidy Data with `tidyr`
 - Data Wrangling with `dplyr`
 - Data Visualization with `ggplot2`
@@ -44,7 +44,7 @@ You can find course content in the sections below.  Please note:
 
 ### Presentations
 
-- Summary Statistics (Intro Stats Review)
+- [Summary Statistics (Intro Stats Review)](s230f19/summaries_pres.html)
 - The Simple-to-Complex Principle
 - Variable Transformations
 - Smoothing
@@ -107,6 +107,6 @@ You can find course content in the sections below.  Please note:
     - Presentation: Finals Week (date TBD)
     - Paper and Code: Friday 12/20 before 5:00pm
 
-### Select Datasets and Dictionaries
+### Other Resources
 
-- Coming Soon
+- [R FAQ and Common Errors](s230f19/R_FAQ_Errors.html)
