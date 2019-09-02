@@ -28,7 +28,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 ### Lectures
 
 - [Introduction](s209f19/intro_h.pdf)
-- Summarizing Data
+- [Summarizing Data](s209f19/sum_h.pdf)
 - Populations and Samples
 - Causation and Confounding
 - Randomized Experiments

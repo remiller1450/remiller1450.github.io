@@ -49,7 +49,7 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 9/2
-    - Summarizing Data
+    - [Summarizing Data](s209f19/sum_h.pdf)
     - Start [Lab #1 - Descriptive Statistics and Graphs](s209f19/Lab1.html)
 
 - Wednesday 9/4
