@@ -55,7 +55,7 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **Suggested Readings**:
 
 - [Modern Dive Ch 1 "Getting Started with Data in R"](https://moderndive.com/1-getting-started.html) (Tuesday)
-- [R FAQ and Common Errors](https://remiller1450.github.io/R_FAQ.html) (Tuesday)
+- [R FAQ and Common Errors](s230f19/R_FAQ_Errors.html) (Tuesday)
 - [R for Data Science Ch 12 "Tidy data"](https://r4ds.had.co.nz/tidy-data.html) (Thursday)
     
 **Assignments**:

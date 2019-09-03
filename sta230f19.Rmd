@@ -65,7 +65,7 @@ You can find course content in the sections below.  Please note:
 ### Group Lab Assignments
 
 - Lab Submission #1 (due Tuesday 9/10)
-    - All questions from the [Intro to R](s230f19/Intro_R.html) and [Tidy Data](s230f19/tidyr.html) labs
+    - All questions from the [Intro to R](s230f19/Intro_to_R.html) and [Tidy Data](s230f19/tidyr.html) labs
 - Lab Submission #2 (due Tuesday 9/17)
     - All questions from the [Data Wrangling](s230f19/dplyr.html) and [Data Visualization (ggplot2)](s230f19/ggplot.html) labs
 - Lab Submission #3 (due Tuesday 9/24)
