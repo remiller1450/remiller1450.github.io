@@ -44,12 +44,12 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 9/3
-    - Summary Statistics
+    - Summary Statistics Presentation
     - Intro to R Lab
 
 
 - Thursday 9/5
-    - The Simple-to-Complex Principle
+    - The Simple-to-Complex Principle Presentation
     - Tidy Data Lab
 
 **Suggested Readings**:
@@ -75,16 +75,24 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 9/10
+    - Variable Transformations Presentation
+    - Data Wrangling Lab
 
 - Thursday 9/12
+    - Smoothing Presentation
+    - Data Visualization (ggplot2) Lab 
 
 **Suggested Readings**
 
+- [R for Data Science Ch 4 "Data Transformation"](https://r4ds.had.co.nz/transform.html) (Tuesday)
 - [Simplify your code with %>%](https://uc-r.github.io/pipe) (Tuesday)
-
+- [Modern Dive Ch 3 "Data Wrangling"](https://moderndive.com/3-wrangling.html) (Tuesday)
+- [R for Data Science Ch 3 "Data Visualization"](https://r4ds.had.co.nz/data-visualisation.html) (Thursday)
+- [Modern Dive Ch 2 "Data Visualization"](https://moderndive.com/2-viz.html) (Thursday)
     
 **Assignments**:
 
+- Lab Questions Set #2 (due Tuesday 9/17)
 
 **Assignments Due**:
 
