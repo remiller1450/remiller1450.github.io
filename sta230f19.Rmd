@@ -27,7 +27,7 @@ You can find course content in the sections below.  Please note:
 
 - [NYPD Activity](s230f19/Using_Data.html)
 - [Intro to R](s230f19/Intro_to_R.html)
-- Tidy Data with `tidyr`
+- [Tidy Data with `tidyr`](s230f19/Tidy_Data.html)
 - Data Wrangling with `dplyr`
 - Data Visualization with `ggplot2`
 - Interactive Visualization with `plotly`
@@ -45,7 +45,7 @@ You can find course content in the sections below.  Please note:
 ### Presentations
 
 - [Summary Statistics (Intro Stats Review)](s230f19/summaries_pres.html)
-- The Simple-to-Complex Principle
+- [The Simple-to-Complex Principle](s230f19/simple_complex.html)
 - Variable Transformations
 - Smoothing
 - Densities
