@@ -439,7 +439,7 @@ head(tidy_airlines)</code></pre>
 <p>The file <code>HospitalAdmits.csv</code> (available at the url “<a href="https://remiller1450.github.io/data/HospitalAdmits.csv" class="uri">https://remiller1450.github.io/data/HospitalAdmits.csv</a>”) describes the general reasons for people being hospitalized in the financial years ranging from July 1993 to June 1998. The variable “Separations” describes how many patient discharges occured in that year, while the variable “PatientDays” describes how many days in total patients spent in the hospital for that reason.</p>
 <ol style="list-style-type: upper-alpha">
 <li>Briefly explain why it is not considered to be tidy data and what changes need to be made to tidy it.</li>
-<li>Use <code>gather</code> and <code>separate</code> to create a tidy data set with columns <code>IcdChapter</code>, <code>Year</code>, <code>PatientDays</code>, and <code>Separations</code>. (Hint: pay attention to variable types, you might need to coerce factor variables into character variables using the <code>as.character</code> function, and then convert the result to numeric using the <code>as.numeric</code> function)</li>
+<li>Use <code>gather</code> and <code>separate</code> to create a tidy data set with columns <code>IcdChapter</code>, <code>IcdCode</code>, <code>Year</code>, and <code>Field</code> (Hint: pay attention to variable types, you might need to coerce factor variables into character variables using the <code>as.character</code> function, and then convert the result to numeric using the <code>as.numeric</code> function)</li>
 </ol>
 </div>
 <div id="additional-resources" class="section level3">
