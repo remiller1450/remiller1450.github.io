@@ -88,6 +88,7 @@ You can find course content in the sections below.  Please note:
 
 - [Problem Set #1](s230f19/f19_hw1.html) (due Friday 9/13)
      - [R Markdown Template](s230f19/f19_hw1.Rmd)
+     - [Raw .Rmd File](https://raw.githubusercontent.com/remiller1450/remiller1450.github.io/master/s230f19/f19_hw1.Rmd)
 - Problem Set #2 (due Friday 9/27)
 - Problem Set #3 (due Friday 10/11)
 - Problem Set #4 (due *Monday* 10/28)
