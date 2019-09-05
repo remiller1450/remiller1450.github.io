@@ -71,10 +71,10 @@ You can find course content in the sections below.  Please note:
 - Lab Submission #3 (due Tuesday 9/24)
     - All questions from the Interactive Visualization and Merging and Joining labs
 - Lab Submission #4 (due Tuesday 10/1)
-    - All questions from the Making Maps lab (Extra credit for doing the [Making Tables](s230f19/tables.html) lab)
-- Lab Submission #5 (due *Friday* 10/21)
-    - All questions from the String Processing and Web Scraping labs
-- Lab Submission #6 (due Tuesday 11/5)
+    - All questions from the Making Maps and String Processing labs
+- Lab Submission #5 (due Tuesday 10/8)
+    - All questions from the Web scraping lab
+- Lab Submission #6 (due Tuesday 10/15)
     - All questions from the Principal Components Analysis lab
 - Lab Submission #7 (due Tuesday 11/12)
     - All questions from the Clustering lab
@@ -90,18 +90,17 @@ You can find course content in the sections below.  Please note:
      - [R Markdown Template](s230f19/f19_hw1.Rmd)
      - [Raw .Rmd File](https://raw.githubusercontent.com/remiller1450/remiller1450.github.io/master/s230f19/f19_hw1.Rmd)
 - Problem Set #2 (due Friday 9/27)
-- Problem Set #3 (due Friday 10/11)
-- Problem Set #4 (due *Monday* 10/28)
-- Problem Set #5 (due Friday 11/8)
-- Problem Set #6 (due Friday 11/22)
-- Problem Set #7 (due Friday 12/6)
+- Problem Set #3 (due Friday 10/18)
+- Problem Set #4 (due Friday 11/8)
+- Problem Set #5 (due Friday 11/22)
+- Problem Set #6 (due Friday 12/6)
 
 
 ### Projects
 
 - Midterm Project
     - Assignment Link
-    - Presentations: Tuesday 10/15 and Thursday 10/17
+    - Presentations: Tuesday 10/8 and Thursday 10/10
 - Final Project
     - Assignment Link
     - Meetings: Tuesday 12/10 and Thursday 12/15

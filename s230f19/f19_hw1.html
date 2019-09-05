@@ -129,26 +129,26 @@ $(document).ready(function () {
 
 <div id="directions" class="section level3">
 <h3>Directions</h3>
-<p>For this assignment you should edit the “author” of the header to include your name. You should save your file as “HW1_Your_Name.Rmd” before knitting.</p>
-<p>For each of the questions you should write or add code to the blocks provided. You should answer questions in the section following the code blocks.</p>
-<p>If code for a question has been provided and you were not asked to modify it, please do not delete it or your .Rmd file might not knit properly.</p>
+<p>For this assignment you should edit the “author” info in the header to include your name. You should save your file as “HW1_Your_Name.Rmd” before knitting.</p>
+<p>For each question, you should add or modify code in blocks provided. You should provide any written responses in the section that follows the code block.</p>
+<p>If code for a question has been provided, but you were not asked to modify it, please don’t delete it or your .Rmd file might not knit properly.</p>
 <div id="question-1-intro-to-r" class="section level4">
 <h4>Question #1 (intro to R)</h4>
-<p>Use the <code>read.csv</code> function to read and store the data file “CollegeData.csv”, which is available at the url <a href="https://remiller1450.github.io/data/CollegeData.csv" class="uri">https://remiller1450.github.io/data/CollegeData.csv</a>, as an <code>R</code> object named “mydata”. Then use the <code>dim</code> function to print the dimensions of <code>mydata</code>. In the space below the code chunk, state how many rows <code>mydata</code> contains and what each represents; also state how many columns <code>mydata</code> contains and what each represents.</p>
+<p>Use the <code>read.csv</code> function to read and store the data file “CollegeData.csv”, which is available at the url <a href="https://remiller1450.github.io/data/CollegeData.csv" class="uri">https://remiller1450.github.io/data/CollegeData.csv</a>, as an <code>R</code> object named “mydata”. Then use the <code>dim</code> function to print the dimensions of <code>mydata</code>. In the space below the code chunk, state how many rows <code>mydata</code> contains, as well as what each row represents; also state how many columns <code>mydata</code> contains, and what each column represents.</p>
 <pre class="r"><code>## Your code for question 1 goes here</code></pre>
 <p>Your written answer to question 1 should go here</p>
 <p><em>indicate any help you received on this question here</em></p>
 </div>
-<div id="question-2-intro-to-r" class="section level4">
-<h4>Question #2 (intro to R)</h4>
-<p>Write code that loads the <code>ggplot2</code> package and then uses the <code>qplot</code> function to graph the variable “COSTT4_A”, the average yearly tuition for a given college. In the space below the code chunk, write 2-3 sentences describing what this plot tells you about “COSTT4_A”. You might discuss which values are typical, and/or whether there are any unusual values.</p>
+<div id="question-2-intro-to-r-summarization" class="section level4">
+<h4>Question #2 (intro to R, summarization)</h4>
+<p>Write code that loads the <code>ggplot2</code> package (assume the package is already installed). The use the <code>qplot</code> function to graph the variable “COSTT4_A”, the average yearly tuition for a given college. In the space below the code chunk, write 2-3 sentences describing what this plot tells you about “COSTT4_A”. You should discuss which values are typical, and/or whether there are any unusual values. You should be specific about these values, using functions like <code>mean</code>, <code>median</code>, or <code>quantile</code> to calculate them.</p>
 <pre class="r"><code>## Your code for question 2 goes here</code></pre>
 <p>Your written answer to question 2 should go here</p>
 <p><em>indicate any help you received on this question here</em></p>
 </div>
 <div id="question-3-intro-to-r" class="section level4">
 <h4>Question #3 (intro to R)</h4>
-<p>The code below is an unsuccessful attempt to subset the Iowa City home sales data to only include homes with four or more bedrooms. Correct this code to create the intended subset and store the result as <code>mydata</code>. After doing so, change the comment to indicate you corrected the error. In the space below the code chunk, write a sentence or two explaining what was wrong with the original attempt (how the code looked before you changed it).</p>
+<p>The code below is an unsuccessful attempt to subset the Iowa City home sales data to only include homes with four or more bedrooms. Correct this code so that it creates the intended subset and store the result as <code>mysubset</code>. After doing so, change the comment to indicate you corrected the error. In the space below the code chunk, write a sentence or two explaining what went wrong with the original attempt (ie: what was wrong with the code before you changed it).</p>
 <pre class="r"><code>homesales &lt;- read.csv('https://remiller1450.github.io/data/IowaCityHomeSales.csv')
 mysubset &lt;- homesales[homesales$bedrooms &gt;= 4] ## This is incorrect and causes an error</code></pre>
 <p>Your written answer to question 3 should go here</p>
@@ -156,7 +156,7 @@ mysubset &lt;- homesales[homesales$bedrooms &gt;= 4] ## This is incorrect and ca
 </div>
 <div id="question-4-variable-transformations" class="section level4">
 <h4>Question #4 (Variable Transformations)</h4>
-<p>By default, the <code>log</code> function will take the natural log of its input, which can be a vector or a single number. You can specify a different base using the <code>base</code> argument. Write code that uses the <code>qplot</code> function to plot the base 2 log of the variable “sale.amount” in the Iowa City home sales data. In the space below the code chunk, briefly describe what a one unit increase of this new variable means in terms of the original units.</p>
+<p>By default, the <code>log</code> function will take the natural log of its input, which can be a vector or a single number. You can specify a different base using the <code>base</code> argument. For this question, write code that uses the <code>qplot</code> function to plot the base2 log of the variable “sale.amount” in the Iowa City home sales data. In the space below the code chunk, briefly describe what a one unit increase in the transformed variable means (in terms of the original units).</p>
 <pre class="r"><code>## Your code for question 4 goes here</code></pre>
 <p>Your written answer to question 4 should go here</p>
 <p><em>indicate any help you received on this question here</em></p>
@@ -205,8 +205,8 @@ ggplot(data = parking, aes(x = waiting, y = time)) +
 </div>
 <div id="question-7-tidy-data" class="section level4">
 <h4>Question #7 (Tidy Data)</h4>
-<p>The code below reads in data containing salary information presented by USA Today for all 862 players in Major League Baseball storing the result in the object <code>mlb</code>.</p>
-<p>In the code chunk add code that tidies these data and stores the final result in an object named “tidy_mlb”. (Hint: Pay attention to variable types. <code>parse_number</code> only works on character vectors, so you may need to use <code>as.character</code> on these data)</p>
+<p>The code below reads in data containing salary information presented by USA Today for all 862 players in Major League Baseball, storing the result in the object <code>mlb</code>.</p>
+<p>In the space below, add code that tidies these data and stores the final result in an object named “tidy_mlb”. (Hint: Pay attention to variable types. <code>parse_number</code> only works on character vectors, so you may need to use <code>as.character</code> on these data)</p>
 <p>In the space below the code chunk, write 1-2 sentences explaining why the original data was not tidy and what you did to tidy it.</p>
 <pre class="r"><code>mlb &lt;- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/mlb2016.csv')
 
@@ -217,9 +217,9 @@ ggplot(data = parking, aes(x = waiting, y = time)) +
 <div id="question-8-tidy-data" class="section level4">
 <h4>Question #8 (Tidy Data)</h4>
 <p>The code below reads in data which contains prices of a 1 kg bag of rice, a 1 kg loaf of bread, and a Big Mac in major world cities in 2009 and 2003.</p>
-<p>In the code chunk add code that tidies these data and stores the final result in an object named “tidy_ubs”.</p>
+<p>In the space below, write code that tidies these data and stores the final result in an object named “tidy_ubs”.</p>
 <p>In the space below the code chunk, write 1-2 sentences explaining why the original data was not tidy and what you did to tidy it.</p>
-<pre class="r"><code>ubs &lt;- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/mlb2016.csv')
+<pre class="r"><code>ubs &lt;- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/UBSprices2.csv')
 
 ## Your code for question 8 goes here</code></pre>
 <p>Your written answer to Question 8 should go here.</p>
@@ -236,9 +236,9 @@ ggplot(data = parking, aes(x = waiting, y = time)) +
 </div>
 <div id="question-10-numeric-summaries-data-wrangling-and-simple-to-complex" class="section level4">
 <h4>Question #10 (Numeric Summaries, Data Wrangling, and Simple-to-Complex)</h4>
-<p>The code below takes the colleges data set, subsets it to include only colleges without missing values, then finds the correlation coefficient summarizing the relationship between <code>cost</code> and <code>debt</code> and plots this relationship colored by type of school.</p>
-<p>In the code chunk write code that uses the <code>group_by</code> and <code>summarize</code> functions to find the correlation coefficient for each <code>type</code> of school.</p>
-<p>In the space below the code chunk write 2-3 sentences describing your findings (you may reference the plot that was provided). Be sure to address whether you believe it’s necessary to look at private and public schools separately.</p>
+<p>The code below takes the colleges data set, subsets it to include only colleges without any missing data, then finds the correlation coefficient summarizing the relationship between <code>cost</code> and <code>debt</code> and plots this relationship colored by type of school.</p>
+<p>Below the already existing code, add your own code that uses the <code>group_by</code> and <code>summarize</code> functions to find the correlation coefficient between these variables for each <code>type</code> of school (public or private).</p>
+<p>In the space below the code chunk write 2-3 sentences describing your findings (your discussion may reference the plot that was provided). Be sure to address whether you believe it’s necessary to present private and public schools separately in this application.</p>
 <pre class="r"><code>colleges &lt;- read.csv(&quot;https://raw.githubusercontent.com/ds4stats/r-tutorials/master/data-wrangling/data/colleges2015.csv&quot;)
 colleges2 &lt;- colleges[complete.cases(colleges),] ## Subsets the data to include only colleges w/ no missing data
 cor(colleges2$cost, colleges2$debt) ## The cor function finds the correlation coefficient between the two variables</code></pre>

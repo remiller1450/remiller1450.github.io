@@ -163,7 +163,7 @@ In the space below, write code that tidies these data and stores the final resul
 In the space below the code chunk, write 1-2 sentences explaining why the original data was not tidy and what you did to tidy it.
 
 ```{r}
-ubs <- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/mlb2016.csv')
+ubs <- read.csv('https://raw.githubusercontent.com/ds4stats/r-tutorials/master/tidying-data/data/UBSprices2.csv')
 
 ## Your code for question 8 goes here
 
