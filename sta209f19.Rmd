@@ -30,8 +30,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Introduction](s209f19/intro_h.pdf)
 - [Summarizing Data](s209f19/sum_h.pdf)
 - Populations and Samples
-- Causation and Confounding
-- Randomized Experiments
+- Causation, Confounding Variables, and Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
 - Interval Estimation Part II (Bootstrapping)
 - Interval Estimation Part III (Normal Approximations)
@@ -76,7 +75,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab #1 - Desctiptive Statistics and Graphs](s209f19/Lab1.html)
     - due date: Friday 9/6
 - Lab #2 - Confounding Variables and Stratification
-    - due date: TBD
+    - due date: Wednesday 9/11
 - Lab #3 - Bootstrapping
     - due date: TBD
 - Lab #4 - Confidence Intervals
@@ -100,13 +99,16 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world. 
 - [Mass Shootings](https://remiller1450.github.io/data/MassShootings.csv)
     - This dataset was originally assembled in response to the movie theater shooting in Aurora Colorado by [Mother Jones](https://en.wikipedia.org/wiki/Mother_Jones_(magazine)), a liberal news organization.  It documents shootings in the United States where a lone gunman (with a few exceptions involving two shooters) killed at least four individuals (not including themselves) at a single location (with a few exceptions involving multiple locations within a short period). Variables include: demographic characteristics of the shooter, information on when/where the shooting occurred, information on the number of victims, and information about the mental health status of the shooter.
+- [Death Penalty Sentencing](https://remiller1450.github.io/data/DeathPenaltySentencing.csv)
+    - This dataset comes from a [widely cited study](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&context=journal_articles) on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony commited in the state of Florida between 1972 and 1977.  They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.
 
 ### Homeworks
 
 - HW #1: 1.15, 1.16, 1.22, 2.20, 2.66, 2.116 2.117, 2.118
     - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)
     - due date: Friday 9/6
-- HW #2: TBD
+- HW #2: 1.40, 1.41, 1.42, 1.43, 1.44, 1.45, 1.60, 1.91, 1.92, 1.100, 1.103 
+    - No explanations are necessary for 1.40 - 1.45
     - due date: Friday 9/13
 - HW #3: TBD
     - due date: Friday 9/20
