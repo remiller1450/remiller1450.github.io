@@ -29,7 +29,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 - [Introduction](s209f19/intro_h.pdf)
 - [Summarizing Data](s209f19/sum_h.pdf)
-- Populations and Samples
+- [Populations and Samples](s209f19/sampling_h.pdf)
 - Causation, Confounding Variables, and Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
 - Interval Estimation Part II (Bootstrapping)
