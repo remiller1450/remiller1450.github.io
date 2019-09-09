@@ -116,18 +116,30 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 9/16
-
+    - Confidence Intervals
+    - Start Lab #3 - Bootstrapping?
+    
 - Wednesday 9/18
+    - Lab #3 - Bootstrapping
 
 - Friday 9/20
+    - Normal Approximations
 
 **Suggested Readings**:
 
 - Ch 3.2-3.3 (Monday)
+- Ch 3.3-3.4 (Wednesday)
+- Ch 5.1 (only pages 372-275) and Ch 5.2 (Friday)
     
 **Assignments**:
 
+- Lab #3 (due Friday 9/19)
+- Homework #3 - 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130 (due Friday 9/19)
+
 **Assignments Due**:
+
+- Lab #3 (due Friday 9/19)
+- Homework #3 - 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130 (due Friday 9/19)
 
 <br/><br/>
 <br/><br/>

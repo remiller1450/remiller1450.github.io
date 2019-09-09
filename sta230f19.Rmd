@@ -28,7 +28,7 @@ You can find course content in the sections below.  Please note:
 - [NYPD Activity](s230f19/Using_Data.html)
 - [Intro to R](s230f19/Intro_to_R.html)
 - [Tidy Data with `tidyr`](s230f19/Tidy_Data.html)
-- Data Wrangling with `dplyr`
+- [Data Wrangling with `dplyr`](s230f19/Data_Wrangling.html)
 - Data Visualization with `ggplot2`
 - Interactive Visualization with `plotly`
 - Merging and Joining with `dplyr`
@@ -46,7 +46,7 @@ You can find course content in the sections below.  Please note:
 
 - [Summary Statistics (Intro Stats Review)](s230f19/summaries_pres.html)
 - [The Simple-to-Complex Principle](s230f19/simple_complex.html)
-- Variable Transformations
+- [Variable Transformations](s230f19/features.html)
 - Smoothing
 - Densities
 - Visualization Principles
@@ -67,7 +67,7 @@ You can find course content in the sections below.  Please note:
 - Lab Submission #1 (due Tuesday 9/10)
     - All questions from the [Intro to R](s230f19/Intro_to_R.html) and [Tidy Data](s230f19/Tidy_Data.html) labs
 - Lab Submission #2 (due Tuesday 9/17)
-    - All questions from the Data Wrangling and Data Visualization (ggplot2) labs
+    - All questions from the [Data Wrangling](s230f19/Data_Wrangling.html) and Data Visualization (ggplot2) labs
 - Lab Submission #3 (due Tuesday 9/24)
     - All questions from the Interactive Visualization and Merging and Joining labs
 - Lab Submission #4 (due Tuesday 10/1)
@@ -99,10 +99,10 @@ You can find course content in the sections below.  Please note:
 ### Projects
 
 - Midterm Project
-    - Assignment Link
+    - Assignment Link (coming soon)
     - Presentations: Tuesday 10/8 and Thursday 10/10
 - Final Project
-    - Assignment Link
+    - Assignment Link (coming soon)
     - Meetings: Tuesday 12/10 and Thursday 12/15
     - Presentation: Finals Week (date TBD)
     - Paper and Code: Friday 12/20 before 5:00pm
