@@ -107,16 +107,25 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 9/17
-
+    - Visualization Principles Presentation
+    - Interactive Visualization (plotly) Lab
 
 - Thursday 9/19
+    - Density Estimation Presentation
+    - Merging and Joining Lab
 
+**Suggested Readings**:
+
+- [Data Visualization: basic principles by Peter Aldhous (UC-Berkeley, BuzzFeed News)](https://paldhous.github.io/ucb/2016/dataviz/week2.html) (Tuesday)
+- [Interactive web-based data visualization with R, plotly, and shiny - Chapters 2 and 3 "Overview" and "Scattered Foundations"](https://plotly-r.com/index.html) (Tuesday)
+- [R for Data Science Ch 13 "Relational Data"](https://r4ds.had.co.nz/relational-data.html) (Thursday)
     
 **Assignments**:
-
+- Lab Questions Set #3 (due Tuesday 9/23)
+- Individual Problem Set #2 (due Friday 9/27)
 
 **Assignments Due**:
-
+- Lab Questions Set #2 (due Tuesday 9/17)
 
 <br/><br/>
 <br/><br/>
@@ -126,8 +135,12 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 9/24
+    - Introduce Midterm Project
+    - Making Maps Lab
 
 - Thursday 9/26
+    - Introduction to R Shiny
+    - String Processing Lab
 
 **Assignments**:
 
@@ -144,9 +157,11 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/1
+    - Textual Data Analysis Presentation
+    - Web-scraping Lab
     
 - Thursday 10/3 
-
+    - No class (project meetings)
     
 **Assignments**:
 
@@ -160,8 +175,10 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/8
+    - Midterm Presentations
     
 - Thursday 10/10
+    - Midterm Presentations
     
 **Assignments**:
 

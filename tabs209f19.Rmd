@@ -123,7 +123,7 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
     - Lab #3 - Bootstrapping
 
 - Friday 9/20
-    - Normal Approximations
+    - Normal Approximations (part 1)
 
 **Suggested Readings**:
 
