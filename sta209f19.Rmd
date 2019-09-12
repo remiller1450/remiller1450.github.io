@@ -31,7 +31,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Summarizing Data](s209f19/sum_h.pdf)
 - [Populations and Samples](s209f19/sampling_h.pdf)
 - [Causation, Confounding Variables, and Randomized Experiments](s209f19/random_h.pdf)
-- Interval Estimation Part I (Sampling Distributions)
+- [Interval Estimation Part I (Sampling Distributions)](s209f19/sampling_dist_h.pdf)
 - Interval Estimation Part II (Bootstrapping)
 - Interval Estimation Part III (Normal Approximations)
 - Hypothesis Testing Part I (Null Distributions and p-values)
