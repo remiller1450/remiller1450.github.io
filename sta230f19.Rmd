@@ -72,15 +72,15 @@ You can find course content in the sections below.  Please note:
     - All questions from the Interactive Visualization and Merging and Joining labs
 - Lab Submission #4 (due Tuesday 10/1)
     - All questions from the Making Maps and String Processing labs
-- Lab Submission #5 (due Tuesday 10/8)
+- Lab Submission #5 (due TBD)
     - All questions from the Web scraping lab
-- Lab Submission #6 (due Tuesday 10/15)
+- Lab Submission #6 (due TBD)
     - All questions from the Principal Components Analysis lab
-- Lab Submission #7 (due Tuesday 11/12)
+- Lab Submission #7 (due TBD)
     - All questions from the Clustering lab
-- Lab Submission #8 (due Tuesday 11/19)
+- Lab Submission #8 (due TBD)
     - All questions from the Supervised Learning with `caret` (numeric outcomes) lab
-- Lab Submission #9 (due Tuesday 12/3)
+- Lab Submission #9 (due TBD)
     - All questions from the Supervised Learning with `caret` (binary and categorical outcomes) labs
                       
     
@@ -99,8 +99,9 @@ You can find course content in the sections below.  Please note:
 ### Projects
 
 - Midterm Project
-    - Assignment Link (coming soon)
+    - [Assignment Link](s230f19/f19midterm.html)
     - Presentations: Tuesday 10/8 and Thursday 10/10
+    - Final Submission: Friday 10/11
 - Final Project
     - Assignment Link (coming soon)
     - Meetings: Tuesday 12/10 and Thursday 12/15

@@ -110,7 +110,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - HW #2: 1.40, 1.41, 1.42, 1.43, 1.44, 1.45, 1.60, 1.91, 1.92, 1.100, 1.103 
     - No explanations are necessary for 1.40 - 1.45
     - due date: Friday 9/13
-- HW #3: TBD
+- HW #3: 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130
     - due date: Friday 9/20
 - HW #4: TBD
     - due date: Friday 9/27
