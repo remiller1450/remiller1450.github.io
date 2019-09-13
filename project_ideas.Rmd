@@ -1,0 +1,40 @@
+---
+title: "Data Sources and Project Topics"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This page contains links to data sources as well as some suggested project topics.  It is by no means a comprehensive list, and is continually updated
+
+## Data Sources
+
+### General/Government
+
+- [Data.gov - General](https://www.data.gov/) - tens of thousands of publically available government datasets on topics including agriculture, climate, consumer trends, ecology, education, energy, finance, health, state/local governments, manufacturing, oceans, public safety, and scientific research.
+- [Census.gov - Data Tables](https://www.census.gov/data/tables.html) - demographic and population data for the United States.  Some highlights include county-to-county and metro-to-metro migration trends, state-level tax collections by type, and geospatial data.
+- [Worldbank.org - Open Data](https://datacatalog.worldbank.org/) - time-series, sample survey, and geospatial data for hundreds of countries around the world.  Options to search by country, or by type of data.
+
+### Sports
+
+- [Baseball Reference](https://www.baseball-reference.com/) -  - season statistics for every MLB team/player, box scores for every game, all-time historical data, and much more
+- [Basketball Reference](https://www.basketball-reference.com/) - season statistics for every NBA team/player, box scores for every game, all-time historical data, and much more
+- [Football Reference](https://www.pro-football-reference.com/) - season statistics for every NFL team/player, box scores for every game, all-time historical data, and much more
+- [Hockey Reference](https://www.hockey-reference.com/)  - season statistics for every NHL team/player, box scores for every game, all-time historical data, and much more
+
+### Education
+
+- [College Scorecard](https://collegescorecard.ed.gov/data/) - a government database aimed at increasing transparency in higher education by publishing hundreds of variables describing colleges across the United States
+- [Data.gov - Education Catalog](https://catalog.data.gov/dataset?groups=education2168#topic=education_navigation) - hundreds of publically available government datasets ranging from cross-sectional surveys, to longitudinal studies, to geospatial datasets
+
+
+## Project Ideas
+
+Coming soon ...
