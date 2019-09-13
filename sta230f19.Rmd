@@ -30,7 +30,7 @@ You can find course content in the sections below.  Please note:
 - [Tidy Data with `tidyr`](s230f19/Tidy_Data.html)
 - [Data Wrangling with `dplyr`](s230f19/Data_Wrangling.html)
 - [Data Visualization with `ggplot2`](s230f19/ggplot.html)
-- Interactive Visualization with `plotly`
+- [Interactive Visualization with `plotly`](s230f19/plotly.html)
 - Merging and Joining with `dplyr`
 - Making Maps with `leaflet`
 - String Processing with `stringr`
