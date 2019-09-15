@@ -32,7 +32,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Populations and Samples](s209f19/sampling_h.pdf)
 - [Causation, Confounding Variables, and Randomized Experiments](s209f19/random_h.pdf)
 - [Interval Estimation Part I (Sampling Distributions)](s209f19/sampling_dist_h.pdf)
-- Interval Estimation Part II (Bootstrapping)
+- Interval Estimation Part II (Confidence Intervals)
 - Interval Estimation Part III (Normal Approximations)
 - Hypothesis Testing Part I (Null Distributions and p-values)
 - Hypothesis Testing Part II (Randomization Tests)
@@ -76,8 +76,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 9/6
 - [Lab #2 - Confounding Variables and Stratification](s209f19/Lab2.html)
     - due date: Wednesday 9/11
-- Lab #3 - Bootstrapping
-    - due date: TBD
+- [Lab #3 - Bootstrapping](s209f19/Lab3.html)
+    - due date: Friday 9/20
 - Lab #4 - Confidence Intervals
     - due date: TBD
 - Lab #5 - Randomization Testing
@@ -100,8 +100,13 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Mass Shootings](https://remiller1450.github.io/data/MassShootings.csv)
     - This dataset was originally assembled in response to the movie theater shooting in Aurora Colorado by [Mother Jones](https://en.wikipedia.org/wiki/Mother_Jones_(magazine)), a liberal news organization.  It documents shootings in the United States where a lone gunman (with a few exceptions involving two shooters) killed at least four individuals (not including themselves) at a single location (with a few exceptions involving multiple locations within a short period). Variables include: demographic characteristics of the shooter, information on when/where the shooting occurred, information on the number of victims, and information about the mental health status of the shooter.
 - [Death Penalty Sentencing](https://remiller1450.github.io/data/DeathPenaltySentencing.csv)
-    - This dataset comes from a [widely cited study](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&context=journal_articles) on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony commited in the state of Florida between 1972 and 1977.  They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.
-
+    - This dataset comes from a [widely cited study](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&context=journal_articles) on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony committed in the state of Florida between 1972 and 1977.  They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.
+- [Infant Heart Surgery](https://remiller1450.github.io/data/InfantHeart.csv)
+    - This dataset contains the results of a randomized experiment conducted by surgeons at Harvard Medical School to compare a "low-flow bypass" and "circulatory arrest" surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development. 
+- [San Francisco Mall Shoppers](https://remiller1450.github.io/data/SF_Shoppers.csv)
+    - In 1987, Impact Resources Inc. surveyed 9409 shopping mall customers in the San Francisco Bay area (San Francisco, Oakland, and San Jose).  This dataset contains the responses of 6876 shoppers who completed the survey.  It includes demographic characteristics such as: age, sex, income, marital status, education, occupation, household size, home type, and ethnicity.
+    
+    
 ### Homeworks
 
 - HW #1: 1.15, 1.16, 1.22, 2.20, 2.66, 2.116 2.117, 2.118
@@ -132,6 +137,6 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Wednesday 11/27
 
 
-### Other Materials
+### Announcements and Other Materials 
 
-- To be added as needed
+- Exam #1 will be on Friday 10/4 during class. Study materials will be posted on p-web.
