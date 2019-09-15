@@ -107,11 +107,11 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 9/17
-    - Visualization Principles Presentation
+    - Density Estimation Presentation
     - Interactive Visualization (plotly) Lab
 
 - Thursday 9/19
-    - Density Estimation Presentation
+    - Visualization Principles Presentation
     - Merging and Joining Lab
 
 **Suggested Readings**:
@@ -121,7 +121,7 @@ You can scroll down this page, or use the navigation panel on the left side of t
 - [R for Data Science Ch 13 "Relational Data"](https://r4ds.had.co.nz/relational-data.html) (Thursday)
     
 **Assignments**:
-- Lab Questions Set #3 (due Tuesday 9/23)
+- Lab Questions Set #3 (due Tuesday 9/24)
 - Individual Problem Set #2 (due Friday 9/27)
 
 **Assignments Due**:
@@ -143,9 +143,11 @@ You can scroll down this page, or use the navigation panel on the left side of t
     - String Processing Lab
 
 **Assignments**:
-
+- Lab Questions Set #4 (due Tuesday 10/1)
 
 **Assignments Due**:
+- Lab Questions Set #3 (due Tuesday 9/24)
+- Individual Problem Set #2 (due Friday 9/27)
 
 <br/><br/>
 <br/><br/>
@@ -157,15 +159,17 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/1
-    - Textual Data Analysis Presentation
-    - Web-scraping Lab
+    - R Shiny Presentation
+    - Time to work on Midterm Project
     
 - Thursday 10/3 
-    - No class (project meetings)
+    - Group Project Meetings (during class)
     
 **Assignments**:
+- Individual Problem Set #3 (due Friday 10/18)
 
 **Assignments Due**:
+- Lab Questions Set #4 (due Tuesday 10/1)
 
 <br/><br/>
 <br/><br/>
@@ -181,8 +185,10 @@ You can scroll down this page, or use the navigation panel on the left side of t
     - Midterm Presentations
     
 **Assignments**:
+- Nothing new
 
 **Assignments Due**:
+- Midterm Project Code and Published App (due Friday 10/11)
 
 <br/><br/>
 <br/><br/>
@@ -192,13 +198,18 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/15
+    - Principal Component Analysis Presentation
+    - Principal Component Analaysis Lab
 
 - Thursday 10/17
-
+    - Principal Component Analysis Case Study
+    - Principal Component Analaysis Lab (continued)
     
 **Assignments**:
+-  Lab Questions Set #4  (due Tuesday 10/29)
 
 **Assignments Due**:
+- Individual Problem Set #3 (due Friday 10/18)
 
 <br/><br/>
 <br/><br/>

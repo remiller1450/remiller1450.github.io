@@ -1,0 +1,168 @@
+---
+title: "Homework #2"
+author: "Your_Name_Here"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+library(ggplot2)
+```
+
+### Directions
+
+For this assignment you should edit the "author" of the header to include your name.  You should save your file as "HW2_Your_Name.Rmd" before knitting.
+
+For each of the questions you should write or add code to the blocks provided.  You should answer questions in the section following the code blocks.
+
+If code for a question has been provided and you were not asked to modify it, please do not delete it or your .Rmd file might not knit properly.
+
+#### Question #1 (tidy data, data wrangling, ggplot)
+
+The data.frame `economics` in the `datasets` package contains US economic data provided by [US federal reserve](https://fred.stlouisfed.org/).
+
+In the chunk below, write code that uses `ggplot` to create a line graph which displays the variables `uempmed` and `psavert` on the y-axis and `date` on the x-axis.  Use the `color` aesthetic to differentiate the lines of each variables. 
+
+In the space below your code, use your visual to briefly describe whether these variables appear to be related.
+
+Hints: 
+
+- You need to tidy the `economics` data.frame before you can construct this graph
+- You can use the `select` function to remove unnecessary variables as the first step in tidying
+
+```{r}
+library(datasets)  # Make sure you have this package installed
+data("economics")
+
+## Your code for question 1 goes here
+```
+
+Your written answer to question 1 should go here.
+
+*indicate any help you received on this question here*
+
+
+
+
+#### Question #2 (data wrangling and ggplot)
+
+The data.frame `ChickWeight` in the `datasets` package contains data from an experiment studying the effects of different diets on the growth rate of chicks (young chickens).
+
+In the code chunk below, write code that constructs a data.frame named "chick_df" that contains the *mean weight* for each diet group *at each time-point* using the `group_by` and `summarize` functions in the `dplyr` package. (Hint: you can group by more than one variable in the `group_by` function)
+
+Then, use `ggplot` to construct a line plot displaying the mean weight of each diet group over time. (Hint: You shouldn't be using `geom_smooth` to make your plot, you should plot the means directly).
+
+Below your code, briefly discuss whether there is enough information in your plot to conclude that Diet #3 leads to the most growth.
+
+```{r}
+data("ChickWeight")
+
+## Your code for question 2 goes here
+```
+
+Your written answer to question 2 should go here
+
+*indicate any help you received on this question here*
+
+
+
+
+#### Question #3 (simple-to-complex, smoothing, and ggplot)
+
+The data.frame `diamonds` in the `ggplot2` package contains the prices and attributes of nearly 54,000 diamonds sold by an online retailer.
+
+In the code chunk below, write code to that filters these data to contain only diamonds with prices less than $2,000, and then uses `ggplot` to construct a scatterplot displaying the relationship between the variables `carat` and `price`.  
+
+Color the points in your scatterplot based upon the variable `cut`, and add loess smoothers using the arguments `method = "loess"` and `se = FALSE`.
+
+In the space below your code/plot answer the following:
+
+A) Is the information in the variable `cut` useful in understanding the price of a diamond? Could the variable `cut` be simplified (ie: could some categories be combined) and still accurately convey the trends in the data?
+B) How does `carat` relate to price? Do you believe the loess smoother is necessary, or could the relationship be simplified by using a linear regression line as a smoother?
+
+
+```{r}
+data("diamonds")
+
+## Your code for question 3 goes here
+```
+
+Your written answer to question 3 should go here
+
+*indicate any help you received on this question here*
+
+
+#### Question #4 (density, ggplot)
+
+The data.frame `faithful` in the `datasets` package documents eruptions of the "Old Faithful" geyser at Yellowstone National Park in Wyoming.  The variable `eruptions` records the eruption duration (in minutes), and the variable `waiting` records the waiting time until the next eruption (also in minutes).
+
+In the code chunk below write code that uses `ggplot` to create a two-dimensional density plot depicting the relationship between an eruption's duration (the variable `eruptions`) and the time until the next eruption (the variable `waiting`).
+
+In the space below your code/plot answer the following:
+
+A) Are `eruptions` and `waiting` related? What combinations of these variables are commom/uncommon?
+B) What can you learn from this plot that you couldn't learn from the slope and intercept of a regression line?
+
+```{r}
+data("faithful")
+
+## Your code for question 4 goes here
+```
+
+Your written answers to question 4 should go here
+
+*indicate any help you received on this question here*
+
+
+
+#### Question #5 (merging/joining, ggplot, density)
+
+[Sean Lahman](https://en.wikipedia.org/wiki/Sean_Lahman) complied a comprehensive database containing pitching, hitting, and fielding statistics from all Major League Baseball games from 1871 through 2016.  The database is available in the package `Lahman` and contains several tables.  The data.frame "Master" contains one row per unique player.
+
+After loading the `Lahman` database, use merging, and joining to answer the following questions:
+
+A) Use the appropriate join to create a data.frame named "no_salary" that contains players from the "Master" data.frame that *don't match* any of the entries in the "Salaries" data.frame
+B) What proportion of the players without a salary did not appear in a game (ie: don't have a record in the "Appearances" data.frame)? 
+C) Is it possible that players without a salary played before the modern era? To answer this question, compare the density of the variable `birthYear` in the "no_salary" data.frame you created with the density of `birthYear` for players who had a salary.  Write code to construct this plot and write 1-2 sentences answering this question in the space below your code/plot. 
+
+```{r}
+library(Lahman)  ## Make sure you have this package installed
+
+## Dimensions of some of the data.frames
+dim(Master)
+dim(Salaries)
+dim(Appearances)
+
+## Part A Code Goes Below
+
+
+## Part B Code Goes Below
+
+
+## Part C Code Goes Below
+
+
+```
+
+Your written answers to question 5 should go here
+
+*indicate any help you received on this question here*
+
+
+
+
+#### Question #6 (data wrangling, plotly)
+
+The Happy Planet Index is an attempt to measure how well nations are doing at achieving long, happy, and sustainable lives for their citizens using data compiled from various sources. A description of the dataset's variable can be found [on slide 11 here](https://remiller1450.github.io/s209f19/intro_h.pdf)
+
+For this question, use the `plot_ly` function in the `plotly` package to construct a scatterplot of "LifeExpectancy" versus "Happiness" where each country is colored by it's region. Add hover text displaying the country represented by that data-point.
+
+Your plot should be professional in appearance, which means the region variable *should not* be displayed as a numeric code, and the axes should be labeled appropriately.
+
+```{r}
+HappyPlanet <- read.csv("https://remiller1450.github.io/data/HappyPlanet.csv")
+
+## Your code for question 6 goes here
+```
+
+*indicate any help you received on this question here*
