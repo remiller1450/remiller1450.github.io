@@ -120,7 +120,7 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
     - Start Lab #3 - Bootstrapping
     
 - Wednesday 9/18
-    - Finish Lab #3 - Bootstrapping
+    - Finish Lab #3
 
 - Friday 9/20
     - Normal Approximations (part 1)
@@ -149,14 +149,27 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 9/23
-
+    - Normal Approximations (part 2)
+    
 - Wednesday 9/25
-
+    - Finish Normal Approximations (part 2)
+    
 - Friday 9/27
+    - Lab #4 - Confidence Intervals
+        
+**Suggested Readings**:
+
+- Ch 6.1-CI and Ch 6.3-CI (Monday) 
+- Ch 6.2-CI and Ch 6.4-CI (Wednesday)  
     
 **Assignments**:
 
+- Lab #4 (due Monday 9/30)
+- Homework #4 - TBD (due Friday 9/27)
+
 **Assignments Due**:
+
+- Homework #4 - TBD (due Friday 9/27)
 
 <br/><br/>
 <br/><br/>
@@ -168,15 +181,21 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 9/30
+    - Null Distributions and p-values
 
 - Wednesday 10/2
+    - Review for Exam #1
 
 - Friday 10/4
     - Exam #1
     
 **Assignments**:
 
+- HW #5 - TBD (due *Wednesday* 10/2)
+
 **Assignments Due**:
+
+- Lab #4 (due Monday 9/30)
 
 <br/><br/>
 <br/><br/>
