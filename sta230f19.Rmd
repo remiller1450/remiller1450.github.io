@@ -48,7 +48,7 @@ You can find course content in the sections below.  Please note:
 - [The Simple-to-Complex Principle](s230f19/simple_complex.html)
 - [Variable Transformations](s230f19/features.html)
 - [Smoothing](s230f19/smoothing.html)
-- Density Estimation
+- [Density Estimation](s230f19/density.html)
 - Visualization Principles
 - Intro to R Shiny
 - Principal Components Analysis (part I)
@@ -69,7 +69,8 @@ You can find course content in the sections below.  Please note:
 - Lab Submission #2 (due Tuesday 9/17)
     - All questions from the [Data Wrangling](s230f19/Data_Wrangling.html) and [Data Visualization](s230f19/ggplot.html) labs
 - Lab Submission #3 (due Tuesday 9/24)
-    - All questions from the Interactive Visualization and Merging and Joining labs
+    - All questions from the [Interactive Visualization](s230f19/plotly.html) and Merging and Joining labs
+    - These questions should be submitted as a single HTML file generated using R Markdown
 - Lab Submission #4 (due Tuesday 10/1)
     - All questions from the Making Maps and String Processing labs
 - Lab Submission #5 (due TBD)
@@ -107,7 +108,7 @@ You can find course content in the sections below.  Please note:
 - Final Project
     - Assignment Link (coming soon)
     - Meetings: Tuesday 12/10 and Thursday 12/15
-    - Presentation: Finals Week (date TBD)
+    - Presentations: 2-5pm on Tuesday 12/17
     - Paper and Code: Friday 12/20 before 5:00pm
 
 ### Other Resources
