@@ -7,6 +7,8 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 library(ggplot2)
+library(dplyr)
+library(tidyr)
 ```
 
 ### Directions
@@ -19,7 +21,7 @@ If code for a question has been provided and you were not asked to modify it, pl
 
 #### Question #1 (tidy data, data wrangling, ggplot)
 
-The data.frame `economics` in the `datasets` package contains US economic data provided by [US federal reserve](https://fred.stlouisfed.org/).
+The data.frame `economics` in the `ggplot2` package contains US economic data provided by [US federal reserve](https://fred.stlouisfed.org/).
 
 In the chunk below, write code that uses `ggplot` to create a line graph which displays the variables `uempmed` and `psavert` on the y-axis and `date` on the x-axis.  Use the `color` aesthetic to differentiate the lines of each variables. 
 
@@ -31,7 +33,7 @@ Hints:
 - You can use the `select` function to remove unnecessary variables as the first step in tidying
 
 ```{r}
-library(datasets)  # Make sure you have this package installed
+library(ggplot2)  # Make sure you have this package installed
 data("economics")
 
 ## Your code for question 1 goes here
@@ -55,6 +57,7 @@ Then, use `ggplot` to construct a line plot displaying the mean weight of each d
 Below your code, briefly discuss whether there is enough information in your plot to conclude that Diet #3 leads to the most growth.
 
 ```{r}
+library(datasets)  # Make sure you have this package installed
 data("ChickWeight")
 
 ## Your code for question 2 goes here

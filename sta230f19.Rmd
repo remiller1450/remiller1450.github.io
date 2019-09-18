@@ -31,7 +31,7 @@ You can find course content in the sections below.  Please note:
 - [Data Wrangling with `dplyr`](s230f19/Data_Wrangling.html)
 - [Data Visualization with `ggplot2`](s230f19/ggplot.html)
 - [Interactive Visualization with `plotly`](s230f19/plotly.html)
-- Merging and Joining with `dplyr`
+- [Merging and Joining with `dplyr`](s230f19/merging.html)
 - Making Maps with `leaflet`
 - String Processing with `stringr`
 - Web Scraping with `rvest`
@@ -49,7 +49,7 @@ You can find course content in the sections below.  Please note:
 - [Variable Transformations](s230f19/features.html)
 - [Smoothing](s230f19/smoothing.html)
 - [Density Estimation](s230f19/density.html)
-- Visualization Principles
+- [Visualization Principles and Examples](s230f19/viz.html)
 - Intro to R Shiny
 - Principal Components Analysis (part I)
 - Principal Components Analysis (part II)
