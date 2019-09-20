@@ -118,7 +118,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 9/13
 - HW #3: 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130
     - due date: Friday 9/20
-- HW #4: TBD
+- HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.143, 6.144, 6.96, 6.97, 6.98
     - due date: Friday 9/27
 - HW #5: TBD
     - due date: Friday 10/4
