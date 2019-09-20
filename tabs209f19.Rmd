@@ -149,10 +149,10 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 9/23
-    - Normal Approximations (part 2)
+    - Normal Approximations (part 1/part 2)
     
 - Wednesday 9/25
-    - Finish Normal Approximations (part 2)
+    - Normal Approximations (part 2)
     
 - Friday 9/27
     - Lab #4 - Confidence Intervals
