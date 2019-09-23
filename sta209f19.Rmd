@@ -106,7 +106,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - This dataset contains the results of a randomized experiment conducted by surgeons at Harvard Medical School to compare a "low-flow bypass" and "circulatory arrest" surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development. 
 - [San Francisco Mall Shoppers](https://remiller1450.github.io/data/SF_Shoppers.csv)
     - In 1987, Impact Resources Inc. surveyed 9409 shopping mall customers in the San Francisco Bay area (San Francisco, Oakland, and San Jose).  This dataset contains the responses of 6876 shoppers who completed the survey.  It includes demographic characteristics such as: age, sex, income, marital status, education, occupation, household size, home type, and ethnicity.
-    
+- [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)    
+    - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  It was obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
     
 ### Homeworks
 
