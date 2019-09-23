@@ -32,7 +32,7 @@ You can find course content in the sections below.  Please note:
 - [Data Visualization with `ggplot2`](s230f19/ggplot.html)
 - [Interactive Visualization with `plotly`](s230f19/plotly.html)
 - [Merging and Joining with `dplyr`](s230f19/merging.html)
-- Making Maps with `leaflet`
+- [Making Maps with `leaflet`](s230f19/maps.html)
 - String Processing with `stringr`
 - Web Scraping with `rvest`
 - Principal Components Analysis
@@ -69,10 +69,11 @@ You can find course content in the sections below.  Please note:
 - Lab Submission #2 (due Tuesday 9/17)
     - All questions from the [Data Wrangling](s230f19/Data_Wrangling.html) and [Data Visualization](s230f19/ggplot.html) labs
 - Lab Submission #3 (due Tuesday 9/24)
-    - All questions from the [Interactive Visualization](s230f19/plotly.html) and Merging and Joining labs
+    - All questions from the [Interactive Visualization](s230f19/plotly.html) and [Merging and Joining](s230f19/merging.html) labs
     - These questions should be submitted as a single HTML file generated using R Markdown
 - Lab Submission #4 (due Tuesday 10/1)
-    - All questions from the Making Maps and String Processing labs
+    - All questions from the [Making Maps](s230f19/maps.html) and String Processing labs
+    - These questions should be submitted as a single HTML file generated using R Markdown
 - Lab Submission #5 (due TBD)
     - All questions from the Web scraping lab
 - Lab Submission #6 (due TBD)
