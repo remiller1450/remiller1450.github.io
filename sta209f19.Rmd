@@ -80,8 +80,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Wednesday 9/11
 - [Lab #3 - Bootstrapping](s209f19/Lab3.html)
     - due date: Friday 9/20
-- Lab #4 - Confidence Intervals
-    - due date: TBD
+- [Lab #4 - Confidence Intervals](s209f19/Lab4.html)
+    - due date: Monday 9/30
 - Lab #5 - Randomization Testing
     - due date: TBD
 - Lab #6 - Hypothesis Testing
@@ -123,7 +123,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.143, 6.144, 6.96, 6.97, 6.98
     - due date: Friday 9/27
 - HW #5: TBD
-    - due date: Friday 10/4
+    - due date: *Wednesday* 10/2
 - HW #6: TBD
     - due date: Friday 10/11
 - HW #7: TBD
@@ -142,4 +142,5 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Announcements and Other Materials 
 
-- Exam #1 will be on Friday 10/4 during class, some study materials are posted on p-web.
+- Exam #1 will be on Friday 10/4 during class
+    - Some study materials are posted on p-web
