@@ -123,7 +123,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.96, 6.97, 6.98
     - due date: Friday 9/27
     - A mistake in the original assignment included problems 6.143, 6.144, which have since been removed. You aren't responsible for these questions.
-- HW #5: TBD
+- HW #5: 6.143, 6.148, 6.195, 6.196, 6.206
     - due date: *Wednesday* 10/2
 - HW #6: TBD
     - due date: Friday 10/11
