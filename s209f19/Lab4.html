@@ -261,9 +261,9 @@ div.tocify {
 <div id="difference-in-means" class="section level3">
 <h3>Difference in Means</h3>
 <p>When estimating <span class="math inline">\(\mu_1 - \mu_2\)</span> using <span class="math inline">\(\bar{x}_1 - \bar{x}_2\)</span>, suggests:</p>
-<p><span class="math inline">\(\bar{x}_1 - \bar{x}_2\sim N\big(\mu_1 -\mu_2, \sqrt{\frac{s_1}{n_1} +\frac{s_1}{n_2}} \big)\)</span></p>
+<p><span class="math inline">\(\bar{x}_1 - \bar{x}_2\sim N\big(\mu_1 -\mu_2, \sqrt{\frac{s_1^2}{n_1} +\frac{s_1^2}{n_2}} \big)\)</span></p>
 <p>Leading to confidence intervals of the form:</p>
-<p>${x}_1 - {x}_2 t^*  $</p>
+<p><span class="math inline">\(\bar{x}_1 - \bar{x}_2 \pm t^* \sqrt{\frac{s_1^2}{n_1} + \frac{s_1^2}{n_2}}\)</span></p>
 <p>This time, <span class="math inline">\(t^*\)</span> is the quantile from a <span class="math inline">\(t\)</span>-distribution with <span class="math inline">\(\text{min}(n_1 - 1, n_2 - 1)\)</span> degrees of freedom. Recall that most software, including as Minitab, will calculate degrees of freedom differently.</p>
 </div>
 <div id="correlation-coefficient" class="section level3">
