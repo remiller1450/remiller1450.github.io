@@ -103,6 +103,7 @@ You can find course content in the sections below.  Please note:
 
 - Midterm Project
     - [Assignment Link](s230f19/f19midterm.html)
+    - [Meetings](s230f19/f19mid_times.html)
     - Presentations: Tuesday 10/15 and Thursday 10/17
     - Final Submission: Friday 10/18
 - Final Project
