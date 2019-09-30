@@ -35,7 +35,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Interval Estimation Part II (Confidence Intervals)](s209f19/confidence_h.pdf)
 - [Interval Estimation Part III (Normal Approximations)](s209f19/normal1.pdf)
 - [Interval Estimation Part IV (The $t$-distribution)](s209f19/normal2.pdf)
-- [Hypothesis Testing Part I (Null Distributions and p-values)](ht1_h.pdf)
+- [Hypothesis Testing Part I (Null Distributions and p-values)](s209f19/ht1_h.pdf)
 - Hypothesis Testing Part II (Randomization Tests)
 - Hypothesis Testing Part III (Normal Approximations)
 - Hypothesis Testing Part IV (The $t$-distribution)
