@@ -210,6 +210,7 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 10/7
+    - Finish Null Distributions and p-values
 
 - Wednesday 10/9
 
