@@ -172,11 +172,11 @@ You can scroll down this page, or use the navigation panel on the left side of t
     - Time to work on Midterm Project
     
 - Thursday 10/3 
-    - Group Project Meetings (during class)
+    - Group Project Meetings (during/outside of class)
     
 **Assignments**:
 
-- Individual Problem Set #3 (due Friday 10/18)
+- Work on your project
 
 **Assignments Due**:
 
@@ -190,18 +190,21 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/8
-    - Midterm Presentations
+    - Principal Component Analysis Presentation
+    - Principal Component Analaysis Lab
     
 - Thursday 10/10
-    - Midterm Presentations
+    - Principal Component Analysis Case Study
+    - Principal Component Analaysis Lab (continued)
     
 **Assignments**:
 
-- There are no new assignments this week
+- Individual Problem Set #3 (due *Monday* 10/28)
+- Lab Questions Set #4 (due *Monday* 10/21)
 
 **Assignments Due**:
 
-- Midterm Project Code and Published App (due Friday 10/11)
+- Nothing is due this week
 
 <br/><br/>
 <br/><br/>
@@ -211,20 +214,19 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/15
-    - Principal Component Analysis Presentation
-    - Principal Component Analaysis Lab
+    - Midterm Presentations
 
 - Thursday 10/17
-    - Principal Component Analysis Case Study
-    - Principal Component Analaysis Lab (continued)
+    - Midterm Presentations
     
 **Assignments**:
 
--  Lab Questions Set #4  (due Tuesday 10/29)
+- No new assignments this week
 
 **Assignments Due**:
 
-- Individual Problem Set #3 (due Friday 10/18)
+- Midterm Project Code and Published App (due Friday 10/18)
+- Lab Questions Set #4 (due *Monday* 10/21)
 
 <br/><br/>
 <br/><br/>
@@ -246,6 +248,8 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **Assignments**:
 
 **Assignments Due**:
+
+- Individual Problem Set #3 (due *Monday* 10/28)
 
 <br/><br/>
 <br/><br/>

@@ -74,17 +74,16 @@ You can find course content in the sections below.  Please note:
 - Lab Submission #4 (due Tuesday 10/1)
     - All questions from the [Making Maps](s230f19/maps.html) and [String Processing](s230f19/stringr.html) labs
     - These questions should be submitted as a single HTML file generated using R Markdown
-- Lab Submission #5 (due TBD)
-    - All questions from the Web scraping lab
-- Lab Submission #6 (due TBD)
+- Lab Submission #5 (due *Monday* 10/21)
     - All questions from the Principal Components Analysis lab
-- Lab Submission #7 (due TBD)
+- Lab Submission #6 (due TBD)
     - All questions from the Clustering lab
-- Lab Submission #8 (due TBD)
+- Lab Submission #7 (due TBD)
     - All questions from the Supervised Learning with `caret` (numeric outcomes) lab
+- Lab Submission #8 (due TBD)
+    - All questions from the Supervised Learning with `caret` (binary outcomes) lab
 - Lab Submission #9 (due TBD)
-    - All questions from the Supervised Learning with `caret` (binary and categorical outcomes) labs
-                      
+    - All questions from the Supervised Learning with `caret` (categorical outcomes) lab                     
     
 ### Individual Problem Sets
 
@@ -94,18 +93,18 @@ You can find course content in the sections below.  Please note:
 - [Problem Set #2](s230f19/f19_hw2.html) (due Friday 9/27)
     - [R Markdown Template](s230f19/f19_hw2.Rmd)
     - [Raw .Rmd File](https://raw.githubusercontent.com/remiller1450/remiller1450.github.io/master/s230f19/f19_hw2.Rmd)
-- Problem Set #3 (due Friday 10/18)
-- Problem Set #4 (due Friday 11/8)
-- Problem Set #5 (due Friday 11/22)
-- Problem Set #6 (due Friday 12/6)
+- Problem Set #3 (due *Monday* 10/28)
+- Problem Set #4 (due TBD)
+- Problem Set #5 (due TBD)
+
 
 
 ### Projects
 
 - Midterm Project
     - [Assignment Link](s230f19/f19midterm.html)
-    - Presentations: Tuesday 10/8 and Thursday 10/10
-    - Final Submission: Friday 10/11
+    - Presentations: Tuesday 10/15 and Thursday 10/17
+    - Final Submission: Friday 10/18
 - Final Project
     - Assignment Link (coming soon)
     - Meetings: Tuesday 12/10 and Thursday 12/15
