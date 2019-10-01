@@ -50,7 +50,7 @@ You can find course content in the sections below.  Please note:
 - [Smoothing](s230f19/smoothing.html)
 - [Density Estimation](s230f19/density.html)
 - [Visualization Principles and Examples](s230f19/viz.html)
-- Intro to R Shiny
+- [Intro to R Shiny](s230f19/shiny.html)
 - Principal Components Analysis (part I)
 - Principal Components Analysis (part II)
 - Clustering (part I)
