@@ -211,14 +211,26 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 
 - Monday 10/7
     - Finish Null Distributions and p-values
+    - Randomization Tests 
 
 - Wednesday 10/9
+    - Lab #5 - Randomization Testing 
 
 - Friday 10/11
+    - Normal Approximations for Hypothesis Testing
+
+**Suggested Readings**:
+
+- Ch 4.3 and 4.4 (Monday) 
+- Ch 5.1, 6.1-HT, and 6.3-HT (Friday)
     
 **Assignments**:
 
+- HW #6 - 4.16, 4.18, 4.65, 4.66, 4.68, 4.101, 4.102, 4.113, 4.114 (due Friday 10/11)
+
 **Assignments Due**:
+
+- HW #6 - 4.16, 4.18, 4.65, 4.66, 4.68, 4.101, 4.102, 4.113, 4.114 (due Friday 10/11)
 
 <br/><br/>
 <br/><br/>
