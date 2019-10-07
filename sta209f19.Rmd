@@ -82,7 +82,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 9/20
 - [Lab #4 - Confidence Intervals](s209f19/Lab4.html)
     - due date: Monday 9/30
-- Lab #5 - Randomization Testing
+- [Lab #5 - Randomization Testing](s209f19/Lab5.html)
     - due date: TBD
 - Lab #6 - Hypothesis Testing
     - due date: TBD
