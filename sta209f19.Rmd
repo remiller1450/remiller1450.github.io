@@ -36,10 +36,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Interval Estimation Part III (Normal Approximations)](s209f19/normal1.pdf)
 - [Interval Estimation Part IV (The $t$-distribution)](s209f19/normal2.pdf)
 - [Hypothesis Testing Part I (Null Distributions and p-values)](s209f19/ht1_h.pdf)
-- Hypothesis Testing Part II (Randomization Tests)
+- Hypothesis Testing Part II (Errors and Multiple Comparisons)
 - Hypothesis Testing Part III (Normal Approximations)
 - Hypothesis Testing Part IV (The $t$-distribution)
-- Testing Errors and Multiple Comparisons
 - Chi-Squared Tests
 - Contingency Tables
 - Outliers and Transformations
@@ -83,7 +82,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab #4 - Confidence Intervals](s209f19/Lab4.html)
     - due date: Monday 9/30
 - [Lab #5 - Randomization Testing](s209f19/Lab5.html)
-    - due date: TBD
+    - due date: Friday 10/11
 - Lab #6 - Hypothesis Testing
     - due date: TBD
 - Lab #7 - Case Studies in Statistical Inference

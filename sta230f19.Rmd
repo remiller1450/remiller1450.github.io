@@ -34,8 +34,7 @@ You can find course content in the sections below.  Please note:
 - [Merging and Joining with `dplyr`](s230f19/merging.html)
 - [Making Maps with `leaflet`](s230f19/maps.html)
 - [String Processing with `stringr`](s230f19/stringr.html)
-- Web Scraping with `rvest`
-- Principal Components Analysis
+- [Principal Components Analysis](s230f19/pca.html)
 - Clustering
 - Model Building with `caret` (numeric outcomes)
 - Model Building with `caret` (binary outcomes)
@@ -51,7 +50,7 @@ You can find course content in the sections below.  Please note:
 - [Density Estimation](s230f19/density.html)
 - [Visualization Principles and Examples](s230f19/viz.html)
 - [Intro to R Shiny](s230f19/shiny.html)
-- Principal Components Analysis (part I)
+- [Principal Components Analysis (part I)](s230f19/pca_pres1.html)
 - Principal Components Analysis (part II)
 - Clustering (part I)
 - Clustering (part II)

@@ -217,12 +217,12 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
     - Lab #5 - Randomization Testing 
 
 - Friday 10/11
-    - Normal Approximations for Hypothesis Testing
+    - Testing Errors, Power, and Multiple Comparisons
 
 **Suggested Readings**:
 
-- Ch 4.3 and 4.4 (Monday) 
-- Ch 5.1, 6.1-HT, and 6.3-HT (Friday)
+- Ch 4.3 (Monday) 
+- Ch 4.4 and 4.5 (Friday)
     
 **Assignments**:
 
