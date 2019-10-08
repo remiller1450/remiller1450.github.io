@@ -196,6 +196,10 @@ You can scroll down this page, or use the navigation panel on the left side of t
 - Thursday 10/10
     - Principal Component Analysis Case Study
     - Principal Component Analaysis Lab (continued)
+
+**Suggested Readings**:
+
+- [Intro to Statistical Learning - Chapter 10.1 and 10.2](https://link.springer.com/content/pdf/10.1007%2F978-1-4614-7138-7.pdf)
     
 **Assignments**:
 
