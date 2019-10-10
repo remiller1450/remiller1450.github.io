@@ -51,7 +51,7 @@ You can find course content in the sections below.  Please note:
 - [Visualization Principles and Examples](s230f19/viz.html)
 - [Intro to R Shiny](s230f19/shiny.html)
 - [Principal Components Analysis (part I)](s230f19/pca_pres1.html)
-- Principal Components Analysis (part II)
+- [Principal Components Analysis (part II)](s230f19/pca_pres2.html)
 - Clustering (part I)
 - Clustering (part II)
 - Linear Regression and Variants
