@@ -92,7 +92,8 @@ You can find course content in the sections below.  Please note:
 - [Problem Set #2](s230f19/f19_hw2.html) (due Friday 9/27)
     - [R Markdown Template](s230f19/f19_hw2.Rmd)
     - [Raw .Rmd File](https://raw.githubusercontent.com/remiller1450/remiller1450.github.io/master/s230f19/f19_hw2.Rmd)
-- Problem Set #3 (due *Monday* 10/28)
+- [Problem Set #3](s230f19/f19_hw3.html) (due *Monday* 10/28)
+    - You should submit a compiled HTML file documenting your code, output, and written responses to the questions contained in the assignment document linked above
 - Problem Set #4 (due TBD)
 - Problem Set #5 (due TBD)
 
