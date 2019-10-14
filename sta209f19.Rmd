@@ -37,7 +37,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Interval Estimation Part IV (The $t$-distribution)](s209f19/normal2.pdf)
 - [Hypothesis Testing Part I (Null Distributions and p-values)](s209f19/ht1_h.pdf)
 - [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209f19/ht2_h.pdf)
-- Hypothesis Testing Part III (Normal Approximations)
+- [Hypothesis Testing Part III (Normal Approximations)](s209f19/ht3_h.pdf)
 - Hypothesis Testing Part IV (The $t$-distribution)
 - Chi-Squared Tests
 - Contingency Tables
