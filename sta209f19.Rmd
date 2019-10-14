@@ -126,7 +126,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: *Wednesday* 10/2
 - HW #6: 4.16, 4.18, 4.65, 4.66, 4.68, 4.101, 4.102, 4.113, 4.114 
     - due date: Friday 10/11
-- HW #7: TBD
+- HW #7: 4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 1.165 
     - due date: Friday 10/18
 - HW #8: TBD
     - due date: Friday 11/1
@@ -144,3 +144,5 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 - Exam #1 will be on Friday 10/4 during class
     - Some study materials are posted on p-web
+- Details of the Final Project are now finalized, please check out the [Final Project Assignment Sheet link](s209f19/project209.html)
+    - The first intermediate deadline for the project is on Monday 10/28
