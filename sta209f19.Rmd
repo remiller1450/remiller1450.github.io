@@ -126,7 +126,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: *Wednesday* 10/2
 - HW #6: 4.16, 4.18, 4.65, 4.66, 4.68, 4.101, 4.102, 4.113, 4.114 
     - due date: Friday 10/11
-- HW #7: 4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 1.165 
+- HW #7: 4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 6.165 
     - due date: Friday 10/18
 - HW #8: TBD
     - due date: Friday 11/1
