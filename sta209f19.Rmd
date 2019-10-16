@@ -84,7 +84,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab #5 - Randomization Testing](s209f19/Lab5.html)
     - due date: Friday 10/11
 - [Lab #6 - A/B Testing](s209f19/Lab6.html)
-    - due date: TBD
+    - due date: Monday 10/28
 - Lab #7 - Case Studies in Statistical Inference
     - due date: TBD
 - Lab #8 - Case Studies in Statistical Inference
