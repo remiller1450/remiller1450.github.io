@@ -107,7 +107,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [San Francisco Mall Shoppers](https://remiller1450.github.io/data/SF_Shoppers.csv)
     - In 1987, Impact Resources Inc. surveyed 9409 shopping mall customers in the San Francisco Bay area (San Francisco, Oakland, and San Jose).  This dataset contains the responses of 6876 shoppers who completed the survey.  It includes demographic characteristics such as: age, sex, income, marital status, education, occupation, household size, home type, and ethnicity.
 - [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)    
-    - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  It was obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
+    - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  These data were obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
+- [Wetsuits](https://remiller1450.github.io/data/Wetsuits.csv)  
+    - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html)
+
     
 ### Homeworks
 
