@@ -39,12 +39,14 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209f19/ht2_h.pdf)
 - [Hypothesis Testing Part III (Normal Approximations)](s209f19/ht3_h.pdf)
 - Hypothesis Testing Part IV (The $t$-distribution)
+- Outliers, Transformations, and Non-parametric Tests
 - Chi-Squared Tests
 - Contingency Tables
-- Outliers and Transformations
 - Analysis of Variance (ANOVA)
 - Regression Part I (Simple Linear Regression)
 - Regression Part II (Multiple Regression)
+- Regression Part III (two-way ANOVA)
+- Regression PArt IV (logistic Regression)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -85,7 +87,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 10/11
 - [Lab #6 - A/B Testing](s209f19/Lab6.html)
     - due date: Monday 10/28
-- Lab #7 - Case Studies in Statistical Inference
+- Lab #7 - Hypothesis Testing
     - due date: TBD
 - Lab #8 - Case Studies in Statistical Inference
     - due date: TBD
@@ -109,8 +111,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)    
     - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  These data were obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
 - [Wetsuits](https://remiller1450.github.io/data/Wetsuits.csv)  
-    - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html)
-
+    - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html).
+- [Professor Salaries](https://remiller1450.github.io/data/Salaries.csv)
+    - This dataset contains 9-month academic year salaries for faculty members at a major United States university.  In addition to salaries from the 2008-09 academic year, the dataset contains de-identified documentation of the sex, rank, discipline, and experience of each faculty member. These data were obtained from the [carData `R` package](https://cran.r-project.org/web/packages/carData/index.html).
     
 ### Homeworks
 
