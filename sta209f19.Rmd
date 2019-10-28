@@ -46,7 +46,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - Regression Part I (Simple Linear Regression)
 - Regression Part II (Multiple Regression)
 - Regression Part III (two-way ANOVA)
-- Regression PArt IV (logistic Regression)
+- Regression PArt IV (Logistic Regression)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -89,7 +89,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Monday 10/28
 - Lab #7 - Hypothesis Testing
     - due date: TBD
-- Lab #8 - Case Studies in Statistical Inference
+- Lab #8 - Categorical Data Analysis
     - due date: TBD
 - Lab #9 - Analysis of Variance
     - due date: TBD
@@ -134,7 +134,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 10/11
 - HW #7: 4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 6.165 
     - due date: Friday 10/18
-- HW #8: TBD
+- HW #8: 6.121, 6.122, 6.215, 6.216, 6.250, 2.256, [additional questions #1 and #2](s209f19/f19s209hw8.html)
     - due date: Friday 11/1
 - HW #9: TBD
     - due date: Friday 11/8
@@ -148,7 +148,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Announcements and Other Materials 
 
-- Exam #1 will be on Friday 10/4 during class
+- Exam #1 will be Friday 10/4 during class
     - Some study materials are posted on p-web
 - Details of the Final Project are now finalized, please check out the [Final Project Assignment Sheet link](s209f19/project209.html)
-    - The first intermediate deadline for the project is on Monday 10/28
+    - The first intermediate deadline for the project is on Monday 10/28 (deciding group members)
+    - The second intermediate deadline for the project is on Monday 11/4 (project proposal)
+- Exam #2 will be Friday 11/15 during class
+    - Study materials will be posted on p-web soon

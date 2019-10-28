@@ -75,8 +75,10 @@ You can find course content in the sections below.  Please note:
     - These questions should be submitted as a single HTML file generated using R Markdown
 - Lab Submission #5 (due *Monday* 10/21)
     - All questions from the [Principal Components Analysis](s230f19/pca.html) lab
-- Lab Submission #6 (due TBD)
+    - These questions should be submitted as a single HTML file generated using R Markdown
+- Lab Submission #6 (due Tuesday 11/5)
     - All questions from the Clustering lab
+    - These questions should be submitted as a single HTML file generated using R Markdown
 - Lab Submission #7 (due TBD)
     - All questions from the Supervised Learning with `caret` (numeric outcomes) lab
 - Lab Submission #8 (due TBD)

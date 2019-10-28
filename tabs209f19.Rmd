@@ -277,12 +277,21 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 10/28
+    - Hypothesis Testing with the $t$-distribution
 
 - Wednesday 10/30
+    - Transformations and Outliers
 
 - Friday 11/1
+    - Lab #7 - Hypothesis Testing
+
+**Suggested Readings**:
+
+- Ch 6.2-HT, 6.4-HT, 6.5 (Monday/Wednesday) 
     
 **Assignments**:
+
+- HW #8 - 6.121, 6.122, 6.215, 6.216, 6.250, 2.256, [additional questions #1 and #2](s209f19/f19s209hw8.html)
 
 **Assignments Due**:
 
