@@ -204,7 +204,7 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **Assignments**:
 
 - Individual Problem Set #3 (due *Monday* 10/28)
-- Lab Questions Set #4 (due *Monday* 10/21)
+- Lab Questions Set #5 (due *Monday* 10/21)
 
 **Assignments Due**:
 
@@ -230,7 +230,7 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **Assignments Due**:
 
 - Midterm Project Code and Published App (due Friday 10/18)
-- Lab Questions Set #4 (due *Monday* 10/21)
+- Lab Questions Set #5 (due *Monday* 10/21)
 
 <br/><br/>
 <br/><br/>
@@ -245,15 +245,25 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 10/29
+    - Clustering Presentation (Part I)
+    - Clustering Lab
 
 - Thursday 10/31
+    - Clustering Presentation (Part II)
+    - Clustering Lab
+    
+**Suggested Readings**:
 
+- [Intro to Statistical Learning - Chapter 10.3](https://link.springer.com/content/pdf/10.1007%2F978-1-4614-7138-7.pdf)
+- [Intro to Data Mining - Chapter 8](https://www-users.cs.umn.edu/~kumar001/dmbook/ch8.pdf)        
     
 **Assignments**:
 
+- Lab Questions Set #6 (due Tuesday 11/5)
+
 **Assignments Due**:
 
-- Individual Problem Set #3 (due *Monday* 10/28)
+- Individual Problem Set #3 (due *Friday* 11/1)
 
 <br/><br/>
 <br/><br/>
@@ -265,13 +275,26 @@ You can scroll down this page, or use the navigation panel on the left side of t
 **In Class**:
 
 - Tuesday 11/5
+    - Supervised Learning Presentation (Part I)
+    - Caret Lab (linear reg)
 
 - Thursday 11/7
+    - Supervised Learning Presentation (Part II)
+    - Caret Lab (linear reg)
 
+**Suggested Readings**:
+
+- [Intro to Statistical Learning - Chapters 2 and 3](https://link.springer.com/content/pdf/10.1007%2F978-1-4614-7138-7.pdf)
+- [Data Science for R - Chapter 23](https://r4ds.had.co.nz/model-basics.html)        
     
 **Assignments**:
 
+- Lab Questions Set #7 (due Tuesday 11/12)
+- Individual Problem Set #4 (due Friday 11/15)
+
 **Assignments Due**:
+
+- Lab Questions Set #6 (due Tuesday 11/5)
 
 <br/><br/>
 <br/><br/>

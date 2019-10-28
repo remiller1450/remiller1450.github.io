@@ -134,7 +134,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 10/11
 - HW #7: 4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 6.165 
     - due date: Friday 10/18
-- HW #8: 6.121, 6.122, 6.215, 6.216, 6.250, 2.256, [additional questions #1 and #2](s209f19/f19s209hw8.html)
+- HW #8: 6.121, 6.122, 6.215, 6.216, 6.250, 6.256, [additional questions #1 and #2](s209f19/f19s209hw8.html)
     - due date: Friday 11/1
 - HW #9: TBD
     - due date: Friday 11/8
