@@ -39,7 +39,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209f19/ht2_h.pdf)
 - [Hypothesis Testing Part III (Normal Approximations)](s209f19/ht3_h.pdf)
 - [Hypothesis Testing Part IV (The $t$-test)](s209f19/ht4_h.pdf)
-- Outliers, Transformations, and Non-parametric Tests
+- [Outliers, Transformations, and Non-parametric Tests](s209f19/outliers_h.pdf)
 - Chi-Squared Tests
 - Contingency Tables
 - Analysis of Variance (ANOVA)
