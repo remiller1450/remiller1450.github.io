@@ -53,7 +53,7 @@ You can find course content in the sections below.  Please note:
 - [Principal Components Analysis (part I)](s230f19/pca_pres1.html)
 - [Principal Components Analysis (part II)](s230f19/pca_pres2.html)
 - [Clustering (part I)](s230f19/clustering1.html)
-- Clustering (part II)
+- [Clustering (part II)](s230f19/clustering2.html)
 - Linear Regression and Variants
 - Cross-validation
 - Logistic Regression and Variants
