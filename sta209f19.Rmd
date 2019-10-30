@@ -87,8 +87,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 10/11
 - [Lab #6 - A/B Testing](s209f19/Lab6.html)
     - due date: Monday 10/28
-- Lab #7 - Hypothesis Testing
-    - due date: TBD
+- [Lab #7 - Hypothesis Testing](s209f19/Lab7.html)
+    - due date: Monday 11/4
 - Lab #8 - Categorical Data Analysis
     - due date: TBD
 - Lab #9 - Analysis of Variance
@@ -154,4 +154,5 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - The first intermediate deadline for the project is on Monday 10/28 (deciding group members)
     - The second intermediate deadline for the project is on Monday 11/4 (project proposal)
 - Exam #2 will be Friday 11/15 during class
-    - Study materials will be posted on p-web soon
+    - Some study materials are posted on p-web
+    - On Wednesday 11/13 we will review for the exam during class, please respond this survey (a link will be posted soon) if there are certain topics from the study guide that you'd like this review to focus on
