@@ -79,6 +79,7 @@ You can find course content in the sections below.  Please note:
 - Lab Submission #6 (due Tuesday 11/5)
     - All questions from the [Clustering](s230f19/clustering.html) lab
     - These questions should be submitted as a single HTML file generated using R Markdown
+    - **Edit**: An earlier version of this lab did not ask you to exclude customers with negative monetary values in your RFM analysis. The lab has been updated to include this change.
 - Lab Submission #7 (due TBD)
     - All questions from the Supervised Learning with `caret` (numeric outcomes) lab
 - Lab Submission #8 (due TBD)
