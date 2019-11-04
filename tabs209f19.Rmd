@@ -292,10 +292,12 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **Assignments**:
 
 - HW #8 - 6.121, 6.122, 6.215, 6.216, 6.250, 2.256, [additional questions #1 and #2](s209f19/f19s209hw8.html)
+- Lab #7 - Due Monday 11/14
 
 **Assignments Due**:
 
 - Lab #6 (due Monday 10/28)
+- HW #8 (due Friday 11/1)
 
 <br/><br/>
 <br/><br/>
@@ -307,14 +309,25 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 11/4
+    - Chi-Squared Testing
 
 - Wednesday 11/6
-
+    - Chi-Squared Testing (continued)
+    
 - Friday 11/8
+    - Review for Exam 2
+
+**Suggested Readings**:
+
+- Ch 7.1 and 7.2 (Monday and Wednesday)
     
 **Assignments**:
 
+- HW #9: 7.13, 7.20, 7.26, 7.27, 7.43, 7.44, 7.46 (due Friday 11/8)
+
 **Assignments Due**:
+
+- Lab #7 (due Monday 11/4)
 
 <br/><br/>
 <br/><br/>
@@ -324,14 +337,21 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 11/11
+    - Lab #8 - Chi-Squared Tests and More (due Wednesday 11/13)
 
 - Wednesday 11/13
+    - Practice exam during class
 
 - Friday 11/15
+    - Exam #2
     
 **Assignments**:
 
+- Lab #8 (due Wednesday 11/13)
+
 **Assignments Due**:
+
+- Lab #8 (due Wednesday 11/13)
 
 <br/><br/>
 <br/><br/>

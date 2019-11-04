@@ -20,7 +20,7 @@ To see when and how we'll use these materials please visit the schedule page lin
 
 You can find course content by scrolling, or by using the navigation bar in the upper left. Please note:
 
-1. Occansionally I will not post a lecture in advance, this is usually because it contains some type of "surprise" that I don't want you to see ahead of time.
+1. Occasionally I will not post a lecture in advance, this is usually because it contains some type of "surprise" that I don't want you to see ahead of time.
 2. Links may not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is likely because haven't gotten to that topic yet.
 3. Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.
 
@@ -40,7 +40,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing Part III (Normal Approximations)](s209f19/ht3_h.pdf)
 - [Hypothesis Testing Part IV (The $t$-test)](s209f19/ht4_h.pdf)
 - [Outliers, Transformations, and Non-parametric Tests](s209f19/outliers_h.pdf)
-- Chi-Squared Tests
+- [Chi-Squared Tests](s209f19/chisq_h.pdf)
 - Contingency Tables
 - Analysis of Variance (ANOVA)
 - Regression Part I (Simple Linear Regression)
@@ -75,7 +75,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-- [Lab #1 - Desctiptive Statistics and Graphs](s209f19/Lab1.html)
+- [Lab #1 - Descriptive Statistics and Graphs](s209f19/Lab1.html)
     - due date: Friday 9/6
 - [Lab #2 - Confounding Variables and Stratification](s209f19/Lab2.html)
     - due date: Wednesday 9/11
@@ -89,7 +89,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Monday 10/28
 - [Lab #7 - Hypothesis Testing](s209f19/Lab7.html)
     - due date: Monday 11/4
-- Lab #8 - Categorical Data Analysis
+- Lab #8 - Chi-Squared Testing and More
     - due date: TBD
 - Lab #9 - Analysis of Variance
     - due date: TBD
@@ -114,6 +114,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html).
 - [Professor Salaries](https://remiller1450.github.io/data/Salaries.csv)
     - This dataset contains 9-month academic year salaries for faculty members at a major United States university.  In addition to salaries from the 2008-09 academic year, the dataset contains de-identified documentation of the sex, rank, discipline, and experience of each faculty member. These data were obtained from the [carData `R` package](https://cran.r-project.org/web/packages/carData/index.html).
+- [Police Killings](https://remiller1450.github.io/data/PoliceKillings.csv)
+    - This data originates from the FiveThirtyEight article [Where Police Have Killed Americans in 2015](https://fivethirtyeight.com/features/where-police-have-killed-americans-in-2015/).  It contains demographic and geographic information on everyone killed by the police in the year 2015, including the person's name, age, race, gender, cause of death, whether the person was armed.  It was merged to include the poverty, unemployment, and college education rates of the census tract where the killing took place.
+- [Golden State Warriors](https://remiller1450.github.io/data/GSWarriors.csv)
+    - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
     
 ### Homeworks
 
@@ -139,11 +143,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - HW #9: 7.13, 7.20, 7.26, 7.27, 7.43, 7.44, 7.46
     - due date: Friday 11/8
 - HW #10: TBD
-    - due date: Friday 11/15
-- HW #11: TBD
     - due date: Friday 11/22
-- HW #12: TBD
-    - due date: Wednesday 11/27
+- HW #11: TBD
+    - due date: *Monday* 12/2
 
 
 ### Announcements and Other Materials 
@@ -153,6 +155,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - Details of the Final Project are now finalized, please check out the [Final Project Assignment Sheet link](s209f19/project209.html)
     - The first intermediate deadline for the project is on Monday 10/28 (deciding group members)
     - The second intermediate deadline for the project is on Monday 11/4 (project proposal)
+    - The third deadline for the project is Monday 11/25 (cleaned dataset and data dictionary)
 - Exam #2 will be Friday 11/15 during class
     - Some study materials are posted on p-web
-    - On Wednesday 11/13 we will review for the exam during class, please respond this survey (a link will be posted soon) if there are certain topics from the study guide that you'd like this review to focus on
+    - On *Friday 11/8* we will review for the exam during class, please respond this survey: https://forms.gle/CPET7JHxqkido8Hd6 if there are certain topics from the study guide that you'd like this review to focus on (completing this survey is optional).
+    - I will out of town during the week of 11/11-11/15 with limited time to respond to emails, so please spread out your studying and ask your questions earlier rather than later.
+    - On *Wednesday 11/13* I will have a practice exam (and solutions) for to you to work in class. 
