@@ -98,8 +98,9 @@ You can find course content in the sections below.  Please note:
 - [Problem Set #3](s230f19/f19_hw3.html) (due Friday 11/1)
     - You should submit a compiled HTML file documenting your code, output, and written responses to the questions contained in the assignment document linked above
     - In an earlier version of this assignment some questions were incorrectly numbered, this has now been fixed
-- Problem Set #4 (due TBD)
-- Problem Set #5 (due TBD)
+- [Problem Set #4](s230f19/f19_hw4.html) (due Friday 11/22)
+    - You should submit a compiled HTML file documenting your code, output, and written responses to the questions contained in the assignment document linked above
+- Problem Set #5 (due Friday 12/13)
 
 
 
