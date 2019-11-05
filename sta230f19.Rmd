@@ -10,7 +10,7 @@ output:
 
 ### Schedule and Syllabus
 
-Welcome to Sta-230, Introduction to Data Science!  On this page you can find the materials we'll use this semester, starting with the syllabus linked below:
+Welcome to Sta-230, Introduction to Data Science!  On this page you can find all of the materials we'll use this semester, starting with the syllabus linked below:
 
 - [Click here](syllabus230f19.html) to view the course syllabus
 
