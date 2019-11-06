@@ -41,7 +41,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing Part IV (The $t$-test)](s209f19/ht4_h.pdf)
 - [Outliers, Transformations, and Non-parametric Tests](s209f19/outliers_h.pdf)
 - [Chi-Squared Tests](s209f19/chisq_h.pdf)
-- Contingency Tables
+- [Contingency Tables](s209f19/tabs_h.pdf)
 - Analysis of Variance (ANOVA)
 - Regression Part I (Simple Linear Regression)
 - Regression Part II (Multiple Regression)
