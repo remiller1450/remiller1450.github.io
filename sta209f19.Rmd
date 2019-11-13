@@ -90,7 +90,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab #7 - Hypothesis Testing](s209f19/Lab7.html)
     - due date: Monday 11/4
 - [Lab #8 - Chi-Squared Testing and More](s209f19/Lab8.html)
-    - due date: TBD
+    - due date: Wednesday 11/13
+    - Please contact me regarding possible extensions, I'd also like for you to have time to study for Exam 2
 - Lab #9 - Analysis of Variance
     - due date: TBD
 - Lab #10 - Regression
