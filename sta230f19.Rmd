@@ -55,8 +55,7 @@ You can find course content in the sections below.  Please note:
 - [Clustering (part II)](s230f19/clustering2.html)
 - [Introduction to Supervised Learning (part I)](s230f19/lm1.html)
 - [Introduction to Supervised Learning (part II)](s230f19/lm2.html)
-- Logistic Regression and Variants
-- Accuracy, Kappa, Sensitivity, Specificity, and ROC curves
+- [Accuracy, Kappa, Sensitivity, Specificity, and ROC curves](s230f19/binary1.html)
 - k-Nearest Neighbors and Trees
 - Black Box Models
 
