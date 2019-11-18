@@ -361,14 +361,26 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 11/18
+    - Finish study design notes
+    - Start ANOVA
 
 - Wednesday 11/20
+    - ANOVA
 
 - Friday 11/22
+    - Lab #9 (due Wednesday 11/27)
+
+**Suggested Readings**:
+
+- Ch 8.1 and 8.2 (Monday and Wednesday)
     
 **Assignments**:
 
+- HW #10: 8.8, 8.15, 8.16, 8.17, 8.18, 8.32 (due Friday)
+
 **Assignments Due**:
+
+- HW #10
 
 <br/><br/>
 <br/><br/>
@@ -379,11 +391,18 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 11/25
+    - Regression (part I)
 
 - Wednesday 11/27
+    - Regression (part II)
 
 - Friday 11/29 (no class)
     - Happy Thanksgiving!
+
+**Suggested Readings**:
+
+- Ch 2.6 (Monday)
+- 
     
 **Assignments**:
 
@@ -399,10 +418,13 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 12/2
-
+    - Regression (part III)
+    
 - Wednesday 12/4
+    - Group meetings
 
 - Friday 12/6
+    - Lab #10
     
 **Assignments**:
 
@@ -416,10 +438,13 @@ You can [click here](https://remiller1450.github.io/sta209f19.html) to return to
 **In Class**:
 
 - Monday 12/9
+    - Lab #10
 
 - Wednesday 12/11
+    - Final project presentations 
 
 - Friday 12/13
+    - Final project presentations 
     
 **Assignments**:
 
