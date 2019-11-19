@@ -113,7 +113,7 @@ You can find course content in the sections below.  Please note:
     - Final Submission: Friday 10/18
 - Final Project
     - [Assignment Link](s230f19/f19final.html)
-    - Meetings: Tuesday 12/10 and Thursday 12/15
+    - Meetings: Tuesday 12/10 and Thursday 12/12
     - Presentations: 2-5pm on Tuesday 12/17
     - Paper and Code: Friday 12/20 before 5:00pm
 
