@@ -92,8 +92,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab #8 - Chi-Squared Testing and More](s209f19/Lab8.html)
     - due date: Wednesday 11/13
     - Please contact me regarding possible extensions, I'd also like for you to have time to study for Exam 2
-- Lab #9 - Analysis of Variance
-    - due date: TBD
+- [Lab #9 - Analysis of Variance and More](s209f19/Lab9.html)
+    - due date: Wednesday 11/27
 - Lab #10 - Regression
     - due date: TBD
 
@@ -119,6 +119,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - This data originates from the FiveThirtyEight article [Where Police Have Killed Americans in 2015](https://fivethirtyeight.com/features/where-police-have-killed-americans-in-2015/).  It contains demographic and geographic information on everyone killed by the police in the year 2015, including the person's name, age, race, gender, cause of death, whether the person was armed.  It was merged to include the poverty, unemployment, and college education rates of the census tract where the killing took place.
 - [Golden State Warriors](https://remiller1450.github.io/data/GSWarriors.csv)
     - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
+- [TSA Claims](https://remiller1450.github.io/data/TSA_Claims.csv) 
+    - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travellers against the TSA between 2003 and 2008, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
+    
     
 ### Homeworks
 
