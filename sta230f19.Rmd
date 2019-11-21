@@ -38,7 +38,7 @@ You can find course content in the sections below.  Please note:
 - [Clustering](s230f19/clustering.html)
 - [Model Building with `caret` (numeric outcomes)](s230f19/caret1.html)
 - [Model Building with `caret` (binary outcomes)](s230f19/caret2.html)
-- Model Building with `caret` (categorical outcomes and tree-based models)
+- [Model Building with `caret` (categorical outcomes and tree-based models)](s230f19/caret3.html)
 
 ### Presentations
 
@@ -56,7 +56,8 @@ You can find course content in the sections below.  Please note:
 - [Introduction to Supervised Learning (part I)](s230f19/lm1.html)
 - [Introduction to Supervised Learning (part II)](s230f19/lm2.html)
 - [Accuracy, Kappa, Sensitivity, Specificity, and ROC curves](s230f19/binary1.html)
-- k-Nearest Neighbors and Trees
+- [k-Nearest Neighbors](s230f19/alg1.html)
+- Classification and Regression Trees
 - Black Box Models
 
 ### Group Lab Assignments
