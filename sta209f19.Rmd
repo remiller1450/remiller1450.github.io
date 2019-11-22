@@ -147,9 +147,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - HW #9: 7.13, 7.20, 7.26, 7.27, 7.43, 7.44, 7.46
     - due date: Friday 11/8
 - HW #10: 8.8, 8.15, 8.16, 8.17, 8.18, 8.32
-    - due date: Friday 11/22
+    - due date: *Monday* 11/25
 - HW #11: TBD
-    - due date: *Monday* 12/2
+    - due date: Friday 12/6
 
 
 ### Announcements and Other Materials 
