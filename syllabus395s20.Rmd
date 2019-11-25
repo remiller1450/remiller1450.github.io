@@ -53,9 +53,10 @@ Coding profficiency is expected in this course. You may use any langauge(s) that
 
 **Attendance**
 
-This course is collaborative, meaning attendence is *critical*  All absences permitted by the college (athletics, religious observation, etc.) must be communicated as early as possible and will not count against you. All other absences (illness, job interviews, etc.) can negatively impact your grade if they become excessive. The schedule shown below summarizes the impact of these absences:
+This course is collaborative, meaning attendence is *critical*  All absences permitted by the college (athletics, religious observation, etc.) must be communicated as early as possible and will not count against you. All other absences (illness, job interviews, etc.) can negatively impact your grade if they become excessive. The schedule shown below summarizes the impact of these absences (college permitted absences do not counts towards this schedule):
 
-- 1-4 absences - No impact so long as they are communicated in advance or accompanied by appropriate documentation (doctor's note, etc.)
+- 1-4 absences (communicated) - No impact so long as they are communicated in advance, or are retrospectively accompanied by appropriate documentation (doctor's note, etc.)
+- 1-4 absences (not communicated) - Deduction of 0.5% from the final course grade for each absence
 - 5th absence - Deduction of 5% from the final course grade
 - 6th absence - Additional 5% deduction from the final course grade
 - 7th absence - Final course grade is capped at "C"
