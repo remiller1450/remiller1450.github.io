@@ -57,7 +57,7 @@ You can find course content in the sections below.  Please note:
 - [Introduction to Supervised Learning (part II)](s230f19/lm2.html)
 - [Accuracy, Kappa, Sensitivity, Specificity, and ROC curves](s230f19/binary1.html)
 - [k-Nearest Neighbors](s230f19/alg1.html)
-- Classification and Regression Trees
+- [Classification and Regression Trees](s230f19/alg2.html)
 - Black Box Models
 
 ### Group Lab Assignments
