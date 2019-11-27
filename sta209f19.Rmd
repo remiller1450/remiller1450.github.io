@@ -43,10 +43,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Chi-Squared Tests](s209f19/chisq_h.pdf)
 - [Contingency Tables](s209f19/tabs_h.pdf)
 - [Analysis of Variance (ANOVA)](s209f19/anova_h.pdf)
-- Regression Part I (Simple Linear Regression)
+- [Regression Part I (Simple Linear Regression and ANOVA)](s209f19/reg1_h.pdf)
 - Regression Part II (Multiple Regression)
-- Regression Part III (two-way ANOVA)
-- Regression Part IV (Logistic Regression)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -121,7 +119,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
 - [TSA Claims](https://remiller1450.github.io/data/TSA_Claims.csv) 
     - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travellers against the TSA between 2003 and 2008, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
-    
+- [Tailgating and Drug Use](https://remiller1450.github.io/data/Tailgating.csv) 
+- [Tips](https://remiller1450.github.io/data/Tips.csv) 
     
 ### Homeworks
 
