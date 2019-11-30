@@ -161,6 +161,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - The first intermediate deadline for the project is on Monday 10/28 (deciding group members)
     - The second intermediate deadline for the project is on Monday 11/4 (project proposal)
     - The third deadline for the project is Monday 11/25 (cleaned dataset and data dictionary)
+    - The fourth deadline for the project is Wednesday 12/4 - [sign-up for a meeting](s209f19/fall19_meetings.html)
 - Exam #2 will be Friday 11/15 during class
     - Some study materials are posted on p-web
     - I will out of town during the week of 11/11-11/15 with limited time to respond to emails, so please spread out your studying and ask your questions earlier rather than later.
