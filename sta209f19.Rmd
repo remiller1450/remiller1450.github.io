@@ -44,7 +44,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Contingency Tables](s209f19/tabs_h.pdf)
 - [Analysis of Variance (ANOVA)](s209f19/anova_h.pdf)
 - [Regression Part I (Simple Linear Regression and ANOVA)](s209f19/reg1_h.pdf)
-- Regression Part II (Multiple Regression)
+- [Regression Part II (Multiple Regression)](s209f19/reg2_h.pdf)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -92,8 +92,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Please contact me regarding possible extensions, I'd also like for you to have time to study for Exam 2
 - [Lab #9 - Analysis of Variance and More](s209f19/Lab9.html)
     - due date: Wednesday 11/27
-- Lab #10 - Regression
-    - due date: TBD
+- [Lab #10 - Regression](s209f19/Lab10.html)
+    - due date: Monday 12/16 (it is strongly encouraged that you complete the lab earlier than this due date)
 
 ### Datasets
 
