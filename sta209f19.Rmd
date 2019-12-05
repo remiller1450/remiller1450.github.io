@@ -150,8 +150,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Friday 11/8
 - HW #10: 8.8, 8.15, 8.16, 8.17, 8.18, 8.32
     - due date: *Monday* 11/25
-- HW #11: [Questions 1-3](https://remiller1450.github.io/s209s19/HW11qs.pdf)
+- HW #11: [Questions 1-3](https://remiller1450.github.io/s209f19/HW11qs.pdf)
     - due date: *Monday* 12/9
+    - This assignment has been updated to make Question #2 extra credit
 
 
 ### Announcements and Other Materials 
