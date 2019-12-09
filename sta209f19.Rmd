@@ -94,6 +94,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - due date: Wednesday 11/27
 - [Lab #10 - Regression](s209f19/Lab10.html)
     - due date: Monday 12/16 (it is strongly encouraged that you complete the lab earlier than this due date)
+    - You are only required to turn-in questions 1-12 (but not 7) on this lab, questions 13 and on may be submitted for potential extra credit
 
 ### Datasets
 
