@@ -25,9 +25,9 @@ Students will work in small teams on an applied data science project completing 
 
 There are no required textbooks for this course, but the following resources are recommended (and freely available):
 
-- Learning how to program in R: [The labs on the page](https://remiller1450.github.io/sta230f19.html), starting with "Intro to R"
+- Learning how to program in R: [The introductory labs on this page](https://remiller1450.github.io/sta230f19.html), beginning with "Intro to R"
 - Learning how to use SQL, Python, and R: [DataCamp online learning modules](https://remiller1450.github.io/sta230f19.html)
-- Statistical learning and modeling: [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf)
+- Statistical learning and modeling: [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) and its higher level companion [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf)
 
 ## Course Aims:
 
@@ -47,27 +47,35 @@ The specific learning goals for this goal include:
 
 ## Software:
 
-Coding profficiency is expected in this course. You may use any langauge(s) that is suitable for the needs of your project; however using either `R` or Python is strongly recommended, as these are the langauges most commonly used by professional data scientists.
+Coding proficiency is expected in this course. You may use any language(s) suitable for the needs of your project; however using either `R` or Python is strongly recommended, as these languages are most commonly used by professional data scientists.
 
 ## Policies:
 
 **Attendance**
 
-This course is collaborative, meaning attendence is *critical*  All absences permitted by the college (athletics, religious observation, etc.) must be communicated as early as possible and will not count against you. All other absences (illness, job interviews, etc.) can negatively impact your grade if they become excessive. The schedule shown below summarizes the impact of these absences (college permitted absences do not counts towards this schedule):
+This course is collaborative, making attendance is *critical*.  All absences permitted by the college (athletics, religious observation, etc.) must be communicated as early as possible and will not count against you. All other absences (illness, job interviews, etc.) can negatively impact your grade if they are persistent and excessive. The schedule below summarizes the impact of such absences (college permitted absences do not counts towards this schedule):
 
-- 1-4 absences (communicated) - No impact so long as they are communicated in advance, or are retrospectively accompanied by appropriate documentation (doctor's note, etc.)
-- 1-4 absences (not communicated) - Deduction of 0.5% from the final course grade for each absence
+- 1-4 absences (communicated) - No impact so long as they are communicated in at least 4 hours  in advance, or are retrospectively accompanied by appropriate documentation (doctor's note, etc.)
+- 1-4 absences (not communicated) - Deduction of 0.5% from the final course grade for each non-communicated absence
 - 5th absence - Deduction of 5% from the final course grade
-- 6th absence - Additional 5% deduction from the final course grade
+- 6th absence -Deduction of 10% from the final course grade
 - 7th absence - Final course grade is capped at "C"
+
+**Workload**
+
+This class meets twice a week for 80 minutes (2 hours and 40 minutes), it is expected that you devote, on average, approximately 9 hours and 20 minutes of time each week towards the course.
 
 **Academic Honesty**
 
 At Grinnell College you join a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
 
-The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what your own work is, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
 
 Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose.  A complete list of dishonest behaviors, as defined by Grinnell College, [can be found here](https://catalog.grinnell.edu/content.php?catoid=12&navoid=2537#alleged-violation).
+
+**Curricular Practical Training**
+
+F-1 students enrolled in this course must secure [Curricular Practical Training](https://grinco.sharepoint.com/sites/StudentAffairs/OISA/Shared%20Documents/F-1%20Curricular%20Practical%20Training%20for%20Internships.pdf) authorization through the Office of International Student Affairs prior to your off campus engagement.
 
 **Inclusive Classroom**
 
@@ -77,28 +85,47 @@ Grinnell College makes reasonable accommodations for students with documented di
 
 Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
 
-**Getting Help**
-
-The Math Lab (Mathematics Learning Center - 2012 Noyce Science Center) has tutors in statistics that are available 7 days a week.  See the website for additional information and hours: http://www.grinnell.edu/academics/areas/math-stats/math-lab 
-
-**Course Outline**
-
-[Click Here to go to the Course Schedule](schedule209s19.html)
 
 ## Grading:
 
-**Engagement, Participation, and Labs** - 15\%
+**Ongoing items** (55%):
 
-Active participation during class is expected. Lectures include numerous disucssion questions, practice problems, and applications. As an instructor, I will keep notes of participation (or lack thereof) during these situations, which will be used to qualitatively assess this portion of your grade.  Class attendance indirectly contributes to this area of your grade - if you aren't in class it is difficult for me to discern your level of engagement with the course materials.  Labs will also contribute to this category.  After each lab you and your group will submit a lab write-up, these write-ups are graded primarily for effort and completion with a lower empthasis on correctness than other course assignments.  
+- Three midterm peer evaluation reports (15%)
+    - 10% determined by the quality of the reports you produce evaluating the other members of your team
+    - 5% determined by the consensus of the other students' peer assessment of you
+- Bi-weekly progress briefings (15%)
+    - 10% determined by the quality of your delivered progress reports
+    - 5% determined by the ability of your group to meet its short-term goals from the prior briefing
+- Advisor assessments (15%)
+    - 10% determined by the documentation of your feedback to the groups delivering progress briefings
+    - 5% determined by the quality of written take-over memo and presentation to occur mid-semester
+- Personal growth (10%)
+    - 5% participation
+    - 5% skill acquisition and growth throughout the semester (communication, computing, analytic thinking, organization, etc.)
 
-**Homework** - 15\%
+**Final Products** (45%):
 
-Homework will be assigned once per week.  No late homework will be accepted (unless my permission is obtained in advance of the due date), but your lowest two (2) scores will be dropped.  Homework is due at the beginning of class on the specified due date.  Please turn in a paper copy of your assignment, including any printed graphs (if they are asked for).  I encourage you to work with other students or visit the Math Lab for help on homework questions, but you should clearly understand all your answers and your assignment should be entirely in your own words.  If you engage in significant collaboration with classmates or tutors, you must explicitly acknowledge that person(s) on the top of your assignment (again, you are encouraged to collaborate, I want to emphasize that there is no penalty for doing so).
+- Executive summary (5%)
+    - A 1-2 page written report targeting a non-technical audience that communicates the essence of your project 
+- Oral presentation (10%)
+    - A 20 minute presentation summarizing the project from start-to-finish
+- Final deliverable (15%)
+    - A finished tool or model developed for the client, including documented source code and a user-guide targeted towards a non-technical audience
+- Technical report (15%)
+    - A comprehensive report (15 pages maximum) written for a technical audience (think readers of a subject-specific journal) that thoroughly documents your project
 
-**Exams (3)** - 15\%, 15\%, 20\%
+## Tentative Dates:
 
-Exams will be closed notes and only basic calculators will be allowed (ie: no cellphone or graphing TI-8X calculators).  You are expected to take the exam on the scheduled date and time, if you have a conflict with an exam date make sure to notify me immediately.  Alternative exam arrangements need to be made at least one week in advance of the time you plan to take the exam; this includes taking the exam in a different location, or times going beyond the given class time.  Alternative arrangements are not guaranteed unless proper notification is given.
-
-**Final Project** - 20\%
-
-There will be an ongoing group project throughout the semester. The project will include a few short progress reports before culminating in a short in-class presentation and a three (3) page written report in the last week of the semester. Details can be found in the [Final Project Assignment Sheet](s209s19\project209.html) 
+- Jan 21 and Jan 23 - Project management
+- Jan 28 and Jan 30 - Goal planning
+- Feb 4 and Feb 6 - First progress briefings (groups 1 and 2)
+- Feb 11 and Feb 13 - First progress briefings (groups 3 and 4)
+- Feb 21 - First midterm peer evaluation report
+- Apr 6-10 - Advisor team take-over of projects
+- Apr 14 - Advisor team memos and presentations
+- Apr 17 - Second midterm peer evaluation report
+- Apr 30 - Executive summary
+- May 5 - Oral presentations
+- May 8 - Finished deliverable
+- May 15 - Technical report
+- May 15 - Third midterm peer evaluation report
