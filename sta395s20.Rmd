@@ -17,7 +17,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 ### Materials
 
 - Day 1 icebreaker activity
-    - Data for Day 1 activity
+    - Graduate Admissions Data
 
 ### Assignment Guidelines
 
