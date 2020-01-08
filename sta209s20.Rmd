@@ -93,7 +93,7 @@ Labs and due dates are listed below.  Please note that you may report on the par
 
 ### Recommended Readings
 
-The readings listed below are *recommended* (but not required) prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
+The readings listed below are *recommended* prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
 
 - Ch 1.1 (Wed 1/22)
 - Ch 2.1, 2.2, 2.3 (Fri 1/24)
@@ -131,7 +131,7 @@ The readings listed below are *recommended* (but not required) prior to the date
     
 ### Homeworks
 
-Homework is generally due *at the start of class* every Friday (with a few exceptions near exams). You may always turn-in an assignment early, but if you'd like to request an extension to turn-in an assignment late you must contact me at least 24-hours prior to the posted deadline *and* you must submit the assignment electronically (scanned or typed and submitted via email).  
+Homework is generally due *at the start of class* every Friday (with a few exceptions near exams). You can always turn-in an assignment early, but if you'd like to request an extension to turn-in an assignment late you must contact me at least 24-hours prior to the posted deadline *and* you submit the assignment electronically (a scanned or typed version sent via email).  
 
 - HW #1: TBD
     - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)

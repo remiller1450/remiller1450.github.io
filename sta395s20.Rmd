@@ -1,0 +1,43 @@
+---
+title: "Sta-395 Applied Data Science (Spring 2020)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+### Syllabus
+
+Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Science!  On this page you can information on the course, starting with the syllabus linked below:
+
+- [Click here](syllabus395s20.html) to view the course syllabus
+
+### Materials
+
+- Day 1 icebreaker activity
+    - Data for Day 1 activity
+
+### Assignment Guidelines
+
+- Guidelines for bi-weekly progress briefings
+- Guidelines for bi-weekly advisor assessments
+- Guidelines for midterm peer assessments
+- Guidelines for project take-over memo and presentation
+- Guidelines for executive summary
+- Guidelines for technical report
+
+### Important Dates
+
+- Thursday 2/6 - First progress meetings for Groups #1 and #2 during class
+- Thursday 2/13 - First progress meetings for Group #3 and #4 during class
+- Friday 2/21 - First midterm peer assessment is due
+- Monday 4/6 to Friday 4/10 - Advisor team project take-over
+- Tuesday 4/14 - Advisor team presentations during class (take-over memos are due)
+- Friday 4/17 - Second midterm peer assessment is due
+- Thursday 4/30 - Executive summary is due
+- Tuesday 5/5 - Oral presentations during class
+- Tuesday 5/8 - Deliverable is due
+- Final Exam Slot (date TBD) - Technical report is due
+- Friday 5/15 - Final peer assessment is due

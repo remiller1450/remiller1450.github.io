@@ -86,7 +86,7 @@ This course will make use of Minitab for in class labs and out of class assignme
 
 **Course Website**
 
-[Click Here](sta209s20.html) to visit the course webpage containing course materials.
+[Click Here](https://remiller1450.github.io/sta209s20.html) to visit the course webpage containing course materials, assignments, and due-dates.
 
 <br/><br/>
 
