@@ -1,5 +1,5 @@
 ---
-title: "Sta-209 Applied Statistics (Fall 2019)"
+title: "Sta-209 Applied Statistics (Spring 2020)"
 output:
   html_document:
     toc: true
@@ -10,41 +10,36 @@ output:
 
 ### Schedule and Syllabus
 
-Welcome to Sta-209, Applied Statistics!  On this page you can find all of the materials we'll use during the semester, starting with the syllabus linked below:
+Welcome to course website for Sta-209, Applied Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
 
-- [Click here](s209f19/syllabus209f19.html) to view the course syllabus
-
-To see when and how we'll use these materials please visit the schedule page linked below:
-
-- [Click here](tabs209f19.html) to view the course schedule
+- [Click here](s209s20/syllabus209s20.html) to view the course syllabus
 
 You can find course content by scrolling, or by using the navigation bar in the upper left. Please note:
 
-1. Occasionally I will not post a lecture in advance, this is usually because it contains some type of "surprise" that I don't want you to see ahead of time.
-2. Links may not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is likely because haven't gotten to that topic yet.
-3. Predicting far into the future can be inaccurate, so some details like due dates are subject to change as we get closer to a topic/assignment. You should consult the schedule page to see official due dates.
+1. I will occasionally not post a lecture in advance if it contains some type of "surprise" that I don't want you to see ahead of time.
+2. Links may not become active until we've reached the appropriate point in the course, so if you get a "404 page not found" error it is likely because we haven't reached that topic yet.
 
 
 ### Lectures
 
-- [Introduction](s209f19/intro_h.pdf)
-- [Summarizing Data](s209f19/sum_h.pdf)
-- [Populations and Samples](s209f19/sampling_h.pdf)
-- [Causation, Confounding Variables, and Randomized Experiments](s209f19/random_h.pdf)
-- [Interval Estimation Part I (Sampling Distributions)](s209f19/sampling_dist_h.pdf)
-- [Interval Estimation Part II (Confidence Intervals)](s209f19/confidence_h.pdf)
-- [Interval Estimation Part III (Normal Approximations)](s209f19/normal1.pdf)
-- [Interval Estimation Part IV (The $t$-distribution)](s209f19/normal2.pdf)
-- [Hypothesis Testing Part I (Null Distributions and p-values)](s209f19/ht1_h.pdf)
-- [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209f19/ht2_h.pdf)
-- [Hypothesis Testing Part III (Normal Approximations)](s209f19/ht3_h.pdf)
-- [Hypothesis Testing Part IV (The $t$-test)](s209f19/ht4_h.pdf)
-- [Outliers, Transformations, and Non-parametric Tests](s209f19/outliers_h.pdf)
-- [Chi-Squared Tests](s209f19/chisq_h.pdf)
-- [Contingency Tables](s209f19/tabs_h.pdf)
-- [Analysis of Variance (ANOVA)](s209f19/anova_h.pdf)
-- [Regression Part I (Simple Linear Regression and ANOVA)](s209f19/reg1_h.pdf)
-- [Regression Part II (Multiple Regression)](s209f19/reg2_h.pdf)
+- [Introduction](s209s20/intro_h.pdf) (Wed 1/22)
+- Descriptive Statistics
+- Correlation and Regression for Summarizing Data
+- Populations and Samples
+- Causation, Confounding Variables, and Randomized Experiments
+- Interval Estimation Part I (Sampling Distributions)
+- Interval Estimation Part II (Confidence Intervals)
+- Interval Estimation Part III (Normal Approximations)
+- Interval Estimation Part IV (The $t$-distribution)
+- Hypothesis Testing Part I (Null Distributions and p-values)
+- Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)
+- Hypothesis Testing Part III (Normal Approximations)
+- Hypothesis Testing Part IV (The $t$-test)
+- Outliers, Transformations, and Non-parametric Tests
+- Chi-Squared Tests
+- Analysis of Variance (ANOVA)
+- Regression Part I (Simple Linear Regression and ANOVA)
+- Regression Part II (Multiple Regression)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -73,28 +68,36 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-- [Lab #1 - Descriptive Statistics and Graphs](s209f19/Lab1.html)
-    - due date: Friday 9/6
-- [Lab #2 - Confounding Variables and Stratification](s209f19/Lab2.html)
-    - due date: Wednesday 9/11
-- [Lab #3 - Bootstrapping](s209f19/Lab3.html)
-    - due date: Friday 9/20
-- [Lab #4 - Confidence Intervals](s209f19/Lab4.html)
-    - due date: Monday 9/30
-- [Lab #5 - Randomization Testing](s209f19/Lab5.html)
-    - due date: Friday 10/11
-- [Lab #6 - A/B Testing](s209f19/Lab6.html)
-    - due date: Monday 10/28
-- [Lab #7 - Hypothesis Testing](s209f19/Lab7.html)
-    - due date: Monday 11/4
-- [Lab #8 - Chi-Squared Testing and More](s209f19/Lab8.html)
-    - due date: Wednesday 11/13
-    - Please contact me regarding possible extensions, I'd also like for you to have time to study for Exam 2
-- [Lab #9 - Analysis of Variance and More](s209f19/Lab9.html)
-    - due date: Wednesday 11/27
-- [Lab #10 - Regression](s209f19/Lab10.html)
-    - due date: Monday 12/16 (it is strongly encouraged that you complete the lab earlier than this due date)
-    - You are only required to turn-in questions 1-12 (but not 7) on this lab, questions 13 and on may be submitted for potential extra credit
+Labs and due dates are listed below.  Please note that you may report on the participation of your group members using [this form](https://forms.gle/wNWRFMbbra8oK4LJ8).
+
+- Lab #1 - Descriptive Statistics and Graphs
+    - due date: TBD
+- Lab #2 - Confounding Variables and Stratification
+    - due date: TBD
+- Lab #3 - Bootstrapping
+    - due date: TBD
+- Lab #4 - Confidence Intervals
+    - due date: TBD
+- Lab #5 - Randomization Testing
+    - due date: TBD
+- Lab #6 - A/B Testing
+    - due date: TBD
+- Lab #7 - Hypothesis Testing
+    - due date: TBD
+- Lab #8 - Chi-Squared Testing and More
+    - due date: TBD
+- Lab #9 - Analysis of Variance and More
+    - due date: TBD
+- Lab #10 - Regression
+    - due date: TBD
+
+### Recommended Readings
+
+The readings listed below are *recommended* (but not required) prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
+
+- Ch 1.1 (Wed 1/22)
+- Ch 2.1, 2.2, 2.3 (Fri 1/24)
+- Ch 2.4, 2.5, 2.6 (Mon 1/27)
 
 ### Datasets
 
@@ -119,7 +122,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Golden State Warriors](https://remiller1450.github.io/data/GSWarriors.csv)
     - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
 - [TSA Claims](https://remiller1450.github.io/data/TSA_Claims.csv) 
-    - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travellers against the TSA between 2003 and 2008, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
+    - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travelers against the TSA between 2003 and 2008, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
 - [Tailgating and Drug Use](https://remiller1450.github.io/data/Tailgating.csv) 
 - [Colleges](https://remiller1450.github.io/data/CollegeData.csv)
 - [Tips](https://remiller1450.github.io/data/Tips.csv) 
@@ -128,47 +131,33 @@ You can find course content by scrolling, or by using the navigation bar in the 
     
 ### Homeworks
 
-- HW #1: 1.15, 1.16, 1.22, 2.20, 2.66, 2.116 2.117, 2.118
-    - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)
-    - due date: Friday 9/6
-- HW #2: 1.40, 1.41, 1.42, 1.43, 1.44, 1.45, 1.60, 1.91, 1.92, 1.100, 1.103 
-    - No explanations are necessary for 1.40 - 1.45
-    - due date: Friday 9/13
-- HW #3: 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130
-    - due date: Friday 9/20
-- HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.96, 6.97, 6.98
-    - due date: Friday 9/27
-    - A mistake in the original assignment included problems 6.143, 6.144, which have since been removed. You aren't responsible for these questions.
-- HW #5: 6.143, 6.148, 6.195, 6.196, 6.206
-    - due date: *Wednesday* 10/2
-- HW #6: 4.16, 4.18, 4.65, 4.66, 4.68, 4.101, 4.102, 4.113, 4.114 
-    - due date: Friday 10/11
-- HW #7: 4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 6.165 
-    - due date: Friday 10/18
-- HW #8: 6.121, 6.122, 6.215, 6.216, 6.250, 6.256, [additional questions #1 and #2](s209f19/f19s209hw8.html)
-    - due date: Friday 11/1
-- HW #9: 7.13, 7.20, 7.26, 7.27, 7.43, 7.44, 7.46
-    - due date: Friday 11/8
-- HW #10: 8.8, 8.15, 8.16, 8.17, 8.18, 8.32
-    - due date: *Monday* 11/25
-- HW #11: [Questions 1-3](https://remiller1450.github.io/s209f19/HW11qs.pdf)
-    - due date: *Monday* 12/9
-    - This assignment has been updated to make Question #2 extra credit
+Homework is generally due *at the start of class* every Friday (with a few exceptions near exams). You may always turn-in an assignment early, but if you'd like to request an extension to turn-in an assignment late you must contact me at least 24-hours prior to the posted deadline *and* you must submit the assignment electronically (scanned or typed and submitted via email).  
 
+- HW #1: TBD
+    - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)
+    - due date: Friday 1/31
+- HW #2: TBD
+    - due date: TBD
+- HW #3: TBD
+    - due date: TBD
+- HW #4: TBD
+    - due date: TBD
+- HW #5: TBD
+    - due date: TBD
+- HW #6: TBD
+    - due date: TBD
+- HW #7: TBD
+    - due date: TBD
+- HW #8: TBD
+    - due date: TBD
+- HW #9: TBD
+    - due date: TBD
+- HW #10: TBD
+    - due date: TBD
+- HW #11: TBD
+    - due date: TBD
 
 ### Announcements and Other Materials 
 
-- Exam #1 will be Friday 10/4 during class
-    - Some study materials are posted on p-web
-- Details of the Final Project are now finalized, please check out the [Final Project Assignment Sheet link](s209f19/project209.html)
-    - The first intermediate deadline for the project is on Monday 10/28 (deciding group members)
-    - The second intermediate deadline for the project is on Monday 11/4 (project proposal)
-    - The third deadline for the project is Monday 11/25 (cleaned dataset and data dictionary)
-    - The fourth deadline for the project is Wednesday 12/4 - [sign-up for a meeting](s209f19/fall19_meetings.html)
-- Exam #2 will be Friday 11/15 during class
-    - Some study materials are posted on p-web
-    - I will out of town during the week of 11/11-11/15 with limited time to respond to emails, so please spread out your studying and ask your questions earlier rather than later.
-    - On *Wednesday 11/13* I will have a practice exam (and solutions) for to you to work in class. 
-- Exam #3 (the final exam) will be during the designated final exam time
-    - For Section-02 (the 10-11:20am section) this is Wed 12/18 from 9am-noon
-    - For Section-03 (the 1-2:20pm section) this is Fri 12/20 2-5pm (sorry the college decides this, not me)
+- Exam #1 is tentatively planned for Friday 2/21
+    - Study materials will be posted on p-web at least 1 week prior to the exam

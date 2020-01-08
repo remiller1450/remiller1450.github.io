@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Sta-209 Applied Statistics (Spring 2020)</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Sta-209 Applied Statistics (Spring 2020)</h1>
+
+</div>
+
+
+<div id="schedule-and-syllabus" class="section level3">
+<h3>Schedule and Syllabus</h3>
+<p>Welcome to course website for Sta-209, Applied Statistics! On this page you can find all materials we’ll use throughout the semester, starting with the syllabus linked below:</p>
+<ul>
+<li><a href="s209s20/syllabus209s20.html">Click here</a> to view the course syllabus</li>
+</ul>
+<p>You can find course content by scrolling, or by using the navigation bar in the upper left. Please note:</p>
+<ol style="list-style-type: decimal">
+<li>I will occasionally not post a lecture in advance if it contains some type of “surprise” that I don’t want you to see ahead of time.</li>
+<li>Links may not become active until we’ve reached the appropriate point in the course, so if you get a “404 page not found” error it is likely because we haven’t reached that topic yet.</li>
+</ol>
+</div>
+<div id="lectures" class="section level3">
+<h3>Lectures</h3>
+<ul>
+<li><a href="s209s20/intro_h.pdf">Introduction</a> (Wed 1/22)</li>
+<li>Descriptive Statistics</li>
+<li>Correlation and Regression for Summarizing Data</li>
+<li>Populations and Samples</li>
+<li>Causation, Confounding Variables, and Randomized Experiments</li>
+<li>Interval Estimation Part I (Sampling Distributions)</li>
+<li>Interval Estimation Part II (Confidence Intervals)</li>
+<li>Interval Estimation Part III (Normal Approximations)</li>
+<li>Interval Estimation Part IV (The <span class="math inline">\(t\)</span>-distribution)</li>
+<li>Hypothesis Testing Part I (Null Distributions and p-values)</li>
+<li>Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)</li>
+<li>Hypothesis Testing Part III (Normal Approximations)</li>
+<li>Hypothesis Testing Part IV (The <span class="math inline">\(t\)</span>-test)</li>
+<li>Outliers, Transformations, and Non-parametric Tests</li>
+<li>Chi-Squared Tests</li>
+<li>Analysis of Variance (ANOVA)</li>
+<li>Regression Part I (Simple Linear Regression and ANOVA)</li>
+<li>Regression Part II (Multiple Regression)</li>
+</ul>
+</div>
+<div id="labs" class="section level3">
+<h3>Labs</h3>
+<p>Labs and due dates are listed below. Please note that you may report on the participation of your group members using <a href="https://forms.gle/wNWRFMbbra8oK4LJ8">this form</a>.</p>
+<ul>
+<li>Lab #1 - Descriptive Statistics and Graphs
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #2 - Confounding Variables and Stratification
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #3 - Bootstrapping
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #4 - Confidence Intervals
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #5 - Randomization Testing
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #6 - A/B Testing
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #7 - Hypothesis Testing
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #8 - Chi-Squared Testing and More
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #9 - Analysis of Variance and More
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>Lab #10 - Regression
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+</ul>
+</div>
+<div id="recommended-readings" class="section level3">
+<h3>Recommended Readings</h3>
+<p>The readings listed below are <em>recommended</em> (but not required) prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.</p>
+<ul>
+<li>Ch 1.1 (Wed 1/22)</li>
+<li>Ch 2.1, 2.2, 2.3 (Fri 1/24)</li>
+<li>Ch 2.4, 2.5, 2.6 (Mon 1/27)</li>
+</ul>
+</div>
+<div id="datasets" class="section level3">
+<h3>Datasets</h3>
+<ul>
+<li><a href="https://remiller1450.github.io/data/HappyPlanet.csv">Happy Planet</a>
+<ul>
+<li>This dataset was assembled by <a href="http://happyplanetindex.org/">The Happy Planet Index</a> using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/MassShootings.csv">Mass Shootings</a>
+<ul>
+<li>This dataset was originally assembled in response to the movie theater shooting in Aurora Colorado by <a href="https://en.wikipedia.org/wiki/Mother_Jones_(magazine)">Mother Jones</a>, a liberal news organization. It documents shootings in the United States where a lone gunman (with a few exceptions involving two shooters) killed at least four individuals (not including themselves) at a single location (with a few exceptions involving multiple locations within a short period). Variables include: demographic characteristics of the shooter, information on when/where the shooting occurred, information on the number of victims, and information about the mental health status of the shooter.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/DeathPenaltySentencing.csv">Death Penalty Sentencing</a>
+<ul>
+<li>This dataset comes from a <a href="https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&amp;context=journal_articles">widely cited study</a> on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony committed in the state of Florida between 1972 and 1977. They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/InfantHeart.csv">Infant Heart Surgery</a>
+<ul>
+<li>This dataset contains the results of a randomized experiment conducted by surgeons at Harvard Medical School to compare a “low-flow bypass” and “circulatory arrest” surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/SF_Shoppers.csv">San Francisco Mall Shoppers</a>
+<ul>
+<li>In 1987, Impact Resources Inc. surveyed 9409 shopping mall customers in the San Francisco Bay area (San Francisco, Oakland, and San Jose). This dataset contains the responses of 6876 shoppers who completed the survey. It includes demographic characteristics such as: age, sex, income, marital status, education, occupation, household size, home type, and ethnicity.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/LeadIQ.csv">Lead IQ</a>
+<ul>
+<li>CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter. This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children. These data were obtained from the textbook: <em>Fundamentals of Biostatistics</em> by B. Rosner.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/Wetsuits.csv">Wetsuits</a>
+<ul>
+<li>This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were obtained from the <a href="http://www.lock5stat.com/datapage.html">Lock5stat data page</a>.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/Salaries.csv">Professor Salaries</a>
+<ul>
+<li>This dataset contains 9-month academic year salaries for faculty members at a major United States university. In addition to salaries from the 2008-09 academic year, the dataset contains de-identified documentation of the sex, rank, discipline, and experience of each faculty member. These data were obtained from the <a href="https://cran.r-project.org/web/packages/carData/index.html">carData <code>R</code> package</a>.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/PoliceKillings.csv">Police Killings</a>
+<ul>
+<li>This data originates from the FiveThirtyEight article <a href="https://fivethirtyeight.com/features/where-police-have-killed-americans-in-2015/">Where Police Have Killed Americans in 2015</a>. It contains demographic and geographic information on everyone killed by the police in the year 2015, including the person’s name, age, race, gender, cause of death, whether the person was armed. It was merged to include the poverty, unemployment, and college education rates of the census tract where the killing took place.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/GSWarriors.csv">Golden State Warriors</a>
+<ul>
+<li>This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from <a href="https://www.basketball-reference.com/">Basketball Reference</a>.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/TSA_Claims.csv">TSA Claims</a>
+<ul>
+<li>The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States. This dataset documents claims made by travelers against the TSA between 2003 and 2008, including information of the claim type, claim amount, and whether it was approved, settled, or denied.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/Tailgating.csv">Tailgating and Drug Use</a></li>
+<li><a href="https://remiller1450.github.io/data/CollegeData.csv">Colleges</a></li>
+<li><a href="https://remiller1450.github.io/data/Tips.csv">Tips</a></li>
+<li><a href="https://remiller1450.github.io/data/UT-Austin_Professors.csv">Professor Beauty</a></li>
+<li><a href="https://remiller1450.github.io/data/Breast_Cancer_Data.csv">Breast Cancer Survival</a></li>
+</ul>
+</div>
+<div id="homeworks" class="section level3">
+<h3>Homeworks</h3>
+<p>Homework is generally due <em>at the start of class</em> every Friday (with a few exceptions near exams). You may always turn-in an assignment early, but if you’d like to request an extension to turn-in an assignment late you must contact me at least 24-hours prior to the posted deadline <em>and</em> you must submit the assignment electronically (scanned or typed and submitted via email).</p>
+<ul>
+<li>HW #1: TBD
+<ul>
+<li>Data needed for some exercises is <a href="http://www.lock5stat.com/datapage.html">available here</a></li>
+<li>due date: Friday 1/31</li>
+</ul></li>
+<li>HW #2: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #3: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #4: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #5: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #6: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #7: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #8: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #9: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #10: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+<li>HW #11: TBD
+<ul>
+<li>due date: TBD</li>
+</ul></li>
+</ul>
+</div>
+<div id="announcements-and-other-materials" class="section level3">
+<h3>Announcements and Other Materials</h3>
+<ul>
+<li>Exam #1 is tentatively planned for Friday 2/21
+<ul>
+<li>Study materials will be posted on p-web at least 1 week prior to the exam</li>
+</ul></li>
+</ul>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
