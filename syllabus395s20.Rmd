@@ -26,44 +26,48 @@ Students will work in small teams on an applied data science project completing 
 There are no required textbooks for this course, but the following resources are recommended (and freely available):
 
 - Learning how to program in R: [The introductory labs on this page](https://remiller1450.github.io/sta230f19.html), beginning with "Intro to R"
-- Learning how to use SQL, Python, and R: [DataCamp online learning modules](https://remiller1450.github.io/sta230f19.html)
-- Statistical learning and modeling: [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) and its higher level companion [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf)
+- Learning how to use SQL, Python, and R: [DataCamp online learning modules](https://www.datacamp.com/)
+- Statistical learning and modeling methods: [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) and its higher level companion [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf)
+- Learning R and data science via case studies: [Case Studies in Data Science with R](http://rdatasciencecases.org/) and [Data Science in R: A case studies approach to computational reasoning and problem solving](https://afrozhussain.files.wordpress.com/2015/07/data-science-in-r.pdf)
+
 
 ## Course Aims:
 
-The overarching goal of this course is to prepare students to navigate an applied data science project by working on a team to answer questions posed by an external client.  This involves developing "soft" skills, such as understanding and communicating client needs, translating those needs into actionable items, and making easily understand recommendations; as well as "hard" skills, such as learning and implementing the techniques needed to solve these problems.
+The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.  This includes developing "soft" skills, such as how to understand and communicate client needs, translating client needs into actionable items, and making data-driven recommendations; and also "hard" skills, such as learning and implementing the techniques, tools, and methods needed to solve problems.
 
 ## Learning Objectives:
 
-The specific learning goals for this goal include:
+Specific learning goals for this goal include:
 
 - Develop skills in organizing, cleaning, and wrangling data
-- Develop or expand coding proficiency
-- Learn and apply new methods of modeling or visualization as needed to address specific project questions
-- Communicate methods and results to both technical and non-technical audiences
-- Evaluate the decisions being made in other data science projects by providing constructive feedback
-- Develop project management skills, practicing how to work with others who may disagree in pursuit of a common goal
+- Refine and expand coding proficiency in at least one data-science oriented language (R or Python)
+- Learn and apply new methods of modeling or visualization as needed to address specific project needs
+- Practice communicating methods and results to both technical and non-technical audiences
+- Evaluate decisions made by other groups, providing constructive feedback
+- Develop project management skills, including practicing how to work with others who may disagree
 - Develop an ability to build relationships with a project client
 
 ## Software:
 
-Coding proficiency is expected in this course. You may use any language(s) suitable for the needs of your project; however using either `R` or Python is strongly recommended, as these languages are most commonly used by professional data scientists.
+Coding proficiency is *expected* in this course. You may use any language(s) suitable for the needs of your project; however using either `R` or Python is strongly recommended. These are currently the most commonly used languages of professional data scientists.  Please note that Prof. Miller is much more well-versed in `R`, meaning coding help will be more limited if you chose to use Python. 
 
 ## Policies:
 
 **Attendance**
 
-This course is collaborative, making attendance is *critical*.  All absences permitted by the college (athletics, religious observation, etc.) must be communicated as early as possible and will not count against you. All other absences (illness, job interviews, etc.) can negatively impact your grade if they are persistent and excessive. The schedule below summarizes the impact of such absences (college permitted absences do not counts towards this schedule):
+This course is collaborative and involves substantial peer-review and ongoing feedback, making regular attendance *critical*.  
 
-- 1-4 absences (communicated) - No impact so long as they are communicated in at least 4 hours  in advance, or are retrospectively accompanied by appropriate documentation (doctor's note, etc.)
+All absences permitted by the college (athletics, religious observation, documented medical, etc.) must be communicated as early as possible and will not count against you. All other absences (illnesses, job interviews, etc.) can negatively impact your grade if they are persistent and excessive. The schedule below summarizes the impact of such absences (college permitted absences do not counts towards this schedule):
+
+- 1-4 absences (communicated) - No impact provided they are communicated in at least 4 hours in advance or are retrospectively accompanied by appropriate documentation (doctor's note, etc.)
 - 1-4 absences (not communicated) - Deduction of 0.5% from the final course grade for each non-communicated absence
-- 5th absence - Deduction of 5% from the final course grade
-- 6th absence -Deduction of 10% from the final course grade
+- 5th absence - An overall deduction of 5% from the final course grade
+- 6th absence - An overall deduction of 10% from the final course grade
 - 7th absence - Final course grade is capped at "C"
 
 **Workload**
 
-This class meets twice a week for 80 minutes (2 hours and 40 minutes), it is expected that you devote, on average, approximately 9 hours and 20 minutes of time each week towards the course.
+This class meets twice a week for 80 minutes (2 hours and 40 minutes), it is expected that you devote, on average, approximately 9 hours and 20 minutes of time *outside of class* each week towards the course.
 
 **Academic Honesty**
 
@@ -114,7 +118,7 @@ Grinnell College encourages students who plan to observe holy days that coincide
 - Technical report (15%)
     - A comprehensive report (15 pages maximum) written for a technical audience (think readers of a subject-specific journal) that thoroughly documents your project
 
-## Tentative Dates:
+## Tentative Schedule:
 
 - Jan 21 and Jan 23 - Project management
 - Jan 28 and Jan 30 - Goal planning
