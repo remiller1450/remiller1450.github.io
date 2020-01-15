@@ -120,8 +120,8 @@ Grinnell College encourages students who plan to observe holy days that coincide
 
 ## Tentative Schedule:
 
-- Jan 21 and Jan 23 - Project management
-- Jan 28 and Jan 30 - Goal planning
+- Jan 21 and Jan 23 - Data science and organization
+- Jan 28 and Jan 30 - Project management and goal planning
 - Feb 4 and Feb 6 - First progress briefings (groups 1 and 2)
 - Feb 11 and Feb 13 - First progress briefings (groups 3 and 4)
 - Feb 21 - First midterm peer evaluation report
