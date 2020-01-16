@@ -23,8 +23,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 ### Lectures
 
 - [Introduction](s209s20/intro_h.pdf) (Wed 1/22)
-- Descriptive Statistics
-- Correlation and Regression for Summarizing Data
+- Descriptive Statistics (Fri 1/24)
 - Populations and Samples
 - Causation, Confounding Variables, and Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
@@ -68,9 +67,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-Labs and due dates are listed below.  Please note that you may report on the participation of your group members using [this form](https://forms.gle/wNWRFMbbra8oK4LJ8).
+Labs and due dates are listed below.  Please note that during or after a lab you have the opportunity to report on the participation of your group members using [this anonymous form](https://forms.gle/wNWRFMbbra8oK4LJ8).
 
-- Lab #1 - Descriptive Statistics and Graphs
+- Lab #1 - Descriptive Statistics and Graphs (Fri 1/24 and Mon 1/27)
     - due date: TBD
 - Lab #2 - Confounding Variables and Stratification
     - due date: TBD
@@ -124,10 +123,15 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - [TSA Claims](https://remiller1450.github.io/data/TSA_Claims.csv) 
     - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travelers against the TSA between 2003 and 2008, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
 - [Tailgating and Drug Use](https://remiller1450.github.io/data/Tailgating.csv) 
+    - Description to be added
 - [Colleges](https://remiller1450.github.io/data/CollegeData.csv)
+    - Description to be added
 - [Tips](https://remiller1450.github.io/data/Tips.csv) 
+    - Description to be added
 - [Professor Beauty](https://remiller1450.github.io/data/UT-Austin_Professors.csv)
+    - Description to be added
 - [Breast Cancer Survival](https://remiller1450.github.io/data/Breast_Cancer_Data.csv)
+    - Description to be added
     
 ### Homeworks
 

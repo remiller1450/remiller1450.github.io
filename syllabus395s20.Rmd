@@ -11,7 +11,7 @@ output: html_document
 
 **Class Meetings**: 
 
-- Noyce 2401, T/Th 1:00-2:20PM
+- Noyce 2402, T/Th 1:00-2:20PM
 
 **Office Hours**
 
