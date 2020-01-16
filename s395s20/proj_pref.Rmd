@@ -1,0 +1,35 @@
+---
+title: "Applied Data Science - Project Preferences"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Please complete the following sections *in order*.  Upon completion, email your document to millerry@grinnell.edu no later than 11:59pm on Sunday, January 26.
+
+### 1. Project Reflections
+
+For this section you will write a few sentences describing your perceptions of various aspects of each project. You should adopt the general format shown below:
+
+Project Title
+
+A) 1-3 sentences describing the skills you already have that will be specifically beneficial to this project
+B) 1-3 sentences describing the skills you will need to acquire or improve upon to be successful on this project
+C) 1-3 sentences describing the positives/most exciting aspects of this project
+D) 1-3 sentences describing the negatives/fears of working on this project
+
+After completing this section, please use the command `Sys.time()` in `R` or `datetime.now()` in Python to obtain the current date and time.  Copy-paste the output below your reflection on Project #4.  It should look something like the example should below (it's okay if the format isn't identical):
+
+> [1] "2020-01-16 10:51:36 CST"
+
+### 2. Project Preferences
+
+After completing the Project Reflections section, please take a break of *at least 4 hours* before working on this section.  Upon returning to the assignment, rank-order the four projects from most-preferred to least-preferred.  Then write one paragraph (approximately 4-8 sentences) arguing for your preference order. 
+
+After completing this section, please use the command `Sys.time()` in `R` or `datetime.now()` in Python to obtain the current date and time.  Copy-paste the output below your paragraph arguing for your preference order.
+
+### 3. Partner Preferences (optional)
+
+This section is optional, but you may also provide a brief paragraph making a case for either *working with*, or *not working with*, specific classmates.  You may access the class roster on pioneer web by clicking on the "pictorial roster" tab.  Anything you write in this section will remain confidential and will only be used to facilitate the formation of cohesive teams.  If you do not have any partner preferences you do not need to complete this section.

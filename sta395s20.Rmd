@@ -19,8 +19,9 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - Day 1 icebreaker activity
     - Graduate Admissions Data
 
-### Assignment Guidelines
+### Assignments
 
+- [Guidelines for project selection](s395/proj_pref.html)
 - Guidelines for bi-weekly progress briefings
 - Guidelines for bi-weekly advisor assessments
 - Guidelines for midterm peer assessments
