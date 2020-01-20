@@ -16,11 +16,14 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 
 ### Materials
 
-- [Day 1 icebreaker activity](s395s20/First_day.html)
+- [Icebreaker activity](s395s20/First_day.html) (1/21)
     - [Dataset](https://remiller1450.github.io/data/GradAdm.csv)
     - [Debrief](s395s20/First_day_debrief.html)
-- Data science organization and workflow
-- Goal setting and project management
+- Organizational structures and workflow (1/23)
+    - [The many "pipelines" and "life-cycles"](s395s20/ds_proj_pipe.pdf)
+- Data ethics (1/28)
+- Goal setting (1/30)
+
 
 ### Assignments
 
