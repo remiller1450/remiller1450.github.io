@@ -99,7 +99,7 @@ Grinnell College encourages students who plan to observe holy days that coincide
     - 5% determined by the consensus of the other students' peer assessment of you
 - Bi-weekly progress briefings (15%)
     - 10% determined by the quality of your delivered progress reports
-    - 5% determined by the ability of your group to meet its short-term goals from the prior briefing
+    - 5% determined by the ability of your group to construct and meet short-term goals
 - Advisor assessments (15%)
     - 10% determined by the documentation of your feedback to the groups delivering progress briefings
     - 5% determined by the quality of written take-over memo and presentation to occur mid-semester
@@ -122,8 +122,8 @@ Grinnell College encourages students who plan to observe holy days that coincide
 
 - Jan 21 and Jan 23 - Data science and organization
 - Jan 28 and Jan 30 - Project management and goal planning
-- Feb 4 and Feb 6 - First progress briefings (groups 1 and 2)
-- Feb 11 and Feb 13 - First progress briefings (groups 3 and 4)
+- Feb 4 and Feb 6 - First progress briefings and goal setting (groups 1 and 2)
+- Feb 11 and Feb 13 - First progress briefings and goal setting (groups 3 and 4)
 - Feb 21 - First midterm peer evaluation report
 - Apr 6-10 - Advisor team take-over of projects
 - Apr 14 - Advisor team memos and presentations

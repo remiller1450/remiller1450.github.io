@@ -16,12 +16,16 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 
 ### Materials
 
-- Day 1 icebreaker activity
-    - Graduate Admissions Data
+- [Day 1 icebreaker activity](s395s20/First_day.html)
+    - [Dataset](https://remiller1450.github.io/data/GradAdm.csv)
+    - [Debrief](s395s20/First_day_debrief.html)
+- Data science organization and workflow
+- Goal setting and project management
 
 ### Assignments
 
-- [Guidelines for project selection](s395/proj_pref.html)
+- [Project reflection](s395s20/proj_pref.html)
+    - Due Sunday 1/26 by 11:59 pm
 - Guidelines for bi-weekly progress briefings
 - Guidelines for bi-weekly advisor assessments
 - Guidelines for midterm peer assessments
