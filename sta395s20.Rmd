@@ -22,10 +22,10 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - Organizational structures and workflow (1/23)
     - [The many "pipelines" and "life-cycles"](s395s20/ds_proj_pipe.pdf)
 - Data ethics (1/28)
-    - Case Study #1
-    - Case Study #2
-    - Case Study #3
-    - Case Study #4
+    - [Case Study #1](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-1.pdf)
+    - [Case Study #2](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-2.pdf)
+    - [Case Study #3](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-3.pdf)
+    - [Case Study #4](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-4.pdf)
 - Goal setting (1/30)
 
 
