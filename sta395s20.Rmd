@@ -19,9 +19,10 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - [Icebreaker activity](s395s20/First_day.html) (1/21)
     - [Dataset](https://remiller1450.github.io/data/GradAdm.csv)
     - [Debrief](s395s20/First_day_debrief.html)
-- Organizational structures and workflow (1/23)
+- [Organizational structures, workflow, and project management](s395s20/ds_proj_manage.pdf) (1/23)
     - [The many "pipelines" and "life-cycles"](s395s20/ds_proj_pipe.pdf)
 - Data ethics (1/28)
+    - [Assignment description](s395s20/data_ethics_assign.html)
     - [Case Study #1](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-1.pdf)
     - [Case Study #2](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-2.pdf)
     - [Case Study #3](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-3.pdf)
@@ -34,6 +35,8 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - [Project reflection](s395s20/proj_pref.html)
     - Due Sunday 1/26 by 11:59 pm
     - [Click here](s395s20/s395_topics.html) to view project descriptions
+- [Data ethics](s395s20/data_ethics_assign.html)
+    - To be shared Tuesday 1/28 during class
 - [Guidelines for bi-weekly progress briefings](s395s20/prog_guidelines.html)
 - Guidelines for bi-weekly advisor assessments
 - Guidelines for midterm peer assessments
@@ -60,10 +63,10 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 Shown below is a generic schedule illustrating how the course will operate for the majority of the semester:
 
 ```{r, echo = FALSE}
-tab <- data.frame(FirstTues = c("Progress Reports (1 + 2)", "Advisor Assessment of progress (3 + 4)", "Time to work/organize"),
-                  FirstThurs = c("Goal Setting (1 + 2)", "Advisor Assessment of goals (3 + 4)", "Time to work/organize"),
-                  SecondTues = c("Progress Reports (3 + 4)", "Advisor Assessment of progress (1 + 2)", "Time to work/organize"),
-                  SecondThurs = c("Goal Setting (3 + 4)", "Advisor Assessment of goals (1 + 2)", "Time to work/organize"))
+tab <- data.frame(Tues = c("Progress Reports (1 + 2)", "Advisor Assessment of progress (3 + 4)", "Time to work/organize"),
+                  Thurs = c("Goal Setting (1 + 2)", "Advisor Assessment of goals (3 + 4)", "Time to work/organize"),
+                  `Tues ` = c("Progress Reports (3 + 4)", "Advisor Assessment of progress (1 + 2)", "Time to work/organize"),
+                  `Thurs ` = c("Goal Setting (3 + 4)", "Advisor Assessment of goals (1 + 2)", "Time to work/organize"))
 
 knitr::kable(tab)
 
