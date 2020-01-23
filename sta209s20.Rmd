@@ -23,7 +23,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 ### Lectures
 
 - [Introduction](s209s20/intro_h.pdf) (Wed 1/22)
-- Descriptive Statistics (Fri 1/24)
+- [Descriptive Statistics](s209s20/sum_h.pdf) (Fri 1/24)
 - Populations and Samples
 - Causation, Confounding Variables, and Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
@@ -69,8 +69,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 Labs and due dates are listed below.  Please note that during or after a lab you have the opportunity to report on the participation of your group members using [this anonymous form](https://forms.gle/wNWRFMbbra8oK4LJ8).
 
-- Lab #1 - Descriptive Statistics and Graphs (Fri 1/24 and Mon 1/27)
-    - due date: TBD
+- [Lab #1 - Descriptive Statistics and Graphs](s209s20/Lab1.html) (Fri 1/24 and Mon 1/27)
+    - due date: Wednesday 1/29
 - Lab #2 - Confounding Variables and Stratification
     - due date: TBD
 - Lab #3 - Bootstrapping
@@ -137,7 +137,7 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 
 Homework is generally due *at the start of class* every Friday (with a few exceptions near exams). You can always turn-in an assignment early, but if you'd like to request an extension to turn-in an assignment late you must contact me at least 24-hours prior to the posted deadline *and* you submit the assignment electronically (a scanned or typed version sent via email).  
 
-- HW #1: TBD
+- HW #1: 1.15, 1.16, 1.22, 2.20, 2.66, 2.116 2.117, 2.118
     - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)
     - due date: Friday 1/31
 - HW #2: TBD
