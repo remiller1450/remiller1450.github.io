@@ -34,7 +34,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 
 - [Project reflection](s395s20/proj_pref.html)
     - Due Sunday 1/26 by 11:59 pm
-    - [Click here](s395s20/s395_topics.html) to view project descriptions
+    - [Click here](s395s20/sta395_topics.html) to view project descriptions
 - [Data ethics](s395s20/data_ethics_assign.html)
     - To be shared Tuesday 1/28 during class
 - [Guidelines for bi-weekly progress briefings](s395s20/prog_guidelines.html)
