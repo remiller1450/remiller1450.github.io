@@ -24,7 +24,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 - [Introduction](s209s20/intro_h.pdf) (Wed 1/22)
 - [Descriptive Statistics](s209s20/sum_h.pdf) (Fri 1/24)
-- Populations and Samples
+- [Correlation and Regression](s209s20/cr_h.pdf) (Wed 1/29)
+- Populations and Samples (Fri 1/31)
 - Causation, Confounding Variables, and Randomized Experiments
 - Interval Estimation Part I (Sampling Distributions)
 - Interval Estimation Part II (Confidence Intervals)
@@ -37,8 +38,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - Outliers, Transformations, and Non-parametric Tests
 - Chi-Squared Tests
 - Analysis of Variance (ANOVA)
-- Regression Part I (Simple Linear Regression and ANOVA)
-- Regression Part II (Multiple Regression)
+- Regression Modeling Part I (Simple Linear Regression and ANOVA)
+- Regression Modeling Part II (Multiple Regression)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -71,7 +72,7 @@ Labs and due dates are listed below.  Please note that during or after a lab you
 
 - [Lab #1 - Descriptive Statistics and Graphs](s209s20/Lab1.html) (Fri 1/24 and Mon 1/27)
     - due date: Wednesday 1/29
-- Lab #2 - Confounding Variables and Stratification
+- Lab #2 - Confounding Variables and Stratification (Mon 2/3)
     - due date: TBD
 - Lab #3 - Bootstrapping
     - due date: TBD
@@ -96,8 +97,9 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 
 - Ch 1.1 (Wed 1/22)
 - Ch 2.1, 2.2, 2.3 (Fri 1/24)
-- Ch 2.4, 2.5, 2.6 (Mon 1/27)
-
+- Ch 2.4, 2.5 (Mon 1/27)
+- Ch 2.6 (Wed 1/29)
+- Ch 1.2 (Fri 1/31)
     
 ### Homeworks
 
