@@ -26,8 +26,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Descriptive Statistics](s209s20/sum_h.pdf) (Fri 1/24)
 - [Correlation and Regression](s209s20/cr_h.pdf) (Wed 1/29)
 - Populations and Samples (Fri 1/31)
-- Causation, Confounding Variables, and Randomized Experiments
-- Interval Estimation Part I (Sampling Distributions)
+- Causation, Confounding Variables, and Randomized Experiments (Wed 2/5)
+- Interval Estimation Part I (Sampling Distributions) (Fri 2/7)
 - Interval Estimation Part II (Confidence Intervals)
 - Interval Estimation Part III (Normal Approximations)
 - Interval Estimation Part IV (The $t$-distribution)
@@ -100,6 +100,8 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - Ch 2.4, 2.5 (Mon 1/27)
 - Ch 2.6 (Wed 1/29)
 - Ch 1.2 (Fri 1/31)
+- Ch 1.3 (Wed 2/5)
+- Ch 3.1 (Fri 2/7)
     
 ### Homeworks
 
