@@ -29,6 +29,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
     - [Case Study #4](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-4.pdf)
 - Goal setting (1/30)
     - [Guidelines](s395s20/ds_goals.html)
+- [First round goals - all groups](s395s20/goals_1_30.html) (1/30)
 
 
 ### Assignments
