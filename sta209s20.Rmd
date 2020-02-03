@@ -25,7 +25,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Introduction](s209s20/intro_h.pdf) (Wed 1/22)
 - [Descriptive Statistics](s209s20/sum_h.pdf) (Fri 1/24)
 - [Correlation and Regression](s209s20/cr_h.pdf) (Wed 1/29)
-- Populations and Samples - *slides will be posted after class* (Fri 1/31)
+- [Populations and Samples](s209s20/sampling_h.pdf) (Fri 1/31)
 - Causation, Confounding Variables, and Randomized Experiments (Wed 2/5)
 - Interval Estimation Part I (Sampling Distributions) (Fri 2/7)
 - Interval Estimation Part II (Confidence Intervals)
@@ -72,8 +72,8 @@ Labs and due dates are listed below.  Please note that during or after a lab you
 
 - [Lab #1 - Descriptive Statistics and Graphs](s209s20/Lab1.html) (Fri 1/24 and Mon 1/27)
     - due date: Wednesday 1/29
-- Lab #2 - Confounding Variables and Stratification (Mon 2/3)
-    - due date: TBD
+- [Lab #2 - Confounding Variables and Stratification](s209s20/Lab2.html) (Mon 2/3)
+    - due date: Wednesday 2/5
 - Lab #3 - Bootstrapping
     - due date: TBD
 - Lab #4 - Confidence Intervals
@@ -110,8 +110,9 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 - HW #1: 1.15, 1.16, 1.22, 2.20, 2.66, 2.116 2.117, 2.118
     - Data needed for some exercises is [available here](http://www.lock5stat.com/datapage.html)
     - due date: Friday 1/31
-- HW #2: TBD
-    - due date: TBD
+- HW #2: 1.40, 1.41, 1.42, 1.43, 1.44, 1.45, 1.60, 1.91, 1.92, 1.100, 1.103
+    - No explanations are necessary for 1.40 - 1.45
+    - due date: Friday 2/7
 - HW #3: TBD
     - due date: TBD
 - HW #4: TBD
