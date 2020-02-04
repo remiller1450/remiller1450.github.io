@@ -40,7 +40,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - [Data ethics](s395s20/data_ethics_assign.html)
     - To be shared Tuesday 1/28 during class
 - [Guidelines for bi-weekly progress briefings](s395s20/prog_guidelines.html)
-- Guidelines for bi-weekly advisor assessments
+- [Guidelines for bi-weekly advisor assessments](s395s20/adv_guidelines.html)
 - Guidelines for midterm peer assessments
 - Guidelines for project take-over memo and presentation
 - Guidelines for executive summary
