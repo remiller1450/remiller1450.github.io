@@ -27,9 +27,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Correlation and Regression](s209s20/cr_h.pdf) (Wed 1/29)
 - [Populations and Samples](s209s20/sampling_h.pdf) (Fri 1/31)
 - [Causation, Confounding Variables, and Randomized Experiments](s209s20/exp_h.pdf) (Wed 2/5)
-- Interval Estimation Part I (Sampling Distributions) (Fri 2/7)
-- Interval Estimation Part II (Confidence Intervals)
-- Interval Estimation Part III (Normal Approximations)
+- [Interval Estimation Part I (Sampling Distributions)](s209s20/sampling_dist_h.pdf) (Fri 2/7)
+- Interval Estimation Part II (Confidence Intervals) (Mon 2/10)
+- Interval Estimation Part III (Normal Approximations) (Fri 2/14)
 - Interval Estimation Part IV (The $t$-distribution)
 - Hypothesis Testing Part I (Null Distributions and p-values)
 - Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)
@@ -74,8 +74,8 @@ Labs and due dates are listed below.  Please note that during or after a lab you
     - due date: Wednesday 1/29
 - [Lab #2 - Confounding Variables and Stratification](s209s20/Lab2.html) (Mon 2/3)
     - due date: Wednesday 2/5
-- Lab #3 - Bootstrapping
-    - due date: TBD
+- Lab #3 - Bootstrapping (Mon 2/10 and Wed 2/12)
+    - due date: Friday 2/14
 - Lab #4 - Confidence Intervals
     - due date: TBD
 - Lab #5 - Randomization Testing
@@ -114,7 +114,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - No explanations are necessary for 1.40 - 1.45
     - due date: Friday 2/7
 - HW #3: TBD
-    - due date: TBD
+    - due date: Friday 2/14
 - HW #4: TBD
     - due date: TBD
 - HW #5: TBD
