@@ -28,7 +28,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Populations and Samples](s209s20/sampling_h.pdf) (Fri 1/31)
 - [Causation, Confounding Variables, and Randomized Experiments](s209s20/exp_h.pdf) (Wed 2/5)
 - [Interval Estimation Part I (Sampling Distributions)](s209s20/sampling_dist_h.pdf) (Fri 2/7)
-- Interval Estimation Part II (Confidence Intervals) (Mon 2/10)
+- Interval Estimation Part II (Confidence Intervals) *to be posted after class* (Mon 2/10)
 - Interval Estimation Part III (Normal Approximations) (Fri 2/14)
 - Interval Estimation Part IV (The $t$-distribution)
 - Hypothesis Testing Part I (Null Distributions and p-values)
@@ -74,7 +74,7 @@ Labs and due dates are listed below.  Please note that during or after a lab you
     - due date: Wednesday 1/29
 - [Lab #2 - Confounding Variables and Stratification](s209s20/Lab2.html) (Mon 2/3)
     - due date: Wednesday 2/5
-- Lab #3 - Bootstrapping (Mon 2/10 and Wed 2/12)
+- [Lab #3 - Bootstrapping](s209s20/Lab3.html) (Mon 2/10 and Wed 2/12)
     - due date: Friday 2/14
 - Lab #4 - Confidence Intervals
     - due date: TBD
@@ -102,6 +102,10 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - Ch 1.2 (Fri 1/31)
 - Ch 1.3 (Wed 2/5)
 - Ch 3.1 (Fri 2/7)
+- Ch 3.2 (Mon 2/10)
+- Ch 3.3, 3.4 (Wed 2/12)
+- Ch 5.1 (only pages 372-275) and Ch 5.2 (Fri 2/14)
+
     
 ### Homeworks
 
@@ -113,7 +117,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 - HW #2: 1.40, 1.41, 1.42, 1.43, 1.44, 1.45, 1.60, 1.91, 1.92, 1.100, 1.103
     - No explanations are necessary for 1.40 - 1.45
     - due date: Friday 2/7
-- HW #3: TBD
+- HW #3: 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130
     - due date: Friday 2/14
 - HW #4: TBD
     - due date: TBD
@@ -134,8 +138,8 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 
 ### Announcements and Other Materials 
 
-- Please complete the survey at [this link](https://forms.gle/yd8MMuTxw7kcJ5nL7) sometime during the first week of class.  This helps me get to know you, and completing it will contribute a small amount towards your participation score for the semester.
-- Exam #1 is tentatively planned for Friday 2/21
+- Please complete the survey at [this link](https://forms.gle/yd8MMuTxw7kcJ5nL7) sometime during the first week of class.
+- Exam #1 is tentatively planned for *Friday 2/28*
     - Study materials will be posted on p-web at least 1 week prior to the exam
     
 ### Datasets
