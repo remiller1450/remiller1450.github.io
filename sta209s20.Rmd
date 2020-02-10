@@ -28,7 +28,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Populations and Samples](s209s20/sampling_h.pdf) (Fri 1/31)
 - [Causation, Confounding Variables, and Randomized Experiments](s209s20/exp_h.pdf) (Wed 2/5)
 - [Interval Estimation Part I (Sampling Distributions)](s209s20/sampling_dist_h.pdf) (Fri 2/7)
-- Interval Estimation Part II (Confidence Intervals) *to be posted after class* (Mon 2/10)
+- [Interval Estimation Part II (Confidence Intervals)](s209s20/confidence_h.pdf) (Mon 2/10)
 - Interval Estimation Part III (Normal Approximations) (Fri 2/14)
 - Interval Estimation Part IV (The $t$-distribution)
 - Hypothesis Testing Part I (Null Distributions and p-values)
