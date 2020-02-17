@@ -30,7 +30,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Interval Estimation Part I (Sampling Distributions)](s209s20/sampling_dist_h.pdf) (Fri 2/7)
 - [Interval Estimation Part II (Confidence Intervals)](s209s20/confidence_h.pdf) (Mon 2/10)
 - [Interval Estimation Part III (Normal Approximations)](s209s20/normal_ci_h.pdf) (Fri 2/14)
-- Interval Estimation Part IV (The $t$-distribution) (Mon 2/17 and Wed 2/19)
+- [Interval Estimation Part IV (The $t$-distribution)](s209s20/normal_ci2_h.pdf) (Mon 2/17 and Wed 2/19)
 - Hypothesis Testing Part I (Null Distributions and p-values)
 - Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)
 - Hypothesis Testing Part III (Normal Approximations)
@@ -120,8 +120,8 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - due date: Friday 2/7
 - HW #3: 3.25, 3.26, 3.29, 3.58, 3.64 3.93, 3.94, 3.102, 3.125, 3.130
     - due date: Friday 2/14
-- HW #4: TBD
-    - due date: TBD
+- HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.96, 6.97, 6.98
+    - due date: Friday 2/21
 - HW #5: TBD
     - due date: TBD
 - HW #6: TBD
