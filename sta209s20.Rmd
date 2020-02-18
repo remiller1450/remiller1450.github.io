@@ -76,7 +76,7 @@ Labs and due dates are listed below.  Please note that during or after a lab you
     - due date: Wednesday 2/5
 - [Lab #3 - Bootstrapping](s209s20/Lab3.html) (Mon 2/10 and Wed 2/12)
     - due date: Friday 2/14
-- Lab #4 - Confidence Intervals (Wed 2/19 and Fri 2/19)
+- [Lab #4 - Confidence Intervals](s209s20/Lab4.html) (Wed 2/19 and Fri 2/19)
     - due date: Monday 2/24
 - Lab #5 - Randomization Testing
     - due date: TBD
@@ -123,7 +123,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 - HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.96, 6.97, 6.98
     - due date: Friday 2/21
 - HW #5: TBD
-    - due date: TBD
+    - due date: *Wednesday* 2/26
 - HW #6: TBD
     - due date: TBD
 - HW #7: TBD
