@@ -42,6 +42,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - [Guidelines for bi-weekly progress briefings](s395s20/prog_guidelines.html)
 - [Guidelines for bi-weekly advisor assessments](s395s20/adv_guidelines.html)
 - Guidelines for midterm peer assessments
+    - [Peer assessment #1](s395s20/peer_guidelines1.html)
 - Guidelines for project take-over memo and presentation
 - Guidelines for executive summary
 - Guidelines for technical report
@@ -50,7 +51,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 
 - Tuesday 2/11 - First progress meetings for Groups #1 and #2 during class
 - Tuesday 2/18 - First progress meetings for Group #3 and #4 during class
-- Friday 2/21 - First midterm peer assessment is due
+- Monday 2/24 - First midterm peer assessment is due
 - Monday 4/6 to Friday 4/10 - Advisor team project take-over
 - Tuesday 4/14 - Advisor team presentations during class (take-over memos are due)
 - Friday 4/17 - Second midterm peer assessment is due
