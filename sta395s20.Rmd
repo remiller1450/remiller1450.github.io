@@ -42,7 +42,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - [Guidelines for bi-weekly progress briefings](s395s20/prog_guidelines.html)
 - [Guidelines for bi-weekly advisor assessments](s395s20/adv_guidelines.html)
 - Guidelines for midterm peer assessments
-    - [Peer assessment #1](s395s20/peer_guidelines1.html)
+    - [Peer assessment #1](s395s20/peer_guidelines1.html) (due Monday 2/24 by 9:00am)
 - Guidelines for project take-over memo and presentation
 - Guidelines for executive summary
 - Guidelines for technical report
