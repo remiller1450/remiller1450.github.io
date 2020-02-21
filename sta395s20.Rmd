@@ -30,6 +30,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - Goal setting (1/30)
     - [Guidelines](s395s20/ds_goals.html)
 - [First round goals - all groups](s395s20/goals_1_30.html) (1/30)
+- [Second round goals - all groups](s395s20/goals_2_13_20.html) (2/13 and 2/20)
 
 
 ### Assignments
