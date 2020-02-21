@@ -122,7 +122,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - due date: Friday 2/14
 - HW #4: 5.43, 5.52, 6.20, 6.26, 6.30, 6.96, 6.97, 6.98
     - due date: Friday 2/21
-- HW #5: TBD
+- HW #5:  6.143, 6.148, 6.195, 6.196, 6.206
     - due date: *Wednesday* 2/26
 - HW #6: TBD
     - due date: TBD
