@@ -142,9 +142,11 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 
 ### Announcements and Other Materials 
 
-- Please complete the survey at [this link](https://forms.gle/yd8MMuTxw7kcJ5nL7) sometime during the first week of class.
+- Please complete the survey [at this link](https://forms.gle/yd8MMuTxw7kcJ5nL7) sometime during the first week of class.
 - Exam #1 is tentatively planned for *Friday 2/28*
     - Study materials will be posted on p-web at least 1 week prior to the exam
+- Details regarding the **Final Project** can be found [at this link](s209s20/project209.html)
+    - The first deadline is Friday 3/6, when you need to choose who you'll be working with
     
 ### Datasets
 
