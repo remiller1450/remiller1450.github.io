@@ -29,9 +29,9 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
     - [Case Study #4](https://aiethics.princeton.edu/wp-content/uploads/sites/587/2018/10/Princeton-AI-Ethics-Case-Study-4.pdf)
 - Goal setting (1/30)
     - [Guidelines](s395s20/ds_goals.html)
-- [First round goals - all groups](s395s20/goals_1_30.html) (1/30)
-- [Second round goals - all groups](s395s20/goals_2_13_20.html) (2/13 and 2/20)
-
+- [First round goals](s395s20/goals_1_30.html) (1/30)
+- [Second round goals](s395s20/goals_2_13_20.html) (2/13 and 2/20)
+- [Third round goals](s395s20/goals_3_5_20.html) (2/27 and 3/5)
 
 ### Assignments
 
@@ -54,7 +54,7 @@ Welcome to course website for Sta-395 (cross-listed as Mat-395), Applied Data Sc
 - Tuesday 2/18 - First progress meetings for Group #3 and #4 during class
 - Monday 2/24 - First midterm peer assessment is due
 - Monday 4/6 to Friday 4/10 - Advisor team project take-over
-- Tuesday 4/14 - Advisor team presentations during class (take-over memos are due)
+- Tuesday 4/14 and Thursday 4/16 - Advisor team presentations during class (take-over memos are due at 1:00pm Tuesday)
 - Friday 4/17 - Second midterm peer assessment is due
 - Thursday 4/30 - Executive summary is due
 - Tuesday 5/5 - Oral presentations during class
