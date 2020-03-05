@@ -32,8 +32,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Interval Estimation Part III (Normal Approximations)](s209s20/normal_ci_h.pdf) (Fri 2/14)
 - [Interval Estimation Part IV (The $t$-distribution)](s209s20/normal_ci2_h.pdf) (Mon 2/17 and Wed 2/19)
 - [Hypothesis Testing Part I (Null Distributions and p-values)](s209s20/ht1_h.pdf) (Mon 2/24 and Wed 2/26)
-- Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)
-- Hypothesis Testing Part III (Normal Approximations)
+- [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209s20/ht2_h.pdf) (Fri 3/5 and Mon 3/9)
+- Hypothesis Testing Part III (Normal Approximations) (Mon 3/9 and Wed 3/11)
 - Hypothesis Testing Part IV (The $t$-test)
 - Outliers, Transformations, and Non-parametric Tests
 - Chi-Squared Tests
@@ -80,8 +80,8 @@ Labs and due dates are listed below.  Please note that during or after a lab you
     - due date: Monday 2/24
 - [Lab #5 - Randomization Testing](s209s20/Lab5.html) (Mon 3/2 and Wed 3/4)
     - due date: Friday 3/6
-- Lab #6 - A/B Testing
-    - due date: TBD
+- Lab #6 - A/B Testing (Wed 3/11 and Fri 3/13)
+    - due date: Monday 3/30
 - Lab #7 - Hypothesis Testing
     - due date: TBD
 - Lab #8 - Chi-Squared Testing and More
@@ -111,6 +111,7 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - Ch 4.3 (Wed 2/26)
 - Ch 4.4 and 4.5 (Wed 3/4)
 - Ch 5.1 (Friday 3/6)
+- Ch 6.1-HT and Ch 6.3-HT (Mon 3/9)
     
 ### Homeworks
 
@@ -147,8 +148,9 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 - Exam #1 is tentatively planned for *Friday 2/28*
     - Study materials will be posted on p-web at least 1 week prior to the exam
 - Details regarding the **Final Project** can be found [at this link](s209s20/project209.html)
-    - The first deadline is Friday 3/6, when you need to choose who you'll be working with
-    
+    - The first deadline is Friday 3/6 at 11:59pm, when you need to choose who you'll be working with
+        - At [this link](s209s20/s2020_groups.html) you may find the current list of groups
+
 ### Datasets
 
 - [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
