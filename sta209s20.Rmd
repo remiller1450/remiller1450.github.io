@@ -33,7 +33,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Interval Estimation Part IV (The $t$-distribution)](s209s20/normal_ci2_h.pdf) (Mon 2/17 and Wed 2/19)
 - [Hypothesis Testing Part I (Null Distributions and p-values)](s209s20/ht1_h.pdf) (Mon 2/24 and Wed 2/26)
 - [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209s20/ht2_h.pdf) (Fri 3/5 and Mon 3/9)
-- Hypothesis Testing Part III (Normal Approximations) (Mon 3/9 and Wed 3/11)
+- [Hypothesis Testing Part III (Normal Approximations)](s209s20/ht3_h.pdf) (Mon 3/9 and Wed 3/11)
 - Hypothesis Testing Part IV (The $t$-test)
 - Outliers, Transformations, and Non-parametric Tests
 - Chi-Squared Tests
@@ -131,8 +131,8 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - due date: *Wednesday* 2/26
 - HW #6:  4.16, 4.18, 4.65, 4.66, 4.68, 4.101, 4.102, 4.113, 4.114
     - due date: Friday 3/6
-- HW #7: TBD
-    - due date: TBD
+- HW #7:  4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 6.165
+    - due date: Friday 3/13
 - HW #8: TBD
     - due date: TBD
 - HW #9: TBD
@@ -150,6 +150,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 - Details regarding the **Final Project** can be found [at this link](s209s20/project209.html)
     - The first deadline is Friday 3/6 at 11:59pm, when you need to choose who you'll be working with
         - At [this link](s209s20/s2020_groups.html) you may find the current list of groups
+    - The second deadline is Monday 3/30 at 11:59pm, when your group must submit a project proposal
 
 ### Datasets
 
