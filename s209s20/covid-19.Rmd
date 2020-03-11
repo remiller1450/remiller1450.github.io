@@ -1,0 +1,41 @@
+---
+title: "Distance Learning Announcments"
+author: "Ryan Miller"
+date: "March 11, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Disclaimer**: The following page was most recently updated at 10am on Wednesday 3/11.  It will very likely end up being revised following in-class discussions, directives from Grinnell College administration, and conversations with math department colleagues that will take place this week.
+
+### Items that Mostly Certain
+
+- Lectures will be posted online with audio
+- Textbook reading will become required
+    - Simple reading quizzes will be required weekly (expire on Fridays at 1pm Grinnell time when HW is due)
+    - I'm thinking a few questions that would be nearly impossible to miss if you did the reading
+- Homework will continue as usual (due weekly on Fridays at 1pm Grinnell time)
+    - Time-sensitive submission links will be added to p-web for all remaining homeworks
+- A final project involving some sort of data analysis will be required
+    - The presentation component of the final project will be dropped
+- Some sort of office hours will be held on a weekly basis
+    - I'm expecting the college to issue recommendations here
+
+
+### Items up for Discussion
+
+- Time-sensitive exams through p-web or take-home exams to be completed over a 24-hour window
+    - p-web exams would be accessable whenever you choose during a certain window, but you'd be required to complete them in a single sitting with a 90-minute (180 for the final) time limit
+- Option to keep or dissolve your current final project group (with working individually as a new option)
+    - Expectations would be higher for group projects relative to individual projects
+- Open up discussion boards as another venue for Q+A? (presumably this is better than emailing questions since everyone can see the questions and responses)
+- What to do with labs ...
+    - Minitab access?
+    - Reducing length?
+    - Making some questions required and other for extra credit?
+    - Working with your project group?
+    
+    
