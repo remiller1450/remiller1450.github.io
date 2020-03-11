@@ -34,8 +34,10 @@ knitr::opts_chunk$set(echo = TRUE)
 - Open up discussion boards as another venue for Q+A? (presumably this is better than emailing questions since everyone can see the questions and responses)
 - What to do with labs ...
     - Minitab access?
+        - If you can't get Minitab, could you find another program to get basic descriptive statistics and graphs?
     - Reducing length?
-    - Making some questions required and other for extra credit?
+        - Perhaps making some questions required and other for extra credit/extra practice?
     - Working with your project group?
+        - Perhaps making labs individual assignments? (and consequently shortened/simplified)
     
     
