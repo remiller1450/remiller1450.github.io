@@ -1,0 +1,52 @@
+---
+title: "Distance Learning Announcments"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Below are changes in the general operating procedures of Sta-395 that will begin on 3/30 when the college moves to distance learning in response to COVID-19:
+
+### Adviser Teams
+
+- The adviser take-over week is cancelled - you will continue to work on your own team's project for the remainder of the semester
+    - This portion of the course grade will be dropped
+    - You will continue to serve as an adviser to the same group, but now your adviser assessments be done individually (ie: each team will receive 3 separate adviser assessments, one from each of the 3 students advising their project)
+        - The idea behind this change is to minimize the number of extra organizational challenges introduced by the remote environment 
+        
+### Bi-weekly Progress Briefings
+        
+- You will still be responsible for providing bi-weekly progress briefings to your adviser team and Prof. Miller on Tuesdays
+    - These briefings will be delivered in a *written format* rather than an oral presentation (see the guidelines below)
+- You will be responsible for posting your briefing in the "Briefings" discussion board on pioneer-web by 1:00pm (Grinnell time) on Tuesday it is due
+    - Participation credit will be assessed on an individual basis via the frequency and quality of the comments you post in these threads within 24 hours of the original post
+    - Someone from the "presenting group"" is responsible for responding to all comments made during this 24-hour period
+    
+**Guidelines**:
+
+- The length should match what you could present in 20 minutes (use your judgement here)
+- The briefing should be organized appropriately (ie: clearly defined sections, figures/code embedded properly, not overly verbose, etc.)
+- The briefing should contain all of the components mentioned in the [original progress reporting guidelines](https://remiller1450.github.io/s395s20/prog_guidelines.html)
+- The briefing will be evaluated similarly to the original progress reporting guidelines (1-10 rating of overall quality, 1-5 rating of goal construction and fulfillment)
+    
+### Goal Setting
+
+- You will still be responsible for setting goals on Thursdays
+    - You will post these goals as a new thread in the "Goals" discussion board on pioneer-web by 2:20pm (Grinnell time)
+    - Participation credit will be assessed on an individual basis via the frequency and quality of the comments you post in these threads within 24 hours of the original post
+    - After 24 hours, someone from the "presenting group" should create a final post listing the finalized goals
+
+### Final Products
+
+- All components of the final (executive summary, oral presentation, client deliverable, and technical report) will remain and occur at their original dates
+    - Oral presentations will be delivered remotely using a software platform (TBD)
+    
+### Other Information
+
+- The remaining two peer reflections will still occur at the originally specified dates
+- The college is working on expanding remote login VPNs, but if possible you should prepare to work on your own PC to the greatest extent possible (I'm not optimistic the VPN will be fast or reliable)
+- Virtual office hours will be available by appointment and will be conducted using a software platform (TBD)
+
+
