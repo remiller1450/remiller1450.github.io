@@ -1,7 +1,7 @@
 ---
-title: "Distance Learning Announcments"
+title: "Distance Learning Announcements"
 author: "Ryan Miller"
-date: "March 11, 2020"
+date: "March 13, 2020"
 output: html_document
 ---
 
@@ -9,35 +9,58 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**Disclaimer**: The following page was most recently updated at 10am on Wednesday 3/11.  It will very likely end up being revised following in-class discussions, directives from Grinnell College administration, and conversations with math department colleagues that will take place this week.
-
-### Items that Mostly Certain
-
-- Lectures will be posted online with audio
-- Textbook reading will become required
-    - Simple reading quizzes will be required weekly (expire on Fridays at 1pm Grinnell time when HW is due)
-    - I'm thinking a few questions that would be nearly impossible to miss if you did the reading
-- Homework will continue as usual (due weekly on Fridays at 1pm Grinnell time)
-    - Time-sensitive submission links will be added to p-web for all remaining homeworks
-- A final project involving some sort of data analysis will be required
-    - The presentation component of the final project will be dropped
-- Some sort of office hours will be held on a weekly basis
-    - I'm expecting the college to issue recommendations here
+**Disclaimer**: The following page was most recently updated at *10am on Friday 3/11*, at this point these changes are mostly certain but still might be altered prior to classes resuming on Monday 3/30.
 
 
-### Items up for Discussion
+### Lectures
 
-- Time-sensitive exams through p-web or take-home exams to be completed over a 24-hour window
-    - p-web exams would be accessable whenever you choose during a certain window, but you'd be required to complete them in a single sitting with a 90-minute (180 for the final) time limit
-- Option to keep or dissolve your current final project group (with working individually as a new option)
-    - Expectations would be higher for group projects relative to individual projects
-- Open up discussion boards as another venue for Q+A? (presumably this is better than emailing questions since everyone can see the questions and responses)
-- What to do with labs ...
-    - Minitab access?
-        - If you can't get Minitab, could you find another program to get basic descriptive statistics and graphs?
-    - Reducing length?
-        - Perhaps making some questions required and other for extra credit/extra practice?
-    - Working with your project group?
-        - Perhaps making labs individual assignments? (and consequently shortened/simplified)
+- Lecture videos will be recorded and posted on the course website on the dates/times that the lecture was scheduled to occur
+    - This will be done *asynchronously*, meaning you may view the lectures on your own at a time that best fits your schedule and time zone
+- A discussion board on pioneer web will be created for Q+A regarding lecture material
+    - The premise of this board is to allow everyone an equal opportunity to ask questions and hear answers
+    - I will open a single thread for each lecture, you should post questions in that thread
+    - You are encouraged to ask follow-ups to questions posed by your classmates
+
+### Readings
+
+- Textbook readings will shift from recommended to required (completion will be assessed via short quizzes described in the section below)
     
+### Class Participation
+
+- Class participation will replaced (in part) by short weekly quizzes
+    - Each quiz will ask a small number (less than 5) straightforward questions about that week's lectures and readings
+    
+### Labs
+
+- The 4 remaining labs will still be assigned
+    - You will have an option to work on them individually or with your project group
+    - If you work individually, some questions will be optional (they will be tagged as "group only" in the lab document)
+    
+### Exams
+
+- The remaining two exams will be given as take-home assignments that you will have 24 hours to complete
+    - You *may* use lecture notes, the textbook, and your lab write-ups, or software such as Minitab/StatKey on these exams (note that no software will be necessary)
+    - You *may not* discuss exam questions with your class mates, if I find clusters of incorrect answers that are suspiciously similar I will submit an academic honesty violation
+    - You *should not* consult with other online resources, if your answers use notation or terminology that is inconsistent with what we've learned in class you will lose points
+    
+### Final Project
+
+- You may choose to continue working with your group, dissolve your group completely, or reconfigure your group to contain fewer members or members from a dissolved group
+- The presentation requirement of the project will be removed, each group will only be required to submit a 3-page paper
+- All other project due-dates will remain, including the topic proposal due on Monday 3/30
+- While the core requirements are the same for group and individual projects, grading will be more lenient for individual projects (ie: expectations for the depth of analysis into your topic will be lower)
+
+### Homework
+
+- Homework assignments will be due weekly and will be turned in via time-sensitive submission portals on pioneer web
+- The existing policy for late homework remains in place (contact 24-hours in advance and submit via email)
+
+### Office Hours
+
+- Virtual office hours will be held via WebEx meetings once per week (time TBD)
+- Otherwise, questions should be posted onto the appropriate discussion boards on pioneer web and will be answered by myself or our course mentor
+
+
+
+
     
