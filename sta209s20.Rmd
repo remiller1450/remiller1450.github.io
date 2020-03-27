@@ -34,8 +34,14 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing Part I (Null Distributions and p-values)](s209s20/ht1_h.pdf) (Mon 2/24 and Wed 2/26)
 - [Hypothesis Testing Part II (Testing Errors, Power, and Multiple Comparisons)](s209s20/ht2_h.pdf) (Fri 3/5 and Mon 3/9)
 - [Hypothesis Testing Part III (Normal Approximations)](s209s20/ht3_h.pdf) (Mon 3/9 and Wed 3/11)
-- Hypothesis Testing Part IV (The $t$-test)
-- Outliers, Transformations, and Non-parametric Tests
+- [Hypothesis Testing Part IV (The $t$-test)](s209s20/ht4_h.pdf) (Week of 3/31 - 4/3)
+    - [Video - Part 1](https://youtu.be/K0c2ukxisFU)
+    - [Video - Part 2](https://youtu.be/z55L-k8Ky1U)
+    - [Video - Part 3](https://youtu.be/UVcO3WT3eFs)
+- [Outliers, Transformations, and Non-parametric Tests](s209s20/outliers_h.pdf) (Week of 3/31 - 4/3)
+    - [Video - Part 1](https://youtu.be/trUf7b-62No)
+    - [Video - Part 2](https://youtu.be/rBUYfzW2-TM)
+    - [Video - Part 3](https://youtu.be/TJmYVseFNHM)
 - Chi-Squared Tests
 - Analysis of Variance (ANOVA)
 - Regression Modeling Part I (Simple Linear Regression and ANOVA)
@@ -82,8 +88,8 @@ Labs and due dates are listed below.  Please note that during or after a lab you
     - due date: Friday 3/6
 - [Lab #6 - A/B Testing](s209s20/Lab6.html) (Wed 3/11 and Fri 3/13)
     - due date: Monday 3/30
-- Lab #7 - Hypothesis Testing
-    - due date: TBD
+- [Lab #7 - Hypothesis Testing](s209s20/Lab7.html) (Week of 3/31 - 4/3)
+    - due date: Monday 4/6 at 1:00pm Grinnell time
 - Lab #8 - Chi-Squared Testing and More
     - due date: TBD
 - Lab #9 - Analysis of Variance and More
@@ -112,8 +118,8 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - Ch 4.4 and 4.5 (Wed 3/4)
 - Ch 5.1 (Friday 3/6)
 - Ch 6.1-HT and Ch 6.3-HT (Mon 3/9)
-- Ch 6.2-HT and Ch 6.3-HT (Mon 3/30)
-- Ch 6.5 (Wed 4/1)
+- Ch 6.2-HT, Ch 6.3-HT, and Ch 6.5 (Week of 3/31 - 4/3)
+
     
 ### Homeworks
 
@@ -135,8 +141,9 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - due date: Friday 3/6
 - HW #7:  4.144, 4.145, 6.56, 6.57, 6.60, 6.163, 6.164, 6.165
     - due date: Friday 3/13
-- HW #8: TBD
-    - due date: TBD
+- HW #8: 6.121, 6.122, 6.215, 6.216, 6.250, 6.256, [additional questions #1 and #2](https://remiller1450.github.io/s209f19/f19s209hw8.html)
+    - due date: Friday 4/3 at 1:00pm Grinnell time
+    - Please submit your assignment as a single file in the open box on Pioneerweb 
 - HW #9: TBD
     - due date: TBD
 - HW #10: TBD

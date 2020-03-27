@@ -23,13 +23,15 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Readings
 
-- Textbook readings will shift from recommended to required (completion will be assessed via short quizzes described in the section below)
+- Textbook readings will shift from recommended to required ~~(completion will be assessed via short quizzes described in the section below)~~
     
 ### Class Participation
 
-- Class participation will replaced (in part) by short weekly quizzes
-    - Each quiz will ask a small number (less than 5) straightforward questions about that week's lectures and readings
-    
+- ~~Class participation will replaced (in part) by short weekly quizzes~~
+    - ~~Each quiz will ask a small number (less than 5) straightforward questions about that week's lectures and readings~~
+- Quizzes will no longer be added, the rationale is to minimize the number of different assignments taking place each week
+
+
 ### Labs
 
 - The 4 remaining labs will still be assigned
