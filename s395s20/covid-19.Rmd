@@ -21,12 +21,12 @@ Below are changes in the general operating procedures of Sta-395 that will begin
 - You will still be responsible for providing bi-weekly progress briefings to your adviser team and Prof. Miller on Tuesdays
     - These briefings will be delivered in a *written format* rather than an oral presentation (see the guidelines below)
 - You will be responsible for posting your briefing in the "Briefings" discussion board on pioneer-web by 1:00pm (Grinnell time) on Tuesday it is due
-    - Participation credit will be assessed on an individual basis via the frequency and quality of the comments you post in these threads within 24 hours of the original post
-    - Someone from the "presenting group"" is responsible for responding to all comments made during this 24-hour period
+    - Participation credit will be assessed on an individual basis via the frequency and quality of the comments you post in these threads prior to 1:00pm (Grinnell time) on Wednesday
+    - Someone from the "presenting group"" is responsible for responding to all comments made during this 24-hour period by 1:00pm (Grinnell time) on Thursday
     
 **Guidelines**:
 
-- The length should match what you could present in 20 minutes (use your judgement here)
+- The length of your briefing document should match what you could present in 20 minutes (use your judgement here)
 - The briefing should be organized appropriately (ie: clearly defined sections, figures/code embedded properly, not overly verbose, etc.)
 - The briefing should contain all of the components mentioned in the [original progress reporting guidelines](https://remiller1450.github.io/s395s20/prog_guidelines.html)
 - The briefing will be evaluated similarly to the original progress reporting guidelines (1-10 rating of overall quality, 1-5 rating of goal construction and fulfillment)
@@ -34,9 +34,9 @@ Below are changes in the general operating procedures of Sta-395 that will begin
 ### Goal Setting
 
 - You will still be responsible for setting goals on Thursdays
-    - You will post these goals as a new thread in the "Goals" discussion board on pioneer-web by 2:20pm (Grinnell time)
-    - Participation credit will be assessed on an individual basis via the frequency and quality of the comments you post in these threads within 24 hours of the original post
-    - After 24 hours, someone from the "presenting group" should create a final post listing the finalized goals
+    - You will post these goals as a new thread in the "Goals" discussion board on pioneer-web by 1:00pm (Grinnell time) on Thursday
+    - Participation credit will be assessed on an individual basis via the frequency and quality of the comments you post in these threads by 1:00pm (Grinnell time) on Friday
+    - After comments close at 1:00pm on Friday, the "presenting group" should create a final post in the thread listing their finalized goals
 
 ### Final Products
 
