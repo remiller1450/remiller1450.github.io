@@ -42,7 +42,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - [Video - Part 1](https://youtu.be/trUf7b-62No)
     - [Video - Part 2](https://youtu.be/rBUYfzW2-TM)
     - [Video - Part 3](https://youtu.be/TJmYVseFNHM)
-- [Chi-Squared Tests](s209s20/chisq_h.pdf)  (Week of 4/5 - 4/9)
+- [Chi-Squared Tests](s209s20/chisq_h.pdf)  (Week of 4/6 - 4/10)
     - [Video - Part 1](https://youtu.be/AYOiUnv6zFQ)
     - [Video - Part 2](https://youtu.be/gtl6A7XUN3M)
     - [Video - Part 3](https://youtu.be/_fTOtssNYUE)
@@ -123,7 +123,7 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - Ch 5.1 (Friday 3/6)
 - Ch 6.1-HT and Ch 6.3-HT (Mon 3/9)
 - Ch 6.2-HT, Ch 6.3-HT, and Ch 6.5 (Week of 3/31 - 4/3)
-- Ch 7.1 and 7.2 (Week of 4/5 - 4/7)
+- Ch 7.1 and 7.2 (Week of 4/6 - 4/10)
 
     
 ### Homeworks
@@ -150,7 +150,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - due date: Friday 4/3 at 1:00pm Grinnell time
     - Please submit your assignment as a single file in the open box on Pioneerweb 
 - HW #9: 7.13, 7.20, 7.26, 7.27, 7.43, 7.44, 7.46
-    - due date: Friday 4/7 at 1:00pm Grinnell time
+    - due date: Friday 4/10 at 1:00pm Grinnell time
 - HW #10: TBD
     - due date: TBD
 - HW #11: TBD
@@ -166,9 +166,9 @@ Homework is generally due *at the start of class* every Friday (with a few excep
         - At [this link](s209s20/s2020_groups.html) you may find the current list of groups
     - The second deadline is Monday 3/30 at 11:59pm, when your group must submit a project proposal
 - [Click here](s209s20/covid-19.html) for information on distance learning
-- Exam #2 will be made available at 8:00am Grinnell time on Friday 4/7 and must be submitted by 8:00am Grinnell time on Saturday 4/8
+- Exam #2 will be made available at 8:00am Grinnell time on Friday 4/10 and must be submitted by 8:00am Grinnell time on Saturday 4/11
     - Study materials are posted on p-web
-    - Solutions to the practice exam will be posted on Wednesday 4/6
+    - Solutions to the practice exam will be posted on Wednesday 4/8
 
 ### Datasets
 
