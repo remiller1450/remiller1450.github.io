@@ -52,10 +52,11 @@ On Monday 3/30 all Grinnell College courses will transition to distance learning
     - [Peer assessment #1](s395s20/peer_guidelines1.html) (due Monday 2/24 by 9:00am)
 - Guidelines for project take-over memo and presentation
     - [Click here](s395s20/adv_takeover.html) to see a description of the adviser take-over week
-- Guidelines for executive summary
-- Guidelines for technical report
+- [Guidelines for Final Products](s395s20/final_project.html)
 
 ### Important Dates
+
+Please use these dates and not the estimated dates described in the syllabus.
 
 - Tuesday 2/11 - First progress meetings for Groups #1 and #2 during class
 - Tuesday 2/18 - First progress meetings for Group #3 and #4 during class
@@ -63,12 +64,12 @@ On Monday 3/30 all Grinnell College courses will transition to distance learning
 - ~~Friday 4/3 - Friday 4/10 - Advisor take-over week~~
 - ~~Monday 4/13 - Adviser team take-over memos are due at 11:59pm~~
 - ~~Tuesday 4/14 and Thursday 4/16 - Adviser team presentations during class~~
-- Friday 4/21 - Second midterm peer assessment is due
-- Thursday 4/30 - Executive summary is due
-- Tuesday 5/5 - Oral presentations during class
-- Tuesday 5/8 - Deliverable is due
-- Final Exam Slot (date TBD) - Technical report is due
-- Friday 5/15 - Final peer assessment is due
+- Friday 4/21 - Second midterm peer assessment is due at 11:59pm CST
+- Friday 5/1 - [Executive summary](s395s20/final_project.html) is due at 11:59pm CST
+- Tuesday 5/5 - [Oral presentations](s395s20/final_project.html) at times TBD
+- Tuesday 5/8 - [Project deliverable](s395s20/final_project.html) is due at 11:59pm CST
+- Friday 5/15 - [Technical report](s395s20/final_project.html) is due at 5:00pm CST
+- Friday 5/15 - Final peer assessment is due at 5:00pm CST
 
 ### General Schedule
 
