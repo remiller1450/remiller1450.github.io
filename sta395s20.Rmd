@@ -50,6 +50,7 @@ On Monday 3/30 all Grinnell College courses will transition to distance learning
 - [Guidelines for bi-weekly adviser assessments](s395s20/adv_guidelines.html)
 - Guidelines for midterm peer assessments
     - [Peer assessment #1](s395s20/peer_guidelines1.html) (due Monday 2/24 by 9:00am)
+    - [Peer assessment #2](s395s20/peer_guidelines2.html) (due Friday 4/24 by 11:59pm)
 - Guidelines for project take-over memo and presentation
     - [Click here](s395s20/adv_takeover.html) to see a description of the adviser take-over week
 - [Guidelines for Final Products](s395s20/final_project.html)
@@ -64,7 +65,7 @@ Please use these dates and not the estimated dates described in the syllabus.
 - ~~Friday 4/3 - Friday 4/10 - Advisor take-over week~~
 - ~~Monday 4/13 - Adviser team take-over memos are due at 11:59pm~~
 - ~~Tuesday 4/14 and Thursday 4/16 - Adviser team presentations during class~~
-- Friday 4/21 - Second midterm peer assessment is due at 11:59pm CST
+- Friday 4/24 - Second midterm peer assessment is due at 11:59pm CST
 - Friday 5/1 - [Executive summary](s395s20/final_project.html) is due at 11:59pm CST
 - Tuesday 5/5 - [Oral presentations](s395s20/final_project.html) at times TBD
 - Tuesday 5/8 - [Project deliverable](s395s20/final_project.html) is due at 11:59pm CST
