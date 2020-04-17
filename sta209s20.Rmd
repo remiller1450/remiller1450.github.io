@@ -51,8 +51,11 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - [Video - Part 1](https://youtu.be/9HnxEfN1Xas)
     - [Video - Part 2](https://youtu.be/YUsJDQ3ZyD4)
     - [Video - Part 3](https://youtu.be/7NIPIqmh7Ik)
-- Regression Modeling Part I (Simple Linear Regression and ANOVA)
-- Regression Modeling Part II (Multiple Regression)
+- [Regression Modeling Part I (Simple Linear Regression and ANOVA)](s209s20/reg1_h.pdf) (Week of 4/20 - 4/24)
+    - [Video - Part 1](A)
+    - [Video - Part 2](A)
+    - [Video - Part 3](A)
+- Regression Modeling Part II (Multiple Regression) (Week of 4/27 - 5/1)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -99,10 +102,10 @@ Labs and due dates are listed below.  Please note that during or after a lab you
     - due date: Monday 4/6 at 1:00pm Grinnell time
 - [Lab #8 - Chi-Squared Testing and More](s209s20/Lab8.html) (Week of 4/13 - 4/17)
     - due date: Wednesday 4/15 at 1:00pm Grinnell time
-- Lab #9 - Analysis of Variance and More
-    - due date: TBD
-- Lab #10 - Regression
-    - due date: TBD
+- [Lab #9 - Analysis of Variance and More](s209s20/Lab9.html) (Week of 4/20 - 4/24)
+    - due date: Wednesday 4/22 at 1:00pm Grinnell time
+- Lab #10 - Regression (Week of 4/27 - 5/1)
+    - due date: Friday 5/8 at 1:00pm Grinnell time
 
 ### Recommended Readings
 
@@ -128,6 +131,7 @@ The readings listed below are *recommended* prior to the date indicated. It has 
 - Ch 6.2-HT, Ch 6.3-HT, and Ch 6.5 (Week of 3/31 - 4/3)
 - Ch 7.1 and 7.2 (Week of 4/6 - 4/10)
 - Ch 8.1 and 8.2 (Week of 4/13 - 4/17)
+- Ch 9.1, 9.2, and 9.3 (Week of 4/20 - 4/24)
     
 ### Homeworks
 
@@ -157,7 +161,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
 - HW #10: 8.8, 8.15, 8.16, 8.17, 8.18, 8.32
     - due date: *Monday* 4/20 at 1:00pm Grinnell time
 - HW #11: TBD
-    - due date: TBD
+    - due date: Friday 5/1 at 1:00pm Grinnell time
 
 ### Announcements and Other Materials 
 
@@ -206,3 +210,7 @@ Homework is generally due *at the start of class* every Friday (with a few excep
     - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
 - [Halo Effect](https://remiller1450.github.io/data/halo.csv)
     - The "halo effect" is theory suggesting that postive ratings in one aspect of a person, brand, or object lead to favorable views of other aspects.  This dataset is based upon results from a 1974 experiment described in the article "Beauty is Talent: Task Evaluationas a Function of the Performer's Physical Attraction" published in the Journal of Personality and Social Psychology.  In the study 60 male undergraduate readers were asked to score an essay said to be written by a female undergraduate. 20 readers were given a photo of an attractive female said to be essay's author, 20 readers received a photo of an unattractive female said to be author, and 20 readers received no photo.
+- [Commute Tracker](https://remiller1450.github.io/data/CommuteTracker.csv)
+    - This dataset documents the daily commutes of a worker residing in the greater Toronto region of Canada. It was collected via a GPS tracking app, and documents several variables related to time, distance, speed, delays, and date. I came across this dataset at [this ML workshop github page](https://github.com/GalvanizeDataScience/ml-workshop/tree/master/data), I am unsure of its original origin.
+- [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
+    - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
