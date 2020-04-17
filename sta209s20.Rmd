@@ -52,9 +52,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - [Video - Part 2](https://youtu.be/YUsJDQ3ZyD4)
     - [Video - Part 3](https://youtu.be/7NIPIqmh7Ik)
 - [Regression Modeling Part I (Simple Linear Regression and ANOVA)](s209s20/reg1_h.pdf) (Week of 4/20 - 4/24)
-    - [Video - Part 1](A)
-    - [Video - Part 2](A)
-    - [Video - Part 3](A)
+    - [Video - Part 1](https://youtu.be/ptvHkDQYS40)
+    - [Video - Part 2](https://youtu.be/GchcdPfpvDk)
+    - [Video - Part 3](https://youtu.be/NLKtO8FMGJU)
 - Regression Modeling Part II (Multiple Regression) (Week of 4/27 - 5/1)
 
 ```{r, include = FALSE, eval = FALSE}
