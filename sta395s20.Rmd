@@ -68,7 +68,7 @@ Please use these dates and not the estimated dates described in the syllabus.
 - Friday 4/24 - Second midterm peer assessment is due at 11:59pm CST
 - Friday 5/1 - [Executive summary](s395s20/final_project.html) is due at 11:59pm CST
 - Tuesday 5/5 - [Oral presentations](s395s20/final_project.html) at times TBD
-- Tuesday 5/8 - [Project deliverable](s395s20/final_project.html) is due at 11:59pm CST
+- Friday 5/8 - [Project deliverable](s395s20/final_project.html) is due at 11:59pm CST
 - Friday 5/15 - [Technical report](s395s20/final_project.html) is due at 5:00pm CST
 - Friday 5/15 - Final peer assessment is due at 5:00pm CST
 
