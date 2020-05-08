@@ -1,0 +1,30 @@
+---
+title: "Peer Review Guidelines #3"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Please submit your response via email attachment as a single document no later than Friday May 15th at 5:00pm CDT. Note that all responses will be kept fully confidential and will never be shared with your classmates.
+
+### 1. Project Reflection
+
+Write 2-3 sentences describing the most substantial lesson you learned working a team on a long-term project.
+
+### 2. Peer Engagement
+
+Identify the individual from the entire class (outside of your own group) that you found was most engaged with other groups during adviser assessments and presentations.  Write 2-3 sentences describing why you chose this student.
+
+### 3. Project Grade
+
+Provide the letter grade you would assign your team's project as a whole: A (exceptional), A- (excellent), B+ (very good), B (good/typical), B- (decent), C+ (satisfactory), C (satisfactory), D (poor), F (failing).  Write 2-3 sentences justifying why you chose this grade.
+
+### 4. Individual Contributions
+
+As in prior peer reviews, distribute 100 points across your team based upon your interpretation of everyone's contribution to the project.  You are not required to provide any justification, but you are welcome to write 1-2 sentences about each team member.
+
+### 5. Feedback
+
+Sta-395 is a unique course that is intended to be experiential rather than curriculum based. With this in mind, write *at least two sentences* describing your general feelings about the course. You might discuss what you liked/disliked the format, how it the course could be improved in future years, or any other suggestions, recommendations, or comments you have on the experience.

@@ -51,6 +51,7 @@ On Monday 3/30 all Grinnell College courses will transition to distance learning
 - Guidelines for midterm peer assessments
     - [Peer assessment #1](s395s20/peer_guidelines1.html) (due Monday 2/24 by 9:00am)
     - [Peer assessment #2](s395s20/peer_guidelines2.html) (due Friday 4/24 by 11:59pm)
+    - [Peer assessment #3](s395s20/peer_guidelines3.html) (due Friday 5/15 by 5:00pm)
 - Guidelines for project take-over memo and presentation
     - [Click here](s395s20/adv_takeover.html) to see a description of the adviser take-over week
 - [Guidelines for Final Products](s395s20/final_project.html)
