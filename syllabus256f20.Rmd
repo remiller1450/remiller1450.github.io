@@ -1,0 +1,131 @@
+---
+title: "MATH 256: Intro to Probability and Statistics"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+## Course Information
+
+**Instructor**:
+
+- Ryan Miller, millerr33\@xavier.edu 
+
+**Class Meetings**: 
+
+- Location TBD, M/W/F 9:00-9:50AM
+
+**Office Hours**
+
+- Location and times TBD, or by appointment
+
+## Course Description
+
+A calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.
+
+### Text
+
+- *OpenIntro Statistics* 4th edition (2019), Diez, DM, Barr CD, and Cetinkaya-Rundel, M
+    - A *free* pdf is available at [openintro.org](https://www.openintro.org/)
+
+### Website
+
+- Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/mat256f20.html, where you will find everything for the course (other than grades)
+
+### Course Aims:
+
+This course intends to teach students to identify patterns in data using visualizations and statistical methods.  It will focus on building foundational understanding of fundamental statistical techniques, proper interpretation of results, and clear communication of these ideas in written and oral formats.
+
+### Learning Objectives:
+
+Specific learning outcomes, with respect ot the core curriculum at Xavier, include:
+
+- (1a) Students recognize and cogently discuss significant questions in the humanities, arts, and
+the natural and social sciences
+- (2a) Students find, evaluate, and logically convey information and ideas in written and oral
+form
+- (2b) Students evaluate problems using quantitative methods and arguments
+
+### Software
+
+In the modern era, statisticians (along with most scientific professionals) rely upon software. In this course you will be required to use `R` (typically through the `R Studio` GUI).  `R` is an open-source software that is generally regarded as the industry standard amongst professional statisticians.  Throughout the course you will work through guided labs which will simultaneously promote proficiency in `R` programming and applied statistical analysis.
+You can install `R` and `R Studio` on your personal computer in two easy steps:
+1.	First, download and install `R` from http://www.r-project.org/
+2.	Second, download and install the `R Studio` user interface from http://www.rstudio.com/ 
+Additionally, `R Studio` is present on a number of campus computers.
+
+## Policies
+
+In accordance with the values of Xavier University, students are expected to adhere to the following policies:
+
+### Attendance
+
+Students are expected to attend all scheduled lectures assigned to them.  The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
+
+### Academic Honesty
+
+Students will be required to sign an Honor Pledge on certain assignments: *"As a student at Xavier University, I have neither given nor received unauthorized aid on this assignment/exam. (Student signature)"*.  Assignments and exams will explicitly describe what constitutes authorized versus unauthorized aid.
+
+In general, collaborate work is highly encouraged in this course; however, your homework write-ups should be your own individual work.  Copying solutions from anyone or any source without full disclosure is considered cheating.  If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) you should indicate this on your assignment (a simple statement like "I worked with Jack and Jill on problems 1-3" is enough).
+
+### Campus Resources
+
+MATH 256 is a major-level course, so drop-in tutoring at the Mathematics Lab and one-on-one tutoring through the Office of Academic Support are generally not available.  The first place you should go with questions related to course material is the course instructor.  Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
+
+
+## Grading
+
+**Exams**
+
+- Exam 1 (in-class) 15%
+- Exam 2 (in-class) 15%
+- Exam 3 (in-class) 15%
+- Final Exam (cumulative take-home) 15%
+
+All exams will be announced at least 14 calendar days ahead of time and will be expected to take an entire 50-minute class session, excluding the take-home final.  Formulas and calculators will be provided as necessary. 
+
+These exams are intended to test how fully you understand the key concepts of the course, they are not meant to test your memorization or arithmetic.  Consequently, you should expect and be prepared for a substantial amount of writing during exams.
+
+**Assignments**
+
+- Problem Sets 15%
+- Labs 10%
+
+There will be 10 problem sets and 8-10 labs throughout the semester.
+
+Each problem set consists of a handful of exercises from the textbook pertaining to the material we are covering at that time.  Problem sets are to be submitted individually, but you are encouraged to discuss them with your peers so long as your submitted answers are your own. 
+
+Labs will focus on applied statistical analysis of real datasets, and will also cover `R` programming fundamentals.  They are to be completed and submitted in small groups.
+
+
+**Project**
+
+- Project 15%
+
+Towards the end of the semester you will complete a comprehensive statistical analysis demonstrating your ability to properly apply methods from this course to data from other disciplines.  Details on this project will be provided later in the semester.  You will have the opportunity to work alone or with a partner. You will be allowed to choose your topic (pending instructor approval).
+
+### Overall Course Grades
+
+The following grade cutoffs will be used:
+
+- A [93,100]
+- A- [90, 93)
+- B+ [87, 90)
+- B [83, 87)
+- B- [80, 83)
+- C+ [77, 80)
+- C [73, 77)
+- C- [70, 73)
+- D+ [67, 70)
+- D [63, 67)
+- D- [60, 63)
+- F [0, 60)
+
+The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  
+
+## Tentative Schedule
+
+- TBD

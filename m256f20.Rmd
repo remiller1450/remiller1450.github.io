@@ -1,0 +1,76 @@
+---
+title: "MATH 256 - Intro to Probability and Statistics (Fall 2020)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+### Schedule and Syllabus
+
+Welcome to course website for MATH 256 - Intro to Probability and Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
+
+- [Click here](syllabus256f20.html) to view the course syllabus
+
+You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we've reached that point in the course.
+
+
+### Lecture Slides
+
+- Introduction
+
+```{r, include = FALSE, eval = FALSE}
+#-	Intro
+#	Keep as-is
+#-	Pop and Samples
+#	Keep as-is
+#-	Do Lab #1 (descriptive stats, update lab)
+#-	Correlation, association, and causation
+#	Need to create
+#-	Do Lab #2 (Florida death penalty, update but mostly good)
+#-	Randomized Experiments
+#	Mostly okay
+#-	Interval Estimation Part I (Sampling Distributions)
+#	Need to make/update
+#-	Interval Estimation Part II (Bootstrapping)
+#	Need to make/update
+#-	Lab #3 (bootstrapping, mostly okay)
+#-	Interval Estimation Part III (Normal Approximations)
+#	Need to make/update
+#	1 prop -> 2 prop -> 1 mean -> 2 means, but quick
+#-	Lab #4 (confidence intervals, need to make, include confounding in there and maybe intro to using intervals to do a test?)
+#-	Hypothesis Testing Part I (Null Distributions and p-values)
+#	Mostly good, might need to update
+```
+
+
+### Labs
+
+- Lab 1
+    - Due date: TBD
+
+### Recommended Readings
+
+The readings listed below are *recommended* prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
+
+- TBD
+    
+### Homeworks
+
+Homework is generally due *at the start of class* every Friday (with a few exceptions during weeks with exams). 
+
+In response to COVID-19, all submissions will done electronically via Canvas.
+
+- HW #1: TBD
+    - Due date: TBD
+
+### Announcements and Other Materials 
+
+- Please complete the survey [at this link](https://forms.gle/ppHLhjz6cGBdFVvj6) sometime during the first week of class.  You will receive 2 points (homework) for answering the first 6 questions, and 1 point extra credit (homework) for answering the next 3 questions.
+
+
+### Datasets
+
+- Coming Soon
