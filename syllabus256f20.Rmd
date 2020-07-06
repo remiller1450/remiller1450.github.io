@@ -33,7 +33,7 @@ A calculus-based introduction to probability and descriptive and inferential sta
 
 ### Website
 
-- Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/mat256f20.html, where you will find everything for the course (other than grades)
+- Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/m256f20.html, where you will find everything for the course (other than grades)
 
 ### Course Aims:
 
