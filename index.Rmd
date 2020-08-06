@@ -1,12 +1,23 @@
 ---
-title: "Introduction"
+title: ""
 ---
+<img style="float: right; width:100%" src="xu_logo.png"> 
 
-<img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website!  I'm a currently a Visiting Assistant Professor of Statistics in the [Grinnell College Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I teach classes in statistics and data science.
+<img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website! I'm currently an Assistant Professor of Statistics in the [Xavier University Math Deparment](https://www.xavier.edu/mathematics-department/index).
 
-Prior to joining Grinnell, I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in August of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
+Prior to joining Xavier, I was a Visiting Assistant Professor of Statistics in the [Grinnell College Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I taught classes in statistics and data science.
 
-Below are quick links to current and previous courses:
+I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in August of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
+
+Below are links to my current and previous courses:
+
+**Xavier University Courses**:
+
+- Fall 2020
+    - [Mat-156, General Statistics (Spring 2020)](m156f20.html)
+    - [Mat-256, Intro to Probability and Statistics (Spring 2020)](m256f20.html)
+
+**Grinnell College Courses**:
 
 - Spring 2020
     - [Sta-209, Applied Statistics (Spring 2020)](sta209s20.html)

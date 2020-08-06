@@ -1,0 +1,140 @@
+---
+title: "MATH 156-04: General Statistics"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+## Course Information
+
+**Instructor**:
+
+- Ryan Miller, millerr33\@xavier.edu 
+
+**Class Meetings**: 
+
+- Location 107 Alter, T/TH 8:30-9:45AM
+
+**Office Hours**
+
+- *Virtual* office hours will be held Mondays from 2-3PM, Tuesdays from 9:30-10:30AM, Thursdays from 2-3PM, and Fridays from 10-11AM in the following Zoom meeting room: https://xavier.zoom.us/my/ryanmiller33
+
+## Course Description
+
+An introduction to the major concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
+
+### Text
+
+This course will *loosely* follow the textbook below.  Readings from the text will be optional.
+
+- *OpenIntro Statistics* 4th edition (2019), Diez, DM, Barr CD, and Cetinkaya-Rundel, M
+    - A *free* pdf is available at [openintro.org](https://www.openintro.org/book/stat/)
+    - Be sure to select the left-most download option (dark blue)
+
+### Website
+
+- Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/m156f20.html, where you will find everything needed for the course (other than grades and online quizes)
+
+### Course Aims:
+
+This course intends to teach students to identify patterns in data using visualizations and statistical methods.  It will focus on building foundational understanding of fundamental statistical techniques, proper interpretation of results, and clear communication of these ideas in written and oral formats.
+
+### Learning Objectives:
+
+Specific learning outcomes, with respect ot the core curriculum at Xavier, include:
+
+- (1a) Students recognize and cogently discuss significant questions in the humanities, arts, and
+the natural and social sciences
+- (2a) Students find, evaluate, and logically convey information and ideas in written and oral
+form
+- (2b) Students evaluate problems using quantitative methods and arguments
+
+### Software
+
+In the modern era, statisticians (along with most scientific professionals) rely upon software to carry out their day to day work. While this course is not intended to be focused on any particular software package, you can expect to use a mixture of Microsoft Excel and online web-applets to analyze data.  
+
+### Course Structure
+
+Due to COVID-19 related safety concerns, students will attend *only one* of the two scheduled in-person class sessions each week.  You will have an opportunity to sign-up for the day of your choice (either Tuesday or Thursday) prior to the start of the semester.
+
+In a typical week you will be expected to do the following (in this order!):
+
+- Watch a series of short lecture videos on your own
+- Take an online comprehension quiz covering these videos (can retake twice)
+- Attend your in-person session
+- Complete and electronically submit that week's problem set
+
+To reiterate, each week you are expected to watch the lecture videos and take the comprehension quiz *before* attending class.  During in-person class sessions you will practice concepts from these lectures, often by analyzing real data as a small group.
+
+## Policies
+
+In accordance with the values of Xavier University, students are expected to adhere to the following policies:
+
+### Attendance
+
+Students are expected to attend all scheduled lectures assigned to them.  The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
+
+### Academic Honesty
+
+Students will be required to sign an Honor Pledge on certain assignments: *"As a student at Xavier University, I have neither given nor received unauthorized aid on this assignment/exam. (Student signature)"*.  Assignments and exams will explicitly describe what constitutes authorized versus unauthorized aid.
+
+In general, collaborate work is highly encouraged in this course; however, your homework write-ups should be your own individual work.  Copying solutions from anyone or any source without full disclosure is considered cheating.  If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) you should indicate this on your assignment (a simple statement like "I worked with Jack and Jill on problems 1-3" is enough).
+
+### Campus Resources
+
+MATH 256 is a major-level course, so drop-in tutoring at the Mathematics Lab and one-on-one tutoring through the Office of Academic Support are generally not available.  The first place you should go with questions related to course material is the course instructor.  Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
+
+
+## Grading
+
+**Weekly Assignments**
+
+- Problem Sets - 20%
+- In-class Activities - 15%
+- Comprehension Quizzes - 20%
+
+There will be 10 roughly problem sets, in-class activities (excluding exams), and comprehension quizzes throughout the semester.  
+
+Each problem set will consist of 3-5 multi-part exercises covering important concepts from that week.  Problem sets are to be completed individually and submitted via Canvas as a pdf.  You must acknowledge any sources of collaboration on your submission (ie: write "I worked with Jimmy" on your paper).
+
+Most in-class activities will require you to submit short reflection or summary of the main points of the activity.  You will receive credit for the quality of your submissions
+
+Comprehension quizzes are to be completed on Canvas each week.  You may retake these quizzes multiple times to achieve your desired score.
+
+**Exams**
+
+- Exam 1 (in-class) - 15%
+- Exam 2 (in-class) - 15%
+- Final Exam (cumulative take-home) 15%
+
+All exams will be announced at least 14 calendar days ahead of time and will be expected to take an entire class session. Formulas and calculators will be provided as necessary. 
+
+These exams are intended to test how deeply you understand the key concepts of the course, they are not meant to test memorization or arithmetic skills.  Consequently, you should be prepared for a substantial amount of writing during exams.
+
+
+
+### Overall Course Grades
+
+The following grade cutoffs will be used:
+
+- A [93,100]
+- A- [90, 93)
+- B+ [87, 90)
+- B [83, 87)
+- B- [80, 83)
+- C+ [77, 80)
+- C [73, 77)
+- C- [70, 73)
+- D+ [67, 70)
+- D [63, 67)
+- D- [60, 63)
+- F [0, 60)
+
+The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  
+
+## Tentative Schedule
+
+- 

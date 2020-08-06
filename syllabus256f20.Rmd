@@ -16,11 +16,11 @@ output:
 
 **Class Meetings**: 
 
-- Location TBD, M/W/F 9:00-9:50AM
+- Location: Alter 103, M/W/F 9:00-9:50AM
 
 **Office Hours**
 
-- Location and times TBD, or by appointment
+- *Virtual* office hours will be held Mondays from 2-3PM, Tuesdays from 9:30-10:30AM, Thursdays from 2-3PM, and Fridays from 10-11AM in the following Zoom meeting room: https://xavier.zoom.us/my/ryanmiller33
 
 ## Course Description
 
@@ -30,7 +30,8 @@ A calculus-based introduction to probability and descriptive and inferential sta
 
 - *OpenIntro Statistics* 4th edition (2019), Diez, DM, Barr CD, and Cetinkaya-Rundel, M
     - A *free* pdf is available at [openintro.org](https://www.openintro.org/)
-
+    - Be sure to select the left-most download option (dark blue)
+    
 ### Website
 
 - Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/m256f20.html, where you will find everything for the course (other than grades)
@@ -56,6 +57,19 @@ You can install `R` and `R Studio` on your personal computer in two easy steps:
 1.	First, download and install `R` from http://www.r-project.org/
 2.	Second, download and install the `R Studio` user interface from http://www.rstudio.com/ 
 Additionally, `R Studio` is present on a number of campus computers.
+
+### Course Structure
+
+Due to COVID-19 concerns, students will attend *every other* in-person class sessions.  Meaning if you sign-up for group A, you'll attend Monday and Friday of Week 1 and Wednesday of Week 2.  If you sign up for group B, you'll attend Wednesday of Week 1 and Monday and Friday of Week 2.  
+
+Please note that adjacent sessions will mirror each other, so there is no practical difference between group A and group B.  In fact, if you have to miss your session you request permission to attend the other that week (noting that our classroom capacity is 10 students).
+
+Prior to each in-person session you are expected to do the following:
+
+- Watch a series of short lecture videos on your own
+- Take an online comprehension quiz covering the videos (can retake twice)
+
+To reiterate, each week you are expected to watch the lecture videos and take the comprehension quiz *before* attending class.  During in-person class sessions you will practice concepts from these lectures, often by analyzing real data as part of a small group.
 
 ## Policies
 
@@ -94,12 +108,11 @@ These exams are intended to test how fully you understand the key concepts of th
 - Problem Sets 15%
 - Labs 10%
 
-There will be 10 problem sets and 8-10 labs throughout the semester.
+There will be approximately 6 bi-weekly problem sets and 8-10 labs during the semester.
 
 Each problem set consists of a handful of exercises from the textbook pertaining to the material we are covering at that time.  Problem sets are to be submitted individually, but you are encouraged to discuss them with your peers so long as your submitted answers are your own. 
 
-Labs will focus on applied statistical analysis of real datasets, and will also cover `R` programming fundamentals.  They are to be completed and submitted in small groups.
-
+Labs will focus on applied statistical analysis of real datasets and `R` programming fundamentals.  They will be completed and submitted in small groups (randomly assigned).
 
 **Project**
 
@@ -125,7 +138,3 @@ The following grade cutoffs will be used:
 - F [0, 60)
 
 The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  
-
-## Tentative Schedule
-
-- TBD

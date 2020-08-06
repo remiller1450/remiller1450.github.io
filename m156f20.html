@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>MATH 156 - General Statistics (Fall 2020)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -169,6 +172,101 @@ $(document).ready(function () {
 
 
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -230,48 +328,73 @@ $(document).ready(function () {
 
 
 
+<h1 class="title toc-ignore">MATH 156 - General Statistics (Fall 2020)</h1>
 
 </div>
 
 
 <p><img style="float: right; width:100%" src="xu_logo.png"></p>
-<p><img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website! I’m currently an Assistant Professor of Statistics in the <a href="https://www.xavier.edu/mathematics-department/index">Xavier University Math Deparment</a>.</p>
-<p>Prior to joining Xavier, I was a Visiting Assistant Professor of Statistics in the <a href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell College Department of Mathematics and Statistics</a> where I taught classes in statistics and data science.</p>
-<p>I studied <a href="https://www.public-health.uiowa.edu/biostat/">Biostatistics</a> at the University of Iowa, completing my PhD in August of 2018. Before that I studied Mathematics at <a href="https://www.augustana.edu/">Augustana College</a> in Rock Island Illinois.</p>
-<p>Below are links to my current and previous courses:</p>
-<p><strong>Xavier University Courses</strong>:</p>
+<div id="schedule-and-syllabus" class="section level3">
+<h3>Schedule and Syllabus</h3>
+<p>Welcome to course website for MATH 156 - General Statistics! On this page you can find all materials we’ll use throughout the semester, starting with the syllabus linked below:</p>
 <ul>
-<li>Fall 2020
+<li><a href="syllabus156f20.html">Click here</a> to view the course syllabus</li>
+</ul>
+<p>You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we’ve reached that point in the course.</p>
+</div>
+<div id="announcements-and-corrections" class="section level3">
+<h3>Announcements and Corrections</h3>
 <ul>
-<li><a href="m156f20.html">Mat-156, General Statistics (Spring 2020)</a></li>
-<li><a href="m256f20.html">Mat-256, Intro to Probability and Statistics (Spring 2020)</a></li>
+<li>None yet!</li>
+</ul>
+</div>
+<div id="lectures-and-videos" class="section level3">
+<h3>Lectures (and videos)</h3>
+<ul>
+<li>Week 1 (8/17)
+<ul>
+<li>Entirely in-class this week!</li>
 </ul></li>
 </ul>
-<p><strong>Grinnell College Courses</strong>:</p>
+</div>
+<div id="handouts-in-class-activities" class="section level3">
+<h3>Handouts (in-class activities)</h3>
 <ul>
-<li>Spring 2020
+<li>Week 1 (8/17)
 <ul>
-<li><a href="sta209s20.html">Sta-209, Applied Statistics (Spring 2020)</a></li>
-<li><a href="sta395s20.html">Sta-395, Applied Data Science (Spring 2020)</a></li>
-</ul></li>
-<li>Fall 2019
-<ul>
-<li><a href="sta209f19.html">Sta-209, Applied Statistics (Fall 2019)</a></li>
-<li><a href="sta230f19.html">Sta-230, Intro to Data Science (Fall 2019)</a></li>
-</ul></li>
-<li>Spring 2019
-<ul>
-<li><a href="sta209s19.html">Sta-209, Applied Statistics (Spring 2019)</a></li>
-<li><a href="sta230s19.html">Sta-230, Intro to Data Science (Spring 2019)</a></li>
-</ul></li>
-<li>Fall 2018
-<ul>
-<li><a href="sta209f18.html">Sta-209, Applied Statistics (Fall 2018)</a></li>
+<li>Intro activity (coming soon)</li>
 </ul></li>
 </ul>
+</div>
+<div id="recommended-readings" class="section level3">
+<h3>Recommended Readings</h3>
+<p>The readings listed below are <em>recommended</em> prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.</p>
+<ul>
+<li>TBD</li>
+</ul>
+</div>
+<div id="problem-sets" class="section level3">
+<h3>Problem Sets</h3>
+<p>Problem sets are generally due by 11:59pm every Friday (with a few exceptions during weeks with exams).</p>
+<p>Due to COVID-19, all submissions will done electronically via Canvas. Please submit a single pdf file following the guidelines described in the course syllabus.</p>
+<ul>
+<li>HW #1: TBD
+<ul>
+<li>Due date: TBD</li>
+</ul></li>
+</ul>
+</div>
+<div id="datasets" class="section level3">
+<h3>Datasets</h3>
+<ul>
+<li>Coming Soon</li>
+</ul>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 

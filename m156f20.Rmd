@@ -1,0 +1,52 @@
+---
+title: "MATH 156 - General Statistics (Fall 2020)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+<img style="float: right; width:100%" src="xu_logo.png"> 
+
+### Schedule and Syllabus
+
+Welcome to course website for MATH 156 - General Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
+
+- [Click here](syllabus156f20.html) to view the course syllabus
+
+You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we've reached that point in the course.
+
+### Announcements and Corrections
+
+- None yet!
+
+### Lectures (and videos)
+
+- Week 1 (8/17)
+    - Entirely in-class this week!
+
+### Handouts (in-class activities)
+
+- Week 1 (8/17)
+    - Intro activity (coming soon)
+
+### Recommended Readings
+
+The readings listed below are *recommended* prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
+
+- TBD
+    
+### Problem Sets
+
+Problem sets are generally due by 11:59pm every Friday (with a few exceptions during weeks with exams). 
+
+Due to COVID-19, all submissions will done electronically via Canvas.  Please submit a single pdf file following the guidelines described in the course syllabus.
+
+- HW #1: TBD
+    - Due date: TBD
+
+### Datasets
+
+- Coming Soon
