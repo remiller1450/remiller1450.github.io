@@ -30,9 +30,7 @@ An introduction to the major concepts and tools used for collecting, analyzing, 
 
 This course will *loosely* follow the textbook below.  Readings from the text will be optional.
 
-- *OpenIntro Statistics* 4th edition (2019), Diez, DM, Barr CD, and Cetinkaya-Rundel, M
-    - A *free* pdf is available at [openintro.org](https://www.openintro.org/book/stat/)
-    - Be sure to select the left-most download option (dark blue)
+- *Stats, data & models* 5th edition by DeVeaux, Vellemen, and Bock
 
 ### Website
 

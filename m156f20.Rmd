@@ -10,6 +10,8 @@ output:
 
 <img style="float: right; width:100%" src="xu_logo.png"> 
 
+$~$
+
 ### Schedule and Syllabus
 
 Welcome to course website for MATH 156 - General Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:

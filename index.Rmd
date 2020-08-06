@@ -1,7 +1,6 @@
 ---
 title: ""
 ---
-<img style="float: right; width:100%" src="xu_logo.png"> 
 
 <img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website! I'm currently an Assistant Professor of Statistics in the [Xavier University Math Deparment](https://www.xavier.edu/mathematics-department/index).
 
