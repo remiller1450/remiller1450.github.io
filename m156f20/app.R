@@ -21,7 +21,7 @@ library(DT)
 
 
 types <- c("Barchart","Histogram", "Boxplot", "Scatterplot")
-stypes <- c("Numeric Summary", "Frequency Tables and Proportions", "Correlation and Regression")
+stypes <- c("Numeric Summary", "Frequencies", "Correlation and Regression")
 
 ui <- fluidPage(
  tabsetPanel(
@@ -48,9 +48,7 @@ ui <- fluidPage(
                               uiOutput("invar_selh")),
              conditionalPanel(condition = 'input.gtype == "Boxplot"',
                               uiOutput("invar_selb"),
-                              uiOutput("outvar_selb"),
-                              selectInput('boxtype', "Chart Options",
-                                          c("Simple","Condition"))),
+                              uiOutput("outvar_selb")),
              conditionalPanel(condition = 'input.gtype == "Scatterplot"',
                               uiOutput("invar_sels"),
                               uiOutput("outvar_sels"),
@@ -63,9 +61,10 @@ ui <- fluidPage(
                 conditionalPanel(condition = 'input.stype == "Numeric Summary"',
                                            uiOutput("invar_sum"),
                                            uiOutput("outvar_sum")),
-                conditionalPanel(condition = 'input.stype == "Frequency Tables and Proportions"',
+                conditionalPanel(condition = 'input.stype == "Frequencies"',
                                  uiOutput("invar_sump"),
-                                 uiOutput("outvar_sump")),
+                                 uiOutput("outvar_sump"),
+                                 uiOutput("layervar_sump")),
                 conditionalPanel(condition = 'input.stype == "Correlation and Regression"',
                                  uiOutput("invar_sumc"),
                                  uiOutput("outvar_sumc"))
@@ -126,12 +125,14 @@ server <- function(input, output) {
   )
   
   output$invar_sump <- renderUI(
-    selectInput("invar_sump", "Row Variable", names(data()))
+    selectInput("invar_sump", "Variable 1", names(data()))
   )
   output$outvar_sump <- renderUI(
-    selectInput("outvar_sump", "Column Variable (if desired)", c("None",names(data())))
+    selectInput("outvar_sump", "Variable 2 (if desired)", c("None",names(data())))
   )
-  
+  output$layervar_sump <- renderUI(
+    selectInput("layervar_sump", "Layer Variable (if desired)", c("None",names(data())))
+  )
   output$invar_sumc <- renderUI(
     selectInput("invar_sumc", "X Variable", names(data())[sapply(data(), is.numeric)])
   )
@@ -177,11 +178,11 @@ output$graph <- renderPlotly({
         geom_histogram()  + theme_minimal() + labs(x = input$invarh)
       ggplotly(p = gp, tooltip = "y")
     } else if(input$gtype == "Boxplot"){
-      if(input$boxtype == "Simple"){
+      if(input$outvarb == "None"){
       gp <- ggplot(data = data(), aes(y = get(input$invarb))) + 
         geom_boxplot() + labs(y = input$invarb)  + theme_minimal()
       ggplotly(p = gp)
-      } else if (input$boxtype == "Condition"){
+      } else {
         gp <- ggplot(data = data(), aes(y = get(input$invarb), x = get(input$outvarb))) + 
           geom_boxplot() + labs(y = input$invarb, x = input$outvarb)   + theme_minimal()
         ggplotly(p = gp)
@@ -231,11 +232,13 @@ output$sumtab <- renderTable({
       names(df1)[1] <- input$outvar_sum
       df1
     }
-  } else if (input$stype == "Frequency Tables and Proportions"){
+  } else if (input$stype == "Frequencies"){
     if(input$outvar_sump == "None"){
       with(data(), table(get(input$invar_sump)))
-    } else {
+    } else if (input$layervar_sump == "None") {
      with(data(), table(get(input$invar_sump), get(input$outvar_sump)))
+    } else {
+      with(data(), table(get(input$invar_sump), get(input$outvar_sump),get(input$layervar_sump)))  
       }
       } else if(input$stype == "Correlation and Regression"){
         cr <- with(data(),cor(x = get(input$invar_sumc), y = get(input$outvar_sumc)))
