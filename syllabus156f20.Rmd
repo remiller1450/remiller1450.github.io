@@ -1,5 +1,5 @@
 ---
-title: "MATH 156-04: General Statistics"
+title: "MATH 156: General Statistics"
 output:
   html_document:
     toc: true
@@ -28,7 +28,7 @@ An introduction to the major concepts and tools used for collecting, analyzing, 
 
 ### Text
 
-This course will follow the textbook listed below.  Homework will be assigned from the text, but readings from the will be optional.
+This course will follow the textbook listed below.  Homework problems will be assigned from the text, but readings from the will be optional.
 
 - *Stats, data & models* 5th edition by DeVeaux, Vellemen, and Bock
 
