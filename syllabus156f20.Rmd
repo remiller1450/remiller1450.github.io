@@ -28,13 +28,13 @@ An introduction to the major concepts and tools used for collecting, analyzing, 
 
 ### Text
 
-This course will *loosely* follow the textbook below.  Readings from the text will be optional.
+This course will follow the textbook listed below.  Homework will be assigned from the text, but readings from the will be optional.
 
 - *Stats, data & models* 5th edition by DeVeaux, Vellemen, and Bock
 
 ### Website
 
-- Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/m156f20.html, where you will find everything needed for the course (other than grades and online quizes)
+- Materials can be found the course Canvas page, many of these may simply be links to: https://remiller1450.github.io/m156f20.html, where you will find everything needed for the course (other than grades and online quizzes)
 
 ### Course Aims:
 
@@ -61,7 +61,7 @@ Due to COVID-19 related safety concerns, students will attend *only one* of the 
 In a typical week you will be expected to do the following (in this order!):
 
 - Watch a series of short lecture videos on your own
-- Take an online comprehension quiz covering these videos (can be retaken up to three attempts)
+- Take an online comprehension quiz covering these videos (can retake twice)
 - Attend your in-person session
 - Complete and electronically submit that week's problem set
 
@@ -83,7 +83,7 @@ In general, collaborate work is highly encouraged in this course; however, your 
 
 ### Campus Resources
 
-MATH 256 is a major-level course, so drop-in tutoring at the Mathematics Lab and one-on-one tutoring through the Office of Academic Support are generally not available.  The first place you should go with questions related to course material is the course instructor.  Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
+The Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
 
 
 ## Grading
@@ -91,22 +91,22 @@ MATH 256 is a major-level course, so drop-in tutoring at the Mathematics Lab and
 **Weekly Assignments**
 
 - Problem Sets - 20%
-- In-class Activities - 15%
-- Comprehension Quizzes - 20%
+- In-class Activities - 10%
+- Comprehension Quizzes - 10%
 
 There will be 10 roughly problem sets, in-class activities (excluding exams), and comprehension quizzes throughout the semester.  
 
-Each problem set will consist of 3-5 multi-part exercises covering important concepts from that week.  Problem sets are to be completed individually and submitted via Canvas as a pdf.  You must acknowledge any sources of collaboration on your submission (ie: write "I worked with Jimmy" on your paper).
+Problem sets will be assigned from the textbook. They are to be completed individually and submitted via Canvas as a pdf (there are free apps available to help you do this with your cell phone).  Additionally, you *must acknowledge* any sources of collaboration on your submission (ie: write "I worked with Jimmy" on your paper).
 
-Most in-class activities will require you to submit short reflection or summary of the main points of the activity.  You will receive credit for the quality of your submissions
+Most in-class activities will require you to submit short reflection or summary of the main points of the activity.  This will be done via Canvas, and you will receive credit for the quality of your submissions
 
-Comprehension quizzes are to be completed on Canvas each week.  You may retake these quizzes multiple times to achieve your desired score.
+Comprehension quizzes are to be completed on Canvas each week.  You may retake these quizzes up to three times to improve your score.
 
 **Exams**
 
-- Exam 1 (in-class) - 15%
-- Exam 2 (in-class) - 15%
-- Final Exam (cumulative take-home) 15%
+- Exam 1 (in-class) - 20%
+- Exam 2 (in-class) - 20%
+- Final Exam (cumulative take-home) 20%
 
 All exams will be announced at least 14 calendar days ahead of time and will be expected to take an entire class session. Formulas and calculators will be provided as necessary. 
 
@@ -133,6 +133,4 @@ The following grade cutoffs will be used:
 
 The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  
 
-## Tentative Schedule
-
-- 
+    
