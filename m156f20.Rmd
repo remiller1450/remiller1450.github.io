@@ -31,6 +31,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Handouts and Activities
 
+- Pre-Week 1 (Before class on 8/18 or 8/20)
+    - [Setup data explorer app](m156f20/app_setup.html)
 - Week 1 (8/17)
     - Intro activity (coming soon)
 
