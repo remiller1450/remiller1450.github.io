@@ -53,23 +53,17 @@ form
 ### Software
 
 In the modern era, statisticians (along with most scientific professionals) rely upon software. In this course you will be required to use `R` (typically through the `R Studio` GUI).  `R` is an open-source software that is generally regarded as the industry standard amongst professional statisticians.  Throughout the course you will work through guided labs which will simultaneously promote proficiency in `R` programming and applied statistical analysis.
+
 You can install `R` and `R Studio` on your personal computer in two easy steps:
+
 1.	First, download and install `R` from http://www.r-project.org/
 2.	Second, download and install the `R Studio` user interface from http://www.rstudio.com/ 
-Additionally, `R Studio` is present on a number of campus computers.
 
 ### Course Structure
 
-Due to COVID-19 concerns, students will attend *every other* in-person class sessions.  Meaning if you sign-up for group A, you'll attend Monday and Friday of Week 1 and Wednesday of Week 2.  If you sign up for group B, you'll attend Wednesday of Week 1 and Monday and Friday of Week 2.  
+Due the COVID-19 pandemic our classroom capacity is limited to 10 students at a time. This will require the course to follow a hybrid format where half of the enrolled students attend class in-person and the remaining half attend virtually via Zoom on a typical day.
 
-Please note that adjacent sessions will mirror each other, so there is no practical difference between group A and group B.  In fact, if you have to miss your session you request permission to attend the other that week (noting that our classroom capacity is 10 students).
-
-Prior to each in-person session you are expected to do the following:
-
-- Watch a series of short lecture videos on your own
-- Take an online comprehension quiz covering the videos (can retake twice)
-
-To reiterate, each week you are expected to watch the lecture videos and take the comprehension quiz *before* attending class.  During in-person class sessions you will practice concepts from these lectures, often by analyzing real data as part of a small group.
+You will receive communication via email regarding which days you will be expected to attend in-person.  Please do not attend any class meetings that you are not assigned as there are limited available seats.
 
 ## Policies
 
