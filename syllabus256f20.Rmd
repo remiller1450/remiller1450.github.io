@@ -59,6 +59,8 @@ You can install `R` and `R Studio` on your personal computer in two easy steps:
 1.	First, download and install `R` from http://www.r-project.org/
 2.	Second, download and install the `R Studio` user interface from http://www.rstudio.com/ 
 
+Note that R Studio is also available on some campus computers.
+
 ### Course Structure
 
 Due the COVID-19 pandemic our classroom capacity is limited to 10 students at a time. This will require the course to follow a hybrid format where half of the enrolled students attend class in-person and the remaining half attend virtually via Zoom on a typical day.
