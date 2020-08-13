@@ -86,6 +86,7 @@ server <- function(input, output) {
     read.csv(file$datapath, header = input$header)
   })
   
+observeEvent(data(),{
   output$invar_sel <- renderUI(
     selectInput("invar", "Inner Variable", names(data()))
   )
@@ -139,6 +140,7 @@ server <- function(input, output) {
   output$outvar_sumc <- renderUI(
     selectInput("outvar_sumc", "Y Variable", names(data())[sapply(data(), is.numeric)])
   )
+})
   
   output$contents <- renderDT({
     if(is.null(data())){return ()}
