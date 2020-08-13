@@ -4,12 +4,29 @@ title: "Teaching"
 
 Throughout my career I've taught numerous courses in mathematics, statistics, and data science in a variety of settings.  Information on the courses I've taught can be found below.
 
+### MATH-156 - General Statistics - Xavier University
+
+MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
+
+Visit the links below to view materials and course content:
+
+- [MATH-156 website (Fall 2020)](m156f20.html)
+
+### MATH-256 - Intro to Probability and Statistics - Xavier University
+
+MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.
+
+Visit the links below to view materials and course content:
+
+- [MATH-256 website (Fall 2020)](m256f20.html)
+
 ### STA-209 - Applied Statistics - Grinnell College
 
 STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software. 
 
 Visit the webpages below to view materials and course content:
 
+- [Sta-209 website (Spring 2020)](sta209s20.html)
 - [Sta-209 website (Fall 2019)](sta209f19.html)
 - [Sta-209 website (Spring 2019)](sta209s19.html)
 - [Sta-209 website (Fall 2018)](sta209f18.html)
@@ -22,6 +39,14 @@ Visit the webpages below to view materials and course content:
 
 - [Sta-230 website (Fall 2019)](sta230f19.html)
 - [Sta-230 website (Spring 2019)](sta230s19.html)
+
+### STA-395/MAT-395 - Applied Data Science - Grinnell College
+
+STA-395/MAT-395 is a fully applied course where students work in small teams on a semester long, data-intensive project.  The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.
+
+Visit the webpages below to view materials and course content:
+
+- [Sta/Mat-395 website (Spring 2020)](sta395s20.html)
 
 ### BIOS-4120 - Introduction to Biostatistics - University of Iowa
 

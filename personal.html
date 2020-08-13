@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -22,9 +22,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -72,9 +71,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -98,6 +94,9 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
+}
+summary {
+  display: list-item;
 }
 </style>
 
@@ -113,7 +112,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -133,6 +131,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,19 +189,74 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -235,10 +325,10 @@ $(document).ready(function () {
 </div>
 
 
-<p><img style="float: right;" src="running.jpg"> This page contains some information on my background and hobbies. It might seem strange to share these details, but I believe that knowing just a little bit about a person goes a long way towards being comfortable enough to ask for help, attend office hours, or even just make small talk before/after class.</p>
-<p>Currently I live in Grinnell Iowa with my wife Alissa. I’m from the northwest suburbs of Chicago, and have lived in various locations in Illinois, Iowa, and Wisconsin. I enjoy living in a small town and I’m very appreciative of the lack of traffic, the peaceful atmosphere, and the views of the countryside.</p>
-<p>In my younger days I was competitive in many sports (football, basketball, track) and I currently spend much of my leisure time lifting weights and running. I follow a twice per week upper-lower split and run on the other days (or more if I feel like it and have the time). I was varisity cross country runner at Augustana College and, while I’m not nearly as fast as I used to be, I still enjoy running a race or two each year. The picture of me comes from the <a href="http://racinearearunningclub.org/s-no-w-fun-run/">2017 Sno-fun-run</a>, a race I’ve ran with old cross country teammates every January for the last 6 years.</p>
-<p>Some of my other hobbies include: listening to music, my favorite songs include: <a href="https://www.youtube.com/watch?v=X9fLbfzCqWw">“Ocean Avenue”</a>, <a href="https://www.youtube.com/watch?v=gGdGFtwCNBE">“Mr. Brightside”</a>, and <a href="https://www.youtube.com/watch?v=q1_WMPFaq-4">“I’m Ready”</a>, doing crossword puzzles, playing trivia, following the Green Bay Packers and Iowa Hawkeyes, and watching documentaries or true crime shows like Forensic Files.</p>
+<p><img style="float: right;" src="running.jpg"> This page contains some information on my background and hobbies. It might seem strange to share these details, but I believe that knowing just a little bit about a person goes a long way towards being comfortable enough to ask for help, attend office hours, or even just make small talk with them before/after class. In my own experiences as a student, I found it easy to view my professors almost as if they were aliens from another planet, but the reality is that they are human beings that I had a lot in common with.</p>
+<p>To begin, I currently live in the northern suburbs of Cincinnati with my wife Alissa and my 1-year old son Fulton. I grew up in the northwest suburbs of Chicago before spending a number of years in few different locations across Iowa.</p>
+<p>In my younger days I was competitive in many sports (football, basketball, track) and I currently spend the small amount of leisure time that I have lifting weights (more-so pre-COVID) and running. I follow a twice per week upper-lower split and run on the other days (or more if I feel like it and have the time). I was varsity cross country runner at Augustana College and, while I’m not nearly as fast as I used to be, I still enjoy running a race or two each year. The picture of me comes from the <a href="http://racinearearunningclub.org/s-no-w-fun-run/">2017 Sno-fun-run</a>, a race I’ve ran with old cross country teammates every January for several consecutive years.</p>
+<p>Some of my other hobbies include: listening to music, my two all-time favorites are <a href="https://www.youtube.com/watch?v=X9fLbfzCqWw">“Ocean Avenue”</a> and <a href="https://www.youtube.com/watch?v=gGdGFtwCNBE">“Mr. Brightside”</a>, but I’ve lately been on an <a href="https://www.youtube.com/watch?v=y_T2Z0Zcy_I">Alkaline Trio</a> kick. I also enjoy solving crossword puzzles, playing trivia, following the Green Bay Packers and Iowa Hawkeyes, and watching/listening to documentaries or true crime shows or Podcasts like FBI files, Forensic Files, Masterminds, etc.</p>
 
 
 
@@ -257,6 +347,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
