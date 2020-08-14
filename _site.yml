@@ -16,5 +16,5 @@ navbar:
       href: personal.html
     - text: "CV"
       icon: fa-file
-      href: CV_2018.pdf
+      href: CV_2020.pdf
 output_dir: "."
