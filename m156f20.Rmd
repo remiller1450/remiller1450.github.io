@@ -26,21 +26,36 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lectures (and videos)
 
-- Week 1 (8/17)
+Please watch the videos for a given week *before* you come to class that week.  Also, remember to take the corresponding comprehesion quiz on Canvas.
+
+- Week 1 (8/17- 8/23)
     - None, it's all in-person this week! 
+- Week 2 (8/24 - 8/30)
+    - Data Basics - [slides](m156f20/data_vars.pdf) - [video](https://youtu.be/m6uKl8XoYoQ)
+    - Quantitative Variables - [slides](m156f20/quant_vars.pdf) - [video](https://youtu.be/RcHOpl4ZDaI)
+    - Categorical Variables - [slides](m156f20/cat_vars.pdf) - [video](https://youtu.be/Nzqh1D3j7Xs)
+    - Contingency Tables - [slides](m156f20/cont_tabs.pdf) - [video](https://youtu.be/JTAF6C5B0VY)
+- Week 3 (8/31 - 9/4)
+    - Coming soon
+    
+### In-class Activities
 
-### Handouts and Activities
-
-- Pre-Week 1 (Before class on 8/18 or 8/20)
+- Pre-Week 1 (Before your class on 8/18 or 8/20)
     - [Setup data explorer app](m156f20/app_setup.html)
-- Week 1 (8/17)
-    - Intro activity (coming soon)
+- Week 1 (8/17- 8/23)
+    - [Introduction](m156f20/talking_data.html)
+- Week 2 (8/24 - 8/30)
+    - [Confounding Variables](m156f20/confounding.html)
+- Week 3 (8/31 - 9/4)
+    - Coming soon
 
 ### Recommended Readings
 
-The readings listed below are *recommended* prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
+The readings listed below are *recommended* prior to the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.  These might seem like a lot, but our textbook is structured such that each section in only a page or two.
 
-- TBD
+- Week 1: None
+- Week 2: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2
+- Week 3: Coming soon
     
 ### Problem Sets
 
@@ -48,9 +63,14 @@ Problem sets are generally due by 11:59pm every Friday (with a few exceptions du
 
 Due to COVID-19, all submissions will done electronically via Canvas.  Please submit a single pdf file following the guidelines described in the course syllabus.
 
-- HW #1: TBD
-    - Due date: TBD
+- HW #1: Coming Soon
+    - Due date: Friday 8/28 at 11:59pm
 
 ### Datasets
 
-- Coming Soon
+- [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
+    - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world. 
+- [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
+    - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
+- [Tips](https://remiller1450.github.io/data/Tips.csv) 
+    - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
