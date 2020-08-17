@@ -34,7 +34,7 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Data Basics - [slides](m156f20/data_vars.pdf) - [video](https://youtu.be/m6uKl8XoYoQ)
     - Quantitative Variables - [slides](m156f20/quant_vars.pdf) - [video](https://youtu.be/RcHOpl4ZDaI)
     - Categorical Variables - [slides](m156f20/cat_vars.pdf) - [video](https://youtu.be/Nzqh1D3j7Xs)
-    - Contingency Tables - [slides](m156f20/cont_tabs.pdf) - [video](https://youtu.be/JTAF6C5B0VY)
+    - Contingency Tables - [slides](m156f20/cont_tables.pdf) - [video](https://youtu.be/JTAF6C5B0VY)
 - Week 3 (8/31 - 9/4)
     - Coming soon
     
@@ -63,7 +63,7 @@ Problem sets are generally due by 11:59pm every Friday (with a few exceptions du
 
 Due to COVID-19, all submissions will done electronically via Canvas.  Please submit a single pdf file following the guidelines described in the course syllabus.
 
-- HW #1: Coming Soon
+- HW #1: Chapter 1: #9, #10, #14; Chapter 2: #12, #18, #59, #60, #61, #62; Chapter 3: #1, #2, #5, #6
     - Due date: Friday 8/28 at 11:59pm
 
 ### Datasets
