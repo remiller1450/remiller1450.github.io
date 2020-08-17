@@ -53,13 +53,14 @@ You can find course content by scrolling, or by using the navigation bar in the 
 ### Labs
 
 - Lab 1
-    - Due date: TBD
+    - Due date: Monday 8/24
 
 ### Recommended Readings
 
 The readings listed below are *recommended* prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
 
-- TBD
+- Week 1 (8/17-8/21)
+    - Ch 1.1, 1.2, 2.1, 2.2, 2.3
     
 ### Homeworks
 
