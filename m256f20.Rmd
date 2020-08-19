@@ -23,7 +23,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lecture Slides and Handouts
 
-- [Introduction](m256f20/intro.html)
+- [Introduction (8/17)](m256f20/intro.html) 
+- [Data Basics (8/19)](m256f20/data_basics.pdf)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
@@ -52,7 +53,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-- Lab 1
+- Lab 1 - Introduction to R
     - Due date: Monday 8/24
 
 ### Recommended Readings
@@ -70,6 +71,7 @@ In response to COVID-19, all submissions will done electronically via Canvas.
 
 - HW #1: 1.2, 1.9, 1.10, 1.25, 1.30, 1.40, 1.44, 2.10, 2.12, 2.13, 2.22
     - Due date: Friday 8/28
+    - Please submit electronically through Canvas
 
 ### Announcements and Other Materials 
 
