@@ -36,10 +36,11 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Categorical Variables - [slides](m156f20/cat_vars.pdf) - [video](https://youtu.be/Nzqh1D3j7Xs)
     - Contingency Tables - [slides](m156f20/cont_tables.pdf) - [video](https://youtu.be/JTAF6C5B0VY)
 - Week 3 (8/31 - 9/4)
-    - Comparing Groups
-    - Correlation (part 1)
-    - Correlation (part 2)
-    - Regression
+    - Comparing Groups - [slides](m156f20/comparing_groups.pdf) - [video](https://youtu.be/FoKN7VHfeHo)
+    - Correlation (part 1) - [slides](m156f20/cor1.pdf) - [video](https://youtu.be/f1d0kYytx6U)
+    - Correlation (part 2) - [slides](m156f20/cor2.pdf) - [video](https://youtu.be/m4abjlRsMPw)
+    - Regression (part 1) - [slides](m156f20/reg1.pdf) - [video](https://youtu.be/FoKN7VHfeHo)
+    - Regression (part 2)
     
 ### In-class Activities
 
