@@ -39,8 +39,9 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Comparing Groups - [slides](m156f20/comparing_groups.pdf) - [video](https://youtu.be/FoKN7VHfeHo)
     - Correlation (part 1) - [slides](m156f20/cor1.pdf) - [video](https://youtu.be/f1d0kYytx6U)
     - Correlation (part 2) - [slides](m156f20/cor2.pdf) - [video](https://youtu.be/m4abjlRsMPw)
-    - Regression (part 1) - [slides](m156f20/reg1.pdf) - [video](https://youtu.be/FoKN7VHfeHo)
-    - Regression (part 2)
+    - Regression (part 1) - [slides](m156f20/reg1.pdf) - [video](https://youtu.be/vKmD-x-tOKI)
+    - Regression (part 2) - [slides](m156f20/reg2.pdf) - [video]()
+   
     
 ### In-class Activities
 
