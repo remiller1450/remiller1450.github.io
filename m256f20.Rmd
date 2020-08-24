@@ -83,9 +83,9 @@ The readings listed below are *recommended* prior to the date indicated. It has 
     
 ### Homeworks
 
-Homework is generally due *at the start of class* every Friday (with a few exceptions during weeks with exams). 
+Homework is generally due every Friday (with a few exceptions during weeks with exams). 
 
-In response to COVID-19, all submissions will done electronically via Canvas.
+In response to COVID-19, all submissions will done electronically via Canvas and are due at 11:59pm Eastern.
 
 - HW #1: 1.2, 1.9, 1.10, 1.25, 1.30, 1.40, 1.44, 2.10, 2.12, 2.13, 2.22
     - Due date: Friday 8/28
@@ -105,3 +105,5 @@ In response to COVID-19, all submissions will done electronically via Canvas.
     - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
 - [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
     - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each instiution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, and student outcomes like debt upon graduation and 10-year salary.
