@@ -25,7 +25,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 - [Introduction (8/17)](m256f20/intro.html) 
 - [Data Basics (8/19)](m256f20/data_basics.pdf)
-- Sampling Principles (8/24)
+- [Sampling Principles (8/24)](m256f20/sampling.pdf)
 - Study Design (8/26)
 - Probability (8/31)
 - Conditional Probability (9/2)
