@@ -26,7 +26,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Introduction (8/17)](m256f20/intro.html) 
 - [Data Basics (8/19)](m256f20/data_basics.pdf)
 - [Sampling Principles (8/24)](m256f20/sampling.pdf)
-- Study Design (8/26)
+- [Study Design (8/26)](m256f20/design.pdf)
 - Probability (8/31)
 - Conditional Probability (9/2)
 - Random Variables (9/7)
@@ -59,10 +59,11 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Labs
 
-- [Lab 1 - Introduction to R](m256f20/intro_R.html) (8/21)
+- [Lab 1 - Introduction to R (8/21)](m256f20/intro_R.html)
     - Due date: Monday 8/24
-- Lab 2 - Data Exploration (8/28)
+- [Lab 2 - Data Exploration (8/28)](m256f20/lab_2.html)
     - Due date: Monday 8/31
+    - Please document your responses using [this R Markdown template](m256f20/Lab_2_answer_template.Rmd)
 - Lab 3 - Applications of Probability (9/4)
     - Due date: Monday 9/7
 - Lab 4 - Distributions in R (9/11)

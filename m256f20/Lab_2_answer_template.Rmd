@@ -1,0 +1,71 @@
+---
+title: "Lab 2 Repsonses"
+author: "YOUR NAME HERE"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, fig.height = 5)
+```
+
+## Setup
+
+```{r}
+#install.packages("ggplot2")
+library(ggplot2)
+```
+
+## Question 1
+
+```{r}
+## Put your code in this space
+
+```
+
+Add written responses in this space
+
+## Question 2
+
+```{r}
+## Put your code in this space
+
+```
+
+Add written responses in this space
+
+## Question 3
+
+```{r}
+## Put your code in this space
+
+```
+
+Add written responses in this space
+
+## Question 4
+
+```{r}
+## Put your code in this space
+
+```
+
+Add written responses in this space
+
+## Question 5
+
+```{r}
+## Put your code in this space
+
+```
+
+Add written responses in this space
+
+## Question 6
+
+```{r}
+## Put your code in this space
+
+```
+
+Add written responses in this space
+
