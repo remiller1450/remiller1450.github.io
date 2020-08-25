@@ -50,7 +50,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 1 (8/17- 8/23)
     - [Introduction](m156f20/talking_data.html)
 - Week 2 (8/24 - 8/30)
-    - [Confounding Variables](m156f20/confounding.html)
+    - [Confounding Variables](m156f20/week2_case_studies.html)
 - Week 3 (8/31 - 9/4)
     - Coming soon
 
