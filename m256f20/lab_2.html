@@ -1524,10 +1524,10 @@ library(rmarkdown)</code></pre>
 <p><span class="math inline">\(~\)</span></p>
 <div id="college-scorecard-data" class="section level1">
 <h1>College Scorecard Data</h1>
-<p>The College Scorecard is a government run database that stores institutional level data on all accredited colleges and universities in the United States. This lab will use data from the 2019-2020 academic year.</p>
+<p>The College Scorecard is a government run database that stores institutional level data on all accredited colleges and universities in the United States. A new version of the data is published yearly, and contains over 400 variables. This lab will use a simplified dataset from the 2019-2020 academic year.</p>
 <div id="data-dictionary" class="section level2">
 <h2>Data Dictionary</h2>
-<p>The <a href="https://remiller1450.github.io/data/College19.csv">College19 Dataset</a> is a reduced version of the 2019-2020 College Scorecard data that is filtered to include only primarily undergraduate institutions with at least 400 enrolled students. It contains the following variables:</p>
+<p>The <a href="https://remiller1450.github.io/data/Colleges19.csv">College19 Dataset</a> is a reduced version of the 2019-2020 College Scorecard data that includes fewer variables and is filtered to include only primarily undergraduate institutions with at least 400 enrolled students. It contains the following variables:</p>
 <ul>
 <li><strong>Name</strong> - Name of the institution</li>
 <li><strong>City</strong> - City where the institution is located</li>
@@ -1556,7 +1556,7 @@ library(rmarkdown)</code></pre>
 </div>
 <div id="first-steps" class="section level2">
 <h2>First Steps</h2>
-<p>The first step in any data analysis is getting a high-level understanding of the data. This means figuring out the cases, including how many there are, and looking over the variables and how they’re measured.</p>
+<p>The first step in any data analysis is getting a high-level understanding of the data. This means describing the cases and how many there are, as well as looking over the variables and being aware of how they’re recorded.</p>
 <p>Some helpful commands are shown below:</p>
 <pre class="r"><code>## Begin by reading in the data
 colleges19 &lt;- read.csv(&quot;https://remiller1450.github.io/data/Colleges2019.csv&quot;)
@@ -1606,7 +1606,7 @@ str(colleges19)</code></pre>
 <li>When comparing <em>one numeric</em> and <em>one categorical</em> variable, report an appropriate set of means/medians/standard deviations</li>
 <li><strong>Note</strong>: If a confounding variable exists, you should stratify by it and report your summary measures separately for each stratum</li>
 </ul>
-<p><strong>Question #6</strong>: Using the original variables you chose in Question #4, provide an appropriate numeric summary of their relationship. Put the code you used to find your summary measures into the proper block.</p>
+<p><strong>Question #6</strong>: Using the original variables you chose back in Question #4, provide an appropriate numeric summary of their relationship. Put the code you used to find your summary measures into the proper block. If you’re using a categorical variable with many categories, you are welcome to restrict your comparison to small number of them (ie: Report on OH vs KY rather than trying to report differences across all of different US states)</p>
 <p><span class="math inline">\(~\)</span></p>
 </div>
 </div>
@@ -1789,6 +1789,23 @@ prop.table(my_table, margin = 2)</code></pre>
 ##     Fri Sat Sun Thu
 ##   F   5  28  18   1
 ##   M   7  59  58   0</code></pre>
+</div>
+<div id="correlation" class="section level3">
+<h3>Correlation</h3>
+<pre class="r"><code>cor(example_data$TotBill, example_data$Tip)</code></pre>
+<pre><code>## [1] 0.6757341</code></pre>
+</div>
+<div id="correlation-stratified" class="section level3">
+<h3>Correlation (stratified)</h3>
+<pre class="r"><code>## First do the stratification
+smokers &lt;- example_data[example_data$Smoker == &quot;Yes&quot;,]
+non_smokers &lt;- example_data[example_data$Smoker == &quot;No&quot;,]
+
+## Then calculate the correlations
+cor(smokers$TotBill, smokers$Tip)</code></pre>
+<pre><code>## [1] 0.4882179</code></pre>
+<pre class="r"><code>cor(non_smokers$TotBill, non_smokers$Tip)</code></pre>
+<pre><code>## [1] 0.8221826</code></pre>
 </div>
 </div>
 </div>
