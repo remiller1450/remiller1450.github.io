@@ -41,7 +41,11 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Correlation (part 2) - [slides](m156f20/cor2.pdf) - [video](https://youtu.be/m4abjlRsMPw)
     - Regression (part 1) - [slides](m156f20/reg1.pdf) - [video](https://youtu.be/vKmD-x-tOKI)
     - Regression (part 2) - [slides](m156f20/reg2.pdf) - [video](https://youtu.be/tmkEw2uCPuk)
-   
+- Week 4 (9/7 - 9/11)
+    - Sampling from a Population (part 1) - [slides](m156f20/sampling1.pdf) - [video](A)
+    - Sampling from a Population (part 2) - [slides](m156f20/sampling2.pdf) - [video](A)
+    - Study Design (part 1) - [slides](m156f20/design1.pdf) - [video](A)
+    - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](A)
     
 ### In-class Activities
 
@@ -52,7 +56,10 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 2 (8/24 - 8/30)
     - [Confounding Variables](m156f20/week2_case_studies.html)
 - Week 3 (8/31 - 9/4)
-    - Coming soon
+    - [Finding Associations](m156f20/week3_case_studies.html)
+- Week 4 (9/7 - 9/11)
+    - [Identifying and Describing Study Designs](m156f20/week4_case_studies.html)
+
 
 ### Recommended Readings
 
@@ -61,6 +68,7 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 1: None
 - Week 2: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2
 - Week 3: 4.1, 4.2, 6.1, 6.2, 6.3, 7.1, 7.2
+- Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6    
     
 ### Problem Sets
 
@@ -72,6 +80,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 8/28 at 11:59pm
 - HW #2: Chapter 3: #9, #10, 26, 27; Chapter 4: #16, #19; Chapter 6: #13, #14, #20, #40; Chapter 7: #2, #3
     - Due date: Friday 9/4 at 11:59pm
+- HW #3: Chapter 10: #3, #5, #6, #13, #28; Chapter 11: #1, #2, #4, #8, #10, #47, #58
+    - Due date: Friday 9/11 at 11:59pm
 
 ### Datasets
 

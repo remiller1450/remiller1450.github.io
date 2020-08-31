@@ -27,8 +27,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Data Basics (8/19)](m256f20/data_basics.pdf)
 - [Sampling Principles (8/24)](m256f20/sampling.pdf)
 - [Study Design (8/26)](m256f20/design.pdf)
-- Probability (8/31)
-- Random Variables and their Distributions (9/2)
+- [Probability - part 1 (8/31)](m256f20/prob1.pdf)
+- [Probability - part 2 (9/2)](m256f20/prob2.pdf)
 - The Normal Distribution (9/7)
 - Other Common Distributions (9/9)
 
@@ -71,7 +71,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Recommended Readings
 
-The readings listed below are *recommended* prior to the date indicated. It has been my observation that students who complete these readings have been the most successful.
+The readings listed below are *recommended* prior to the corresponding class meetings that week. It has been my observation that students who complete these readings have been the most successful.
 
 - Week 1 (8/17-8/21)
     - Ch 1.1, 1.2, 2.1, 2.2, 2.3
@@ -84,7 +84,7 @@ The readings listed below are *recommended* prior to the date indicated. It has 
     
 ### Homeworks
 
-Homework is generally due every Friday (with a few exceptions during weeks with exams). 
+Homework is generally due every other Friday (with a few exceptions during weeks with exams). 
 
 In response to COVID-19, all submissions will done electronically via Canvas and are due at 11:59pm Eastern.
 
@@ -108,4 +108,4 @@ In response to COVID-19, all submissions will done electronically via Canvas and
 - [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
     - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
 - [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
-    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each instiution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, and student outcomes like debt upon graduation and 10-year salary.
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
