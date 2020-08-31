@@ -42,10 +42,10 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Regression (part 1) - [slides](m156f20/reg1.pdf) - [video](https://youtu.be/vKmD-x-tOKI)
     - Regression (part 2) - [slides](m156f20/reg2.pdf) - [video](https://youtu.be/tmkEw2uCPuk)
 - Week 4 (9/7 - 9/11)
-    - Sampling from a Population (part 1) - [slides](m156f20/sampling1.pdf) - [video](A)
-    - Sampling from a Population (part 2) - [slides](m156f20/sampling2.pdf) - [video](A)
-    - Study Design (part 1) - [slides](m156f20/design1.pdf) - [video](A)
-    - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](A)
+    - Sampling from a Population (part 1) - [slides](m156f20/sampling1.pdf) - [video](https://youtu.be/q41n8FqR3Ts)
+    - Sampling from a Population (part 2) - [slides](m156f20/sampling2.pdf) - [video](https://youtu.be/KdNDzwjs2g0)
+    - Study Design (part 1) - [slides](m156f20/design1.pdf) - [video](https://youtu.be/zlJZe39yPyc)
+    - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](https://youtu.be/Kx1PPRXHGBU)
     
 ### In-class Activities
 
