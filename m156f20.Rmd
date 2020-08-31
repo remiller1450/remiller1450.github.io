@@ -46,6 +46,8 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Sampling from a Population (part 2) - [slides](m156f20/sampling2.pdf) - [video](https://youtu.be/KdNDzwjs2g0)
     - Study Design (part 1) - [slides](m156f20/design1.pdf) - [video](https://youtu.be/zlJZe39yPyc)
     - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](https://youtu.be/Kx1PPRXHGBU)
+- Week 5 (9/14 - 9/18)
+    - Connecting Weeks 1-4 - [slides](A) - [video](A)
     
 ### In-class Activities
 
@@ -59,7 +61,8 @@ Please watch the videos for a given week *before* you come to class that week.  
     - [Finding Associations](m156f20/week3_case_studies.html)
 - Week 4 (9/7 - 9/11)
     - [Identifying and Describing Study Designs](m156f20/week4_case_studies.html)
-
+- Week 5 (9/14 - 9/18)
+    - Exam #1 Review
 
 ### Recommended Readings
 
@@ -93,3 +96,5 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
 - [Police Killings 2019](https://remiller1450.github.io/data/Police2019.csv) 
     - These data were compiled by the Washington Post to document all fatal shootings by a US police officer in the line of duty during the year 2019.  Please visit the Washington Post's github repository to read more about the variables that these data contain and the methodology that was used: https://github.com/washingtonpost/data-police-shootings 
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
