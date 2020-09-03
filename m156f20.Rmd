@@ -47,7 +47,8 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Study Design (part 1) - [slides](m156f20/design1.pdf) - [video](https://youtu.be/zlJZe39yPyc)
     - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](https://youtu.be/Kx1PPRXHGBU)
 - Week 5 (9/14 - 9/18)
-    - Connecting Weeks 1-4 - [slides](A) - [video](A)
+    - Review (part 1) - [slides](A) - [video](A)
+    - Review (part 2) - [slides](A) - [video](A)
     
 ### In-class Activities
 
@@ -71,7 +72,8 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 1: None
 - Week 2: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2
 - Week 3: 4.1, 4.2, 6.1, 6.2, 6.3, 7.1, 7.2
-- Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6    
+- Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6
+- Week 5: None (but you can review for exam 1 by re-reading the reading from Weeks 2-4)
     
 ### Problem Sets
 
@@ -85,6 +87,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 9/4 at 11:59pm
 - HW #3: Chapter 10: #3, #5, #6, #13, #28; Chapter 11: #1, #2, #4, #8, #10, #47, #58
     - Due date: Friday 9/11 at 11:59pm
+- HW #4: TBD
+    - Due date: Friday 9/25 at 11:pm
 
 ### Datasets
 

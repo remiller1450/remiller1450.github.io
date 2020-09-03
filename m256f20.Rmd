@@ -64,7 +64,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab 2 - Data Exploration (8/28)](m256f20/lab_2.html)
     - Due date: Monday 8/31
     - Please document your responses using [this R Markdown template](m256f20/Lab_2_answer_template.Rmd)
-- Lab 3 - Applications of Probability (9/4)
+- [Lab 3 - Applications of Probability (9/4)](m256f20/lab_3.html)
     - Due date: Monday 9/7
 - Lab 4 - Distributions in R (9/11)
     - Due date: Monday 9/14
@@ -109,3 +109,5 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
 - [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
     - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+- [Kobe 2009 Finals](https://remiller1450.github.io/data/kobe.csv)
+    - This dataset documents every attempted shot from Kobe Byrant's 2009 finals series against the Orlando Magic.  The Lakers won the series in 5 games, and Kobe was named the finals MVP for his performance.
