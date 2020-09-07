@@ -26,7 +26,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lectures (and videos)
 
-Please watch the videos for a given week *before* you come to class that week.  Also, remember to take the corresponding comprehesion quiz on Canvas.
+Please watch the videos for a given week *before* you come to class that week.  Also, remember to take the corresponding comprehension quiz on Canvas.
 
 - Week 1 (8/17- 8/23)
     - None, it's all in-person this week! 
@@ -47,8 +47,8 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Study Design (part 1) - [slides](m156f20/design1.pdf) - [video](https://youtu.be/zlJZe39yPyc)
     - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](https://youtu.be/Kx1PPRXHGBU)
 - Week 5 (9/14 - 9/18)
-    - Review (part 1) - [slides](A) - [video](A)
-    - Review (part 2) - [slides](A) - [video](A)
+    - An Overview of Topics - [slides](m156f20/part1_overview.pdf) - [video](https://youtu.be/59HIPDQ1lkk)
+    - Practice Exam - [pdf](m156f20/practice_exam1.pdf) - [video solution](https://youtu.be/hMHvfcSWHPM)
     
 ### In-class Activities
 
@@ -61,9 +61,9 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 3 (8/31 - 9/4)
     - [Finding Associations](m156f20/week3_case_studies.html)
 - Week 4 (9/7 - 9/11)
-    - [Identifying and Describing Study Designs](m156f20/week4_case_studies.html)
+    - [Study Design](m156f20/week4_case_studies.html)
 - Week 5 (9/14 - 9/18)
-    - Exam #1 Review
+    - Exam #1 - A practice exam is [available here](m156f20/practice_exam1.pdf)
 
 ### Recommended Readings
 
@@ -102,3 +102,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - These data were compiled by the Washington Post to document all fatal shootings by a US police officer in the line of duty during the year 2019.  Please visit the Washington Post's github repository to read more about the variables that these data contain and the methodology that was used: https://github.com/washingtonpost/data-police-shootings 
 - [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
     - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+- [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)    
+    - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  These data were obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
+- [Infant Heart Surgery](https://remiller1450.github.io/data/InfantHeart.csv)
+    - This dataset contains the results of an experiment conducted by surgeons at Harvard Medical School to compare a "low-flow bypass" and "circulatory arrest" surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development. The original dataset has been modified to include covariates to illustrate the concept of balance following random assignment.
+
