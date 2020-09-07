@@ -29,7 +29,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Study Design (8/26)](m256f20/design.pdf)
 - [Probability - part 1 (8/31)](m256f20/prob1.pdf)
 - [Probability - part 2 (9/2)](m256f20/prob2.pdf)
-- The Normal Distribution (9/7)
+- [The Normal Distribution (9/7)](m256f20/normal.pdf)
 - Central Limit Theorem (9/9)
 - Practice Exam #1 (9/14)
 
@@ -98,7 +98,8 @@ In response to COVID-19, all submissions will done electronically via Canvas and
 
 ### Announcements and Other Materials 
 
-- Exam #1 is tentatively planned for the Week of 9/14 - 9/18, I will try to reserve space for everyone to take the exam in-person at the same time (which may be outside of normal class hours).
+- Exam #1 is planned for Friday 9/18 at 9:00am
+    - *Everyone* (ie: both groups) are expected to attend in-person, with half the class taking the exam in Alter 103 and the other half taking the exam in Alter 003
 
 ### Datasets
 
