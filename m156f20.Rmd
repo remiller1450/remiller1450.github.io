@@ -49,6 +49,24 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 5 (9/14 - 9/18)
     - An Overview of Topics - [slides](m156f20/part1_overview.pdf) - [video](https://youtu.be/59HIPDQ1lkk)
     - Practice Exam - [pdf](m156f20/practice_exam1.pdf) - [video solution](https://youtu.be/hMHvfcSWHPM)
+- Week 6 (9/21 - 9/25)
+    - Sources of Uncertainty
+    - Probability (part 1)
+    - Probability (part 2)
+    - Probability (part 3)
+- Week 7 (9/28 - 10/2)
+    - Random Variables
+    - Central Limit Theorem
+    - Distributions of the Sample Average
+    - Confidence Intervals
+    - Hypothesis Testing
+- Week 8 (10/5 - 10/9)
+    - Inference for 1 proportion via Simulation (part 1)
+    - Inference for 1 proportion via Simulation (part 2)
+    - Inference for 1 proportion via Theory (part 1)
+    - Inference for 1 proportion via Theory (part 2)
+
+    
     
 ### In-class Activities
 

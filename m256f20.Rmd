@@ -30,8 +30,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Probability - part 1 (8/31)](m256f20/prob1.pdf)
 - [Probability - part 2 (9/2)](m256f20/prob2.pdf)
 - [The Normal Distribution (9/7)](m256f20/normal.pdf)
-- Central Limit Theorem (9/9)
-- Practice Exam #1 (9/14)
+- [Central Limit Theorem (9/9)](m256f20/clt.pdf)
+- [Practice Exam #1 (9/14)](m256f20/Exam_1_practice.pdf)
+- Confidence Intervals (9/16)
+- Confidence Intervals for a proportion (9/21)
 
 ```{r, include = FALSE, eval = FALSE}
 #-	Intro
