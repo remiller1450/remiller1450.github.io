@@ -49,7 +49,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Please document your responses using [this R Markdown template](m256f20/Lab_2_answer_template.Rmd)
 - [Lab 3 - Applications of Probability (9/4)](m256f20/lab_3.html)
     - Due date: Monday 9/7
-- [Lab 4 - Central Limit Theorem and Sampling Variability (9/11)](m256f20/lab_3.html)
+- [Lab 4 - Central Limit Theorem and Sampling Variability (9/11)](m256f20/lab_4.html)
     - Due date: Monday 9/14
 
 ### Recommended Readings
