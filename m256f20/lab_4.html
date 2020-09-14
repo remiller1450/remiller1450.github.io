@@ -1584,7 +1584,7 @@ my_sample &lt;- tsa[sample_IDs, ]</code></pre>
 ## [1] 9
 ## [1] 10</code></pre>
 <p>The code above provides a simple example of a <code>for</code> loop. The general idea is to repeat (iterate) a certain block of code, incrementing an index variable (in this case <span class="math inline">\(i\)</span>) after each run. Once the index variable has reached the pre-specified maximum the loop repetitions will end. In this example, the code block simply prints the value of <span class="math inline">\(i\)</span> at each of the 10 iterations of the loop.</p>
-<p>A more useful <code>for</code> loop will store a result from each iteration. The example below stores the correlations of 500 different random samples of size <span class="math inline">\(n = 10\)</span>:</p>
+<p>A more useful <code>for</code> loop will store a result from each iteration. The example below stores the correlations of 500 different random samples of size <span class="math inline">\(n = 20\)</span>:</p>
 <pre class="r"><code>## Set a random-number generation seed
 set.seed(123)
 
@@ -1621,7 +1621,7 @@ for(i in 1:500){
   sample_IDs &lt;- sample(1:nrow(tsa), size = n, replace = FALSE)
   my_sample &lt;- tsa[sample_IDs, ]
   
-  ## Store the correlation
+  ## Store the proportion
   prop_results[i] &lt;- sum(my_sample$Status == &quot;Denied&quot;)/n
 }
 hist(prop_results, xlim = c(0,1), main = &quot;Distribution of Sample Proportions (n = 10)&quot;)</code></pre>
@@ -1630,7 +1630,7 @@ hist(prop_results, xlim = c(0,1), main = &quot;Distribution of Sample Proportion
 <p><span class="math inline">\(~\)</span></p>
 <p>Recall that Central Limit Theorem states that if <span class="math inline">\(X_1, X_2, \ldots, X_n\)</span> are independent random variables with expected value <span class="math inline">\(E(X) = \mu\)</span> and variance <span class="math inline">\(Var(X) = \sigma^2\)</span>, and <span class="math inline">\(\bar{X}\)</span> is the sample average, then <span class="math inline">\(\bar{X} \sim N(\mu, \sigma/\sqrt{n})\)</span>.</p>
 <p>The beauty of CLT is that it allows us to anticipate what the histograms of sample averages will look like <em>without actually needing to repeatedly take random samples</em>. This has incredible real-world utility, since it’s impractical to sample a population hundreds of times.</p>
-<p><strong>Question #5</strong>: Using the entire dataset (the population), <code>tsa</code>, find the true proportion of “Property Damage” claims, <span class="math inline">\(p\)</span>. Then use central limit theorem to find a normal approximation of the distribution of sample proportions, <span class="math inline">\(\hat{p}\)</span>. Store <span class="math inline">\(p\)</span> as an <code>R</code> object <code>p</code>, and save the standard deviation of your normal curve as an <code>R</code> object <code>se</code>.</p>
+<p><strong>Question #5</strong>: Using the entire dataset (the population), <code>tsa</code>, find the true proportion of “Denied” claims, <span class="math inline">\(p\)</span>. Then use central limit theorem to find a normal approximation of the distribution of sample proportions, <span class="math inline">\(\hat{p}\)</span>. Store <span class="math inline">\(p\)</span> as an <code>R</code> object <code>p</code>, and save the standard deviation of your normal curve as an <code>R</code> object <code>se</code>.</p>
 <p><span class="math inline">\(~\)</span></p>
 <p><strong>Question #6</strong>: Copy the <code>for</code> loop you used to generate random samples of size <span class="math inline">\(n = 100\)</span>, then add the three lines of code shown below to draw a histogram with the CLT normal approximation overlaid. It should produce a graph that matches the one shown below (assuming you used <code>set.seed(123)</code>).</p>
 <p><span class="math inline">\(~\)</span></p>
