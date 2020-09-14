@@ -32,8 +32,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [The Normal Distribution (9/7)](m256f20/normal.pdf)
 - [Central Limit Theorem (9/9)](m256f20/clt.pdf)
 - [Practice Exam #1](m256f20/Exam_1_practice.pdf) and [Sample Solution - (9/14)](m256f20/Exam_1_practice_soln.pdf)
-- Confidence Intervals (9/16)
-- Confidence Intervals for a proportion (9/21)
+- [Confidence Intervals (9/16)](m256f20/conf.pdf)
+- Confidence Intervals for Proportions (9/21)
+- Hypothesis Testing (9/25 and 9/28)
 
 ```{r, include = FALSE, eval = FALSE}
 #
@@ -51,6 +52,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Due date: Monday 9/7
 - [Lab 4 - Central Limit Theorem and Sampling Variability (9/11)](m256f20/lab_4.html)
     - Due date: Monday 9/14
+- Lab 5 - Confidence Intervals (9/23)
+    - Due date: Monday 9/28
 
 ### Recommended Readings
 
