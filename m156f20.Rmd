@@ -50,10 +50,11 @@ Please watch the videos for a given week *before* you come to class that week.  
     - An Overview of Topics - [slides](m156f20/part1_overview.pdf) - [video](https://youtu.be/59HIPDQ1lkk)
     - Practice Exam - [pdf](m156f20/practice_exam1.pdf) - [video solution](https://youtu.be/hMHvfcSWHPM)
 - Week 6 (9/21 - 9/25)
-    - Sources of Uncertainty
-    - Probability (part 1)
-    - Probability (part 2)
-    - Probability (part 3)
+    - Probability (basic definitions) - [slides](m156f20/probability1.pdf) - [video](https://youtu.be/pY9inZ_RXXE)
+    - Probability (complement rule) - [slides](m156f20/probability2.pdf) - [video](https://youtu.be/lSaK7-XWfa8)
+    - Probability (addition rule) - [slides](m156f20/probability3.pdf) - [video](https://youtu.be/AidhBgcg3n8)
+    - Probability (multiplication rule) - [slides](m156f20/probability4.pdf) - [video](https://youtu.be/bdK3vp4ZNMA)
+    - Probability (examples) - [slides](m156f20/probability5.pdf) - [video](https://youtu.be/JgLIhGKfj3M)
 - Week 7 (9/28 - 10/2)
     - Random Variables
     - Central Limit Theorem
@@ -71,7 +72,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 ### In-class Activities
 
 - Pre-Week 1 (Before your class on 8/18 or 8/20)
-    - [Setup data explorer app](m156f20/app_setup.html)
+    - [Setup the data explorer app](m156f20/app_setup.html)
 - Week 1 (8/17- 8/23)
     - [Introduction](m156f20/talking_data.html)
 - Week 2 (8/24 - 8/30)
@@ -82,6 +83,10 @@ Please watch the videos for a given week *before* you come to class that week.  
     - [Study Design](m156f20/week4_case_studies.html)
 - Week 5 (9/14 - 9/18)
     - Exam #1 - A practice exam is [available here](m156f20/practice_exam1.pdf)
+- Week 6 (9/21 - 9/25)
+    - [Probability](m156f20/week5_case_studies.html)
+- Week 7 (9/28 - 10/2)
+    - Central Limit Theorem
 
 ### Recommended Readings
 
@@ -92,6 +97,7 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 3: 4.1, 4.2, 6.1, 6.2, 6.3, 7.1, 7.2
 - Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6
 - Week 5: None (but you can review for exam 1 by re-reading the reading from Weeks 2-4)
+- Week 6: 12.1, 12.2, 13.1, 13.2, 13.3, 13.4
     
 ### Problem Sets
 
@@ -105,8 +111,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 9/4 at 11:59pm
 - HW #3: Chapter 10: #3, #5, #6, #13, #28; Chapter 11: #1, #2, #4, #8, #10, #47, #58
     - Due date: Friday 9/11 at 11:59pm
-- HW #4: TBD
-    - Due date: Friday 9/25 at 11:pm
+- HW #4: Chapter 13: #2, #3, #4, #6, #15, #16, #19, #20, #26
+    - Due date: Friday 9/25 at 11:59pm
 
 ### Datasets
 
