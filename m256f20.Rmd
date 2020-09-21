@@ -33,7 +33,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Central Limit Theorem (9/9)](m256f20/clt.pdf)
 - [Practice Exam #1](m256f20/Exam_1_practice.pdf) and [Sample Solution - (9/14)](m256f20/Exam_1_practice_soln.pdf)
 - [Confidence Intervals (9/16)](m256f20/conf.pdf)
-- Confidence Intervals for Proportions (9/21)
+- [Confidence Intervals for Proportions (9/21)](m256f20/conf_props.pdf)
 - Hypothesis Testing (9/25 and 9/28)
 
 ```{r, include = FALSE, eval = FALSE}
