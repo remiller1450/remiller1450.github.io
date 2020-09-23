@@ -52,7 +52,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Due date: Monday 9/7
 - [Lab 4 - Central Limit Theorem and Sampling Variability (9/11)](m256f20/lab_4.html)
     - Due date: Monday 9/14
-- Lab 5 - Confidence Intervals (9/23)
+- [Lab 5 - Confidence Intervals (9/23)](m256f20/lab_5.html)
     - Due date: Monday 9/28
 
 ### Recommended Readings
