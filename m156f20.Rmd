@@ -56,11 +56,9 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Probability (multiplication rule) - [slides](m156f20/probability4.pdf) - [video](https://youtu.be/bdK3vp4ZNMA)
     - Probability (examples) - [slides](m156f20/probability5.pdf) - [video](https://youtu.be/JgLIhGKfj3M)
 - Week 7 (9/28 - 10/2)
-    - Random Variables
-    - Central Limit Theorem
-    - Distributions of the Sample Average
-    - Confidence Intervals
-    - Hypothesis Testing
+    - Discrete Random Variables - [slides](m156f20/random_vars.pdf) - [video](https://youtu.be/1uJrIPbsLEk)
+    - Continuous Random Variables - [slides](m156f20/random_vars2.pdf) - [video](https://youtu.be/FGEYaC2uVs8)
+    - Applying the Normal Model - [slides](m156f20/random_vars3.pdf) - [video](https://youtu.be/iy9ow9D9DQA)
 - Week 8 (10/5 - 10/9)
     - Inference for 1 proportion via Simulation (part 1)
     - Inference for 1 proportion via Simulation (part 2)
