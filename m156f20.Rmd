@@ -84,8 +84,14 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 6 (9/21 - 9/25)
     - [Probability](m156f20/week5_case_studies.html)
 - Week 7 (9/28 - 10/2)
-    - Central Limit Theorem
-
+    - [Probability Models](m156f20/week7_case_studies.html)
+- Week 8 (10/5 - 10/9)
+    - Confidence Intervals for Proportions
+- Week 9 (10/12 - 10/16)
+    - Hypothesis Tests for Proportions
+- Week 10 (10/19 - 10/23)
+    - Exam #2 - A practice exam and sketch solution will be available
+    
 ### Recommended Readings
 
 The readings listed below are *recommended* prior to the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.  These might seem like a lot, but our textbook is structured such that each section in only a page or two.
@@ -96,6 +102,7 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6
 - Week 5: None (but you can review for exam 1 by re-reading the reading from Weeks 2-4)
 - Week 6: 12.1, 12.2, 13.1, 13.2, 13.3, 13.4
+- Week 7: 5.1, 5.2, 5.3, 14.1, 14.2, 14.4
     
 ### Problem Sets
 
@@ -111,6 +118,9 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 9/11 at 11:59pm
 - HW #4: Chapter 13: #2, #3, #4, #6, #15, #16, #19, #20, #26
     - Due date: Friday 9/25 at 11:59pm
+- HW #5: Chapter 5: #2, #3, #13, #14; Chapter 14: #10, #11, #12, #24
+    - Due date: Friday 10/2 at 11:59pm
+- HW #6: TBD
 
 ### Datasets
 
