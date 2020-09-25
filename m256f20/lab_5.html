@@ -1556,7 +1556,12 @@ ames_sample &lt;- ames[sample_IDs, ]</code></pre>
 <div id="central-limit-theorem" class="section level3">
 <h3>Central Limit Theorem</h3>
 <p>Central Limit Theorem provides one method of constructing <span class="math inline">\(P\%\)</span> confidence intervals for estimating a single proportion. Recall these intervals have the form:</p>
-<p><span class="math display">\[\hat{p} \pm z^*\sqrt{\tfrac{\hat{p}(1-\hat{p})}{n}}\]</span> - <span class="math inline">\(\hat{p}\)</span> is the <em>point estimate</em> from the sample - <span class="math inline">\(z^*\)</span> defines a percentile of the standard normal distribution such that <span class="math inline">\(P\%\)</span> of the distribution is between <span class="math inline">\((-z^*,+z^*)\)</span> - <span class="math inline">\(SE = \sqrt{\tfrac{\hat{p}(1-\hat{p})}{n}}\)</span> is the standard deviation of sample proportions (which we called the <em>standard error</em>)</p>
+<p><span class="math display">\[\hat{p} \pm z^*\sqrt{\tfrac{\hat{p}(1-\hat{p})}{n}}\]</span></p>
+<ul>
+<li><span class="math inline">\(\hat{p}\)</span> is the <em>point estimate</em> from the sample</li>
+<li><span class="math inline">\(z^*\)</span> defines a percentile of the standard normal distribution such that <span class="math inline">\(P\%\)</span> of the distribution is between <span class="math inline">\((-z^*,+z^*)\)</span></li>
+<li><span class="math inline">\(SE = \sqrt{\tfrac{\hat{p}(1-\hat{p})}{n}}\)</span> is the standard deviation of sample proportions (which we called the <em>standard error</em>)</li>
+</ul>
 <p>The code below demonstrates how to use this procedure to construct a 95% confidence interval estimate of the proportion of 3-bedroom homes in Ames, Iowa from our random sample of <span class="math inline">\(n = 30\)</span> homes (defined by seed #15).</p>
 <pre class="r"><code>## Point estimate (found in Question 2)
 phat &lt;- 0.667
