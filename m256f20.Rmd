@@ -34,7 +34,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Practice Exam #1](m256f20/Exam_1_practice.pdf) and [Sample Solution - (9/14)](m256f20/Exam_1_practice_soln.pdf)
 - [Confidence Intervals (9/16)](m256f20/conf.pdf)
 - [Confidence Intervals for Proportions (9/21)](m256f20/conf_props.pdf)
-- Hypothesis Testing (9/25 and 9/28)
+- [Hypothesis Testing (9/25 and 9/28)](m256f20/ht.pdf)
 - Hypothesis Tests for Categorical Data (9/28 and 9/30)
 
 ```{r, include = FALSE, eval = FALSE}
@@ -75,7 +75,7 @@ The readings listed below are *recommended* prior to the corresponding class mee
 - Week 6 (9/21-9/25)
     - Ch 5.3, 6.1
 - Week 7 (9/28-10/2)
-    - 6.2, 
+    - Ch 6.2
     
 ### Homeworks
 
