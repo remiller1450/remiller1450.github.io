@@ -34,8 +34,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Practice Exam #1](m256f20/Exam_1_practice.pdf) and [Sample Solution - (9/14)](m256f20/Exam_1_practice_soln.pdf)
 - [Confidence Intervals (9/16)](m256f20/conf.pdf)
 - [Confidence Intervals for Proportions (9/21)](m256f20/conf_props.pdf)
-- [Hypothesis Testing (9/25 and 9/28)](m256f20/ht.pdf)
-- Hypothesis Tests for Categorical Data (9/28 and 9/30)
+- [Hypothesis Testing (9/25, 9/28, and 9/30)](m256f20/ht.pdf)
+- [Hypothesis Tests for Categorical Data - part 1 (9/30 and 10/2)](m256f20/ht_cat.pdf)
+- [Hypothesis Tests for Categorical Data - part 2 (10/5)](m256f20/ht_cat2.pdf)
+- Testing Errors, Power, and Multiple Comparisons (10/12 and 10/15)
 
 ```{r, include = FALSE, eval = FALSE}
 #
@@ -55,8 +57,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Due date: Monday 9/14
 - [Lab 5 - Confidence Intervals (9/23)](m256f20/lab_5.html)
     - Due date: Monday 9/28
-- Lab 6 - Hypothesis Testing (10/2)
-    - Due date: Monday 10/5
+- Lab 6 - Hypothesis Tests for Categorical Data (10/7 and 10/9)
+    - Due date: Monday 10/12
 
 ### Recommended Readings
 
@@ -75,7 +77,9 @@ The readings listed below are *recommended* prior to the corresponding class mee
 - Week 6 (9/21-9/25)
     - Ch 5.3, 6.1
 - Week 7 (9/28-10/2)
-    - Ch 6.2
+    - Ch 6.2, 6.3
+- Week 8 (10/5-10/9)
+    - Ch 6.4, 6.4
     
 ### Homeworks
 
@@ -93,11 +97,16 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - Due date: Friday 10/2
     - Please submit electronically through Canvas  
     - Note: The due date for this assignment has been changed since the original posting.  Additionally, questions 6.19, 6.20, 6.22 have been added to the assignment
+- HW #4: 
+
 
 ### Announcements and Other Materials 
 
 - Exam #1 is planned for Friday 9/18 at 9:00am
     - *Everyone* (ie: both groups) are expected to attend in-person, with half the class taking the exam in Alter 103 and the other half taking the exam in Alter 003
+- Exam #2 is tentatively planned for Friday 10/16 at 9:00am
+    - As with the first exam, I will reserve two nearby rooms in Alter and everyone will attend in-person
+
 
 ### Datasets
 
@@ -113,3 +122,4 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - This dataset documents every attempted shot from Kobe Byrant's 2009 finals series against the Orlando Magic.  The Lakers won the series in 5 games, and Kobe was named the finals MVP for his performance.
 - [TSA Claims](https://remiller1450.github.io/data/tsa.csv) 
     - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travelers against the TSA in 2004 and 2005, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
+
