@@ -35,7 +35,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Confidence Intervals (9/16)](m256f20/conf.pdf)
 - [Confidence Intervals for Proportions (9/21)](m256f20/conf_props.pdf)
 - [Hypothesis Testing (9/25, 9/28, and 9/30)](m256f20/ht.pdf)
-- [Hypothesis Tests for Categorical Data - part 1 (9/30 and 10/2)](m256f20/ht_cat.pdf)
+- [Hypothesis Tests for Categorical Data - part 1 (10/2)](m256f20/ht_cat.pdf)
 - [Hypothesis Tests for Categorical Data - part 2 (10/5)](m256f20/ht_cat2.pdf)
 - Testing Errors, Power, and Multiple Comparisons (10/12 and 10/15)
 
@@ -79,7 +79,7 @@ The readings listed below are *recommended* prior to the corresponding class mee
 - Week 7 (9/28-10/2)
     - Ch 6.2, 6.3
 - Week 8 (10/5-10/9)
-    - Ch 6.4, 6.4
+    - Ch 6.4
     
 ### Homeworks
 
@@ -97,8 +97,10 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - Due date: Friday 10/2
     - Please submit electronically through Canvas  
     - Note: The due date for this assignment has been changed since the original posting.  Additionally, questions 6.19, 6.20, 6.22 have been added to the assignment
-- HW #4: 
-
+- HW #4: 5.20, 5.30, 6.40, 6.42, 6.45, 6.46, 6.47, 6.48, 6.49
+    - Due date: Friday 10/16
+    - Please submit electronically through Canvas 
+    - Note: Our second exam is scheduled on the due-date of this assignment, I strongly encourage you to complete it before taking the exam
 
 ### Announcements and Other Materials 
 
@@ -122,4 +124,5 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - This dataset documents every attempted shot from Kobe Byrant's 2009 finals series against the Orlando Magic.  The Lakers won the series in 5 games, and Kobe was named the finals MVP for his performance.
 - [TSA Claims](https://remiller1450.github.io/data/tsa.csv) 
     - The Transport Security Administration (TSA) is an agency within the US Department of Homeland Security that has authority of the safety and security of travel in the United States.  This dataset documents claims made by travelers against the TSA in 2004 and 2005, including information of the claim type, claim amount, and whether it was approved, settled, or denied.
-
+- [Police-involved Killings](https://remiller1450.github.io/data/Police2019.csv)
+    - The [Washington Post](https://www.washingtonpost.com/graphics/investigations/police-shootings-database/) manages a comprehensive database of instances where police officers have used deadly force on an suspect dating back to 2015.  This dataset documents these cases, including variables such as the age, race, and gender of the individual who was killed, as well as variables describing the circumstances of the incident, such as whether the individual killed was armed, whether police officers had body cameras, etc.
