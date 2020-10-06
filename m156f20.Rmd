@@ -63,7 +63,12 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Sampling Distributions (part 1) - [slides](m156f20/sampling_dist1.pdf) - [video](https://youtu.be/LZEQlVAKaGM)
     - Sampling Distributions (part 2) - [slides](m156f20/sampling_dist2.pdf) - [video](https://youtu.be/uksuWKN7WXY)
     - Interval Estimation - [slides](m156f20/ci_intro.pdf) - [video](https://youtu.be/461lKnsOri0)
-    
+- Week 9 (10/16 - 10/19)
+    - Hypothesis Testing (part 1, null models)
+    - Hypothesis Testing (part 2, p-values)
+    - Hypothesis Testing (part 3, misconceptions)
+    - Hypothesis Testing (part 4, testing errors)
+    - Hypothesis Testing (part 5, examples)
     
 ### In-class Activities
 
@@ -84,7 +89,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 7 (9/28 - 10/2)
     - [Probability Models](m156f20/week7_case_studies.html)
 - Week 8 (10/5 - 10/9)
-    - Confidence Intervals for Proportions
+    - [Confidence Intervals for Proportions](m156f20/week8_case_studies.html)
 - Week 9 (10/12 - 10/16)
     - Hypothesis Tests for Proportions
 - Week 10 (10/19 - 10/23)
