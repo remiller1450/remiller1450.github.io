@@ -1582,7 +1582,14 @@ div.tocify {
 <div id="changing-the-confidence-level" class="section level3">
 <h3>Changing the Confidence Level</h3>
 <p>The method we explored in the previous few sections can be generalized into the following formula for a <span class="math inline">\(P\%\)</span> confidence interval estimate:</p>
-<p><span class="math display">\[\text{Point Estimate} \pm z^**SE\]</span> - We can find <span class="math inline">\(SE\)</span>, the standard error of the point estimate, using the results of CLT (ie: <span class="math inline">\(SE = \sqrt{\tfrac{\hat{p}(1-\hat{p})}{n}}\)</span> for a single proportion) - The multiplier <span class="math inline">\(z^*\)</span> is what determines the <em>confidence level of the interval</em> - We can use the Standard Normal curve to adjust this value according to the confidence level we desire</p>
+<p><span class="math display">\[\text{Point Estimate} \pm z^**SE\]</span></p>
+<ul>
+<li>We can find <span class="math inline">\(SE\)</span>, the standard error of the point estimate, using the results of CLT (ie: <span class="math inline">\(SE = \sqrt{\tfrac{\hat{p}(1-\hat{p})}{n}}\)</span> for a single proportion)</li>
+<li>The multiplier <span class="math inline">\(z^*\)</span> is what determines the <em>confidence level of the interval</em>
+<ul>
+<li>We can use the Standard Normal curve to adjust this value according to the confidence level we desire</li>
+</ul></li>
+</ul>
 <p><strong>Question #11</strong>: Open <a href="https://www.lock5stat.com/StatKey/theoretical_distribution/theoretical_distribution.html#normal">this link to the Standard Normal curve</a> in new window/tab. What is the value of <span class="math inline">\(z^*\)</span> you’d use for an 80% confidence interval?</p>
 <p><strong>Question #12</strong>: Return to the Sampling Distribution window/tab (or <a href="https://www.lock5stat.com/StatKey/sampling_1_cat/sampling_1_cat.html">go here</a> if you need to start from scratch, but remember to input the correct <span class="math inline">\(p\)</span> and <span class="math inline">\(n\)</span> if you do this). Reset your plot and “Generate 1 Sample”, then calculate an 80% confidence interval using the value of <span class="math inline">\(z^*\)</span> you found and verify that it matches the 80% confidence interval shown under “Confidence Intervals” in the right-side of StatKey.</p>
 <p><strong>Question #13</strong>: Keeping the “Confidence Intervals” panel of StatKey open, click “Generate 1000 Samples” a few times. What percentage of these intervals contain the true population proportion, <span class="math inline">\(p = 0.5\)</span>?</p>
