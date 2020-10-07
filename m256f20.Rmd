@@ -37,7 +37,13 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing (9/25, 9/28, and 9/30)](m256f20/ht.pdf)
 - [Hypothesis Tests for Categorical Data - part 1 (10/2 and 10/5)](m256f20/ht_cat.pdf)
 - [Hypothesis Tests for Categorical Data - part 2 (10/5 and 10/7)](m256f20/ht_cat2.pdf)
-- Testing Errors, Power, and Multiple Comparisons (10/12 and 10/15)
+- Testing Errors, Power, and Multiple Comparisons (10/12 and 10/14)
+- Practice Exam #2 and Sample Solution (10/14)
+- Confidence Intervals for Means (10/19)
+- Hypothesis Tests for Means (10/21 and 10/23)
+- Analysis of Variance
+- Inference for Correlation
+- Inference for Regression
 
 ```{r, include = FALSE, eval = FALSE}
 #
@@ -57,9 +63,13 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Due date: Monday 9/14
 - [Lab 5 - Confidence Intervals (9/23)](m256f20/lab_5.html)
     - Due date: Monday 9/28
-- Lab 6 - Hypothesis Tests for Categorical Data (10/7 and 10/9)
+- [Lab 6 - Analysis of Categorical Data (10/7 and 10/9)](m256f20/lab_6.html)
     - Due date: Monday 10/12
-
+- Lab 7 - Analysis of Numerical Data
+    - Due date: TBD
+- Lab 8 - ANOVA, Correlation, and Regression
+    - Due date: TBD
+    
 ### Recommended Readings
 
 The readings listed below are *recommended* prior to the corresponding class meetings that week. It has been my observation that students who complete these readings have been the most successful.
@@ -80,6 +90,10 @@ The readings listed below are *recommended* prior to the corresponding class mee
     - Ch 6.2, 6.3
 - Week 8 (10/5-10/9)
     - Ch 6.4
+- Week 9 (10/12-10/16)
+    - Nothing new, study for Exam #2
+- Week 10 (10/19-10/23)
+    - Ch 7.1, 7.2, 7.3
     
 ### Homeworks
 

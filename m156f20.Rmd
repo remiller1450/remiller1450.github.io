@@ -63,12 +63,15 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Sampling Distributions (part 1) - [slides](m156f20/sampling_dist1.pdf) - [video](https://youtu.be/LZEQlVAKaGM)
     - Sampling Distributions (part 2) - [slides](m156f20/sampling_dist2.pdf) - [video](https://youtu.be/uksuWKN7WXY)
     - Interval Estimation - [slides](m156f20/ci_intro.pdf) - [video](https://youtu.be/461lKnsOri0)
-- Week 9 (10/16 - 10/19)
+- Week 9 (10/12 - 10/16)
     - Hypothesis Testing (part 1, null models)
     - Hypothesis Testing (part 2, p-values)
     - Hypothesis Testing (part 3, misconceptions)
     - Hypothesis Testing (part 4, testing errors)
-    - Hypothesis Testing (part 5, examples)
+- Week 9 (10/19 - 10/23)
+    - Simulation-based tests for one proportion
+    - The $Z$-test for one proportion
+    - Examples
     
 ### In-class Activities
 
@@ -93,11 +96,18 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 9 (10/12 - 10/16)
     - Hypothesis Tests for Proportions
 - Week 10 (10/19 - 10/23)
-    - Confidence Intervals for Means
+    - Inference for Proportions
 - Week 11 (10/26 - 10/30)
-    - Hypothesis Tests for Means
+    - Inference for Means
 - Week 12 (11/2 - 11/6)
     - Exam #2 - A practice exam will be made available
+- Week 13 (11/9 - 11/13)
+    - Comparing Groups
+- Week 14 (11/16 - 11/20)
+    - Comparing Groups
+- Week 15 (11/24)
+    - Final Exam Review - no in-person class
+    
     
 ### Recommended Readings
 
@@ -111,6 +121,9 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 6: 12.1, 12.2, 13.1, 13.2, 13.3, 13.4
 - Week 7: 5.1, 5.2, 5.3, 14.1, 14.2, 14.4
 - Week 8: 16.1, 16.2, 16.3, 16.4, 16.5
+- Week 9: 18.1, 18.2, 18.5, 18.6, 19.1, 19.2, 19.3, 19.4
+- Week 10: 18.3
+    
     
 ### Problem Sets
 
@@ -130,6 +143,9 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 10/2 at 11:59pm
 - HW #6: Chapter 16: #1, #2, #3, #4, #6, #15, #16, #28, #33, #34
     - Due date: Friday 10/9 at 11:59pm
+- HW #7: Chapter 18: #1, #6, #9, #13, #14, #17, #18; Chapter 19: #4, #5, #10, #11
+    - Due date: Friday 10/16 at 11:59pm
+    - Please write out your null hypotheses in words (you can add statistical notation too if you'd like)
 
 ### Datasets
 
