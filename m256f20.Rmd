@@ -37,8 +37,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Testing (9/25, 9/28, and 9/30)](m256f20/ht.pdf)
 - [Hypothesis Tests for Categorical Data - part 1 (10/2 and 10/5)](m256f20/ht_cat.pdf)
 - [Hypothesis Tests for Categorical Data - part 2 (10/5 and 10/7)](m256f20/ht_cat2.pdf)
-- Testing Errors, Power, and Multiple Comparisons (10/12 and 10/14)
-- Practice Exam #2 and Sample Solution (10/14)
+- [Testing Errors, Power, and Multiple Comparisons (10/12 and 10/14)](m256f20/ht_add.pdf)
+- [Practice Exam #2 and Related Information (10/14)](m256f20/Exam_2_info.html)
 - Confidence Intervals for Means (10/19)
 - Hypothesis Tests for Means (10/21 and 10/23)
 - Analysis of Variance
@@ -63,7 +63,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Due date: Monday 9/14
 - [Lab 5 - Confidence Intervals (9/23)](m256f20/lab_5.html)
     - Due date: Monday 9/28
-- [Lab 6 - Analysis of Categorical Data (10/7 and 10/9)](m256f20/lab_6.html)
+- [Lab 6 - Analysis of Categorical Data (10/9 and 10/12)](m256f20/lab_6.html)
     - Due date: Monday 10/12
 - Lab 7 - Analysis of Numerical Data
     - Due date: TBD
