@@ -64,14 +64,13 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Sampling Distributions (part 2) - [slides](m156f20/sampling_dist2.pdf) - [video](https://youtu.be/uksuWKN7WXY)
     - Interval Estimation - [slides](m156f20/ci_intro.pdf) - [video](https://youtu.be/461lKnsOri0)
 - Week 9 (10/12 - 10/16)
-    - Hypothesis Testing (part 1, null models)
-    - Hypothesis Testing (part 2, p-values)
-    - Hypothesis Testing (part 3, misconceptions)
-    - Hypothesis Testing (part 4, testing errors)
+    - Hypothesis Testing (part 1, null models) - [slides](m156f20/ht1.pdf) - [video](https://youtu.be/pSgcT09B1vg)
+    - Hypothesis Testing (part 2, p-values) - [slides](m156f20/ht2.pdf) - [video](https://youtu.be/RnlUhXTecxA)
+    - Hypothesis Testing (an example) - [slides](m156f20/ht_supp.pdf) - [video](https://youtu.be/DcfuR2YTPLo)
+    - Hypothesis Testing (part 3, common misconceptions) - [slides](m156f20/ht3.pdf) - [video](https://youtu.be/ff8yZ1VFfmQ)
+    - Hypothesis Testing (part 4, testing errors) - [slides](m156f20/ht4.pdf) - [video](https://youtu.be/RXWhECBpfRc)
 - Week 9 (10/19 - 10/23)
-    - Simulation-based tests for one proportion
-    - The $Z$-test for one proportion
-    - Examples
+    - Hypothesis Testing and Confidence Interval Examples
     
 ### In-class Activities
 
@@ -106,7 +105,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 14 (11/16 - 11/20)
     - Comparing Groups
 - Week 15 (11/24)
-    - Final Exam Review - no in-person class
+    - Final Exam Review - no in-person class meetings this week
     
     
 ### Recommended Readings
