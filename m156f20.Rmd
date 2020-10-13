@@ -69,8 +69,14 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Hypothesis Testing (an example) - [slides](m156f20/ht_supp.pdf) - [video](https://youtu.be/DcfuR2YTPLo)
     - Hypothesis Testing (part 3, common misconceptions) - [slides](m156f20/ht3.pdf) - [video](https://youtu.be/ff8yZ1VFfmQ)
     - Hypothesis Testing (part 4, testing errors) - [slides](m156f20/ht4.pdf) - [video](https://youtu.be/RXWhECBpfRc)
-- Week 9 (10/19 - 10/23)
-    - Hypothesis Testing and Confidence Interval Examples
+- Week 10 (10/19 - 10/23)
+    - The $Z$-test for one proportion
+    - Examples (part 1)
+    - Examples (part 2)
+- Week 11 (10/26 - 10/30)
+    - Interval Estimation for Means
+    - The $t$-distribution
+    - The $t$-test for one mean
     
 ### In-class Activities
 
@@ -93,7 +99,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 8 (10/5 - 10/9)
     - [Confidence Intervals for Proportions](m156f20/week8_case_studies.html)
 - Week 9 (10/12 - 10/16)
-    - Hypothesis Tests for Proportions
+    - [Hypothesis Tests for Proportions](m156f20/week9_case_studies.html)
 - Week 10 (10/19 - 10/23)
     - Inference for Proportions
 - Week 11 (10/26 - 10/30)
