@@ -39,8 +39,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Tests for Categorical Data - part 2 (10/5 and 10/7)](m256f20/ht_cat2.pdf)
 - [Testing Errors, Power, and Multiple Comparisons (10/12 and 10/14)](m256f20/ht_add.pdf)
 - [Practice Exam #2 and Related Information (10/14)](m256f20/Exam_2_info.html)
-- Confidence Intervals for Means (10/19)
-- Hypothesis Tests for Means (10/21 and 10/23)
+- Confidence Intervals for Numerical Data (10/19)
+- Hypothesis Tests for Numerical Data (10/23 and 10/26)
 - Analysis of Variance
 - Inference for Correlation
 - Inference for Regression
@@ -115,14 +115,21 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - Due date: Friday 10/16
     - Please submit electronically through Canvas 
     - Note: Our second exam is scheduled on the due-date of this assignment, I strongly encourage you to complete it before taking the exam
+- HW #5: 7.2, 7.7, 7.12, 7.17, 7.20, 7.24, 7.27, 7.28, 7.30
+    - Due date: Friday 10/30
+    - Please submit electronically through Canvas
+- HW #6: TBD
+    - Due date: Friday 11/20
+    - Please submit electronically through Canvas
 
 ### Announcements and Other Materials 
 
 - Exam #1 is planned for Friday 9/18 at 9:00am
     - *Everyone* (ie: both groups) are expected to attend in-person, with half the class taking the exam in Alter 103 and the other half taking the exam in Alter 003
-- Exam #2 is tentatively planned for Friday 10/16 at 9:00am
-    - As with the first exam, I will reserve two nearby rooms in Alter and everyone will attend in-person
-
+- Exam #2 is planned for Friday 10/16 at 9:00am
+    - This exam will be administered online via Canvas
+- Information on the class project can be [found here](m256f20/project_2020.html)
+    - The first due-date is Monday 10/26 when you must submit your project proposal via Canvas
 
 ### Datasets
 
