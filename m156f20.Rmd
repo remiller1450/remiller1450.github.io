@@ -48,7 +48,7 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Study Design (part 2) - [slides](m156f20/design2.pdf) - [video](https://youtu.be/Kx1PPRXHGBU)
 - Week 5 (9/14 - 9/18)
     - An Overview of Topics - [slides](m156f20/part1_overview.pdf) - [video](https://youtu.be/59HIPDQ1lkk)
-    - Practice Exam - [pdf](m156f20/practice_exam1.pdf) - [video solution](https://youtu.be/hMHvfcSWHPM)
+    - Practice Exam #1 - [pdf](m156f20/practice_exam1.pdf) - [video solution](https://youtu.be/hMHvfcSWHPM)
 - Week 6 (9/21 - 9/25)
     - Probability (basic definitions) - [slides](m156f20/probability1.pdf) - [video](https://youtu.be/pY9inZ_RXXE)
     - Probability (complement rule) - [slides](m156f20/probability2.pdf) - [video](https://youtu.be/lSaK7-XWfa8)
@@ -66,17 +66,32 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 9 (10/12 - 10/16)
     - Hypothesis Testing (part 1, null models) - [slides](m156f20/ht1.pdf) - [video](https://youtu.be/pSgcT09B1vg)
     - Hypothesis Testing (part 2, p-values) - [slides](m156f20/ht2.pdf) - [video](https://youtu.be/RnlUhXTecxA)
-    - Hypothesis Testing (an example) - [slides](m156f20/ht_supp.pdf) - [video](https://youtu.be/DcfuR2YTPLo)
+    - Hypothesis Testing (a complete example) - [slides](m156f20/ht_supp.pdf) - [video](https://youtu.be/DcfuR2YTPLo)
     - Hypothesis Testing (part 3, common misconceptions) - [slides](m156f20/ht3.pdf) - [video](https://youtu.be/ff8yZ1VFfmQ)
     - Hypothesis Testing (part 4, testing errors) - [slides](m156f20/ht4.pdf) - [video](https://youtu.be/RXWhECBpfRc)
 - Week 10 (10/19 - 10/23)
-    - The $Z$-test for one proportion - [slides](m156f20/ht_z.pdf) - [video](https://youtu.be/pSgcT09B1vg)
-    - Examples (part 1)
-    - Examples (part 2)
+    - The $Z$-test for one-sample categorical data - [slides](m156f20/ht_z.pdf) - [video](https://youtu.be/KIUdrL6K5Is)
+    - Examples (part 1) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/TRBKEcRYvhY)
+    - Examples (part 2) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/BFZO-azNrao)
+    - Examples (part 3) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/SJLV2i45ZkI)
 - Week 11 (10/26 - 10/30)
     - Interval Estimation for Means
     - The $t$-distribution
-    - The $t$-test for one mean
+    - The $t$-test for one-sample quantitative data
+    - The $t$-test (a complete example)
+- Week 12 (11/2 - 11/6)    
+    - Practice Exam #2 - pdf - video solution
+- Week 13 (11/9 - 11/13)
+    - Confidence Intervals for Comparing Groups (categorical outcomes)
+    - Hypothesis Tests for Comparing Groups (categorical outcomes)
+    - Examples (categorical outcomes)
+- Week 14 (11/16 - 11/20)
+    - Confidence Intervals for Comparing Groups (quantitative outcomes)
+    - Hypothesis Tests for Comparing Groups (quantitative outcomes)
+    - Examples (quantitative outcomes)
+- Week 15 (11/24)
+    - Practice Final Exam - pdf - video solution
+    
     
 ### In-class Activities
 
@@ -105,13 +120,15 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 11 (10/26 - 10/30)
     - Inference for Means
 - Week 12 (11/2 - 11/6)
-    - Exam #2 - A practice exam will be made available
+    - No in-person class this week
+    - Exam #2 on Thursday 11/5
 - Week 13 (11/9 - 11/13)
-    - Comparing Groups
+    - Comparing Groups (categorical outcomes)
 - Week 14 (11/16 - 11/20)
-    - Comparing Groups
+    - Comparing Groups (quantitative outcomes)
 - Week 15 (11/24)
-    - Final Exam Review - no in-person class meetings this week
+    - No in-person class this week
+    - Complete the practice final exam
     
     
 ### Recommended Readings
@@ -151,6 +168,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
 - HW #7: Chapter 18: #1, #6, #9, #13, #14, #17, #18; Chapter 19: #4, #5, #10, #11
     - Due date: Friday 10/16 at 11:59pm
     - Please write out your null hypotheses in words (you can add statistical notation too if you'd like)
+- HW #8: Chapter 18: #27, #28, #33, #34; Chapter 19: #17, #19, #20, #38
+    - Due date: Friday 10/23 at 11:59pm
 
 ### Datasets
 
