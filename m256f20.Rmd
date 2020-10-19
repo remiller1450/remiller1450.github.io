@@ -39,7 +39,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Tests for Categorical Data - part 2 (10/5 and 10/7)](m256f20/ht_cat2.pdf)
 - [Testing Errors, Power, and Multiple Comparisons (10/12 and 10/14)](m256f20/ht_add.pdf)
 - [Practice Exam #2](m256f20/Exam_2_info.html) and [Sample Solution (10/14)](m256f20/Exam_2_practice_soln.html)
-- Confidence Intervals for Numerical Data (10/19)
+- [Confidence Intervals for Numerical Data (10/19)](m256f20/t_dist.pdf)
 - Hypothesis Tests for Numerical Data (10/23 and 10/26)
 - Analysis of Variance
 - Inference for Correlation
