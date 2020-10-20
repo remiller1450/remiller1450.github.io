@@ -116,7 +116,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 9 (10/12 - 10/16)
     - [Hypothesis Tests for Proportions](m156f20/week9_case_studies.html)
 - Week 10 (10/19 - 10/23)
-    - Inference for Proportions
+    - [Inference for Proportions](m156f20/week10_case_studies.html)
 - Week 11 (10/26 - 10/30)
     - Inference for Means
 - Week 12 (11/2 - 11/6)
