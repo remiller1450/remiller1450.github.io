@@ -75,10 +75,9 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Examples (part 2) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/BFZO-azNrao)
     - Examples (part 3) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/SJLV2i45ZkI)
 - Week 11 (10/26 - 10/30)
-    - Interval Estimation for Means
-    - The $t$-distribution
-    - The $t$-test for one-sample quantitative data
-    - The $t$-test (a complete example)
+    - Interval Estimation for Means - [slides](m156f20/inf_means.pdf) - [video](A)
+    - The $t$-test for one-sample quantitative data - [slides](m156f20/t_test.pdf) - [video](A)
+    - Assumptions and Alternative Methods - - [slides](m156f20/sim_inf.pdf) - [video](A)
 - Week 12 (11/2 - 11/6)    
     - Practice Exam #2 - pdf - video solution
 - Week 13 (11/9 - 11/13)
@@ -170,6 +169,9 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Please write out your null hypotheses in words (you can add statistical notation too if you'd like)
 - HW #8: Chapter 18: #27, #28, #33, #34; Chapter 19: #17, #19, #20, #38
     - Due date: Friday 10/23 at 11:59pm
+- HW #9: Chapter 17: #11, #13, #14, Chapter 18: #10, #43, #45, #46, #50, #52
+    - Due date: Friday 10/30 at 11:59pm
+    - Feel free to use [this calculator](https://www.calculator.net/standard-deviation-calculator.html) to help you calculate the sample standard deviation for questions where it is needed
 
 ### Datasets
 
