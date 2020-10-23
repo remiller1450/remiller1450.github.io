@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>MATH 257: Data Modeling</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">MATH 257: Data Modeling</h1>
+
+</div>
+
+
+<div id="course-information" class="section level2">
+<h2>Course Information</h2>
+<p><strong>Instructor</strong>:</p>
+<ul>
+<li>Ryan Miller, millerr33@xavier.edu</li>
+</ul>
+<p><strong>Class Meetings</strong>:</p>
+<ul>
+<li>Location: TBD, T/TH 1-2:15pm</li>
+</ul>
+<p><strong>Office Hours</strong></p>
+<ul>
+<li><em>Virtual</em> office hours will at Dates/Times TBD in the following Zoom meeting room: <a href="https://xavier.zoom.us/my/ryanmiller33" class="uri">https://xavier.zoom.us/my/ryanmiller33</a></li>
+</ul>
+</div>
+<div id="course-description" class="section level2">
+<h2>Course Description</h2>
+<p>Exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, Analysis of Variance, multiple comparisons, and experimental design.</p>
+<div id="textbooks" class="section level3">
+<h3>Textbooks</h3>
+<p>Readings and homework will be assigned from the sources listed below. Please note, the majority of course topics will come from the Mendenhall text, while the other two books are available for free online.</p>
+<ol style="list-style-type: decimal">
+<li><a href="https://www.pearson.com/store/p/second-course-in-statistics-a-regression-analysis/P100000772506/9780321831453?tab=table-of-contents">A Second Course in Statistics: Regression Analysis</a> 7th edition (2012) by Mendenhall and Sincich (required)</li>
+<li><a href="https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf">An Introduction to Statistical Learning</a> by James, Witten, Hastie, and Tibshirani (free and online)</li>
+<li><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Grolemund and Wickham (free and online)</li>
+</ol>
+</div>
+<div id="website" class="section level3">
+<h3>Website</h3>
+<ul>
+<li>Some materials can be found the course Canvas page; however, many of these may simply be links to: <a href="https://remiller1450.github.io/m257s21.html" class="uri">https://remiller1450.github.io/m257s21.html</a>, where you will find everything for the course (other than your grades)</li>
+</ul>
+</div>
+<div id="course-aims" class="section level3">
+<h3>Course Aims:</h3>
+<p>This primary aim of this course is to provide students with hands on experience implementing statistical models to real datasets in the <code>R</code> programming environment. This includes all steps of the analysis pipeline, including: exploratory data analysis and data visualization, model selection, model evaluation, and statistical inference</p>
+</div>
+<div id="learning-objectives" class="section level3">
+<h3>Learning Objectives:</h3>
+<p>Specific learning outcomes, with respect ot the core curriculum at Xavier, include:</p>
+<ul>
+<li>(1a) Students recognize and cogently discuss significant questions in the humanities, arts, and the natural and social sciences</li>
+<li>(2a) Students find, evaluate, and logically convey information and ideas in written and oral form</li>
+<li>(2b) Students evaluate problems using quantitative methods and arguments</li>
+</ul>
+</div>
+<div id="software" class="section level3">
+<h3>Software</h3>
+<p>In the modern era, statisticians (along with most scientific professionals) rely upon software. In this course you will be required to use <code>R</code> (typically through the <code>R Studio</code> GUI). <code>R</code> is an open-source software that is generally regarded as the industry standard amongst professional statisticians. Throughout the course you will work through guided labs which will simultaneously promote proficiency in <code>R</code> programming and applied statistical analysis.</p>
+<p>You can install <code>R</code> and <code>R Studio</code> on your personal computer in two easy steps:</p>
+<ol style="list-style-type: decimal">
+<li>First, download and install <code>R</code> from <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a></li>
+<li>Second, download and install the <code>R Studio</code> user interface from <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a></li>
+</ol>
+<p>Note that R Studio is also available on some campus computers.</p>
+</div>
+<div id="course-structure" class="section level3">
+<h3>Course Structure</h3>
+<p>Due the COVID-19 pandemic our classroom capacity is limited, which leads this course to be structured somewhat differently than other courses you’ve taken. This semester we will what I will refer to as a <em>semi-synchronous</em> model:</p>
+<ul>
+<li>The class roster will be split into two groups: Tuesday and Thursday
+<ul>
+<li>You only attend a synchronous class (in-person) on your assigned day</li>
+</ul></li>
+<li>The remainder of the week you are responsible for a series of asynchronous tasks that must be completed before you come to class
+<ul>
+<li>These include some combination of recorded lectures, textbook reading, homework assignments, and comprehension quizzes administered via Canvas</li>
+</ul></li>
+<li>The idea is that everyone in the class completes the same activities within a given week, but they do so at different times</li>
+</ul>
+</div>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies</h2>
+<p>In accordance with the values of Xavier University, students are expected to adhere to the following policies:</p>
+<div id="attendance" class="section level3">
+<h3>Attendance</h3>
+<p>Students are expected to attend all scheduled lectures assigned to them. The instructor reserves the right to lower final course grades in response to repeated, unexcused absences. Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.</p>
+</div>
+<div id="academic-honesty" class="section level3">
+<h3>Academic Honesty</h3>
+<p>Students will be required to sign an Honor Pledge on certain assignments: <em>“As a student at Xavier University, I have neither given nor received unauthorized aid on this assignment/exam. (Student signature)”</em>. Assignments and exams will explicitly describe what constitutes authorized versus unauthorized aid.</p>
+<p>In general, collaborate work is highly encouraged in this course; however, your homework write-ups should be your own individual work. Copying solutions from anyone or any source without full disclosure is considered cheating. If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) you should indicate this on your assignment (a simple statement like “I worked with Jack and Jill on problems 1-3” is enough).</p>
+</div>
+<div id="campus-resources" class="section level3">
+<h3>Campus Resources</h3>
+<p>MATH 257 is a major-level course, so drop-in tutoring at the Mathematics Lab and one-on-one tutoring through the Office of Academic Support are generally not available. The first place you should go with questions related to course material is the course instructor. Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful. For more information, visit the <a href="https://www.xavier.edu/success/success-coaching/index">Student Success Center website</a>.</p>
+</div>
+</div>
+<div id="grading" class="section level2">
+<h2>Grading</h2>
+<p><strong>Projects</strong></p>
+<ul>
+<li>Midterm #1 (Data Exploration and One-variable Regression) - 15%</li>
+<li>Midterm #2 (Multiple Regression and Model Evaluation) - 15%</li>
+<li>Final (Comprehensive) - 25%</li>
+</ul>
+<p><strong>Quizzes</strong></p>
+<ul>
+<li>Weekly comprehension quizzes on Canvas - 15%</li>
+</ul>
+<p>These are intended to be a low-stakes way of holding you accountable for the asynchronous activities required in this class. You will have 2 attempts at each quiz, and the questions should be relatively easy if you have done the prerequisite work.</p>
+<p><strong>Problem Sets</strong></p>
+<ul>
+<li>6 bi-weekly problem sets - 15%</li>
+</ul>
+<p>These are intended to be on-your-own practice with key course concepts. They will be assigned out of the textbook and will generally be due every other Friday throughout the semester</p>
+<p><strong>In-class Labs</strong></p>
+<ul>
+<li>Weekly in-class lab assignments - 15%</li>
+</ul>
+<p>These are intended to be completed primary (90%+) during classtime with a partner. We will go over the majority of questions on these labs, and the overall idea is to provide guided practice applying methods introduced during the asynchronous portion of the class using <code>R</code>.</p>
+<div id="overall-course-grades" class="section level3">
+<h3>Overall Course Grades</h3>
+<p>The following grade cutoffs will be used:</p>
+<ul>
+<li>A [93,100]</li>
+<li>A- [90, 93)</li>
+<li>B+ [87, 90)</li>
+<li>B [83, 87)</li>
+<li>B- [80, 83)</li>
+<li>C+ [77, 80)</li>
+<li>C [73, 77)</li>
+<li>C- [70, 73)</li>
+<li>D+ [67, 70)</li>
+<li>D [63, 67)</li>
+<li>D- [60, 63)</li>
+<li>F [0, 60)</li>
+</ul>
+<p>The course instructor reserves the right to adjust these thresholds <em>downward</em>, but <em>not upward</em> at the end of the semester.</p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

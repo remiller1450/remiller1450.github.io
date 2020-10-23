@@ -1,0 +1,138 @@
+---
+title: "MATH 257: Data Modeling"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+## Course Information
+
+**Instructor**:
+
+- Ryan Miller, millerr33\@xavier.edu 
+
+**Class Meetings**: 
+
+- Location: TBD, T/TH 1-2:15pm
+
+**Office Hours**
+
+- *Virtual* office hours will at Dates/Times TBD in the following Zoom meeting room: https://xavier.zoom.us/my/ryanmiller33
+
+## Course Description
+
+Exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, Analysis of Variance, multiple comparisons, and experimental design.
+
+### Textbooks
+
+Readings and homework will be assigned from the sources listed below.  Please note, the majority of course topics will come from the Mendenhall text, while the other two books are available for free online.
+
+1. [A Second Course in Statistics: Regression Analysis](https://www.pearson.com/store/p/second-course-in-statistics-a-regression-analysis/P100000772506/9780321831453?tab=table-of-contents) 7th edition (2012) by Mendenhall and Sincich (required)
+2. [An Introduction to Statistical Learning](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani (free and online)
+3. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham (free and online) 
+
+### Website
+
+- Some materials can be found the course Canvas page; however, many of these may simply be links to: https://remiller1450.github.io/m257s21.html, where you will find everything for the course (other than your grades)
+
+### Course Aims:
+
+This primary aim of this course is to provide students with hands on experience implementing statistical models to real datasets in the `R` programming environment.  This includes all steps of the analysis pipeline, including: exploratory data analysis and data visualization, model selection, model evaluation, and statistical inference 
+
+### Learning Objectives:
+
+Specific learning outcomes, with respect ot the core curriculum at Xavier, include:
+
+- (1a) Students recognize and cogently discuss significant questions in the humanities, arts, and
+the natural and social sciences
+- (2a) Students find, evaluate, and logically convey information and ideas in written and oral
+form
+- (2b) Students evaluate problems using quantitative methods and arguments
+
+### Software
+
+In the modern era, statisticians (along with most scientific professionals) rely upon software. In this course you will be required to use `R` (typically through the `R Studio` GUI).  `R` is an open-source software that is generally regarded as the industry standard amongst professional statisticians.  Throughout the course you will work through guided labs which will simultaneously promote proficiency in `R` programming and applied statistical analysis.
+
+You can install `R` and `R Studio` on your personal computer in two easy steps:
+
+1.	First, download and install `R` from http://www.r-project.org/
+2.	Second, download and install the `R Studio` user interface from http://www.rstudio.com/ 
+
+Note that R Studio is also available on some campus computers.
+
+### Course Structure
+
+Due the COVID-19 pandemic our classroom capacity is limited, which leads this course to be structured somewhat differently than other courses you've taken.  This semester we will what I will refer to as a *semi-synchronous* model:
+
+- The class roster will be split into two groups: Tuesday and Thursday
+   - You only attend a synchronous class (in-person) on your assigned day
+- The remainder of the week you are responsible for a series of asynchronous tasks that must be completed before you come to class
+   - These include some combination of recorded lectures, textbook reading, homework assignments, and comprehension quizzes administered via Canvas
+- The idea is that everyone in the class completes the same activities within a given week, but they do so at different times
+
+## Policies
+
+In accordance with the values of Xavier University, students are expected to adhere to the following policies:
+
+### Attendance
+
+Students are expected to attend all scheduled lectures assigned to them.  The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
+
+### Academic Honesty
+
+Students will be required to sign an Honor Pledge on certain assignments: *"As a student at Xavier University, I have neither given nor received unauthorized aid on this assignment/exam. (Student signature)"*.  Assignments and exams will explicitly describe what constitutes authorized versus unauthorized aid.
+
+In general, collaborate work is highly encouraged in this course; however, your homework write-ups should be your own individual work.  Copying solutions from anyone or any source without full disclosure is considered cheating.  If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) you should indicate this on your assignment (a simple statement like "I worked with Jack and Jill on problems 1-3" is enough).
+
+### Campus Resources
+
+MATH 257 is a major-level course, so drop-in tutoring at the Mathematics Lab and one-on-one tutoring through the Office of Academic Support are generally not available.  The first place you should go with questions related to course material is the course instructor.  Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
+
+
+## Grading
+
+**Projects**
+
+- Midterm #1 (Data Exploration and One-variable Regression) - 15%
+- Midterm #2 (Multiple Regression and Model Evaluation) - 15%
+- Final (Comprehensive) - 25%
+
+**Quizzes**
+
+- Weekly comprehension quizzes on Canvas - 15%
+
+These are intended to be a low-stakes way of holding you accountable for the asynchronous activities required in this class.  You will have 2 attempts at each quiz, and the questions should be relatively easy if you have done the prerequisite work.
+
+**Problem Sets**
+
+- 6 bi-weekly problem sets - 15%
+
+These are intended to be on-your-own practice with key course concepts.  They will be assigned out of the textbook and will generally be due every other Friday throughout the semester
+
+**In-class Labs**
+
+- Weekly in-class lab assignments - 15%
+
+These are intended to be completed primary (90%+) during classtime with a partner.  We will go over the majority of questions on these labs, and the overall idea is to provide guided practice applying methods introduced during the asynchronous portion of the class using `R`.
+
+### Overall Course Grades
+
+The following grade cutoffs will be used:
+
+- A [93,100]
+- A- [90, 93)
+- B+ [87, 90)
+- B [83, 87)
+- B- [80, 83)
+- C+ [77, 80)
+- C [73, 77)
+- C- [70, 73)
+- D+ [67, 70)
+- D [63, 67)
+- D- [60, 63)
+- F [0, 60)
+
+The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  

@@ -75,9 +75,10 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Examples (part 2) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/BFZO-azNrao)
     - Examples (part 3) - [slides](m156f20/ht_prac1.pdf) - [video](https://youtu.be/SJLV2i45ZkI)
 - Week 11 (10/26 - 10/30)
-    - Interval Estimation for Means - [slides](m156f20/inf_means.pdf) - [video](A)
-    - The $t$-test for one-sample quantitative data - [slides](m156f20/t_test.pdf) - [video](A)
-    - Assumptions and Alternative Methods - - [slides](m156f20/sim_inf.pdf) - [video](A)
+    - Confidence Intervals for One-sample Quantitative Data - [slides](m156f20/inf_means.pdf) - [video](https://youtu.be/qZFMZYA53Tw)
+    - The $t$-test for One-sample Quantitative Data - [slides](m156f20/t_test.pdf) - [video](https://youtu.be/BhH_Xq0pLgE)
+    - Model Assumptions for One-sample Inference - [slides](m156f20/sim_inf.pdf) - [video](https://youtu.be/cRz1I_xFwdU)
+    - Simulation-based Approaches to One-sample Inference - [slides](m156f20/sim_inf.pdf) - [video](https://youtu.be/TIt6RFOeGXg)
 - Week 12 (11/2 - 11/6)    
     - Practice Exam #2 - pdf - video solution
 - Week 13 (11/9 - 11/13)
@@ -121,13 +122,14 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 12 (11/2 - 11/6)
     - No in-person class this week
     - Exam #2 on Thursday 11/5
+    - A practice exam is [available here](m156f20/practice_exam2.pdf)
 - Week 13 (11/9 - 11/13)
     - Comparing Groups (categorical outcomes)
 - Week 14 (11/16 - 11/20)
     - Comparing Groups (quantitative outcomes)
 - Week 15 (11/24)
     - No in-person class this week
-    - Complete the practice final exam
+    - You are expected to complete the practice final exam
     
     
 ### Recommended Readings
@@ -138,13 +140,13 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 2: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2
 - Week 3: 4.1, 4.2, 6.1, 6.2, 6.3, 7.1, 7.2
 - Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6
-- Week 5: None (but you can review for exam 1 by re-reading the reading from Weeks 2-4)
+- Week 5: None (but you can review for Exam #1 by reviewing the readings from Weeks 2-4)
 - Week 6: 12.1, 12.2, 13.1, 13.2, 13.3, 13.4
 - Week 7: 5.1, 5.2, 5.3, 14.1, 14.2, 14.4
 - Week 8: 16.1, 16.2, 16.3, 16.4, 16.5
 - Week 9: 18.1, 18.2, 18.5, 18.6, 19.1, 19.2, 19.3, 19.4
 - Week 10: 18.3
-    
+- Week 11: None (but you can review for Exam #2 by reviewing the readings from Weeks 6-10)
     
 ### Problem Sets
 
