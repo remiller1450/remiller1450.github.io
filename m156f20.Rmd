@@ -80,7 +80,7 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Model Assumptions for One-sample Inference - [slides](m156f20/sim_inf.pdf) - [video](https://youtu.be/cRz1I_xFwdU)
     - Simulation-based Approaches to One-sample Inference - [slides](m156f20/sim_inf.pdf) - [video](https://youtu.be/TIt6RFOeGXg)
 - Week 12 (11/2 - 11/6)    
-    - Practice Exam #2 - pdf - video solution
+    - Practice Exam #2 - [pdf](m156f20/practice_exam2.html) - [video solution](https://youtu.be/3EakoHc0-Bk)
 - Week 13 (11/9 - 11/13)
     - Confidence Intervals for Comparing Groups (categorical outcomes)
     - Hypothesis Tests for Comparing Groups (categorical outcomes)
@@ -118,11 +118,11 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 10 (10/19 - 10/23)
     - [Inference for Proportions](m156f20/week10_case_studies.html)
 - Week 11 (10/26 - 10/30)
-    - Inference for Means
+    - [Inference for Means](m156f20/week11_case_studies.html)
 - Week 12 (11/2 - 11/6)
-    - No in-person class this week
-    - Exam #2 on Thursday 11/5
-    - A practice exam is [available here](m156f20/practice_exam2.pdf)
+    - No in-person classes this week
+    - Exam #2 is on Thursday 11/5 administered via Canvas
+    - A practice exam is [available here](m156f20/practice_exam2.html)
 - Week 13 (11/9 - 11/13)
     - Comparing Groups (categorical outcomes)
 - Week 14 (11/16 - 11/20)
