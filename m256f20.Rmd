@@ -41,10 +41,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Practice Exam #2](m256f20/Exam_2_info.html) and [Sample Solution (10/14)](m256f20/Exam_2_practice_soln.html)
 - [Confidence Intervals for Numerical Data (10/19)](m256f20/t_dist.pdf)
 - [Hypothesis Tests for Numerical Data (10/23 and 10/26)](m256f20/ht_t.pdf)
-- [Transformations and Outliers (10/28)](m256f20/ht_outliers.pdf)
-- Analysis of Variance (10/30 and 11/2)
-- Inference for Correlation
-- Inference for Regression
+- [Transformations and Outliers (10/28 and 10/30)](m256f20/ht_outliers.pdf)
+- [Analysis of Variance (11/2 and 11/4)](m256f20/anova.pdf)
+- Inference for Correlation (11/6)
+- Inference for Regression 
 
 ```{r, include = FALSE, eval = FALSE}
 #
@@ -97,6 +97,8 @@ The readings listed below are *recommended* prior to the corresponding class mee
     - Ch 7.1, 7.2, 7.3
 - Week 11 (10/26-10/30)
     - Ch 7.5
+- Week 12 (11/2-11/6)
+    - Ch 8.1, 8.2, 8.4
     
 ### Homeworks
 
@@ -121,7 +123,7 @@ In response to COVID-19, all submissions will done electronically via Canvas and
 - HW #5: 7.2, 7.7, 7.12, 7.17, 7.20, 7.24, 7.27, 7.28, 7.30
     - Due date: Friday 10/30
     - Please submit electronically through Canvas
-- HW #6: TBD
+- HW #6: 7.37, 7.38, 7.47, 7.48, 7.52, 7.54, 8.6, 8.9, 8.31, 8.32, 8.37, 8.39
     - Due date: Friday 11/20
     - Please submit electronically through Canvas
 
@@ -133,6 +135,7 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - This exam will be administered online via Canvas
 - Information on the class project can be [found here](m256f20/project_2020.html)
     - The first due-date is Monday 10/26 when you must submit your project proposal via Canvas
+    - The second due-date is Monday 11/9 when you must have finalized and submitted your project dataset
 - Exam #3 is tentatively planned for Friday 11/13 at 9:00am
 
 ### Datasets
