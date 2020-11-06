@@ -82,9 +82,9 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 12 (11/2 - 11/6)    
     - Practice Exam #2 - [pdf](m156f20/practice_exam2.html) - [video solution](https://youtu.be/3EakoHc0-Bk)
 - Week 13 (11/9 - 11/13)
-    - Confidence Intervals for Comparing Groups (categorical outcomes)
-    - Hypothesis Tests for Comparing Groups (categorical outcomes)
-    - Examples (categorical outcomes)
+    - Two-sample Categorical data
+    - Two-sample $Z$-test
+    - Confidence Intervals and Odds Ratios
 - Week 14 (11/16 - 11/20)
     - Confidence Intervals for Comparing Groups (quantitative outcomes)
     - Hypothesis Tests for Comparing Groups (quantitative outcomes)
@@ -174,6 +174,10 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
 - HW #9: Chapter 17: #11, #13, #14, Chapter 18: #10, #43, #45, #46, #50, #52
     - Due date: Friday 10/30 at 11:59pm
     - Feel free to use [this calculator](https://www.calculator.net/standard-deviation-calculator.html) to help you calculate the sample standard deviation for questions where it is needed
+- HW #10: Chapter 20: #1, #7, #22, #27, #28, #37, #38, #39
+    - Due date: Friday 11/13 at 11:59pm
+- HW #11: Chapter 20: #11, #15, #59, #62, #63, #64, #65
+    - Due date: Friday 11/20 at 11:59pm
 
 ### Datasets
 

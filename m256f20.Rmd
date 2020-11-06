@@ -43,8 +43,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Hypothesis Tests for Numerical Data (10/23 and 10/26)](m256f20/ht_t.pdf)
 - [Transformations and Outliers (10/28 and 10/30)](m256f20/ht_outliers.pdf)
 - [Analysis of Variance (11/2 and 11/4)](m256f20/anova.pdf)
-- Inference for Correlation (11/6)
-- Inference for Regression 
+- [Regression (11/6 and 11/9)](m256f20/reg1.pdf)
+- Correlation (11/11)
 
 ```{r, include = FALSE, eval = FALSE}
 #
@@ -69,7 +69,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Lab 7 - Analysis of Numerical Data (10/26 and 10/28)](m256f20/lab_7.html)
     - Due date: Friday 10/30
 - Lab 8 - ANOVA, Correlation, and Regression
-    - Due date: TBD
+    - Due date: Monday 11/23
     
 ### Recommended Readings
 
@@ -126,6 +126,7 @@ In response to COVID-19, all submissions will done electronically via Canvas and
 - HW #6: 7.37, 7.38, 7.47, 7.48, 7.52, 7.54, 8.6, 8.9, 8.31, 8.32, 8.37, 8.39
     - Due date: Friday 11/20
     - Please submit electronically through Canvas
+    - Hints: For 7.54 recall we discussed multiple comparisons in [this lecture](https://remiller1450.github.io/m256f20/ht_add.pdf)
 
 ### Announcements and Other Materials 
 
