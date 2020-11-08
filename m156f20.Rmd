@@ -82,9 +82,9 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 12 (11/2 - 11/6)    
     - Practice Exam #2 - [pdf](m156f20/practice_exam2.html) - [video solution](https://youtu.be/3EakoHc0-Bk)
 - Week 13 (11/9 - 11/13)
-    - Two-sample Categorical data
-    - Two-sample $Z$-test
-    - Confidence Intervals and Odds Ratios
+    - Two-sample Categorical data (Concepts) - [slides](m156f20/two_sample_cat.pdf) - [video](https://youtu.be/-u2AAnJH03Q)
+    - Two-sample Categorical data (Z-test)- [slides](m156f20/two_sample_cat.pdf) - [video](https://youtu.be/kqwbv3i54Gs)
+    - Two-sample Categorical data (Confidence Intervals and Odds Ratios) - [slides](m156f20/two_sample_cat.pdf) - [video](https://youtu.be/_DSh_xt6EfY)
 - Week 14 (11/16 - 11/20)
     - Confidence Intervals for Comparing Groups (quantitative outcomes)
     - Hypothesis Tests for Comparing Groups (quantitative outcomes)
