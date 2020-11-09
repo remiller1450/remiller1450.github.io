@@ -44,7 +44,8 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Transformations and Outliers (10/28 and 10/30)](m256f20/ht_outliers.pdf)
 - [Analysis of Variance (11/2 and 11/4)](m256f20/anova.pdf)
 - [Regression (11/6 and 11/9)](m256f20/reg1.pdf)
-- Correlation (11/11)
+- [Exam #3 Topics and Format](m256f20/exam_3_topics.html)
+- Correlation (11/16)
 
 ```{r, include = FALSE, eval = FALSE}
 #
@@ -142,6 +143,7 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - The first due-date is Monday 10/26 when you must submit your project proposal via Canvas
     - The second due-date is Monday 11/9 when you must have finalized and submitted your project dataset
 - Exam #3 is tentatively planned for Friday 11/13 at 9:00am
+    - You can find information on the [Exam #3 Topics and Format here](m256f20/exam_3_topics.html)
 
 ### Datasets
 
