@@ -1540,7 +1540,7 @@ div.tocify {
 </ul>
 <div id="introduction" class="section level2">
 <h2>Introduction</h2>
-<p>This week we introduced a Normal probability model to analyze <em>differences in proportions</em> across two groups (two-sample categorical data). For your reference, here is that model: <span class="math display">\[\hat{p}_1 - \hat{p}_2 \sim N\bigg(p_1 - p_2, \sqrt{\tfrac{p_1(1-p_1)}{n_1} + \tfrac{p_1(1-p_1)}{n_1}}\bigg)\]</span> Today, we will practice applying this model to a few different case studies involving real data.</p>
+<p>This week we introduced a Normal probability model to analyze <em>differences in proportions</em> across two groups (two-sample categorical data). For your reference, here is that model: <span class="math display">\[\hat{p}_1 - \hat{p}_2 \sim N\bigg(p_1 - p_2, \sqrt{\tfrac{p_1(1-p_1)}{n_1} + \tfrac{p_2(1-p_2)}{n_2}}\bigg)\]</span> Today, we will practice applying this model to a few different case studies involving real data.</p>
 </div>
 <div id="application-1---is-cleanliness-next-to-godliness" class="section level2">
 <h2>Application #1 - Is Cleanliness Next to Godliness?</h2>
@@ -1609,12 +1609,12 @@ Unethical
 </div>
 <div id="effect-size-and-statistical-power" class="section level3">
 <h3>Effect Size and Statistical Power</h3>
-<p>In this study, the observed difference in proportions was 0.045, so we actually did observe a higher proportion of sample participants choose the disinfectant wipes in the group that wrote about an unethical deed.</p>
+<p>In this study, the observed difference in proportions was 0.035, so we actually did observe a higher proportion of sample participants choose the disinfectant wipes in the group that wrote about an unethical deed.</p>
 <p>The phrase <strong>statistical power</strong> describes the ability of an experiment to statistically identify a true effect. More specifically, statistical power is the <em>probability of rejecting a false null hypothesis</em> presuming a given <em>effect size</em>.</p>
 <p>As you might expect, a study’s sample size is arguably the greatest factor influencing its statistical power. It is possible for a study to fail to reject an incorrect null hypothesis because the study’s sample size was too small to provide sufficient statistical power. In this section, we’ll look at the statistical power of this study.</p>
 <p><strong>Question #4</strong>: Is it possible that the hypothesis test you performed in Question #3 led to an error? What type of error might this have been (ie: Type I or Type II)?</p>
-<p><strong>Question #5</strong>: Consider using the sample difference in proportions (0.045) to construct a 95% confidence interval estimate. What would the <em>margin of error</em> of this interval be?</p>
-<p><strong>Question #6</strong>: Suppose you had the ability to increase the <span class="math inline">\(n_1\)</span> and <span class="math inline">\(n_2\)</span> values used in the standard error used in this confidence interval’s margin of error (in Question #5). By trial and error, how large would each group need to be for the interval to no longer suggest a difference of zero is plausible?</p>
+<p><strong>Question #5</strong>: Consider using the sample difference in proportions (0.035) to construct a 95% confidence interval estimate. What would the <em>margin of error</em> of this interval be?</p>
+<p><strong>Question #6</strong>: Suppose you had the ability to increase the <span class="math inline">\(n_1\)</span> and <span class="math inline">\(n_2\)</span> values used in the standard error used in this confidence interval’s margin of error (in Question #5). By trial and error, how large would each group need to be for the interval to no longer suggest a difference of zero is plausible? (Hint: start by multiplying the original sample sizes by a factor 10 and see how this impacts the MOE)</p>
 <p><span class="math inline">\(~\)</span></p>
 </div>
 </div>
