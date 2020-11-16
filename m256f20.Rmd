@@ -45,7 +45,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Analysis of Variance (11/2 and 11/4)](m256f20/anova.pdf)
 - [Regression (11/6 and 11/9)](m256f20/reg1.pdf)
 - [Exam #3 Topics and Format](m256f20/exam_3_topics.html)
-- Correlation (11/16)
+- [Correlation (11/16)](m256f20/reg2.pdf)
 
 ```{r, include = FALSE, eval = FALSE}
 #
