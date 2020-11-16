@@ -142,6 +142,8 @@ In response to COVID-19, all submissions will done electronically via Canvas and
 - Information on the class project can be [found here](m256f20/project_2020.html)
     - The first due-date is Monday 10/26 when you must submit your project proposal via Canvas
     - The second due-date is Monday 11/9 when you must have finalized and submitted your project dataset
+    - Please consider using [this template](m256f20/project_rmd_template.txt) by pasting its contents into a blank .Rmd file
+    - Information on how your project will be graded is [available here](m256f20/Project_Rubric.docx)
 - Exam #3 is tentatively planned for Friday 11/13 at 9:00am
     - You can find information on the [Exam #3 Topics and Format here](m256f20/exam_3_topics.html)
 
