@@ -125,7 +125,7 @@ Please watch the videos for a given week *before* you come to class that week.  
 - Week 13 (11/9 - 11/13)
     - [Comparing Groups (categorical outcomes)](m156f20/week13_case_studies.html)
 - Week 14 (11/16 - 11/20)
-    - Comparing Groups (quantitative outcomes)
+    - [Comparing Groups (quantitative outcomes)](m156f20/week14_case_studies.html)
 - Week 15 (11/24)
     - No in-person class this week
     - You are expected to complete the practice final exam
