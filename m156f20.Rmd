@@ -89,7 +89,7 @@ Please watch the videos for a given week *before* you come to class that week.  
     - Two-sample Quantitative data (T-test)- [slides](m156f20/two_sample_quant.pdf) - [video](https://youtu.be/pn_n4aOEa3w)
     - Two-sample Quantitative data (Confidence Intervals) - [slides](m156f20/two_sample_quant.pdf) - [video](https://youtu.be/vvO_y41GgKY)
 - Week 15 (11/24)
-    - Practice Final Exam - pdf - video solution
+    - Study Guide and Practice Final Exam Questions - [link](m156f20/final_exam_review.html) - [video solution](https://youtu.be/Hxws15zQUTA)
     
     
 ### In-class Activities
@@ -128,7 +128,7 @@ Please watch the videos for a given week *before* you come to class that week.  
     - [Comparing Groups (quantitative outcomes)](m156f20/week14_case_studies.html)
 - Week 15 (11/24)
     - No in-person class this week
-    - You are expected to complete the practice final exam
+    - You are expected to complete the [practice final exam questions](m156f20/final_exam_review.html)
     
     
 ### Recommended Readings
