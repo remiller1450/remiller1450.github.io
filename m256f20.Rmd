@@ -146,6 +146,9 @@ In response to COVID-19, all submissions will done electronically via Canvas and
     - Information on how your project will be graded is [available here](m256f20/Project_Rubric.docx)
 - Exam #3 is tentatively planned for Friday 11/13 at 9:00am
     - You can find information on the [Exam #3 Topics and Format here](m256f20/exam_3_topics.html)
+- The Final Exam date is Wednesday 12/2 (available all day)
+    - The Final is open-notes and cumulative - you should review all past exams, lectures, and assignments to prepare
+
 
 ### Datasets
 

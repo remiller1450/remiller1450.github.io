@@ -1,0 +1,81 @@
+---
+title: "MATH 257 - Data Modeling (Spring 2020)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+<img style="float: right; width:100%" src="xu_logo.png"> 
+
+$~$
+
+### Schedule and Syllabus
+
+Welcome to course website for MATH 257 - Data Modeling!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
+
+- [Click here](syllabus256f20.html) to view the course syllabus
+
+You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we've reached that point in the course.
+
+
+### Lecture Slides and Videos
+
+Lectures will be self-paced and focus mostly on conveying conceptual material and relevant examples.  You should watch these videos, and complete the corresponding comprehension quiz on Canvas, *before* coming to class on your in-person day.
+
+- Week 1 (1/19 and 1/21)
+    - Introduction to modeling - slides - video 1
+    - Review of statistical inference - slides - video 1 - video 2 - video 3
+- Week 2 (1/26 and 1/28)
+    - Using graphs to identify trends
+    - Confounding variables
+- Week 3 (2/2 and 2/4)
+    - Statistical vs. algorithmic data models - slides - video
+    - Simple linear regression - slides - video
+    - K-nearest neighbors - slides - video
+
+
+### In-class Assignments
+
+In-class assignments will focus on applications in R.  They will contain numerous embedded questions, some which we will discuss as a group during class, and others that you are responsible for completing on your own.  At the end of each week, you'll be expected to submit your responses to these questions via Canvas in the form of a compiled R Markdown document.
+
+- Week 1 (1/19 and 1/21)
+    - R programming fundamentals
+    - Submit via Canvas by Friday 1/22 at 11:59pm
+- Week 2 (1/26 and 1/28)
+    - Data Exploration in R
+    - Submit via Canvas by Friday 1/29 at 11:59pm
+- Week 3 (2/2 and 2/4)
+    - Simple linear regression and K-nearest neighbors
+    - Submit via Canvas by Friday 2/5 at 11:59pm
+    
+### Recommended Readings
+
+The readings listed below are *recommended* prior to attending class. It has been my observation that students who diligently complete these readings have been the most successful.
+
+- Week 1 (1/19 and 1/21)
+    - Coming soon
+- Week 2 (1/26 and 1/28)
+    - Coming soon
+- Week 3 (2/2 and 2/4)
+    - Coming soon
+    
+### Problem Sets
+
+There will be five problem sets throughout the semester containing a mixture of conceptual, theoretical, and applied problems.  These assignments are lengthy, so if you wait until the last minute to begin them you'll likely not have enough time.  I suggest beginning each problem set shortly after it is assigned.
+
+- [Problem Set #1](m257s21/HW1.html)
+   - Assigned: Tuesday Jan 19th, Due: Friday Feb 5th at 11:59pm
+   - You should submit your responses via Canvas
+   - I encourage you to write your solutions in R Markdown (though this is not a requirement)
+- Problem Set #2
+
+### Announcements and Other Materials 
+
+- None yet
+
+### Datasets
+
+- 
