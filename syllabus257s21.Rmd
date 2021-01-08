@@ -16,27 +16,30 @@ output:
 
 **Class Meetings**: 
 
-- Location: TBD, T/TH 1-2:15pm
+- Location: Alter 101, T/TH 1-2:15pm
 
 **Office Hours**
 
-- *Virtual* office hours will at Dates/Times TBD in the following Zoom meeting room: https://xavier.zoom.us/my/ryanmiller33
+- *Virtual* office hours will held at the times listed below in the following Zoom meeting room (see Canvas for the password): https://xavier.zoom.us/my/ryanmiller33
+    - Monday 10:00-11:00am
+    - Wednesday 2:00-3:00pm
+    - Thursday 2:30-3:30pm
 
 ## Course Description
 
-Exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, Analysis of Variance, multiple comparisons, and experimental design.
+Exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, and experimental design.
 
 ### Textbooks
 
-Readings and homework will be assigned from the sources listed below.  Please note, the majority of course topics will come from the Mendenhall text, while the other two books are available for free online.
+Readings and homework questions will be assigned from the sources listed below.
 
-1. [A Second Course in Statistics: Regression Analysis](https://www.pearson.com/store/p/second-course-in-statistics-a-regression-analysis/P100000772506/9780321831453?tab=table-of-contents) 7th edition (2012) by Mendenhall and Sincich (required)
+1. [A Second Course in Statistics: Regression Analysis](https://www.pearson.com/store/p/second-course-in-statistics-a-regression-analysis/P100000772506/9780321831453?tab=table-of-contents) 7th edition (2012) by Mendenhall and Sincich 
 2. [An Introduction to Statistical Learning](https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani (free and online)
 3. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham (free and online) 
 
 ### Website
 
-- Some materials can be found the course Canvas page; however, many of these may simply be links to: https://remiller1450.github.io/m257s21.html, where you will find everything for the course (other than your grades)
+- Some materials can be found the course Canvas page; however, most will be links to: https://remiller1450.github.io/m257s21.html, where you will find everything for the course (other than your grades)
 
 ### Course Aims:
 
@@ -44,7 +47,7 @@ This primary aim of this course is to provide students with hands on experience 
 
 ### Learning Objectives:
 
-Specific learning outcomes, with respect ot the core curriculum at Xavier, include:
+Specific learning outcomes, with respect to the curriculum guidelines at Xavier, include:
 
 - (1a) Students recognize and cogently discuss significant questions in the humanities, arts, and
 the natural and social sciences
@@ -61,17 +64,22 @@ You can install `R` and `R Studio` on your personal computer in two easy steps:
 1.	First, download and install `R` from http://www.r-project.org/
 2.	Second, download and install the `R Studio` user interface from http://www.rstudio.com/ 
 
-Note that R Studio is also available on some campus computers.
+R Studio is also installed and available on some campus computers.
 
 ### Course Structure
 
-Due the COVID-19 pandemic our classroom capacity is limited, which leads this course to be structured somewhat differently than other courses you've taken.  This semester we will what I will refer to as a *semi-synchronous* model:
+We are fortunate to have a large enough classroom and a small enough class size to enable the course to operate as it normally would in past years.  For this reason, all students are expected to attend class in-person on both Tuesday and Thursday.  Accordingly, attendance via Zoom is only acceptable if you have a verified medical reason for not attending class in-person.
 
-- The class roster will be split into two groups: Tuesday and Thursday
-   - You only attend a synchronous class (in-person) on your assigned day
-- The remainder of the week you are responsible for a series of asynchronous tasks that must be completed before you come to class
-   - These include some combination of recorded lectures, textbook reading, homework assignments, and comprehension quizzes administered via Canvas
-- The idea is that everyone in the class completes the same activities within a given week, but they do so at different times
+Because data modeling is such a hands-on subject, the majority of class time will be devoted to working through guided labs in a paired programming setting.  In a typical week you might expect the following:
+
+- Tuesday:
+    - Short 20-30 minute lecture introducing a topic
+    - 40-45 minutes to start that week's lab
+- Thursday:
+    - Another 20-30 minute lecture expanding upon Tuesday's topic or presenting a case study
+    - 40-45 minutes to finish that week's lab
+
+You are expected to use our in-class time wisely and as an instructor I will be checking in with each pair/individual regularly throughout the time devoted to lab.
 
 ## Policies
 
@@ -79,7 +87,7 @@ In accordance with the values of Xavier University, students are expected to adh
 
 ### Attendance
 
-Students are expected to attend all scheduled lectures assigned to them.  The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
+Students are expected to attend all scheduled class sessions. The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
 
 ### Academic Honesty
 
@@ -96,27 +104,28 @@ MATH 257 is a major-level course, so drop-in tutoring at the Mathematics Lab and
 
 **Projects**
 
-- Midterm #1 (Data Exploration and One-variable Regression) - 15%
-- Midterm #2 (Multiple Regression and Model Evaluation) - 15%
+- Midterm #1 (Data Exploration and Basic Models) - 15%
+- Midterm #2 (Multi-variable Models) - 15%
 - Final (Comprehensive) - 25%
-
-**Quizzes**
-
-- Weekly comprehension quizzes on Canvas - 15%
-
-These are intended to be a low-stakes way of holding you accountable for the asynchronous activities required in this class.  You will have 2 attempts at each quiz, and the questions should be relatively easy if you have done the prerequisite work.
 
 **Problem Sets**
 
-- 6 bi-weekly problem sets - 15%
+- 5ish problem sets - 15%
 
-These are intended to be on-your-own practice with key course concepts.  They will be assigned out of the textbook and will generally be due every other Friday throughout the semester
+These are intended to be on-your-own practice with key course concepts. Questions will be assigned out of the course textbooks. You will have 2-3 weeks to work indpendently on each problem set, with due-dates typically being on Fridays.
 
 **In-class Labs**
 
-- Weekly in-class lab assignments - 15%
+- 10ish weekly in-class labs - 25%
 
-These are intended to be completed primary (90%+) during classtime with a partner.  We will go over the majority of questions on these labs, and the overall idea is to provide guided practice applying methods introduced during the asynchronous portion of the class using `R`.
+These are intended to be completed primary (90%+) during classtime with a partner.  Often we will go over some of the lab questions together while we are working on the lab, with the remaining questions being used to determine your score.
+
+**Attendance and Participation**
+
+- 5%
+
+As an incentive to dilligently attend class and participate, the remaining 5% of your end-of-semester grade will be determined by your attendence and participation record. So long as you are regularly coming to class, communicating any absences ahead of time, and using class-time appropriately you can expect to receive a full-credit in this category.
+
 
 ### Overall Course Grades
 

@@ -11,7 +11,7 @@
 
 
 
-<title>MATH 257: Data Modeling</title>
+<title>MATH 156: General Statistics</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -328,7 +328,7 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">MATH 257: Data Modeling</h1>
+<h1 class="title toc-ignore">MATH 156: General Statistics</h1>
 
 </div>
 
@@ -341,7 +341,7 @@ div.tocify {
 </ul>
 <p><strong>Class Meetings</strong>:</p>
 <ul>
-<li>Location: Alter 101, T/TH 1-2:15pm</li>
+<li>Location: Alter 102, T/TH 8:30-9:45AM (Section 01) and T/TH 10:00-11:15AM (Section 02)</li>
 </ul>
 <p><strong>Office Hours</strong></p>
 <ul>
@@ -355,29 +355,30 @@ div.tocify {
 </div>
 <div id="course-description" class="section level2">
 <h2>Course Description</h2>
-<p>Exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, and experimental design.</p>
-<div id="textbooks" class="section level3">
-<h3>Textbooks</h3>
-<p>Readings and homework questions will be assigned from the sources listed below.</p>
-<ol style="list-style-type: decimal">
-<li><a href="https://www.pearson.com/store/p/second-course-in-statistics-a-regression-analysis/P100000772506/9780321831453?tab=table-of-contents">A Second Course in Statistics: Regression Analysis</a> 7th edition (2012) by Mendenhall and Sincich</li>
-<li><a href="https://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf">An Introduction to Statistical Learning</a> by James, Witten, Hastie, and Tibshirani (free and online)</li>
-<li><a href="https://r4ds.had.co.nz/">R for Data Science</a> by Grolemund and Wickham (free and online)</li>
-</ol>
+<p>An introduction to the major concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.</p>
+<div id="text" class="section level3">
+<h3>Text</h3>
+<p>This course will follow the textbook listed below. Homework problems will be assigned from the text, but readings from the will be optional (though strongly encouraged).</p>
+<ul>
+<li><em>Stats, data &amp; models</em> 5th edition by DeVeaux, Vellemen, and Bock</li>
+</ul>
 </div>
 <div id="website" class="section level3">
 <h3>Website</h3>
 <ul>
-<li>Some materials can be found the course Canvas page; however, most will be links to: <a href="https://remiller1450.github.io/m257s21.html" class="uri">https://remiller1450.github.io/m257s21.html</a>, where you will find everything for the course (other than your grades)</li>
+<li>All course materials will be posted on the following webpage: <a href="https://remiller1450.github.io/m156f20.html" class="uri">https://remiller1450.github.io/m156f20.html</a>
+<ul>
+<li>Grades and Quizzes will be posted on Canvas</li>
+</ul></li>
 </ul>
 </div>
 <div id="course-aims" class="section level3">
 <h3>Course Aims:</h3>
-<p>This primary aim of this course is to provide students with hands on experience implementing statistical models to real datasets in the <code>R</code> programming environment. This includes all steps of the analysis pipeline, including: exploratory data analysis and data visualization, model selection, model evaluation, and statistical inference</p>
+<p>This course intends to teach students to identify patterns in data using visualizations and statistical methods. It will focus on building foundational understanding of fundamental statistical techniques, proper interpretation of results, and clear communication of these ideas in written and oral formats.</p>
 </div>
 <div id="learning-objectives" class="section level3">
 <h3>Learning Objectives:</h3>
-<p>Specific learning outcomes, with respect to the curriculum guidelines at Xavier, include:</p>
+<p>Specific learning outcomes, with respect to the core curriculum at Xavier, include:</p>
 <ul>
 <li>(1a) Students recognize and cogently discuss significant questions in the humanities, arts, and the natural and social sciences</li>
 <li>(2a) Students find, evaluate, and logically convey information and ideas in written and oral form</li>
@@ -386,73 +387,48 @@ div.tocify {
 </div>
 <div id="software" class="section level3">
 <h3>Software</h3>
-<p>In the modern era, statisticians (along with most scientific professionals) rely upon software. In this course you will be required to use <code>R</code> (typically through the <code>R Studio</code> GUI). <code>R</code> is an open-source software that is generally regarded as the industry standard amongst professional statisticians. Throughout the course you will work through guided labs which will simultaneously promote proficiency in <code>R</code> programming and applied statistical analysis.</p>
-<p>You can install <code>R</code> and <code>R Studio</code> on your personal computer in two easy steps:</p>
-<ol style="list-style-type: decimal">
-<li>First, download and install <code>R</code> from <a href="http://www.r-project.org/" class="uri">http://www.r-project.org/</a></li>
-<li>Second, download and install the <code>R Studio</code> user interface from <a href="http://www.rstudio.com/" class="uri">http://www.rstudio.com/</a></li>
-</ol>
-<p>R Studio is also installed and available on some campus computers.</p>
+<p>In the modern era, statisticians (along with most scientific professionals) rely upon software to carry out their day to day work. While this course is not intended to be focused on any particular software package, you can expect to use software programs like Microsoft Excel and various online web-applets to explore and analyze real data.</p>
 </div>
 <div id="course-structure" class="section level3">
 <h3>Course Structure</h3>
-<p>We are fortunate to have a large enough classroom and a small enough class size to enable the course to operate as it normally would in past years. For this reason, all students are expected to attend class in-person on both Tuesday and Thursday. Accordingly, attendance via Zoom is only acceptable if you have a verified medical reason for not attending class in-person.</p>
-<p>Because data modeling is such a hands-on subject, the majority of class time will be devoted to working through guided labs in a paired programming setting. In a typical week you might expect the following:</p>
-<ul>
-<li>Tuesday:
-<ul>
-<li>Short 20-30 minute lecture introducing a topic</li>
-<li>40-45 minutes to start that week’s lab</li>
-</ul></li>
-<li>Thursday:
-<ul>
-<li>Another 20-30 minute lecture expanding upon Tuesday’s topic or presenting a case study</li>
-<li>40-45 minutes to finish that week’s lab</li>
-</ul></li>
-</ul>
-<p>You are expected to use our in-class time wisely and as an instructor I will be checking in with each pair/individual regularly throughout the time devoted to lab.</p>
-</div>
-</div>
-<div id="policies" class="section level2">
-<h2>Policies</h2>
-<p>In accordance with the values of Xavier University, students are expected to adhere to the following policies:</p>
-<div id="attendance" class="section level3">
-<h3>Attendance</h3>
-<p>Students are expected to attend all scheduled class sessions. The instructor reserves the right to lower final course grades in response to repeated, unexcused absences. Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.</p>
-</div>
-<div id="academic-honesty" class="section level3">
-<h3>Academic Honesty</h3>
-<p>Students will be required to sign an Honor Pledge on certain assignments: <em>“As a student at Xavier University, I have neither given nor received unauthorized aid on this assignment/exam. (Student signature)”</em>. Assignments and exams will explicitly describe what constitutes authorized versus unauthorized aid.</p>
-<p>In general, collaborate work is highly encouraged in this course; however, your homework write-ups should be your own individual work. Copying solutions from anyone or any source without full disclosure is considered cheating. If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) you should indicate this on your assignment (a simple statement like “I worked with Jack and Jill on problems 1-3” is enough).</p>
-</div>
-<div id="campus-resources" class="section level3">
-<h3>Campus Resources</h3>
-<p>MATH 257 is a major-level course, so drop-in tutoring at the Mathematics Lab and one-on-one tutoring through the Office of Academic Support are generally not available. The first place you should go with questions related to course material is the course instructor. Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful. For more information, visit the <a href="https://www.xavier.edu/success/success-coaching/index">Student Success Center website</a>.</p>
+<p>Due to the ongoing COVID-19 pandemic, students will attend <em>only one</em> of the two scheduled in-person class sessions each week. You will have an opportunity to sign-up to attend day of your choice (either Tuesday or Thursday) prior to the start of the semester.</p>
+<p>In a typical week you will be expected to do the following (in this order!):</p>
+<ol style="list-style-type: decimal">
+<li>Watch a series of short lecture videos on your own</li>
+<li>Take an online comprehension quiz covering these videos (can retake twice)</li>
+<li>Attend your in-person session</li>
+<li>Upload your write-up from the in-person session to Canvas</li>
+<li>Complete and electronically submit that week’s problem set</li>
+</ol>
+<p>Because we may discuss quiz questions as early as Tuesday at 8:30am, <em>all students</em> must complete 1 and 2 by 8:30am on Tuesdays.</p>
+<p>During in-person class sessions you will practice concepts from these lectures, usually by analyzing interesting real data examples in small groups.</p>
 </div>
 </div>
 <div id="grading" class="section level2">
 <h2>Grading</h2>
-<p><strong>Projects</strong></p>
+<p><strong>Weekly Assignments</strong></p>
 <ul>
-<li>Midterm #1 (Data Exploration and Basic Models) - 15%</li>
-<li>Midterm #2 (Multi-variable Models) - 15%</li>
-<li>Final (Comprehensive) - 25%</li>
+<li>Problem Sets - 20%</li>
+<li>In-class Activities - 10%</li>
+<li>Comprehension Quizzes - 10%</li>
 </ul>
-<p><strong>Problem Sets</strong></p>
+<p>There will be 10 roughly problem sets, in-class activities (excluding exams), and comprehension quizzes throughout the semester.</p>
+<p>Problem sets will be assigned from the textbook. They are to be completed individually and submitted via Canvas as a pdf (there are free apps available to help you do this with your cell phone). Additionally, you <em>must acknowledge</em> any sources of collaboration on your submission (ie: write “I worked with Jimmy” on your paper).</p>
+<p>Most in-class activities will require you to submit short reflection or summary of the main points of the activity. This will be done via Canvas, and you will receive credit for the quality of your submissions</p>
+<p>Comprehension quizzes are to be completed on Canvas each week. You may retake these quizzes up to three times to improve your score.</p>
+<p><strong>Exams</strong></p>
 <ul>
-<li>5ish problem sets - 15%</li>
+<li>Exam 1 (Descriptive Statistics and Probability) - 20%</li>
+<li>Exam 2 (Statistical Inference) - 20%</li>
 </ul>
-<p>These are intended to be on-your-own practice with key course concepts. Questions will be assigned out of the course textbooks. You will have 2-3 weeks to work indpendently on each problem set, with due-dates typically being on Fridays.</p>
-<p><strong>In-class Labs</strong></p>
+<p>All exams will be announced at least 14 calendar days ahead of time and will be administered via Canvas. Formulas and calculators will be provided as necessary. You can expect Exam 1 to take place near the mid-point of the semester, and Exam 2 to take place near the end of the semester.</p>
+<p>These exams are intended to test how deeply you understand the key concepts of the course, they are not meant to test memorization or arithmetic skills. Consequently, you should be prepared for a substantial amount of writing during exams.</p>
+<p><strong>Final Project</strong></p>
 <ul>
-<li>10ish weekly in-class labs - 25%</li>
+<li>Intermediate Steps - 5%</li>
+<li>Final Report - 15%</li>
 </ul>
-<p>These are intended to be completed primary (90%+) during classtime with a partner. Often we will go over some of the lab questions together while we are working on the lab, with the remaining questions being used to determine your score.</p>
-<p><strong>Attendance and Participation</strong></p>
-<ul>
-<li>5%</li>
-</ul>
-<p>As an incentive to dilligently attend class and participate, the remaining 5% of your end-of-semester grade will be determined by your attendence and participation record. So long as you are regularly coming to class, communicating any absences ahead of time, and using class-time appropriately you can expect to receive a full-credit in this category.</p>
+<p>Rather than a traditional final exam, this class will feature a comprehensive project. Additional information will come towards the end of the semester, but you will be given the choice to either a conduct and report on your own analysis of an approved dataset, or summarize and critique the statistical methods used in a published research paper in your primary field of study. You will have the option to work alone or with a partner of your choosing on this project.</p>
 <div id="overall-course-grades" class="section level3">
 <h3>Overall Course Grades</h3>
 <p>The following grade cutoffs will be used:</p>
@@ -471,6 +447,32 @@ div.tocify {
 <li>F [0, 60)</li>
 </ul>
 <p>The course instructor reserves the right to adjust these thresholds <em>downward</em>, but <em>not upward</em> at the end of the semester.</p>
+</div>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies</h2>
+<p>In accordance with the values of Xavier University, students are expected to adhere to the following policies:</p>
+<div id="attendance" class="section level3">
+<h3>Attendance</h3>
+<p>Students are expected to attend all scheduled lectures assigned to them. The instructor reserves the right to lower final course grades in response to repeated, unexcused absences. Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.</p>
+</div>
+<div id="attending-the-class-virtually" class="section level3">
+<h3>Attending the Class Virtually</h3>
+<p>In the event of circumstances that prevent you from physically attending your in-person session, you may attend via Zoom if you communicate your situation in advance and receive instructor approval. Please note, this class is not intended for a completely remote audience and it will likely be more challenging for you to complete in-class activities virtually.</p>
+</div>
+<div id="academic-honesty" class="section level3">
+<h3>Academic Honesty</h3>
+<p>Students will be required to sign an Honor Pledge on certain assignments: <em>“As a student at Xavier University, I have neither given nor received unauthorized aid on this assignment/exam. (Student signature)”</em>. Assignments and exams will explicitly describe what constitutes authorized versus unauthorized aid.</p>
+<p>In general, collaborate work is highly encouraged in this course; however, your homework write-ups should be your own individual work. Copying solutions from anyone or any source without full disclosure is considered cheating. If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) you should indicate this on your assignment (a simple statement like “I worked with Jack and Jill on problems 1-3” is enough).</p>
+</div>
+<div id="late-assignments" class="section level3">
+<h3>Late Assignments</h3>
+<p>Late work may be accepted on a case-by-case basis; however, <em>all</em> late assignments must be submitted via email. Quizzes that are taken after the Tuesday 8:30am deadline will be subject to a 0.8 multiplier (ie: a 10/10 becomes and 8/10, and an 8/10 becomes a 6.4/10).</p>
+</div>
+<div id="campus-resources" class="section level3">
+<h3>Campus Resources</h3>
+<p>The Math Lab staffs tutors that are specifically intended to provide help in this course. Please visit the <a href="https://www.xavier.edu/mathematics-department/math-lab">Math Lab website</a> for hours and additional information.</p>
+<p>The Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful. For more information, visit the <a href="https://www.xavier.edu/success/success-coaching/index">Student Success Center website</a>.</p>
 </div>
 </div>
 

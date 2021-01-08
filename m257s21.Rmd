@@ -16,40 +16,48 @@ $~$
 
 Welcome to course website for MATH 257 - Data Modeling!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
 
-- [Click here](syllabus256f20.html) to view the course syllabus
+- [Click here](syllabus257s21.html) to view the course syllabus
 
 You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we've reached that point in the course.
 
 
-### Lecture Slides and Videos
+### Lecture Slides
 
-Lectures will be self-paced and focus mostly on conveying conceptual material and relevant examples.  You should watch these videos, and complete the corresponding comprehension quiz on Canvas, *before* coming to class on your in-person day.
+Lectures in this class will be relatively short, consisting of roughly 20-30 minutes of presentation at the beggining of each class meeting. They will focus on the fundamental concepts and theory that are necessary precursors to the topics for that day/week.
 
-- Week 1 (1/19 and 1/21)
-    - Introduction to modeling - slides - video 1
-    - Review of statistical inference - slides - video 1 - video 2 - video 3
-- Week 2 (1/26 and 1/28)
-    - Using graphs to identify trends
+- Week 1 - Introduction (1/19 and 1/21)
+    - What is modeling?
+    - Review of statistical inference
+- Week 2 - Data Exploration (1/26 and 1/28)
+    - Data exploration
     - Confounding variables
-- Week 3 (2/2 and 2/4)
-    - Statistical vs. algorithmic data models - slides - video
-    - Simple linear regression - slides - video
-    - K-nearest neighbors - slides - video
+- Week 3 - Basic Models - part 1 (2/2 and 2/4)
+    - Simple linear regression
+    - K-nearest neighbors
+- Week 4 - Basic Models - part 2 (2/9 and 2/11)
+    - Evaluating model fit
+    - Inference
 
+### In-class Labs
 
-### In-class Assignments
+The majority of in-person class time will be devoted to working on hands-on labs. These assignments will focus on connecting the concepts/theory from lectures with practical applications. 
 
-In-class assignments will focus on applications in R.  They will contain numerous embedded questions, some which we will discuss as a group during class, and others that you are responsible for completing on your own.  At the end of each week, you'll be expected to submit your responses to these questions via Canvas in the form of a compiled R Markdown document.
+In general, labs are to be completed with a partner, with responses to the embedded questions due on Mondays. You and your partner can expect to receive roughly 45 minutes of class time each day to work through these labs, which should be sufficient to come close to finishing them.  This in-class time investment is very important to succeeding in this course, and you should expect check-ins with the instructor to ensure you're making good progress.
 
 - Week 1 (1/19 and 1/21)
     - R programming fundamentals
-    - Submit via Canvas by Friday 1/22 at 11:59pm
+    - Submit via Canvas by Monday 1/25 at 11:59pm
 - Week 2 (1/26 and 1/28)
     - Data Exploration in R
-    - Submit via Canvas by Friday 1/29 at 11:59pm
+    - Submit via Canvas by Monday 2/1 at 11:59pm
 - Week 3 (2/2 and 2/4)
     - Simple linear regression and K-nearest neighbors
-    - Submit via Canvas by Friday 2/5 at 11:59pm
+    - Submit via Canvas by Friday 2/8 at 11:59pm
+- Week 4 (2/9 and 2/11)
+    - Model evaluations and insights
+    - Submit via Canvas by Friday 2/12 at 11:59pm
+- Week 5 (2/16 and 2/18)
+    - Project #1 meetings and presentations
     
 ### Recommended Readings
 
@@ -67,9 +75,9 @@ The readings listed below are *recommended* prior to attending class. It has bee
 There will be five problem sets throughout the semester containing a mixture of conceptual, theoretical, and applied problems.  These assignments are lengthy, so if you wait until the last minute to begin them you'll likely not have enough time.  I suggest beginning each problem set shortly after it is assigned.
 
 - [Problem Set #1](m257s21/HW1.html)
-   - Assigned: Tuesday Jan 19th, Due: Friday Feb 5th at 11:59pm
-   - You should submit your responses via Canvas
-   - I encourage you to write your solutions in R Markdown (though this is not a requirement)
+    - Due: Friday Feb 5th at 11:59pm
+    - You should submit your responses via Canvas
+    - I encourage you to write your solutions in R Markdown (this is not a requirement)
 - Problem Set #2
 
 ### Announcements and Other Materials 
@@ -78,4 +86,8 @@ There will be five problem sets throughout the semester containing a mixture of 
 
 ### Datasets
 
-- 
+- [Golden State Warriors](https://remiller1450.github.io/data/GSWarriors.csv)
+    - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+    
