@@ -25,7 +25,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 Please watch the video lectures for each week *prior to 8:30am Tuesday morning* of that week.  After watching these lectures, you are expected to complete a comprehension quiz on Canvas.  This quiz must be finished by 8:30am Tuesday morning, as we will go over any commonly missed questions at the start of class.
 
 - Week 1 (1/19 and 1/21)
-    - Nothing prior to this week, but you should begin the week 2 material
+    - Nothing this week, but you should begin working through the asynchronous Week 2 material
 - Week 2 (1/26 and 1/28)
     - Data Basics 
     - Quantitative Variables

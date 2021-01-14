@@ -16,7 +16,7 @@ output:
 
 **Class Meetings**: 
 
-- Location: Alter 102, T/TH 8:30-9:45AM (Section 01) and T/TH 10:00-11:15AM (Section 02)
+- Location: Alter 102, T/TH 10:00-11:15AM (Section 01) and T/TH 8:30-9:45AM (Section 02)
 
 **Office Hours**
 
@@ -37,7 +37,7 @@ This course will follow the textbook listed below.  Homework problems will be as
 
 ### Website
 
-- All course materials will be posted on the following webpage: https://remiller1450.github.io/m156f20.html
+- All course materials will be posted on the following webpage: https://remiller1450.github.io/m156s21.html
     - Grades and Quizzes will be posted on Canvas
 
 ### Course Aims:
@@ -80,7 +80,7 @@ During in-person class sessions you will practice concepts from these lectures, 
 
 - Problem Sets - 20%
 - In-class Activities - 10%
-- Comprehension Quizzes - 10%
+- Comprehension Quizzes - 15%
 
 There will be 10 roughly problem sets, in-class activities (excluding exams), and comprehension quizzes throughout the semester.  
 
@@ -101,8 +101,8 @@ These exams are intended to test how deeply you understand the key concepts of t
 
 **Final Project**
 
-- Intermediate Steps - 5%
-- Final Report - 15%
+- Intermediate Steps - 3%
+- Final Report - 12%
 
 Rather than a traditional final exam, this class will feature a comprehensive project.  Additional information will come towards the end of the semester, but you will be given the choice to either a conduct and report on your own analysis of an approved dataset, or summarize and critique the statistical methods used in a published research paper in your primary field of study.  You will have the option to work alone or with a partner of your choosing on this project.
 

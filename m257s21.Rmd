@@ -64,9 +64,12 @@ In general, labs are to be completed with a partner, with responses to the embed
 The readings listed below are *recommended* prior to attending class. It has been my observation that students who diligently complete these readings have been the most successful.
 
 - Week 1 (1/19 and 1/21)
-    - Coming soon
+    - [R for Data Science - Ch. 4 and 5 (Basic workflow and data transformation)](https://r4ds.had.co.nz/workflow-basics.html)
+    - [R for Data Science - Ch. 23 (Model basics)](https://r4ds.had.co.nz/model-basics.html)
+    - [ISLR - Ch 1 (Introduction)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
 - Week 2 (1/26 and 1/28)
-    - Coming soon
+    - [R for Data Science - Ch. 3 (Data visualization)](https://r4ds.had.co.nz/data-visualisation.html)
+    - A Second Course in Statistics - Ch 1.8 and 1.9 (Review of Stat Inference)
 - Week 3 (2/2 and 2/4)
     - Coming soon
     
