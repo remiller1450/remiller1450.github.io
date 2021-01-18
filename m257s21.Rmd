@@ -78,10 +78,10 @@ The readings listed below are *recommended* prior to attending class. It has bee
     
 ### Problem Sets
 
-There will be five problem sets throughout the semester containing a mixture of conceptual, theoretical, and applied problems.  These assignments are lengthy, so if you wait until the last minute to begin them you'll likely not have enough time.  I suggest beginning each problem set shortly after it is assigned.
+There will be 4-5 problem sets assigned throughout the semester. These assignments can sometimes be quite lengthy, so if you wait until the last minute to begin them you'll likely not have enough time.
 
 - [Problem Set #1](m257s21/HW1.html)
-    - Due: Friday Feb 5th at 11:59pm
+    - Due: Friday Feb 12th at 11:59pm
     - You should submit your responses via Canvas
     - I encourage you to write your solutions in R Markdown (this is not a requirement)
 - Problem Set #2
