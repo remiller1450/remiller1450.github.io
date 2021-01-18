@@ -27,10 +27,10 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
 - Week 1 (1/19 and 1/21)
     - Nothing this week, but you should begin working through the asynchronous Week 2 material
 - Week 2 (1/26 and 1/28)
-    - Data Basics 
-    - Quantitative Variables
-    - Categorical Variables
-    - Contingency Tables
+    - Data Basics - slides - video
+    - Quantitative Variables - slides - video
+    - Categorical Variables - slides - video
+    - Contingency Tables - slides - video
     
     
 ### In-class Activities
@@ -38,7 +38,7 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
 Found below are links to the activities we will complete in class.  You are expected to submit a write-up containing your answers to questions contained within these activities via Canvas at the end of class.
 
 - Week 1 (1/19 and 1/21)
-    - Introduction
+    - [Introduction](m156s21/week1.html)
     
 ### Recommended Readings
 
@@ -53,7 +53,7 @@ Problem sets are generally due by 11:59pm every Friday (with a few exceptions du
 
 Due to COVID-19, all submissions will done electronically via Canvas.  Please submit a single pdf file following the guidelines described in the course syllabus.
 
-- HW #1: TBD
+- HW #1: 1.9, 1.10, 1.40, 2.12, 2.18, 2.60, 2.62, 3.1, 3.2, 3.5, 3.6
     - Due date: Friday 1/29 at 11:59pm
 
 
@@ -63,5 +63,21 @@ This class contains a project that is due towards the end of the semester.  Info
 
 ### Datasets
 
-- Coming Soon
+
+- [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
+    - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world. 
+- [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
+    - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
+- [Tips](https://remiller1450.github.io/data/Tips.csv) 
+    - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
+- [Police Killings 2019](https://remiller1450.github.io/data/Police2019.csv) 
+    - These data were compiled by the Washington Post to document all fatal shootings by a US police officer in the line of duty during the year 2019.  Please visit the Washington Post's github repository to read more about the variables that these data contain and the methodology that was used: https://github.com/washingtonpost/data-police-shootings 
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+- [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)    
+    - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  These data were obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
+- [Infant Heart Surgery](https://remiller1450.github.io/data/InfantHeart.csv)
+    - This dataset contains the results of an experiment conducted by surgeons at Harvard Medical School to compare a "low-flow bypass" and "circulatory arrest" surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development. The original dataset has been modified to include covariates to illustrate the concept of balance following random assignment.
+
+
 

@@ -26,7 +26,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 Lectures in this class will be relatively short, consisting of roughly 20-30 minutes of presentation at the beggining of each class meeting. They will focus on the fundamental concepts and theory that are necessary precursors to the topics for that day/week.
 
 - Week 1 - Introduction (1/19 and 1/21)
-    - What is modeling?
+    - [What is modeling?](m257s21/intro.pdf)
     - Review of statistical inference
 - Week 2 - Data Exploration (1/26 and 1/28)
     - Data exploration
@@ -37,6 +37,9 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 - Week 4 - Basic Models - part 2 (2/9 and 2/11)
     - Evaluating model fit
     - Inference
+- Week 5 - Project #1 (2/16 and 2/18)
+    - Work time and meetings on Tuesday
+    - Presentations on Thursday
 
 ### In-class Labs
 
@@ -45,19 +48,19 @@ The majority of in-person class time will be devoted to working on hands-on labs
 In general, labs are to be completed with a partner, with responses to the embedded questions due on Mondays. You and your partner can expect to receive roughly 45 minutes of class time each day to work through these labs, which should be sufficient to come close to finishing them.  This in-class time investment is very important to succeeding in this course, and you should expect check-ins with the instructor to ensure you're making good progress.
 
 - Week 1 (1/19 and 1/21)
-    - R programming fundamentals
-    - Submit via Canvas by Monday 1/25 at 11:59pm
+    - [R programming fundamentals](m257s21/Lab1_intro_R.html)
+    - Submit your answers via Canvas by Monday 1/25 at 11:59pm
 - Week 2 (1/26 and 1/28)
     - Data Exploration in R
-    - Submit via Canvas by Monday 2/1 at 11:59pm
+    - Submit your answers via Canvas by Monday 2/1 at 11:59pm
 - Week 3 (2/2 and 2/4)
     - Simple linear regression and K-nearest neighbors
-    - Submit via Canvas by Friday 2/8 at 11:59pm
+    - Submit your answers via Canvas by Friday 2/8 at 11:59pm
 - Week 4 (2/9 and 2/11)
     - Model evaluations and insights
-    - Submit via Canvas by Friday 2/12 at 11:59pm
+    - Submit your answers via Canvas by Friday 2/12 at 11:59pm
 - Week 5 (2/16 and 2/18)
-    - Project #1 meetings and presentations
+    - Project #1 meetings and presentations (no lab this week)
     
 ### Recommended Readings
 
@@ -85,7 +88,10 @@ There will be five problem sets throughout the semester containing a mixture of 
 
 ### Announcements and Other Materials 
 
-- None yet
+- Project #1 Guidelines
+    - Coming soon
+- Project #2 Guidelines
+    - Coming soon
 
 ### Datasets
 
