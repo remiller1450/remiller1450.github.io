@@ -48,7 +48,7 @@ The majority of in-person class time will be devoted to working on hands-on labs
 In general, labs are to be completed with a partner, with responses to the embedded questions due on Mondays. You and your partner can expect to receive roughly 45 minutes of class time each day to work through these labs, which should be sufficient to come close to finishing them.  This in-class time investment is very important to succeeding in this course, and you should expect check-ins with the instructor to ensure you're making good progress.
 
 - Week 1 (1/19 and 1/21)
-    - [R programming fundamentals](m257s21/Lab1_intro_R.html)
+    - [R programming fundamentals](m257s21/Lab1_Intro_R.html)
     - Submit your answers via Canvas by Monday 1/25 at 11:59pm
 - Week 2 (1/26 and 1/28)
     - Data Exploration in R
