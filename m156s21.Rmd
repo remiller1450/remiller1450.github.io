@@ -27,10 +27,10 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
 - Week 1 (1/19 and 1/21)
     - Nothing this week, but you should begin working through the asynchronous Week 2 material
 - Week 2 (1/26 and 1/28)
-    - Data Basics - slides - video
-    - Quantitative Variables - slides - video
-    - Categorical Variables - slides - video
-    - Contingency Tables - slides - video
+    - Data Basics - [slides](m156s21/week1.pdf) - [video](https://youtu.be/scSbelpxCec)
+    - Quantitative Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/MdmxelRVAYk)
+    - Categorical Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/RHWZO3Ww7xQ)
+    - Contingency Tables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/qCRZdej_Lgs)
     
     
 ### In-class Activities
