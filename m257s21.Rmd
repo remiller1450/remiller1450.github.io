@@ -27,7 +27,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 
 - Week 1 - Introduction (1/19 and 1/21)
     - [What is modeling?](m257s21/intro.pdf)
-    - Review of statistical inference
+    - [Review of statistical inference](m257s21/inf_review.pdf)
 - Week 2 - Data Exploration (1/26 and 1/28)
     - Data exploration
     - Confounding variables
