@@ -24,21 +24,29 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 Please watch the video lectures for each week *prior to 8:30am Tuesday morning* of that week.  After watching these lectures, you are expected to complete a comprehension quiz on Canvas.  This quiz must be finished by 8:30am Tuesday morning, as we will go over any commonly missed questions at the start of class.
 
-- Week 1 (1/19 and 1/21)
+- Week 1 
     - Nothing this week, but you should begin working through the asynchronous Week 2 material
-- Week 2 (1/26 and 1/28)
+- Week 2 - Watch these prior to taking the "Week 2 Comprehension Quiz" on Canvas (deadline Tuesday 1/26 at 8:30am)
     - Data Basics - [slides](m156s21/week1.pdf) - [video](https://youtu.be/scSbelpxCec)
     - Quantitative Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/MdmxelRVAYk)
     - Categorical Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/RHWZO3Ww7xQ)
     - Contingency Tables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/qCRZdej_Lgs)
-    
-    
+- Week 3 - Watch these prior to taking the "Week 3 Comprehension Quiz" on Canvas (deadline Tuesday 2/2 at 8:30am)
+    - Comparing Groups - [slides](m156s21/week2.pdf) - video
+    - Correlation - [slides](m156s21/week2.pdf) - video
+    - Regression - [slides](m156s21/week2.pdf) - video
+
+
 ### In-class Activities
 
 Found below are links to the activities we will complete in class.  You are expected to submit a write-up containing your answers to questions contained within these activities via Canvas at the end of class.
 
 - Week 1 (1/19 and 1/21)
     - [Introduction](m156s21/week1.html)
+- Week 2 (1/26 and 1/28)
+    - [Contingency Tables](m156s21/week2.html)
+- Week 3 (2/2 and 2/4)
+    - Finding Associations
     
 ### Recommended Readings
 
@@ -46,6 +54,7 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 
 - Week 1: None
 - Week 2: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2
+- Week 3: 4.1, 4.2, 6.1, 6.2, 6.4, 7.1, 7.2
     
 ### Problem Sets
 
@@ -55,14 +64,14 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
 
 - HW #1: 1.9, 1.10, 1.40, 2.12, 2.18, 2.60, 2.62, 3.1, 3.2, 3.5, 3.6
     - Due date: Friday 1/29 at 11:59pm
-
+- HW #2: 3.9, 3.10, 3.26, 3.27, 4.16, 4.19, 6.13, 6.14, 6.20, 6.40, 7.2, 7.3
+    - Due date: Friday 2/5 at 11:59pm
 
 ### Project Information
 
 This class contains a project that is due towards the end of the semester.  Information will be posted below as the semester progresses.
 
 ### Datasets
-
 
 - [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
     - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world. 
