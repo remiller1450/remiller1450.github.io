@@ -29,14 +29,14 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [What is modeling?](m257s21/intro.pdf)
     - [Review of statistical inference](m257s21/inf_review.pdf)
 - Week 2 - Data Exploration (1/26 and 1/28)
-    - Data exploration
-    - Confounding variables
+    - [Confounding variables](m257s21/confounds.pdf)
+    - Data transformations
 - Week 3 - Basic Models - part 1 (2/2 and 2/4)
-    - Simple linear regression
-    - K-nearest neighbors
+    - Simple linear regression and K-nearest neighbors
+    - Making predictions
 - Week 4 - Basic Models - part 2 (2/9 and 2/11)
     - Evaluating model fit
-    - Inference
+    - Non-linearity and ANOVA
 - Week 5 - Project #1 (2/16 and 2/18)
     - Work time and meetings on Tuesday
     - Presentations on Thursday
@@ -51,7 +51,7 @@ In general, labs are to be completed with a partner, with responses to the embed
     - [R programming fundamentals](m257s21/Lab1_Intro_R.html)
     - Submit your answers via Canvas by Monday 1/25 at 11:59pm
 - Week 2 (1/26 and 1/28)
-    - Data Exploration in R
+    - [Data Exploration in R](m257s21/Lab2_Graph_Stats.html)
     - Submit your answers via Canvas by Monday 2/1 at 11:59pm
 - Week 3 (2/2 and 2/4)
     - Simple linear regression and K-nearest neighbors
@@ -86,11 +86,13 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
     - I encourage you to write your solutions in R Markdown (this is not a requirement)
 - Problem Set #2
 
-### Announcements and Other Materials 
+### Projects
 
-- Project #1 Guidelines
+- Project #1 (presented in-class on Thursday 2/18)
+    - [Guidelines](m257s21/midterm1.html) - [Rubric](m257s21/midterm1_rubric.pdf)
+- Project #2
     - Coming soon
-- Project #2 Guidelines
+- Final Project
     - Coming soon
 
 ### Datasets
