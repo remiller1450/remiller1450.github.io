@@ -32,9 +32,9 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Categorical Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/RHWZO3Ww7xQ)
     - Contingency Tables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/qCRZdej_Lgs)
 - Week 3 - Watch these prior to taking the "Week 3 Comprehension Quiz" on Canvas (deadline Tuesday 2/2 at 8:30am)
-    - Comparing Groups - [slides](m156s21/week2.pdf) - video
-    - Correlation - [slides](m156s21/week2.pdf) - video
-    - Regression - [slides](m156s21/week2.pdf) - video
+    - Comparing Groups - [slides](m156s21/week2.pdf) - [video](https://youtu.be/0ocko_9_Y_s)
+    - Correlation - [slides](m156s21/week2.pdf) - [video](https://youtu.be/hAoaQt3gno0)
+    - Regression - [slides](m156s21/week2.pdf) - [video](https://youtu.be/dLPMDWiWiKA)
 
 
 ### In-class Activities
