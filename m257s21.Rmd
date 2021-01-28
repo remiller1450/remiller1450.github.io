@@ -30,10 +30,10 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Review of statistical inference](m257s21/inf_review.pdf)
 - Week 2 - Data Exploration (1/26 and 1/28)
     - [Confounding variables](m257s21/confounds.pdf)
-    - Data transformations
+    - [Data transformations](m257s21/graphs.pdf)
 - Week 3 - Basic Models - Linear Regression (2/2 and 2/4)
     - Model specification
-    - Inference and predictions
+    - Inference and prediction
 - Week 4 - Basic Models - K-nearest Neighbors (2/9 and 2/11)
     - K-nearest Neighbors 
     - Model evaluation and comparison
