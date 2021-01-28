@@ -101,4 +101,9 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
     - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
 - [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
     - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+- [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
+    - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
+- [Tips](https://remiller1450.github.io/data/Tips.csv) 
+    - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
+ 
     
