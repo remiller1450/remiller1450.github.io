@@ -26,15 +26,20 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
 
 - Week 1 
     - Nothing this week, but you should begin working through the asynchronous Week 2 material
-- Week 2 - Watch these prior to taking the "Week 2 Comprehension Quiz" on Canvas (deadline Tuesday 1/26 at 8:30am)
+- Week 2 - Watch these prior to taking the "Week 2 Quiz" on Canvas (deadline Tuesday 1/26 at 8:30am)
     - Data Basics - [slides](m156s21/week1.pdf) - [video](https://youtu.be/scSbelpxCec)
     - Quantitative Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/MdmxelRVAYk)
     - Categorical Variables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/RHWZO3Ww7xQ)
     - Contingency Tables - [slides](m156s21/week1.pdf) - [video](https://youtu.be/qCRZdej_Lgs)
-- Week 3 - Watch these prior to taking the "Week 3 Comprehension Quiz" on Canvas (deadline Tuesday 2/2 at 8:30am)
+- Week 3 - Watch these prior to taking the "Week 3 Quiz" on Canvas (deadline Tuesday 2/2 at 8:30am)
     - Comparing Groups - [slides](m156s21/week2.pdf) - [video](https://youtu.be/0ocko_9_Y_s)
     - Correlation - [slides](m156s21/week2.pdf) - [video](https://youtu.be/hAoaQt3gno0)
     - Regression - [slides](m156s21/week2.pdf) - [video](https://youtu.be/dLPMDWiWiKA)
+- Week 4 - Watch these prior to taking the "Week 4 Quiz" on Canvas (deadline Tuesday 2/9 at 8:30am)
+    - Sampling from a Population - [slides](m156s21/week3.pdf) - [video](A)
+    - Sampling Examples - [slides](m156s21/week3.pdf) - [video](A)
+    - Study Design - [slides](m156s21/week3.pdf) - [video](A)
+    - Randomized Experiments - [slides](m156s21/week3.pdf) - [video](A)
 
 
 ### In-class Activities
@@ -46,7 +51,16 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 2 (1/26 and 1/28)
     - [Contingency Tables](m156s21/week2.html)
 - Week 3 (2/2 and 2/4)
-    - Finding Associations
+    - [Data Exploration](m156s21/week3.html)
+- Week 4 (2/9 and 2/11)
+    - Study Design
+- Week 5 (2/16 and 2/18)
+    - Concepts in Probability
+- Week 6 (2/23 and 2/25)
+    - Probability Models
+- Week 7 (3/2 and 3/4)
+    - Exam #1 (Online review on Tuesday, Exam on Thursday)
+
     
 ### Recommended Readings
 
@@ -55,6 +69,10 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 1: None
 - Week 2: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5, 3.1, 3.2
 - Week 3: 4.1, 4.2, 6.1, 6.2, 6.4, 7.1, 7.2
+- Week 4: 10.1, 10.2, 10.3, 10.4, 10.5, 10.6, 10.7, 11.1, 11.2, 11.3, 11.4, 11.5, 11.6
+- Week 5: 12.1, 12.2, 13.1, 13.2, 13.3, 13.4
+- Week 6: 5.1, 5.2, 5.3, 14.1, 14.2, 14.4
+- Week 7: None
     
 ### Problem Sets
 
@@ -66,7 +84,10 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 1/29 at 11:59pm
 - HW #2: 3.9, 3.10, 3.26, 3.27, 4.16, 4.19, 6.13, 6.14, 6.20, 6.40, 7.2, 7.3
     - Due date: Friday 2/5 at 11:59pm
-
+- HW #3: 10.3, 10.5, 10.6, 10.13, 10.28, 11.1, 11.2, 11.4, 11.8, 11.10, 11.58
+    - Due date: Friday 2/12 at 11:59pm
+    
+    
 ### Project Information
 
 This class contains a final project that is due at the end of the semester.  Additional details will be posted below as the semester progresses.
