@@ -32,10 +32,10 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Confounding variables](m257s21/confounds.pdf)
     - [Data transformations](m257s21/graphs.pdf)
 - Week 3 - Basic Models - Linear Regression (2/2 and 2/4)
-    - Model specification
+    - [Model specification](m257s21/slr.pdf)
     - Inference and prediction
 - Week 4 - Basic Models - K-nearest Neighbors (2/9 and 2/11)
-    - K-nearest Neighbors 
+    - Academic holiday on Tuesday 2/9
     - Model evaluation and comparison
 - Week 5 - Project #1 (2/16 and 2/18)
     - Check-in meetings and work time on Tuesday
@@ -75,7 +75,7 @@ The readings listed below are *recommended* prior to attending class. It has bee
     - A Second Course in Statistics - Ch 1.8 and 1.9 (Review of Stat Inference)
 - Week 3 (2/2 and 2/4)
     - A Second Course in Statistics - Ch 3.1, 3.2, 3.3, 3.4, 3.9, 3.10 (Simple Linear Regression)
-- Weeek 4 (2/9 and 2/11)
+- Week 4 (2/9 and 2/11)
     - [ISLR - Ch 2.2 (Assessing Model Accuracy)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
     - A Second Course in Statistics - Ch 3.8 (Coefficient of Determination - $R^2$)
     
