@@ -36,10 +36,10 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Correlation - [slides](m156s21/week2.pdf) - [video](https://youtu.be/hAoaQt3gno0)
     - Regression - [slides](m156s21/week2.pdf) - [video](https://youtu.be/dLPMDWiWiKA)
 - Week 4 - Watch these prior to taking the "Week 4 Quiz" on Canvas (deadline Tuesday 2/9 at 8:30am)
-    - Sampling from a Population - [slides](m156s21/week3.pdf) - [video](A)
-    - Sampling Examples - [slides](m156s21/week3.pdf) - [video](A)
-    - Study Design - [slides](m156s21/week3.pdf) - [video](A)
-    - Randomized Experiments - [slides](m156s21/week3.pdf) - [video](A)
+    - Sampling from a Population - [slides](m156s21/week3.pdf) - [video](https://youtu.be/4C141gj-Lg8)
+    - Sampling Examples - [slides](m156s21/week3.pdf) - [video](https://youtu.be/kfBcUVZjj5M)
+    - Study Design - [slides](m156s21/week3.pdf) - [video](https://youtu.be/cMf4Rp6f-l4)
+    - Randomized Experiments - [slides](m156s21/week3.pdf) - [video](https://youtu.be/AT3eyfVz82c)
 
 
 ### In-class Activities
