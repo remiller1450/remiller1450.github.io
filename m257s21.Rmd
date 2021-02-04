@@ -55,10 +55,10 @@ In general, labs are to be completed with a partner, with responses to the embed
     - Submit your answers via Canvas by Monday 2/1 at 11:59pm
 - Week 3 (2/2 and 2/4)
     - [Simple linear regression](m257s21/Lab3_Basic_Models.html)
-    - Submit your answers via Canvas by Friday 2/8 at 11:59pm
+    - Submit your answers via Canvas by Monday 2/8 at 11:59pm
 - Week 4 (2/9 and 2/11)
     - K-nearest neighbors and model comparisons
-    - Submit your answers via Canvas by Friday 2/12 at 11:59pm
+    - Submit your answers via Canvas by Monday 2/15 at 11:59pm
 - Week 5 (2/16 and 2/18)
     - Project #1 meetings and presentations (no lab this week)
     
