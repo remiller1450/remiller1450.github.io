@@ -1679,17 +1679,17 @@ library(ggplot2)</code></pre>
 <h2>Practice</h2>
 <p><strong>Question #9</strong>: For this question you will conduct a comprehensive analysis using the data introduced below by following the steps outlines in Parts A-H.</p>
 <p>The <a href="https://en.wikipedia.org/wiki/Armed_Services_Vocational_Aptitude_Battery">Armed Forces Qualification Test (AFQT)</a> is a multiple choice aptitude test designed to gauge whether an individual’s reasoning and verbal skills are sufficient for military service. Because the test has been so broadly applied, scores are reported as percentiles and are frequently used as a measure of general intelligence.</p>
-<p>The data you will use in the questions that follow comes from a random sample of 2584 Americans who were first selected and tested in 1979, and later re-interviewed in 2006 and asked about their education and annual income. Your focus will be on using AFQT percentile scores (<code>AFQT</code>) to model annual income (<code>Income2005</code>)</p>
+<p>The data you will use in the questions that follow comes from a random sample of 2584 Americans who were first selected and tested in 1979, then later re-interviewed in 2006 and asked about their education and annual income. Your focus will be on using AFQT percentile scores (<code>AFQT</code>) to model annual income (<code>Income2005</code>)</p>
 <pre class="r"><code>## Load the data
 afqt &lt;- read.csv(&quot;https://remiller1450.github.io/data/AFQT.csv&quot;)</code></pre>
 <ul>
 <li><strong>Part A</strong>: Write code that reads the data, then use the <code>summary</code> function to check for any missing values in the variables <code>AFQT</code> and <code>Income2005</code>.</li>
 <li><strong>Part B</strong>: Create a histogram of the variable <code>Income2005</code>, is the distribution of this variable skewed or symmetric?</li>
 <li><strong>Part C</strong>: Fit a linear regression model that uses <code>AFQT</code> to predict <code>Income2005</code> and report the least squares estimates using proper notation.</li>
-<li><strong>Part D</strong>: Use the <code>plot</code> function to evaluate the assumptions of this model. Indicate whether you think inference using this model is statistically valid, or if there are violated assumptions.</li>
+<li><strong>Part D</strong>: Use the <code>plot</code> function to evaluate the assumptions of this model. Do you believe inference using this model is statistically valid, or are the model’s assumptions violated assumptions?</li>
 <li><strong>Part E</strong>: Create a new variable that is base-2 logarithm of <code>Income2005</code>, is the distribution of this new variable skewed or symmetric?</li>
 <li><strong>Part F</strong>: Fit a linear regression model using the new variable you created in Part E as the outcome (keeping <code>AFQT</code> as the predictor). Then use the <code>plot</code> function to evaluate the assumptions of this model. Based upon what you see, do you believe this model is better suited for valid statistical inference than the model you explored in Part D?</li>
-<li><strong>Part G</strong>: Interpret the slope of the model you fit in Part F. Additionally, use a hypothesis test to determine whether there is a statistically association between <code>AFQT</code> percentiles and future income.</li>
+<li><strong>Part G</strong>: Interpret the slope of the model you fit in Part F. Additionally, use a hypothesis test to determine whether there is a statistically significant association between <code>AFQT</code> percentiles and future income.</li>
 <li><strong>Part H</strong>: Using the model you fit in Part F, report the 99% prediction interval for an individual with a 99th percentile AFQT score. Be careful to report in your interval in dollars, not log-2 dollars!</li>
 </ul>
 </div>
