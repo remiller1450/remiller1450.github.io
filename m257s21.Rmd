@@ -33,7 +33,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Data transformations](m257s21/graphs.pdf)
 - Week 3 - Basic Models - Linear Regression (2/2 and 2/4)
     - [Model specification](m257s21/slr.pdf)
-    - Inference and prediction
+    - [Inference and prediction](m257s21/pred.pdf)
 - Week 4 - Basic Models - K-nearest Neighbors (2/9 and 2/11)
     - Academic holiday on Tuesday 2/9
     - Model evaluation and comparison
