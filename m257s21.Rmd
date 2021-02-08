@@ -37,9 +37,27 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 - Week 4 - Basic Models - K-nearest Neighbors (2/9 and 2/11)
     - Academic holiday on Tuesday 2/9
     - Model evaluation and comparison
-- Week 5 - Project #1 (2/16 and 2/18)
+- Week 5 - Midterm Project #1 (2/16 and 2/18)
     - Check-in meetings and work time on Tuesday
     - Presentations on Thursday
+- Week 6 - Multiple Regression - Concepts (2/23 and 2/25)
+    - Categorical predictors
+    - Numeric predictors
+- Week 7 - Multiple Regression - Comparing Models (3/2 and 3/4)
+    - Hypothesis testing
+    - Model selection criteria
+- Week 8 - Multiple Regression - Model Building (3/9 and 3/11)
+    - Non-linear predictors 
+    - Interactions
+- Week 9 - Midterm Project #2 (3/16 and 3/18)
+- Week 10 - Binary Outcomes - Logistic Regression (3/23 and 3/25)
+- Week 11 - Binary Outcomes - Decision Trees (3/30 and 4/1)
+- Week 12 - Nominal Outcomes - Multinomial Logistic Regression (4/6 and 4/8)
+- Week 13 - Nominal Outcomes - Random Forests (4/13 and 4/16)
+- Week 14 - Unsupervised Models - Partitional Clustering (4/27 and 4/29)
+- Week 15 - Unsupervised Models - Hierarchical Clustering (4/27 and 4/29)
+- Finals Week - Final Project (5/6)
+
 
 ### In-class Labs
 
