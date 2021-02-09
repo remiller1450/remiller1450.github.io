@@ -35,12 +35,17 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Comparing Groups - [slides](m156s21/week2.pdf) - [video](https://youtu.be/0ocko_9_Y_s)
     - Correlation - [slides](m156s21/week2.pdf) - [video](https://youtu.be/hAoaQt3gno0)
     - Regression - [slides](m156s21/week2.pdf) - [video](https://youtu.be/dLPMDWiWiKA)
-- Week 4 - Watch these prior to taking the "Week 4 Quiz" on Canvas (deadline Tuesday 2/9 at 8:30am)
+- Week 4 - Watch these prior to taking the "Week 4 Quiz" on Canvas (deadline *Thursday* 2/9 at 8:30am)
     - Sampling from a Population - [slides](m156s21/week3.pdf) - [video](https://youtu.be/4C141gj-Lg8)
     - Sampling Examples - [slides](m156s21/week3.pdf) - [video](https://youtu.be/kfBcUVZjj5M)
     - Study Design - [slides](m156s21/week3.pdf) - [video](https://youtu.be/cMf4Rp6f-l4)
     - Randomized Experiments - [slides](m156s21/week3.pdf) - [video](https://youtu.be/AT3eyfVz82c)
-
+- Week 5 - Watch these prior to taking the "Week 5 Quiz" on Canvas (deadline Tuesday 2/16 at 8:30am)
+    - Introduction to Probability - [slides](m156s21/week4.pdf) - [video](https://youtu.be/D1pHRpviHg0)
+    - The Complement Rule  - [slides](m156s21/week4.pdf) - [video](https://youtu.be/9qiZ29LmD-k)
+    - The Addition Rule - [slides](m156s21/week4.pdf) - [video](https://youtu.be/y0puaFg9GLE)
+    - The Multiplication Rule - [slides](m156s21/week4.pdf) - [video](https://youtu.be/fnxGrb6r6xU)
+    - Probability Rules Examples - [slides](m156s21/week4.pdf) - [video](https://youtu.be/JgLIhGKfj3M) 
 
 ### In-class Activities
 
@@ -86,6 +91,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 2/5 at 11:59pm
 - HW #3: 10.3, 10.5, 10.6, 10.13, 10.28, 11.1, 11.2, 11.4, 11.8, 11.10, 11.58
     - Due date: Friday 2/12 at 11:59pm
+- HW #4: 13.2, 13.3, 13.4, 13.6, 13.15, 13.16, 13.19, 13.20, 13.26    
+    - Due date: Friday 2/19 at 11:59pm
     
     
 ### Project Information
