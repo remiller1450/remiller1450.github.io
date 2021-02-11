@@ -23,7 +23,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lecture Slides
 
-Lectures in this class will be relatively short, consisting of roughly 20-30 minutes of presentation at the beggining of each class meeting. They will focus on the fundamental concepts and theory that are necessary precursors to the topics for that day/week.
+Lectures in this class will be relatively short, consisting of roughly 20-30 minutes of presentation at the beginning of each class meeting. They will focus on the fundamental concepts and theory that are necessary precursors to the topics for that day/week.
 
 - Week 1 - Introduction (1/19 and 1/21)
     - [What is modeling?](m257s21/intro.pdf)
@@ -75,7 +75,7 @@ In general, labs are to be completed with a partner, with responses to the embed
     - [Simple linear regression](m257s21/Lab3_Basic_Models.html)
     - Submit your answers via Canvas by Monday 2/8 at 11:59pm
 - Week 4 (2/9 and 2/11)
-    - [K-nearest neighbors and model comparisons](m257s21/Lab3_Basic_Models_2.html)
+    - [K-nearest neighbors and model comparisons](m257s21/Lab4_Basic_Models_2.html)
     - Submit your answers via Canvas by *Tuesday* 2/15 at 11:59pm
 - Week 5 (2/16 and 2/18)
     - Project #1 meetings and presentations (no lab this week)
