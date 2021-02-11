@@ -36,7 +36,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Inference and prediction](m257s21/pred.pdf)
 - Week 4 - Basic Models - K-nearest Neighbors (2/9 and 2/11)
     - Academic holiday on Tuesday 2/9
-    - Model evaluation and comparison
+    - [Model evaluation and comparison](m257s21/cv.pdf)
 - Week 5 - Midterm Project #1 (2/16 and 2/18)
     - Check-in meetings and work time on Tuesday
     - Presentations on Thursday
@@ -45,7 +45,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - Numeric predictors
 - Week 7 - Multiple Regression - Comparing Models (3/2 and 3/4)
     - Hypothesis testing
-    - Model selection criteria
+    - Model selection
 - Week 8 - Multiple Regression - Model Building (3/9 and 3/11)
     - Non-linear predictors 
     - Interactions
@@ -75,8 +75,8 @@ In general, labs are to be completed with a partner, with responses to the embed
     - [Simple linear regression](m257s21/Lab3_Basic_Models.html)
     - Submit your answers via Canvas by Monday 2/8 at 11:59pm
 - Week 4 (2/9 and 2/11)
-    - K-nearest neighbors and model comparisons
-    - Submit your answers via Canvas by Monday 2/15 at 11:59pm
+    - [K-nearest neighbors and model comparisons](m257s21/Lab3_Basic_Models_2.html)
+    - Submit your answers via Canvas by *Tuesday* 2/15 at 11:59pm
 - Week 5 (2/16 and 2/18)
     - Project #1 meetings and presentations (no lab this week)
     
@@ -96,7 +96,9 @@ The readings listed below are *recommended* prior to attending class. It has bee
 - Week 4 (2/9 and 2/11)
     - [ISLR - Ch 2.2 (Assessing Model Accuracy)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
     - A Second Course in Statistics - Ch 3.8 (Coefficient of Determination - $R^2$)
-    
+- Week 5 (2/16 and 2/18)
+    - No new material, work on your midterm project #1
+
 ### Problem Sets
 
 There will be 4-5 problem sets assigned throughout the semester. These assignments can sometimes be quite lengthy, so if you wait until the last minute to begin them you'll likely not have enough time.
@@ -106,7 +108,10 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
     - You should submit your responses via Canvas
     - I encourage you to write your solutions in R Markdown (this is not a requirement)
 - Problem Set #2
-
+    - Due: Friday Mar 5th at 11:59pm
+    - You should submit your responses via Canvas
+    - Please write your solutions using R Markdown
+    
 ### Projects
 
 - Project #1 (presented in-class on Thursday 2/18)
