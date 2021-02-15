@@ -46,6 +46,13 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - The Addition Rule - [slides](m156s21/week4.pdf) - [video](https://youtu.be/y0puaFg9GLE)
     - The Multiplication Rule - [slides](m156s21/week4.pdf) - [video](https://youtu.be/fnxGrb6r6xU)
     - Probability Rules Examples - [slides](m156s21/week4.pdf) - [video](https://youtu.be/JgLIhGKfj3M) 
+- Week 6 - Watch these prior to taking the "Week 6 Quiz" on Canvas (deadline Tuesday 2/23 at 8:30am)
+    - Discrete Random Variables - [slides](m156s21/week5.pdf) - [video](A)
+    - Continuous Random Variables - [slides](m156s21/week5.pdf) - [video](A)
+    - Applications of the Normal Model - [slides](m156s21/week5.pdf) - [video](A)
+- Week 7 
+    - A practice exam is posted on Canvas (you can take it as many times as you'd like)
+    - On Tuesday class will be Zoom only and we go over the practice exam (attendance optional but recommended)
 
 ### In-class Activities
 
@@ -60,7 +67,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 4 (2/9 and 2/11)
     - No Class - Academic Holiday
 - Week 5 (2/16 and 2/18)
-    - Concepts in Probability
+    - [Concepts in Probability](m156s21/week5.html)
 - Week 6 (2/23 and 2/25)
     - Probability Models
 - Week 7 (3/2 and 3/4)
@@ -93,7 +100,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 2/12 at 11:59pm
 - HW #4: 13.2, 13.3, 13.4, 13.6, 13.15, 13.16, 13.19, 13.20, 13.26    
     - Due date: Friday 2/19 at 11:59pm
-    
+- HW #5: 5.2, 5.3, 5.13, 5.14, 14.10, 14.11, 14.12, 14.24
+    - Due date: Friday 2/26 at 11:59pm
     
 ### Project Information
 
