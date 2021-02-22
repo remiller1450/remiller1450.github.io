@@ -46,13 +46,14 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - The Addition Rule - [slides](m156s21/week4.pdf) - [video](https://youtu.be/y0puaFg9GLE)
     - The Multiplication Rule - [slides](m156s21/week4.pdf) - [video](https://youtu.be/fnxGrb6r6xU)
     - Probability Rules Examples - [slides](m156s21/week4.pdf) - [video](https://youtu.be/JgLIhGKfj3M) 
-- Week 6 - Watch these prior to taking the "Week 6 Quiz" on Canvas (deadline Tuesday 2/23 at 8:30am)
+- Week 6 - Watch these prior to taking the "Week 6 Quiz" on Canvas (deadline *Thursday* 2/23 at 8:30am)
     - Discrete Random Variables - [slides](m156s21/week5.pdf) - [video](https://youtu.be/EYJh0g_UuwI)
     - Continuous Random Variables - [slides](m156s21/week5.pdf) - [video](https://youtu.be/mLef4KYQBw4)
     - Applications of the Normal Model - [slides](m156s21/week5.pdf) - [video](https://youtu.be/D0HT4kNuK1o)
 - Week 7 
     - A practice exam is posted on Canvas (you can take it as many times as you'd like)
-    - On Tuesday class will be Zoom only and we go over the practice exam (attendance optional but recommended)
+    - The actual exam will be taken on Canvas on Thursday 3/4, it will be available from 8am to 1pm, you do not need to show up in-person to take it
+
 
 ### In-class Activities
 
@@ -71,7 +72,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 6 (2/23 and 2/25)
     - Probability Models
 - Week 7 (3/2 and 3/4)
-    - Exam #1 (Online review on Tuesday, Exam on Thursday)
+    - Exam #1 (Exam on Thursday)
 
     
 ### Recommended Readings
