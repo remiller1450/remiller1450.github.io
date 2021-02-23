@@ -97,7 +97,17 @@ The readings listed below are *recommended* prior to attending class. It has bee
     - [ISLR - Ch 2.2 (Assessing Model Accuracy)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
     - A Second Course in Statistics - Ch 3.8 (Coefficient of Determination - $R^2$)
 - Week 5 (2/16 and 2/18)
-    - No new material, work on your midterm project #1
+    - No new material, work on midterm project #1
+- Week 6 (2/23 and 2/25)
+     - A Second Course in Statistics - Ch 4.1, 4.2, 4.3, 4.4 (Multiple Linear Regression)
+     - [ISLR - Ch 3.2 (Multiple Linear Regression)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
+- Week 7 (3/2 and 3/4)
+     - A Second Course in Statistics - Ch 4.7, 4.8, 4.9 (Multiple Linear Regression)
+     - [ISLR - Ch 3.3 (Multiple Linear Regression and Other Considerations in Regression Models)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
+- Week 8 (3/9 and 3/11)
+     - A Second Course in Statistics - Ch 4.10, 4.11 (Interactions and non-linear predictors)
+- Week 9 (3/16 and 3/18)
+    - No new material, work on midterm project #2
 
 ### Problem Sets
 
@@ -107,8 +117,8 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
     - Due: Friday Feb 12th at 11:59pm
     - You should submit your responses via Canvas
     - I encourage you to write your solutions in R Markdown (this is not a requirement)
-- Problem Set #2
-    - Due: Friday Mar 5th at 11:59pm
+- [Problem Set #2](m257s21/HW2.html)
+    - Due: Friday Mar 12th at 11:59pm
     - You should submit your responses via Canvas
     - Please write your solutions using R Markdown
     
