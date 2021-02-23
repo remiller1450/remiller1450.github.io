@@ -41,7 +41,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - Check-in meetings and work time on Tuesday
     - Presentations on Thursday
 - Week 6 - Multiple Regression - Concepts (2/23 and 2/25)
-    - Categorical predictors
+    - [Categorical predictors](m257s21/mrcat.pdf)
     - Numeric predictors
 - Week 7 - Multiple Regression - Comparing Models (3/2 and 3/4)
     - Hypothesis testing
@@ -76,9 +76,13 @@ In general, labs are to be completed with a partner, with responses to the embed
     - Submit your answers via Canvas by Monday 2/8 at 11:59pm
 - Week 4 (2/9 and 2/11)
     - [K-nearest neighbors and model comparisons](m257s21/Lab4_Basic_Models_2.html)
-    - Submit your answers via Canvas by *Tuesday* 2/15 at 11:59pm
+    - Submit your answers via Canvas by Monday 2/22 at 11:59pm
 - Week 5 (2/16 and 2/18)
     - Project #1 meetings and presentations (no lab this week)
+- Week 6 (2/23 and 2/25)
+    - [Introduction to multiple regression](m257s21/Lab5_Multiple_Reg_Intro.html)
+    - Submit your answers via Canvas by Monday 3/2 at 11:59pm    
+    
     
 ### Recommended Readings
 
