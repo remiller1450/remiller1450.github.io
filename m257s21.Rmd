@@ -42,7 +42,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - Presentations on Thursday
 - Week 6 - Multiple Regression - Concepts (2/23 and 2/25)
     - [Categorical predictors](m257s21/mrcat.pdf)
-    - Numeric predictors
+    - [Numerical predictors](m257s21/mrquant.pdf)
 - Week 7 - Multiple Regression - Comparing Models (3/2 and 3/4)
     - Hypothesis testing
     - Model selection
