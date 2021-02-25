@@ -52,7 +52,7 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Applications of the Normal Model - [slides](m156s21/week5.pdf) - [video](https://youtu.be/D0HT4kNuK1o)
 - Week 7 
     - A practice exam is posted on Canvas (you can take it as many times as you'd like)
-    - The actual exam will be taken on Canvas on Thursday 3/4, it will be available from 8am to 1pm, you do not need to show up in-person to take it
+    - The actual exam will be taken on Canvas on Thursday 3/4, it will be available from 8am to noon, you do not need to show up in-person to take it
 
 
 ### In-class Activities
@@ -70,7 +70,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 5 (2/16 and 2/18)
     - [Concepts in Probability](m156s21/week5.html)
 - Week 6 (2/23 and 2/25)
-    - Probability Models
+    - [Probability Models](m156s21/week6.html)
 - Week 7 (3/2 and 3/4)
     - Exam #1 (Exam on Thursday)
 
@@ -103,7 +103,7 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: *Wednesday* 2/24 at 11:59pm
 - HW #5: 5.2, 5.3, 5.13, 5.14, 14.10, 14.11, 14.12, 14.24
     - Due date: *Wednesday* 3/3 at 5:00pm
-    - A sketch solution will be posted at 5:15pm on Wednesday (no late submissions will be accepted after this point)
+    - A sketch solution will be posted around 5:15pm on Wednesday (no late submissions will be accepted after this point)
     
 ### Project Information
 
