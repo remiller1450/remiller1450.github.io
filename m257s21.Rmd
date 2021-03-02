@@ -44,7 +44,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Categorical predictors](m257s21/mrcat.pdf)
     - [Numerical predictors](m257s21/mrquant.pdf)
 - Week 7 - Multiple Regression - Model Evaluation (3/2 and 3/4)
-    - Hypothesis testing
+    - [Hypothesis testing](m257s21/anova.pdf)
     - Model selection
 - Week 8 - Multiple Regression - Model Building (3/9 and 3/11)
     - Non-linear predictors 
@@ -83,7 +83,7 @@ In general, labs are to be completed with a partner, with responses to the embed
     - [Introduction to multiple regression](m257s21/Lab5_Multiple_Reg_Intro.html)
     - Submit your answers via Canvas by Monday 3/1 at 11:59pm    
 - Week 7 (3/2 and 3/4)
-    - Multiple regression - part 2
+    - [Multiple regression - Inference and Variable Selection](m257s21/Lab6_Multiple_Reg_Details.html)
     - Submit your answers via Canvas by Monday 3/8 at 11:59pm  
     
 ### Recommended Readings
