@@ -1787,7 +1787,7 @@ stepAIC(ps_initial,
 <p>In this example, the only “step” was to eliminate the variable “sex” from the model. The final result was the model: <code>salary ~ rank + discipline + yrs.since.phd + yrs.service</code></p>
 <p>Other commonly used selection criteria include:</p>
 <ul>
-<li><strong>BIC</strong>: a criterion that is used similar to <span class="math inline">\(AIC\)</span> which takes the form: <span class="math inline">\(AIC = -\text{Log-Likelihood} + \sqrt{n}*k\)</span> - <span class="math inline">\(BIC\)</span> will generally favor more parsimonious models relative to <span class="math inline">\(AIC\)</span>. Lower <span class="math inline">\(BIC\)</span> values indicate a superior model.</li>
+<li><strong>BIC</strong>: a criterion that is used similar to <span class="math inline">\(AIC\)</span> which takes the form: <span class="math inline">\(AIC = -\text{Log-Likelihood} + log(n)*k\)</span> - <span class="math inline">\(BIC\)</span> will generally favor more parsimonious models relative to <span class="math inline">\(AIC\)</span>. Lower <span class="math inline">\(BIC\)</span> values indicate a superior model.</li>
 <li><strong>Adjusted <span class="math inline">\(R^2\)</span></strong>: a adjusted version of the <a href="https://en.wikipedia.org/wiki/Coefficient_of_determination">coefficient of determination</a> that penalizes larger models based upon the number of predictors they include.</li>
 </ul>
 <p><strong>Question #7</strong>: Using the code provided above as a starting point, perform <em>forward stepwise selection</em> using <span class="math inline">\(AIC\)</span> as the model selection criteria to find the model that best predicts “salary” in the professor salaries dataset. Report the final model.</p>
