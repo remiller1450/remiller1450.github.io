@@ -53,7 +53,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 - Week 10 - Midterm Project #2 (3/23 and 3/25)
 - Week 11 - Binary Outcomes - Logistic Regression (3/30 and 4/1)
 
-```{r}
+```{r, echo = FALSE}
 # - Week 12 - Nominal Outcomes - Multinomial Logistic Regression (4/6 and 4/8)
 # - Week 13 - Nominal Outcomes - Random Forests (4/13 and 4/16)
 # - Week 14 - Unsupervised Models - Partitional Clustering (4/27 and 4/29)
