@@ -133,7 +133,7 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
 - Project #1 (presented in-class on Thursday 2/18)
     - [Guidelines](m257s21/midterm1.html) - [Rubric](m257s21/midterm1_rubric.pdf)
 - Project #2
-    - Coming soon
+    - [Guidelines](m257s21/midterm2.html) - [Rubric (same as Midterm #1)](m257s21/midterm1_rubric.pdf)
 - Final Project
     - Coming soon
 
