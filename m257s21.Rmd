@@ -45,19 +45,21 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Numerical predictors](m257s21/mrquant.pdf)
 - Week 7 - Multiple Regression - Model Evaluation (3/2 and 3/4)
     - [Hypothesis testing](m257s21/anova.pdf)
-    - Model selection
+    - [Model selection criteria](m257s21/modcrit.pdf)
 - Week 8 - Multiple Regression - Model Building (3/9 and 3/11)
     - Non-linear predictors 
     - Interactions
-- Week 9 - Midterm Project #2 (3/16 and 3/18)
-- Week 10 - Binary Outcomes - Logistic Regression (3/23 and 3/25)
-- Week 11 - Binary Outcomes - Decision Trees (3/30 and 4/1)
-- Week 12 - Nominal Outcomes - Multinomial Logistic Regression (4/6 and 4/8)
-- Week 13 - Nominal Outcomes - Random Forests (4/13 and 4/16)
-- Week 14 - Unsupervised Models - Partitional Clustering (4/27 and 4/29)
-- Week 15 - Unsupervised Models - Hierarchical Clustering (4/27 and 4/29)
-- Finals Week - Final Project (5/6)
+- Week 9 - Multiple Regression - Case Study (3/16 and 3/18)
+- Week 10 - Midterm Project #2 (3/23 and 3/25)
+- Week 11 - Binary Outcomes - Logistic Regression (3/30 and 4/1)
 
+```{r}
+# - Week 12 - Nominal Outcomes - Multinomial Logistic Regression (4/6 and 4/8)
+# - Week 13 - Nominal Outcomes - Random Forests (4/13 and 4/16)
+# - Week 14 - Unsupervised Models - Partitional Clustering (4/27 and 4/29)
+# - Week 15 - Unsupervised Models - Hierarchical Clustering (4/27 and 4/29)
+# - Finals Week - Final Project (5/6)
+```
 
 ### In-class Labs
 
