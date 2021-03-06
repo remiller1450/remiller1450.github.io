@@ -54,9 +54,9 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - A practice exam is posted on Canvas (you can take it as many times as you'd like)
     - The actual exam will be taken on Canvas on Thursday 3/4, it will be available from 8am to noon, you do not need to show up in-person to take it
 - Week 8
-    - Point vs. Interval Estimation
-    - Sampling Distributions
-    - Confidence Intervals
+    - Sampling Distributions - [slides](m156s21/week8.pdf) - [video](https://youtu.be/DoDf65zgZYE)
+    - Central Limit Theorem - [slides](m156s21/week8.pdf) - [video](https://youtu.be/h6FA1WGfB0g)
+    - Point vs. Interval Estimates - [slides](m156s21/week8.pdf) - [video](https://youtu.be/QOfSOisxXWY)
 - Week 9
     - Hypothesis Testing - Null Models
     - Hypothesis Testing - p-values
