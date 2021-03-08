@@ -129,11 +129,14 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: *Wednesday* 2/24 at 11:59pm
 - HW #5: 5.2, 5.3, 5.13, 5.14, 14.10, 14.11, 14.12, 14.24
     - Due date: *Wednesday* 3/3 at 5:00pm
-    - A sketch solution will be posted around 5:15pm on Wednesday (no late submissions will be accepted after this point)
+- HW #6: 16.1, 16.2, 16.3, 16.4, 16.6, 16.15, 16.16, 16.28, 16.33, 16.34
+    - Due date: Friday 3/12 at 11:59pm
+- HW #7: TBD
+    - Due date: Friday 3/19 at 11:59pm
     
 ### Project Information
 
-This class contains a final project that is due at the end of the semester.  Additional details will be posted after our first midterm exam on 3/4.
+This class contains a final project that is due at the end of the semester.  Additional details will be posted soon.
 
 ### Datasets
 
