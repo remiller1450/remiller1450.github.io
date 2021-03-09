@@ -47,8 +47,8 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Hypothesis testing](m257s21/anova.pdf)
     - [Model selection criteria](m257s21/modcrit.pdf)
 - Week 8 - Multiple Regression - Model Building (3/9 and 3/11)
-    - Non-linear predictors 
-    - Interactions
+    - [Interactions](m257s21/int.pdf)
+    - Model Diagnostics
 - Week 9 - Multiple Regression - Case Study (3/16 and 3/18)
 - Week 10 - Midterm Project #2 (3/23 and 3/25)
 - Week 11 - Binary Outcomes - Logistic Regression (3/30 and 4/1)
@@ -87,6 +87,9 @@ In general, labs are to be completed with a partner, with responses to the embed
 - Week 7 (3/2 and 3/4)
     - [Multiple regression - Inference and Variable Selection](m257s21/Lab6_Multiple_Reg_Details.html)
     - Submit your answers via Canvas by Monday 3/8 at 11:59pm  
+- Week 8 (3/9 and 3/11)
+    - [Multiple regression - Non-linear effects, Interactions, and Influence](m257s21/Lab7_Multiple_Reg_Part3.html)
+    - Submit your answers via Canvas by Monday 3/15 at 11:59pm  
     
 ### Recommended Readings
 
