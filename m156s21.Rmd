@@ -58,11 +58,12 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Central Limit Theorem - [slides](m156s21/week8.pdf) - [video](https://youtu.be/h6FA1WGfB0g)
     - Point vs. Interval Estimates - [slides](m156s21/week8.pdf) - [video](https://youtu.be/QOfSOisxXWY)
 - Week 9
-    - Hypothesis Testing - Null Models
-    - Hypothesis Testing - p-values
-    - Hypothesis Testing - Example
-    - Hypothesis Testing - Misconceptions
-    - Hypothesis Testing - Decision Errors
+    - Hypothesis Testing - Null Models - [slides](m156s21/week9.pdf)
+    - Hypothesis Testing - p-values - [slides](m156s21/week9.pdf)
+    - Hypothesis Testing - Procedure - [slides](m156s21/week9.pdf)
+    - Hypothesis Testing - Decision Errors - [slides](m156s21/week9.pdf)
+    - Hypothesis Testing - Misconceptions - [slides](m156s21/week9.pdf)
+
 
 ### In-class Activities
 
@@ -131,7 +132,7 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: *Wednesday* 3/3 at 5:00pm
 - HW #6: 16.1, 16.2, 16.3, 16.4, 16.6, 16.15, 16.16, 16.28, 16.33, 16.34
     - Due date: Friday 3/12 at 11:59pm
-- HW #7: TBD
+- HW #7: 18.1, 18.6, 18.9, 18.13, 18.14, 18.17, 18.18, 19.4, 19.5, 19.10, 19.11
     - Due date: Friday 3/19 at 11:59pm
     
 ### Project Information
