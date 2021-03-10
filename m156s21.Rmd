@@ -136,7 +136,10 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     
 ### Project Information
 
-This class contains a final project that is due at the end of the semester.  Additional details will be posted soon.
+This class contains a final project that is due at the end of the semester (during final's week):
+
+- [Information](m156s21/final_s21.html) - [Rubric](m156s21/final_rubric_s21.pdf)
+
 
 ### Datasets
 
