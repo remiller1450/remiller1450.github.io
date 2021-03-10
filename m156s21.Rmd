@@ -58,11 +58,11 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Central Limit Theorem - [slides](m156s21/week8.pdf) - [video](https://youtu.be/h6FA1WGfB0g)
     - Point vs. Interval Estimates - [slides](m156s21/week8.pdf) - [video](https://youtu.be/QOfSOisxXWY)
 - Week 9
-    - Hypothesis Testing - Null Models - [slides](m156s21/week9.pdf)
-    - Hypothesis Testing - p-values - [slides](m156s21/week9.pdf)
-    - Hypothesis Testing - Procedure - [slides](m156s21/week9.pdf)
-    - Hypothesis Testing - Decision Errors - [slides](m156s21/week9.pdf)
-    - Hypothesis Testing - Misconceptions - [slides](m156s21/week9.pdf)
+    - Hypothesis Testing - Null Models - [slides](m156s21/week9.pdf) - [video](https://youtu.be/CpWg_-FDC2s)
+    - Hypothesis Testing - p-values - [slides](m156s21/week9.pdf) - [video](https://youtu.be/FNWa2q6-R54)
+    - Hypothesis Testing - Procedural Steps - [slides](m156s21/week9.pdf) - [video](https://youtu.be/Yk0Rj7mL2ag)
+    - Hypothesis Testing - Decision Errors - [slides](m156s21/week9.pdf) - [video](https://youtu.be/5OZHe7gk9f0)
+    - Hypothesis Testing - Common Misconceptions - [slides](m156s21/week9.pdf) - [video](https://youtu.be/KYetZfduL3g)
 
 
 ### In-class Activities
