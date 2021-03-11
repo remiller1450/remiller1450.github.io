@@ -48,7 +48,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Model selection criteria](m257s21/modcrit.pdf)
 - Week 8 - Multiple Regression - Model Building (3/9 and 3/11)
     - [Interactions](m257s21/int.pdf)
-    - Model Diagnostics
+    - [Influence Diagnostics](m257s21/influence.pdf)
 - Week 9 - Multiple Regression - Case Study (3/16 and 3/18)
 - Week 10 - Midterm Project #2 (3/23 and 3/25)
 - Week 11 - Binary Outcomes - Logistic Regression (3/30 and 4/1)
