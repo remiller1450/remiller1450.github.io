@@ -86,7 +86,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 8 (3/9 an 3/11)
     - [Confidence Intervals](m156s21/week8.html)
 - Week 9 (3/16 and 3/18)
-    - Hypothesis Tests
+    - [Hypothesis Tests](m156s21/week9.html)
 - Week 10 (3/23 and 3/25)
     - Inference on One-sample Categorical Data
 - Week 11 (3/30 and 4/1)
