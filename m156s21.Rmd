@@ -63,7 +63,11 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Hypothesis Testing - Procedural Steps - [slides](m156s21/week9.pdf) - [video](https://youtu.be/Yk0Rj7mL2ag)
     - Hypothesis Testing - Decision Errors - [slides](m156s21/week9.pdf) - [video](https://youtu.be/5OZHe7gk9f0)
     - Hypothesis Testing - Common Misconceptions - [slides](m156s21/week9.pdf) - [video](https://youtu.be/KYetZfduL3g)
-
+- Week 10
+    - The $Z$-test for one-sample categorical data - [slides](m156s21/week10.pdf) - [video](A)
+    - Example #1 - [slides](m156s21/week10.pdf) - [video](A)
+    - Example #2 - [slides](m156s21/week10.pdf) - [video](A)
+    - Example #3 - [slides](m156s21/week10.pdf) - [video](A)
 
 ### In-class Activities
 
@@ -112,7 +116,13 @@ The readings listed below are *recommended* prior to the week indicated. It has 
 - Week 6: 5.1, 5.2, 5.3, 14.1, 14.2, 14.4
 - Week 7: None
 - Week 8: 16.1, 16.2, 16.3, 16.4, 16.5
-- Week 9: 8.1, 18.2, 18.5, 18.6, 19.1, 19.2, 19.3, 19.4
+- Week 9: 18.1, 18.2, 18.5, 18.6, 19.1, 19.2, 19.3, 19.4
+- Week 10: 18.3
+- Week 11: None
+- Week 12: 20.1, 20.2, 20.3
+- Week 13: None
+- Week 14: 20.4, 20.5
+- Week 15: 23.1, 23.3
     
 ### Problem Sets
 
@@ -134,6 +144,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 3/12 at 11:59pm
 - HW #7: 18.1, 18.6, 18.9, 18.13, 18.14, 18.17, 18.18, 19.4, 19.5, 19.10, 19.11
     - Due date: Friday 3/19 at 11:59pm
+- HW #8: 18.27, 18.28, 18.33, 18.34, 19.17, 19.19, 19.20, 19.38   
+    - Due date: Friday 3/26 at 11:59pm
     
 ### Project Information
 
