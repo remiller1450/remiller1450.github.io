@@ -64,10 +64,10 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Hypothesis Testing - Decision Errors - [slides](m156s21/week9.pdf) - [video](https://youtu.be/5OZHe7gk9f0)
     - Hypothesis Testing - Common Misconceptions - [slides](m156s21/week9.pdf) - [video](https://youtu.be/KYetZfduL3g)
 - Week 10
-    - The $Z$-test for one-sample categorical data - [slides](m156s21/week10.pdf) - [video](A)
-    - Example #1 - [slides](m156s21/week10.pdf) - [video](A)
-    - Example #2 - [slides](m156s21/week10.pdf) - [video](A)
-    - Example #3 - [slides](m156s21/week10.pdf) - [video](A)
+    - The $Z$-test for one-sample categorical data - [slides](m156s21/week10.pdf) - [video](https://youtu.be/ieSw5N6JA04)
+    - Example #1 - [slides](m156s21/week10.pdf) - [video](https://youtu.be/aLT-G27hWos)
+    - Example #2 - [slides](m156s21/week10.pdf) - [video](https://youtu.be/uQYibat-zJY)
+    - Example #3 - [slides](m156s21/week10.pdf) - [video](https://youtu.be/roWHOvZH19g)
 
 ### In-class Activities
 
