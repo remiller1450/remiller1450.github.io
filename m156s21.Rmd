@@ -92,7 +92,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 9 (3/16 and 3/18)
     - [Hypothesis Tests](m156s21/week9.html)
 - Week 10 (3/23 and 3/25)
-    - Inference on One-sample Categorical Data
+    - [Inference on One-sample Categorical Data](m156s21/week10.html)
 - Week 11 (3/30 and 4/1)
     - Inference on One-sample Quantitative Data
 - Week 12 (4/6 and 4/8)
