@@ -68,6 +68,12 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Example #1 - [slides](m156s21/week10.pdf) - [video](https://youtu.be/aLT-G27hWos)
     - Example #2 - [slides](m156s21/week10.pdf) - [video](https://youtu.be/uQYibat-zJY)
     - Example #3 - [slides](m156s21/week10.pdf) - [video](https://youtu.be/roWHOvZH19g)
+- Week 11
+    - The $t$-distribution - [slides](m156s21/week11.pdf) - [video](https://youtu.be/USbdzKN478Y)
+    - The one-sample $t$-test - [slides](m156s21/week11.pdf) - [video](https://youtu.be/5XB6Jr0RCS4)
+    - Assumptions and the $t$ and $z$ tests - [slides](m156s21/week11.pdf) - [video](https://youtu.be/GIXrFFFiYeM)
+    - Simulation-based alternatives (optional) - [slides](m156s21/week11.pdf) - [video](https://youtu.be/TIt6RFOeGXg)
+
 
 ### In-class Activities
 
