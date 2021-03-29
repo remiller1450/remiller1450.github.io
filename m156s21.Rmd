@@ -74,9 +74,9 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Assumptions and the $t$ and $z$ tests - [slides](m156s21/week11.pdf) - [video](https://youtu.be/GIXrFFFiYeM)
     - Simulation-based alternatives (optional) - [slides](m156s21/week11.pdf) - [video](https://youtu.be/TIt6RFOeGXg)
 - Week 12
-    - Two-sample categorical data - [slides](m156s21/week12.pdf) - [video](A)
-    - The difference in proportions Z-test - [slides](m156s21/week12.pdf) - [video](A)
-    - Confidence intervals and odds ratios - [slides](m156s21/week12.pdf) - [video](A)
+    - Two-sample categorical data - [slides](m156s21/week12.pdf) - [video](https://www.youtube.com/watch?v=C8vzrWqqjYE)
+    - The difference in proportions Z-test - [slides](m156s21/week12.pdf) - [video](https://youtu.be/0m9CD2_l7Nk)
+    - Confidence intervals and odds ratios - [slides](m156s21/week12.pdf) - [video](https://youtu.be/_DSh_xt6EfY)
 - Week 13
     - Midterm #2 on Tuesday, Academic Holiday on Thursday
 - Week 14
