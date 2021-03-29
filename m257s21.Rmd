@@ -52,6 +52,14 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 - Week 9 - Multiple Regression - Case Study (3/16 and 3/18)
 - Week 10 - Midterm Project #2 (3/23 and 3/25)
 - Week 11 - Binary Outcomes - Logistic Regression (3/30 and 4/1)
+    - Introduction
+    - Statistical Inference
+- Week 12 - Logistic Regression - Model Summaries and Model Selection (4/6 and 4/8)
+    - Performance Metrics
+    - Model Selection
+- Week 13 - Logistic Regression - Model Diagnostics
+    - Assumptions and Diagnostics
+    - Academic holiday on Thursday 4/15
 
 ```{r, echo = FALSE}
 # - Week 12 - Nominal Outcomes - Multinomial Logistic Regression (4/6 and 4/8)
@@ -90,6 +98,9 @@ In general, labs are to be completed with a partner, with responses to the embed
 - Week 8 (3/9 and 3/11)
     - [Multiple regression - Non-linear effects, Interactions, and Influence](m257s21/Lab7_Multiple_Reg_Part3.html)
     - Submit your answers via Canvas by Monday 3/15 at 11:59pm  
+- Week 11 (3/30 and 4/1)
+    - [Logistic Regression - Concepts and Statistical Inference](m257s21/Lab8_Logistic_Reg_Part1.html)
+    - Submit your answers via Canvas by Monday 4/5 at 11:59pm  
     
 ### Recommended Readings
 
@@ -119,7 +130,12 @@ The readings listed below are *recommended* prior to attending class. It has bee
      - A Second Course in Statistics - Ch 4.10, 4.11 (Interactions and non-linear predictors)
 - Week 9 (3/16 and 3/18)
     - No new material, work on midterm project #2
-
+- Week 11 (3/30 and 4/1)
+     - A Second Course in Statistics - Ch 9.6 (Logistic Regression)
+     - [OpenIntro Stats](https://www.openintro.org/book/os/) - Ch 9.5 (Introduction to Logistic Regression)
+- Week 12 (4/6 and 4/8)
+     - [ISLR - Ch 4.1, 4.2, and 4.3)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
+     
 ### Problem Sets
 
 There will be 4-5 problem sets assigned throughout the semester. These assignments can sometimes be quite lengthy, so if you wait until the last minute to begin them you'll likely not have enough time.
@@ -132,6 +148,14 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
     - Due: Friday Mar 12th at 11:59pm
     - You should submit your responses via Canvas
     - Please write your solutions using R Markdown
+- [Problem Set #3](m257s21/HW3.html)
+    - Due: Friday Apr 16th at 11:59pm
+    - You should submit your responses via Canvas
+    - Please write your solutions using R Markdown
+- Problem Set #4 - assignment TBD
+    - Due: Friday Apr 30th at 11:59pm
+    - You should submit your responses via Canvas
+    - Please write your solutions using R Markdown
     
 ### Projects
 
@@ -140,17 +164,4 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
 - Project #2
     - [Guidelines](m257s21/midterm2.html) - [Rubric (same as Midterm #1)](m257s21/midterm1_rubric.pdf)
 - Final Project
-    - Coming soon
-
-### Datasets
-
-- [Golden State Warriors](https://remiller1450.github.io/data/GSWarriors.csv)
-    - This dataset documents each of the 82 games in the record setting 2015-16 Golden State Warriors season. It was obtained from [Basketball Reference](https://www.basketball-reference.com/).
-- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
-    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
-- [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
-    - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website, and it contains information such as the home's sale price, assessed value, square footage, and features.  
-- [Tips](https://remiller1450.github.io/data/Tips.csv) 
-    - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker.  The data were originally obtained from the textbook: *Interactive and Dynamic Graphics for Data Analysis: With R*
- 
-    
+    - Coming soon, will be due during finals week

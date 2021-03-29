@@ -73,6 +73,18 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - The one-sample $t$-test - [slides](m156s21/week11.pdf) - [video](https://youtu.be/5XB6Jr0RCS4)
     - Assumptions and the $t$ and $z$ tests - [slides](m156s21/week11.pdf) - [video](https://youtu.be/GIXrFFFiYeM)
     - Simulation-based alternatives (optional) - [slides](m156s21/week11.pdf) - [video](https://youtu.be/TIt6RFOeGXg)
+- Week 12
+    - Two-sample categorical data - [slides](m156s21/week12.pdf) - [video](A)
+    - The difference in proportions Z-test - [slides](m156s21/week12.pdf) - [video](A)
+    - Confidence intervals and odds ratios - [slides](m156s21/week12.pdf) - [video](A)
+- Week 13
+    - Midterm #2 on Tuesday, Academic Holiday on Thursday
+- Week 14
+    - Two-sample quantitative data (the two-sample T-test)
+    - Two-sample quantitative data (confidence intervals)
+- Week 15
+    - Inference for the correlation coefficient
+    - Inference for simple linear regression
 
 
 ### In-class Activities
@@ -152,6 +164,10 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 3/19 at 11:59pm
 - HW #8: 18.27, 18.28, 18.33, 18.34, 19.17, 19.19, 19.20, 19.38   
     - Due date: Friday 3/26 at 11:59pm
+- HW #9: 17.11, 17.13, 17.14, 18.10, 18.43, 18.45, 18.46, 18.50, 18.52
+    - Due date: Friday 4/2 at 11:59pm
+- HW #10: 20.1, 20.7, 20.22, 20.27, 20.28, 20.37, 20.38, 20.39
+    - Due date: Friday 4/7 at 11:59pm
     
 ### Project Information
 
