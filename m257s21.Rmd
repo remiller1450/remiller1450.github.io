@@ -53,9 +53,9 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 - Week 10 - Midterm Project #2 (3/23 and 3/25)
 - Week 11 - Binary Outcomes - Logistic Regression (3/30 and 4/1)
     - [Introduction](m257s21/odds.pdf)
-    - Statistical Inference
-- Week 12 - Logistic Regression - Model Summaries and Model Selection (4/6 and 4/8)
-    - Performance Metrics
+    - [Statistical Inference](m257s21/logistic_inf.pdf)
+- Week 12 - Logistic Regression - Model Summaries and Selection (4/6 and 4/8)
+    - Measuring Model Performance
     - Model Selection
 - Week 13 - Logistic Regression - Model Diagnostics
     - Assumptions and Diagnostics
