@@ -114,7 +114,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 11 (3/30 and 4/1)
     - [Inference on One-sample Quantitative Data](m156s21/week11.html)
 - Week 12 (4/6 and 4/8)
-    - Inference on Two-sample Categorical Data
+    - [Inference on Two-sample Categorical Data](m156s21/week12.html)
 - Week 13 (4/13 and 4/15)
     - Exam #2 (Exam on Tuesday, Academic Holiday on Thursday)
 - Week 14 (4/20 and 4/22)
