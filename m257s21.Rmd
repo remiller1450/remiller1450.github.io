@@ -55,7 +55,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Introduction](m257s21/odds.pdf)
     - [Statistical Inference](m257s21/logistic_inf.pdf)
 - Week 12 - Logistic Regression - Model Summaries and Selection (4/6 and 4/8)
-    - Measuring Model Performance
+    - [Measuring Model Performance](m257s21/logistic_assess.pdf)
     - Model Selection
 - Week 13 - Logistic Regression - Model Diagnostics
     - Assumptions and Diagnostics
@@ -101,6 +101,10 @@ In general, labs are to be completed with a partner, with responses to the embed
 - Week 11 (3/30 and 4/1)
     - [Logistic Regression - Concepts and Statistical Inference](m257s21/Lab8_Logistic_Reg_Part1.html)
     - Submit your answers via Canvas by Monday 4/5 at 11:59pm  
+- Week 12 (4/6 and 4/8)
+    - [Logistic Regression - Model Assessment and Selection](m257s21/Lab9_Logistic_Reg_Part2.html)
+    - Submit your answers via Canvas by Monday 4/12 at 11:59pm  
+    
     
 ### Recommended Readings
 
