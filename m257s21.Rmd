@@ -56,9 +56,9 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Statistical Inference](m257s21/logistic_inf.pdf)
 - Week 12 - Logistic Regression - Model Summaries and Selection (4/6 and 4/8)
     - [Measuring Model Performance](m257s21/logistic_assess.pdf)
-    - Model Selection
-- Week 13 - Logistic Regression - Model Diagnostics
-    - Assumptions and Diagnostics
+    - [Model Selection Criteria](m257s21/logistic_sel.pdf)
+- Week 13 - Alternatives to Regression (4/13 and 4/15)
+    - Classification and Regression Trees
     - Academic holiday on Thursday 4/15
 
 ```{r, echo = FALSE}
@@ -104,7 +104,9 @@ In general, labs are to be completed with a partner, with responses to the embed
 - Week 12 (4/6 and 4/8)
     - [Logistic Regression - Model Assessment and Selection](m257s21/Lab9_Logistic_Reg_Part2.html)
     - Submit your answers via Canvas by Monday 4/12 at 11:59pm  
-    
+- Week 13 (4/13 and 4/15) 
+    - Non-parametric Alternatives to Regression
+    - Submit your answers via Canvas by Monday 4/19 at 11:59pm  
     
 ### Recommended Readings
 
@@ -168,4 +170,4 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
 - Project #2
     - [Guidelines](m257s21/midterm2.html) - [Rubric (same as Midterm #1)](m257s21/midterm1_rubric.pdf)
 - Final Project
-    - Coming soon, will be due during finals week
+    - [Guidelines](m257s21/final.html)
