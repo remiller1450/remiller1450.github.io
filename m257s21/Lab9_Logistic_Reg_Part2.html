@@ -1706,7 +1706,7 @@ stepAIC(init_fit,
 <li>Use the code provided below to construct the model formula containing all available predictors</li>
 <li>Expect the algorithm to take several minutes to complete. I suggest you run it and then move on to another section of the while waiting for the final model. Additionally, you can use the argument <code>trace = FALSE</code> to stop <code>stepAIC()</code> from printing output at every step.</li>
 </ol>
-<p><strong>Question #7</strong>: As illustrated in the previous question, the computational burden of model selection algorithms in the logistic regression setting is non-trivial. Had you used a purely forward selection algorimth (ie: <code>direction = &quot;forward&quot;) rather than a stepwise forward selection algorithm (ie:</code>direction = “both”`) would you expect the run time to remain approximately the same? Or would it decrease? Briefly explain. (Note: you don’t need to write any code for your answer to this question)</p>
+<p><strong>Question #7</strong>: As illustrated in the previous question, the computational burden of model selection algorithms in the logistic regression setting is non-trivial. Had you used a purely forward selection algorithm (ie: <code>direction = &quot;forward&quot;</code>) rather than a stepwise forward selection algorithm (ie: <code>direction = &quot;both&quot;</code>) would you expect the run time to remain approximately the same? Or would it decrease? Briefly explain. (Note: you don’t need to write any code for your answer to this question)</p>
 <pre class="r"><code>library(kernlab)
 data(&quot;spam&quot;)
 table(spam$type)</code></pre>
