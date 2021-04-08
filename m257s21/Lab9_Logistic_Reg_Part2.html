@@ -1753,8 +1753,8 @@ prop.table(table(spam$type)) ## Guessing &quot;nonspam&quot; for everything is 6
 <pre><code>## 
 ##         0         1 
 ## 0.6059552 0.3940448</code></pre>
-<pre class="r"><code>(out_acc - 0.6059552)/(1 - - 0.6059552)</code></pre>
-<pre><code>## [1] 0.1977264</code></pre>
+<pre class="r"><code>(out_acc - 0.6059552)/(1 - 0.6059552)</code></pre>
+<pre><code>## [1] 0.8058467</code></pre>
 <pre class="r"><code>## Out of sample AUC
 df &lt;- data.frame(y_numeric = spam$type, pi = preds)
 pl &lt;- ggplot(df, aes(d = y_numeric, m = pi)) + geom_roc()
