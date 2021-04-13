@@ -58,7 +58,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Measuring Model Performance](m257s21/logistic_assess.pdf)
     - [Model Selection Criteria](m257s21/logistic_sel.pdf)
 - Week 13 - Alternatives to Regression (4/13 and 4/15)
-    - Classification and Regression Trees
+    - [Classification and Regression Trees](m257s21/other.pdf)
     - Academic holiday on Thursday 4/15
 
 ```{r, echo = FALSE}
@@ -105,8 +105,8 @@ In general, labs are to be completed with a partner, with responses to the embed
     - [Logistic Regression - Model Assessment and Selection](m257s21/Lab9_Logistic_Reg_Part2.html)
     - Submit your answers via Canvas by Monday 4/12 at 11:59pm  
 - Week 13 (4/13 and 4/15) 
-    - Non-parametric Alternatives to Regression
-    - Submit your answers via Canvas by Monday 4/19 at 11:59pm  
+    - [Non-parametric Alternatives to Regression](m257s21/Lab10_Other_Models.html)
+    - Submit your answers via Canvas by *Wednesday* 4/21 at 11:59pm  
     
 ### Recommended Readings
 
