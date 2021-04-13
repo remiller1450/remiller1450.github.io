@@ -60,6 +60,11 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
 - Week 13 - Alternatives to Regression (4/13 and 4/15)
     - [Classification and Regression Trees](m257s21/other.pdf)
     - Academic holiday on Thursday 4/15
+- Week 14 - Alternatives to Regression (4/20 and 4/22)
+    - Random Forests
+    - Project meetings (round 1)
+- Week 15 - Final Project (4/27 and 4/29)
+    - Project meetings (round 2)
 
 ```{r, echo = FALSE}
 # - Week 12 - Nominal Outcomes - Multinomial Logistic Regression (4/6 and 4/8)
@@ -158,7 +163,7 @@ There will be 4-5 problem sets assigned throughout the semester. These assignmen
     - Due: Friday Apr 16th at 11:59pm
     - You should submit your responses via Canvas
     - Please write your solutions using R Markdown
-- Problem Set #4 - assignment TBD
+- [Problem Set #4](m257s21/HW4.html)
     - Due: Friday Apr 30th at 11:59pm
     - You should submit your responses via Canvas
     - Please write your solutions using R Markdown
