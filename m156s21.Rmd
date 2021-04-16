@@ -80,11 +80,11 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
 - Week 13
     - Midterm #2 on Tuesday, Academic Holiday on Thursday
 - Week 14
-    - Two-sample quantitative data (the two-sample T-test)
-    - Two-sample quantitative data (confidence intervals)
+    - Two-sample quantitative data (the two-sample T-test) - [slides](m156s21/week14.pdf) - [video](A)
+    - Two-sample quantitative data (confidence intervals) - [slides](m156s21/week14.pdf) - [video](A)
 - Week 15
-    - Inference for the correlation coefficient
-    - Inference for simple linear regression
+    - Inference for the correlation coefficient - [slides](m156s21/week15.pdf) - [video](A)
+    - Inference for simple linear regression - [slides](m156s21/week15.pdf) - [video](A)
 
 
 ### In-class Activities
@@ -168,6 +168,8 @@ Due to COVID-19, all submissions will done electronically via Canvas.  Please su
     - Due date: Friday 4/2 at 11:59pm
 - HW #10: 20.1, 20.7, 20.22, 20.27, 20.28, 20.37, 20.38, 20.39
     - Due date: Friday 4/7 at 11:59pm
+- HW #11: 20.11, 20.15, 20.59, 20.62, 20.63, 20.64    
+    - Due date: Friday 4/23 at 11:59pm
     
 ### Project Information
 
