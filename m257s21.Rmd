@@ -61,7 +61,7 @@ Lectures in this class will be relatively short, consisting of roughly 20-30 min
     - [Classification and Regression Trees](m257s21/other.pdf)
     - Academic holiday on Thursday 4/15
 - Week 14 - Alternatives to Regression (4/20 and 4/22)
-    - Random Forests
+    - [Random Forests](m257s21/randomforest.pdf)
     - Project meetings (round 1)
 - Week 15 - Final Project (4/27 and 4/29)
     - Project meetings (round 2)
@@ -111,7 +111,7 @@ In general, labs are to be completed with a partner, with responses to the embed
     - Submit your answers via Canvas by Monday 4/12 at 11:59pm  
 - Week 13 (4/13 and 4/15) 
     - [Non-parametric Alternatives to Regression](m257s21/Lab10_Other_Models.html)
-    - Submit your answers via Canvas by *Wednesday* 4/21 at 11:59pm  
+    - Submit your answers via Canvas by *Friday* 4/23 at 11:59pm  
     
 ### Recommended Readings
 
@@ -145,7 +145,9 @@ The readings listed below are *recommended* prior to attending class. It has bee
      - A Second Course in Statistics - Ch 9.6 (Logistic Regression)
      - [OpenIntro Stats](https://www.openintro.org/book/os/) - Ch 9.5 (Introduction to Logistic Regression)
 - Week 12 (4/6 and 4/8)
-     - [ISLR - Ch 4.1, 4.2, and 4.3)](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
+     - [ISLR - Ch 4.1, 4.2, and 4.3](https://statlearning.com/ISLR%20Seventh%20Printing.pdf)
+- Weeks 13 and 14 (4/13 - 4/22)
+     - [ISLR - Ch 8.1 and Ch 8.2](https://statlearning.com/ISLR%20Seventh%20Printing.pdf) (Decision Trees and Random Forests)
      
 ### Problem Sets
 
