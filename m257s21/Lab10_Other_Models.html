@@ -1629,7 +1629,7 @@ rf$confusion</code></pre>
 <pre><code>##            setosa versicolor virginica class.error
 ## setosa         50          0         0        0.00
 ## versicolor      0         47         3        0.06
-## virginica       0          4        46        0.08</code></pre>
+## virginica       0          3        47        0.06</code></pre>
 <pre class="r"><code>## CART confusion matrix
 ### CV Setup
 set.seed(123)
@@ -1704,38 +1704,6 @@ perc_miss &lt;- function(X){
 }
 
 apply(ah2, 2, perc_miss)</code></pre>
-<pre><code>##    Lot.Frontage        Lot.Area          Street           Alley       Lot.Shape 
-##    0.1672354949    0.0000000000    0.0000000000    0.9324232082    0.0000000000 
-##    Land.Contour       Utilities      Lot.Config      Land.Slope     Condition.1 
-##    0.0000000000    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##     Condition.2       Bldg.Type     House.Style    Overall.Qual    Overall.Cond 
-##    0.0000000000    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##      Year.Built  Year.Remod.Add      Roof.Style       Roof.Matl    Exterior.1st 
-##    0.0000000000    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##    Exterior.2nd    Mas.Vnr.Type    Mas.Vnr.Area      Exter.Qual      Exter.Cond 
-##    0.0000000000    0.0000000000    0.0078498294    0.0000000000    0.0000000000 
-##      Foundation       Bsmt.Qual       Bsmt.Cond   Bsmt.Exposure  BsmtFin.Type.1 
-##    0.0000000000    0.0269624573    0.0269624573    0.0269624573    0.0269624573 
-##    BsmtFin.SF.1  BsmtFin.Type.2    BsmtFin.SF.2     Bsmt.Unf.SF   Total.Bsmt.SF 
-##    0.0003412969    0.0269624573    0.0003412969    0.0003412969    0.0003412969 
-##         Heating      Heating.QC     Central.Air      Electrical     X1st.Flr.SF 
-##    0.0000000000    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##     X2nd.Flr.SF Low.Qual.Fin.SF     Gr.Liv.Area  Bsmt.Full.Bath  Bsmt.Half.Bath 
-##    0.0000000000    0.0000000000    0.0000000000    0.0006825939    0.0006825939 
-##       Full.Bath       Half.Bath   Bedroom.AbvGr   Kitchen.AbvGr    Kitchen.Qual 
-##    0.0000000000    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##   TotRms.AbvGrd      Functional      Fireplaces    Fireplace.Qu     Garage.Type 
-##    0.0000000000    0.0000000000    0.0000000000    0.4853242321    0.0535836177 
-##   Garage.Yr.Blt   Garage.Finish     Garage.Cars     Garage.Area     Garage.Qual 
-##    0.0542662116    0.0535836177    0.0003412969    0.0003412969    0.0539249147 
-##     Garage.Cond     Paved.Drive    Wood.Deck.SF   Open.Porch.SF  Enclosed.Porch 
-##    0.0539249147    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##     X3Ssn.Porch    Screen.Porch       Pool.Area         Pool.QC           Fence 
-##    0.0000000000    0.0000000000    0.0000000000    0.9955631399    0.8047781570 
-##    Misc.Feature        Misc.Val         Mo.Sold         Yr.Sold       Sale.Type 
-##    0.9638225256    0.0000000000    0.0000000000    0.0000000000    0.0000000000 
-##  Sale.Condition       SalePrice 
-##    0.0000000000    0.0000000000</code></pre>
 <p><strong>Question #8</strong>: A challenge in most modeling applications is missing data. For this question, first verify (using the function <code>complete.cases()</code>) that the dataset <code>ah2</code> contains no data-points that aren’t missing a value in at least one variable. Next, use the argument <code>na.action = &quot;na.roughfix&quot;</code> to fit a random forest model that uses all of the available predictors. Print the confusion matrix of this model and comment on how its accuracy compares to the two models you evaluated in Question #7.</p>
 </div>
 
