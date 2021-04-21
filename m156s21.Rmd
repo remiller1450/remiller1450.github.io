@@ -83,8 +83,8 @@ Please watch the video lectures for each week *prior to 8:30am Tuesday morning* 
     - Two-sample quantitative data (the two-sample T-test) - [slides](m156s21/week14.pdf) - [video](https://youtu.be/KFMQ2fBfoQE)
     - Two-sample quantitative data (confidence intervals) - [slides](m156s21/week14.pdf) - [video](https://youtu.be/wKA_REhmdLU)
 - Week 15
-    - Inference for the correlation coefficient - [slides](m156s21/week15.pdf) - [video](A)
-    - Inference for simple linear regression - [slides](m156s21/week15.pdf) - [video](A)
+    - Inference for the correlation coefficient - [slides](m156s21/week15.pdf) - [video](https://youtu.be/nplXWE18EVE)
+    - Inference for simple linear regression - [slides](m156s21/week15.pdf) - [video](https://youtu.be/xEG0f3so2u4)
 
 
 ### In-class Activities
