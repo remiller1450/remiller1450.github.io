@@ -13,22 +13,22 @@ Below are quick links to my current and previous courses:
 **Xavier University Courses**:
 
 - Spring 2021
-    - [Mat-156, General Statistics (Spring 2021)](m156s21.html)
-    - [Mat-257, Data Modeling (Spring 2021)](m257s21.html)
+    - [Mat-156, General Statistics](m156s21.html)
+    - [Mat-257, Data Modeling](m257s21.html)
 - Fall 2020
-    - [Mat-156, General Statistics (Fall 2020)](m156f20.html)
-    - [Mat-256, Intro to Probability and Statistics (Fall 2020)](m256f20.html)
+    - [Mat-156, General Statistics](m156f20.html)
+    - [Mat-256, Intro to Probability and Statistics](m256f20.html)
 
 **Grinnell College Courses**:
 
 - Spring 2020
-    - [Sta-209, Applied Statistics (Spring 2020)](sta209s20.html)
-    - [Sta-395, Applied Data Science (Spring 2020)](sta395s20.html)
+    - [Sta-209, Applied Statistics](sta209s20.html)
+    - [Sta-395, Applied Data Science](sta395s20.html)
 - Fall 2019
-    - [Sta-209, Applied Statistics (Fall 2019)](sta209f19.html)
-    - [Sta-230, Intro to Data Science (Fall 2019)](sta230f19.html)
+    - [Sta-209, Applied Statistics](sta209f19.html)
+    - [Sta-230, Intro to Data Science](sta230f19.html)
 - Spring 2019
-    - [Sta-209, Applied Statistics (Spring 2019)](sta209s19.html)
-    - [Sta-230, Intro to Data Science (Spring 2019)](sta230s19.html)
+    - [Sta-209, Applied Statistics](sta209s19.html)
+    - [Sta-230, Intro to Data Science](sta230s19.html)
 - Fall 2018
-    - [Sta-209, Applied Statistics (Fall 2018)](sta209f18.html)
+    - [Sta-209, Applied Statistics](sta209f18.html)
