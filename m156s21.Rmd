@@ -120,7 +120,7 @@ Found below are links to the activities we will complete in class.  You are expe
 - Week 14 (4/20 and 4/22)
     - [Inference on Two-sample Quantitative Data](m156s21/week14.html)
 - Week 15 (4/27 and 4/29)
-    - Inference for Correlation/Regression
+    - [Inference for Correlation and Regression](m156s21/week15.html)
     
 ### Recommended Readings
 
