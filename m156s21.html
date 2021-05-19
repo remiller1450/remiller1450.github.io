@@ -13,12 +13,22 @@
 
 <title>MATH 156 - General Statistics (Spring 2021)</title>
 
+<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
 <script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
 <link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
 <script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
@@ -28,12 +38,16 @@
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
-<style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-  pre:not([class]) {
-    background-color: white;
-  }
-</style>
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
 if (window.hljs) {
   hljs.configure({languages: []});
@@ -46,32 +60,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">
-h1 {
-  font-size: 34px;
-}
-h1.title {
-  font-size: 38px;
-}
-h2 {
-  font-size: 30px;
-}
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-.table th:not([align]) {
-  text-align: left;
-}
-</style>
+
 
 
 
@@ -81,10 +70,6 @@ h6 {
   max-width: 940px;
   margin-left: auto;
   margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
 }
 img {
   max-width:100%;
@@ -101,40 +86,13 @@ button.code-folding-btn:focus {
 summary {
   display: list-item;
 }
+pre code {
+  padding: 0;
+}
 </style>
 
 
 <style type="text/css">
-/* padding for bootstrap navbar */
-body {
-  padding-top: 51px;
-  padding-bottom: 40px;
-}
-/* offset scroll position for anchor links (for fixed navbar)  */
-.section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
 .dropdown-submenu {
   position: relative;
 }
@@ -162,7 +120,7 @@ body {
   margin-right: -10px;
 }
 .dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
+  border-left-color: #adb5bd;
 }
 .dropdown-submenu.pull-left {
   float: none;
@@ -174,7 +132,7 @@ body {
 }
 </style>
 
-<script>
+<script type="text/javascript">
 // manage active state of menu based on current page
 $(document).ready(function () {
   // active menu anchor
@@ -185,10 +143,23 @@ $(document).ready(function () {
   var menuAnchor = $('a[href="' + href + '"]');
 
   // mark it active
-  menuAnchor.parent().addClass('active');
+  menuAnchor.tab('show');
 
   // if it's got a parent navbar menu mark it active as well
   menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
 });
 </script>
 
@@ -200,7 +171,6 @@ $(document).ready(function () {
   max-height: 500px;
   min-height: 44px;
   overflow-y: auto;
-  background: white;
   border: 1px solid #ddd;
   border-radius: 4px;
 }
@@ -326,13 +296,13 @@ div.tocify {
 
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -351,35 +321,35 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fa fa-home"></span>
+    <span class="fas fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fa fa-newspaper-o"></span>
+    <span class="fas fa-newspaper-o"></span>
      
     Research
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fa fa-graduation-cap"></span>
+    <span class="fas fa-graduation-cap"></span>
      
     Teaching
   </a>
 </li>
 <li>
   <a href="personal.html">
-    <span class="fa fa-dumbbell"></span>
+    <span class="fas fa-dumbbell"></span>
      
     Personal
   </a>
 </li>
 <li>
   <a href="CV_2018.pdf">
-    <span class="fa fa-file"></span>
+    <span class="fas fa-file"></span>
      
     CV
   </a>
@@ -392,7 +362,7 @@ div.tocify {
   </div><!--/.container -->
 </div><!--/.navbar -->
 
-<div class="fluid-row" id="header">
+<div id="header">
 
 
 
@@ -421,37 +391,37 @@ div.tocify {
 </ul></li>
 <li>Week 2 - Watch these prior to taking the “Week 2 Quiz” on Canvas (deadline Tuesday 1/26 at 8:30am)
 <ul>
-<li>Data Basics - <a href="m156s21/week1.pdf">slides</a> - <a href="https://youtu.be/scSbelpxCec">video</a></li>
-<li>Quantitative Variables - <a href="m156s21/week1.pdf">slides</a> - <a href="https://youtu.be/MdmxelRVAYk">video</a></li>
-<li>Categorical Variables - <a href="m156s21/week1.pdf">slides</a> - <a href="https://youtu.be/RHWZO3Ww7xQ">video</a></li>
-<li>Contingency Tables - <a href="m156s21/week1.pdf">slides</a> - <a href="https://youtu.be/qCRZdej_Lgs">video</a></li>
+<li>Data Basics - <a href="m156s21/week1.pdf">slides</a></li>
+<li>Quantitative Variables - <a href="m156s21/week1.pdf">slides</a></li>
+<li>Categorical Variables - <a href="m156s21/week1.pdf">slides</a></li>
+<li>Contingency Tables - <a href="m156s21/week1.pdf">slides</a></li>
 </ul></li>
 <li>Week 3 - Watch these prior to taking the “Week 3 Quiz” on Canvas (deadline Tuesday 2/2 at 8:30am)
 <ul>
-<li>Comparing Groups - <a href="m156s21/week2.pdf">slides</a> - <a href="https://youtu.be/0ocko_9_Y_s">video</a></li>
-<li>Correlation - <a href="m156s21/week2.pdf">slides</a> - <a href="https://youtu.be/hAoaQt3gno0">video</a></li>
-<li>Regression - <a href="m156s21/week2.pdf">slides</a> - <a href="https://youtu.be/dLPMDWiWiKA">video</a></li>
+<li>Comparing Groups - <a href="m156s21/week2.pdf">slides</a></li>
+<li>Correlation - <a href="m156s21/week2.pdf">slides</a></li>
+<li>Regression - <a href="m156s21/week2.pdf">slides</a></li>
 </ul></li>
 <li>Week 4 - Watch these prior to taking the “Week 4 Quiz” on Canvas (deadline <em>Thursday</em> 2/9 at 8:30am)
 <ul>
-<li>Sampling from a Population - <a href="m156s21/week3.pdf">slides</a> - <a href="https://youtu.be/4C141gj-Lg8">video</a></li>
-<li>Sampling Examples - <a href="m156s21/week3.pdf">slides</a> - <a href="https://youtu.be/kfBcUVZjj5M">video</a></li>
-<li>Study Design - <a href="m156s21/week3.pdf">slides</a> - <a href="https://youtu.be/cMf4Rp6f-l4">video</a></li>
-<li>Randomized Experiments - <a href="m156s21/week3.pdf">slides</a> - <a href="https://youtu.be/AT3eyfVz82c">video</a></li>
+<li>Sampling from a Population - <a href="m156s21/week3.pdf">slides</a></li>
+<li>Sampling Examples - <a href="m156s21/week3.pdf">slides</a></li>
+<li>Study Design - <a href="m156s21/week3.pdf">slides</a></li>
+<li>Randomized Experiments - <a href="m156s21/week3.pdf">slides</a></li>
 </ul></li>
 <li>Week 5 - Watch these prior to taking the “Week 5 Quiz” on Canvas (deadline Tuesday 2/16 at 8:30am)
 <ul>
-<li>Introduction to Probability - <a href="m156s21/week4.pdf">slides</a> - <a href="https://youtu.be/D1pHRpviHg0">video</a></li>
-<li>The Complement Rule - <a href="m156s21/week4.pdf">slides</a> - <a href="https://youtu.be/9qiZ29LmD-k">video</a></li>
-<li>The Addition Rule - <a href="m156s21/week4.pdf">slides</a> - <a href="https://youtu.be/y0puaFg9GLE">video</a></li>
-<li>The Multiplication Rule - <a href="m156s21/week4.pdf">slides</a> - <a href="https://youtu.be/fnxGrb6r6xU">video</a></li>
-<li>Probability Rules Examples - <a href="m156s21/week4.pdf">slides</a> - <a href="https://youtu.be/JgLIhGKfj3M">video</a></li>
+<li>Introduction to Probability - <a href="m156s21/week4.pdf">slides</a></li>
+<li>The Complement Rule - <a href="m156s21/week4.pdf">slides</a></li>
+<li>The Addition Rule - <a href="m156s21/week4.pdf">slides</a></li>
+<li>The Multiplication Rule - <a href="m156s21/week4.pdf">slides</a></li>
+<li>Probability Rules Examples - <a href="m156s21/week4.pdf">slides</a></li>
 </ul></li>
 <li>Week 6 - Watch these prior to taking the “Week 6 Quiz” on Canvas (deadline <em>Thursday</em> 2/23 at 8:30am)
 <ul>
-<li>Discrete Random Variables - <a href="m156s21/week5.pdf">slides</a> - <a href="https://youtu.be/EYJh0g_UuwI">video</a></li>
-<li>Continuous Random Variables - <a href="m156s21/week5.pdf">slides</a> - <a href="https://youtu.be/mLef4KYQBw4">video</a></li>
-<li>Applications of the Normal Model - <a href="m156s21/week5.pdf">slides</a> - <a href="https://youtu.be/D0HT4kNuK1o">video</a></li>
+<li>Discrete Random Variables - <a href="m156s21/week5.pdf">slides</a></li>
+<li>Continuous Random Variables - <a href="m156s21/week5.pdf">slides</a></li>
+<li>Applications of the Normal Model - <a href="m156s21/week5.pdf">slides</a></li>
 </ul></li>
 <li>Week 7
 <ul>
@@ -460,37 +430,37 @@ div.tocify {
 </ul></li>
 <li>Week 8
 <ul>
-<li>Sampling Distributions - <a href="m156s21/week8.pdf">slides</a> - <a href="https://youtu.be/DoDf65zgZYE">video</a></li>
-<li>Central Limit Theorem - <a href="m156s21/week8.pdf">slides</a> - <a href="https://youtu.be/h6FA1WGfB0g">video</a></li>
-<li>Point vs. Interval Estimates - <a href="m156s21/week8.pdf">slides</a> - <a href="https://youtu.be/QOfSOisxXWY">video</a></li>
+<li>Sampling Distributions - <a href="m156s21/week8.pdf">slides</a></li>
+<li>Central Limit Theorem - <a href="m156s21/week8.pdf">slides</a></li>
+<li>Point vs. Interval Estimates - <a href="m156s21/week8.pdf">slides</a></li>
 </ul></li>
 <li>Week 9
 <ul>
-<li>Hypothesis Testing - Null Models - <a href="m156s21/week9.pdf">slides</a> - <a href="https://youtu.be/CpWg_-FDC2s">video</a></li>
-<li>Hypothesis Testing - p-values - <a href="m156s21/week9.pdf">slides</a> - <a href="https://youtu.be/FNWa2q6-R54">video</a></li>
-<li>Hypothesis Testing - Procedural Steps - <a href="m156s21/week9.pdf">slides</a> - <a href="https://youtu.be/Yk0Rj7mL2ag">video</a></li>
-<li>Hypothesis Testing - Decision Errors - <a href="m156s21/week9.pdf">slides</a> - <a href="https://youtu.be/5OZHe7gk9f0">video</a></li>
-<li>Hypothesis Testing - Common Misconceptions - <a href="m156s21/week9.pdf">slides</a> - <a href="https://youtu.be/KYetZfduL3g">video</a></li>
+<li>Hypothesis Testing - Null Models - <a href="m156s21/week9.pdf">slides</a></li>
+<li>Hypothesis Testing - p-values - <a href="m156s21/week9.pdf">slides</a></li>
+<li>Hypothesis Testing - Procedural Steps - <a href="m156s21/week9.pdf">slides</a></li>
+<li>Hypothesis Testing - Decision Errors - <a href="m156s21/week9.pdf">slides</a></li>
+<li>Hypothesis Testing - Common Misconceptions - <a href="m156s21/week9.pdf">slides</a></li>
 </ul></li>
 <li>Week 10
 <ul>
-<li>The <span class="math inline">\(Z\)</span>-test for one-sample categorical data - <a href="m156s21/week10.pdf">slides</a> - <a href="https://youtu.be/ieSw5N6JA04">video</a></li>
-<li>Example #1 - <a href="m156s21/week10.pdf">slides</a> - <a href="https://youtu.be/aLT-G27hWos">video</a></li>
-<li>Example #2 - <a href="m156s21/week10.pdf">slides</a> - <a href="https://youtu.be/uQYibat-zJY">video</a></li>
-<li>Example #3 - <a href="m156s21/week10.pdf">slides</a> - <a href="https://youtu.be/roWHOvZH19g">video</a></li>
+<li>The <span class="math inline">\(Z\)</span>-test for one-sample categorical data - <a href="m156s21/week10.pdf">slides</a></li>
+<li>Example #1 - <a href="m156s21/week10.pdf">slides</a></li>
+<li>Example #2 - <a href="m156s21/week10.pdf">slides</a></li>
+<li>Example #3 - <a href="m156s21/week10.pdf">slides</a></li>
 </ul></li>
 <li>Week 11
 <ul>
-<li>The <span class="math inline">\(t\)</span>-distribution - <a href="m156s21/week11.pdf">slides</a> - <a href="https://youtu.be/USbdzKN478Y">video</a></li>
-<li>The one-sample <span class="math inline">\(t\)</span>-test - <a href="m156s21/week11.pdf">slides</a> - <a href="https://youtu.be/5XB6Jr0RCS4">video</a></li>
-<li>Assumptions and the <span class="math inline">\(t\)</span> and <span class="math inline">\(z\)</span> tests - <a href="m156s21/week11.pdf">slides</a> - <a href="https://youtu.be/GIXrFFFiYeM">video</a></li>
-<li>Simulation-based alternatives (optional) - <a href="m156s21/week11.pdf">slides</a> - <a href="https://youtu.be/TIt6RFOeGXg">video</a></li>
+<li>The <span class="math inline">\(t\)</span>-distribution - <a href="m156s21/week11.pdf">slides</a></li>
+<li>The one-sample <span class="math inline">\(t\)</span>-test - <a href="m156s21/week11.pdf">slides</a></li>
+<li>Assumptions and the <span class="math inline">\(t\)</span> and <span class="math inline">\(z\)</span> tests - <a href="m156s21/week11.pdf">slides</a></li>
+<li>Simulation-based alternatives (optional) - <a href="m156s21/week11.pdf">slides</a></li>
 </ul></li>
 <li>Week 12
 <ul>
-<li>Two-sample categorical data - <a href="m156s21/week12.pdf">slides</a> - <a href="https://www.youtube.com/watch?v=C8vzrWqqjYE">video</a></li>
-<li>The difference in proportions Z-test - <a href="m156s21/week12.pdf">slides</a> - <a href="https://youtu.be/0m9CD2_l7Nk">video</a></li>
-<li>Confidence intervals and odds ratios - <a href="m156s21/week12.pdf">slides</a> - <a href="https://youtu.be/_DSh_xt6EfY">video</a></li>
+<li>Two-sample categorical data - <a href="m156s21/week12.pdf">slides</a></li>
+<li>The difference in proportions Z-test - <a href="m156s21/week12.pdf">slides</a></li>
+<li>Confidence intervals and odds ratios - <a href="m156s21/week12.pdf">slides</a></li>
 </ul></li>
 <li>Week 13
 <ul>
@@ -498,13 +468,13 @@ div.tocify {
 </ul></li>
 <li>Week 14
 <ul>
-<li>Two-sample quantitative data (the two-sample T-test) - <a href="m156s21/week14.pdf">slides</a> - <a href="https://youtu.be/KFMQ2fBfoQE">video</a></li>
-<li>Two-sample quantitative data (confidence intervals) - <a href="m156s21/week14.pdf">slides</a> - <a href="https://youtu.be/wKA_REhmdLU">video</a></li>
+<li>Two-sample quantitative data (the two-sample T-test) - <a href="m156s21/week14.pdf">slides</a></li>
+<li>Two-sample quantitative data (confidence intervals) - <a href="m156s21/week14.pdf">slides</a></li>
 </ul></li>
 <li>Week 15
 <ul>
-<li>Inference for the correlation coefficient - <a href="m156s21/week15.pdf">slides</a> - <a href="https://youtu.be/nplXWE18EVE">video</a></li>
-<li>Inference for simple linear regression - <a href="m156s21/week15.pdf">slides</a> - <a href="https://youtu.be/xEG0f3so2u4">video</a></li>
+<li>Inference for the correlation coefficient - <a href="m156s21/week15.pdf">slides</a></li>
+<li>Inference for simple linear regression - <a href="m156s21/week15.pdf">slides</a></li>
 </ul></li>
 </ul>
 </div>
@@ -699,7 +669,7 @@ div.tocify {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
@@ -717,7 +687,7 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
+    $(this).parent().toggleClass('nav-tabs-open');
   });
 });
 </script>
