@@ -12,12 +12,15 @@ Below are quick links to my current and previous courses:
 
 **Xavier University Courses**:
 
+- Fall 2021
+    - Math-146, Biostatistics
+    - Math-256, Intro to Probability and Statistics
 - Spring 2021
-    - [Mat-156, General Statistics](m156s21.html)
+    - [Math-156, General Statistics](m156s21.html)
     - [Mat-257, Data Modeling](m257s21.html)
 - Fall 2020
-    - [Mat-156, General Statistics](m156f20.html)
-    - [Mat-256, Intro to Probability and Statistics](m256f20.html)
+    - [Math-156, General Statistics](m156f20.html)
+    - [Math-256, Intro to Probability and Statistics](m256f20.html)
 
 **Grinnell College Courses**:
 
