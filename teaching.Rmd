@@ -2,56 +2,89 @@
 title: "Teaching"
 ---
 
-Throughout my career I've taught numerous courses in mathematics, statistics, and data science in a variety of settings.  Information on the courses I've taught can be found below.
+<style>
+.nobullet li {
+  list-style-type: none;
+}
+</style>
 
-### MATH-156 - General Statistics - Xavier University
 
-MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
+Throughout my career I've taught numerous courses in mathematics, statistics, and data science in a variety of settings.  Information on the courses I've taught can be found below.  
 
-Visit the links below to view materials and course content:
+Please visit my homepage for links to course websites and materials.
 
-- [MATH-156 website (Fall 2020)](m156f20.html)
+$~$ 
 
-### MATH-256 - Intro to Probability and Statistics - Xavier University
+## Xavier University
 
-MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.
+#### MATH-146 - Biostatistics
 
-Visit the links below to view materials and course content:
+<div class="nobullet">
+* MATH-146 is first course in statistics, with an emphasis on applications and methods of particular relevance to the biological sciences. Topics include: random sampling procedures, experiments and observational studies, exploratory data analysis, correlation, bootstrapping and resampling methods, the normal distribution, confidence intervals hypothesis tests for proportions and means, chi-square tests, ANOVA. Problems and examples are drawn from fields such as bioinformatics, genetics, ecology, epidemiology, and public health.
+</div>
 
-- [MATH-256 website (Fall 2020)](m256f20.html)
+* Semesters and sections taught: Fall 2021 (2)
 
-### STA-209 - Applied Statistics - Grinnell College
+#### MATH-156 - General Statistics
 
-STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software. 
+<div class="nobullet">
+* MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
+</div>
 
-Visit the webpages below to view materials and course content:
+* Semesters and sections taught: Fall 2020 (1), Spring 2021 (2)
 
-- [Sta-209 website (Spring 2020)](sta209s20.html)
-- [Sta-209 website (Fall 2019)](sta209f19.html)
-- [Sta-209 website (Spring 2019)](sta209s19.html)
-- [Sta-209 website (Fall 2018)](sta209f18.html)
+#### MATH-256 - Intro to Probability and Statistics
 
-### STA-230 - Introduction to Data Science - Grinnell College
+<div class="nobullet">
+* MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.
+</div>
 
-STA-230 introduces core topics in data science using the R programming langauge. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.  Materials from the most recent version of the course are provided below, many of these materials were created by Shonda Kuiper (Grinnell College), Adam Loy (Lawrence University), and Laura Chihara (Carleton College) under ACM and Teagle foundation grants.  See the 2017 USCOTS [Data Science for Statistics webpage](https://ds4stats.github.io/uscots2017/) or Shonda Kuiper's [R Tutorials webpage](http://web.grinnell.edu/individuals/kuipers/stat2labs/RTutorials.html) for details.
+* Semesters and sections taught: Fall 2020 (1), Fall 2021 (1)
 
-Visit the webpages below to view materials and course content:
+#### MATH-257 - Data Modeling
 
-- [Sta-230 website (Fall 2019)](sta230f19.html)
-- [Sta-230 website (Spring 2019)](sta230s19.html)
+<div class="nobullet">
+* MATH-257 is a second course in statistics that focuses on exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, experimental design, and non-parametric modeling approaches.
+</div>
 
-### STA-395/MAT-395 - Applied Data Science - Grinnell College
+* Semesters and sections taught: Spring 2021 (1)
 
-STA-395/MAT-395 is a fully applied course where students work in small teams on a semester long, data-intensive project.  The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.
+$~$
 
-Visit the webpages below to view materials and course content:
+## Grinnell College
 
-- [Sta/Mat-395 website (Spring 2020)](sta395s20.html)
+#### STA-209 - Applied Statistics
 
-### BIOS-4120 - Introduction to Biostatistics - University of Iowa
+<div class="nobullet">
+* STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis.  The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software. 
+</div>
 
-BIOS-4120 is an introductory statistics course that covers basic statistical concepts and methods that are frequently used in medicine, public health, and the biological sciences.  Some topics covered include study design, descriptive statistics, basic rules of probability, measures of association, hypothesis testing for one and two sample continuous and categorical data, confidence intervals, correlation, and an introduction to regression.
+Semesters and sections taught: Fall 2018 (2), Spring 2019 (1), Fall 2019 (2), Spring 2020 (1)
 
-### Calculus I, Algebra II with Trig, Algebra I - Pawnee High School (IL)
+#### STA-230 - Introduction to Data Science
 
-At the high school level I've taught: Calc I - covering limits, derivatives/anti-derivatives, finding minima and maxima, and applications; Algebra II with Trig - covering functions, graphs, exponents and logarithms, and trigonometry; Algebra I - covering order of operations, equations, and inequalities. 
+<div class="nobullet">
+* STA-230 introduces core topics in data science using the R programming language. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.
+</div>
+
+* Semesters and sections taught: Spring 2019 (2), Fall 2019 (1)
+
+#### STA-395/MAT-395 - Applied Data Science
+
+<div class="nobullet">
+* STA-395/MAT-395 is a fully applied course where students work in small teams on a semester long, data-intensive project.  The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.
+</div>
+
+* Semesters and sections taught: Spring 2020 (1)
+
+$~$
+
+## University of Iowa
+
+#### BIOS-4120 - Introduction to Biostatistics
+
+<div class="nobullet">
+* BIOS-4120 is an introductory statistics course that covers basic statistical concepts and methods that are frequently used in medicine, public health, and the biological sciences.  Some topics covered include study design, descriptive statistics, basic rules of probability, measures of association, hypothesis testing for one and two sample continuous and categorical data, confidence intervals, correlation, and an introduction to regression.
+</div>
+
+* Semesters and sections taught: Summer 2014 (1)

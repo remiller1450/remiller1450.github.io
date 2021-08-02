@@ -1,5 +1,5 @@
 ---
-title: "MATH 146 - Biostatistics (Fall 2021)"
+title: "MATH 146 - Introductory Biostatistics (Fall 2021)"
 output:
   html_document:
     toc: true
@@ -14,7 +14,7 @@ $~$
 
 ### Schedule and Syllabus
 
-Welcome to course website for MATH 146 - Biostatistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
+Welcome to course website for MATH 146 - Introductory Biostatistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
 
 - [Click here](syllabus14f21.html) to view the course syllabus
 
@@ -29,7 +29,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Correlation
     - Regression
 - Week 3:
-    - Multivariate summaries
+    - Multivariate data
     - Exam #1 review
 - Week 4:
     - Populations and samples
@@ -39,6 +39,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
     - Sampling distributions
     - Confidence intervals
 - Week 6:
+    - Null distributions
     - Hypothesis testing
 
 
@@ -47,9 +48,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
 - Week 1: Introduction
-    - Due: 
 - Week 2: Data exploration 
-    - Due
 
 ### Recommended Readings
 
@@ -66,7 +65,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 
 ### Exam Dates and Information
 
-This class contains 4 midterm exams covering the following topics
+There will be 4 midterm exams covering the following topics:
 
 - Exam 1 - numerical and graphical presentations of data
     - Tentatively scheduled for Friday 9/3

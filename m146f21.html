@@ -11,7 +11,7 @@
 
 
 
-<title>Teaching</title>
+<title>MATH 146 - Introductory Biostatistics (Fall 2021)</title>
 
 <script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -220,6 +223,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -227,6 +293,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-sm-12 col-md-4 col-lg-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-sm-12 col-md-8 col-lg-9">
 
 
 
@@ -290,119 +366,112 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Teaching</h1>
+<h1 class="title toc-ignore">MATH 146 - Introductory Biostatistics (Fall 2021)</h1>
 
 </div>
 
 
-<style>
-.nobullet li {
-  list-style-type: none;
-}
-</style>
-<p>Throughout my career I’ve taught numerous courses in mathematics, statistics, and data science in a variety of settings. Information on the courses I’ve taught can be found below.</p>
-<p>Please visit my homepage for links to course websites and materials.</p>
+<p><img style="float: right; width:100%" src="xu_logo.png"></p>
 <p><span class="math inline">\(~\)</span></p>
-<div id="xavier-university" class="section level2">
-<h2>Xavier University</h2>
-<div id="math-146---biostatistics" class="section level4">
-<h4>MATH-146 - Biostatistics</h4>
-<div class="nobullet">
+<div id="schedule-and-syllabus" class="section level3">
+<h3>Schedule and Syllabus</h3>
+<p>Welcome to course website for MATH 146 - Introductory Biostatistics! On this page you can find all materials we’ll use throughout the semester, starting with the syllabus linked below:</p>
 <ul>
-<li>MATH-146 is first course in statistics, with an emphasis on applications and methods of particular relevance to the biological sciences. Topics include: random sampling procedures, experiments and observational studies, exploratory data analysis, correlation, bootstrapping and resampling methods, the normal distribution, confidence intervals hypothesis tests for proportions and means, chi-square tests, ANOVA. Problems and examples are drawn from fields such as bioinformatics, genetics, ecology, epidemiology, and public health.</li>
+<li><a href="syllabus14f21.html">Click here</a> to view the course syllabus</li>
+</ul>
+<p>You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we’ve reached that point in the course.</p>
+</div>
+<div id="lectures-slides" class="section level3">
+<h3>Lectures Slides</h3>
+<ul>
+<li>Week 1:
+<ul>
+<li>Univariate summaries</li>
+<li>Bivariate summaries</li>
+</ul></li>
+<li>Week 2:
+<ul>
+<li>Correlation</li>
+<li>Regression</li>
+</ul></li>
+<li>Week 3:
+<ul>
+<li>Multivariate data</li>
+<li>Exam #1 review</li>
+</ul></li>
+<li>Week 4:
+<ul>
+<li>Populations and samples</li>
+<li>Causation</li>
+<li>Experimental design</li>
+</ul></li>
+<li>Week 5:
+<ul>
+<li>Sampling distributions</li>
+<li>Confidence intervals</li>
+</ul></li>
+<li>Week 6:
+<ul>
+<li>Null distributions</li>
+<li>Hypothesis testing</li>
+</ul></li>
 </ul>
 </div>
+<div id="in-class-labs" class="section level3">
+<h3>In-class Labs</h3>
+<p>Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs. During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis. You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class. Your group will be expected to turn-in a lab write-up.</p>
 <ul>
-<li>Semesters and sections taught: Fall 2021 (2)</li>
+<li>Week 1: Introduction</li>
+<li>Week 2: Data exploration</li>
 </ul>
 </div>
-<div id="math-156---general-statistics" class="section level4">
-<h4>MATH-156 - General Statistics</h4>
-<div class="nobullet">
+<div id="recommended-readings" class="section level3">
+<h3>Recommended Readings</h3>
+<p>The readings listed below are <em>recommended</em> prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.</p>
 <ul>
-<li>MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.</li>
+<li>Week 1:</li>
 </ul>
 </div>
+<div id="homework-assignments" class="section level3">
+<h3>Homework Assignments</h3>
+<p>Homework will be assigned weekly and should be submitted electronically via Canvas in the form of either a scanned hand-written document, a series of legible images of your hand-written responses, or a typed document.</p>
 <ul>
-<li>Semesters and sections taught: Fall 2020 (1), Spring 2021 (2)</li>
+<li>Homework #1:
+<ul>
+<li>Due Date:</li>
+</ul></li>
 </ul>
 </div>
-<div id="math-256---intro-to-probability-and-statistics" class="section level4">
-<h4>MATH-256 - Intro to Probability and Statistics</h4>
-<div class="nobullet">
+<div id="exam-dates-and-information" class="section level3">
+<h3>Exam Dates and Information</h3>
+<p>There will be 4 midterm exams covering the following topics:</p>
 <ul>
-<li>MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.</li>
+<li>Exam 1 - numerical and graphical presentations of data
+<ul>
+<li>Tentatively scheduled for Friday 9/3</li>
+</ul></li>
+<li>Exam 2 - study design and fundamentals of statistical inference</li>
+<li>Exam 3 - statistical inference for one-sample data</li>
+<li>Exam 4 - statistical inference for two or more samples</li>
+</ul>
+<p>You can expect each exam to take an entire 50-minute class session. Exams 1 and 2 will be on-paper and closed notes, while exams 3 and 4 will be completed electronically and will require you to utilize statistical software.</p>
+</div>
+<div id="final-project-information" class="section level3">
+<h3>Final Project Information</h3>
+<p>This class contains a final project that is due at the end of the semester (during final’s week).</p>
+<ul>
+<li>More information coming soon</li>
 </ul>
 </div>
-<ul>
-<li>Semesters and sections taught: Fall 2020 (1), Fall 2021 (1)</li>
-</ul>
-</div>
-<div id="math-257---data-modeling" class="section level4">
-<h4>MATH-257 - Data Modeling</h4>
-<div class="nobullet">
-<ul>
-<li>MATH-257 is a second course in statistics that focuses on exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, experimental design, and non-parametric modeling approaches.</li>
-</ul>
-</div>
-<ul>
-<li>Semesters and sections taught: Spring 2021 (1)</li>
-</ul>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-</div>
-<div id="grinnell-college" class="section level2">
-<h2>Grinnell College</h2>
-<div id="sta-209---applied-statistics" class="section level4">
-<h4>STA-209 - Applied Statistics</h4>
-<div class="nobullet">
-<ul>
-<li>STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis. The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software.</li>
-</ul>
-</div>
-<p>Semesters and sections taught: Fall 2018 (2), Spring 2019 (1), Fall 2019 (2), Spring 2020 (1)</p>
-</div>
-<div id="sta-230---introduction-to-data-science" class="section level4">
-<h4>STA-230 - Introduction to Data Science</h4>
-<div class="nobullet">
-<ul>
-<li>STA-230 introduces core topics in data science using the R programming language. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.</li>
-</ul>
-</div>
-<ul>
-<li>Semesters and sections taught: Spring 2019 (2), Fall 2019 (1)</li>
-</ul>
-</div>
-<div id="sta-395mat-395---applied-data-science" class="section level4">
-<h4>STA-395/MAT-395 - Applied Data Science</h4>
-<div class="nobullet">
-<ul>
-<li>STA-395/MAT-395 is a fully applied course where students work in small teams on a semester long, data-intensive project. The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.</li>
-</ul>
-</div>
-<ul>
-<li>Semesters and sections taught: Spring 2020 (1)</li>
-</ul>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-</div>
-<div id="university-of-iowa" class="section level2">
-<h2>University of Iowa</h2>
-<div id="bios-4120---introduction-to-biostatistics" class="section level4">
-<h4>BIOS-4120 - Introduction to Biostatistics</h4>
-<div class="nobullet">
-<ul>
-<li>BIOS-4120 is an introductory statistics course that covers basic statistical concepts and methods that are frequently used in medicine, public health, and the biological sciences. Some topics covered include study design, descriptive statistics, basic rules of probability, measures of association, hypothesis testing for one and two sample continuous and categorical data, confidence intervals, correlation, and an introduction to regression.</li>
-</ul>
-</div>
-<ul>
-<li>Semesters and sections taught: Summer 2014 (1)</li>
-</ul>
-</div>
+<div id="datasets" class="section level3">
+<h3>Datasets</h3>
+<p>Dataset links and descriptions will be added here as we use them throughout the semester.</p>
 </div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -435,6 +504,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
