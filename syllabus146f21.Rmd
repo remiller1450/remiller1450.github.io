@@ -1,5 +1,5 @@
 ---
-title: "MATH 146: Introductory Biostatistics"
+title: "MATH 146: Introductory Biostatistics (Fall 2021)"
 output:
   html_document:
     toc: true
@@ -26,7 +26,7 @@ Office hours will be held:
 - Wednesday 2:00-3:00pm
 - Thursday 2:30-3:30pm
 
-You can find me in Hinkle Hall #111 (down the hallway to the left after passing through the first floor lobby), or you can meet with me virtually via Zoom at https://xavier.zoom.us/my/ryanmiller33 (the Zoom password is on Canvas)
+You can find me in Hinkle Hall #111 (down the hallway on your left after passing through the main lobby), or you can meet with me virtually via Zoom at https://xavier.zoom.us/my/ryanmiller33 (Zoom password is given on Canvas)
 
 ## Course Description
 
@@ -34,18 +34,18 @@ A first course in statistics, with an emphasis on applications and methods of pa
 
 ### Text
 
-This course will follow the textbook listed below.  Homework problems will be assigned from the text, but readings from the will be optional (though strongly encouraged).
+This course will follow the textbook listed below.  Homework problems will be assigned weekly from the text, readings are optional (though strongly encouraged).
 
 - *Statistics: Unlocking the Power of Data* - 3rd edition (ISBN: 9781119682165)
 
 ### Website
 
-- All course materials will be posted on the following webpage: https://remiller1450.github.io/m146fs21.html
-    - Grades and assignments will be posted on Canvas
+- All course materials will be posted on the following website: https://remiller1450.github.io/m146fs21.html
+    - Our Canvas page will used for grades, assignment submissions, and links
 
 ### Course Aims:
 
-This course intends to teach students to identify patterns in data using visualizations and statistical methods.  It will focus on developing a clear understanding of fundamental statistical techniques, proper interpretation of statistical results, and clear communication of these ideas in both written and oral formats.
+This course intends to develop in students an ability to identify and understand patterns in data using visualizations and statistical methods.  It will focus on developing a clear understanding of fundamental statistical techniques, proper interpretation of statistical results, and clear communication of these ideas in both written and oral formats.
 
 ### Learning Objectives:
 
@@ -59,41 +59,41 @@ form
 
 ### Software
 
-In the modern era, statisticians (along with most scientific professionals) rely upon software to carry out their day to day work. While this course is not intended to be focused on any particular software package, you can expect to use software programs like Microsoft Excel and various online web-applets to explore and analyze real data.
+In the modern era, statisticians (along with most other scientific professionals) rely extensively on software in their day to day work. While the topics of this course are not focused on any particular software package, you can expect to routinely use Microsoft Excel and online web-applets to explore and analyze real data.
 
 ## Grading
 
-**Homework** 
+**Homework** - 20%
 
-- Roughly 10-12 problem sets - 20%
+- Roughly 10-12 problem sets 
 
 Homework is assigned weekly (with some exceptions during exam weeks) and is to be submitted electronically via Canvas no later than 11:59pm on the specified due-date.
 
-**Labs**
+**Labs** - 15%
 
-- Roughly 8-10 lab write-ups - 15%
+- Roughly 8-10 lab write-ups 
 
 Labs are collaborate activities intended to be completed during class in small groups.  We will often go over key lab questions as a class prior to when the lab write-up is due.  The intent of requiring you to turn in these write-ups is to keep you accountable for the material covered during labs.  That is, if your group is putting forth an earnest effort you can expect a high score, even if you don't initially get every detail fully correct.
 
 Group members that are non-cooperate or do not adequately contribute their group's efforts may receive lower scores than the other group members.
 
-**Exams**
+**Exams** - 48% (in total)
 
 - Exam 1 - 12%
 - Exam 2 - 12%
 - Exam 3 - 12%
 - Exam 4 - 12%
 
-All exams will be announced at least 14 calendar days in advance. Formulas will be provided as necessary, you may choose to bring your own calculator (not necessary).  Exams 1 and 2 will be closed notes and completed via paper and pencil, while exams 3 and 4 will require a computer (and therefore will obviously be open notes).
+All exams will be announced at least 14 calendar days in advance. Formulas will be provided as necessary, you may choose to bring your own calculator (not necessary).  Exams 1 and 2 will be closed notes and completed via paper and pencil, while exams 3 and 4 will require a computer (and therefore will be open notes).
 
 These exams are intended to test how deeply you understand the key concepts of the course, they are not meant to test memorization or arithmetic skills.  Consequently, you should be prepared for a substantial amount of writing during exams.
 
-**Final Project**
+**Final Project** - 17% (in total)
 
 - Intermediate Steps - 2%
 - Final Report - 15%
 
-Rather than a traditional final exam, this class will feature a comprehensive project where you will demonstrate your newly developed statistical prowess on an application of your choosing.  Additional information will come towards the end of the semester. You will have the option to work alone or with a partner of your choosing on this project.
+Rather than a traditional final exam, this class has a comprehensive project where you will be expected to demonstrate your newly developed statistical prowess on an application of your choosing.  Additional information will come towards the end of the semester. You will have the option to work alone or with a partner of your choosing on this project.
 
 ### Overall Course Grades
 
@@ -144,6 +144,6 @@ The Student Support Center has a wide variety of available resources that are no
 
 ## Tips for Success
 
-1. The material we cover this semester is naturally cumulative and it will be difficult to progress through the later topics if you do not fully understand the earlier ones.  You should be proactive in asking questions, reviewing your notes, and doing the recommended readings - especially at the beginning of the semester.
+1. The material we cover this semester is naturally cumulative and it will be difficult to progress through the later topics if you do not fully understand the earlier ones.  You should be proactive in asking questions, reviewing your notes, and doing the recommended readings - especially at the beginning of the semester.  I also encourage you to visit the Math Lab at least once prior to the first exam.
 2. Prepare for class and complete assignments while the material is fresh - avoid waiting until right before the due-date.  This will also enable you to ask good questions during class that will strengthen your understand.
 3. Try your best to be open-minded and think like a statistician while engaging with course material.  Nearly all of us have tendencies and biases that influence our thought process, but a statistician should analyze the data objectively without injecting their own subjective beliefs (unless prompted to do so).  Additionally, statisticians are not mathematicians, so don't sabotage yourself by thinking things like "I don't like math..." or "I've always been bad at math..."

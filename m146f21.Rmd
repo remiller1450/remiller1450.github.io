@@ -16,9 +16,11 @@ $~$
 
 Welcome to course website for MATH 146 - Introductory Biostatistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
 
-- [Click here](syllabus14f21.html) to view the course syllabus
+- [Click here](syllabus146f21.html) to view the course syllabus
 
-You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we've reached that point in the course.
+You can find course content by scrolling, or by using the navigation bar in the upper left.  
+
+Please note that material will not be posted until we've reached that point in the course.  Additionally, some topics and activities that listed far into the future may be subject to change.
 
 ### Lectures Slides
 
@@ -54,14 +56,14 @@ Throughout the semester we will practice applying key concepts in applications i
 
 The readings listed below are *recommended* prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.
 
-- Week 1:
+- Week 1: coming soon
     
 ### Homework Assignments
 
 Homework will be assigned weekly and should be submitted electronically via Canvas in the form of either a scanned hand-written document, a series of legible images of your hand-written responses, or a typed document. 
 
 - Homework #1: 
-    - Due Date: 
+    - Due Date: coming soon
 
 ### Exam Dates and Information
 

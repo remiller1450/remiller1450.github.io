@@ -8,16 +8,16 @@ Prior to joining Xavier, I was a Visiting Assistant Professor of Statistics in t
 
 I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in August of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
 
-Below are quick links to my current and previous courses:
+Below are links to my current and previous courses:
 
 **Xavier University Courses**:
 
 - Fall 2021
-    - Math-146, Biostatistics
-    - Math-256, Intro to Probability and Statistics
+    - [Math-146, Introductory Biostatistics](m146f21.html)
+    - [Math-256, Intro to Probability and Statistics](m256f21.html)
 - Spring 2021
     - [Math-156, General Statistics](m156s21.html)
-    - [Mat-257, Data Modeling](m257s21.html)
+    - [Math-257, Data Modeling](m257s21.html)
 - Fall 2020
     - [Math-156, General Statistics](m156f20.html)
     - [Math-256, Intro to Probability and Statistics](m256f20.html)

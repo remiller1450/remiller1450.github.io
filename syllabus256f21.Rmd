@@ -1,0 +1,158 @@
+---
+title: "MATH 256: Introducation to Probability and Statistics"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+## Course Information
+
+**Instructor**:
+
+- Ryan Miller, millerr33\@xavier.edu 
+
+**Class Meetings**: 
+
+- Location: Alter 007 - 11:30 AM to 12:45 PM
+
+**Office Hours**
+
+Office hours will be held:
+
+- Monday 10:00-11:00am
+- Wednesday 2:00-3:00pm
+- Thursday 2:30-3:30pm
+
+You can find me in Hinkle Hall #111 (down the hallway to the left after passing through the first floor lobby), or you can meet with me virtually via Zoom at https://xavier.zoom.us/my/ryanmiller33 (the Zoom password is on Canvas)
+
+## Course Description
+
+This course provides a major-level introduction to the fundamentals of statistical methods and their applications. Topics include: descriptive statistics, graphical summaries; probability; the central limit theorem; point estimation; confidence intervals for means and proportions, t-tests, p-values; simple linear regression; categorical data analysis. Students will also develop an ability to think statistically, and make inferences and decisions in the presence of uncertainty.
+
+### Text
+
+This course will follow the textbook listed below.  Homework problems will be assigned from the text, but readings from the will be optional (though strongly encouraged).
+
+- OpenIntro Statistics 4th edition (2019), Diez, DM, Barr CD, and Cetinkaya-Rundel, M (ISBN: 1943450072)
+    - A free pdf is available at openintro.org
+    - Be sure to select the left-most download option (dark blue) and make sure you've selected the 4th edition
+
+### Website
+
+- All course materials will be posted on the following webpage: https://remiller1450.github.io/m256fs21.html
+    - Grades and assignments will be posted on Canvas
+
+### Course Aims:
+
+This course aims to teach students to identify and interpret patterns in data using visualizations and statistical methods.  It will focus on developing a clear understanding of fundamental statistical techniques, proper interpretation of statistical results, and clear communication of these ideas in both written and oral formats.
+
+### Learning Objectives:
+
+Specific learning outcomes, with respect to the core curriculum at Xavier, include:
+
+- (1a) Students recognize and cogently discuss significant questions in the humanities, arts, and
+the natural and social sciences
+- (2a) Students find, evaluate, and logically convey information and ideas in written and oral
+form
+- (2b) Students evaluate problems using quantitative methods and arguments
+
+### Software
+
+In the modern era, statisticians (along with most scientific professionals) rely upon software. In this course you will be required to use R (typically through the R Studio GUI). R is an open-source software that is generally considered to be the industry standard among professional statisticians. Throughout the course you will work through guided labs which simultaneously promote proficiency in both R programming and applied statistical analysis.
+
+You can install R and R Studio on your personal computer in two easy steps:
+
+First, download and install R from http://www.r-project.org/ 
+Second, download and install the R Studio user interface from http://www.rstudio.com/ 
+
+You must perform these two steps in sequential order, as R Studio is just a GUI for your underlying R installation.
+
+## Grading
+
+**Homework** 
+
+- Roughly 6 problem sets - 20%
+
+Responses to problem sets are to be submitted electronically via Canvas no later than 11:59pm on the specified due-date.
+
+**Labs**
+
+- Roughly 8-10 lab write-ups - 15%
+
+Labs are collaborate activities intended to be completed during class in small groups.  We will often go over some of the important aspects of each lab together before they are due.  Thus, the goal of these write-ups is less about you achieving 100% accuracy on your own, and more about evidencing that you're putting forth an earnest effort to improve your skills as statistician.
+
+Please be aware that any group members who are non-cooperative or do not substantively contribute their group's efforts may receive lower scores than the other group members.
+
+**Exams**
+
+- Exam 1 - 12%
+- Exam 2 - 12%
+- Exam 3 - 12%
+- Exam 4 - 12%
+
+All exams will be announced at least 14 calendar days in advance. With the exception of Exam 2, all exams will require you to use R and thus will be "open everything".
+
+These exams are intended to test how deeply you understand the core concepts of the course - they are not meant to test your memorization, arithmetic, or internet searching skills.  Consequently, you should be prepared to do a substantial amount of writing during exams.
+
+**Final Project**
+
+- Intermediate Steps - 2%
+- Final Report - 15%
+
+Rather than a traditional final exam, this class will feature a comprehensive project where you will demonstrate your newly developed statistical prowess on an application of your choosing.  Additional information will come towards the end of the semester. You will have the option to work alone or with a partner of your choosing on this project.
+
+### Overall Course Grades
+
+The following grade cutoffs will be used:
+
+- A [93,100]
+- A- [90, 93)
+- B+ [87, 90)
+- B [83, 87)
+- B- [80, 83)
+- C+ [77, 80)
+- C [73, 77)
+- C- [70, 73)
+- D+ [67, 70)
+- D [63, 67)
+- D- [60, 63)
+- F [0, 60)
+
+The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  
+
+## Policies
+
+In accordance with the values of Xavier University, students are expected to adhere to the following policies:
+
+### Attendance
+
+Students are expected to attend all scheduled lectures assigned to them.  The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
+
+### Attending the Class Virtually
+
+In the event of personal circumstances that prevent you from physically attending your in-person session, you may be able attend class via Zoom provided you communicate your situation in advance and receive instructor approval.  Please note, this class is not designed to be attended remotely.
+
+### Academic Honesty
+
+Students are expected to abide by the academic honesty code set forth by Xavier University.  Any suspected violations will be reported and investigated.
+
+In general, collaborate work on all assignments (other than exams) highly encouraged in this course, but you are individually responsible for your submitted work.  Copying solutions word-for-word from anyone or any source without full disclosure is considered cheating.  If you received help, ideas, or inspiration from anywhere (classmates, online resources, etc.) I strongly encourage you to indicate this on your assignment (a simple statement like "Worked with Jack and Jill" is enough).
+
+### Late Assignments
+
+Late work may be accepted on a case-by-case basis.  If accepted, you must provide an email record of your late submission.  This can be an email saying you uploaded the assignment late on Canvas, or an email containing the assignment as an attachment.  The purpose of this policy is to ensure all accepted late work is counted towards your grade and does not end up being lost or overlooked.
+
+### Campus Resources
+
+Because Math-256 is a major-level course, drop-in tutoring at the Math lab and other one-on-one tutoring Office of Academic Support are not available.  You should contact me directly, or attend office hours, if you need help with any of the material.
+
+Additionally, the Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
+
+## Tips for Success
+
+1. The material we cover this semester is naturally cumulative and it will be difficult to progress through the later topics if you do not fully understand the earlier ones.  You should be proactive in asking questions, reviewing your notes, and doing the recommended readings - especially at the beginning of the semester.
+2. Prepare for class and complete assignments while the material is fresh - avoid waiting until right before the due-date.  This will also enable you to ask good questions during class that will strengthen your understand.
+3. Don't be afraid to look online for R commands and other R/R Studio tips. Every statistician I know will do this from time to time, myself included. Just make sure you understand what your code is doing.
