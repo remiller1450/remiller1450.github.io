@@ -56,7 +56,7 @@ Throughout the semester we will practice applying key concepts in applications i
 
 The readings listed below are *recommended* prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.
 
-- Week 1: coming soon
+- Week 1: 1.1, 2.1, 2.2, 2.3, 2.4
     
 ### Homework Assignments
 
