@@ -87,5 +87,13 @@ This class contains a final project that is due at the end of the semester (duri
 
 Dataset links and descriptions will be added here as we use them throughout the semester.
 
+- [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
+    - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.
+- [Breast Cancer Survival](https://remiller1450.github.io/data/Breast_Cancer_Data.csv)
+    - These data document the survival times women who died of breast from their diagnoses. They are a subset of a broader dataset that included survivors.  In addition to survival time, the data also include tumor measurements, grades, and other clinical covariates that might be predictive of survival.
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+- [Infant Heart Surgery](https://remiller1450.github.io/data/InfantHeart.csv)
+    - This dataset contains the results of a randomized experiment conducted by surgeons at Harvard Medical School to compare a "low-flow bypass" and "circulatory arrest" surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development. 
 
 

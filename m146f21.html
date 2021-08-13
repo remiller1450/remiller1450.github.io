@@ -13,7 +13,6 @@
 
 <title>MATH 146 - Introductory Biostatistics (Fall 2021)</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -297,12 +296,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -321,35 +320,35 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fas fa-newspaper-o"></span>
+    <span class="fa fa-newspaper-o"></span>
      
     Research
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Teaching
   </a>
 </li>
 <li>
   <a href="personal.html">
-    <span class="fas fa-dumbbell"></span>
+    <span class="fa fa-dumbbell"></span>
      
     Personal
   </a>
 </li>
 <li>
   <a href="CV_2018.pdf">
-    <span class="fas fa-file"></span>
+    <span class="fa fa-file"></span>
      
     CV
   </a>
@@ -379,7 +378,8 @@ div.tocify {
 <ul>
 <li><a href="syllabus146f21.html">Click here</a> to view the course syllabus</li>
 </ul>
-<p>You can find course content by scrolling, or by using the navigation bar in the upper left. Please note that some material may not be posted until we’ve reached that point in the course.</p>
+<p>You can find course content by scrolling, or by using the navigation bar in the upper left.</p>
+<p>Please note that material will not be posted until we’ve reached that point in the course. Additionally, some topics and activities that listed far into the future may be subject to change.</p>
 </div>
 <div id="lectures-slides" class="section level3">
 <h3>Lectures Slides</h3>
@@ -429,7 +429,7 @@ div.tocify {
 <h3>Recommended Readings</h3>
 <p>The readings listed below are <em>recommended</em> prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.</p>
 <ul>
-<li>Week 1: coming soon</li>
+<li>Week 1: 1.1, 2.1, 2.2, 2.3, 2.4</li>
 </ul>
 </div>
 <div id="homework-assignments" class="section level3">
@@ -466,6 +466,24 @@ div.tocify {
 <div id="datasets" class="section level3">
 <h3>Datasets</h3>
 <p>Dataset links and descriptions will be added here as we use them throughout the semester.</p>
+<ul>
+<li><a href="https://remiller1450.github.io/data/HappyPlanet.csv">Happy Planet</a>
+<ul>
+<li>This dataset was assembled by <a href="http://happyplanetindex.org/">The Happy Planet Index</a> using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/Breast_Cancer_Data.csv">Breast Cancer Survival</a>
+<ul>
+<li>These data document the survival times women who died of breast from their diagnoses. They are a subset of a broader dataset that included survivors. In addition to survival time, the data also include tumor measurements, grades, and other clinical covariates that might be predictive of survival.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/Colleges2019.csv">Colleges 2019</a>
+<ul>
+<li>This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database. For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/InfantHeart.csv">Infant Heart Surgery</a>
+<ul>
+<li>This dataset contains the results of a randomized experiment conducted by surgeons at Harvard Medical School to compare a “low-flow bypass” and “circulatory arrest” surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development.</li>
+</ul></li>
+</ul>
 </div>
 
 
@@ -506,6 +524,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
