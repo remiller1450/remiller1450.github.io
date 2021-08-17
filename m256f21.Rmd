@@ -30,8 +30,10 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Week 1: Data basics and an introduction to R
-- Week 2: Data visualization
+- Week 1: [Data basics and an introduction to R](m256f21/Lab1.html)
+    - Due date: Friday 8/20 by 11:59pm
+- Week 2: Graphing and summarizing data
+    - Due date: Friday 8/27 by 11:59pm
 - Week 3: none (Exam #1 on Thursday)
 
 ### Recommended Readings
@@ -65,11 +67,14 @@ You will be given an entire class period to complete each exam, though I will tr
 
 This class contains a final project that is due at the end of the semester (during final's week).
 
-- More information coming soon
+- More information will be made available following Exam #2
 
 ### Datasets
 
-Dataset links and descriptions will be added here as we use them throughout the semester.
+This section provides links and a brief description to datasets we will work with throughout the semester.
 
-
+- [Iowa City Home Sales](https://remiller1450.github.io/data/IowaCityHomeSales.csv)
+    - This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008.  It was scraped from the Johnson County county assessor website by University of Iowa professor to help them understand the local housing market. It contains information such as the home's sale price, assessed value, square footage, and a variety of other features.  
+- [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
+    - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.
 

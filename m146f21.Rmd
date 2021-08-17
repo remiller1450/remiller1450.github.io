@@ -22,6 +22,13 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 Please note that material will not be posted until we've reached that point in the course.  Additionally, some topics and activities that listed far into the future may be subject to change.
 
+### Daily Graphs
+
+Below is a compendium of the different daily graphs we've discussed:
+
+- [Daily graph slidedeck](m146f21/daily_graph.pdf)
+
+
 ### Lectures Slides
 
 - Week 1:
@@ -49,14 +56,18 @@ Please note that material will not be posted until we've reached that point in t
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Week 1: Introduction
-- Week 2: Data exploration 
+- Week 1: Summarizing and graphing data
+    - Due Date: Monday 8/23 by 11:59pm
+- Week 2: Correlation and regression
+- Week 3: Analyzing multivariate data
 
 ### Recommended Readings
 
 The readings listed below are *recommended* prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.
 
 - Week 1: 1.1, 2.1, 2.2, 2.3, 2.4
+- Week 2: 2.5, 2.6
+- Week 3: 2.7
     
 ### Homework Assignments
 
@@ -65,7 +76,9 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #1: [Click here for questions](m146f21/HW1_Questions.pdf)
     - Due Date: Friday 8/20 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage2e.html) on 2.116 and 2.117 (along with [StatKey](https://www.lock5stat.com/StatKey/))
-
+- Homework #2: Coming soon
+    - Due Date: Friday 8/27 by 11:59pm
+    
 ### Exam Dates and Information
 
 There will be 4 midterm exams covering the following topics:
@@ -82,7 +95,7 @@ You can expect each exam to take an entire 50-minute class session.  Exams 1 and
 
 This class contains a final project that is due at the end of the semester (during final's week).
 
-- More information coming soon
+- More information will be provided after Exam #2
 
 ### Datasets
 

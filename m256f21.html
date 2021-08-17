@@ -13,7 +13,6 @@
 
 <title>MATH 256 - Introduction to Probability and Statistics (Fall 2021)</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -297,12 +296,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -321,35 +320,35 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fas fa-newspaper-o"></span>
+    <span class="fa fa-newspaper-o"></span>
      
     Research
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Teaching
   </a>
 </li>
 <li>
   <a href="personal.html">
-    <span class="fas fa-dumbbell"></span>
+    <span class="fa fa-dumbbell"></span>
      
     Personal
   </a>
 </li>
 <li>
   <a href="CV_2018.pdf">
-    <span class="fas fa-file"></span>
+    <span class="fa fa-file"></span>
      
     CV
   </a>
@@ -393,8 +392,14 @@ div.tocify {
 <h3>In-class Labs</h3>
 <p>Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs. During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis. You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class. Your group will be expected to turn-in a lab write-up.</p>
 <ul>
-<li>Week 1: Data basics and an introduction to R</li>
-<li>Week 2: Data visualization</li>
+<li>Week 1: <a href="m256f21/Lab1.html">Data basics and an introduction to R</a>
+<ul>
+<li>Due date: Friday 8/20 by 11:59pm</li>
+</ul></li>
+<li>Week 2: Graphing and summarizing data
+<ul>
+<li>Due date: Friday 8/27 by 11:59pm</li>
+</ul></li>
 <li>Week 3: none (Exam #1 on Thursday)</li>
 </ul>
 </div>
@@ -411,10 +416,10 @@ div.tocify {
 <h3>Homework Assignments</h3>
 <p>Homework will be assigned approximately every two weeks. These assignments can be lengthy, so please start them sooner rather than later. Your responses should be submitted electronically via Canvas as either a scanned or typed document. Please double-check to make sure your uploads are legible.</p>
 <ul>
-<li>Homework #1: 1.2, 1.5, 1.10, 1.18, 1.21, 1.28, 1.30, 1.40, 2.28, 2.30, 2.31, 2.34
+<li>Homework #1: 1.2, 1.5, 1.10, 1.14, 1.18, 1.21, 1.28, 1.30, 1.40, 2.28, 2.30, 2.31, 2.34
 <ul>
 <li>Due Date: Tuesday 8/31 at 11:59pm</li>
-<li>Solutions will be posted to Canvas on Wednesday morning (to help you prepare for Exam #1)</li>
+<li>A brief set of solutions will be posted to Canvas on Wednesday morning (to help you prepare for Exam #1)</li>
 </ul></li>
 </ul>
 </div>
@@ -433,12 +438,23 @@ div.tocify {
 <h3>Final Project Information</h3>
 <p>This class contains a final project that is due at the end of the semester (during final’s week).</p>
 <ul>
-<li>More information coming soon</li>
+<li>More information will be made available following Exam #2</li>
 </ul>
 </div>
 <div id="datasets" class="section level3">
 <h3>Datasets</h3>
-<p>Dataset links and descriptions will be added here as we use them throughout the semester.</p>
+<p>This section provides links and a brief description to datasets we will work with throughout the semester.</p>
+<ul>
+<li><a href="https://remiller1450.github.io/data/IowaCityHomeSales.csv">Iowa City Home Sales</a>
+<ul>
+<li>This dataset contains information on homes sold in Iowa City, IA between 2005 and 2008. It was scraped from the Johnson County county assessor website by University of Iowa professor to help them understand the local housing market. It contains information such as the home’s sale price, assessed value, square footage, and a variety of other features.<br />
+</li>
+</ul></li>
+<li><a href="https://remiller1450.github.io/data/HappyPlanet.csv">Happy Planet</a>
+<ul>
+<li>This dataset was assembled by <a href="http://happyplanetindex.org/">The Happy Planet Index</a> using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.</li>
+</ul></li>
+</ul>
 </div>
 
 
@@ -479,6 +495,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
