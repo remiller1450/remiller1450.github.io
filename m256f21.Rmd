@@ -69,6 +69,12 @@ This class contains a final project that is due at the end of the semester (duri
 
 - More information will be made available following Exam #2
 
+### Daily Graphs
+
+Below is a compendium of the various daily graphs we've discussed:
+
+- [Daily graph slidedeck](m256f21/daily_graph.pdf)
+
 ### Datasets
 
 This section provides links and a brief description to datasets we will work with throughout the semester.
