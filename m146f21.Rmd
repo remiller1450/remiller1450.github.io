@@ -33,7 +33,7 @@ Below is a compendium of the different daily graphs we've discussed:
 
 - Week 1:
     - [Univariate summaries](m146f21/univariate_summaries.pdf)
-    - Bivariate summaries
+    - [Bivariate summaries](m146f21/bivariate_summaries.pdf)
 - Week 2:
     - Correlation
     - Regression
@@ -105,7 +105,7 @@ Dataset links and descriptions will be added here as we use them throughout the 
     - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.
 - [Breast Cancer Survival](https://remiller1450.github.io/data/Breast_Cancer_Data.csv)
     - These data document the survival times women who died of breast from their diagnoses. They are a subset of a broader dataset that included survivors.  In addition to survival time, the data also include tumor measurements, grades, and other clinical covariates that might be predictive of survival.
-- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019_Complete.csv)
     - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
 - [Infant Heart Surgery](https://remiller1450.github.io/data/InfantHeart.csv)
     - This dataset contains the results of a randomized experiment conducted by surgeons at Harvard Medical School to compare a "low-flow bypass" and "circulatory arrest" surgical approaches in the treatment of infants born with congenital heart defects. The outcomes recorded are Psychomotor Development Index (PDI), a composite score measuring physiological development, with higher scores indicating greater development, and Mental Development Index (MDI), a composite score measuring mental development, with higher scores indicating greater development. 
