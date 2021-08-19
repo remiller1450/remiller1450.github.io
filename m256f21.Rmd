@@ -14,7 +14,7 @@ $~$
 
 ### Schedule and Syllabus
 
-Welcome to course website for MATH 246 - Introduction to Probability and Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
+Welcome to course website for MATH 256 - Introduction to Probability and Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
 
 - [Click here](syllabus256f21.html) to view the course syllabus
 
@@ -22,9 +22,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lectures Slides
 
-- Week 1: Summarizing data
-- Week 2: Sampling and observational designs
-- Week 3: Experimental designs
+- Week 1: [Summarizing data](m256f21/summarizing_data.pdf)
+- Week 2: Sampling and study design
+- Week 3: nothing new - wrap up old material and practice for Exam #1
 
 ### In-class Labs
 
@@ -34,15 +34,15 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 8/20 by 11:59pm
 - Week 2: Graphing and summarizing data
     - Due date: Friday 8/27 by 11:59pm
-- Week 3: none (Exam #1 on Thursday)
+- Week 3: Exam #1 Practice (real exam on Thursday)
 
 ### Recommended Readings
 
 The readings listed below are *recommended* prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.
 
 - Week 1: 1.1, 1.2, 2.1, 2.2
-- Week 2: 1.3
-- Week 3: 1.4, 2.3
+- Week 2: 1.3, 1.4, 2.3
+- Week 3: nothing new, prepare for Exam #1
     
 ### Homework Assignments
 
@@ -61,7 +61,9 @@ There will be 4 midterm exams covering the following topics:
 - Exam 3 - Statistical inference for one-sample data (Ch 5, 6.1, and 7.1)
 - Exam 4 - statistical inference for two or more samples (remaining sections of Ch 6, 7, and 8)
 
-You will be given an entire class period to complete each exam, though I will try to write them to target an average completion time of around 60-minutes.  With the exception of Exam 2, all exams will "open everything", and will require you to use R.  Exam 2 will be on-paper and closed notes (a small set of formulas will be given).
+You will be given an entire class period to complete each exam, though I will try to write them to target an average completion time of around 60-minutes.  
+
+With the exception of Exam 2, all exams will "open everything", and will require you to use R.  Exam 2 will be on-paper and closed notes (a small set of formulas will be given).
 
 ### Final Project Information
 
