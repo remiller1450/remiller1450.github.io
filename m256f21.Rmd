@@ -25,6 +25,9 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - Week 1: [Summarizing data](m256f21/summarizing_data.pdf)
 - Week 2: Sampling and study design
 - Week 3: nothing new - wrap up old material and practice for Exam #1
+- Week 4: Probability
+- Week 5: Distributions of random variables
+- Week 6: nothing new - wrap up old material and practice for Exam #2
 
 ### In-class Labs
 
@@ -35,6 +38,25 @@ Throughout the semester we will practice applying key concepts in applications i
 - Week 2: Graphing and summarizing data
     - Due date: Friday 8/27 by 11:59pm
 - Week 3: Exam #1 Practice (real exam on Thursday)
+    - Not collected
+- Week 4: Probability 
+    - Due date: TBD
+- Week 5: Simulation studies of random variables
+    - Due date: TBD
+- Week 6: none (Exam #2 on Thursday)
+
+```{r, echo = FALSE}
+# Week 7 = Central limit theorem
+# Week 8 = Inference for one-sample categorical data
+# Week 9 = Inference for one-sample quantitative data
+# Week 10 = none (Exam #3)
+# Week 11 = Two-sample inference
+# Week 12 = Chi-squared tests
+# Week 13 = ANOVA
+# Week 14 = Regression
+# Week 15 = none (Exam #4)
+# Week 16 = none (time to work on projects)
+```
 
 ### Recommended Readings
 

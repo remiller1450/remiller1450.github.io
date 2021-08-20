@@ -56,8 +56,8 @@ Below is a compendium of the different daily graphs we've discussed:
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Week 1: Summarizing and graphing data
-    - Due Date: Monday 8/23 by 11:59pm
+- Week 1: [Summarizing and graphing data](m146f21/Lab1.html)
+    - Due Date: Wednesday 8/25 by 11:59pm
 - Week 2: Correlation and regression
 - Week 3: Analyzing multivariate data
 
