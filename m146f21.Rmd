@@ -76,8 +76,9 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #1: [Click here for questions](m146f21/HW1_Questions.pdf)
     - Due Date: Friday 8/20 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage2e.html) on 2.116 and 2.117 (along with [StatKey](https://www.lock5stat.com/StatKey/))
-- Homework #2: Coming soon
+- Homework #2: [Click here for questions](m146f21/HW2.html)
     - Due Date: Wednesday 9/1 by 11:59pm
+    - You will need to use data from [this page](https://www.lock5stat.com/datapage2e.html) and  [StatKey](https://www.lock5stat.com/StatKey/) for most questions
     
 ### Exam Dates and Information
 
