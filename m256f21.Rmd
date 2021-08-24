@@ -35,10 +35,10 @@ Throughout the semester we will practice applying key concepts in applications i
 
 - Week 1: [Data basics and an introduction to R](m256f21/Lab1.html)
     - Due date: Friday 8/20 by 11:59pm
-- Week 2: Graphing and summarizing data
+- Week 2: [Graphing and summarizing data](m256f21/Lab2.html)
     - Due date: Friday 8/27 by 11:59pm
 - Week 3: Exam #1 Practice (real exam on Thursday)
-    - Not collected
+    - The practice exam will not be collected
 - Week 4: Probability 
     - Due date: TBD
 - Week 5: Simulation studies of random variables
@@ -108,3 +108,7 @@ This section provides links and a brief description to datasets we will work wit
 - [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
     - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.
 
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+    
+    
