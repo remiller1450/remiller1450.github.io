@@ -1,5 +1,5 @@
 ---
-title: "MATH 256: Introducation to Probability and Statistics"
+title: "MATH 256: Introduction to Probability and Statistics"
 output:
   html_document:
     toc: true
