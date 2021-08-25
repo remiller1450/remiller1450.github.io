@@ -86,6 +86,7 @@ There will be 4 midterm exams covering the following topics:
 
 - Exam 1 - numerical and graphical presentations of data
     - Tentatively scheduled for Friday 9/3
+    - [Practice Exam](m146f21/Practice_Exam1.pdf)
 - Exam 2 - study design and fundamentals of statistical inference
 - Exam 3 - statistical inference for one-sample data
 - Exam 4 - statistical inference for two or more samples
