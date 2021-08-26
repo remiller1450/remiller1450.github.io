@@ -22,28 +22,21 @@ You can find course content by scrolling, or by using the navigation bar in the 
 
 ### Lectures Slides
 
-- Week 1: [Summarizing data](m256f21/summarizing_data.pdf)
-- Week 2: Sampling and study design
-- Week 3: nothing new - wrap up old material and practice for Exam #1
-- Week 4: Probability
-- Week 5: Distributions of random variables
-- Week 6: nothing new - wrap up old material and practice for Exam #2
+- [Summarizing data](m256f21/summarizing_data.pdf)
+- [Sampling and study design](m256f21/study_design.pdf)
+- Probability
+- Distributions of random variables
 
 ### In-class Labs
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Week 1: [Data basics and an introduction to R](m256f21/Lab1.html)
+- Lab 1: [Data basics and an introduction to R](m256f21/Lab1.html)
     - Due date: Friday 8/20 by 11:59pm
-- Week 2: [Graphing and summarizing data](m256f21/Lab2.html)
+- Lab 2: [Graphing and summarizing data](m256f21/Lab2.html)
     - Due date: Friday 8/27 by 11:59pm
-- Week 3: Exam #1 Practice (real exam on Thursday)
-    - The practice exam will not be collected
-- Week 4: Probability 
+- Lab 3: Probability 
     - Due date: TBD
-- Week 5: Simulation studies of random variables
-    - Due date: TBD
-- Week 6: none (Exam #2 on Thursday)
 
 ```{r, echo = FALSE}
 # Week 7 = Central limit theorem
@@ -111,4 +104,6 @@ This section provides links and a brief description to datasets we will work wit
 - [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
     - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
     
+- [Death Penalty Sentencing](https://remiller1450.github.io/data/DeathPenaltySentencing.csv)
+    - This dataset comes from a [widely cited study](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&context=journal_articles) on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony committed in the state of Florida between 1972 and 1977.  They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.
     
