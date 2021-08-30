@@ -35,11 +35,10 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Univariate summaries](m146f21/univariate_summaries.pdf)
     - [Bivariate summaries](m146f21/bivariate_summaries.pdf)
     - [Correlation](m146f21/correlation.pdf)
-    - Regression
+    - [Regression](m146f21/regression.pdf)
 - Exam #2 Topics:
     - Sampling
-    - Confounding variables
-    - Randomized experiments
+    - Study design and confounding variables
     - Confidence intervals
 - Exam #3 Topics:
     - Hypothesis testing
