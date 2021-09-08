@@ -38,7 +38,7 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Regression](m146f21/regression.pdf)
 - Exam #2 Topics:
     - [Sampling from a population](m146f21/sampling.pdf)
-    - Study design and confounding variables
+    - [Study design and confounding variables](m146f21/study_design.pdf)
     - Confidence intervals
 - Exam #3 Topics:
     - Hypothesis testing
@@ -61,7 +61,7 @@ Throughout the semester we will practice applying key concepts in applications i
 - Lab #2 - [Correlation and regression](m146f21/Lab2.html)
     - Due Date: Monday 9/6 by 11:59pm
 - Lab #3 - Confounding variables
-    - Due Date: TBD
+    - Due Date: Friday 9/10 by 11:59pm
 - Lab #4 - Bootstrapping
     - Due Date: TBD
 - Lab #5 - Null distributions and randomization tests
