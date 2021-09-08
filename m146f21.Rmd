@@ -37,7 +37,7 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Correlation](m146f21/correlation.pdf)
     - [Regression](m146f21/regression.pdf)
 - Exam #2 Topics:
-    - Sampling
+    - [Sampling from a population](m146f21/sampling.pdf)
     - Study design and confounding variables
     - Confidence intervals
 - Exam #3 Topics:
@@ -97,7 +97,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due Date: Wednesday 9/1 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage2e.html) and  [StatKey](https://www.lock5stat.com/StatKey/) for most questions
 - Homework #3: 1.61, 1.65, 1.70, 1.102, 1.110, 1.117, 3.25, 3.28, 3.32, 3.101, 3.102, 3.133
-    - Due Date: Friday 9/27 by 11:59pm
+    - Due Date: Friday 9/17 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage3e.html) and  [StatKey](https://www.lock5stat.com/StatKey/)
 
     
