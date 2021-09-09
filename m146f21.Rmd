@@ -60,7 +60,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Wednesday 8/25 by 11:59pm
 - Lab #2 - [Correlation and regression](m146f21/Lab2.html)
     - Due Date: Monday 9/6 by 11:59pm
-- Lab #3 - Confounding variables
+- Lab #3 - [Confounding variables](m146f21/Lab3.html)
     - Due Date: Friday 9/10 by 11:59pm
 - Lab #4 - Bootstrapping
     - Due Date: TBD
@@ -109,6 +109,8 @@ There will be 4 midterm exams covering the following topics:
     - Tentatively scheduled for Friday 9/3
     - [Practice Exam](m146f21/Practice_Exam1.pdf)
 - Exam 2 - study design and fundamentals of statistical inference
+    - Tentatively scheduled for Friday 9/24
+    - A practice exam will be made available soon
 - Exam 3 - statistical inference for one-sample data
 - Exam 4 - statistical inference for two or more samples
 
