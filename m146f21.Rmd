@@ -39,14 +39,15 @@ Below is a compendium of the different daily graphs we've discussed:
 - Exam #2 Topics:
     - [Sampling from a population](m146f21/sampling.pdf)
     - [Study design and confounding variables](m146f21/study_design.pdf)
-    - Confidence intervals
+    - Confidence intervals via bootstrapping
+    - Confidence intervals via the Central Limit theorem
 - Exam #3 Topics:
     - Hypothesis testing
     - Inference for one proportion
     - Inference for one mean
-- Exam #4 Topics:
     - Inference for differences in proportions
     - Inference for differences in means
+- Exam #4 Topics:
     - Chi-squared testing
     - Analysis of variance (ANOVA)
     - Inference for correlation and regression
@@ -62,7 +63,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 9/6 by 11:59pm
 - Lab #3 - [Confounding variables](m146f21/Lab3.html)
     - Due Date: Friday 9/10 by 11:59pm
-- Lab #4 - Bootstrapping
+- Lab #4 - Confidence intevals and boostrapping
     - Due Date: TBD
 - Lab #5 - Null distributions and randomization tests
     - Due Date: TBD
