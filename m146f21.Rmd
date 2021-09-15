@@ -39,7 +39,7 @@ Below is a compendium of the different daily graphs we've discussed:
 - Exam #2 Topics:
     - [Sampling from a population](m146f21/sampling.pdf)
     - [Study design and confounding variables](m146f21/study_design.pdf)
-    - Confidence intervals via bootstrapping
+    - [Confidence intervals via bootstrapping](m146f21/confidence.pdf)
     - Confidence intervals via the Central Limit theorem
 - Exam #3 Topics:
     - Hypothesis testing
@@ -109,7 +109,7 @@ There will be 4 midterm exams covering the following topics:
 - Exam 1 - numerical and graphical presentations of data
     - Tentatively scheduled for Friday 9/3
     - [Practice Exam](m146f21/Practice_Exam1.pdf)
-- Exam 2 - study design and fundamentals of statistical inference
+- Exam 2 - study design, sampling distributions, and confidence intervals
     - Tentatively scheduled for Friday 9/24
     - A practice exam will be made available soon
 - Exam 3 - statistical inference for one-sample data
