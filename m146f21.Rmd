@@ -40,7 +40,7 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Sampling from a population](m146f21/sampling.pdf)
     - [Study design and confounding variables](m146f21/study_design.pdf)
     - [Confidence intervals via bootstrapping](m146f21/confidence.pdf)
-    - Confidence intervals via the Central Limit theorem
+    - [Confidence intervals via the Central Limit theorem](m146f21/clt.pdf)
 - Exam #3 Topics:
     - Hypothesis testing
     - Inference for one proportion
@@ -63,7 +63,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 9/6 by 11:59pm
 - Lab #3 - [Confounding variables](m146f21/Lab3.html)
     - Due Date: Friday 9/10 by 11:59pm
-- Lab #4 - Confidence intevals and boostrapping
+- Lab #4 - Confidence intervals and bootstrapping
     - Due Date: TBD
 - Lab #5 - Null distributions and randomization tests
     - Due Date: TBD
