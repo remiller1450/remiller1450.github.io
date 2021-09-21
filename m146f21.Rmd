@@ -111,11 +111,11 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 There will be 4 midterm exams covering the following topics:
 
 - Exam 1 - numerical and graphical presentations of data
-    - Tentatively scheduled for Friday 9/3
+    - Scheduled for Friday 9/3
     - [Practice Exam](m146f21/Practice_Exam1.pdf)
 - Exam 2 - study design, sampling distributions, and confidence intervals
-    - Tentatively scheduled for Monday 9/27
-    - A practice exam will be made available soon
+    - Scheduled for Monday 9/27
+    - [Practice Exam](m146f21/Practice_Exam2.pdf)
 - Exam 3 - statistical inference for one-sample data
 - Exam 4 - statistical inference for two or more samples
 

@@ -26,7 +26,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Sampling and study design](m256f21/study_design.pdf)
 - [Probability](m256f21/probability.pdf)
 - [Random variables and probability models](m256f21/prob_models.pdf)
-- Central Limit Theorem and statistical inference
+- Central Limit theorem
 
 ### In-class Labs
 
@@ -38,8 +38,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 8/27 by 11:59pm
 - Lab 3: [Probability](m256f21/Lab3.html)
     - Due date: Friday 9/10 by 11:59pm
-- Lab 4: Central Limit theorem and judging Normality
-    - Due date: TBD
+- Lab 4: [Central Limit theorem and Normality](m256f21/Lab4.html)
+    - Due date: Friday 9/21 by 11:59pm
 
 ```{r, echo = FALSE}
 # Week 7 = Central limit theorem
@@ -60,10 +60,11 @@ The readings listed below are *recommended* prior to attending class during the 
 
 - Week 1: 1.1, 1.2, 2.1, 2.2
 - Week 2: 1.3, 1.4, 2.3
-- Week 3: nothing new, prepare for Exam #1
+- Week 3: Nothing new, prepare for Exam #1
 - Week 4: 3.1, 3.2, 3.3
 - Week 5: 3.4, 3.5, 4.1, 4.3
-    
+- Week 6: 5.1
+
 ### Homework Assignments
 
 Homework will be assigned approximately every two weeks.  These assignments can be lengthy, so please start them sooner rather than later. Your responses should be submitted electronically via Canvas as either a scanned or typed document.  Please double-check to make sure your uploads are legible.
@@ -84,7 +85,7 @@ There will be 4 midterm exams covering the following topics:
     - [Click here](m256f21/MockExam1.html) for a practice exam
 - Exam 2 - Probability and random variables (Ch 3 and 4)
     - Tentatively scheduled for Tuesday 9/28 during class - you will need R for the exam.
-    - A practice exam will be made available soon.
+    - [Click here](m256f21/MockExam2.html) for a practice exam
 - Exam 3 - Statistical inference for one-sample data (Ch 5, 6.1, and 7.1)
 - Exam 4 - statistical inference for two or more groups (remaining sections of Ch 6, 7, and 8)
 
