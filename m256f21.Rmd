@@ -26,7 +26,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Sampling and study design](m256f21/study_design.pdf)
 - [Probability](m256f21/probability.pdf)
 - [Random variables and probability models](m256f21/prob_models.pdf)
-- Central Limit theorem
+- [Central Limit theorem](m256f21/central_limit_theorem.pdf)
 
 ### In-class Labs
 
