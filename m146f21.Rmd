@@ -63,7 +63,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 9/6 by 11:59pm
 - Lab #3 - [Confounding variables](m146f21/Lab3.html)
     - Due Date: Friday 9/10 by 11:59pm
-- Lab #4 - Confidence intervals and bootstrapping
+- Lab #4 - [Confidence intervals and bootstrapping](m146f21/Lab4.html)
     - Due Date: TBD
 - Lab #5 - Null distributions and randomization tests
     - Due Date: TBD
