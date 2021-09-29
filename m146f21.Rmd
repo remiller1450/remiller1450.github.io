@@ -42,11 +42,10 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Confidence intervals via bootstrapping](m146f21/confidence.pdf)
     - [Confidence intervals via the Central Limit theorem](m146f21/clt.pdf)
 - Exam #3 Topics:
+    - [The scientific method](m146f21/scientific_method.pdf)
     - Hypothesis testing
-    - Inference for one proportion
-    - Inference for one mean
-    - Inference for differences in proportions
-    - Inference for differences in means
+    - One-sample tests
+    - Two-sample tests
 - Exam #4 Topics:
     - Chi-squared testing
     - Analysis of variance (ANOVA)
