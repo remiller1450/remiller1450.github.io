@@ -13,7 +13,6 @@
 
 <title>MATH 146 - Introductory Biostatistics (Fall 2021)</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -297,12 +296,12 @@ div.tocify {
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row">
-<div class="col-sm-12 col-md-4 col-lg-3">
+<div class="col-xs-12 col-sm-4 col-md-3">
 <div id="TOC" class="tocify">
 </div>
 </div>
 
-<div class="toc-content col-sm-12 col-md-8 col-lg-9">
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -321,35 +320,35 @@ div.tocify {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fas fa-newspaper-o"></span>
+    <span class="fa fa-newspaper-o"></span>
      
     Research
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Teaching
   </a>
 </li>
 <li>
   <a href="personal.html">
-    <span class="fas fa-dumbbell"></span>
+    <span class="fa fa-dumbbell"></span>
      
     Personal
   </a>
 </li>
 <li>
   <a href="CV_2018.pdf">
-    <span class="fas fa-file"></span>
+    <span class="fa fa-file"></span>
      
     CV
   </a>
@@ -409,7 +408,7 @@ div.tocify {
 <li>Exam #3 Topics:
 <ul>
 <li><a href="m146f21/scientific_method.pdf">The scientific method</a></li>
-<li>Hypothesis testing</li>
+<li><a href="m146f21/hypothesis_tests.pdf">Hypothesis testing</a></li>
 <li>One-sample tests</li>
 <li>Two-sample tests</li>
 </ul></li>
@@ -474,6 +473,7 @@ div.tocify {
 <li>Week 5: 3.1, 3.2, 3.3, 3.4</li>
 <li>Week 6: none</li>
 <li>Week 7: 5.2, 6.1-CI, 6.2-CI, 6.3-CI, 6.4-CI</li>
+<li>Week 8: 4.1, 4.2, 4.3, 4.4</li>
 </ul>
 </div>
 <div id="homework-assignments" class="section level3">
@@ -499,6 +499,11 @@ div.tocify {
 <ul>
 <li>Due Date: Friday 9/24 by 11:59pm</li>
 <li>You will not need any data files for this assignment</li>
+</ul></li>
+<li>Homework #5: 4.16, 4.18, 4.71, 4.75, 4.78, 4.81, 4.82, 4.172, 4.174
+<ul>
+<li>Due Date: Friday 10/8 by 11:59pm</li>
+<li>You will need to use data from <a href="https://www.lock5stat.com/datapage3e.html">this page</a> and <a href="https://www.lock5stat.com/StatKey/">StatKey</a></li>
 </ul></li>
 </ul>
 </div>
@@ -593,6 +598,9 @@ $(document).ready(function () {
 
 <script>
 $(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
 
     // move toc-ignore selectors from section div to header
     $('div.section.toc-ignore')
