@@ -103,11 +103,11 @@ Exams are "open everything" and will require you to use R.
 
 ### Final Project Information
 
-This class contains a final project that is due at the end of the semester (during final's week).
+The final project due at the end of the semester (during final's week).
 
 - [Project Description](m256f21/FinalProject.html) - [Rubric](m256f21/Project_Rubric.docx)
 
-Please contact me if you are having trouble figuring out a topic.
+Please contact me if you are having trouble figuring out a topic. Also note that an extra credit opportunity is described at the end of the project description.
 
 ### Daily Graphs
 
