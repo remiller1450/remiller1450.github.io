@@ -64,7 +64,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Friday 9/10 by 11:59pm
 - Lab #4 - [Confidence intervals and bootstrapping](m146f21/Lab4.html)
     - Due Date: Monday 9/27 by 11:59pm
-- Lab #5 - Null distributions and randomization tests
+- Lab #5 - [Hypothesis testing via randomization](m146f21/Lab5.html)
     - Due Date: TBD
 - Lab #6 - Analysis of one-sample data
     - Due Date: TBD
