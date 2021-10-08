@@ -128,7 +128,9 @@ You can expect each exam to take an entire 50-minute class session.  Exams 1 and
 
 This class contains a final project that is due at the end of the semester (during final's week).
 
-- More information will be provided after Exam #2
+- [Click Here](m146f21/final_project.html) for information on the final project
+
+Note: the final project document also contains an opportunity to improve your lowest category score in the course.
 
 ### Datasets
 
