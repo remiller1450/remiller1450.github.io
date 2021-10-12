@@ -43,11 +43,11 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Confidence intervals via the Central Limit theorem](m146f21/clt.pdf)
 - Exam #3 Topics:
     - [The scientific method](m146f21/scientific_method.pdf)
-    - [Hypothesis testing](m146f21/hypothesis_tests.pdf)
-    - One-sample tests
-    - Two-sample tests
+    - [Hypothesis testing (concepts)](m146f21/hypothesis_tests.pdf)
+    - One-sample testing procedures
 - Exam #4 Topics:
-    - Chi-squared testing
+    - Two-sample testing procedures
+    - Chi-squared tests
     - Analysis of variance (ANOVA)
     - Inference for correlation and regression
 
@@ -87,6 +87,7 @@ The readings listed below are *recommended* prior to attending class during the 
 - Week 6: none
 - Week 7: 5.2, 6.1-CI, 6.2-CI, 6.3-CI, 6.4-CI
 - Week 8: 4.1, 4.2, 4.3, 4.4
+- Week 9: 6.1-HT, 6.2-HT
     
 ### Homework Assignments
 
@@ -96,7 +97,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due Date: Friday 8/20 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage2e.html) on 2.116 and 2.117 (along with [StatKey](https://www.lock5stat.com/StatKey/))
 - Homework #2: [Click here for questions](m146f21/HW2.html)
-    - Due Date: Wednesday 9/1 by 11:59pm
+    - Due Date: *Wednesday* 9/1 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage2e.html) and  [StatKey](https://www.lock5stat.com/StatKey/) for most questions
 - Homework #3: 1.61, 1.65, 1.70, 1.102, 1.110, 1.117, 3.25, 3.28, 3.32, 3.101, 3.102, 3.133
     - Due Date: Friday 9/17 by 11:59pm
@@ -108,6 +109,10 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due Date: Friday 10/8 by 11:59pm
     - You will need to use data from [this page](https://www.lock5stat.com/datapage3e.html) and  [StatKey](https://www.lock5stat.com/StatKey/)
     - Questions 4.81 and 4.82 have been removed since the original posting of this assignment
+- Homework #6: 6.53, 6.56, 6.58, 6.60, 6.133, 6.136, 6.141, 6.142
+    - Due Date: *Wednesday* 10/20 by 11:59pm
+    - Please use a Z-test or T-test on each question (do not perform randomization tests in StatKey)
+    - You will need to use data from [this page](https://www.lock5stat.com/datapage3e.html) and  [StatKey](https://www.lock5stat.com/StatKey/) on 6.141 and 6.142
     
 ### Exam Dates and Information
 
@@ -120,6 +125,9 @@ There will be 4 midterm exams covering the following topics:
     - Scheduled for Monday 9/27
     - [Practice Exam](m146f21/Practice_Exam2.pdf)
 - Exam 3 - statistical inference for one-sample data
+    - Tentatively scheduled for Friday 10/22
+    - A practice exam will soon be made available
+    - This exam will be completed via computer and you should expect to use StatKey
 - Exam 4 - statistical inference for two or more samples
 
 You can expect each exam to take an entire 50-minute class session.  Exams 1 and 2 will be on-paper and closed notes, while exams 3 and 4 will be completed electronically and will require you to utilize statistical software.
