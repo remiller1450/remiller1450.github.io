@@ -29,7 +29,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Central Limit theorem](m256f21/central_limit_theorem.pdf)
 - [Confidence intervals](m256f21/confidence_intervals.pdf)
 - [Hypothesis testing (concepts)](m256f21/hypothesis_tests.pdf)
-- One-sample hypothesis testing procedures
+- [One-sample hypothesis testing procedures](m256f21/hypothesis_tests2.pdf)
 
 ### In-class Labs
 
