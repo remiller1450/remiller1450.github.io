@@ -46,7 +46,7 @@ Throughout the semester we will practice applying key concepts in applications i
 - Lab 5: [Confidence intervals](m256f21/Lab5.html)
     - Due date: Friday 10/8 by 11:59pm
 - Lab 6: One-sample hypothesis tests
-    - Due date: Wednesday 10/20 by 11:59pm
+    - Due date: Friday 10/22 by 11:59pm
 
 ```{r, echo = FALSE}
 # Week 7 = Central limit theorem
@@ -85,7 +85,7 @@ Homework will be assigned approximately every two weeks.  These assignments can 
 - Homework #2: 3.3, 3.8, 3.9, 3.14, 3.17, 3.24, 3.26, 3.29, 3.33, 4.6, 4.8, 4.18, 4.20, 4.22
     - Due date Friday 9/24 at 11:59pm
 - Homework #3: 5.11, 5.12, 5.14, 5.21, 5.22, 5.25, 5.30, 6.5, 6.10, 7.7, 7.11, 7.12
-    - Due date: Friday 10/15 at 11:59pm
+    - Due date: Wednesday 10/20 at 11:59pm
 
 ### Exam Dates and Information
 
@@ -98,7 +98,7 @@ There will be 4 midterm exams covering the following topics:
     - Tentatively scheduled for Tuesday 9/28 during class - you will need R for the exam.
     - [Click here](m256f21/MockExam2.html) for a practice exam
 - Exam 3 - Statistical inference for one-sample data (Ch 5, 6.1, and 7.1)
-    - Tentatively scheduled for Thursday 10/21 during class - you will need R for the exam.
+    - Tentatively scheduled for Tuesday 10/21 during class - you will need R for the exam.
     - A practice exam will be made available soon.
 - Exam 4 - Statistical inference for two or more groups (remaining sections of Ch 6, 7, and 8)
 
