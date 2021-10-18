@@ -66,7 +66,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 9/27 by 11:59pm
 - Lab #5 - [Hypothesis testing via randomization](m146f21/Lab5.html)
     - Due Date: Friday 10/15 by 11:59pm
-- Lab #6 - Analysis of one-sample data
+- Lab #6 - [Analysis of one-sample data](m146f21/Lab6.html)
     - Due Date: TBD
 - Lab #7 - Analysis of two-sample data
     - Due Date: TBD
@@ -125,8 +125,8 @@ There will be 4 midterm exams covering the following topics:
     - Scheduled for Monday 9/27
     - [Practice Exam](m146f21/Practice_Exam2.pdf)
 - Exam 3 - statistical inference for one-sample data
-    - Tentatively scheduled for Friday 10/22
-    - A practice exam will soon be made available
+    - Scheduled for Friday 10/22
+    - A practice exam is available through Canvas
     - This exam will be completed via computer and you should expect to use StatKey
 - Exam 4 - statistical inference for two or more samples
 
