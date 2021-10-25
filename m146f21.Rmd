@@ -46,7 +46,7 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Hypothesis testing (concepts)](m146f21/hypothesis_tests.pdf)
     - [One-sample testing procedures](m146f21/one_sample_tests.pdf)
 - Exam #4 Topics:
-    - Two-sample testing procedures
+    - [Two-sample testing procedures](m146f21/two_sample_tests.pdf)
     - Chi-squared tests
     - Analysis of variance (ANOVA)
     - Inference for correlation and regression (time permitting)
