@@ -67,9 +67,9 @@ Throughout the semester we will practice applying key concepts in applications i
 - Lab #5 - [Hypothesis testing via randomization](m146f21/Lab5.html)
     - Due Date: Friday 10/15 by 11:59pm
 - Lab #6 - [Analysis of one-sample data](m146f21/Lab6.html)
-    - Due Date: TBD
-- Lab #7 - Analysis of two-sample data
-    - Due Date: TBD
+    - Due Date: Wednesday 10/20 by 11:59pm
+- Lab #7 - [Analysis of two-sample data](m146f21/Lab7.html)
+    - Due Date: Monday 11/1 by 11:59pm
 - Lab #8 - Chi-squared tests
     - Due Date: TBD
 - Lab #9 - ANOVA
@@ -89,6 +89,7 @@ The readings listed below are *recommended* prior to attending class during the 
 - Week 8: 4.1, 4.2, 4.3, 4.4
 - Week 9: 6.1-HT, 6.2-HT
 - Week 10: 6.3-HT, 6.4-HT
+- Week 11: 7.1, 7.2
     
 ### Homework Assignments
 
@@ -160,5 +161,5 @@ Dataset links and descriptions will be added here as we use them throughout the 
     - This dataset is a random sample of 5,000 claims made against the Transport Security Administration (TSA) between 2003 and 2008.  It contains information such as the claim type, claim amount, status, and settlement amount.
 - [Wetsuits](https://remiller1450.github.io/data/Wetsuits2.csv)  
     - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were originally obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html).
-- [Wetsuits](https://remiller1450.github.io/data/LeadIQ.csv)  
+- [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)  
     - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter. This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children. These data were obtained from the textbook: Fundamentals of Biostatistics by B. Rosner.

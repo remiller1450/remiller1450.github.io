@@ -91,7 +91,7 @@ Homework will be assigned approximately every two weeks.  These assignments can 
     - Due date: Wednesday 10/20 at 11:59pm
 - Homework #4: 6.23, 6.24, 6.26, 6.28, 7.23, 7.25, 7.27, 7.28, 7.30
     - Due date: Friday 11/5 at 11:59pm
-- Homework #5: 
+- Homework #5: TBD
     - Due date: Wednesday 11/17 at 11:59pm
 
 ### Exam Dates and Information
@@ -107,7 +107,8 @@ There will be 4 midterm exams covering the following topics:
 - Exam 3 - Statistical inference for one-sample data (Ch 5, 6.1, and 7.1)
     - Scheduled for Tuesday 10/26 during class - you will need R for the exam.
     - [Click here](m256f21/MockExam3.html) for a practice exam
-- Exam 4 - Statistical inference for two or more groups (remaining sections of Ch 6, 7, and 8)
+- Exam 4 - Statistical inference for two or more groups (remaining parts of Ch 6, 7, and 8)
+    - Tentatively scheduled for Thursday 11/18 during class - you will need R for the exam.
 
 You will be given an entire class period to complete each exam, though I try to write them with a target average completion time of around 60-minutes.  
 
