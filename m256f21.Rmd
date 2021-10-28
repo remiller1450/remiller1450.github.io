@@ -30,7 +30,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [Confidence intervals](m256f21/confidence_intervals.pdf)
 - [Hypothesis testing (concepts)](m256f21/hypothesis_tests.pdf)
 - [One-sample hypothesis testing procedures](m256f21/hypothesis_tests2.pdf)
-- Two-sample hypothesis testing procedures
+- [Two-sample hypothesis testing procedures](m256f21/hypothesis_tests3.pdf)
 - Chi-squared tests
 - Regression and ANOVA
 
@@ -50,6 +50,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 10/8 by 11:59pm
 - Lab 6: [One-sample hypothesis testing](m256f21/Lab6.html)
     - Due date: Friday 10/22 by 11:59pm
+- Lab 7: Two-sample hypothesis testing
+    - Due date: Friday 11/5 by 11:59pm
 
 ```{r, echo = FALSE}
 # Week 7 = Central limit theorem
