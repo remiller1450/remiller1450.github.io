@@ -50,7 +50,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 10/8 by 11:59pm
 - Lab 6: [One-sample hypothesis testing](m256f21/Lab6.html)
     - Due date: Friday 10/22 by 11:59pm
-- Lab 7: Two-sample hypothesis testing
+- Lab 7: [Two-sample hypothesis testing](m256f21/Lab7.html)
     - Due date: Friday 11/5 by 11:59pm
 
 ```{r, echo = FALSE}
@@ -79,6 +79,7 @@ The readings listed below are *recommended* prior to attending class during the 
 - Week 7: 5.2
 - Week 8: 5.3, 6.1, 7.1
 - Week 9: Nothing new
+- Week 10: 6.3, 6.4
 
 ### Homework Assignments
 
