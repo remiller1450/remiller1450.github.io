@@ -48,8 +48,8 @@ Below is a compendium of the different daily graphs we've discussed:
 - Exam #4 Topics:
     - [Two-sample testing procedures](m146f21/two_sample_tests.pdf)
     - [Chi-squared tests](m146f21/chi_sq.pdf)
+    - Measuring association in contingency tables
     - Analysis of variance (ANOVA)
-    - Inference for correlation and regression (time permitting)
 
 
 ### In-class Labs
@@ -70,8 +70,9 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Wednesday 10/20 by 11:59pm
 - Lab #7 - [Analysis of two-sample data](m146f21/Lab7.html)
     - Due Date: Monday 11/1 by 11:59pm
-- Lab #8 - Chi-squared tests
-    - Due Date: TBD
+- Lab #8 - [Chi-squared tests](m146f21/Lab8.html)
+    - Due Date: Wednesday 11/10 by 11:59pm
+    - [Click here](m146f21/chi_sq_supp.html) for supplemental info on how to perform Chi-squared tests using Excel or Google Sheets
 - Lab #9 - ANOVA
     - Due Date: TBD
 
@@ -120,6 +121,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Please use a Z-test or T-test on each question (do not perform randomization tests in StatKey)
 - Homework #8: 7.13, 7.16, 7.19, 7.22 7.45, 7.46, 7.51, 7.54, 7.57, 7.58
     - Due Date: Friday 11/5 by 11:59pm
+- Homework #9: 8.15, 8.17, 8.18, 8.19, 8.42
+    - Due Date: Friday 11/19 by 11:59pm
     
 ### Exam Dates and Information
 
@@ -136,7 +139,10 @@ There will be 4 midterm exams covering the following topics:
     - A practice exam is available through Canvas
     - This exam will be completed via computer and you should expect to use StatKey
 - Exam 4 - statistical inference for two or more samples
-
+    - Tentatively planned to take place remotely on Monday 11/22
+    - This exam will be completed via computer and you should expect to use StatKey
+    
+    
 You can expect each exam to take an entire 50-minute class session.  Exams 1 and 2 will be on-paper and closed notes, while exams 3 and 4 will be completed electronically and will require you to utilize statistical software.
 
 ### Final Project Information
@@ -165,3 +171,7 @@ Dataset links and descriptions will be added here as we use them throughout the 
     - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were originally obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html).
 - [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)  
     - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter. This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children. These data were obtained from the textbook: Fundamentals of Biostatistics by B. Rosner.
+- [Smoking in Whickham](https://remiller1450.github.io/data/Whickham.csv)
+    - Between 1972 and 1974, public health researchers canvassed Whickham, a small town in northeast England.  The researchers asked residents about their smoking habits and collected demographic information.  Twenty years later, a follow-up was performed to determine which of the original subjects were still alive and which had died.  these data are a subset of individuals from the original study, consisting of only women who identified as either regular smokers or having never smoked.
+- [ICU visits](https://remiller1450.github.io/data/ICUAdmissions.csv)
+    - Intensive care units, or ICUs, are primary spaces in hospitals that are reserved for patients in critical condition.  The dataset linked above is a random sample of n = 200 ICU patients from a research hospital affiliated with Carnegie Mellon University (CMU) that has been published for educational purposes.
