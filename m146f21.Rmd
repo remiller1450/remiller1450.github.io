@@ -48,7 +48,7 @@ Below is a compendium of the different daily graphs we've discussed:
 - Exam #4 Topics:
     - [Two-sample testing procedures](m146f21/two_sample_tests.pdf)
     - [Chi-squared tests](m146f21/chi_sq.pdf)
-    - Measuring association in contingency tables
+    - [Measuring association in contingency tables](m146f21/cont_tabs.pdf)
     - Analysis of variance (ANOVA)
 
 
@@ -91,6 +91,8 @@ The readings listed below are *recommended* prior to attending class during the 
 - Week 9: 6.1-HT, 6.2-HT
 - Week 10: 6.3-HT, 6.4-HT
 - Week 11: 7.1, 7.2
+- Week 12: 8.1, 8.2
+- Week 13: none
     
 ### Homework Assignments
 
@@ -140,6 +142,7 @@ There will be 4 midterm exams covering the following topics:
     - This exam will be completed via computer and you should expect to use StatKey
 - Exam 4 - statistical inference for two or more samples
     - Tentatively planned to take place remotely on Monday 11/22
+    - A practice exam will be made available through Canvas
     - This exam will be completed via computer and you should expect to use StatKey
     
     
