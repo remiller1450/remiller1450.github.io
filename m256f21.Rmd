@@ -52,10 +52,10 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 10/22 by 11:59pm
 - Lab 7: [Two-sample hypothesis testing](m256f21/Lab7.html)
     - Due date: Friday 11/5 by 11:59pm
-- Lab 8: Chi-squared tests
+- Lab 8: [Chi-squared tests](m256f21/Lab8.html)
     - Due date: Friday 11/12 by 11:59pm
 - Lab 9: Regression and ANOVA
-    - Due date: TBD
+    - Due date: Friday 11/19 by 11:59pm
 
 ```{r, echo = FALSE}
 # Week 7 = Central limit theorem
