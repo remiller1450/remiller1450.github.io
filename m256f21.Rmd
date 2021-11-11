@@ -32,7 +32,7 @@ You can find course content by scrolling, or by using the navigation bar in the 
 - [One-sample hypothesis testing procedures](m256f21/hypothesis_tests2.pdf)
 - [Two-sample hypothesis testing procedures](m256f21/hypothesis_tests3.pdf)
 - [Chi-squared tests](m256f21/chi_sq.pdf)
-- Regression and ANOVA
+- [Analysis of variance (ANOVA)](m256f21/anova.pdf)
 
 ### In-class Labs
 
@@ -54,7 +54,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 11/5 by 11:59pm
 - Lab 8: [Chi-squared tests](m256f21/Lab8.html)
     - Due date: Friday 11/12 by 11:59pm
-- Lab 9: Regression and ANOVA
+- Lab 9: ANOVA
     - Due date: Friday 11/19 by 11:59pm
 
 ```{r, echo = FALSE}
@@ -83,7 +83,9 @@ The readings listed below are *recommended* prior to attending class during the 
 - Week 7: 5.2
 - Week 8: 5.3, 6.1, 7.1
 - Week 9: Nothing new
-- Week 10: 6.3, 6.4
+- Week 10: 6.2, 7.2
+- Week 11: 6.3, 6.4
+- Week 12: 7.5
 
 ### Homework Assignments
 
