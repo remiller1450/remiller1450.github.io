@@ -49,7 +49,7 @@ Below is a compendium of the different daily graphs we've discussed:
     - [Two-sample testing procedures](m146f21/two_sample_tests.pdf)
     - [Chi-squared tests](m146f21/chi_sq.pdf)
     - [Measuring association in contingency tables](m146f21/cont_tabs.pdf)
-    - Analysis of variance (ANOVA)
+    - [Analysis of variance (ANOVA)](m146f21/anova.pdf)
 
 
 ### In-class Labs
@@ -74,7 +74,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Wednesday 11/10 by 11:59pm
     - [Click here](m146f21/chi_sq_supp.html) for supplemental info on how to perform Chi-squared tests using Excel or Google Sheets
 - Lab #9 - ANOVA
-    - Due Date: TBD
+    - Due Date: Friday 11/19 by 11:59pm 
 
 ### Recommended Readings
 
@@ -141,8 +141,8 @@ There will be 4 midterm exams covering the following topics:
     - A practice exam is available through Canvas
     - This exam will be completed via computer and you should expect to use StatKey
 - Exam 4 - statistical inference for two or more samples
-    - Tentatively planned to take place remotely on Monday 11/22
-    - A practice exam will be made available through Canvas
+    - Scheduled for Monday 11/22 (remote via Canvas)
+    - A practice exam is available through Canvas
     - This exam will be completed via computer and you should expect to use StatKey
     
     
