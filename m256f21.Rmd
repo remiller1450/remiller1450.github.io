@@ -54,7 +54,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Friday 11/5 by 11:59pm
 - Lab 8: [Chi-squared tests](m256f21/Lab8.html)
     - Due date: Friday 11/12 by 11:59pm
-- Lab 9: ANOVA
+- Lab 9: [ANOVA](m256f21/Lab9.html)
     - Due date: Friday 11/19 by 11:59pm
 
 ```{r, echo = FALSE}
