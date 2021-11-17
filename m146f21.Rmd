@@ -73,7 +73,7 @@ Throughout the semester we will practice applying key concepts in applications i
 - Lab #8 - [Chi-squared tests](m146f21/Lab8.html)
     - Due Date: Wednesday 11/10 by 11:59pm
     - [Click here](m146f21/chi_sq_supp.html) for supplemental info on how to perform Chi-squared tests using Excel or Google Sheets
-- Lab #9 - ANOVA
+- Lab #9 - [ANOVA](m146f21/Lab9.html)
     - Due Date: Friday 11/19 by 11:59pm 
 
 ### Recommended Readings
@@ -146,7 +146,7 @@ There will be 4 midterm exams covering the following topics:
     - This exam will be completed via computer and you should expect to use StatKey
     
     
-You can expect each exam to take an entire 50-minute class session.  Exams 1 and 2 will be on-paper and closed notes, while exams 3 and 4 will be completed electronically and will require you to utilize statistical software.
+You can expect each exam to take an entire 50-minute class session.  Exams 1 and 2 will be on-paper and closed notes, while exams 3 and 4 will be open notes, completed electronically, and will require you to utilize statistical software.
 
 ### Final Project Information
 
