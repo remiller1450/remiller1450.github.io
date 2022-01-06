@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction</title>
+<title>MATH-156 General Statistics (Spring 2022)</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -28,6 +28,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -219,6 +222,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -226,6 +292,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -289,63 +365,149 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Introduction</h1>
+<h1 class="title toc-ignore">MATH-156 General Statistics (Spring 2022)</h1>
 
 </div>
 
 
-<p><img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website! I’m currently an Assistant Professor of Statistics in the <a href="https://www.xavier.edu/mathematics-department/index">Xavier University Math Deparment</a>.</p>
-<p>Prior to joining Xavier, I was a Visiting Assistant Professor of Statistics in the <a href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell College Department of Mathematics and Statistics</a> where I taught classes in statistics and data science.</p>
-<p>I studied <a href="https://www.public-health.uiowa.edu/biostat/">Biostatistics</a> at the University of Iowa, completing my PhD in August of 2018. Before that I studied Mathematics at <a href="https://www.augustana.edu/">Augustana College</a> in Rock Island Illinois.</p>
-<p>Below are links to my current and previous courses:</p>
-<p><strong>Xavier University Courses</strong>:</p>
+<p><img style="float: right; width:100%" src="xu_logo.png"></p>
+<p><span class="math inline">\(~\)</span></p>
+<div id="schedule-and-syllabus" class="section level3">
+<h3>Schedule and Syllabus</h3>
+<p>Welcome to course website for MATH-156 General Statistics! On this page you can find all materials we’ll use throughout the semester, starting with the syllabus linked below:</p>
 <ul>
-<li>Spring 2022
+<li><a href="syllabus156s22.html">Click here</a> to view the course syllabus</li>
+</ul>
+<p>You can find course content by scrolling, or by using the navigation bar in the upper left.</p>
+<p>Please note that material will not be posted until we’ve reached that point in the course. Additionally, some topics and activities that listed far into the future may be subject to change.</p>
+</div>
+<div id="daily-graphs" class="section level3">
+<h3>Daily Graphs</h3>
+<p>For the first couple of weeks in the semester we’ll begin each class by discussing a graph appearing in a media piece. Below is a compendium of the different daily graphs we’ve discussed:</p>
 <ul>
-<li><a href="m146s22.html">Math-146, Introductory Biostatistics</a></li>
-<li><a href="m156s22.html">Math-156, General Statistics</a></li>
+<li><a href="m146s22/daily_graph.pdf">Daily graph slidedeck</a></li>
+</ul>
+</div>
+<div id="lectures-slides" class="section level3">
+<h3>Lectures Slides</h3>
+<ul>
+<li>Midterm Project Topics:
+<ul>
+<li>Univariate summaries</li>
+<li>Contingency Tables</li>
+<li>Comparing Groups</li>
+<li>Correlation and regression</li>
+<li>Study design and confounding variables</li>
+<li>Sampling from a population</li>
 </ul></li>
-<li>Fall 2021
+<li>Exam #1 Topics:
 <ul>
-<li><a href="m146f21.html">Math-146, Introductory Biostatistics</a></li>
-<li><a href="m256f21.html">Math-256, Intro to Probability and Statistics</a></li>
+<li>Introduction to probability</li>
+<li>Discrete random variables</li>
+<li>Continuous random variables and Normal models</li>
+<li>Confidence interval estimation</li>
 </ul></li>
-<li>Spring 2021
+<li>Exam #2/Final Project Topics:
 <ul>
-<li><a href="m156s21.html">Math-156, General Statistics</a></li>
-<li><a href="m257s21.html">Math-257, Data Modeling</a></li>
-</ul></li>
-<li>Fall 2020
-<ul>
-<li><a href="m156f20.html">Math-156, General Statistics</a></li>
-<li><a href="m256f20.html">Math-256, Intro to Probability and Statistics</a></li>
+<li>The scientific method</li>
+<li>Hypothesis testing</li>
+<li>Z-tests</li>
+<li>T-tests</li>
 </ul></li>
 </ul>
-<p><strong>Grinnell College Courses</strong>:</p>
+</div>
+<div id="in-class-labs" class="section level3">
+<h3>In-class Labs</h3>
+<p>Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs. During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis. You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class. Your group will be expected to turn-in a lab write-up.</p>
 <ul>
-<li>Spring 2020
+<li>Lab #1 - Summarizing Data
 <ul>
-<li><a href="sta209s20.html">Sta-209, Applied Statistics</a></li>
-<li><a href="sta395s20.html">Sta-395, Applied Data Science</a></li>
+<li>Due date: TBD</li>
 </ul></li>
-<li>Fall 2019
+<li>Lab #2 - Contingency Tables
 <ul>
-<li><a href="sta209f19.html">Sta-209, Applied Statistics</a></li>
-<li><a href="sta230f19.html">Sta-230, Intro to Data Science</a></li>
-</ul></li>
-<li>Spring 2019
-<ul>
-<li><a href="sta209s19.html">Sta-209, Applied Statistics</a></li>
-<li><a href="sta230s19.html">Sta-230, Intro to Data Science</a></li>
-</ul></li>
-<li>Fall 2018
-<ul>
-<li><a href="sta209f18.html">Sta-209, Applied Statistics</a></li>
+<li>Due date: TBD</li>
 </ul></li>
 </ul>
+</div>
+<div id="recommended-readings" class="section level3">
+<h3>Recommended Readings</h3>
+<p>The readings listed below are <em>recommended</em> prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.</p>
+<ul>
+<li>Midterm Project
+<ul>
+<li>Week 1: TBD</li>
+<li>Week 2: TBD</li>
+<li>Week 3: TBD</li>
+<li>Week 4: TBD</li>
+<li>Week 5: TBD</li>
+</ul></li>
+<li>Exam #2:
+<ul>
+<li>Week 6: TBD</li>
+<li>Week 7: TBD</li>
+<li>Week 8: TBD</li>
+<li>Week 9: TBD</li>
+</ul></li>
+<li>Exam #3/Final Project:
+<ul>
+<li>Week 10: TBD</li>
+<li>Week 11: TBD</li>
+<li>Week 12: TBD</li>
+<li>Week 13: TBD</li>
+<li>Week 14: TBD</li>
+</ul></li>
+</ul>
+</div>
+<div id="homework-assignments" class="section level3">
+<h3>Homework Assignments</h3>
+<p>Homework will be assigned weekly and should be submitted electronically via Canvas in the form of either a scanned hand-written document, a series of legible images of your hand-written responses, or a typed document.</p>
+<ul>
+<li>Homework #1: TBD
+<ul>
+<li>Due date: Friday 1/14 at 11:59pm</li>
+</ul></li>
+<li>Homework #2: TBD
+<ul>
+<li>Due date: Friday 1/21 at 11:59pm</li>
+</ul></li>
+</ul>
+</div>
+<div id="exam-dates-and-information" class="section level3">
+<h3>Exam Dates and Information</h3>
+<p>There will two exams throughout the semester on the following dates (announced at least 14 days in advance)</p>
+<ul>
+<li>Exam #1 - date TBD
+<ul>
+<li>Practice exam (will be posted 1 week prior to the exam)</li>
+</ul></li>
+<li>Exam #2 - date TBD</li>
+</ul>
+<p>You can expect each exam to take an entire 50-minute class session. Exams will be closed notes but a formula sheet will be provided.</p>
+</div>
+<div id="projects-and-information" class="section level3">
+<h3>Projects and Information</h3>
+<ul>
+<li>A description and rubric for the Midterm Project will be posted here. The focus of this project is on data collection, summarization, and presentation.<br />
+</li>
+<li>A description and rubric for the Final Project will be posted here. The focus of this project is on statistical analysis and the reporting of statistical results.</li>
+</ul>
+</div>
+<div id="datasets" class="section level3">
+<h3>Datasets</h3>
+<p>Dataset links and descriptions will be added here as we use them throughout the semester.</p>
+<ul>
+<li><a href="https://remiller1450.github.io/data/HappyPlanet.csv">Happy Planet</a>
+<ul>
+<li>This dataset was assembled by <a href="http://happyplanetindex.org/">The Happy Planet Index</a> using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.</li>
+</ul></li>
+</ul>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -378,6 +540,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

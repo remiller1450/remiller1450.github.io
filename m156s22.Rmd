@@ -1,0 +1,111 @@
+---
+title: "MATH-156 General Statistics (Spring 2022)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+<img style="float: right; width:100%" src="xu_logo.png"> 
+
+$~$
+
+### Schedule and Syllabus
+
+Welcome to course website for MATH-156 General Statistics!  On this page you can find all materials we'll use throughout the semester, starting with the syllabus linked below:
+
+- [Click here](syllabus156s22.html) to view the course syllabus
+
+You can find course content by scrolling, or by using the navigation bar in the upper left.  
+
+Please note that material will not be posted until we've reached that point in the course.  Additionally, some topics and activities that listed far into the future may be subject to change.
+
+### Daily Graphs
+
+For the first couple of weeks in the semester we'll begin each class by discussing a graph appearing in a media piece.  Below is a compendium of the different daily graphs we've discussed:
+
+- [Daily graph slidedeck](m146s22/daily_graph.pdf)
+
+### Lectures Slides
+
+- Midterm Project Topics:
+    - Univariate summaries
+    - Contingency Tables
+    - Comparing Groups
+    - Correlation and regression
+    - Study design and confounding variables 
+    - Sampling from a population
+- Exam #1 Topics:
+    - Introduction to probability
+    - Discrete random variables
+    - Continuous random variables and Normal models
+    - Confidence interval estimation
+- Exam #2/Final Project Topics:
+    - The scientific method
+    - Hypothesis testing
+    - Z-tests
+    - T-tests
+
+### In-class Labs
+
+Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
+
+- Lab #1 - Summarizing Data
+    - Due date: TBD
+- Lab #2 - Contingency Tables
+    - Due date: TBD
+
+### Recommended Readings
+
+The readings listed below are *recommended* prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.
+
+- Midterm Project
+    - Week 1: TBD
+    - Week 2: TBD
+    - Week 3: TBD
+    - Week 4: TBD
+    - Week 5: TBD
+- Exam #2:
+    - Week 6: TBD
+    - Week 7: TBD
+    - Week 8: TBD
+    - Week 9: TBD
+- Exam #3/Final Project:
+    - Week 10: TBD
+    - Week 11: TBD
+    - Week 12: TBD
+    - Week 13: TBD
+    - Week 14: TBD
+    
+### Homework Assignments
+
+Homework will be assigned weekly and should be submitted electronically via Canvas in the form of either a scanned hand-written document, a series of legible images of your hand-written responses, or a typed document. 
+
+- Homework #1: TBD
+    - Due date: Friday 1/14 at 11:59pm
+- Homework #2: TBD
+    - Due date: Friday 1/21 at 11:59pm
+    
+### Exam Dates and Information
+
+There will two exams throughout the semester on the following dates (announced at least 14 days in advance)
+
+- Exam #1 - date TBD
+    - Practice exam (will be posted 1 week prior to the exam)
+- Exam #2 - date TBD
+    
+You can expect each exam to take an entire 50-minute class session. Exams will be closed notes but a formula sheet will be provided.
+
+### Projects and Information
+
+- A description and rubric for the Midterm Project will be posted here. The focus of this project is on data collection, summarization, and presentation.   
+- A description and rubric for the Final Project will be posted here.  The focus of this project is on statistical analysis and the reporting of statistical results.
+
+### Datasets
+
+Dataset links and descriptions will be added here as we use them throughout the semester.
+
+- [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
+    - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.

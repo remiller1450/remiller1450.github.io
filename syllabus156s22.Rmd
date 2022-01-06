@@ -1,0 +1,151 @@
+---
+title: "MATH 156: General Statistics (Spring 2022)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+## Course Information
+
+**Instructor**:
+
+- Ryan Miller, millerr33\@xavier.edu 
+
+**Class Meetings**: 
+
+- Location: Alter #309 - T/TH - 12:00 - 12:50 pm
+
+**Office Hours**
+
+Office hours will be held:
+
+- Monday 1:00-2:00pm
+- Wednesday 2:00-3:00pm
+- Friday 10:00-11:30am
+
+You can find me in Hinkle Hall #111 (down the hallway on your left after passing through the main lobby).
+
+You can also setup a meeting time via Zoom at https://xavier.zoom.us/my/ryanmiller33 (Zoom password is given on Canvas) during office hours or any other time I'm available during the week.
+
+## Course Description
+
+An introduction to the major concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
+
+### Text
+
+This course will follow the textbook listed below.  Homework problems will be assigned from the text, but readings from the will be optional (though strongly encouraged).
+
+- *Stats, data & models* 5th edition by DeVeaux, Vellemen, and Bock
+
+### Website
+
+- All course materials will be posted on the following webpage: https://remiller1450.github.io/m156s22.html
+    - Canvas will be used for assignments, grades, and announcements
+
+### Course Aims:
+
+This course intends to teach students to identify patterns in data using visualizations and statistical methods.  It will focus on building foundational understanding of fundamental statistical techniques, proper interpretation of results, and clear communication of these ideas in written and oral formats.
+
+### Learning Objectives:
+
+Specific learning outcomes, with respect to the core curriculum at Xavier, include:
+
+- (1a) Students recognize and cogently discuss significant questions in the humanities, arts, and
+the natural and social sciences
+- (2a) Students find, evaluate, and logically convey information and ideas in written and oral
+form
+- (2b) Students evaluate problems using quantitative methods and arguments
+
+### Software
+
+In the modern era, statisticians (along with most scientific professionals) rely upon software to carry out their day to day work. While this course is not intended to be focused on any particular software package, you can expect to use software programs like Microsoft Excel and various online web-applets to explore and analyze real data.
+
+## Grading
+
+**Homework** - 20%
+
+- Roughly 10 problem sets 
+
+Homework is assigned weekly (with some exceptions during exam weeks) and is to be submitted electronically via Canvas no later than 11:59pm on the specified due-date.
+
+**Labs** - 15%
+
+- Roughly 10 lab write-ups 
+
+Labs are collaborative activities intended to be completed during class in small groups.  We typically will discuss lab questions as a class before the write-up is due. Therefore, lab write-ups are meant to keep you accountable for the material covered during labs. So if your group puts forth an earnest effort you can expect a high score, even if you don't initially get every detail fully correct.
+
+Group members that are non-cooperate or do not adequately contribute their group's efforts may receive lower scores than the other group members.
+
+**Exams** - 30% (in total)
+
+- Exam 1 - 15% 
+    - Topics: probability and probability models
+- Exam 2 - 15%
+    - Topics: statistical inference (confidence intervals and hypothesis tests)
+
+All exams will be announced at least 14 calendar days in advance. Exams are closed-notes but formulas will be provided as necessary. You should bring a calculator to each exam.
+
+**Projects** - 35% (in total)
+
+- Midterm Project - 15%
+    - Focus: data collection and descriptive statistics
+- Final project - 20%
+    - Focus: comprehensive data analysis
+    
+The midterm project will be completed in randomly assigned groups of size 2-3 and you will begin working on it very early in the semester. The final project will be completed either independently or in a group of your choosing (max of 3 people, including yourself). Details and grading rubrics for each project will be provided later in the semester.
+
+### Overall Course Grades
+
+The following grade cutoffs will be used:
+
+- A [93,100]
+- A- [90, 93)
+- B+ [87, 90)
+- B [83, 87)
+- B- [80, 83)
+- C+ [77, 80)
+- C [73, 77)
+- C- [70, 73)
+- D+ [67, 70)
+- D [63, 67)
+- D- [60, 63)
+- F [0, 60)
+
+The course instructor reserves the right to adjust these thresholds *downward*, but *not upward* at the end of the semester.  
+
+## Policies
+
+In accordance with the values of Xavier University, students are expected to adhere to the following policies:
+
+### Attendance
+
+Students are expected to attend all scheduled lectures assigned to them.  The instructor reserves the right to lower final course grades in response to repeated, unexcused absences.  Good attendance means more than simply showing up to class, please practice proper etiquette including not being late, refraining from cell-phone use during class, respecting your classmates, and actively participating in class activities to your fullest capacity.
+
+### Attending the Class Virtually
+
+If personal circumstances prevent you from physically attending your in-person session, you may be able attend class via Zoom provided you communicate your situation in advance and receive instructor approval.  Please note, this class is not designed to be attended remotely.
+
+### Academic Honesty
+
+Students are expected to abide by the academic honesty code set forth by Xavier University.  Any suspected violations will be reported and investigated.
+
+In general, collaborate work on assignments (excluding exams) is encouraged in this course, but you are individually responsible for your submitted work.  Copying solutions word-for-word from a classmate or any source without full disclosure is considered cheating.  If you received substantial help, ideas, or inspiration from anywhere (classmates, online resources, etc.) I strongly encourage you to indicate this on your assignment (a simple statement like "I worked with Jack and Jill" is enough).
+
+### Late Assignments
+
+Late work may be accepted on a case-by-case basis up until the corresponding unit exam (see the course website for exam topics/dates). If approved, you must provide an email record of your late submission.  This can be an email saying you uploaded the assignment late on Canvas, or an email containing the assignment as an attachment. The purpose of this policy is to ensure all accepted late work is counted towards your grade and does not end up being lost or overlooked. I'm generally very willing to accept late work so long as it's still timely; however, late work will not accepted after the corresponding unit exam has passed unless you provide expressed written approval from a Xavier University administrator explaining your situation.
+
+### Campus Resources
+
+The Math Lab staffs tutors that are specifically intended to provide help 100-level mathematics courses, including this one.  Please visit the [Math Lab website](https://www.xavier.edu/mathematics-department/math-lab) for hours and additional information (such as when statistics tutors are available).
+
+The Student Support Center has a wide variety of available resources that are not specific to this course but may be beneficial to your overall academic successful.  For more information, visit the [Student Success Center website](https://www.xavier.edu/success/success-coaching/index).
+
+## Tips for Success
+
+1. The material we cover this semester is naturally cumulative and it will be difficult to progress through the later topics if you do not fully understand the earlier ones.  You should be proactive in asking questions, reviewing your notes, and doing the recommended readings - especially at the beginning of the semester.  I also encourage you to visit the Math Lab at least once prior to the first exam.
+2. Prepare for class and complete assignments while the material is fresh - avoid waiting until right before the due-date.  This will also enable you to ask good questions during class that will strengthen your understand.
+3. Try your best to be open-minded and think like a statistician while engaging with course material.  Nearly all of us have tendencies and biases that influence our thought process, but a statistician should analyze the data objectively without injecting their own subjective beliefs (unless prompted to do so).  Additionally, statisticians are not mathematicians, so don't sabotage yourself by thinking things like "I don't like math..." or "I've always been bad at math..."

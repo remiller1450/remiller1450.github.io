@@ -12,6 +12,9 @@ Below are links to my current and previous courses:
 
 **Xavier University Courses**:
 
+- Spring 2022
+    - [Math-146, Introductory Biostatistics](m146s22.html)
+    - [Math-156, General Statistics](m156s22.html)
 - Fall 2021
     - [Math-146, Introductory Biostatistics](m146f21.html)
     - [Math-256, Intro to Probability and Statistics](m256f21.html)
