@@ -31,7 +31,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 ### Lectures Slides
 
 - Exam #1 Topics:
-    - Univariate summaries
+    - [Univariate summaries](m146s22/univariate_summaries.pdf)
     - Bivariate summaries
     - Correlation and regression
     - Sampling from a population
