@@ -26,12 +26,12 @@ Please note that material will not be posted until we've reached that point in t
 
 For the first couple of weeks in the semester we'll begin each class by discussing a graph appearing in a media piece.  Below is a compendium of the different daily graphs we've discussed:
 
-- [Daily graph slidedeck](m146s22/daily_graph.pdf)
+- [Daily graph slidedeck](m156s22/daily_graph.pdf)
 
 ### Lectures Slides
 
 - Midterm Project Topics:
-    - Univariate summaries
+    - [Univariate summaries](m156s22/univariate.pdf)
     - Contingency Tables
     - Comparing Groups
     - Correlation and regression
