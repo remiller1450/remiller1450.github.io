@@ -62,11 +62,11 @@ Throughout the semester we will practice applying key concepts in applications i
 The readings listed below are *recommended* prior to attending class during the week indicated. It has been my observation that students who take time to read the textbook, in addition to the required coursework, have been the most successful.
 
 - Midterm Project
-    - Week 1: TBD
-    - Week 2: TBD
-    - Week 3: TBD
-    - Week 4: TBD
-    - Week 5: TBD
+    - Week 1: 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 2.4, 2.5
+    - Week 2: 3.1, 3.2, 3.3
+    - Week 3: 6.1, 6.2, 6.3, 7.1, 7.2, 7.3, 7.4
+    - Week 4: 10.1, 10.2, 10.3, 10.5, 10.7
+    - Week 5: 11.1, 11.2, 11.3, 11.4, 11.6
 - Exam #2:
     - Week 6: TBD
     - Week 7: TBD
