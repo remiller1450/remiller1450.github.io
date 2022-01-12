@@ -107,3 +107,5 @@ Dataset links and descriptions will be added here as we use them throughout the 
 
 - [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
     - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.
+- [Tips](https://remiller1450.github.io/data/Tips.csv)
+    - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker. The data were originally obtained from the textbook: Interactive and Dynamic Graphics for Data Analysis: With R
