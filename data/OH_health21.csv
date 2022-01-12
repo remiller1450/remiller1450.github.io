@@ -1,4 +1,4 @@
-County,LifeExpectancy,AgeAdjustedDeathRate,PercentExcessDrinking,PercentInactive,PercentSmokers,WaterViolation,AirPPM,PercentDiabetes,PercentFoodDesert,PercentLongCommute,PercentInsufficientSleep,PercentUninsured,HighSchoolGradRate,HouseholdIncome,JuvenileArrestRate,BroadbandAccess,PercentUnder18,PercentOver65,PercentWhite,PercentRural,
+County,LifeExpectancy,AgeAdjustedDeathRate,PercentExcessDrinking,PercentInactive,PercentSmokers,WaterViolation,AirPPM,PercentDiabetes,PercentFoodDesert,PercentLongCommute,PercentInsufficientSleep,PercentUninsured,HighSchoolGradRate,HouseholdIncome,JuvenileArrestRate,BroadbandAccess,PercentUnder18,PercentOver65,PercentWhite,PercentRural,InMetro
 Adams,73.6,559,16,38,30,No,8.7,17,4,48,44,11,86,43145,16,64,23.8,18.5,96.2,89.0,0
 Allen,76.9,407,17,27,24,No,8.0,13,5,20,42,8,82,58271,22,81,23.0,18.1,80.6,25.9,1
 Ashland,77.9,368,18,31,24,No,8.9,13,1,31,39,10,88,52554,38,79,22.3,19.1,95.5,61.9,0
