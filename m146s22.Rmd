@@ -32,7 +32,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 
 - Exam #1 Topics:
     - [Univariate summaries](m146s22/univariate_summaries.pdf)
-    - Bivariate summaries
+    - [Bivariate summaries](m146s22/bivariate_summaries.pdf)
     - Correlation and regression
     - Sampling from a population
     - Standard errors and confidence intervals
@@ -100,7 +100,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #1: 1.15, 1.16, 1.22, 2.18, 2.78, 2.79, 2.80, 2.123, 2.126
     - Due date: Friday 1/14 at 11:59pm
 - Homework #2: TBD
-    - Due date: Friday 1/21 at 11:59pm
+    - Due date: Friday 1/28 at 11:59pm
     
 ### Exam Dates and Information
 

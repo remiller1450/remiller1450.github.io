@@ -32,7 +32,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 
 - Midterm Project Topics:
     - [Univariate summaries](m156s22/univariate.pdf)
-    - Contingency Tables
+    - [Contingency Tables](m156s22/cont_tabs.pdf)
     - Comparing Groups
     - Correlation and regression
     - Study design and confounding variables 
