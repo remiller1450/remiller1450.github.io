@@ -98,8 +98,12 @@ You can expect each exam to take an entire 50-minute class session. Exams will b
 
 ### Projects and Information
 
-- A description and rubric for the Midterm Project will be posted here. The focus of this project is on data collection, summarization, and presentation.   
-- A description and rubric for the Final Project will be posted here.  The focus of this project is on statistical analysis and the reporting of statistical results.
+- Midterm Project
+    - [Description](m156s22/midterm_project.html)
+    - [Rubric](m156s22/m156_midterm_rubric.html)
+    - The next Midterm Project deadline is 11:59pm on Monday, Jan 24th - you must form your group (or acknowledge you'd like to be randomly assigned) by this deadline
+- Final Project
+    - Information TBD
 
 ### Datasets
 
