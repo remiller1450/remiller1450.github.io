@@ -33,7 +33,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 - Midterm Project Topics:
     - [Univariate summaries](m156s22/univariate.pdf)
     - [Contingency Tables](m156s22/cont_tabs.pdf)
-    - Comparing Groups
+    - [Comparing Groups](m156s22/comparing_groups.pdf)
     - Correlation and regression
     - Study design and confounding variables 
     - Sampling from a population
@@ -52,9 +52,11 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Lab #1 - Summarizing Data
+- Lab #1 - Univariate Summaries and Group Comparisons
+    - Due date: Wednesday 1/25 (tentative)
+- Lab #2 - Multivariate Relationships and Confounding Variables
     - Due date: TBD
-- Lab #2 - Contingency Tables
+- Lab #3 - Study Design, Sampling, and Association
     - Due date: TBD
 
 ### Recommended Readings

@@ -52,8 +52,8 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Lab #1 - Summarizing and graphing data
-    - Due Date: TBD
+- Lab #1 - [Summarizing and graphing data](m146s22/Lab.html)
+    - Due Date: Monday 1/24 (tentative)
 - Lab #2 - Correlation and regression
     - Due Date: TBD
 - Lab #3 - Confidence intervals and bootstrapping
