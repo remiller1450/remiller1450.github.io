@@ -52,7 +52,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Lab #1 - [Summarizing and graphing data](m146s22/Lab.html)
+- Lab #1 - [Summarizing and graphing data](m146s22/Lab1.html)
     - Due Date: Monday 1/24 (tentative)
 - Lab #2 - Correlation and regression
     - Due Date: TBD
@@ -99,8 +99,9 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 
 - Homework #1: 1.15, 1.16, 1.22, 2.18, 2.78, 2.79, 2.80, 2.123, 2.126
     - Due date: Friday 1/14 at 11:59pm
-- Homework #2: TBD
+- Homework #2: [Click here for questions](m146f21/HW2.html)
     - Due date: Friday 1/28 at 11:59pm
+    - Note: you are expected to use [StatKey](https://www.lock5stat.com/StatKey/) on this assignment
     
 ### Exam Dates and Information
 
