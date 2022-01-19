@@ -53,7 +53,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
 - Lab #1 - [Summarizing and graphing data](m146s22/Lab1.html)
-    - Due Date: Monday 1/24 (tentative)
+    - Due Date: Friday 1/21 (tentative)
 - Lab #2 - Correlation and regression
     - Due Date: TBD
 - Lab #3 - Confidence intervals and bootstrapping
@@ -77,7 +77,7 @@ The readings listed below are *recommended* prior to attending class during the 
 
 - Exam #1:
     - Week 1: 1.1, 2.1, 2.2, 2.3, 2.4
-    - Week 2: TBD
+    - Week 2: 2.5, 2.6
     - Week 3: TBD
     - Week 4: TBD
     - Week 5: TBD
@@ -124,3 +124,7 @@ Dataset links and descriptions will be added here as we use them throughout the 
 
 - [Happy Planet](https://remiller1450.github.io/data/HappyPlanet.csv)
     - This dataset was assembled by [The Happy Planet Index](http://happyplanetindex.org/) using data from a global survey that asks respondents questions about how they feel their lives are going. It documents the health and well-being of the inhabitants of various nations around the world.
+- [Breast Cancer](https://remiller1450.github.io/data/Breast_Cancer_Data.csv)
+    - These data document the survival times women who died of breast from their diagnoses. They are a subset of a broader dataset that included survivors.  In addition to survival time, the data also include tumor measurements, grades, and other clinical covariates that might be predictive of survival.
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019_Complete.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
