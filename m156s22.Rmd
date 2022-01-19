@@ -102,7 +102,7 @@ You can expect each exam to take an entire 50-minute class session. Exams will b
 
 - Midterm Project
     - [Description](m156s22/midterm_project.html)
-    - [Rubric](m156s22/m156_midterm_rubric.html)
+    - [Rubric](m156s22/m156_midterm_rubric.pdf)
     - The next Midterm Project deadline is 11:59pm on Monday, Jan 24th - you must form your group (or acknowledge you'd like to be randomly assigned) by this deadline
 - Final Project
     - Information TBD
