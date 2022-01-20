@@ -34,7 +34,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Univariate summaries](m156s22/univariate.pdf)
     - [Contingency Tables](m156s22/cont_tabs.pdf)
     - [Comparing Groups](m156s22/comparing_groups.pdf)
-    - Correlation and regression
+    - [Correlation and regression](m156s22/cor_reg.pdf)
     - Study design and confounding variables 
     - Sampling from a population
 - Exam #1 Topics:
@@ -52,7 +52,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
-- Lab #1 - Univariate Summaries and Group Comparisons
+- Lab #1 - [Univariate and Bivariate Summaries](m156s22/Lab1.html)
     - Due date: Wednesday 1/25 (tentative)
 - Lab #2 - Multivariate Relationships and Confounding Variables
     - Due date: TBD
@@ -87,6 +87,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 
 - Homework #1: 1.9, 1.10, 1.11, 2.12, 2.16, 2.18, 2.60, 2.62, 3.1, 3.2, 3.5, 3.6
     - Due date: Friday 1/21 at 11:59pm
+- Homework #2: TBD
+    - Due date: TBD
     
 ### Exam Dates and Information
 
@@ -117,3 +119,7 @@ Dataset links and descriptions will be added here as we use them throughout the 
     - These data were recorded by a waiter in national chain restaurant located in a suburban shopping mall in the early 1990s. The data document various aspects of each table served by the waiter, including the total bill, tip, size of the party, time of day, day of the week, and whether the party included a smoker. The data were originally obtained from the textbook: Interactive and Dynamic Graphics for Data Analysis: With R
 - [Titanic](https://remiller1450.github.io/data/titanic.csv)
     - These data record the survival status and demographics of every passenger on the Titanic cruise ship.  The data were first compiled by the British Board of Trade in 1990.
+- [Colleges 2019](https://remiller1450.github.io/data/Colleges2019.csv)
+    - This dataset contains select variables describing higher education institutions that primarily bachelors degrees. It was obtained from the College Scorecard, a comprehensive government database.  For each institution, it includes enrollment and admissions variables, student demographics, costs and faculty salaries, as well as student outcomes such as median debt upon graduation and median 10-year salary.
+- [Police Killings 2019](https://remiller1450.github.io/data/Police2019.csv) 
+    - These data were compiled by the Washington Post to document all fatal shootings by a US police officer in the line of duty during the year 2019.  Please visit the Washington Post's github repository to read more about the variables that these data contain and the methodology that was used: https://github.com/washingtonpost/data-police-shootings 
