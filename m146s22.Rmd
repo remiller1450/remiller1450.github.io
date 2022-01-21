@@ -33,7 +33,8 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 - Exam #1 Topics:
     - [Univariate summaries](m146s22/univariate_summaries.pdf)
     - [Bivariate summaries](m146s22/bivariate_summaries.pdf)
-    - Correlation and regression
+    - [Correlation](m146s22/corr.pdf)
+    - Regression
     - Sampling from a population
     - Standard errors and confidence intervals
     - Study design and confounding variables 
