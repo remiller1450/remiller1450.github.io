@@ -34,7 +34,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Univariate summaries](m146s22/univariate_summaries.pdf)
     - [Bivariate summaries](m146s22/bivariate_summaries.pdf)
     - [Correlation](m146s22/corr.pdf)
-    - Regression
+    - [Regression](m146s22/reg.pdf)
     - Sampling from a population
     - Standard errors and confidence intervals
     - Study design and confounding variables 
@@ -54,9 +54,9 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
 
 - Lab #1 - [Summarizing and graphing data](m146s22/Lab1.html)
-    - Due Date: Friday 1/21 (tentative)
+    - Due Date: Monday 1/24
 - Lab #2 - Correlation and regression
-    - Due Date: TBD
+    - Due Date: Monday 1/31
 - Lab #3 - Confidence intervals and bootstrapping
     - Due Date: TBD
 - Lab #4 - Confounding variables
