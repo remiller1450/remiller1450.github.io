@@ -35,7 +35,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Bivariate summaries](m146s22/bivariate_summaries.pdf)
     - [Correlation](m146s22/corr.pdf)
     - [Regression](m146s22/reg.pdf)
-    - Sampling from a population
+    - [Sampling from a population](m146s22/sampling.pdf)
     - Standard errors and confidence intervals
     - Study design and confounding variables 
 - Exam #2 Topics:
@@ -79,7 +79,7 @@ The readings listed below are *recommended* prior to attending class during the 
 - Exam #1:
     - Week 1: 1.1, 2.1, 2.2, 2.3, 2.4
     - Week 2: 2.5, 2.6
-    - Week 3: TBD
+    - Week 3: 1.2
     - Week 4: TBD
     - Week 5: TBD
 - Exam #2:
