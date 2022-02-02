@@ -103,7 +103,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #2: [Click here for questions](m146f21/HW2.html)
     - Due date: Friday 1/28 at 11:59pm
     - Note: you are expected to use [StatKey](https://www.lock5stat.com/StatKey/) on this assignment
-- Homework #3: 1.61, 1.65, 3.25, 3.28, 3.32, 3.101, 3.102, 3.13
+- Homework #3: 1.61, 1.65, 3.25, 3.28, 3.32, 3.101, 3.102, 3.130
     - Due date: Friday 2/4 at 11:59pm
     
 ### Exam Dates and Information

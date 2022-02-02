@@ -54,8 +54,8 @@ Throughout the semester we will practice applying key concepts in applications i
 
 - Lab #1 - [Univariate and Bivariate Summaries](m156s22/Lab1.html)
     - Due date: Wednesday 1/25 (tentative)
-- Lab #2 - Multivariate Relationships and Confounding Variables
-    - Due date: TBD
+- Lab #2 - [Multivariate Relationships and Confounding Variables](m156s22/Lab2.html)
+    - Due date: Monday 2/7
 - Lab #3 - Study Design, Sampling, and Association
     - Due date: TBD
 
