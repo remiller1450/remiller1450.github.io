@@ -110,8 +110,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 
 There will three exams throughout the semester on the following dates (announced at least 14 days in advance)
 
-- Exam #1 - date TBD
-    - Practice exam (will be posted 1 week prior to the exam)
+- Exam #1 - Friday 2/18 during class
+    - [Practice Exam #1](m146s22/Practice_Exam1.pdf)
 - Exam #2 - date TBD
 - Exam #3 - date TBD
     
@@ -134,4 +134,4 @@ Dataset links and descriptions will be added here as we use them throughout the 
 - [Ohio Counties 2021](https://remiller1450.github.io/data/OH_health21.csv)
     - These data were obtained from the Ohio department of health. They document various health-related outcomes at the county level for the year 2021.  Additional information and a download link for the full datafile can be found here: https://www.countyhealthrankings.org/app/ohio/2020/downloads
 - [Resting Metabolism](https://remiller1450.github.io/data/RMR.csv)
-    - These data contain the resting metabolic rates and body weights of 44 adult women. The dataset appears in the book "Practical Statistics for Medical Research".
+    - These data contain the resting metabolic rates and body weights of 44 adult women. The dataset appears in the textbook "Practical Statistics for Medical Research".
