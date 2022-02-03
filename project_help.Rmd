@@ -1,0 +1,38 @@
+---
+title: "Data Sources for Class Projects"
+author: "Ryan Miller"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This page is intended to help students locate suitable datasets for class projects. Generally speaking, a suitable dataset is one that is reliably sourced and documented, and minimally pre-processed/edited.  Datasets that are artificially created (ie: from textbooks), minimally documented or questionably sourced (ie: Kaggle.com or data.world), or overly edited/pre-formatted (ie: textbooks, certain machine learning repositories, R packages, etc.)
+
+### Government databases
+
+- [Data.gov](https://catalog.data.gov/dataset)
+    - Searchable catalog of datasets collected by US government agencies
+- [Ohio Department of Health](https://odh.ohio.gov/home/data)
+    - Note that many other departments (and different states) have similar data repositories
+
+### Sports databases
+
+- [Sports Reference](https://www.sports-reference.com/)
+    - Wealth of data across multiple spots. Team-level and individual player-level data are available.
+
+### Github repositories from reputable news sources
+
+The following are github repositories that contain datasets (and other materials) used in data-heavy articles that appear in major news publications:
+
+- [Washington Post](https://github.com/orgs/washingtonpost/repositories)
+- [FiveThirtyEight](https://github.com/fivethirtyeight/data)
+- [NY Times](https://github.com/orgs/nytimes/repositories)
+
+### Economics and non-profits
+
+- [World Bank Open Data](https://datacatalog.worldbank.org/home)
+    - Open-access data for a wide range of topics spanning economics, public health, and sustainable development
+- [Pew Research](https://www.pewresearch.org/fact-tank/2021/10/22/how-to-access-pew-research-center-survey-data/)
+   - Note: obtaining Pew Research data is fairly time-intensive
