@@ -36,7 +36,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Comparing Groups](m156s22/comparing_groups.pdf)
     - [Correlation and regression](m156s22/cor_reg.pdf)
     - [Sampling from a population](m156s22/sampling.pdf)
-    - Study design and confounding variables 
+    - [Study design and confounding variables](m156s22/multivar.pdf)
 - Exam #1 Topics:
     - Introduction to probability
     - Discrete random variables
@@ -107,7 +107,7 @@ You can expect each exam to take an entire 50-minute class session. Exams will b
 - Midterm Project
     - [Description](m156s22/midterm_project.html)
     - [Rubric](m156s22/m156_midterm_rubric.pdf)
-    - The next Midterm Project deadline is 11:59pm on Friday, Feb 4th - you must submit a project proposal by this date
+    - Presentations will take place on Monday 2/14 and Wednesday 2/16, please indicate whether your group has a preference
 - Final Project
     - Information TBD
 
