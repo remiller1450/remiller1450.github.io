@@ -37,7 +37,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Regression](m146s22/reg.pdf)
     - [Sampling from a population](m146s22/sampling.pdf)
     - [Standard errors, confidence intervals, and bootstrapping](m146s22/std_err.pdf)
-    - Standard errors and Central Limit theorem
+    - [Central Limit theorem](m146s22/clt.pdf)
     - Study design and confounding variables 
 - Exam #2 Topics:
     - The scientific method
