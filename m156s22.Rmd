@@ -107,6 +107,7 @@ You can expect each exam to take an entire 50-minute class session. Exams will b
 - Midterm Project
     - [Description](m156s22/midterm_project.html)
     - [Rubric](m156s22/m156_midterm_rubric.pdf)
+    - [Example](m156s22/example_midterm.pdf)
     - Presentations will take place on Monday 2/14 and Wednesday 2/16, please indicate whether your group has a preference
 - Final Project
     - Information TBD
