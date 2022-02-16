@@ -116,6 +116,7 @@ There will three exams throughout the semester on the following dates (announced
 - Exam #1 - Friday 2/18 during class
     - [Practice Exam #1](m146s22/Practice_Exam1.pdf)
     - [Practice Exam Sketch Solution](m146s22/Practice_Exam1_soln.pdf)
+    - [Review slides](m146s22/ex1_rev.pdf)
 - Exam #2 - date TBD
 - Exam #3 - date TBD
     
