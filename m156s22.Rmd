@@ -38,7 +38,8 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Sampling from a population](m156s22/sampling.pdf)
     - [Study design and confounding variables](m156s22/multivar.pdf)
 - Exam #1 Topics:
-    - Introduction to probability
+    - [Introduction to probability (part 1)](m156s22/prob1.pdf)
+    - Introduction to probability (part 2)
     - Discrete random variables
     - Continuous random variables and Normal models
     - Confidence interval estimation
@@ -56,7 +57,9 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Wednesday 1/25 (tentative)
 - Lab #2 - [Multivariate Relationships and Confounding Variables](m156s22/Lab2.html)
     - Due date: Monday 2/7
-- Lab #3 - Study Design, Sampling, and Association
+- Lab #3 - Probability Practice
+    - Due date: TBD
+- Lab #4 - Applying Probability Models
     - Due date: TBD
 
 ### Recommended Readings
@@ -70,10 +73,10 @@ The readings listed below are *recommended* prior to attending class during the 
     - Week 4: 10.1, 10.2, 10.3, 10.5, 10.7
     - Week 5: 11.1, 11.2, 11.3, 11.4, 11.6
 - Exam #2:
-    - Week 6: TBD
-    - Week 7: TBD
-    - Week 8: TBD
-    - Week 9: TBD
+    - Week 6: 12.1, 12.2, 12.3, 13.1, 13.2, 13.3, 13.4
+    - Week 7: 14.1, 14.2, 14.4, 5.3, 5.4 
+    - Week 8: 16.1, 16.2, 16.3, 16.4, 16.5
+    - Week 9: 17.1, 17.2, 17.3, 17.5
 - Exam #3/Final Project:
     - Week 10: TBD
     - Week 11: TBD
@@ -91,6 +94,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: Friday 1/28 at 11:59pm
 - Homework #3: 10.3, 10.5, 10.6, 10.13, 10.28, 11.1, 11.2, 11.4, 11.8, 11.10
     - Due date: Friday 2/11 at 11:59pm
+- Homework #4: 13.2, 13.3, 13.4, 13.6, 13.15, 13.16, 13.19, 13.20, 13.26
+    - Due date: Friday 2/25 at 11:59pm
     
 ### Exam Dates and Information
 
