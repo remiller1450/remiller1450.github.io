@@ -39,7 +39,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Study design and confounding variables](m156s22/multivar.pdf)
 - Exam #1 Topics:
     - [Introduction to probability (part 1)](m156s22/prob1.pdf)
-    - Introduction to probability (part 2)
+    - [Introduction to probability (part 2)](m156s22/prob2.pdf)
     - Discrete random variables
     - Continuous random variables and Normal models
     - Confidence interval estimation
