@@ -38,8 +38,8 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Sampling from a population](m146s22/sampling.pdf)
     - [Standard errors, confidence intervals, and bootstrapping](m146s22/std_err.pdf)
     - [Central Limit theorem](m146s22/clt.pdf)
-    - Study design and confounding variables 
 - Exam #2 Topics:
+    - [Study design and confounding variables](m146s22/design.pdf)
     - The scientific method
     - Hypothesis testing (concepts)
     - One-sample testing procedures
@@ -108,6 +108,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: Friday 2/4 at 11:59pm
 - Homework #4: 6.21, 6.22, 6.103, 6.104, 6.155, 6.156, 6.212
     - Due date: *Wednesday* 2/16 at 11:59pm
+- Homework #5: 1.96, 1.97, 1.98, 1.99, 1.104, 1.114, 1.117, 1.120, 1.121
+    - Due date: Friday 2/25 at 11:59pm
 
 ### Exam Dates and Information
 
@@ -140,3 +142,7 @@ Dataset links and descriptions will be added here as we use them throughout the 
     - These data were obtained from the Ohio department of health. They document various health-related outcomes at the county level for the year 2021.  Additional information and a download link for the full datafile can be found here: https://www.countyhealthrankings.org/app/ohio/2020/downloads
 - [Resting Metabolism](https://remiller1450.github.io/data/RMR.csv)
     - These data contain the resting metabolic rates and body weights of 44 adult women. The dataset appears in the textbook "Practical Statistics for Medical Research".
+- [Death Penalty Sentencing](https://remiller1450.github.io/data/DeathPenaltySentencing.csv)
+    - This dataset comes from a [widely cited study](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&context=journal_articles) on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony committed in the state of Florida between 1972 and 1977.  They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.
+    - [Here is a subset of cases where the victim was White](https://remiller1450.github.io/data/DeathPenaltyWhiteVic.csv)
+    - [Here is a subset of cases where the victim was Black](https://remiller1450.github.io/data/DeathPenaltyBlackVic.csv)
