@@ -58,19 +58,19 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 1/24
 - Lab #2 - [Correlation and regression](m146s22/Lab2.html)
     - Due Date: Monday 2/7
-- ~~Lab #3 - Confidence intervals and bootstrapping~~
+- ~~Lab - Confidence intervals and bootstrapping~~
     - ~~Due Date: TBD~~
-- Lab #4 - Confounding variables
+- [Lab #3 - Confounding variables](m146s22/Lab3.html)
+    - Due Date: Monday 2/28
+- Lab #4 - Hypothesis testing via randomization
     - Due Date: TBD
-- Lab #5 - Hypothesis testing via randomization
+- Lab #5 - Analysis of one-sample data
     - Due Date: TBD
-- Lab #6 - Analysis of one-sample data
+- Lab #6 - Analysis of two-sample data
     - Due Date: TBD
-- Lab #7 - Analysis of two-sample data
+- Lab #7 - Chi-squared tests
     - Due Date: TBD
-- Lab #8 - Chi-squared tests
-    - Due Date: TBD
-- Lab #9 - ANOVA
+- Lab #8 - ANOVA
     - Due Date: TBD
 
 ### Recommended Readings
