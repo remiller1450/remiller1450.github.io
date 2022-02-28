@@ -40,7 +40,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 - Exam #1 Topics:
     - [Introduction to probability (part 1)](m156s22/prob1.pdf)
     - [Introduction to probability (part 2)](m156s22/prob2.pdf)
-    - Discrete random variables
+    - [Discrete random variables](m156s22/prob3.pdf)
     - Continuous random variables and Normal models
     - Confidence interval estimation
 - Exam #2/Final Project Topics:
@@ -96,6 +96,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: Friday 2/11 at 11:59pm
 - Homework #4: 13.2, 13.3, 13.4, 13.6, 13.15, 13.16, 13.19, 13.20, 13.26
     - Due date: Friday 2/25 at 11:59pm
+- Homework #5: 5.2, 5.3, 5.13, 5.14, 14.10, 14.11, 14.12, 14.24
+    - Due date: Friday 3/4 at 11:59pm
     
 ### Exam Dates and Information
 
@@ -105,7 +107,7 @@ There will two exams throughout the semester on the following dates (announced a
     - Practice exam (will be posted 1 week prior to the exam)
 - Exam #2 - date TBD
     
-You can expect each exam to take an entire 50-minute class session. Exams will be closed notes but a formula sheet will be provided.
+You can expect each exam to take an entire 50-minute class session. Exam #1 will be closed notes, but a formula sheet will be provided. Exam #2 will be computerized and will require the use of StatKey to analyze data.
 
 ### Projects and Information
 
