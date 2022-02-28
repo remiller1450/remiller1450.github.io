@@ -1,0 +1,126 @@
+---
+title: "Math-146 - Final Project (Spring 2022)"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**Overview**:
+
+- You may choose to work on this project alone, or as a member of a group containing up to 3 people (including yourself)
+- If you choose to work alone, you can choose between two project options
+- If you choose to work with a group, you must work on a data analysis project
+   - Expectations regarding the depth and quality of your analysis will differ depending upon the size of your group (ie: less is expected from someone working alone than is expected from a group of three)
+- You must submit a 1-paragraph project proposal by *Monday March 14th* (on Canvas)
+   - Your proposal should include: who you're working with (if anyone), which option you choose (or if you're doing both), what your dataset and research question are (if you're doing Option #1) or the article you plan on critiquing (if you're doing Option #2).
+
+**Extra Credit Opportunity**:
+
+Regardless of the option you choose, you also have the option to also complete the other option (individually) to replace your lowest category score (homework, lab, exam 1, exam 2, or exam 3) from the semester.  For example, if you choose to work on the data analysis project with a group of 3 for your final, you can choose to also complete the article review project individually to replace your exam 2 score (or any of the other categories listed).
+
+$~$
+   
+### Project Option #1 - Data Analysis
+
+The premise of this project is apply the skills and knowledge you've gained throughout the semester to perform a thoughtful statistical analysis of real data.  The project deliverable will be a 2-3 page report (including primary figures and tables).  Additional figures/tables and references do not count towards the page limit of this report and be included in an appendix.
+
+#### Project Components
+
+Your final report is expected to contain five sections:
+
+1) An **introduction section** that describes context and purpose of your project
+2) A **research question** (within your introduction section) that is specific, answerable, and interesting (ie: "Are there regional differences in the net tuition costs of private colleges?")
+3) A **methods section** that describes the study design, data collection, and how you pursued your research question, such as: the types of graphs you used, how you addressed/explored possible confounding variables, the descriptive statistics you used, and the methods of statistical inference you used.
+4) A **results section** that reports on each of items that were mentioned in your methods section
+5) A **discussion section** that puts your results into context and acknowledges any limitations of your data and/or your analysis approach.
+
+Additionally, I will be looking for the following:
+
+- Are you writing to a general audience? (ie: someone who has a small amount of statistics knowledge, but is unfamiliar with this course and the datasets we've looked at)
+- Are you properly using the language of statisticians?
+- Are you appropriately using graphs and tables in the presentation of your analysis?
+
+#### Choosing a Dataset
+
+You have the opportunity to work with a dataset of your choosing.  Below are three different ways to approach this:
+
+1) Data you've encountered in another setting (ie: another class or a research experience)
+2) Data you that's publicly available online from a reputable source
+3) A pre-approved dataset provided by Prof. Miller
+
+Here are a few high quality public data sources:
+
+#### Government databases
+
+- [Data.gov](https://catalog.data.gov/dataset)
+    - Searchable catalog of datasets collected by US government agencies
+- [Ohio Department of Health](https://odh.ohio.gov/home/data)
+    - Note that many other departments (and different states) have similar data repositories
+
+#### Sports databases
+
+- [Sports Reference](https://www.sports-reference.com/)
+    - Wealth of data across multiple spots. Team-level and individual player-level data are available.
+
+#### Github repositories from reputable news sources
+
+The following are github repositories that contain datasets (and other materials) used in data-heavy articles that appear in major news publications:
+
+- [Washington Post](https://github.com/orgs/washingtonpost/repositories)
+- [FiveThirtyEight](https://github.com/fivethirtyeight/data)
+- [NY Times](https://github.com/orgs/nytimes/repositories)
+
+#### Economics and non-profits
+
+- [World Bank Open Data](https://datacatalog.worldbank.org/home)
+    - Open-access data for a wide range of topics spanning economics, public health, and sustainable development
+- [Pew Research](https://www.pewresearch.org/fact-tank/2021/10/22/how-to-access-pew-research-center-survey-data/)
+   - Note: obtaining Pew Research data is fairly time-intensive
+
+Additionally, here are a few pre-approved datasets:
+
+- [County level cancer cases in Ohio](https://remiller1450.github.io/data/oh_cancer.csv)
+    - **Description**: The first 26 columns of the data document the total number of new cases of various different types of cancers in Ohio counties between 2015 and 2017.  The remaining columns provide demographic information for each county, such as its total population, population density, racial composition, educational attainment, poverty rates, and whether it belongs to a metropolitan area.
+- [Mass shootings in the United States](https://remiller1450.github.io/data/MassShootings.csv)
+    - **Description**: This dataset was assembled by Mother Jones, a liberal news organization, in response to the movie theater shooting in Aurora Colorado. It documents shootings in the United States where a lone gunman (with a few exceptions involving two shooters) killed at least four individuals (not including themselves) at a single location (with a few exceptions involving multiple locations within a short period). Variables include: demographic characteristics of the shooter, information on when/where the shooting occurred, information on the number of victims, and information about the mental health status of the shooter.
+- [Police involved deaths in 2015](https://remiller1450.github.io/data/PoliceKillings.csv)
+    - **Description**: These data originate from the FiveThirtyEight article [Where Police Have Killed Americans in 2015](https://fivethirtyeight.com/features/where-police-have-killed-americans-in-2015/). Documented is the demographic and geographic information on everyone killed by the police in the year 2015, including the person’s name, age, race, gender, cause of death, whether the person was armed. It was merged to include the poverty, unemployment, and college education rates of the census tract where the killing took place.
+- [Individual predictors of stroke](https://remiller1450.github.io/data/healthcare.csv)
+    - **Description**: A de-identified and publicly available healthcare dataset containing a random sample of insured individuals, some of whom have experienced a stroke. Variables include demographics, comorbidities, and whether or not the individual has experienced a stroke. 
+    
+If you choose to use a pre-approved dataset, you must perform an analysis that is substantially different from anything we've done in class as part of a lab or example.    
+    
+*Note*: Data found on Kaggle.com, or found in any textbook (including our own) are not allowed.
+
+$~$
+
+### Project Option #2 - Article Review 
+
+The premise of this project is to identify a scientific publication on a topic in the biological sciences and critically examine the methods and results that were used. The project deliverable will be a 1-3 page critique.
+
+#### Project Contents
+
+Your paper should contain the following sections:
+
+- **Introduction** - A one paragraph discussion introducing the general scientific topic of your study.  This should be written in a scientific tone and provide any background that's needed to understand the remainder of your critique.
+- **Data Collection** - At least two paragraphs describing the study design and data collection protocol used.  This section should *be written in your own words* and it should utilize terminology we've used in class such as observational vs. experimental, bias, blinding, placebo, etc.  You should avoid using overly technical terms and phrases from the original article that might be difficult for a non-expert to understand.
+- **Statistical Methods** - At least two paragraphs summarizing and critiquing the *descriptive methods* (ie: univariate and bivariate summaries, as well as graphs) and the *inferential methods* (ie: confidence intervals and hypothesis tests) used in the article.  You should go beyond merely stating the methods, instead you should explain with a reasonable level of detail how these methods work.  You do not need to comment on inferential methods that were not covered in class, but you should list them.  If the article you selected does not contain *any* inferential methods we've discussed you should find another one (even a single usage of any hypothesis test or other method we've covered this semester is sufficient).  You are encouraged to use screenshots or quotes from the article in this section to aid in your critique.
+- **Results** - At least two paragraphs summarizing the results of the *descriptive methods* and *inferential methods*.  You should utilize terminology we've used in class.  For example, you might address form, strength, and direction if reporting results shown in a scatterplot; or, you might comment on the null and alternative hypotheses, the p-value, and the effect size for a t-test.  You are encouraged to use screenshots or quotes from the article in this section to aid in your critique.
+- **Conclusion** - A one paragraph discussion of what conclusions you believe should be drawn from your article.  In your discussion you should comment on the strength of the study design, as well as the study's results.
+
+#### Finding an Article
+
+Free full-text articles can be found on PubMed: https://pubmed.ncbi.nlm.nih.gov/ 
+
+In order to satisfy the guidelines of this project:
+
+- You should choose a full-length article (not a letter, an encyclopedia entry, or an author's note)
+- Your article should be an original report of a single scientific study (not a systematic review, meta-analysis, or other review)
+
+If you are unsure whether an article is appropriate, feel free to email it to me for confirmation.
+
+*Note*: Scientific articles can be full of jargon and complicated methodology.  It's okay if you do not understand everything in your article. For this project, I'm interested in your ability to identify, understand, and critique the use of techniques we've covered in class (ie: graphs and descriptive statistics, confidence intervals, and hypothesis tests).
+
+
