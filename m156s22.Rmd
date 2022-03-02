@@ -41,7 +41,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Introduction to probability (part 1)](m156s22/prob1.pdf)
     - [Introduction to probability (part 2)](m156s22/prob2.pdf)
     - [Discrete random variables](m156s22/prob3.pdf)
-    - Continuous random variables and Normal models
+    - [Continuous random variables and Normal models](m156s22/normal.pdf)
     - Confidence interval estimation
 - Exam #2/Final Project Topics:
     - The scientific method
@@ -103,7 +103,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 
 There will two exams throughout the semester on the following dates (announced at least 14 days in advance)
 
-- Exam #1 - date TBD
+- Exam #1 - Tentatively scheduled for Friday 3/25 during class
     - Practice exam (will be posted 1 week prior to the exam)
 - Exam #2 - date TBD
     
