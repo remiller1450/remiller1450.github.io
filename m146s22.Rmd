@@ -41,7 +41,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 - Exam #2 Topics:
     - [Study design and confounding variables](m146s22/design.pdf)
     - [The scientific method](m146s22/scientific_method.pdf)
-    - Hypothesis testing (concepts)
+    - [Hypothesis testing (concepts)](m146s22/ht.pdf)
     - One-sample testing procedures
 - Exam #3 Topics:
     - Two-sample testing procedures
