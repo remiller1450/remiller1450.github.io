@@ -42,7 +42,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Introduction to probability (part 2)](m156s22/prob2.pdf)
     - [Discrete random variables](m156s22/prob3.pdf)
     - [Continuous random variables and Normal models](m156s22/normal.pdf)
-    - Confidence interval estimation
+    - [Confidence interval estimation](m156s22/conf_int.pdf)
 - Exam #2/Final Project Topics:
     - The scientific method
     - Hypothesis testing
@@ -61,6 +61,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Monday 2/28
 - Lab #4 - [Applying Probability Models](m156s22/Lab4.html)
     - Due date: Monday 3/14
+- Lab #5 - Confidence Intervals and Exam 1 Review
+    - Due date: Friday 3/28
 
 ### Recommended Readings
 
@@ -78,11 +80,11 @@ The readings listed below are *recommended* prior to attending class during the 
     - Week 8: 16.1, 16.2, 16.3, 16.4, 16.5
     - Week 9: 17.1, 17.2, 17.3, 17.5
 - Exam #3/Final Project:
-    - Week 10: TBD
-    - Week 11: TBD
-    - Week 12: TBD
-    - Week 13: TBD
-    - Week 14: TBD
+    - Week 10: 18.1, 18.2, 18.5, 18.6, 19.1, 19.2, 19.3, 19.4
+    - Week 11: 18.3
+    - Week 12: 20.1, 20.2, 20.3
+    - Week 13: 20.4, 20.5
+    - Week 14: 23.1, 23.3
     
 ### Homework Assignments
 
@@ -98,13 +100,16 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: Friday 2/25 at 11:59pm
 - Homework #5: 5.2, 5.3, 5.13, 5.14, 14.10, 14.11, 14.12, 14.24
     - Due date: Friday 3/4 at 11:59pm
+- Homework #6: 16.3, 16.4, 16.6, 16.15, 16.16, 16.28, 16.33, 16.34, 17.11, 17.14, 20.27, 20.28
+    - Due date: *Wednesday 3/23* at 11:59pm
+    
     
 ### Exam Dates and Information
 
 There will two exams throughout the semester on the following dates (announced at least 14 days in advance)
 
-- Exam #1 - Tentatively scheduled for Friday 3/25 during class
-    - Practice exam (will be posted 1 week prior to the exam)
+- Exam #1 - Scheduled for Friday 3/25 during class
+    - [Practice exam](m156s22/Practice_Exam1.pdf)
 - Exam #2 - date TBD
     
 You can expect each exam to take an entire 50-minute class session. Exam #1 will be closed notes, but a formula sheet will be provided. Exam #2 will be computerized and will require the use of StatKey to analyze data.

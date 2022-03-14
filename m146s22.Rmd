@@ -113,6 +113,10 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #6: 4.16, 4.18, 4.71, 4.75, 4.78, 4.172, 4.174
     - Due date: Friday 3/4 at 11:59pm
     - Note: some questions involve data from [this page](https://www.lock5stat.com/datapage3e.html)
+- Homework #7: 6.53, 6.56, 6.58, 6.60, 6.133, 6.136, 6.141, 6.142
+    - Due date: *Wednesday* 3/23 at 11:59pm
+    - Note: perform all hypothesis tests using a Z or T test (not a randomization test in StatKey)
+
 
 ### Exam Dates and Information
 
@@ -132,6 +136,7 @@ You can expect each exam to take an entire 50-minute class session.
 This class contains a final project that is due at the end of the semester (during final's week). Details can be found below:
 
 - [Final Project Information](m146s22/final_project.html)
+- Project proposals should be submitted via Canvas by Monday 3/21
 
 ### Datasets
 
