@@ -62,8 +62,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - ~~Due Date: TBD~~
 - [Lab #3 - Confounding variables](m146s22/Lab3.html)
     - Due Date: Monday 2/28
-- Lab #4 - Hypothesis testing via randomization
-    - Due Date: TBD
+- [Lab #4 - Hypothesis testing via randomization](m146s22/Lab4.html)
+    - Due Date: Friday 3/18
 - Lab #5 - Analysis of one-sample data
     - Due Date: TBD
 - Lab #6 - Analysis of two-sample data
@@ -126,7 +126,9 @@ There will three exams throughout the semester on the following dates (announced
     - [Practice Exam #1](m146s22/Practice_Exam1.pdf)
     - [Practice Exam Sketch Solution](m146s22/Practice_Exam1_soln.pdf)
     - [Review slides](m146s22/ex1_rev.pdf)
-- Exam #2 - date TBD
+- Exam #2 - tentatively scheduled for Friday 3/25 or Monday 3/28 during class
+    - This exam is computer-based, open notes, and requires the use of StatKey
+    - A practice exam is available under the "Quizzes" tab on Canvas
 - Exam #3 - date TBD
     
 You can expect each exam to take an entire 50-minute class session.
