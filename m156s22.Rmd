@@ -61,7 +61,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Monday 2/28
 - Lab #4 - [Applying Probability Models](m156s22/Lab4.html)
     - Due date: Monday 3/14
-- Lab #5 - Confidence Intervals and Exam 1 Review
+- Lab #5 - [Confidence Intervals](m156s22/Lab5.html)
     - Due date: Friday 3/28
 
 ### Recommended Readings
