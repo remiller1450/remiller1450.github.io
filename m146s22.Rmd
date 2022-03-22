@@ -64,8 +64,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 2/28
 - [Lab #4 - Hypothesis testing via randomization](m146s22/Lab4.html)
     - Due Date: Friday 3/18
-- Lab #5 - Analysis of one-sample data
-    - Due Date: TBD
+- [Lab #5 - Analysis of one-sample data](m146s22/Lab5.html)
+    - Due Date: Friday 3/25
 - Lab #6 - Analysis of two-sample data
     - Due Date: TBD
 - Lab #7 - Chi-squared tests
