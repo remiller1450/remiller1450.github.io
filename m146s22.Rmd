@@ -158,3 +158,5 @@ Dataset links and descriptions will be added here as we use them throughout the 
     - This dataset comes from a [widely cited study](https://chicagounbound.uchicago.edu/cgi/viewcontent.cgi?article=12039&context=journal_articles) on racially biased sentencing in the Florida court system during the 1970s. Researchers collected data on all murders that took place during a felony committed in the state of Florida between 1972 and 1977.  They record the race of the victim and the offender, as well as whether the offered was sentenced to the death penalty.
     - [Here is a subset of cases where the victim was White](https://remiller1450.github.io/data/DeathPenaltyWhiteVic.csv)
     - [Here is a subset of cases where the victim was Black](https://remiller1450.github.io/data/DeathPenaltyBlackVic.csv)
+- [Wetsuits](https://remiller1450.github.io/data/Wetsuits2.csv)  
+    - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were originally obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html).
