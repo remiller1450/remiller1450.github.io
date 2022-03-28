@@ -44,7 +44,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Continuous random variables and Normal models](m156s22/normal.pdf)
     - [Confidence interval estimation](m156s22/conf_int.pdf)
 - Exam #2/Final Project Topics:
-    - The scientific method
+    - [The scientific method](m156s22/scientific_method.pdf)
     - Hypothesis testing
     - Z-tests
     - T-tests
@@ -102,7 +102,8 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: Friday 3/4 at 11:59pm
 - Homework #6: 16.3, 16.4, 16.6, 16.15, 16.16, 16.28, 16.33, 16.34, 17.11, 17.14, 20.27, 20.28
     - Due date: *Wednesday 3/23* at 11:59pm
-    
+- Homework #7: Coming soon
+    - Due date: Friday 4/8 at 11:59pm
     
 ### Exam Dates and Information
 
@@ -123,7 +124,8 @@ You can expect each exam to take an entire 50-minute class session. Exam #1 will
     - [Example](m156s22/example_midterm.pdf)
     - Presentations will take place on Monday 2/14 and Wednesday 2/16, please indicate whether your group has a preference
 - Final Project
-    - Information TBD
+    - [Information]()
+    - The project report is due Monday, May 2 at 1:50pm, the assigned time of our final exam
 
 ### Datasets
 
