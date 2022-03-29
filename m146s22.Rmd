@@ -44,7 +44,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Hypothesis testing (concepts)](m146s22/ht.pdf)
     - [One-sample testing procedures](m146s22/one_sample.pdf)
 - Exam #3 Topics:
-    - Two-sample testing procedures
+    - [Two-sample testing procedures](m146s22/two_sample.pdf)
     - Chi-squared tests
     - Measuring association in contingency tables
     - Analysis of variance (ANOVA)
@@ -89,11 +89,11 @@ The readings listed below are *recommended* prior to attending class during the 
     - Week 8: 6.1-HT
     - Week 9: 6.2-HT
 - Exam #3:
-    - Week 10: TBD
-    - Week 11: TBD
-    - Week 12: TBD
-    - Week 13: TBD
-    - Week 14: TBD
+    - Week 10: 6.3-HT, 6.4-HT
+    - Week 11: 7.1, 7.2
+    - Week 12: none
+    - Week 13: 8.1, 8.2
+    - Week 14: none
     
 ### Homework Assignments
 
@@ -116,7 +116,11 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #7: 6.53, 6.56, 6.58, 6.60, 6.133, 6.136, 6.141, 6.142
     - Due date: Friday 3/25 at 11:59pm
     - Note: perform all hypothesis tests using a Z or T test (not a randomization test in StatKey)
-
+    - Note: some questions involve data from [this page](https://www.lock5stat.com/datapage3e.html)
+- Homework #8:  6.173, 6.174, 6.177, 6.182, 6.233, 6.242, 6.246, 6.252
+    - Due date: *Monday* 4/4 at 11:59pm
+    - Note: perform all hypothesis tests using a Z or T test (not a randomization test in StatKey)
+    - Note: some questions involve data from [this page](https://www.lock5stat.com/datapage3e.html)
 
 ### Exam Dates and Information
 

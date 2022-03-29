@@ -45,9 +45,9 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Confidence interval estimation](m156s22/conf_int.pdf)
 - Exam #2/Final Project Topics:
     - [The scientific method](m156s22/scientific_method.pdf)
-    - Hypothesis testing
-    - Z-tests
-    - T-tests
+    - [Hypothesis testing (concepts)](m156s22/ht.pdf)
+    - Z-tests and T-tests for one group
+    - Z-tests and T-tests for comparing groups
 
 ### In-class Labs
 
@@ -63,6 +63,12 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Monday 3/14
 - Lab #5 - [Confidence Intervals](m156s22/Lab5.html)
     - Due date: Friday 3/28
+- Lab #6 - Hypothesis Testing
+    - Due date: TBD
+- Lab #7 - One-sample Hypothesis Tests
+    - Due date: TBD
+- Lab #8 - Two-sample Hypothesis Tests
+    - Due date: TBD
 
 ### Recommended Readings
 
@@ -102,7 +108,7 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: Friday 3/4 at 11:59pm
 - Homework #6: 16.3, 16.4, 16.6, 16.15, 16.16, 16.28, 16.33, 16.34, 17.11, 17.14, 20.27, 20.28
     - Due date: *Wednesday 3/23* at 11:59pm
-- Homework #7: Coming soon
+- Homework #7: 18.1, 18.6, 18.9, 18.13, 18.14, 18.17, 18.18, 18.27, 18.28, 18.33, 18.34, 19.4, 19.5, 19.10
     - Due date: Friday 4/8 at 11:59pm
     
 ### Exam Dates and Information
@@ -112,7 +118,9 @@ There will two exams throughout the semester on the following dates (announced a
 - Exam #1 - Scheduled for Friday 3/25 during class
     - [Practice exam](m156s22/Practice_Exam1.pdf)
     - [Practice solution](m156s22/Practice_Exam1_soln.pdf)
-- Exam #2 - date TBD
+- Exam #2 - Will take place during the last week of classes (April 25 - 29)
+    - This exam will be computerized and will require the use of StatKey to perform hypothesis testing
+    - A practice exam will be made available as a Canvas quiz
     
 You can expect each exam to take an entire 50-minute class session. Exam #1 will be closed notes, but a formula sheet will be provided. Exam #2 will be computerized and will require the use of StatKey to analyze data.
 
@@ -124,8 +132,8 @@ You can expect each exam to take an entire 50-minute class session. Exam #1 will
     - [Example](m156s22/example_midterm.pdf)
     - Presentations will take place on Monday 2/14 and Wednesday 2/16, please indicate whether your group has a preference
 - Final Project
-    - [Information]()
-    - The project report is due Monday, May 2 at 1:50pm, the assigned time of our final exam
+    - [Information](m156s22/final.html)
+    - The project report is due Monday, May 2 at 2:00pm, the end of our assigned final exam timeslot
 
 ### Datasets
 
