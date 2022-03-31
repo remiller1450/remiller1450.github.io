@@ -66,8 +66,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Friday 3/18
 - [Lab #5 - Analysis of one-sample data](m146s22/Lab5.html)
     - Due Date: Friday 3/25
-- Lab #6 - Analysis of two-sample data
-    - Due Date: TBD
+- [Lab #6 - Analysis of two-sample data](m146s22/Lab6.html)
+    - Due Date: Monday 4/4
 - Lab #7 - Chi-squared tests
     - Due Date: TBD
 - Lab #8 - ANOVA
@@ -133,7 +133,8 @@ There will three exams throughout the semester on the following dates (announced
 - Exam #2 - Monday 3/28 during class
     - This exam is computer-based, open notes, and requires the use of StatKey
     - A practice exam (with solutions) is available under the "Quizzes" tab on Canvas
-- Exam #3 - date TBD
+- Exam #3 - planned for the last week of the semester (April 25 - 29), exact date is TBD
+    - This exam is computer-based, open notes, and requires the use of StatKey
     
 You can expect each exam to take an entire 50-minute class session.
 
