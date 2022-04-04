@@ -63,8 +63,8 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Monday 3/14
 - Lab #5 - [Confidence Intervals](m156s22/Lab5.html)
     - Due date: Friday 3/28
-- Lab #6 - Hypothesis Testing
-    - Due date: TBD
+- Lab #6 - [Hypothesis Testing](m156s22/Lab6.html)
+    - Due date: Wednesday 4/6
 - Lab #7 - One-sample Hypothesis Tests
     - Due date: TBD
 - Lab #8 - Two-sample Hypothesis Tests
