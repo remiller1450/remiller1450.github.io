@@ -45,7 +45,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [One-sample testing procedures](m146s22/one_sample.pdf)
 - Exam #3 Topics:
     - [Two-sample testing procedures](m146s22/two_sample.pdf)
-    - Chi-squared tests
+    - [Chi-squared tests](m146s22/chi_sq.pdf)
     - Measuring association in contingency tables
     - Analysis of variance (ANOVA)
     - Inference for correlation and regression
@@ -121,6 +121,9 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Due date: *Monday* 4/4 at 11:59pm
     - Note: perform all hypothesis tests using a Z or T test (not a randomization test in StatKey)
     - Note: some questions involve data from [this page](https://www.lock5stat.com/datapage3e.html)
+- Homework #9: 7.13, 7.16, 7.19, 7.22 7.45, 7.46, 7.51, 7.54, 7.57, 7.58
+    - Due date: *Friday* 4/15 at 11:59pm
+    - Note: some questions may involve data from [this page](https://www.lock5stat.com/datapage3e.html)
 
 ### Exam Dates and Information
 
