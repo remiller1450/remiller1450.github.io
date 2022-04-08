@@ -46,9 +46,8 @@ For the first couple of weeks in the semester we'll begin each class by discussi
 - Exam #3 Topics:
     - [Two-sample testing procedures](m146s22/two_sample.pdf)
     - [Chi-squared tests](m146s22/chi_sq.pdf)
-    - Measuring association in contingency tables
+    - [Measuring association in contingency tables](m146s22/odds.pdf)
     - Analysis of variance (ANOVA)
-    - Inference for correlation and regression
 
 ### In-class Labs
 
@@ -69,9 +68,9 @@ Throughout the semester we will practice applying key concepts in applications i
 - [Lab #6 - Analysis of two-sample data](m146s22/Lab6.html)
     - Due Date: Monday 4/4
 - Lab #7 - Chi-squared tests
-    - Due Date: TBD
+    - Due Date: Wednesday 4/13
 - Lab #8 - ANOVA
-    - Due Date: TBD
+    - Due Date: Wednesday 4/27
 
 ### Recommended Readings
 
@@ -122,8 +121,10 @@ Homework will be assigned weekly and should be submitted electronically via Canv
     - Note: perform all hypothesis tests using a Z or T test (not a randomization test in StatKey)
     - Note: some questions involve data from [this page](https://www.lock5stat.com/datapage3e.html)
 - Homework #9: 7.13, 7.16, 7.19, 7.22 7.45, 7.46, 7.51, 7.54, 7.57, 7.58
-    - Due date: *Friday* 4/15 at 11:59pm
+    - Due date: Friday 4/15 at 11:59pm
     - Note: some questions may involve data from [this page](https://www.lock5stat.com/datapage3e.html)
+- Homework #10: TBD
+    - Due date: *Wednesday* 4/27 at 11:59pm
 
 ### Exam Dates and Information
 
@@ -146,7 +147,8 @@ You can expect each exam to take an entire 50-minute class session.
 This class contains a final project that is due at the end of the semester (during final's week). Details can be found below:
 
 - [Final Project Information](m146s22/final_project.html)
-- Project proposals should be submitted via Canvas by Monday 3/21
+- Projects are due the day of your section's assigned final exam time slot
+    - For Math-146-01 this is Monday, May 2 and for Math-146-02 this is Wednesday May 4
 
 ### Datasets
 
