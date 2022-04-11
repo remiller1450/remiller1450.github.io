@@ -67,7 +67,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Friday 3/25
 - [Lab #6 - Analysis of two-sample data](m146s22/Lab6.html)
     - Due Date: Monday 4/4
-- Lab #7 - Chi-squared tests
+- [Lab #7 - Chi-squared tests](m146s22/Lab7.html)
     - Due Date: Wednesday 4/13
 - Lab #8 - ANOVA
     - Due Date: Wednesday 4/27
