@@ -47,7 +47,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [The scientific method](m156s22/scientific_method.pdf)
     - [Hypothesis testing (concepts)](m156s22/ht.pdf)
     - [Z-tests and T-tests for one group](m156s22/one_sample.pdf)
-    - Z-tests and T-tests for comparing groups
+    - [Z-tests and T-tests for comparing groups](m156s22/two_sample.pdf)
 
 ### In-class Labs
 
@@ -68,7 +68,7 @@ Throughout the semester we will practice applying key concepts in applications i
 - Lab #7 - [One-sample Hypothesis Tests](m156s22/Lab7.html)
     - Due date: Wednesday 4/20
 - Lab #8 - Two-sample Hypothesis Tests
-    - Due date: TBD
+    - Due date: Wednesday 4/27
 
 ### Recommended Readings
 
