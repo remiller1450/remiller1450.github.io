@@ -47,7 +47,7 @@ For the first couple of weeks in the semester we'll begin each class by discussi
     - [Two-sample testing procedures](m146s22/two_sample.pdf)
     - [Chi-squared tests](m146s22/chi_sq.pdf)
     - [Measuring association in contingency tables](m146s22/odds.pdf)
-    - Analysis of variance (ANOVA)
+    - [Analysis of variance (ANOVA)](m146s22/anova.pdf)
 
 ### In-class Labs
 
@@ -123,8 +123,9 @@ Homework will be assigned weekly and should be submitted electronically via Canv
 - Homework #9: 7.13, 7.16, 7.19, 7.22 7.45, 7.46, 7.51, 7.54, 7.57, 7.58
     - Due date: Friday 4/15 at 11:59pm
     - Note: some questions may involve data from [this page](https://www.lock5stat.com/datapage3e.html)
-- Homework #10: TBD
+- Homework #10: 8.15, 8.17, 8.18, 8.19, 8.39, 8.42
     - Due date: *Wednesday* 4/27 at 11:59pm
+    - Note: some questions may involve data from [this page](https://www.lock5stat.com/datapage3e.html)
 
 ### Exam Dates and Information
 
@@ -137,8 +138,9 @@ There will three exams throughout the semester on the following dates (announced
 - Exam #2 - Monday 3/28 during class
     - This exam is computer-based, open notes, and requires the use of StatKey
     - A practice exam (with solutions) is available under the "Quizzes" tab on Canvas
-- Exam #3 - planned for the last week of the semester (April 25 - 29), exact date is TBD
+- Exam #3 - Friday 4/29 (open from 7am to 4pm)
     - This exam is computer-based, open notes, and requires the use of StatKey
+    - A practice exam (with solutions) is available under the "Quizzes" tab on Canvas
     
 You can expect each exam to take an entire 50-minute class session.
 
@@ -147,8 +149,9 @@ You can expect each exam to take an entire 50-minute class session.
 This class contains a final project that is due at the end of the semester (during final's week). Details can be found below:
 
 - [Final Project Information](m146s22/final_project.html)
-- Projects are due the day of your section's assigned final exam time slot
-    - For Math-146-01 this is Monday, May 2 and for Math-146-02 this is Wednesday May 4
+- Projects are due by the end of the day on your section's assigned final exam time slot:
+    - Monday, May 2 for Math-146-01
+    - Wednesday, May 4 for Math-146-02
 
 ### Datasets
 
