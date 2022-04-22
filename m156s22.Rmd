@@ -153,4 +153,6 @@ Dataset links and descriptions will be added here as we use them throughout the 
 - [Police Killings 2019](https://remiller1450.github.io/data/Police2019.csv) 
     - These data were compiled by the Washington Post to document all fatal shootings by a US police officer in the line of duty during the year 2019.  Please visit the Washington Post's github repository to read more about the variables that these data contain and the methodology that was used: https://github.com/washingtonpost/data-police-shootings 
 - [Wetsuits](https://remiller1450.github.io/data/Wetsuits2.csv)  
-    - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were originally obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html). 
+    - This dataset contains 1500m swim velocities for 12 competitive swimmers when wearing a specially designed wetsuit and without the wetsuit. These data were originally obtained from the [Lock5stat data page](http://www.lock5stat.com/datapage.html).
+- [Lead IQ](https://remiller1450.github.io/data/LeadIQ.csv)    
+    - CDC researchers collected data in El Paso Texas from samples of children aged 3-15 living near (within 1 mile) and far (more than 1 mile away) from a local lead smelter.  This dataset documents the dependent variable, age-adjusted IQ score, for a subset of those children.  These data were obtained from the textbook: *Fundamentals of Biostatistics* by B. Rosner.
