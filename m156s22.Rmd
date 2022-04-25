@@ -67,7 +67,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due date: Wednesday 4/6
 - Lab #7 - [One-sample Hypothesis Tests](m156s22/Lab7.html)
     - Due date: Wednesday 4/20
-- Lab #8 - Two-sample Hypothesis Tests
+- Lab #8 - [Two-sample Hypothesis Tests](m156s22/Lab8.html)
     - Due date: Wednesday 4/27
 
 ### Recommended Readings
