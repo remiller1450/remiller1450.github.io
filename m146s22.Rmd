@@ -69,7 +69,7 @@ Throughout the semester we will practice applying key concepts in applications i
     - Due Date: Monday 4/4
 - [Lab #7 - Chi-squared tests](m146s22/Lab7.html)
     - Due Date: Wednesday 4/13
-- Lab #8 - ANOVA
+- [Lab #8 - ANOVA](m146s22/Lab8.html)
     - Due Date: Wednesday 4/27
 
 ### Recommended Readings
