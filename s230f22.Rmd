@@ -1,0 +1,114 @@
+---
+title: "STA-230 - Introduction to Data Science (Fall 2022)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+### Syllabus
+
+Welcome to the course website for Sta-230, Introduction to Data Science. To begin, you can find the course syllabus linked below:
+
+- [Click here](syllabus230f22.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper left.  
+
+Please note: material will not be posted until we've reached that point in the course.
+
+### Labs
+
+Sta-230 uses a *workshop style* class format. This means that the majority of our class time will be devoted towards collaboratively working through guided lab activities. You should consult the syllabus for a more detailed description of the procedures related to labs.
+
+
+Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
+
+**Lab Topics and Links**:
+
+- Introduction to `R`
+    - Lab #1 (8/26) - Intro to R (part 1)
+    - Lab #2 (8/29) - Intro to R (part 2)
+    - <span style="color: red;"> Labs 1 and 2 are due Wednesday 8/31 by 11:59pm \span
+- Basic data visualizations
+    - Lab #3 (8/31) - Intro to `ggplot2`
+    - Lab #4 (9/1) - Data Visualization Principles
+    - Labs 3 and 4 are due Monday 9/5 by 11:59pm
+- Data manipulation
+    - Lab #5 (9/5) - Reshaping data with `tidyr`
+    - Lab #6 (9/7) - Wrangling data with `dplyr`
+    - Lab #7 (9/9) - Merging and joining
+    - Labs 5, 6, and 7 are due Monday 9/12 by 11:59pm
+- Working with strings
+    - Lab #8 (9/12) - String processing with `stringr`
+    - Lab 8 is due Wednesday 9/15 by 11:59 pm
+- Interactive data visualizations
+    - Lab #9 (9/19) - Intro to `plotly`
+    - Lab #10 (9/21) - Making maps with `leaflet` (part 1)
+    - Lab #11 (9/23) - Making maps with `leaflet` (part 2)
+    - Labs 9, 10 and 11 are due Monday 9/26
+
+### Recommended Readings
+
+The readings listed below are *recommended* prior to attending class during the week indicated. While not required, it is my observation that students who seek to learn the course content from a variety of perspectives are most successful.
+
+- Week of 8/29 - 9/2 
+    - [Ch 2.1, 2.2, 2.3, 2.4 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizI.html)
+    - [Ch 7 - R for Data Science](https://r4ds.had.co.nz/exploratory-data-analysis.html)
+- Week of 9/5 - 9/9
+    - [Ch 4 and Ch 6 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
+    - [Ch 12 - R for Data Science](https://r4ds.had.co.nz/tidy-data.html)
+- Week of 9/12 - 9/16
+    - [Ch 6 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
+    - [Ch 4 - R for Data Science](https://r4ds.had.co.nz/strings.html)
+- Week of 9/19 - 9/23
+    - [Ch 17.1 and 17.2 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
+    - [Ch 2.1 - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
+- Week of 9/26 - 9/30
+    - [Ch 14.4 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
+    - [Ch 17 - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/linking-views-with-shiny.html)
+
+### Homework Assignments
+
+Throughout the semester there will be 6-7 homework assignments throughout the semester:
+
+- Homework #1
+    - Topics: Intro R, `ggplot2`, data visualization
+    - <span style="color: red;"> Due date: Monday 9/5 at 11:59pm \span
+- Homework #2
+    - Topics: Reshaping, wrangling, merging and joining, string processing
+    - Due date: Wednesday 9/15 at 11:59pm
+- Homework #3
+    - Topics: `plotly`, `leaflet`
+    - Due date: TBD
+- Homework #4
+    - Topics: Dimension reduction and multivariate analysis
+    - Due date: TBD
+- Homework #5
+    - Topics: Clustering 
+- Homework #6
+    - Topics: Modeling foundations, regression, k-nearest neighbors
+- Homework #7
+    - Topics: Modeling categorical outcomes, tree-based models
+
+    
+### Projects
+
+There will be 3 projects throughout the semester. Tentative dates for these projects can be found below:
+
+- [Project #1 - Data Visualization](s230f22/project1.html)
+    - Wednesday 9/14 - work session and meetings
+    - Friday 9/16 - post final product on P-web
+- Project #2 - R Shiny Dashboards
+    - Information coming soon
+- Project #3 - Model-based Data Analysis
+    - Information coming soon
+
+*Please note*: these projects do not contribute equally to your final grade. Project #1 is only 5% of your overall grade, making it worth only slightly more than a homework assignment (each worth ~3%)
+
+### Datasets
+
+Links and brief descriptions of the data sets we will use during the semester can be found below:

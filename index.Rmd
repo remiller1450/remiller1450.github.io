@@ -2,39 +2,28 @@
 title: "Introduction"
 ---
 
-<img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website! I'm currently an Assistant Professor of Statistics in the [Xavier University Math Deparment](https://www.xavier.edu/mathematics-department/index).
+<img style="float: right; width:30%; height:30%;" src="pphoto.jpg"> Welcome to my website! I'm currently an Assistant Professor of Statistics in the [Grinnell College Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats).
 
-Prior to joining Xavier, I was a Visiting Assistant Professor of Statistics in the [Grinnell College Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I taught classes in statistics and data science.
+I've previously worked as a tenure-track Assistant Professor in the [Xavier University Math Deparment](https://www.xavier.edu/mathematics-department/index), and as a Visiting Assistant Professor of Statistics in the [Grinnell College Department of Mathematics and Statistics](http://www.grinnell.edu/academics/areas/math-stats) where I taught classes in statistics and data science.
 
-I studied [Biostatistics](https://www.public-health.uiowa.edu/biostat/) at the University of Iowa, completing my PhD in August of 2018.  Before that I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island Illinois.
+My graduate training is in [Biostatistics](https://www.public-health.uiowa.edu/biostat/), and I completed my PhD at the University of Iowa in August of 2018. As an undergraduate I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island, Illinois.
 
-Below are links to my current and previous courses:
+Below are links to my current courses, as well as the most recent iteration of courses I've previously taught:
 
-**Xavier University Courses**:
+**Current Courses (Fall '22)**:
 
-- Spring 2022
-    - [Math-146, Introductory Biostatistics](m146s22.html)
-    - [Math-156, General Statistics](m156s22.html)
-- Fall 2021
-    - [Math-146, Introductory Biostatistics](m146f21.html)
-    - [Math-256, Intro to Probability and Statistics](m256f21.html)
-- Spring 2021
-    - [Math-156, General Statistics](m156s21.html)
-    - [Math-257, Data Modeling](m257s21.html)
-- Fall 2020
-    - [Math-156, General Statistics](m156f20.html)
-    - [Math-256, Intro to Probability and Statistics](m256f20.html)
+- [Sta-230, Intro to Data Science](sta230f22.html)
+    
+**Previous Courses (Grinnell College)**:
 
-**Grinnell College Courses**:
+- [Sta-209, Applied Statistics](sta209s20.html)
+- [Sta-230, Intro to Data Science](sta230f19.html)
+- [Sta-395, Applied Data Science](sta395s20.html)
+    
+**Previous Courses (Xavier University)**:
 
-- Spring 2020
-    - [Sta-209, Applied Statistics](sta209s20.html)
-    - [Sta-395, Applied Data Science](sta395s20.html)
-- Fall 2019
-    - [Sta-209, Applied Statistics](sta209f19.html)
-    - [Sta-230, Intro to Data Science](sta230f19.html)
-- Spring 2019
-    - [Sta-209, Applied Statistics](sta209s19.html)
-    - [Sta-230, Intro to Data Science](sta230s19.html)
-- Fall 2018
-    - [Sta-209, Applied Statistics](sta209f18.html)
+- [Math-146, Introductory Biostatistics](m146s22.html)
+- [Math-156, General Statistics](m156s22.html)
+- [Math-256, Intro to Probability and Statistics](m256f21.html)
+- [Math-257, Data Modeling](m257s21.html)
+    
