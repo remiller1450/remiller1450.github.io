@@ -13,8 +13,8 @@
 
 <title>Teaching</title>
 
-<script src="site_libs/header-attrs-2.7/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -234,7 +238,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -245,35 +249,35 @@ $(document).ready(function () {
       <ul class="nav navbar-nav">
         <li>
   <a href="index.html">
-    <span class="fas fa-home"></span>
+    <span class="fa fa-home"></span>
      
     Home
   </a>
 </li>
 <li>
   <a href="about.html">
-    <span class="fas fa-newspaper-o"></span>
+    <span class="fa fa-newspaper-o"></span>
      
     Research
   </a>
 </li>
 <li>
   <a href="teaching.html">
-    <span class="fas fa-graduation-cap"></span>
+    <span class="fa fa-graduation-cap"></span>
      
     Teaching
   </a>
 </li>
 <li>
   <a href="personal.html">
-    <span class="fas fa-dumbbell"></span>
+    <span class="fa fa-dumbbell"></span>
      
     Personal
   </a>
 </li>
 <li>
   <a href="CV_2018.pdf">
-    <span class="fas fa-file"></span>
+    <span class="fa fa-file"></span>
      
     CV
   </a>
@@ -300,38 +304,108 @@ $(document).ready(function () {
   list-style-type: none;
 }
 </style>
-<p>Throughout my career I’ve taught numerous courses in mathematics, statistics, and data science in a variety of settings. Information on the courses I’ve taught can be found below.</p>
-<p>Please visit my homepage for links to course websites and materials.</p>
-<p><span class="math inline">\(~\)</span></p>
-<div id="xavier-university" class="section level2">
-<h2>Xavier University</h2>
-<div id="math-146---biostatistics" class="section level4">
-<h4>MATH-146 - Biostatistics</h4>
+<p>Throughout my career I’ve taught numerous courses in mathematics,
+statistics, and data science in a variety of settings. Information on
+the courses I’ve taught can be found below.</p>
+<p>Please visit my homepage for links to course websites and
+materials.</p>
+<div id="grinnell-college" class="section level2">
+<h2>Grinnell College</h2>
+<div id="sta-209---applied-statistics" class="section level4">
+<h4>STA-209 - Applied Statistics</h4>
 <div class="nobullet">
 <ul>
-<li>MATH-146 is first course in statistics, with an emphasis on applications and methods of particular relevance to the biological sciences. Topics include: random sampling procedures, experiments and observational studies, exploratory data analysis, correlation, bootstrapping and resampling methods, the normal distribution, confidence intervals hypothesis tests for proportions and means, chi-square tests, ANOVA. Problems and examples are drawn from fields such as bioinformatics, genetics, ecology, epidemiology, and public health.</li>
+<li>STA-209 is an introductory course in applied statistics covering
+topics including: data collection, visualization, summary statistics,
+basic statistical inference for one and two samples, linear regression
+(simple and multiple), one- and two-way ANOVA, and categorical data
+analysis. The class involves several comprehensive labs that guide
+students through the analysis of real data using Minitab and StatKey
+software.</li>
+</ul>
+</div>
+<p>Semesters and sections taught: Fall 2018 (2), Spring 2019 (1), Fall
+2019 (2), Spring 2020 (1)</p>
+</div>
+<div id="sta-230---introduction-to-data-science" class="section level4">
+<h4>STA-230 - Introduction to Data Science</h4>
+<div class="nobullet">
+<ul>
+<li>STA-230 introduces core topics in data science using the R
+programming language. The course covers data cleaning, merging,
+exploration, visualization, modeling, and other topics using guided labs
+and case studies in a workshop style classroom.</li>
 </ul>
 </div>
 <ul>
-<li>Semesters and sections taught: Fall 2021 (2)</li>
+<li>Semesters and sections taught: Spring 2019 (2), Fall 2019 (1), Fall
+2022 (2)</li>
+</ul>
+</div>
+<div id="sta-395mat-395---applied-data-science" class="section level4">
+<h4>STA-395/MAT-395 - Applied Data Science</h4>
+<div class="nobullet">
+<ul>
+<li>STA-395/MAT-395 is a fully applied course where students work in
+small teams on a semester long, data-intensive project. The overarching
+goal of this course is to prepare students to successfully navigate an
+applied data science project involving working on a team to answer
+questions posed by an external client.</li>
+</ul>
+</div>
+<ul>
+<li>Semesters and sections taught: Spring 2020 (1)</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+<div id="xavier-university" class="section level2">
+<h2>Xavier University</h2>
+<div id="math-146---introductory-biostatistics" class="section level4">
+<h4>MATH-146 - Introductory Biostatistics</h4>
+<div class="nobullet">
+<ul>
+<li>MATH-146 is first course in statistics, with an emphasis on
+applications and methods of particular relevance to the biological
+sciences. Topics include: random sampling procedures, experiments and
+observational studies, exploratory data analysis, correlation,
+bootstrapping and resampling methods, the normal distribution,
+confidence intervals hypothesis tests for proportions and means,
+chi-square tests, ANOVA. Problems and examples are drawn from fields
+such as bioinformatics, genetics, ecology, epidemiology, and public
+health.</li>
+</ul>
+</div>
+<ul>
+<li>Semesters and sections taught: Fall 2021 (2), Spring 2022 (2)</li>
 </ul>
 </div>
 <div id="math-156---general-statistics" class="section level4">
 <h4>MATH-156 - General Statistics</h4>
 <div class="nobullet">
 <ul>
-<li>MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.</li>
+<li>MATH-156 is a course intended for non-math majors that provides an
+introduction to the concepts and tools used for collecting, analyzing,
+and making inferences from data. Topics include: graphical displays,
+correlation, regression, design of experiments, probability, simulation,
+random sampling, confidence intervals and hypothesis testing.</li>
 </ul>
 </div>
 <ul>
-<li>Semesters and sections taught: Fall 2020 (1), Spring 2021 (2)</li>
+<li>Semesters and sections taught: Fall 2020 (1), Spring 2021 (2),
+Spring 2022 (1)</li>
 </ul>
 </div>
-<div id="math-256---intro-to-probability-and-statistics" class="section level4">
+<div id="math-256---intro-to-probability-and-statistics"
+class="section level4">
 <h4>MATH-256 - Intro to Probability and Statistics</h4>
 <div class="nobullet">
 <ul>
-<li>MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.</li>
+<li>MATH-256 is a calculus-based introduction to probability and
+descriptive and inferential statistics. Topics include numerical and
+graphical summaries of data, conditional probability, Bernoulli trials,
+normal distribution, the central limit theorem, estimation, t-tests,
+chi-square tests, type I and II errors, regression and correlation.</li>
 </ul>
 </div>
 <ul>
@@ -342,7 +416,11 @@ $(document).ready(function () {
 <h4>MATH-257 - Data Modeling</h4>
 <div class="nobullet">
 <ul>
-<li>MATH-257 is a second course in statistics that focuses on exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, experimental design, and non-parametric modeling approaches.</li>
+<li>MATH-257 is a second course in statistics that focuses on
+exploratory data analysis and visualization, logistic regression,
+estimation and inference of multiple regression models, model selection,
+analysis of variance, multiple comparisons, experimental design, and
+non-parametric modeling approaches.</li>
 </ul>
 </div>
 <ul>
@@ -351,48 +429,20 @@ $(document).ready(function () {
 <p><span class="math inline">\(~\)</span></p>
 </div>
 </div>
-<div id="grinnell-college" class="section level2">
-<h2>Grinnell College</h2>
-<div id="sta-209---applied-statistics" class="section level4">
-<h4>STA-209 - Applied Statistics</h4>
-<div class="nobullet">
-<ul>
-<li>STA-209 is an introductory course in applied statistics covering topics including: data collection, visualization, summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis. The class involves several comprehensive labs that guide students through the analysis of real data using Minitab and StatKey software.</li>
-</ul>
-</div>
-<p>Semesters and sections taught: Fall 2018 (2), Spring 2019 (1), Fall 2019 (2), Spring 2020 (1)</p>
-</div>
-<div id="sta-230---introduction-to-data-science" class="section level4">
-<h4>STA-230 - Introduction to Data Science</h4>
-<div class="nobullet">
-<ul>
-<li>STA-230 introduces core topics in data science using the R programming language. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.</li>
-</ul>
-</div>
-<ul>
-<li>Semesters and sections taught: Spring 2019 (2), Fall 2019 (1)</li>
-</ul>
-</div>
-<div id="sta-395mat-395---applied-data-science" class="section level4">
-<h4>STA-395/MAT-395 - Applied Data Science</h4>
-<div class="nobullet">
-<ul>
-<li>STA-395/MAT-395 is a fully applied course where students work in small teams on a semester long, data-intensive project. The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.</li>
-</ul>
-</div>
-<ul>
-<li>Semesters and sections taught: Spring 2020 (1)</li>
-</ul>
-<p><span class="math inline">\(~\)</span></p>
-</div>
-</div>
 <div id="university-of-iowa" class="section level2">
 <h2>University of Iowa</h2>
-<div id="bios-4120---introduction-to-biostatistics" class="section level4">
+<div id="bios-4120---introduction-to-biostatistics"
+class="section level4">
 <h4>BIOS-4120 - Introduction to Biostatistics</h4>
 <div class="nobullet">
 <ul>
-<li>BIOS-4120 is an introductory statistics course that covers basic statistical concepts and methods that are frequently used in medicine, public health, and the biological sciences. Some topics covered include study design, descriptive statistics, basic rules of probability, measures of association, hypothesis testing for one and two sample continuous and categorical data, confidence intervals, correlation, and an introduction to regression.</li>
+<li>BIOS-4120 is an introductory statistics course that covers basic
+statistical concepts and methods that are frequently used in medicine,
+public health, and the biological sciences. Some topics covered include
+study design, descriptive statistics, basic rules of probability,
+measures of association, hypothesis testing for one and two sample
+continuous and categorical data, confidence intervals, correlation, and
+an introduction to regression.</li>
 </ul>
 </div>
 <ul>

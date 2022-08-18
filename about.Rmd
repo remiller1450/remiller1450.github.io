@@ -4,8 +4,7 @@ title: "Research"
 
 This page highlights a few different areas I've actively contributed towards throughout my career.  
 
-- If you are a Xavier student interested in working with me on a research project over the summer it will most likely be in one of this areas. If anything looks appealing, don't hesitate to talk with me about it after class, during office hours, or via email.  
-- Check out [this page](https://www.xavier.edu/undergraduate-research/index) if you are unfamiliar with Xavier's undergraduate research program.
+- If you are a Grinnell College student interested in working with me on a research project I encourage you to read these sections. I am usually willing to collaborate on a [MAP](https://www.grinnell.edu/about/leadership/offices-services/dean/maps) in most summers as long as the intended project is a good fit for both of us.
 
 $~$
 
@@ -15,7 +14,7 @@ Many penalized regression methods such as [LASSO](http://statweb.stanford.edu/~t
 
 Read more:
 
-- **Marginal false discovery rate control for likelihood-based penalized regression models**, Miller R and Breheny P, *Biometrical Journal*, 2019. [link](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.201800138)
+- **Marginal false discovery rate control for likelihood-based penalized regression models**, Miller R and Breheny P, *Biometrical Journal*, 2019. [LINK](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.201800138)
 - **Feature-specific inference for penalized regression models using local false discovery rates**, Miller R and Breheny P, *In Submission* [arxiv link](https://arxiv.org/pdf/1809.05497.pdf)
 - **Marginal false discovery rates for group sparse penalized regression**, Miller R, *Soon to be Submitted*, arxiv link coming soon
 
@@ -27,22 +26,18 @@ With many states contemplating cannabis legalization, a better understanding of 
 
 Read more:
 
-- **Impact of cannabis and low alcohol concentration on divided attention tasks during driving**, Miller, R, Brown, T, Lee, S, Tibrewal, I, Milavetz, G, Gaffney, G, Hartman, Hartman R, D Gorelick, R Compton, Huestis, M, *Traffic Injury Prevention*, 2020. [https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956]
-
-### 3. Suicide Risk in Cincinnati Area Schools
-
-Mental health is an important factor in student well being and success. In this area, I am currently working in collaboration with the [Dr. Victor Ronis-Tobin](https://www.xavier.edu/population-health/directory/victor-ronis-tobin) and the [1n5](https://1n5.org/) organization to statistically optimize and validate questionnaires that are administered to K-12 students, their parents, and school staff.  
+- **Impact of cannabis and low alcohol concentration on divided attention tasks during driving**, Miller, R, Brown, T, Lee, S, Tibrewal, I, Milavetz, G, Gaffney, G, Hartman, Hartman R, D Gorelick, R Compton, Huestis, M, *Traffic Injury Prevention*, 2020. [LINK](https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956)
+- **Influence of cannabis use history on the impact of acute cannabis smoking on simulated driving performance during a distraction task**, Miller, R, Brown, T,  Wrobel, J, Kosnett, M, Brooks-Russell, A, *Traffic Injury Prevention*, 2022. [LINK](https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956)
 
 $~$
 
-
-### 4. Other Interests
+### 3. Other Interests
 
 A few other areas that I'm interested are: 
 
-- Causal Inference - how can causality be evaluated in observational studies
+- Applications in Public Health and Biology - how statistical methods and data analysis can contribute to the understand of biological processes and health outcomes
 - Statistics in Sports - how to leverage data and statistical methods to gain new insights in the realm of sports
-- Data Science Education - what content belongs in a data science curriculum, and what is the most effective way to teach that content to students
+- Data Science Education - determining the content belongs in a data science curriculum, and what is the most effective way to teach that content to students
 
 $~$
 

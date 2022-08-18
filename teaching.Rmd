@@ -13,44 +13,6 @@ Throughout my career I've taught numerous courses in mathematics, statistics, an
 
 Please visit my homepage for links to course websites and materials.
 
-$~$ 
-
-## Xavier University
-
-#### MATH-146 - Biostatistics
-
-<div class="nobullet">
-* MATH-146 is first course in statistics, with an emphasis on applications and methods of particular relevance to the biological sciences. Topics include: random sampling procedures, experiments and observational studies, exploratory data analysis, correlation, bootstrapping and resampling methods, the normal distribution, confidence intervals hypothesis tests for proportions and means, chi-square tests, ANOVA. Problems and examples are drawn from fields such as bioinformatics, genetics, ecology, epidemiology, and public health.
-</div>
-
-* Semesters and sections taught: Fall 2021 (2)
-
-#### MATH-156 - General Statistics
-
-<div class="nobullet">
-* MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
-</div>
-
-* Semesters and sections taught: Fall 2020 (1), Spring 2021 (2)
-
-#### MATH-256 - Intro to Probability and Statistics
-
-<div class="nobullet">
-* MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.
-</div>
-
-* Semesters and sections taught: Fall 2020 (1), Fall 2021 (1)
-
-#### MATH-257 - Data Modeling
-
-<div class="nobullet">
-* MATH-257 is a second course in statistics that focuses on exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, experimental design, and non-parametric modeling approaches.
-</div>
-
-* Semesters and sections taught: Spring 2021 (1)
-
-$~$
-
 ## Grinnell College
 
 #### STA-209 - Applied Statistics
@@ -67,7 +29,7 @@ Semesters and sections taught: Fall 2018 (2), Spring 2019 (1), Fall 2019 (2), Sp
 * STA-230 introduces core topics in data science using the R programming language. The course covers data cleaning, merging, exploration, visualization, modeling, and other topics using guided labs and case studies in a workshop style classroom.
 </div>
 
-* Semesters and sections taught: Spring 2019 (2), Fall 2019 (1)
+* Semesters and sections taught: Spring 2019 (2), Fall 2019 (1), Fall 2022 (2)
 
 #### STA-395/MAT-395 - Applied Data Science
 
@@ -76,6 +38,42 @@ Semesters and sections taught: Fall 2018 (2), Spring 2019 (1), Fall 2019 (2), Sp
 </div>
 
 * Semesters and sections taught: Spring 2020 (1)
+
+$~$
+
+## Xavier University
+
+#### MATH-146 - Introductory Biostatistics
+
+<div class="nobullet">
+* MATH-146 is first course in statistics, with an emphasis on applications and methods of particular relevance to the biological sciences. Topics include: random sampling procedures, experiments and observational studies, exploratory data analysis, correlation, bootstrapping and resampling methods, the normal distribution, confidence intervals hypothesis tests for proportions and means, chi-square tests, ANOVA. Problems and examples are drawn from fields such as bioinformatics, genetics, ecology, epidemiology, and public health.
+</div>
+
+* Semesters and sections taught: Fall 2021 (2), Spring 2022 (2)
+
+#### MATH-156 - General Statistics
+
+<div class="nobullet">
+* MATH-156 is a course intended for non-math majors that provides an introduction to the concepts and tools used for collecting, analyzing, and making inferences from data. Topics include: graphical displays, correlation, regression, design of experiments, probability, simulation, random sampling, confidence intervals and hypothesis testing.
+</div>
+
+* Semesters and sections taught: Fall 2020 (1), Spring 2021 (2), Spring 2022 (1)
+
+#### MATH-256 - Intro to Probability and Statistics
+
+<div class="nobullet">
+* MATH-256 is a calculus-based introduction to probability and descriptive and inferential statistics. Topics include numerical and graphical summaries of data, conditional probability, Bernoulli trials, normal distribution, the central limit theorem, estimation, t-tests, chi-square tests, type I and II errors, regression and correlation.
+</div>
+
+* Semesters and sections taught: Fall 2020 (1), Fall 2021 (1)
+
+#### MATH-257 - Data Modeling
+
+<div class="nobullet">
+* MATH-257 is a second course in statistics that focuses on exploratory data analysis and visualization, logistic regression, estimation and inference of multiple regression models, model selection, analysis of variance, multiple comparisons, experimental design, and non-parametric modeling approaches.
+</div>
+
+* Semesters and sections taught: Spring 2021 (1)
 
 $~$
 

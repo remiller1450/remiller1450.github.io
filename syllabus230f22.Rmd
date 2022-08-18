@@ -58,15 +58,22 @@ After completing this course, students should be able to:
 
 The core component of most classes (40-50 minutes) will be working through hands-on labs in a paired programming environment.  For the first few weeks of the semester these groups will be assigned; after that you will be allowed to choose your own partner(s), or work independently.  During labs it is essential that you and your partner(s) work together, making certain that each of you understand your work equally well.
 
-Most labs begin with a short "preamble" section that we will work through together as class. This purpose of this section is to introduce everyone to the topic of the lab and provide an on-ramp into its content.
+Most labs begin with a short "preamble" section that we will work through together as class. The purpose of this section is to introduce everyone to the topic of the lab and provide an on-ramp into its content.
 
 **Attendance** 
 
-This course involves substantial group work, meaning absences affect not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absent for any reason I ask to be notified as soon as possible. Showing up late or missing class without prior notice will negatively impact the participation component of your grade.
+This course involves substantial group work, meaning absences affect not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absent for any reason I ask to be notified as soon as possible. Showing up late or missing class more than twice without prior notice will negatively impact the participation component of your course grade.
 
 **Software**
 
-Software is an essential component of data science and will a critical component of this course.  We will primarily use `R`, an open-source statistical software program.  The course will involve many guided lab activities in the RStudio environment.  You will also be expected to write, document, and submit code used for projects throughout the semester.
+Software is an essential component of data science and will a critical component of this course.  We will primarily use `R`, an open-source statistical software program.  The course will involve many guided lab activities in the RStudio environment.  You will also be expected to write, document, and submit code used for projects throughout the semester.  
+
+You are welcome to use your own laptop, or a Grinnell College laptop, during the course. `R` is freely available and you can download it and it's UI companion, `R Studio`, here (note: `R` must be downloaded and installed before `R Studio`):
+
+1. Download `R` from http://www.r-project.org/
+2. Download `R Studio` from http://www.rstudio.com/
+
+If you prefer to work on a classroom computer, all of them will have `R` and `R Studio` installed.
 
 **Academic Honesty**
 
@@ -90,15 +97,15 @@ Grinnell College encourages students who plan to observe holy days that coincide
 
 **Engagement and Participation** - 5\%
 
-Participation during a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions).  You will start the semester with a baseline participation score of 80\%, which will then move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score to 100\% by doing a superb job helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  If you are ever unsure of your participation standing, you can email me and I am happy to provide you an interim assessment.
+Participation in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and they are expected to help you.  Everyone will begin the semester with a baseline participation score of 80\%, which will then move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score to 100\% by doing a superb job helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  If you are ever unsure of your participation standing, you can email me and I am happy to provide you an interim assessment.
 
 **Labs** - 20\%
 
-Each lab contains embedded questions that you and your lab partner are expected to answer together. Each group member should submit their own copy of the group's answers via P-web prior to the assignments due-date. Some lab questions will be scored for accuracy with feedback given, while others will be scored for effort/completion.  If it becomes clear that you are your partner are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized.  Any lab that is turned in after sketch solutions are posted will receive no higher than 60% credit.
+Each in-class lab contains embedded questions that you and your lab partner will answer together. Each group member should submit their own copy of the group's answers via P-web prior to the assignment's due-date. Very often an entire week's worth of labs will be due at the same time, and you are welcome to upload a single answer document. Some lab questions will be scored for accuracy with feedback given, while others will be scored for effort/completion.  If it becomes clear that you are your partner are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized.  Any lab that is turned in after sketch solutions are posted will receive no more than 50% credit. Solutions will typically be posted 3-5 days after lab write-ups are submitted.
 
 **Individual Homework** - 20\%
 
-There will be roughly 5-7 individual homework assignments throughout the semester. These assignments are naturally cumulative, and they are designed to prompt you to use concepts from multiple different labs. You are welcome to get help from DASIL mentors or myself on these assignments, though your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with. Most homework will also include a short reading and reflection.
+There will be 5-7 individual homework assignments throughout the semester. These assignments are naturally cumulative, and they are designed to force you to use concepts from multiple different labs. You are welcome to get help from DASIL mentors or myself on these assignments, but your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with. Most homework assignments will also include a short reading and a reflection.
 
 **Midterm Project #1** - 5\%
 
