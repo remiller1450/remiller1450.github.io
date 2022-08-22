@@ -22,10 +22,7 @@ Please note: material will not be posted until we've reached that point in the c
 
 ### Labs
 
-Sta-230 uses a *workshop style* class format. This means that the majority of our class time will be devoted towards collaboratively working through guided lab activities. You should consult the syllabus for a more detailed description of the procedures related to labs.
-
-
-Throughout the semester we will practice applying key concepts in applications involving real data during in-class labs.  During labs, you will work collaboratively in a group of 2-3 students to progress through a guided data analysis.  You will have the majority of class to work independently with your group, and we will will often go over a few key questions towards the end of class.  Your group will be expected to turn-in a lab write-up.
+Sta-230 uses a *workshop style* class format. This means that the majority of our class time will be devoted towards collaboratively working through guided lab activities. You should consult the syllabus for a more detailed description of procedures related to labs.
 
 **Lab Topics and Links**:
 
@@ -73,7 +70,7 @@ The readings listed below are *recommended* prior to attending class during the 
 
 ### Homework Assignments
 
-Throughout the semester there will be 6-7 homework assignments throughout the semester:
+Throughout the semester there will be 6-7 homework assignments:
 
 - [Homework #1](s230f22/hw1.html) 
     - Topics: Intro R, `ggplot2`, data visualization
@@ -113,3 +110,5 @@ There will be 3 projects throughout the semester. Tentative dates for these proj
 ### Datasets
 
 Links and brief descriptions of the data sets we will use during the semester can be found below:
+
+*Coming soon*
