@@ -29,51 +29,53 @@ This course introduces core topics in data science using R programming. This inc
 
 #### Texts
 
-There is no required textbook for this course.  All necessary materials will be posted on the [course website](s230f22.html).  At times we will use materials, readings, and exercises from several published textbooks, all of which are freely available online and do not need to be purchased. 
+There is no required textbook for this course.  All necessary materials will be posted on the [course website](s230f22.html).  
+
+There will be recommended readings from several published textbooks, all of which are freely available online and do not need to be purchased:
 
 1. [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/) by Baumer, Kaplan,and Horton
 2. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham 
 3. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani 
 
-<br/><br/>
+$~$
 
 ### Aims and Objectives
 
-This course aims to develop in students an informed critical or theoretical perspective on the social impact of data collection, including the social construction of data production, and the use of algorithmic techniques to process that data.
+This course aims to develop in students informed critical and theoretical perspectives on data collection, data manipulation and production, and the use algorithmic techniques to process and analyze data.
 
 #### Learning Objectives
 
 After completing this course, students should be able to:
 
+- Apply methods of data exploration, visualization, and modeling to illustrate key findings and make justifiable inferences
 - Translate research questions into quantifiable metrics or models that can be evaluated
-- Apply methods of data exploration, visualization, and statistical analysis to illustrate key findings and make justifiable inferences
 - Use the `R` programming environment to manage, process, and format unstructured data, to generate meaningful data visualizations, and to fit and evaluate supervised or unsupervised learning models
-- Clearly and concisely communicate the results of data-driven analyses to statistical and non-statistical audiences
+- Clearly and concisely communicate the findings of data-driven analyses to statistical and non-statistical audiences
 
-<br/><br/>
+$~$
 
 ### Policies
 
 **Class Sessions**
 
-The core component of most classes (40-50 minutes) will be working through hands-on labs in a paired programming environment.  For the first few weeks of the semester these groups will be assigned; after that you will be allowed to choose your own partner(s), or work independently.  During labs it is essential that you and your partner(s) work together, making certain that each of you understand your work equally well.
+The core component of our class meetings will be working through hands-on labs in a paired programming environment.  These pairs will be assigned during the first few weeks of the semester, then you will have the freedom to choose your partner, or work independently near someone that you can occasionally consult with.  During labs it is essential that you and your partner(s) work together, making certain that each of you understand your work equally well.
 
-Most labs begin with a short "preamble" section that we will work through together as class. The purpose of this section is to introduce everyone to the topic of the lab and provide an on-ramp into its content.
+Most labs will begin with a brief "preamble" section that we will go through together as class. The purpose of this section is to introduce the topic of the lab and ensure a smooth start to each class meeting.
 
 **Attendance** 
 
-This course involves substantial group work, meaning absences affect not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absent for any reason I ask to be notified as soon as possible. Showing up late or missing class more than twice without prior notice will negatively impact the participation component of your course grade.
+Because this course involves substantial group work absences impact not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absent for any reason I ask to be notified as soon as possible. Showing up late or missing class more than twice without prior notice will negatively impact the participation component of your course grade.
 
 **Software**
 
-Software is an essential component of data science and will a critical component of this course.  We will primarily use `R`, an open-source statistical software program.  The course will involve many guided lab activities in the RStudio environment.  You will also be expected to write, document, and submit code used for projects throughout the semester.  
+Software is an essential component of data science and will play an important role in this course.  We will primarily use `R`, an open-source statistical software program. You will also be expected to write, document, and submit code used for projects and assignments throughout the semester.
 
-You are welcome to use your own laptop, or a Grinnell College laptop, during the course. `R` is freely available and you can download it and it's UI companion, `R Studio`, here (note: `R` must be downloaded and installed before `R Studio`):
+You are welcome to use your own personal laptop, or a Grinnell College laptop, during the course. `R` is freely available and you can download it and it's UI companion, `R Studio`, here (note: `R` must be downloaded and installed before `R Studio`):
 
 1. Download `R` from http://www.r-project.org/
 2. Download `R Studio` from http://www.rstudio.com/
 
-If you prefer to work on a classroom computer, all of them will have `R` and `R Studio` installed.
+You may also work on a classroom computer, all of which will have `R` and `R Studio` pre-installed.
 
 **Academic Honesty**
 
@@ -91,7 +93,7 @@ Grinnell College makes reasonable accommodations for students with documented di
 
 Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
 
-<br/><br/>
+$~$
 
 ### Grading
 
@@ -101,29 +103,29 @@ Participation in a lab-heavy course is absolutely critical. During labs you are 
 
 **Labs** - 20\%
 
-Each in-class lab contains embedded questions that you and your lab partner will answer together. Each group member should submit their own copy of the group's answers via P-web prior to the assignment's due-date. Very often an entire week's worth of labs will be due at the same time, and you are welcome to upload a single answer document. Some lab questions will be scored for accuracy with feedback given, while others will be scored for effort/completion.  If it becomes clear that you are your partner are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized.  Any lab that is turned in after sketch solutions are posted will receive no more than 50% credit. Solutions will typically be posted 3-5 days after lab write-ups are submitted.
+All labs contain embedded questions that you and your lab partner will answer together. Each group member should submit their own copy of the group's answers via P-web prior to the assignment's due-date. Oftentimes multiple labs will be due at the same time, and you are welcome to upload your answers as a single file. Some lab questions will be scored for accuracy with feedback given, while others will be scored for effort/completion.  If it becomes clear that you are your partner are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized. Sketch solutions will typically be posted 3-5 days after lab write-ups are due. Any lab that is turned in after sketch solutions are posted will receive no more than 50% credit. 
 
 **Individual Homework** - 20\%
 
-There will be 5-7 individual homework assignments throughout the semester. These assignments are naturally cumulative, and they are designed to force you to use concepts from multiple different labs. You are welcome to get help from DASIL mentors or myself on these assignments, but your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with. Most homework assignments will also include a short reading and a reflection.
+There will be 5-7 individual homework assignments throughout the semester. These assignments are naturally cumulative, and intended to force you to combine concepts and methods from multiple labs. You are welcome to get help from DASIL mentors, or Professor Miller, on these assignments, but your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with. Most homework assignments will also include a short reading and a reflection.
 
 **Midterm Project #1** - 5\%
 
-For this project, you will create 2-3 professional visualizations and post your visualizations with a 100–200-word caption/description for each. You will work on this project in a *group of two of three*. If you combine 2 or more data sources with merging and joining, only 2 visualizations are required. If you use only 1 data source, you are expected to create 3 visualizations. You will be required to peer review 3 other groups, and you can receive a small amount of extra credit for peer reviewing every group. 
+For this project, you will create 2-3 professional visualizations and post your visualizations with a 100–200-word caption/description for each. You will work on this project in a *group of two or three*. If you combine two or more data sources with merging and joining, only two visualizations are required. If you use a single data source, you are expected to create three visualizations. You will be required to peer review three other groups, and you can receive a small amount of extra credit for peer reviewing every group. 
 
-You can find details on Midterm #1 [here](s230f22/midterm1.html)
+You can find details on Midterm #1 [at this link](s230f22/midterm1.html)
 
 **Midterm Project #2** - 20\%
 
-For this project, you will develop an `R Shiny` app that visually explores a data set of your choosing. You may work on this project individually, or with *one classmate* of your choosing.  You will publish your app online and give a 5 minute in-class presentation demonstrating the capabilities of your app and discussing some of the trends in your data that your app displays. You will be evaluated on both the features of your app and how well you communicate what you see in the data.
+For this project, you will develop an `R Shiny` app that visually explores a data set of your choosing. You may work on this project *individually*, or in a group of *two*. You will publish your app online and give a 5-minute in-class presentation demonstrating the capabilities of your app and discussing some of the trends in your data that your app displays. You will be evaluated on both the features of your app and how well you communicate what you see in the data.
 
-You can find details on Midterm #2 [here](s230f22/midterm2.html)
+You can find details on Midterm #2 [at this link](s230f22/midterm2.html)
 
 **Final Project** - 30\%
 
-This project is a start-to-finish data science application on a non-trivial data set. The final product is a three-page written report accompanied by R code and documentation. You may work on this project individually, or with *up to two classmates* of your choosing.
+This project is a start-to-finish data science application on a non-trivial data set. The final product is a three-page written report accompanied by R code and documentation. You may work on this project *individually*, or in a *group of two or three*.  Please note that you may only work with the same classmate(s) on a maximum of two of the three projects.
 
-You can find details on the final project [here](s230f22/final.html)
+You can find details on the final project [at this link](s230f22/final.html)
 
 $~$
 
@@ -131,14 +133,28 @@ $~$
 
 **Why use R for Data Science?**
 
-If you’ve spent any amount of time looking into data science online you’ll undoubtedly have noticed the heavy emphasis placed on the Python programming language. Indeed, research from Cal State University found Python was the most popular data science language in private industry, being mentioned in 42% of data scientist job postings. R, which was mentioned in 20% of job postings, is not far behind and offers a few advantages in learning data science skills from a statistical perspective (hence this course having the STA prefix).  
+If you’ve spent time reading about data science online you’ll undoubtedly have noticed the emphasis placed on the Python programming language. Indeed, research from Cal State University found Python was the most popular data science language in private industry, being mentioned in 42% of data scientist job postings. However, `R`, which was mentioned in 20% of job postings, is not far behind and offers a few advantages when approaching data science from a statistical perspective (hence this course having the STA prefix).  
 
-Both R and Python provide plenty of data manipulation functionality. However, because R was created by academic statisticians, it offers very strong data visualization and statistical modeling packages. On the other hand, Python is a general-purpose programming language that excels in production, deployment, and machine learning. Regardless of each language’s strengths and weakness, as an introductory course our focus is on the fundamental skills and thought processes of data science – a goal that can be accomplished regardless of the tools used (which tend to change over time anyways).
+Both `R` and Python provide plenty of functions for data manipulation. However, because R was created by academic statisticians, it offers very strong data visualization and statistical modeling packages. On the other hand, Python is a general-purpose programming language that excels in production, deployment, and machine learning. Regardless of each language’s strengths and weaknesses, as an introductory course our focus is on the fundamental skills and thought processes used in data science – which is something that can be accomplished regardless of the tools used (which will change over time anyways).
 
 **Getting Help**
 
-In addition to visiting office hours, there are many other ways in which you can find help on assignments and projects.
+In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
 
-The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced in `R` programming and may be able to help troubleshoot problems you are having.  Many students who've previously taken this course have made extensive use of the DASIL work space and its computing resources.
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced in `R` programming and may be able to troubleshoot coding problems you are having.  Many students who've successfully completed this course have made extensive use of the DASIL work space and its computing resources.
 
 The online platform [Stack Overflow](https://stackoverflow.com/questions/tagged/r) is a useful resource to find user-generated coding solutions to common `R` problems.  Nearly all professional data scientists have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
+
+$~$
+
+### Topic List
+
+- Introduction to `R` (data structures, functions, packages, help documentation, and `R Markdown`)
+- Creating graphics (`ggplot2` and data visualization principles)
+- Data manipulation (reshaping, `dplyr`, merging and joining, string processing and regular expressions)
+- Project #1 (tentatively due 9/16)
+- Interactive data visualizations (`plotly`, maps with `leaflet`, dashboards with `R Shiny`)
+- Project #2 (tentatively due 10/3)
+- Introduction to unsupervised learning (principal component analysis, dimension reduction, and clustering)
+- Introduction to supervised learning (cross-validation, performance metrics, regression, classification, and algorithmic models)
+- Project #3 (due during final's week)

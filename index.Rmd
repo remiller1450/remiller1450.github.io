@@ -8,22 +8,22 @@ I've previously worked as a tenure-track Assistant Professor in the [Xavier Univ
 
 My graduate training is in [Biostatistics](https://www.public-health.uiowa.edu/biostat/), and I completed my PhD at the University of Iowa in August of 2018. As an undergraduate I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island, Illinois.
 
-Below are links to my current courses, as well as the most recent iteration of courses I've previously taught:
+Below are links to my current courses, as well as the most recent version of courses I've previously taught:
 
 **Current Courses (Fall '22)**:
 
-- [Sta-230, Intro to Data Science](sta230f22.html)
+- [Sta-230, Intro to Data Science](s230f22.html)
     
 **Previous Courses (Grinnell College)**:
 
-- [Sta-209, Applied Statistics](sta209s20.html)
-- [Sta-230, Intro to Data Science](sta230f19.html)
-- [Sta-395, Applied Data Science](sta395s20.html)
+- [Sta-209, Applied Statistics (Spring '20)](sta209s20.html)
+- [Sta-230, Intro to Data Science (Fall '19)](sta230f19.html)
+- [Sta-395, Applied Data Science (Spring '20)](sta395s20.html)
     
 **Previous Courses (Xavier University)**:
 
-- [Math-146, Introductory Biostatistics](m146s22.html)
-- [Math-156, General Statistics](m156s22.html)
-- [Math-256, Intro to Probability and Statistics](m256f21.html)
-- [Math-257, Data Modeling](m257s21.html)
+- [Math-146, Introductory Biostatistics (Spring '22)](m146s22.html)
+- [Math-156, General Statistics (Spring '22)](m156s22.html)
+- [Math-256, Intro to Probability and Statistics (Fall '21)](m256f21.html)
+- [Math-257, Data Modeling (Spring '21)](m257s21.html)
     

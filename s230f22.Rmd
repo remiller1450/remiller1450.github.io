@@ -75,8 +75,9 @@ The readings listed below are *recommended* prior to attending class during the 
 
 Throughout the semester there will be 6-7 homework assignments throughout the semester:
 
-- Homework #1
+- [Homework #1](s230f22/hw1.html) 
     - Topics: Intro R, `ggplot2`, data visualization
+    - [.Rmd Template](s230f22/hw1.Rmd)
     - <span style="color: red;"> Due date: Monday 9/5 at 11:59pm \span
 - Homework #2
     - Topics: Reshaping, wrangling, merging and joining, string processing
@@ -102,7 +103,7 @@ There will be 3 projects throughout the semester. Tentative dates for these proj
 - [Project #1 - Data Visualization](s230f22/project1.html)
     - Wednesday 9/14 - work session and meetings
     - Friday 9/16 - post final product on P-web
-- Project #2 - R Shiny Dashboards
+- Project #2 - R Shiny
     - Information coming soon
 - Project #3 - Model-based Data Analysis
     - Information coming soon
