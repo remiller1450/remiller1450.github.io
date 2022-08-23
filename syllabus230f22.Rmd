@@ -113,7 +113,7 @@ There will be 5-7 individual homework assignments throughout the semester. These
 
 For this project, you will create 2-3 professional visualizations and post your visualizations with a 100–200-word caption/description for each. You will work on this project in a *group of two or three*. If you combine two or more data sources with merging and joining, only two visualizations are required. If you use a single data source, you are expected to create three visualizations. You will be required to peer review three other groups, and you can receive a small amount of extra credit for peer reviewing every group. 
 
-You can find details on Midterm #1 [at this link](s230f22/midterm1.html)
+You can find details on Midterm #1 [at this link](s230f22/project1.html)
 
 **Midterm Project #2** - 20\%
 
