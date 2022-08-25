@@ -27,7 +27,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 **Lab Topics and Links**:
 
 - Introduction to `R`
-    - Lab #1 (8/26) - Intro to R (part 1)
+    - [Lab #1 (8/26) - Intro to R (part 1)](s230f22/day1.html)
     - Lab #2 (8/29) - Intro to R (part 2)
     - <span style="color: red;"> Labs 1 and 2 are due Wednesday 8/31 by 11:59pm \span
 - Basic data visualizations

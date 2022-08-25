@@ -13,8 +13,8 @@
 
 <title>syllabus230f22.knit</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
-<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -146,11 +146,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -392,13 +396,20 @@ div.tocify {
 <ul>
 <li>Noyce 2401, 9:00-9:50AM (Sec 01) or 10:00-10:50AM (Sec 02)</li>
 </ul>
-<p><strong>Office Hours</strong></p>
+<p><strong>Office Hours</strong>:</p>
 <ul>
 <li>Noyce 2218, M 2:00-3:00PM, W 1:00-2:00PM, F 11:00AM-12:00PM, or by
 appointment</li>
 </ul>
-<div id="course-description" class="section level4">
-<h4>Course Description</h4>
+<p><strong>Class Mentors</strong>:</p>
+<ul>
+<li>Sec 01 - Vini Ono (onosanta@grinnell.edu)</li>
+<li>Sec 02 - Anil Alper (alperani@grinnell.edu)</li>
+</ul>
+<p>Vini and Anil are available in DASIL outside of class. <a
+href="https://dasil.sites.grinnell.edu/">Check here</a> for their
+current hours.</p>
+<p><strong>Course Description</strong>:</p>
 <p>This course introduces core topics in data science using R
 programming. This includes introductions to getting and cleaning data,
 data management, exploratory data analysis, reproducible research, and
@@ -406,9 +417,7 @@ data visualization. This course incorporates case studies from multiple
 disciplines and emphasizes the importance of properly communicating
 statistical ideas. Prerequisite: MAT-209 or STA-209. Suggested CSC-151
 or computer programming experience.</p>
-</div>
-<div id="texts" class="section level4">
-<h4>Texts</h4>
+<p><strong>Texts</strong>:</p>
 <p>There is no required textbook for this course. All necessary
 materials will be posted on the <a href="s230f22.html">course
 website</a>.</p>
@@ -426,7 +435,6 @@ Introduction to Statistical Learning</a> by James, Witten, Hastie, and
 Tibshirani</li>
 </ol>
 <p><span class="math inline">\(~\)</span></p>
-</div>
 </div>
 <div id="aims-and-objectives" class="section level3">
 <h3>Aims and Objectives</h3>

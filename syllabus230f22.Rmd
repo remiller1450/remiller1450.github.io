@@ -19,15 +19,22 @@ output:
 
 - Noyce 2401, 9:00-9:50AM (Sec 01) or 10:00-10:50AM (Sec 02)
 
-**Office Hours**
+**Office Hours**:
 
 - Noyce 2218, M 2:00-3:00PM, W 1:00-2:00PM, F 11:00AM-12:00PM, or by appointment
 
-#### Course Description
+**Class Mentors**:
+
+- Sec 01 - Vini Ono (onosanta\@grinnell.edu)
+- Sec 02 - Anil Alper (alperani\@grinnell.edu)
+
+Vini and Anil are available in DASIL outside of class. [Check here](https://dasil.sites.grinnell.edu/) for their current hours.
+
+**Course Description**:
 
 This course introduces core topics in data science using R programming. This includes introductions to getting and cleaning data, data management, exploratory data analysis, reproducible research, and data visualization. This course incorporates case studies from multiple disciplines and emphasizes the importance of properly communicating statistical ideas. Prerequisite: MAT-209 or STA-209. Suggested CSC-151 or computer programming experience.
 
-#### Texts
+**Texts**:
 
 There is no required textbook for this course.  All necessary materials will be posted on the [course website](s230f22.html).  
 
