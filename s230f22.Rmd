@@ -53,8 +53,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 The readings listed below are *recommended* prior to attending class during the week indicated. While not required, it is my observation that students who seek to learn the course content from a variety of perspectives are most successful.
 
 - Week of 8/29 - 9/2 
+    - [Ch 3 - R for Data Science](https://r4ds.had.co.nz/data-visualisation.html)
     - [Ch 2.1, 2.2, 2.3, 2.4 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizI.html)
-    - [Ch 7 - R for Data Science](https://r4ds.had.co.nz/exploratory-data-analysis.html)
 - Week of 9/5 - 9/9
     - [Ch 4 and Ch 6 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
     - [Ch 12 - R for Data Science](https://r4ds.had.co.nz/tidy-data.html)
@@ -74,7 +74,7 @@ Throughout the semester there will be 6-7 homework assignments:
 
 - [Homework #1](s230f22/hw1.html) 
     - Topics: Intro R, `ggplot2`, data visualization
-    - [.Rmd Template](s230f22/hw1.Rmd)
+    - [.Rmd Template](s230f22/hw1.zip)
     - <span style="color: red;"> Due date: Monday 9/5 at 11:59pm \span
 - Homework #2
     - Topics: Reshaping, wrangling, merging and joining, string processing
