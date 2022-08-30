@@ -29,24 +29,26 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Introduction to `R`
     - [Lab #1 (8/26) - Intro to R (part 1)](s230f22/day1.html)
     - [Lab #2 (8/29) - Intro to R (part 2)](s230f22/intro2.html)
+    - [Optional Lab](s230f22/intro_stat.html)
     - <span style="color: red;"> Labs 1 and 2 are due ~~Wednesday 8/31~~ Friday 9/2 by 11:59pm \span
+    - You can choose to submit the optional lab for 1 point of extra credit (due Friday 9/2 by 11:59pm, upload w/ your Lab 1 and 2 copies)
 - Basic data visualizations
-    - Lab #3 (8/31) - Intro to `ggplot2`
-    - Lab #4 (9/1) - Data Visualization Principles
-    - Labs 3 and 4 are due Monday 9/5 by 11:59pm
+    - Lab #3 (9/1) - Intro to `ggplot2`
+    - Lab #4 - Data Visualization Principles
+    - Labs 3 and 4 are due TBD by 11:59pm
 - Data manipulation
-    - Lab #5 (9/5) - Reshaping data with `tidyr`
-    - Lab #6 (9/7) - Wrangling data with `dplyr`
-    - Lab #7 (9/9) - Merging and joining
-    - Labs 5, 6, and 7 are due Monday 9/12 by 11:59pm
+    - Lab #5 - Reshaping data with `tidyr`
+    - Lab #6 - Wrangling data with `dplyr`
+    - Lab #7 - Merging and joining
+    - Labs 5, 6, and 7 are due Monday TBD by 11:59pm
 - Working with strings
-    - Lab #8 (9/12) - String processing with `stringr`
-    - Lab 8 is due Wednesday 9/15 by 11:59 pm
+    - Lab #8 - String processing with `stringr`
+    - Lab 8 is due TBD by 11:59 pm
 - Interactive data visualizations
-    - Lab #9 (9/19) - Intro to `plotly`
-    - Lab #10 (9/21) - Making maps with `leaflet` (part 1)
-    - Lab #11 (9/23) - Making maps with `leaflet` (part 2)
-    - Labs 9, 10 and 11 are due Monday 9/26
+    - Lab #9 - Intro to `plotly`
+    - Lab #10 - Making maps with `leaflet` (part 1)
+    - Lab #11 - Making maps with `leaflet` (part 2)
+    - Labs 9, 10 and 11 are due TBD by 11:59pm
 
 ### Recommended Readings
 
