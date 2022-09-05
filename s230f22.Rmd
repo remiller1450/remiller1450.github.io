@@ -30,12 +30,12 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #1 (8/26) - Intro to R (part 1)](s230f22/day1.html)
     - [Lab #2 (8/29 and 8/31) - Intro to R (part 2)](s230f22/intro2.html)
     - [Optional Lab - Hypothesis Testing in R](s230f22/intro_stat.html)
-    - <span style="color: red;"> Labs 1 and 2 are due ~~Wednesday 8/31~~ Friday 9/2 by 11:59pm \span
+    - Labs 1 and 2 are due ~~Wednesday 8/31~~ Friday 9/2 by 11:59pm 
     - You can choose to submit the optional lab for 1 point of extra credit (due Friday 9/2 by 11:59pm, upload w/ your Lab 1 and 2 copies)
 - Basic data visualizations
     - [Lab #3 (9/2) - Intro to `ggplot2`](s230f22/ggplot.html)
-    - Lab #4 - Data Visualization Principles
-    - Labs 3 and 4 are due Friday 9/16 by 11:59pm
+    - [Lab #4 - Data Visualization Principles](s230f22/ggplot2.html)
+    - <span style="color: red;"> Labs 3 and 4 are due Friday 9/9 by 11:59pm \span
 - Data manipulation
     - Lab #5 - Reshaping data with `tidyr`
     - Lab #6 - Wrangling data with `dplyr`
@@ -80,7 +80,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - <span style="color: red;"> Due date: Monday 9/5 at 11:59pm \span
 - Homework #2
     - Topics: Reshaping, wrangling, merging and joining, string processing
-    - Due date: Wednesday 9/15 at 11:59pm
+    - Due date: Monday 9/19 at 11:59pm
 - Homework #3
     - Topics: `plotly`, `leaflet`
     - Due date: TBD
@@ -100,8 +100,8 @@ Throughout the semester there will be 6-7 homework assignments:
 There will be 3 projects throughout the semester. Tentative dates for these projects can be found below:
 
 - [Project #1 - Data Visualization](s230f22/project1.html)
-    - Wednesday 9/14 - work session and meetings
-    - Friday 9/16 - post final product on P-web
+    - Date TBD - work session and meetings
+    - Date TBD - post final product on P-web
 - Project #2 - R Shiny
     - Information coming soon
 - Project #3 - Model-based Data Analysis
