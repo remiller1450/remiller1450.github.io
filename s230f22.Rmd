@@ -34,7 +34,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - You can choose to submit the optional lab for 1 point of extra credit (due Friday 9/2 by 11:59pm, upload w/ your Lab 1 and 2 copies)
 - Basic data visualizations
     - [Lab #3 (9/2) - Intro to `ggplot2`](s230f22/ggplot.html)
-    - [Lab #4 - Data Visualization Principles](s230f22/ggplot2.html)
+    - [Lab #4 (9/5 and 9/7) - Data Visualization Principles](s230f22/ggplot2.html)
     - <span style="color: red;"> Labs 3 and 4 are due Friday 9/9 by 11:59pm \span
 - Data manipulation
     - Lab #5 - Reshaping data with `tidyr`
