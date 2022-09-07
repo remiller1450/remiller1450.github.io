@@ -52,23 +52,28 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 
 ### Recommended Readings
 
-The readings listed below are *recommended* prior to attending class during the week indicated. While not required, it is my observation that students who seek to learn the course content from a variety of perspectives are most successful.
+The following readings are *recommended* in conjunction with the block of material they cover. While not required, it is my observation that students who seek to learn the course material from a variety of perspectives are most successful.
 
-- Week of 8/29 - 9/2 
-    - [Ch 3 - R for Data Science](https://r4ds.had.co.nz/data-visualisation.html)
-    - [Ch 2.1, 2.2, 2.3, 2.4 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizI.html)
-- Week of 9/5 - 9/9
-    - [Ch 4 and Ch 6 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
-    - [Ch 12 - R for Data Science](https://r4ds.had.co.nz/tidy-data.html)
-- Week of 9/12 - 9/16
-    - [Ch 6 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
-    - [Ch 4 - R for Data Science](https://r4ds.had.co.nz/strings.html)
-- Week of 9/19 - 9/23
-    - [Ch 17.1 and 17.2 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
-    - [Ch 2.1 - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
-- Week of 9/26 - 9/30
-    - [Ch 14.4 - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
-    - [Ch 17 - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/linking-views-with-shiny.html)
+- Introduction to R
+    - [Ch 4 (R basics) - R for Data Science](https://r4ds.had.co.nz/workflow-basics.html)
+    - [Ch 27 (R Markdown - R for Data Science)](https://r4ds.had.co.nz/r-markdown.html)
+- Data Visualization
+    - [Ch 3 (Data visualization) - R for Data Science](https://r4ds.had.co.nz/data-visualisation.html)
+    - [Ch 2.1, 2.2, 2.3, 2.4 (Data visualization case study) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizI.html)
+    - [Ch 3 (ggplot) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizII.html)
+- Data Manipulation
+    - [Ch 12 (Tidy data) - R for Data Science](https://r4ds.had.co.nz/tidy-data.html)
+    - [Ch 4 (Data wrangling) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
+    - [Ch 5 (Joins) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
+    - [Ch 13 (Relational data) - R for Data Science](https://r4ds.had.co.nz/relational-data.html)
+- Working with Strings
+    - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)
+- Interactive Data Visualizations
+    - [Ch 2.1 (Intro Plotly) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
+    - [Ch 17 (Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
+- R Shiny
+    - [Ch 14.4 (Shiny) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
+    - [Ch 17 (Shiny) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/linking-views-with-shiny.html)
 
 ### Homework Assignments
 
