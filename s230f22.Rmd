@@ -100,17 +100,13 @@ Throughout the semester there will be 6-7 homework assignments:
 There will be 3 projects throughout the semester. Tentative dates for these projects can be found below:
 
 - [Project #1 - Data Visualization](s230f22/project1.html)
-    - Date TBD - work session and meetings
-    - Date TBD - post final product on P-web
+    - Friday 9/9 by 11:59pm - partners and proposals
+    - Wednesday 9/21 and Friday 9/23 - in-class work sessions and meetings
+    - Friday 9/23 by 11:59pm - post on P-web
+    - Monday 9/26 by 11:59pm - post peer reviews on P-web
 - Project #2 - R Shiny
     - Information coming soon
 - Project #3 - Model-based Data Analysis
     - Information coming soon
 
 *Please note*: these projects do not contribute equally to your final grade. Project #1 is only 5% of your overall grade, making it worth only slightly more than a homework assignment (each worth ~3%)
-
-### Datasets
-
-Links and brief descriptions of the data sets we will use during the semester can be found below:
-
-*Coming soon*
