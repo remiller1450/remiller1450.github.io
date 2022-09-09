@@ -37,10 +37,10 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #4 (9/5 and 9/7) - Data Visualization Principles](s230f22/ggplot2.html)
     - <span style="color: red;"> Labs 3 and 4 are due Friday 9/9 by 11:59pm \span
 - Data manipulation
-    - Lab #5 - Reshaping data with `tidyr`
+    - [Lab #5 - Reshaping data with `tidyr`](s230f22/cleaning.html)
     - Lab #6 - Wrangling data with `dplyr`
     - Lab #7 - Merging and joining
-    - Labs 5, 6, and 7 are due Monday TBD by 11:59pm
+    - Labs 5, 6, and 7 are due Monday 9/19 by 11:59pm
 - Working with strings
     - Lab #8 - String processing with `stringr`
     - Lab 8 is due TBD by 11:59 pm
