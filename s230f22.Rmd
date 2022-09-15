@@ -85,6 +85,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Monday 9/5 at 11:59pm 
 - [Homework #2](s230f22/hw2.html) 
     - Topics: ggplot2, reshaping, wrangling, merging and joining, string processing
+    - [.Rmd Template](s230f22/hw2.zip)
     - <span style="color: red;"> Due date: Monday 9/19 at 11:59pm \span
 - Homework #3
     - Topics: `plotly`, `leaflet`
