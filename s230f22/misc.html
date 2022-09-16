@@ -1720,25 +1720,25 @@ df2 &lt;- data.frame(Year = 2020, val = rnorm(3, mean = 10))
 
 rbind(df1, df2)</code></pre>
 <pre><code>##   Year        val
-## 1 2019 -0.2148714
-## 2 2019  1.0702786
-## 3 2019 -0.7525511
-## 4 2020 11.8625540
-## 5 2020 10.0525268
-## 6 2020  9.7262526</code></pre>
+## 1 2019  0.1742127
+## 2 2019  1.8149197
+## 3 2019  0.2750468
+## 4 2020 11.8330746
+## 5 2020 10.3735570
+## 6 2020  9.7395482</code></pre>
 <p>For two data frames, this result could also be achieved using
 <code>full_join()</code> (though I personally find that approach less
 intuitive):</p>
 <pre class="r"><code>full_join(df1, df2)</code></pre>
 <pre><code>##   Year        val
-## 1 2019 -0.2148714
-## 2 2019  1.0702786
-## 3 2019 -0.7525511
-## 4 2020 11.8625540
-## 5 2020 10.0525268
-## 6 2020  9.7262526</code></pre>
+## 1 2019  0.1742127
+## 2 2019  1.8149197
+## 3 2019  0.2750468
+## 4 2020 11.8330746
+## 5 2020 10.3735570
+## 6 2020  9.7395482</code></pre>
 <p><strong>Question #5</strong>: Use <code>rbind()</code> to combine the
-four data files in the “experiment” folder (used in Question #3) into a
+four data files in the “experiment” folder (used in Question #4) into a
 single data frame. Be sure to add a participant identifier to each file
 as a preliminary step. Print the dimensions of the resulting data frame
 using <code>dim()</code>. <em>Hint</em>: You may choose to use
