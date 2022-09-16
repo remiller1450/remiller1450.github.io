@@ -40,7 +40,9 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #5 - Reshaping data with `tidyr`](s230f22/cleaning.html)
     - [Lab #6 - Wrangling data with `dplyr`](s230f22/cleaning2.html)
     - [Lab #7 - Merging and joining with `dplyr`](s230f22/cleaning3.html)
+    - [Optional Lab - Functions, Iteration, and Files](s230f22/misc.html)
     - <span style="color: red;"> Labs 5, 6, and 7 are due Monday 9/19 by 11:59pm \span
+    - You can choose to submit the optional lab for 1 point of extra credit (due at the same time as Labs 5, 6, and 7)
 - Working with strings
     - Lab #8 - String processing with `stringr`
     - Lab 8 is due TBD by 11:59 pm
