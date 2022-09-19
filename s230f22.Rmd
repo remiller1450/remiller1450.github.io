@@ -44,8 +44,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - <span style="color: red;"> Labs 5, 6, and 7 are due Monday 9/19 by 11:59pm \span
     - You can choose to submit the optional lab for 1 point of extra credit (due at the same time as Labs 5, 6, and 7)
 - Working with strings
-    - Lab #8 - String processing with `stringr`
-    - Lab 8 is due TBD by 11:59 pm
+    - [Lab #8 - String processing with `stringr`](s230f22/strings.html)
+    - Lab 8 is due Wednesday 9/21 by 11:59 pm
 - Interactive data visualizations
     - Lab #9 - Intro to `plotly`
     - Lab #10 - Making maps with `leaflet` (part 1)
