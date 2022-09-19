@@ -2708,8 +2708,8 @@ regex look exactly like the pattern you’re trying to find. For example
 <em>wildcard</em>, which can match <em>any character</em>.</p>
 <p>Consider searching for <code>&quot;.a.&quot;</code> in
 <code>y = c(&quot;apple&quot;, &quot;banana&quot;, &quot;pear&quot;)</code>:</p>
-<div id="htmlwidget-797ae6f7478c8657e195" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-797ae6f7478c8657e195">{"x":{"html":"<ul>\n  <li>apple<\/li>\n  <li><span class='match'>ban<\/span>ana<\/li>\n  <li>p<span class='match'>ear<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-dd5656f79c7baee67fea" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dd5656f79c7baee67fea">{"x":{"html":"<ul>\n  <li>apple<\/li>\n  <li><span class='match'>ban<\/span>ana<\/li>\n  <li>p<span class='match'>ear<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 <p>The patterns matching <code>&quot;.a.&quot;</code> are highlighted above.
 Notice each match has the character “a” surrounded by exactly one
 character (of any identity) on both sides.</p>
@@ -2789,7 +2789,7 @@ shortcuts that are worth knowing:</p>
 <li><code>\\s</code> will match any white space (ie: a space, a tab, or
 a newline)</li>
 <li><code>[^abd]</code> will match anything character other than “a”,
-“b” or “c”. When used inside a square parentheses <code>^</code>
+“b” or “d”. When used inside a square parentheses <code>^</code>
 operates differently (recall it’s used in anchoring).</li>
 <li><code>()</code> can be used for organization and will not influence
 pattern matching.</li>
@@ -2831,12 +2831,12 @@ brackets, such as [8] or (8), or html tags, such as
 <pre class="r"><code>out &lt;- c(&quot;abc[8]&quot;, &quot;abc[9][20]&quot;, &quot;abc[9]def[10][7]&quot;, &quot;abc[]&quot;)</code></pre>
 <p>The regex pattern <code>&quot;\\[([^]]*)\\]&quot;</code> will produce the
 following matches:</p>
-<div id="htmlwidget-777abe814be0e3e4e89b" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-777abe814be0e3e4e89b">{"x":{"html":"<ul>\n  <li>abc<span class='match'>[8]<\/span><\/li>\n  <li>abc<span class='match'>[9]<\/span><span class='match'>[20]<\/span><\/li>\n  <li>abc<span class='match'>[9]<\/span>def<span class='match'>[10]<\/span><span class='match'>[7]<\/span><\/li>\n  <li>abc<span class='match'>[]<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e1ca252ac9fce7c228e1" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e1ca252ac9fce7c228e1">{"x":{"html":"<ul>\n  <li>abc<span class='match'>[8]<\/span><\/li>\n  <li>abc<span class='match'>[9]<\/span><span class='match'>[20]<\/span><\/li>\n  <li>abc<span class='match'>[9]<\/span>def<span class='match'>[10]<\/span><span class='match'>[7]<\/span><\/li>\n  <li>abc<span class='match'>[]<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 <p>The regex pattern <code>&quot;\\[(.*)\\]&quot;</code> will produce the
 following:</p>
-<div id="htmlwidget-22ea0c56663d578ab4df" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-22ea0c56663d578ab4df">{"x":{"html":"<ul>\n  <li>abc<span class='match'>[8]<\/span><\/li>\n  <li>abc<span class='match'>[9][20]<\/span><\/li>\n  <li>abc<span class='match'>[9]def[10][7]<\/span><\/li>\n  <li>abc<span class='match'>[]<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-4da2a79a10e920974a98" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4da2a79a10e920974a98">{"x":{"html":"<ul>\n  <li>abc<span class='match'>[8]<\/span><\/li>\n  <li>abc<span class='match'>[9][20]<\/span><\/li>\n  <li>abc<span class='match'>[9]def[10][7]<\/span><\/li>\n  <li>abc<span class='match'>[]<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 <p>Notice how <code>[^]]</code> is necessary to match any character
 besides a the right bracket <code>]</code>.</p>
 <p><strong>Question #5</strong>: Some people might choose to wrap the
