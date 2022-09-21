@@ -32,7 +32,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Optional Lab - Hypothesis Testing in R](s230f22/intro_stat.html)
     - Labs 1 and 2 are due ~~Wednesday 8/31~~ Friday 9/2 by 11:59pm 
     - You can choose to submit the optional lab for 1 point of extra credit (due Friday 9/2 by 11:59pm, upload w/ your Lab 1 and 2 copies)
-- Basic data visualizations
+- Data visualization
     - [Lab #3 (9/2) - Intro to `ggplot2`](s230f22/ggplot.html)
     - [Lab #4 (9/5 and 9/7) - Data Visualization Principles](s230f22/ggplot2.html)
     - Labs 3 and 4 are due Friday 9/9 by 11:59pm 
@@ -41,16 +41,15 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #6 - Wrangling data with `dplyr`](s230f22/cleaning2.html)
     - [Lab #7 - Merging and joining with `dplyr`](s230f22/cleaning3.html)
     - [Optional Lab - Functions, Iteration, and Files](s230f22/misc.html)
-    - <span style="color: red;"> Labs 5, 6, and 7 are due Monday 9/19 by 11:59pm \span
+    - Labs 5, 6, and 7 are due Monday 9/19 by 11:59pm 
     - You can choose to submit the optional lab for 1 point of extra credit (due at the same time as Labs 5, 6, and 7)
 - Working with strings
     - [Lab #8 - String processing with `stringr`](s230f22/strings.html)
-    - Lab 8 is due Wednesday 9/21 by 11:59 pm
+    - <span style="color: red;"> Lab 8 is due Wednesday 9/21 by 11:59 pm \span
 - Interactive data visualizations
     - Lab #9 - Intro to `plotly`
-    - Lab #10 - Making maps with `leaflet` (part 1)
-    - Lab #11 - Making maps with `leaflet` (part 2)
-    - Labs 9, 10 and 11 are due TBD by 11:59pm
+    - Lab #10 - Making maps with `leaflet`
+    - Labs 9 and 10 are due Friday 9/30 by 11:59pm
 
 ### Recommended Readings
 
@@ -88,10 +87,10 @@ Throughout the semester there will be 6-7 homework assignments:
 - [Homework #2](s230f22/hw2.html) 
     - Topics: ggplot2, reshaping, wrangling, merging and joining, string processing
     - [.Rmd Template](s230f22/hw2.zip)
-    - <span style="color: red;"> Due date: Monday 9/19 at 11:59pm \span
-- Homework #3
-    - Topics: `plotly`, `leaflet`
-    - Due date: TBD
+    - Due date: Monday 9/19 at 11:59pm
+- Homework #3 (coming soon, start with Question #5 from HW 2)
+    - Topics: string processing, `plotly`, `leaflet`
+    - <span style="color: red;"> Due date: Monday 10/3 at 11:59pm \span
 - Homework #4
     - Topics: Dimension reduction and multivariate analysis
     - Due date: TBD
