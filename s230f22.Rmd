@@ -112,9 +112,9 @@ There will be 3 projects throughout the semester. Tentative dates for these proj
     - Wednesday 9/21 and Friday 9/23 - in-class work sessions and meetings
     - Friday 9/23 by 11:59pm - post on P-web
     - Monday 9/26 by 11:59pm - post peer reviews on P-web
-- Project #2 - R Shiny
-    - Information coming soon
-- Project #3 - Model-based Data Analysis
+- [Project #2 - R Shiny](s230f22/project2.html)
+    - Due dates TBD (pending class survey results)
+- Project #3 - Modeling and Data Analysis
     - Information coming soon
 
 *Please note*: these projects do not contribute equally to your final grade. Project #1 is only 5% of your overall grade, making it worth only slightly more than a homework assignment (each worth ~3%)
