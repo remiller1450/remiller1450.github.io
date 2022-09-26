@@ -45,11 +45,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - You can choose to submit the optional lab for 1 point of extra credit (due at the same time as Labs 5, 6, and 7)
 - Working with strings
     - [Lab #8 - String processing with `stringr`](s230f22/strings.html)
-    - <span style="color: red;"> Lab 8 is due Wednesday 9/21 by 11:59 pm \span
+    - Lab 8 is due Wednesday 9/21 by 11:59 pm 
 - Interactive data visualizations
-    - Lab #9 - Intro to `plotly`
+    - [Lab #9 - Intro to `plotly`](s230f22/plotly.html)
     - Lab #10 - Making maps with `leaflet`
-    - Labs 9 and 10 are due Friday 9/30 by 11:59pm
+    - <span style="color: red;"> Labs 9 and 10 are due Friday 9/30 by 11:59pm \span
 
 ### Recommended Readings
 
@@ -71,7 +71,7 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)
 - Interactive Data Visualizations
     - [Ch 2.1 (Intro Plotly) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
-    - [Ch 17 (Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
+    - [Ch 17 (Maps/Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
 - R Shiny
     - [Ch 14.4 (Shiny) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
     - [Ch 17 (Shiny) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/linking-views-with-shiny.html)
@@ -90,7 +90,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Monday 9/19 at 11:59pm
 - Homework #3 (coming soon, start with Question #5 from HW 2)
     - Topics: string processing, `plotly`, `leaflet`
-    - <span style="color: red;"> Due date: Monday 10/3 at 11:59pm \span
+    - <span style="color: red;"> Due date: Wednesday 10/5 at 11:59pm \span
 - Homework #4
     - Topics: Dimension reduction and multivariate analysis
     - Due date: TBD
@@ -112,7 +112,7 @@ There will be 3 projects throughout the semester. Tentative dates for these proj
     - Friday 9/23 by 11:59pm - post on P-web
     - Monday 9/26 by 11:59pm - post peer reviews on P-web
 - [Project #2 - R Shiny](s230f22/project2.html)
-    - Due dates TBD (pending class survey results)
+    - Presentations during class on Monday 10/10 and Monday 10/24
 - Project #3 - Modeling and Data Analysis
     - Information coming soon
 
