@@ -48,7 +48,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - Lab 8 is due Wednesday 9/21 by 11:59 pm 
 - Interactive data visualizations
     - [Lab #9 - Intro to `plotly`](s230f22/plotly.html)
-    - Lab #10 - Making maps with `leaflet`
+    - [Lab #10 - Making maps with `ggplot` and `leaflet`](s230f22/maps.html)
     - <span style="color: red;"> Labs 9 and 10 are due Friday 9/30 by 11:59pm \span
 
 ### Recommended Readings
@@ -112,6 +112,7 @@ There will be 3 projects throughout the semester. Tentative dates for these proj
     - Friday 9/23 by 11:59pm - post on P-web
     - Monday 9/26 by 11:59pm - post peer reviews on P-web
 - [Project #2 - R Shiny](s230f22/project2.html)
+    - Project sign-ups Friday 9/30
     - Presentations during class on Monday 10/10 and Monday 10/24
 - Project #3 - Modeling and Data Analysis
     - Information coming soon
