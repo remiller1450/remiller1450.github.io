@@ -49,7 +49,16 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Interactive data visualizations
     - [Lab #9 - Intro to `plotly`](s230f22/plotly.html)
     - [Lab #10 - Making maps with `ggplot` and `leaflet`](s230f22/maps.html)
-    - <span style="color: red;"> Labs 9 and 10 are due Friday 9/30 by 11:59pm \span
+    - <span style="color: red;"> Labs 9 and 10 are due Monday 10/3 by 11:59pm \span
+- Interactive web applications
+    - [Lab #11 - Intro to R Shiny](s230f22/plotly.html)
+    - Lab 11 is due Wednesday 10/5 by 11:59pm
+- Dimension reduction and principal component analysis
+- Clustering
+- Modeling a numeric outcome
+- Modeling a categorical outcome
+- Tree-based models
+- Variable selection and penalized regression
 
 ### Recommended Readings
 
@@ -75,7 +84,20 @@ The following readings are *recommended* in conjunction with the block of materi
 - R Shiny
     - [Ch 14.4 (Shiny) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
     - [Ch 17 (Shiny) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/linking-views-with-shiny.html)
-
+- Dimension Reduction and PCA
+    - [Ch 12.1 and 12.2 (PCA) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Clustering
+    - [Ch 12.4 (Clustering) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Modeling a numeric outcome
+    - [Ch 2.1 and 2.2 (Concepts in stat learning) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+    - [Ch 3.1, 3.2, and 3.3 (linear regression) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Modeling a categorical outcome
+    - [Ch 4.1, 4.2, and 4.3 (Classification and logistic regression) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Tree-based models
+     - [Ch 8.1 and 8.2 (Decision trees and random forests) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Penalized regression
+     - [Ch 6.1, 6.2, and 6.4 (Variable selection and shrinkage methods) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+     
 ### Homework Assignments
 
 Throughout the semester there will be 6-7 homework assignments:
