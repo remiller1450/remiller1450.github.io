@@ -51,7 +51,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #10 - Making maps with `ggplot` and `leaflet`](s230f22/maps.html)
     - <span style="color: red;"> Labs 9 and 10 are due Monday 10/3 by 11:59pm \span
 - Interactive web applications
-    - [Lab #11 - Intro to R Shiny](s230f22/plotly.html)
+    - [Lab #11 - Intro to R Shiny](s230f22/shiny.html)
     - Lab 11 is due Wednesday 10/5 by 11:59pm
 - Dimension reduction and principal component analysis
 - Clustering
