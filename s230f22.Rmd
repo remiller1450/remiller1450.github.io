@@ -49,14 +49,23 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Interactive data visualizations
     - [Lab #9 - Intro to `plotly`](s230f22/plotly.html)
     - [Lab #10 - Making maps with `ggplot` and `leaflet`](s230f22/maps.html)
-    - <span style="color: red;"> Labs 9 and 10 are due Monday 10/3 by 11:59pm \span
+    - Labs 9 and 10 are due Monday 10/3 by 11:59pm
 - Interactive web applications
     - [Lab #11 - Intro to R Shiny](s230f22/shiny.html)
     - Lab 11 is due Wednesday 10/5 by 11:59pm
-- Dimension reduction and principal component analysis
+- Principal component analysis
+    - Lab #11 - Principal components analysis (part 1)
+    - Lab #12 - Principal components analysis (part 2)
+    - <span style="color: red;"> Labs 11 and 12 are due Monday 10/31 by 11:59pm \span
 - Clustering
+    - Lab #13 - Segmentation methods
+    - Lab #14 - Hierarchical methods
 - Modeling a numeric outcome
+    - Lab #14 - Linear regression and K-nearest neighbors
+    - Lab #15 - Cross-validation
 - Modeling a categorical outcome
+    - Lab #16 - Logistic regression
+    - Lab #17 - Expressing model accuracy
 - Tree-based models
 - Variable selection and penalized regression
 
