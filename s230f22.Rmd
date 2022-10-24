@@ -54,12 +54,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #11 - Intro to R Shiny](s230f22/shiny.html)
     - Lab 11 is due Wednesday 10/5 by 11:59pm
 - Principal component analysis
-    - Lab #11 - Principal components analysis (part 1)
-    - Lab #12 - Principal components analysis (part 2)
-    - <span style="color: red;"> Labs 11 and 12 are due Monday 10/31 by 11:59pm \span
+    - [Lab #11 - Principal component analysis](s230f22/pca.html)
+    - <span style="color: red;"> Labs 11 is due Monday 10/31 by 11:59pm \span
 - Clustering
-    - Lab #13 - Segmentation methods
-    - Lab #14 - Hierarchical methods
+    - Lab #12 - Partitional methods
+    - Lab #13 - Hierarchical methods
 - Modeling a numeric outcome
     - Lab #14 - Linear regression and K-nearest neighbors
     - Lab #15 - Cross-validation
@@ -121,10 +120,10 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Monday 9/19 at 11:59pm
 - [Homework #3](s230f22/hw3.html) 
     - Topics: string processing, `plotly`, `leaflet`
-    - <span style="color: red;"> Due date: Wednesday 10/5 at 11:59pm \span
+    - Due date: Wednesday 10/5 at 11:59pm
 - Homework #4
-    - Topics: Dimension reduction and multivariate analysis
-    - Due date: TBD
+    - Topics: Principal component analysis
+    - <span style="color: red;"> Due date: Friday 11/4 at 11:59pm \span
 - Homework #5
     - Topics: Clustering 
 - Homework #6
