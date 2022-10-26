@@ -1757,14 +1757,6 @@ create a graphic that displays the <span class="math inline">\(PC_1\)</span> and
 Iowa</em>. Briefly comment on the position of Grinnell College in this
 graph, mentioning why you think its location is so far from the other
 Iowa colleges.</p>
-<pre class="r"><code>scd &lt;- scale(cd[,c(-1,-2)])
-PC &lt;- prcomp(scd)
-
-scores &lt;- as.data.frame(PC$x)
-ia_pca &lt;- scores[which(cd$State == &quot;IA&quot;),1:2]
-ia_pca$State &lt;- cd$Name[which(cd$State == &quot;IA&quot;)]
-
-ggplot(ia_pca, aes(x = PC1, y = PC2, label = State)) + geom_text()</code></pre>
 <p><span class="math inline">\(~\)</span></p>
 </div>
 <div id="variable-contributions" class="section level3">
