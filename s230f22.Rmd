@@ -121,9 +121,9 @@ Throughout the semester there will be 6-7 homework assignments:
 - [Homework #3](s230f22/hw3.html) 
     - Topics: string processing, `plotly`, `leaflet`
     - Due date: Wednesday 10/5 at 11:59pm
-- Homework #4
+- [Homework #4](s230f22/hw4.html)
     - Topics: Principal component analysis
-    - <span style="color: red;"> Due date: Friday 11/4 at 11:59pm \span
+    - <span style="color: red;"> Due date: Wednesday 11/2 at 11:59pm \span
 - Homework #5
     - Topics: Clustering 
 - Homework #6
