@@ -54,17 +54,17 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #11 - Intro to R Shiny](s230f22/shiny.html)
     - Lab 11 is due Wednesday 10/5 by 11:59pm
 - Principal component analysis
-    - [Lab #11 - Principal component analysis](s230f22/pca.html)
-    - <span style="color: red;"> Labs 11 is due Monday 10/31 by 11:59pm \span
+    - [Lab #12 - Principal component analysis](s230f22/pca.html)
+    - <span style="color: red;"> Labs 12 is due Monday 10/31 by 11:59pm \span
 - Clustering
-    - Lab #12 - Partitional methods
-    - Lab #13 - Hierarchical methods
+    - Lab #13 - Partitional methods
+    - Lab #14 - Hierarchical methods
 - Modeling a numeric outcome
-    - Lab #14 - Linear regression and K-nearest neighbors
-    - Lab #15 - Cross-validation
+    - Lab #15 - Linear regression and K-nearest neighbors
+    - Lab #16 - Cross-validation
 - Modeling a categorical outcome
-    - Lab #16 - Logistic regression
-    - Lab #17 - Expressing model accuracy
+    - Lab #17 - Logistic regression
+    - Lab #18 - Expressing model accuracy
 - Tree-based models
 - Variable selection and penalized regression
 
