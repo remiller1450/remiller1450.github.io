@@ -57,7 +57,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #12 - Principal component analysis](s230f22/pca.html)
     - <span style="color: red;"> Labs 12 is due Monday 10/31 by 11:59pm \span
 - Clustering
-    - Lab #13 - Partitional methods
+    - [Lab #13 - Partitional methods](s230f22/clustering1.html)
     - Lab #14 - Hierarchical methods
 - Modeling a numeric outcome
     - Lab #15 - Linear regression and K-nearest neighbors
