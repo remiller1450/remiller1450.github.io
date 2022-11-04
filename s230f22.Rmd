@@ -55,10 +55,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - Lab 11 is due Wednesday 10/5 by 11:59pm
 - Principal component analysis
     - [Lab #12 - Principal component analysis](s230f22/pca.html)
-    - <span style="color: red;"> Labs 12 is due Monday 10/31 by 11:59pm \span
+    - Lab 12 is due Monday 10/31 by 11:59pm
 - Clustering
     - [Lab #13 - Partitional methods](s230f22/clustering1.html)
-    - Lab #14 - Hierarchical methods
+    - [Lab #14 - Hierarchical methods](s230f22/clustering2.html)
+    - <span style="color: red;"> Labs 13 and 14 are due Monday 11/7 by 11:59pm \span
 - Modeling a numeric outcome
     - Lab #15 - Linear regression and K-nearest neighbors
     - Lab #16 - Cross-validation
@@ -123,9 +124,10 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Wednesday 10/5 at 11:59pm
 - [Homework #4](s230f22/hw4.html)
     - Topics: Principal component analysis
-    - <span style="color: red;"> Due date: Wednesday 11/2 at 11:59pm \span
-- Homework #5
+    - Due date: Wednesday 11/2 at 11:59pm
+- [Homework #5](s230f22/hw5.html)
     - Topics: Clustering 
+    - <span style="color: red;"> Due date: Friday 11/11 at 11:59pm \span
 - Homework #6
     - Topics: Modeling foundations, regression, k-nearest neighbors
 - Homework #7
