@@ -2390,7 +2390,7 @@ by using <code>View(as.matrix(D))</code>.</p>
 <p><strong>Part C</strong>: If this dendrogram were cut to obtain <span class="math inline">\(k = 3\)</span> clusters, how many members would
 belong to the largest of these clusters? <em>Note</em>: You may answer
 this question without writing any of your own code.</p>
-<pre class="r"><code>data(&quot;USARrests&quot;)
+<pre class="r"><code>data(&quot;USArrests&quot;)
 USArrests_std &lt;- scale(USArrests)
 D &lt;- daisy(USArrests_std, metric = &quot;euclidean&quot;)
 
@@ -2468,7 +2468,7 @@ foods in their house at the time of the questionnaire. The data below
 display the percentage of households in each country that had the food
 in question.</p>
 <pre class="r"><code>euro &lt;- read.csv(&quot;https://remiller1450.github.io/data/europeanfoods.csv&quot;, row.names = 1, stringsAsFactors = TRUE)</code></pre>
-<p><strong>Part A</strong>: Create a distance matrix using Gower
+<p><strong>Part A</strong>: Create a distance matrix using euclidean
 distance <em>without standardizing</em> (since all variables are already
 on the same 0-100 scale). Then, visualize this matrix using
 <code>fviz_dist()</code>. Which country’s household food habits are
