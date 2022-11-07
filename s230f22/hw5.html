@@ -469,9 +469,11 @@ InvoiceNumbers) and the length of this vector would reflect the number
 of distinct orders.</p>
 <p><strong>Part D</strong>: Use the results of Parts A-C to construct a
 data frame containing the numeric variables “Receny”, “MonetaryValue”,
-and “Frequency”, with the customer IDs as row names. Then, use the
-“Elbow Method” to determine a reasonable number of <span class="math inline">\(k\)</span>-means clusters for these data.
-<em>Hint</em>: Remember to standardize the data prior to clustering.</p>
+and “Frequency” by properly merging the results of Parts A-C using the
+variable “CustomerID”. Then, use the “Elbow Method” to determine a
+reasonable number of <span class="math inline">\(k\)</span>-means
+clusters for these data. <em>Hint</em>: Remember to standardize the data
+prior to clustering.</p>
 <p><strong>Part E</strong>: Using the value of <span class="math inline">\(k\)</span> you selected in Part D, perform <span class="math inline">\(k\)</span>-means clustering and report each
 cluster centroid. Then, using these centroids, provide a brief written
 description of the members of each cluster (ie: “Infrequent large
