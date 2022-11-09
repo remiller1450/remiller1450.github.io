@@ -59,10 +59,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Clustering
     - [Lab #13 - Partitional methods](s230f22/clustering1.html)
     - [Lab #14 - Hierarchical methods](s230f22/clustering2.html)
-    - <span style="color: red;"> Labs 13 and 14 are due Monday 11/7 by 11:59pm \span
+    -  Labs 13 and 14 are due Monday 11/7 by 11:59pm 
 - Modeling a numeric outcome
-    - Lab #15 - Linear regression and K-nearest neighbors
-    - Lab #16 - Cross-validation
+    - [Lab #15 - Linear regression and K-nearest neighbors](s230f22/numeric.html)
+    - Lab #16 - Cross-validation and model evaluation
+    - <span style="color: red;"> Due date TBD \span
 - Modeling a categorical outcome
     - Lab #17 - Logistic regression
     - Lab #18 - Expressing model accuracy
