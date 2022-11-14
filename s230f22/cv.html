@@ -2022,6 +2022,8 @@ contribute to the model.</p>
 observations without any missing data. The goal in this analysis is to
 model the median 10 year salary of college’s alumni using the other
 variables contained in <code>cd</code>.</p>
+<pre class="r"><code>colleges &lt;- read.csv(&quot;https://remiller1450.github.io/data/Colleges2019.csv&quot;)
+cd &lt;- colleges %&gt;% filter(complete.cases(colleges))</code></pre>
 <p><strong>Part A</strong>: Recall that <code>glmnet()</code> requires
 an outcome vector, <code>y</code>, and a model matrix, <code>X</code>.
 For this question, set up a vector named <code>cd_y</code> that contains
