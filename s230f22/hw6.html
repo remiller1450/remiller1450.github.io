@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-230 Final Project</title>
+<title>Homework #6</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -361,224 +361,157 @@ pre code {
 
 
 
-<h1 class="title toc-ignore">Sta-230 Final Project</h1>
+<h1 class="title toc-ignore">Homework #6</h1>
 
 </div>
 
 
-<div id="description" class="section level2">
-<h2>Description</h2>
-<p>This project is a start-to-finish data science application on a
-non-trivial data set of your choosing. The final product is a three-page
-written report accompanied by R code and documentation.</p>
+<div id="directions" class="section level3">
+<h3>Directions</h3>
+<p>Please document your answers to all homework questions using R
+Markdown, submitting your compiled output on P-web.</p>
+<p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="goals" class="section level2">
-<h2>Goals</h2>
-<ol style="list-style-type: decimal">
-<li><strong>Mastery</strong>: Demonstrate a high level of competence in
-concepts, methods, and tools we covered during the semester (ie:
-<code>ggplot2</code> graphics, data wrangling, etc.)</li>
-<li><strong>Communication</strong>: Use familiar data science tools to
-take a complex data set and communicate important trends, relationships,
-and results to a general audience</li>
-<li><strong>Research</strong>: Learn about and apply one or more new
-data science tools or methods. This could involve researching a
-completely new method, or an in-depth self-study of a method introduced
-in class.</li>
-</ol>
+<div id="question-1-no-r-needed" class="section level2">
+<h2>Question #1 (no <code>R</code> needed)</h2>
+<p>Suppose a researcher collects data (n = 100 observations) consisting
+of a single numeric predictor, <span class="math inline">\(X\)</span>,
+and a numeric response, <span class="math inline">\(Y\)</span>. They are
+considering analyzing these data using either a simple linear regression
+model, or a cubic regression model (ie: <span class="math inline">\(Y =
+\beta_0 + \beta_1 x + \beta_2 x^2 + \beta_3 x^3 +
+\epsilon\)</span>).</p>
+<p><strong>Part A</strong>: Suppose that the true relationship between X
+and Y is linear. Consider the <em>in-sample</em> <span class="math inline">\(RMSE\)</span> of the simple linear regression
+model and the <em>in-sample</em> <span class="math inline">\(RMSE\)</span> of the cubic regression. Do you
+expect one to be lower than the other, do you expect them to be the
+same, or is there not enough information to tell? Justify your
+answer.</p>
+<p><strong>Part B</strong>: Answer the question stated Part A, but this
+time for the <em>out-of-sample</em> <span class="math inline">\(RMSE\)</span> rather than the <em>in-sample</em>
+<span class="math inline">\(RMSE\)</span>.</p>
+<p><strong>Part C</strong>: Now suppose that the true relationship
+between X and Y is <em>not linear</em>, but we don’t know how far it is
+from linear. Consider the <em>in-sample</em> <span class="math inline">\(RMSE\)</span> of the simple linear regression
+model and the <em>in-sample</em> <span class="math inline">\(RMSE\)</span> of the cubic regression. Do you
+expect one to be lower than the other, do you expect them to be the
+same, or is there not enough information to tell? Justify your
+answer.</p>
+<p><strong>Part D</strong>: Answer the question stated Part C, but this
+time for the <em>out-of-sample</em> <span class="math inline">\(RMSE\)</span> rather than the <em>in-sample</em>
+<span class="math inline">\(RMSE\)</span>.</p>
+<p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="general-details" class="section level2">
-<h2>General Details</h2>
-<p>Your project is expected to include:</p>
-<ul>
-<li><strong>Data processing and cleaning</strong>
-<ul>
-<li>This includes merging/joining, string manipulations, tidying, and
-deriving new variables</li>
-</ul></li>
-<li><strong>Data visualization</strong>
-<ul>
-<li>This includes creating <em>at least two</em> professional quality
-visuals</li>
-<li>Alternatively, you may create an <code>RShiny</code> app as a
-substitute for this requirement</li>
-</ul></li>
-<li><strong>Modeling</strong>
-<ul>
-<li>You may use any supervised or unsupervised modeling approach
-suitable for your data and research question</li>
-<li>You are expected to be able to answer questions about how your model
-works, which likely requires you <em>research the method</em>. For
-example, if you decide that a random forest is the best model for your
-application, you should do enough research to able to explain random
-forests at a conceptual level.</li>
-</ul></li>
-</ul>
-<p><strong>Remarks on Balance</strong>: Not all of these components need
-to contribute equally to your project. Data sets that require
-substantial cleaning and manipulation will be evaluated more leniently
-when it comes to visualization and modeling, while data sets requiring
-less cleaning and manipulation will have higher expectations for the
-visualization and model components of the project.</p>
+<div id="question-2-no-r-needed" class="section level2">
+<h2>Question #2 (no <code>R</code> needed)</h2>
+<p>This question is based upon the <code>R</code> code given below. You
+will not need to write any additional code of your own to answer its
+components. This code involves the “tips” data set, which is described
+in greater detail in Question #4.</p>
+<pre class="r"><code>tips &lt;- read.csv(&quot;https://remiller1450.github.io/data/Tips.csv&quot;)
+set.seed(123)
+n &lt;- nrow(tips)
+fold_id &lt;- sample(rep(1:4, length.out = n), size = n)
+preds &lt;- numeric(n)
+
+for(k in 1:max(fold_id)){
+  train &lt;- tips[fold_id != k, ]
+  test &lt;- tips[fold_id == k, ]
+  mod &lt;- lm(Tip ~ as.factor(Size), data = train)
+  preds[fold_id == k] &lt;- predict(mod, newdata = test)
+}</code></pre>
+<p><strong>Part A</strong>: You should recognize that this code is an
+implementation of <span class="math inline">\(k\)</span>-fold
+cross-validation. How many folds does it use? How many observations are
+assigned to each fold?</p>
+<p><strong>Part B</strong>: Before the for loop begins,
+<code>preds</code> is a numeric vector filled entirely with zeros. After
+the loop’s <em>first iteration</em>, how many elements in this vector
+will have a non-zero value? Briefly explain.</p>
+<p><strong>Part C</strong>: After the for loop has finished <em>three
+iterations</em>, how many elements in the vector <code>preds</code> will
+have non-zero values? Briefly explain.</p>
+<p><strong>Part D</strong>: When the for loop is finished, the vector
+<code>preds</code> will be entirely comprised of non-zero values. How
+many fitted linear regression models contributed to these predictions
+across the entirety of the loop? Briefly explain.</p>
+<p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="groups" class="section level2">
-<h2>Groups</h2>
-<p>You will to work in a group of 2 or 3 (including yourself). You may
-choose your group members, or you may asked to be randomly assigned into
-a group.</p>
+<div id="question-3" class="section level2">
+<h2>Question #3</h2>
+<p>This question uses the <code>Auto</code> data set contained in the
+“ISLR” package (a companion to our recommended textbook, Introduction to
+Statistical Learning). This data set contains information describing
+<span class="math inline">\(n=392\)</span> vehicles.</p>
+<pre class="r"><code>#install.packages(&quot;ISLR&quot;)
+library(ISLR)
+data(&quot;Auto&quot;)</code></pre>
+<p><strong>Part A</strong>: Use the <code>pairs()</code> function to
+create a scatter plot matrix displaying the numeric variables in this
+data set. Omit the variable “year” and all categorical variables before
+creating this plot. <em>Hint</em>: some categorical variables might be
+coded numerically.</p>
+<p><strong>Part B</strong>: “Collinearity” is a statistical term used to
+describe situations in which one or more of the explanatory variables
+used in a multiple regression model can be predicted by the others with
+a high degree accuracy. Based upon your findings in Part A, is
+collinearity a potential concern if the outcome “mpg” were modeled using
+all available numeric predictors? Briefly explain.</p>
+<p><strong>Part C</strong>: Consider the following regression models:
+<code>mpg ~ horsepower</code> and
+<code>mpg ~ horsepower + weight</code>. How does the estimated effect of
+“horsepower” change when “weight” is added to the model? Why do you
+think this change occurs?</p>
+<p><strong>Part D</strong>: Use 6-fold cross-validation to estimate the
+<em>out-of-sample</em> <span class="math inline">\(RMSE\)</span> of both
+models described in Part C.</p>
+<p><strong>Part E</strong>: Consider modeling the outcome “mpg” using a
+<span class="math inline">\(k\)</span>-nearest neighbors model with
+<span class="math inline">\(k = 20\)</span> (approximately <span class="math inline">\(\sqrt{n}\)</span>) and a multiple regression
+model, with both models using all predictors besides name, origin, and
+year. Estimate the <em>out-of-sample</em> <span class="math inline">\(RMSE\)</span> of each model using 6-fold
+cross-validation.</p>
+<p><strong>Part F</strong>: Do zero, one, or both of the models you
+evaluated in Part E outperform the best model you identified in Part D?
+Briefly explain.</p>
+<p><strong>Part G</strong>: Create a scatter plot of “horsepower”
+vs. “mpg” and graph the best performing model in this application
+(considering all of the models from Parts C-F). If this model includes
+additional explanatory variables, hold them at their median value when
+creating the graph.</p>
+<p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="data-sources" class="section level2">
-<h2>Data Sources</h2>
-<p>You are allowed to choose your own data source with the following
-exceptions:</p>
-<ol style="list-style-type: decimal">
-<li>It cannot come from a crowd-sourcing website (such as kaggle.com or
-data.world)</li>
-<li>It cannot come from a textbook or R package</li>
-</ol>
-<p>If you need help finding a suitable data source, you can consult with
-the “Data Sources” section of <a href="https://remiller1450.github.io/project_ideas.html">this
-page</a>.</p>
-<p>Additionally, I encourage you to work with data that interests you.
-So, if you’ve worked on a research project in another class or over the
-summer, you may re-use that data.</p>
-</div>
-<div id="report-details" class="section level2">
-<h2>Report Details</h2>
-<p>The project report will follow the <a href="https://www.causeweb.org/usproc/usclap">Undergraduate Class
-Project Competition (USCLAP)</a> guidelines. To summarize, the project
-should be <em>no more than three pages</em> (single-spaced) and should
-include:</p>
-<ul>
-<li>A <em>title page</em> with a one paragraph abstract (150-word
-maximum)</li>
-<li>An <em>introduction</em> that includes a clearly stated research
-question and background on the topic</li>
-<li>A <em>methods section</em> that describes how the data were
-obtained, processed, and analyzed</li>
-<li>A <em>results section</em> that presents key findings using text,
-figures, and tables</li>
-<li>A <em>discussion section</em> that puts the results into context,
-addresses limitations or assumptions, and describes possible future
-research</li>
-<li>A list of <em>references</em> (which does not contribute to the
-three-page limit)</li>
-</ul>
-<p>You are encouraged to include additional figures, tables, and text in
-a supplemental appendix. The appendix can contain the results of
-secondary analyses, evaluations of model assumptions, supplemental
-visualizations, etc. The purpose of this section is to share substantive
-work that you’ve done that isn’t necessary to understand to your final
-results.</p>
-<p>For examples of how the paper should be formatted, you can view the
-submissions of <a href="https://www.causeweb.org/usproc/usclap/2018/spring/winners">past
-USCLAP winners</a>. Because our course lists Sta-209 as a pre-req, the
-“intermediate statistics” category examples are most reflective of the
-expectations for this course.</p>
-<p>Speaking candidly, I believe that our class is capable of producing
-better work than many of the past finalists in this category. Further,
-placing in this competition is an excellent award to add to your resume
-and I encourage anyone who is interested to submit their paper to the
-USCLAP competition (I’m more than happy to help with revisions if you’re
-interested in the competitions).</p>
-</div>
-<div id="timeline" class="section level2">
-<h2>Timeline</h2>
-<ul>
-<li>Monday 11/28 - project proposals are due</li>
-<li>Monday 12/5 - 1-paragraph progress briefing with 1-2 fit</li>
-<li>Wednesday 12/7 through Friday 12/9 - meeting to discuss first
-draft</li>
-<li>Finals Week - paper and final materials (ie: code, data, etc.) are
-due (submit as a zipped folder) by 5:00pm on Friday 12/16</li>
-</ul>
-</div>
-<div id="assessment-details-140-pts-total" class="section level2">
-<h2>Assessment Details (140 pts total)</h2>
-<p><strong>Proposal</strong> - 2.5 pts</p>
-<ul>
-<li>Proposal must include your intended data source and a brief outline
-of your planned analyses</li>
-<li>It is okay to modify these plans later as your begin working with
-your data, but you must at least describe a viable starting point</li>
-</ul>
-<p><strong>Report</strong> - 75 pts</p>
-<ul>
-<li><em>Formatting</em> - 10 pts - your report should include all of the
-sections mentioned in the “Report Details” section of this assignment.
-Each section should contain the proper contents.</li>
-<li><em>Clarity</em> - 20 pts - your report should be written in a
-professional tone using clear and concise language. A peer who has taken
-this course should be able to easily understand your methods and
-results.</li>
-<li><em>Data sourcing, cleaning, and manipulation</em> - 15 pts - an
-accurate description of your data source, steps taken to clean it, and
-other manipulations (ie: variable transformation, etc.) should be
-included in your methods section.</li>
-<li><em>Data visualization</em> - 20 pts - your report should include at
-least two publication quality data visualizations. You may instead opt
-to create an R Shiny application to fulfill this component.</li>
-<li><em>Modeling</em> - 25 pts - your report should describe the
-modeling methods you used, and your results section should report on
-these models in an appropriate manner (ie: proper model accuracy
-criteria, proper interpretations, etc.)</li>
-</ul>
-<p><strong>Data and Raw Code</strong> - 50 pts</p>
-<ul>
-<li>At minimum, I should be able to recreate all figures and tables used
-in your presentation and paper by running your code (assuming I have
-moved your raw data into the correct location)
-<ul>
-<li>Ideally, I can recreate your paper in full by knitting “MyName.Rmd”,
-but it’s okay if you’d like to write the paper in word (or another
-program)</li>
-</ul></li>
-<li>All data processing <em>must be done using</em> <code>R</code>,
-manipulating your raw data outside of the <code>R</code> environment is
-not reproducible and <em>points will be deducted if I suspect you did
-this</em></li>
-<li>Your code should be neatly organized (good use of spaces and
-indentation) and should include comments explaining each non-trivial
-<code>R</code> command that you use</li>
-<li>Your submitted code should <em>only include</em> code that is needed
-for data cleaning and replicating the analyses used in your paper, any
-exploratory code should not be submitted</li>
-<li>Your code should also be reasonably efficient and use generalizable
-practices whenever possible. This means avoiding things like “magic
-number” indexing, repetitive approaches to tasks that could be
-accomplished by a single command, etc.</li>
-</ul>
-<p><strong>Progress Meetings</strong> - 10 pts</p>
-<ul>
-<li>You provide a written progress briefing by Monday 12/5, and you must
-participate in a 15-minute meeting to discuss the first draft of your
-report on either Wednesday 12/7 or Friday 12/9.</li>
-<li>To receive all 10 pts you must show reasonable progress at these
-check-points (ie: evidence of substantial progress in the 12/5 briefing,
-and a first draft that at least begins to address every project
-component)</li>
-</ul>
-<p><strong>Self-review</strong> - 2.5 pts</p>
-<ul>
-<li>Upon completing the project, you will be asked to fill out a short
-self-review questionnaire for completion credit.</li>
-</ul>
-</div>
-<div id="advice" class="section level2">
-<h2>Advice</h2>
-<ul>
-<li>I strongly suggest you read through a few of the USCLAP finalist
-papers before you begin writing to get a sense of the formatting
-expectations (and degree of flexibility/variety that exists in our
-discipline).</li>
-<li><a href="https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf">An
-Introduction to Statistical Learning</a> is an excellent resource for
-understanding modeling methods that we didn’t cover in class. The
-authors of the text also have <a href="https://www.youtube.com/watch?v=5N9V07EIfIg&amp;list=PLOg0ngHtcqbPTlZzRHA2ocQZqB1D_qZ5V">a
-series of YouTube video lectures</a> that go topic by topic through the
-book. You might consider starting here for the research component of the
-project.</li>
-</ul>
+<div id="question-4" class="section level2">
+<h2>Question #4</h2>
+<p>The “tips” data set documents several weeks of tips received by a
+waiter working in a chain restaurant in suburban New York City during
+the early 1990s. The goal of this application is to use modeling to
+understand the factors which might predict the tip received by the
+waiter.</p>
+<pre class="r"><code>tips &lt;- read.csv(&quot;https://remiller1450.github.io/data/Tips.csv&quot;)</code></pre>
+<p><strong>Part A</strong>: These data contain a column “TipPercent”,
+which represents that percentage of a customer’s total bill that was
+left as a tip. Briefly explain why this column should <em>not</em> be
+used a predictor in any models considered during this application.</p>
+<p><strong>Part B</strong>: Create a scatter plot displaying “TotBill”
+and “Tip” with the linear regression model defined by <code>form1</code>
+(given below) shown in red and the model defined by <code>form2</code>
+(also given below) shown in blue. Hold all other variables at their
+median value or most common category when generating model
+predictions.</p>
+<p><em>Note</em>: the <code>ns()</code> function is uses a <em>natural
+spline function</em> (run ?ns in the <code>R</code> console for details)
+to allow a flexible non-linear relationship between “TotBill” and
+“Tip”.</p>
+<pre class="r"><code>library(splines)
+form1 &lt;- formula(Tip ~ TotBill + Size + Time)
+form2 &lt;- formula(Tip ~ ns(TotBill, df = 3) + Size + Time)</code></pre>
+<p><strong>Part C</strong>: Use 5-fold cross-validation to compare the
+<em>out-of-sample</em> <span class="math inline">\(RMSE\)</span> of the
+two linear regression models used in Part B.</p>
+<p><strong>Part D</strong>: Now compare the <em>in-sample</em> <span class="math inline">\(RMSE\)</span> of the two linear regression models
+used in Part B. Briefly explain why the model defined by
+<code>form2</code> has a slightly lower <em>in-sample</em> <span class="math inline">\(RMSE\)</span>.</p>
 </div>
 
 

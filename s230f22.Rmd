@@ -63,7 +63,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Modeling a numeric outcome
     - [Lab #15 - Linear regression and K-nearest neighbors](s230f22/numeric.html)
     - [Lab #16 - Cross-validation](s230f22/cv.html)
-    - <span style="color: red;"> Due date Wednesday 11/16 \span
+    - <span style="color: red;"> Due date Wednesday 11/16 by 11:59pm \span
 - Modeling a categorical outcome
     - Lab #17 - Logistic regression
     - Lab #18 - Evaluating model accuracy
@@ -128,9 +128,10 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Wednesday 11/2 at 11:59pm
 - [Homework #5](s230f22/hw5.html)
     - Topics: Clustering 
-    - <span style="color: red;"> Due date: Friday 11/11 at 11:59pm \span
-- Homework #6
+    - Due date: Friday 11/11 at 11:59pm 
+- [Homework #6](s230f22/hw6.html)
     - Topics: Modeling foundations, regression, k-nearest neighbors
+    - <span style="color: red;"> Due date: Monday 11/21 at 11:59pm \span
 - Homework #7
     - Topics: Modeling categorical outcomes, tree-based models
 
@@ -147,7 +148,7 @@ There will be 3 projects throughout the semester. Tentative dates for these proj
 - [Project #2 - R Shiny](s230f22/project2.html)
     - Project sign-ups Friday 9/30
     - Presentations during class on Monday 10/10 and Monday 10/24
-- Project #3 - Modeling and Data Analysis
-    - Information coming soon
+- [Project #3 - Modeling and Data Analysis](s230f22/final.html)
+    - Partner(s) and proposal due Monday 11/28 by 11:59pm
 
 *Please note*: these projects do not contribute equally to your final grade. Project #1 is only 5% of your overall grade, making it worth only slightly more than a homework assignment (each worth ~3%)
