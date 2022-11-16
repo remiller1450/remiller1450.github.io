@@ -63,7 +63,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Modeling a numeric outcome
     - [Lab #15 - Linear regression and K-nearest neighbors](s230f22/numeric.html)
     - [Lab #16 - Cross-validation](s230f22/cv.html)
-    - <span style="color: red;"> Labs 15 and 16 are due Wednesday 11/16 by 11:59pm \span
+    - <span style="color: red;"> Labs 15 and 16 are due Friday 11/18 by 11:59pm \span
 - Modeling a categorical outcome
     - Lab #17 - Logistic regression
     - Lab #18 - Evaluating model accuracy
@@ -131,7 +131,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - Topics: Clustering 
     - Due date: Friday 11/11 at 11:59pm 
 - [Homework #6](s230f22/hw6.html)
-    - Topics: Modeling foundations, regression, k-nearest neighbors
+    - Topics: Modeling foundations, linear regression, k-nearest neighbors
     - <span style="color: red;"> Due date: Monday 11/21 at 11:59pm \span
 - Homework #7
     - Topics: Modeling categorical outcomes, tree-based models
