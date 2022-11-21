@@ -65,7 +65,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab #16 - Cross-validation](s230f22/cv.html)
     - <span style="color: red;"> Labs 15 and 16 are due Friday 11/18 by 11:59pm \span
 - Modeling a categorical outcome
-    - Lab #17 - Logistic regression and binary classification
+    - [Lab #17 - Logistic regression and binary classification](s230f22/log.html)
     - Lab #18 - Introduction to decision trees
     - Lab #19 - Other tree-based models
     - Labs 17, 18, and 19 are due Friday 12/2 by 11:59pm
@@ -117,7 +117,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - [.Rmd Template](s230f22/hw1.zip)
     - Due date: Monday 9/5 at 11:59pm 
 - [Homework #2](s230f22/hw2.html) 
-    - Topics: ggplot2, reshaping, wrangling, merging and joining, string processing
+    - Topics: ggplot2, reshaping, wrangling, merging and joining
     - [.Rmd Template](s230f22/hw2.zip)
     - Due date: Monday 9/19 at 11:59pm
 - [Homework #3](s230f22/hw3.html) 
