@@ -130,9 +130,10 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Friday 11/11 at 11:59pm 
 - [Homework #6](s230f22/hw6.html)
     - Topics: Modeling foundations, linear regression, k-nearest neighbors
-    - <span style="color: red;"> Due date: Monday 11/21 at 11:59pm \span
-- Homework #7
-    - Topics: Modeling categorical outcomes, tree-based models
+    - Due date: Monday 11/21 at 11:59pm
+- [Homework #7](s230f22/hw7.html)
+    - Topics: Modeling perspectives, ethics
+    - <span style="color: red;"> Due date: Friday 12/9 at 11:59pm \span
 
     
 ### Projects
