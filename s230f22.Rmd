@@ -63,12 +63,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Modeling a numeric outcome
     - [Lab #15 - Linear regression and K-nearest neighbors](s230f22/numeric.html)
     - [Lab #16 - Cross-validation](s230f22/cv.html)
-    - <span style="color: red;"> Labs 15 and 16 are due Friday 11/18 by 11:59pm \span
+    - Labs 15 and 16 are due Friday 11/18 by 11:59pm 
 - Modeling a categorical outcome
     - [Lab #17 - Logistic regression and binary classification](s230f22/log.html)
-    - Lab #18 - Introduction to decision trees
-    - Lab #19 - Other tree-based models
-    - Labs 17, 18, and 19 are due Friday 12/2 by 11:59pm
+    - [Lab #18 - Introduction to tree-based models](s230f22/trees.html)
+    - <span style="color: red;"> Labs 17 and 18 are due Friday 12/2 by 11:59pm \span
 
 ### Recommended Readings
 
