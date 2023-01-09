@@ -99,7 +99,7 @@ $~$
 
 Participation in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and they are expected to help you.  Everyone will begin the semester with a baseline participation score of 80\%, which will then move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score to 100\% by doing a superb job helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  If you are ever unsure of your participation standing, you can email me and I am happy to provide you an interim assessment.
 
-**Labs** - 10\%
+**Labs** - 15\%
 
 In-class labs will contain a handful of embedded questions that you and your partner(s) should answer to test your understanding of concepts and Python implementations. These questions should be answered and submitted prior to the next class meeting (ie: generally due on Tuesday before 1pm). When working as a group it is acceptable for one member to submit the group's responses, so long as everyone's name is included on the work *at the time of submission*.
 
@@ -111,7 +111,7 @@ The semester will be broken up into several units. Units 1-5 will each be accomp
 
 Prior to each lab a brief in-class quiz will be delivered during the first 5-10 minutes of class. These quizzes will consist of multiple choice questions to ensure proper preparation and understanding the machine learning concepts used in that day's lab. Your lowest two quiz scores will be dropped at the end of the semester.
 
-**Capstone Project** - 50\% (Presentation: 10\%, Report: 35\%, Code: 5\%)
+**Capstone Project** - 45\% (Presentation: 10\%, Report: 30\%, Code: 5\%)
 
 For this project you will work in a group of 2-4 students on a self-selected machine learning problem involving a non-trivial real data set. Your group will be responsible for storing a repository of code and data used during the project. You will present your results in a 10-minute in-class presentation intended to take the form of a conference presentation (ie: assume a modest amount of machine learning knowledge from the audience, and not much content area knowledge in your application). You will also prepare a 3-page scientific report documenting the key findings of your work.
 
