@@ -1,0 +1,84 @@
+---
+title: "STA-395 - Introduction to Machine Learning (Spring 2023)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+### Syllabus
+
+Welcome to the course website for Sta-395, Introduction to Machine Learning. To begin, you can find the course syllabus linked below:
+
+- [Click here](syllabus395s23.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper left.  
+
+Please note: material will not be posted until we've reached that point in the course.
+
+### Course Materials
+
+Most class sessions will involve a lecture and lab component. These sessions will further be grouped into units.
+
+All labs in a unit are due at midnight on the day after the last class session of that unit (ie: midnight on Friday if the last class session was Thursday, or midnight on Wednesday if the last session was Tuesday).
+
+Each unit will also have a homework assignment that is to be completed independently and will be due at the start of the next unit (ie: 1pm on a Tuesday/Thursday).
+
+Please recognize that this course is completely new. So, after all of a unit's lectures have been completed, we may devote an additional 1-2 class periods towards finishing up that unit's labs and answering unresolved questions.
+
+**Unit #1** - Introduction and Python Foundations
+
+- Lectures: Intro (1/24)
+- Labs: Scattered Python Foundations (1/26)
+    - Due-date: Friday 1/27 by midnight
+- Homework: None
+
+**Unit #2** - Machine Learning Concepts and Workflow
+
+- Lectures: $k$-Nearest Neighbors (1/31), Cross-Validation (2/1), Classifier Performance (2/7), Feature Engineering (2/9)
+- Labs: kNN and scaling (1/31), Pipelines, Cross-Validation and Tuning Parameters (2/1), Classifer Performance (2/7), Feature Engineering Challenge (2/9)
+    - Tentative due-date: Friday 2/10 by midnight
+- Homework: Homework #1
+    - Tentative due-date: Tuesday 2/14 by 1pm
+    
+**Unit #3** - Structured Models and Parameter Optimization
+
+- Lectures: Gradient Descent and Regression (TBD), Generalized Linear Models (TBD), Regularization (TBD), Splines and polynomials (TBD)
+- Labs: Regression vs. kNN (TBD), Gradient Descent (TBD), Regularized Regression (TBD), Splines and polynomials (TBD)
+- Homework: Homework #2
+
+**Unit #4** - Tree-based Models and Ensembles
+
+- Lectures: Classification Trees (TBD), Regression Trees (TBD), Random Forest (TBD),
+Boosting (TBD), Extreme Gradient Boosting (TBD)
+- Labs: Classification Trees (TBD), Regression Trees (TBD), Random Forest (TBD), Boosting (TBD), XGBoost Challenge (TBD)
+
+**Unit #5** - Introduction to Deep Learning
+
+Coming soon
+
+**Unit #6** - Unsupervised Learning
+
+Coming soon
+
+### Supplemental Readings/Resoruces
+
+**Unit #1**:
+
+- [Python Data Science Handbook Chapters 2,3,4 (more technical)](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Stefanie Molin's Pandas workshop tutorials 1, 2 (less technical)](https://github.com/stefmolin/pandas-workshop)
+- [Intro to Statistical Learning, Ch2.2 and 2.3](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+
+### Final Project 
+
+The last several weeks of the semester will be devoted to a cumulative final project.  Intermediate deadlines and reminders will be posted here:
+
+- Coming soon
+
+Guidelines and a detailed description of the project are posted below:
+
+- Coming soon

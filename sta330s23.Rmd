@@ -1,0 +1,68 @@
+---
+title: "Sta-330 Applied Data Science (Spring 2023)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+### Syllabus
+
+Welcome to course website for Sta-330 (cross-listed as Mat-330), Applied Data Science!  On this page you can information on the course, starting with the syllabus linked below:
+
+- [Click here](syllabus395s20.html) to view the course syllabus
+
+### Materials
+
+In this section you'll find materials used at various stages in the course. Several of these with persist throughout the semester (recurrent materials), while a few others will be discussed during the first two weeks.
+
+**Recurrent materials**:
+
+- Guidelines for project briefing presentations
+- Guidelines for advisory critiques and feedback
+- Guidelines for goal setting and strategic planning
+
+**Other materials**:
+
+- Icebreaker instructions
+- Data ethics principles
+    - - Project/client descriptions
+- Data science life cycles
+    - Dissecting a finished project
+    - Mapping out a new project
+- Project management
+    - Planning client interactions
+    - Coordination and delegation
+- Best practices in goal setting
+
+### Assignments
+
+- Data ethics inventory
+    - Due date: Friday 1/27 at 11:59pm
+- Project preference reflection
+   - Due date: Friday 2/3 at 11:59pm
+- Peer assessment reflection #1
+- Peer assessment reflection #2
+- Peer assessment reflection #3
+- Adviser take-over report
+- Final products
+
+
+### Important Dates
+
+Coming soon
+
+### General Schedule
+
+Shown below is a generic schedule illustrating how the course will operate for the majority of the semester:
+
+```{r, echo = FALSE}
+tab <- data.frame(Tues = c("Progress Reports (1 + 2)", "Advisor Assessment of progress (3 + 4)", "Time to work/organize"),
+                  Thurs = c("Goal Setting (1 + 2)", "Advisor Assessment of goals (3 + 4)", "Time to work/organize"),
+                  `Tues ` = c("Progress Reports (3 + 4)", "Advisor Assessment of progress (1 + 2)", "Time to work/organize"),
+                  `Thurs ` = c("Goal Setting (3 + 4)", "Advisor Assessment of goals (1 + 2)", "Time to work/organize"))
+
+knitr::kable(tab)
+```
