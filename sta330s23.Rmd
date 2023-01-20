@@ -10,13 +10,15 @@ output:
 
 ### Syllabus
 
-Welcome to course website for Sta-330 (cross-listed as Mat-330), Applied Data Science!  On this page you can information on the course, starting with the syllabus linked below:
+Welcome to course website for Sta-330 (cross-listed as Mat-330), Applied Data Science!
 
-- [Click here](syllabus395s20.html) to view the course syllabus
+On this page you can information on the course, starting with the syllabus linked below:
+
+- [Click here](syllabus330s23.html) to view the course syllabus
 
 ### Materials
 
-In this section you'll find materials used at various stages in the course. Several of these with persist throughout the semester (recurrent materials), while a few others will be discussed during the first two weeks.
+In this section you'll find materials used at various stages in the course. Several of these items will be reused throughout the semester (recurrent materials), while a few others will be discussed during the first two weeks to prepare us for the later stages of the course.
 
 **Recurrent materials**:
 
@@ -28,7 +30,7 @@ In this section you'll find materials used at various stages in the course. Seve
 
 - Icebreaker instructions
 - Data ethics principles
-    - - Project/client descriptions
+    - Project/client descriptions
 - Data science life cycles
     - Dissecting a finished project
     - Mapping out a new project
@@ -37,32 +39,29 @@ In this section you'll find materials used at various stages in the course. Seve
     - Coordination and delegation
 - Best practices in goal setting
 
-### Assignments
+### Assignments and Due Dates
 
 - Data ethics inventory
     - Due date: Friday 1/27 at 11:59pm
 - Project preference reflection
    - Due date: Friday 2/3 at 11:59pm
-- Peer assessment reflection #1
-- Peer assessment reflection #2
-- Peer assessment reflection #3
+- Progress reflection #1
+- Progress reflection #2
+- Progress reflection #3
 - Adviser take-over report
 - Final products
-
-
-### Important Dates
-
-Coming soon
 
 ### General Schedule
 
 Shown below is a generic schedule illustrating how the course will operate for the majority of the semester:
 
 ```{r, echo = FALSE}
-tab <- data.frame(Tues = c("Progress Reports (1 + 2)", "Advisor Assessment of progress (3 + 4)", "Time to work/organize"),
-                  Thurs = c("Goal Setting (1 + 2)", "Advisor Assessment of goals (3 + 4)", "Time to work/organize"),
-                  `Tues ` = c("Progress Reports (3 + 4)", "Advisor Assessment of progress (1 + 2)", "Time to work/organize"),
-                  `Thurs ` = c("Goal Setting (3 + 4)", "Advisor Assessment of goals (1 + 2)", "Time to work/organize"))
+tab <- data.frame(Tues = c("Progress briefing presentations (Groups 1, 2)", "General questions/comments", "Advisory meetings (Groups 1+3, 2+4)"),
+                  Thurs = c("Advisory feedback presentations (Groups 3, 4)", "Goal setting/critique (Groups 1+3, 2+4)", "Time to work/organize"),
+                  Tues = c("Progress briefing presentations (Groups 3, 4)", "General questions/comments", "Advisory meetings (Groups 1+3, 2+4)"),
+                  Thurs = c("Advisory feedback presentations (Groups 1, 2)", "Goal setting/critique (Groups 1+3, 2+4)", "Time to work/organize"))
 
 knitr::kable(tab)
 ```
+
+Explained in words, on Tuesdays two groups will present their work since their most recent update (approximately 20-minutes per group). After these presentations, the remaining groups will meet with the group they are advising to discuss the future direction of the project. The advisory groups will summarize the discussion, add additional critiques, and present a briefing to the entire class on Thursday (approximately 5-minutes per group). Groups and advisory groups then reconvene and form goals for their progress briefing. This schedule will repeat, alternating the roles of groups 1 and 3, and groups 2 and 4. Any additional time will be used for organization/planning.

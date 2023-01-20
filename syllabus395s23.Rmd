@@ -7,7 +7,7 @@ output:
       smooth_scroll: false
 ---
 
-# Syllabus - Sta-230-01 and 02 (Fall 2022)
+# Syllabus - Sta-395 Intro to ML (Spring 2023)
 
 ### Course Information
 
@@ -17,7 +17,7 @@ output:
 
 **Class Meetings**: 
 
-- TBD, Tuesday and Thursday 1:00-2:20pm
+- HSC N3170, Tuesday and Thursday 1:00-2:20pm
 
 **Office Hours**:
 
@@ -27,13 +27,15 @@ output:
 
 - Brian Goodell, goodellb\@grinnell.edu 
 
+Brian will primarily provide support during class for Python-related questions. Please direct conceptual/technical machine learning questions content to the instructor.
+
 **Course Description**:
 
 Introduction to Machine-Learning using Python. Artificial Intelligence (AI) is gaining attention in both industry and academia. Machine learning is the foundational aspect of AI that learns patterns from data. In this course, students are expected to apply machine learning using Python to problems from a variety of disciplines. The following topics will be covered: CART, Bagging & Boosting, GLM, Model selection, Performance evaluation, Artificial Neural Networks, some Frontier AI topics, and a semester-long capstone project. Prerequisite: MAT-215 and STA-230.
 
 **Texts**:
 
-There is no required textbook for this course.  All required materials will be posted on our [course website](s395s23.html).  
+There is no required textbook for this course.  All required materials will be posted on our [course website](MLs23.html).  
 
 Course content and recommended readings will be drawn from the following sources:
 
@@ -51,9 +53,9 @@ This course aims to develop conceptual, theoretical, and applied perspectives on
 
 After completing this course, students should be able to:
 
-- Translate research questions into appropriate models that can be trained and tested
-- Train, evaluate, and summarize various machine learning models using Python
-- Clearly and concisely communicate modeling results to statistical and non-statistical audiences
+- Translate research questions related to machine learning into appropriate models that can be trained and tested.
+- Implement pipelines and training/testing schemes for various machine learning models using Python.
+- Clearly and concisely communicate machine learning results to both technical and non-technical audiences.
 
 $~$
 
@@ -61,7 +63,11 @@ $~$
 
 **Class Sessions**
 
-During most weeks we will devote one class meeting towards "lecture", or the presentation and discussion of machine learning concepts, mathematical details, and examples with limited focus on coding.  The second meeting will be devoted to "lab", or the implementation of these methods and concepts in Python.
+Most class sessions will be split evenly between "lecture" and "lab". Sessions will begin with a brief, low-stakes 1-2 question quiz to provide incentives for consistent attendance and staying up to date on content.  More details are provided in the "Grading" section of the syllabus.
+
+Portions of the class devoted to "lecture" will focus on conceptual and mathematical details with minimal discussion of coding/software.
+
+Portions of class devoted to "lab" involve working in assigned and/or self-formed groups of 2-3 on Python implementations of course topics. 
 
 **Attendance** 
 
@@ -69,11 +75,9 @@ Lab sessions will involve collaboration with others in assigned and self-selecte
 
 **Software**
 
-Software is essential to the work of data scientists and this class will make extensive use of Python 3 (any version 3 release should work fine) and JupyterLab (or Jupyter Notebook)
+Software is an essential component of machine learning, and this class will make extensive use of Python (any version 3 release should work fine). You are welcome to use any Python IDE that you are familiar with, but I encourage you to use [JupyterLab](https://jupyter.org/) to record your work on labs/assignments.
 
-You are welcome to use your own personal laptop, a Grinnell College laptop, or a classroom computer during the course.  If you are working on a laptop, I suggest downloading the most recent [Anaconda Distribution](https://www.anaconda.com/products/distribution) to ensure compatibility with the code examples that will be given during class.
-
-I encourage the use of JupyterLab (which can be found in the Anacoda Navigator) to record your code/output for assignments that require the use of Python.
+You are welcome to use your own personal laptop, or a classroom computer during the course.  If you are working your own laptop, I suggest downloading the most recent [Anaconda Distribution](https://www.anaconda.com/products/distribution) to ensure compatibility with the code examples that will be given during class.  JupyterLab can be found in the Anaconda Navigator, and Anaconda comes with most of the libraries we'll be using pre-installed.
 
 **Academic Honesty**
 
@@ -101,21 +105,21 @@ Participation in a lab-heavy course is absolutely critical. During labs you are 
 
 **Labs** - 15\%
 
-In-class labs will contain a handful of embedded questions that you and your partner(s) should answer to test your understanding of concepts and Python implementations. These questions should be answered and submitted prior to the next class meeting (ie: generally due on Tuesday before 1pm). When working as a group it is acceptable for one member to submit the group's responses, so long as everyone's name is included on the work *at the time of submission*.
+In-class labs will contain a handful of embedded questions that you and your partner(s) should answer to test your understanding of concepts and Python implementations. When working as a group, it is acceptable for one member to submit the entire group's responses, so long as everyone's name is included on the work *at the time of submission*.
 
 **Problem Sets** - 25\%
 
-The semester will be broken up into several units. Units 1-5 will each be accompanied by a problem set containing an assortment of conceptual and applied questions. These problem sets will generally be due on the Friday corresponding to the end of that unit.
+The semester will be broken up into several units. Units 2-6 will each be accompanied by a problem set containing an assortment of conceptual and applied questions. These problem sets will generally be due on the Friday corresponding to the end of that unit.
 
 **In-class Quizzes** - 10\%
 
-Prior to each lab a brief in-class quiz will be delivered during the first 5-10 minutes of class. These quizzes will consist of multiple choice questions to ensure proper preparation and understanding the machine learning concepts used in that day's lab. Your lowest two quiz scores will be dropped at the end of the semester.
+Short in-class quizes will be delivered during the first 5-minutes of *most* class meetings. These quizzes will contain 1-3 brief questions, often multiple choice, covering concepts from previous lectures. These quizzes are intended to cover essential concepts that any machine learning specialist should have committed memory. Quizzes cannot be retaken or made up, but your *lowest three quiz scores will be dropped* at the end of the semester. Pending instructor approval and coordination with academic support staff, special exceptions may be made for circumstances involving prolonged absences.
 
 **Capstone Project** - 45\% (Presentation: 10\%, Report: 30\%, Code: 5\%)
 
-For this project you will work in a group of 2-4 students on a self-selected machine learning problem involving a non-trivial real data set. Your group will be responsible for storing a repository of code and data used during the project. You will present your results in a 10-minute in-class presentation intended to take the form of a conference presentation (ie: assume a modest amount of machine learning knowledge from the audience, and not much content area knowledge in your application). You will also prepare a 3-page scientific report documenting the key findings of your work.
+For this project you will work in a group of 2-4 students on a self-selected machine learning problem involving a non-trivial data set of your choosing. Your group will be responsible for creating a repository containing the code and data used during the project. You will present your results in a 10-minute in-class presentation intended to mirror a scientific conference presentation (ie: assume a modest amount of machine learning knowledge from the audience, with limited content area knowledge in the domain of your application). You will also prepare a 3-page scientific report summarizing the key methods and results involved in your work.
 
-Additional details on the project will be posted [at this link](s395s23/final.html) later in the semester.
+Additional details on the project will be posted [at this link](MLs23/final.html) later in the semester.
 
 $~$
 
@@ -135,15 +139,15 @@ $~$
 
 Below is a list of course topics and tentative time frames for covering them.
 
-- Unit #0 - Scattered Foundations in Python (1 week)
+- Unit #1 - Introduction and Scattered Foundations in Python (1 week)
     - Topics: data structures, data manipulation using Pandas, exploratory data analysis
-- Unit #1 - Concepts in Machine Learning (2 weeks)
+- Unit #2 - Concepts in Machine Learning (2 weeks)
     - Topics: classification vs. regression, bias vs. variance trade-off, training vs. testing, performance evaluation, and cross-validation
-- Unit #2 - Generalized Linear Models, Model Optimization, and  Regularization (2 weeks)
+- Unit #3 - Generalized Linear Models, Model Optimization, and  Regularization (2 weeks)
     - Topics: linear and logistic regression, regularization, gradient descent algorithms
-- Unit #3 - Tree-based Models (2-3 weeks)
+- Unit #4 - Tree-based Models (2-3 weeks)
     - Topics: decisions trees, ensembles and random forests, boosting
-- Unit #4 - Neural Networks (3-4 weeks)
+- Unit #5 - Neural Networks (3-4 weeks)
     - Topics: single and multilayer artificial neural networks, convolutional neural networks, recurrent neural networks
-- Unit #5 - Unsupervised Learning (2 weeks)
+- Unit #6 - Unsupervised Learning (2 weeks)
     - Topics: k-means clustering, DBSCAN, principal component analysis, t-SNE

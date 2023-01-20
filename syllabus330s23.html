@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Sta/Mat-330 Applied Data Science (Spring 2023)</title>
+
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Sta/Mat-330 Applied Data Science (Spring
+2023)</h1>
+
+</div>
+
+
+<div id="course-information" class="section level2">
+<h2>Course Information:</h2>
+<p><strong>Instructor</strong>:</p>
+<ul>
+<li>Ryan Miller, Noyce 2218, millerry@grinnell.edu</li>
+</ul>
+<p><strong>Class Meetings</strong>:</p>
+<ul>
+<li>Noyce 2401, 8:30-9:50AM</li>
+</ul>
+<p><strong>Office Hours</strong>:</p>
+<ul>
+<li>Noyce 2218, Monday 1-2pm, Tuesday 2:30-3:30pm, Friday 11am-noon</li>
+</ul>
+</div>
+<div id="course-description" class="section level2">
+<h2>Course Description:</h2>
+<p>Students will work in small teams on an applied data science project
+completing the full spectrum of the data science process including
+developing the problem statement, collecting and processing data,
+identifying and employing mathematical and/or statistical methods to
+extract information from the data, implementing the quantitative methods
+in an appropriate programming environment, and generating conclusions
+supported by data</p>
+</div>
+<div id="text" class="section level2">
+<h2>Text:</h2>
+<p>There are no required textbooks for this course, but the following
+resources are recommended (and freely available):</p>
+<ul>
+<li>Learning how to program in R: <a
+href="https://remiller1450.github.io/sta230f22.html">The introductory
+labs on this page</a>, beginning with “Intro to R”</li>
+<li>Learning how to use SQL, Python, and R: <a
+href="https://www.datacamp.com/">DataCamp online learning
+modules</a></li>
+<li>Statistical learning and modeling methods: <a
+href="http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf">An
+Introduction to Statistical Learning</a> and its higher level companion
+<a
+href="https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf">The
+Elements of Statistical Learning</a></li>
+<li>Learning R and data science via case studies: <a
+href="http://rdatasciencecases.org/">Case Studies in Data Science with
+R</a> and <a
+href="https://afrozhussain.files.wordpress.com/2015/07/data-science-in-r.pdf">Data
+Science in R: A case studies approach to computational reasoning and
+problem solving</a></li>
+</ul>
+</div>
+<div id="course-aims" class="section level2">
+<h2>Course Aims:</h2>
+<p>The overarching goal of this course is to prepare students to
+successfully navigate an applied data science project involving working
+on a team to answer questions posed by an external client. This includes
+developing “soft” skills, such as how to understand and communicate
+client needs, translating client needs into actionable items, and making
+data-driven recommendations; and also “hard” skills, such as learning
+and implementing the techniques, tools, and methods needed to solve
+problems.</p>
+</div>
+<div id="learning-objectives" class="section level2">
+<h2>Learning Objectives:</h2>
+<p>Specific learning goals for this goal include:</p>
+<ul>
+<li>Develop skills in organizing, cleaning, and wrangling data</li>
+<li>Refine and expand coding proficiency in at least one data-science
+oriented language (R or Python)</li>
+<li>Learn and apply new methods of modeling or visualization as needed
+to address specific project needs</li>
+<li>Practice communicating methods and results to both technical and
+non-technical audiences</li>
+<li>Evaluate decisions made by other groups, providing constructive
+feedback</li>
+<li>Develop project management skills, including practicing how to work
+with others who may disagree</li>
+<li>Develop an ability to build relationships with a project client</li>
+</ul>
+</div>
+<div id="software" class="section level2">
+<h2>Software:</h2>
+<p>Coding proficiency is <em>expected</em> in this course. You may use
+any language(s) suitable for the needs of your project; however using
+either <code>R</code> or Python is strongly recommended. These are
+currently the most commonly used languages of professional data
+scientists. Please note that Prof. Miller has experience in both
+languages, but is more well-versed in <code>R</code>.</p>
+</div>
+<div id="policies" class="section level2">
+<h2>Policies:</h2>
+<p><strong>Attendance</strong></p>
+<p>This course is collaborative and involves substantial peer-review and
+ongoing feedback, making regular attendance <em>critical</em>.</p>
+<p>All absences permitted by the college (athletics, religious
+observation, documented medical, etc.) must be communicated as early as
+possible and will not count against you. All other absences (illnesses,
+job interviews, etc.) can negatively impact your grade if they are
+persistent and excessive. The schedule below summarizes the impact of
+such absences (college permitted absences do not counts towards this
+schedule):</p>
+<ul>
+<li>1-4 absences (communicated) - No impact provided they are
+communicated in at least 4 hours in advance or are retrospectively
+accompanied by appropriate documentation (doctor’s note, etc.)</li>
+<li>1-4 absences (not communicated) - Deduction of 0.5% from the final
+course grade for each non-communicated absence</li>
+<li>5th absence - An overall deduction of 5% from the final course
+grade</li>
+<li>6th absence - An overall deduction of 10% from the final course
+grade</li>
+<li>7th absence - Final course grade is capped at “C”</li>
+</ul>
+<p>Additionally, this course begins at <em>8:30AM</em>. In the event of
+persistent tardiness, each cumulative total of 20-minutes of missed
+class time will count as an absence. For example, being 10-minutes late
+on two different days will count as an absence. However, being over
+20-minutes late on a single day will not count as an absence unless you
+are also late on another day.</p>
+<p><strong>Workload</strong></p>
+<p>This class meets twice a week for 80 minutes (2 hours and 40
+minutes), it is expected that you devote, on average, approximately 9
+hours and 20 minutes of time <em>outside of class</em> each week towards
+the course.</p>
+<p><strong>Academic Honesty</strong></p>
+<p>At Grinnell College you join a conversation among scholars,
+professors, and students, one that helps sustain both the intellectual
+community here and the larger world of thinkers, researchers, and
+writers. The tests you take, the research you do, the writing you
+submit-all these are ways you participate in this conversation.</p>
+<p>The College presumes that your work for any course is your own
+contribution to that scholarly conversation, and it expects you to take
+responsibility for that contribution. That is, you should strive to
+present ideas and data fairly and accurately, indicate what your own
+work is, and acknowledge what you have derived from others. This care
+permits other members of the community to trace the evolution of ideas
+and check claims for accuracy.</p>
+<p>Failure to live up to this expectation constitutes academic
+dishonesty. Academic dishonesty is misrepresenting someone else’s
+intellectual effort as your own. Within the context of a course, it also
+can include misrepresenting your own work as produced for that class
+when in fact it was produced for some other purpose. A complete list of
+dishonest behaviors, as defined by Grinnell College, <a
+href="https://catalog.grinnell.edu/content.php?catoid=12&amp;navoid=2537#alleged-violation">can
+be found here</a>.</p>
+<p><strong>Inclusive Classroom</strong></p>
+<p>Grinnell College makes reasonable accommodations for students with
+documented disabilities. Students need to provide documentation to the
+Coordinator for Disability Resources, information <a
+href="http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services">can
+be found here</a>. Students should then speak with me as early as
+possible in the semester so that we can discuss ways to ensure your full
+participation in the course and coordinate your accommodations.</p>
+<p><strong>Religious Holidays</strong></p>
+<p>Grinnell College encourages students who plan to observe holy days
+that coincide with class meetings or assignment due dates to consult
+with your instructor in the first three weeks of classes so that you may
+reach a mutual understanding of how you can meet the terms of your
+religious observance, and the requirements of the course.</p>
+</div>
+<div id="grading" class="section level2">
+<h2>Grading:</h2>
+<p><strong>Intermediate items</strong> (60%):</p>
+<ul>
+<li>Three reflection essays (15% total, 5% each)
+<ul>
+<li>Each reflection will include a prompt for you to assess yourself and
+each of your teammates</li>
+<li>Your work will be scored on quality of writing and honesty (ie:
+alignment with instructor observations, willingness to admit
+shortcomings and unresolved issues, etc.)</li>
+</ul></li>
+<li>Bi-weekly progress presentations (15%)
+<ul>
+<li>Your work will be scored primarily on clarity, depth, and technical
+accuracy</li>
+</ul></li>
+<li>Goal-setting log (5%)
+<ul>
+<li>Your work will be scored primarily on the clarity and feasibility of
+your goals</li>
+<li>Consistently setting goals that are too lofty and are not met, or
+that are too simplistic and are easily met, may lead to low scores.</li>
+</ul></li>
+<li>Bi-weekly advisory assessments (10%)
+<ul>
+<li>Your work will be scored on the clarity and depth of advice you
+provide the team you are assessing</li>
+</ul></li>
+<li>Adviser take-over memo (10%)
+<ul>
+<li>Your work will be scored holistically on the overall quality of a
+written take-over memo and presentation to occur mid-semester</li>
+</ul></li>
+<li>Participation (5%)
+<ul>
+<li>Your score will be determined by your class attendance and
+contributions to open Q&amp;A following progress briefings and advisory
+presentations.</li>
+</ul></li>
+</ul>
+<p><strong>Final Products</strong> (40%):</p>
+<ul>
+<li>Executive summary (5%)
+<ul>
+<li>A 1-2 page written report targeting a non-technical audience that
+communicates the essence of your project</li>
+</ul></li>
+<li>Oral presentation (10%)
+<ul>
+<li>A 20 minute presentation summarizing the project from
+start-to-finish</li>
+</ul></li>
+<li>Final deliverable (10%)
+<ul>
+<li>A finished tool or model developed for the client, including
+documented source code and a user-guide targeted towards a non-technical
+audience</li>
+</ul></li>
+<li>Technical report (15%)
+<ul>
+<li>A comprehensive report (15 pages maximum) written for a technical
+audience (think readers of a subject-specific journal) that thoroughly
+documents your project</li>
+</ul></li>
+</ul>
+</div>
+<div id="tentative-schedule" class="section level2">
+<h2>Tentative Schedule:</h2>
+<ul>
+<li>Jan 24 - Feb 2 - Introduction, project management, client
+interactions, goal setting, project choices</li>
+<li>Feb 7 and Feb 9 - transition (work time during class)</li>
+<li>Feb 14 - First progress briefings (Groups 1 and 2)</li>
+<li>Feb 21 - First progress briefings (Groups 3 and 4)</li>
+<li>Feb 24 - First reflection</li>
+<li>Mar 18 - Apr 3 - Spring Break</li>
+<li>Apr 10-14 - Advisory team take-over of projects</li>
+<li>Apr 18 - Advisory team presentations and memo</li>
+<li>Apr 28 - Second reflection</li>
+<li>May 5 - Executive summary</li>
+<li>May 9 and May 11 - Oral presentations</li>
+<li>May 12 - Finished deliverable</li>
+<li>May 19 - Technical report</li>
+<li>May 19 - Third reflection</li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

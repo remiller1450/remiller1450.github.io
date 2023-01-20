@@ -28,7 +28,7 @@ All labs in a unit are due at midnight on the day after the last class session o
 
 Each unit will also have a homework assignment that is to be completed independently and will be due at the start of the next unit (ie: 1pm on a Tuesday/Thursday).
 
-Please recognize that this course is completely new. So, after all of a unit's lectures have been completed, we may devote an additional 1-2 class periods towards finishing up that unit's labs and answering unresolved questions.
+Please recognize that this course is completely new. So, after all of a unit's lectures have been completed, we may devote an additional 1-2 class sessions towards finishing up that unit's labs and answering unresolved questions.
 
 **Unit #1** - Introduction and Python Foundations
 

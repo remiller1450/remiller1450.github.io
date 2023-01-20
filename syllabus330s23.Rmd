@@ -1,0 +1,135 @@
+---
+title: "Sta/Mat-330 Applied Data Science (Spring 2023)"
+output: html_document
+---
+
+## Course Information:
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2218, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- Noyce 2401, 8:30-9:50AM
+
+**Office Hours**:
+
+- Noyce 2218, Monday 1-2pm, Tuesday 2:30-3:30pm, Friday 11am-noon
+
+## Course Description:
+
+Students will work in small teams on an applied data science project completing the full spectrum of the data science process including developing the problem statement, collecting and processing data, identifying and employing mathematical and/or statistical methods to extract information from the data, implementing the quantitative methods in an appropriate programming environment, and generating conclusions supported by data
+
+## Text:
+
+There are no required textbooks for this course, but the following resources are recommended (and freely available):
+
+- Learning how to program in R: [The introductory labs on this page](https://remiller1450.github.io/sta230f22.html), beginning with "Intro to R"
+- Learning how to use SQL, Python, and R: [DataCamp online learning modules](https://www.datacamp.com/)
+- Statistical learning and modeling methods: [An Introduction to Statistical Learning](http://faculty.marshall.usc.edu/gareth-james/ISL/ISLR%20Seventh%20Printing.pdf) and its higher level companion [The Elements of Statistical Learning](https://web.stanford.edu/~hastie/ElemStatLearn/printings/ESLII_print12.pdf)
+- Learning R and data science via case studies: [Case Studies in Data Science with R](http://rdatasciencecases.org/) and [Data Science in R: A case studies approach to computational reasoning and problem solving](https://afrozhussain.files.wordpress.com/2015/07/data-science-in-r.pdf)
+
+## Course Aims:
+
+The overarching goal of this course is to prepare students to successfully navigate an applied data science project involving working on a team to answer questions posed by an external client.  This includes developing "soft" skills, such as how to understand and communicate client needs, translating client needs into actionable items, and making data-driven recommendations; and also "hard" skills, such as learning and implementing the techniques, tools, and methods needed to solve problems.
+
+## Learning Objectives:
+
+Specific learning goals for this goal include:
+
+- Develop skills in organizing, cleaning, and wrangling data
+- Refine and expand coding proficiency in at least one data-science oriented language (R or Python)
+- Learn and apply new methods of modeling or visualization as needed to address specific project needs
+- Practice communicating methods and results to both technical and non-technical audiences
+- Evaluate decisions made by other groups, providing constructive feedback
+- Develop project management skills, including practicing how to work with others who may disagree
+- Develop an ability to build relationships with a project client
+
+## Software:
+
+Coding proficiency is *expected* in this course. You may use any language(s) suitable for the needs of your project; however using either `R` or Python is strongly recommended. These are currently the most commonly used languages of professional data scientists.  Please note that Prof. Miller has experience in both languages, but is more well-versed in `R`.
+
+## Policies:
+
+**Attendance**
+
+This course is collaborative and involves substantial peer-review and ongoing feedback, making regular attendance *critical*.  
+
+All absences permitted by the college (athletics, religious observation, documented medical, etc.) must be communicated as early as possible and will not count against you. All other absences (illnesses, job interviews, etc.) can negatively impact your grade if they are persistent and excessive. The schedule below summarizes the impact of such absences (college permitted absences do not counts towards this schedule):
+
+- 1-4 absences (communicated) - No impact provided they are communicated in at least 4 hours in advance or are retrospectively accompanied by appropriate documentation (doctor's note, etc.)
+- 1-4 absences (not communicated) - Deduction of 0.5% from the final course grade for each non-communicated absence
+- 5th absence - An overall deduction of 5% from the final course grade
+- 6th absence - An overall deduction of 10% from the final course grade
+- 7th absence - Final course grade is capped at "C"
+
+Additionally, this course begins at *8:30AM*. In the event of persistent tardiness, each cumulative total of 20-minutes of missed class time will count as an absence. For example, being 10-minutes late on two different days will count as an absence. However, being over 20-minutes late on a single day will not count as an absence unless you are also late on another day.
+
+**Workload**
+
+This class meets twice a week for 80 minutes (2 hours and 40 minutes), it is expected that you devote, on average, approximately 9 hours and 20 minutes of time *outside of class* each week towards the course.
+
+**Academic Honesty**
+
+At Grinnell College you join a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what your own work is, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose.  A complete list of dishonest behaviors, as defined by Grinnell College, [can be found here](https://catalog.grinnell.edu/content.php?catoid=12&navoid=2537#alleged-violation).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  Students need to provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  Students should then speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course and coordinate your accommodations.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+
+## Grading:
+
+**Intermediate items** (60%):
+
+- Three reflection essays (15% total, 5% each)
+    - Each reflection will include a prompt for you to assess yourself and each of your teammates
+    - Your work will be scored on quality of writing and honesty (ie: alignment with instructor observations, willingness to admit shortcomings and unresolved issues, etc.)
+- Bi-weekly progress presentations (15%)
+    - Your work will be scored primarily on clarity, depth, and technical accuracy
+- Goal-setting log (5%)
+    - Your work will be scored primarily on the clarity and feasibility of your goals
+    - Consistently setting goals that are too lofty and are not met, or that are too simplistic and are easily met, may lead to low scores.
+- Bi-weekly advisory assessments (10%)
+    - Your work will be scored on the clarity and depth of advice you provide the team you are assessing
+- Adviser take-over memo (10%)
+    - Your work will be scored holistically on the overall quality of a written take-over memo and presentation to occur mid-semester
+- Participation (5%)
+    - Your score will be determined by your class attendance and contributions to open Q&A following progress briefings and advisory presentations.
+
+**Final Products** (40%):
+
+- Executive summary (5%)
+    - A 1-2 page written report targeting a non-technical audience that communicates the essence of your project 
+- Oral presentation (10%)
+    - A 20 minute presentation summarizing the project from start-to-finish
+- Final deliverable (10%)
+    - A finished tool or model developed for the client, including documented source code and a user-guide targeted towards a non-technical audience
+- Technical report (15%)
+    - A comprehensive report (15 pages maximum) written for a technical audience (think readers of a subject-specific journal) that thoroughly documents your project
+
+## Tentative Schedule:
+
+- Jan 24 - Feb 2 - Introduction, project management, client interactions, goal setting, project choices
+- Feb 7 and Feb 9 - transition (work time during class)
+- Feb 14 - First progress briefings (Groups 1 and 2)
+- Feb 21 - First progress briefings (Groups 3 and 4)
+- Feb 24 - First reflection
+- Mar 18 - Apr 3 - Spring Break
+- Apr 10-14 - Advisory team take-over of projects
+- Apr 18 - Advisory team presentations and memo
+- Apr 28 - Second reflection
+- May 5 - Executive summary
+- May 9 and May 11 - Oral presentations
+- May 12 - Finished deliverable
+- May 19 - Technical report
+- May 19 - Third reflection
