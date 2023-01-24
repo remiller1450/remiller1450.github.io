@@ -32,7 +32,7 @@ Please recognize that this course is completely new. So, after all of a unit's l
 
 **Unit #1** - Introduction and Python Foundations
 
-- Lectures: Intro (1/24)
+- Lectures: [Intro (1/24)](ml23/intro.pdf)
 - Labs: Scattered Python Foundations (1/26)
     - Due-date: Friday 1/27 by midnight
 - Homework: None
@@ -40,7 +40,7 @@ Please recognize that this course is completely new. So, after all of a unit's l
 **Unit #2** - Machine Learning Concepts and Workflow
 
 - Lectures: $k$-Nearest Neighbors (1/31), Cross-Validation (2/1), Classifier Performance (2/7), Feature Engineering (2/9)
-- Labs: kNN and scaling (1/31), Pipelines, Cross-Validation and Tuning Parameters (2/1), Classifer Performance (2/7), Feature Engineering Challenge (2/9)
+- Labs: kNN and scaling (1/31), Pipelines, Cross-Validation and Tuning Parameters (2/1), Classifier Performance (2/7), Feature Engineering Challenge (2/9)
     - Tentative due-date: Friday 2/10 by midnight
 - Homework: Homework #1
     - Tentative due-date: Tuesday 2/14 by 1pm
@@ -69,9 +69,10 @@ Coming soon
 
 **Unit #1**:
 
+- [UW-Madison SSCC Python Data Wrangling tutorials (balanced)](https://sscc.wisc.edu/sscc/pubs/dwp/Python_Fundamentals.html)
 - [Python Data Science Handbook Chapters 2,3,4 (more technical)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Stefanie Molin's Pandas workshop tutorials 1, 2 (less technical)](https://github.com/stefmolin/pandas-workshop)
-- [Intro to Statistical Learning, Ch2.2 and 2.3](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- [Intro to Statistical Learning, Ch2.2 and 2.3 (ML concepts)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 
 ### Final Project 
 
