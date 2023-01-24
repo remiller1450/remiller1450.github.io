@@ -28,7 +28,7 @@ In this section you'll find materials used at various stages in the course. Seve
 
 **Other materials**:
 
-- [Intro activity](s330/intro.html)
+- [Intro activity](s330s23/intro.html)
 - Data ethics principles
     - Project/client descriptions
 - Data science life cycles
