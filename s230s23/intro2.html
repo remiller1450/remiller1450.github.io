@@ -1616,6 +1616,52 @@ which(my_data$LifeExpectancy &gt; 80 ) # Positions of elements where the conditi
 <p>The first step in this task is identifying which elements match the
 condition we’re interested in (life expectancy over 80).</p>
 <p>A few logical operators you should know of are:</p>
+<table>
+<thead>
+<tr class="header">
+<th>Operator</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>==</code></td>
+<td>equal to</td>
+</tr>
+<tr class="even">
+<td><code>!=</code></td>
+<td>not equal to</td>
+</tr>
+<tr class="odd">
+<td><code>&gt;</code></td>
+<td>great than</td>
+</tr>
+<tr class="even">
+<td><code>&gt;=</code></td>
+<td>greater than or equal to</td>
+</tr>
+<tr class="odd">
+<td><code>&lt;</code></td>
+<td>less than</td>
+</tr>
+<tr class="even">
+<td><code>&lt;=</code></td>
+<td>less than or equal to</td>
+</tr>
+<tr class="odd">
+<td><code>&amp;</code></td>
+<td>and</td>
+</tr>
+<tr class="even">
+<td><code>|</code></td>
+<td>or</td>
+</tr>
+<tr class="odd">
+<td><code>!</code></td>
+<td>negation (“not”)</td>
+</tr>
+</tbody>
+</table>
 <p>Logical expressions can be used to create a <em>subset</em> of an
 object via the <code>subset()</code> function:</p>
 <pre class="r"><code>## Example #1
@@ -1722,6 +1768,20 @@ function to find row or column proportions:</p>
 <pre><code>## 
 ## 1 2 3 4 5 6 7 
 ## 1 1 1 1 1 1 1</code></pre>
+<p>In the example above, the table only had a single dimension (so each
+row total was the same as the frequency). Shown below is a more typical
+example:</p>
+<pre class="r"><code>my_table &lt;- table(my_data$Region, my_data$LifeExpectancy &gt; 80)
+prop.table(my_table, margin = 1)</code></pre>
+<pre><code>##    
+##         FALSE      TRUE
+##   1 1.0000000 0.0000000
+##   2 0.6666667 0.3333333
+##   3 0.9375000 0.0625000
+##   4 1.0000000 0.0000000
+##   5 1.0000000 0.0000000
+##   6 0.8333333 0.1666667
+##   7 1.0000000 0.0000000</code></pre>
 <p><strong>Question #3</strong>: Find the mean, median, and range
 (maximum - minimum) of the variable <code>LifeExpectancy</code> in the
 Happy Planet data. Briefly comment on whether the distribution of this
