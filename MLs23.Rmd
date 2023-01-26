@@ -33,7 +33,7 @@ Please recognize that this course is completely new. So, after all of a unit's l
 **Unit #1** - Introduction and Python Foundations
 
 - Lectures: [Intro (1/24)](ml23/intro.pdf)
-- Labs: Scattered Python Foundations (1/26)
+- Labs: [Python Foundations (1/26)](ml23/Lab1.html)
     - Due-date: Friday 1/27 by midnight
 - Homework: None
 
