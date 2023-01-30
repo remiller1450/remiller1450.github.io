@@ -30,6 +30,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 1 (intro)](s230s23/intro1.html), [Lab 2 (R Markdown)](s230s23/intro2.html), [Optional Lab (common hypothesis tests)](s230s23/ht.html)
     - All labs are due Friday 1/27 at 11:59pm
 - Data visualization
+    - [Lab 3 (intro to `ggplot`)](s230s23/ggplot.html), Lab 4 (effective data visualizations)
+    - All labs are due Friday 2/3 at 11:59pm
 - Data manipulation
 - Working with strings
 - Interactive data visualizations
@@ -50,6 +52,11 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 3 (Data visualization) - R for Data Science](https://r4ds.had.co.nz/data-visualisation.html)
     - [Ch 2.1, 2.2, 2.3, 2.4 (Data visualization case study) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizI.html)
     - [Ch 3 (ggplot) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizII.html)
+- Data Manipulation
+    - [Ch 12 (Tidy data) - R for Data Science](https://r4ds.had.co.nz/tidy-data.html)
+    - [Ch 4 (Data wrangling) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
+    - [Ch 5 (Joins) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
+    - [Ch 13 (Relational data) - R for Data Science](https://r4ds.had.co.nz/relational-data.html)
    
 ### Homework Assignments
 
@@ -64,5 +71,8 @@ Throughout the semester there will be 6-7 homework assignments:
 There will be 3 major projects during the semester. Details on each project will be posted no later than 2 weeks before the project's first deadline.
 
 1. Data cleaning and visualization take-home
+    - [Description (available now)](s230s23/takehome1.html)
+    - Instructions and Data (emailed Wednesday 2/15 at noon)
+    - Due Friday 2/17 at 11:59pm
 2. R Shiny application
 3. Data analysis (final)
