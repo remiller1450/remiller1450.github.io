@@ -31,12 +31,12 @@ In this section you'll find materials used at various stages in the course. Seve
 - [Intro activity](s330s23/intro.html)
 - [Preparing for a project](s330s23/prep.pdf)
     - [Project descriptions](s330s23/projects.html)
-- Managing client interactions
+- [Managing client interactions](s330s23/client.pdf)
 - Best practices in goal setting
 
 ### Assignments and Due Dates
 
-- Project preference reflection
+- [Project preference reflection](s330s23/pref_reflection.html)
    - Due date: Wednesday 2/1 at 11:59pm
 - Progress reflection #1
 - Progress reflection #2
@@ -57,4 +57,10 @@ tab <- data.frame(Tues = c("Progress briefing presentations (Groups 1, 2)", "Gen
 knitr::kable(tab)
 ```
 
-Explained in words, on Tuesdays two groups will present their work since their most recent update (approximately 20-minutes per group). After these presentations, the remaining groups will meet with the group they are advising to discuss the future direction of the project. The advisory groups will summarize the discussion, add additional critiques, and present a briefing to the entire class on Thursday (approximately 5-minutes per group). Groups and advisory groups then reconvene and form goals for their progress briefing. This schedule will repeat, alternating the roles of groups 1 and 3, and groups 2 and 4. Any additional time will be used for organization/planning.
+Explained in words:
+
+- On Tuesdays two groups will present their work since their most recent update (approximately 20-minutes per group). After these presentations, the remaining groups will meet with the group they are advising to discuss the future direction of the project. 
+- The advisory groups will summarize Tuesday's discussion, add additional critiques, and share a short briefing with the entire class on Thursday (approximately 5-minutes per group) 
+- Also on Thursdays, groups and advisory groups then reconvene and form goals to be achieved by the next progress briefing. 
+- This schedule will repeat, alternating the roles of groups 1 and 3, and groups 2 and 4 each. 
+- Any extra time during a class session will be used for organization/planning.
