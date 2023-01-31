@@ -74,6 +74,13 @@ Coming soon
 - [Stefanie Molin's Pandas workshop tutorials 1, 2 (less technical)](https://github.com/stefmolin/pandas-workshop)
 - [Intro to Statistical Learning, Ch2.2 and 2.3 (ML concepts)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 
+**Unit #2**:
+
+- [Intro to Statistical Learning, Ch2.2 and 3.5 (kNN)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- [Intro to ML with Python Ch 1 and Ch 2.1 (kNN)](https://github.com/amueller/introduction_to_ml_with_python)
+- [Stanford's Intro to Statistical Learning video 5.2 (k-fold CV)](https://www.youtube.com/watch?v=AMfvd_hLssE&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=28)
+- [Stanford's Intro to Statistical Learning video 5.3 (CV the right and wrong way)](hhttps://www.youtube.com/watch?v=jgoa28FR__Y&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=29)
+
 ### Final Project 
 
 The last several weeks of the semester will be devoted to a cumulative final project.  Intermediate deadlines and reminders will be posted here:
