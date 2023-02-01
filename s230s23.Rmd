@@ -30,7 +30,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 1 (intro)](s230s23/intro1.html), [Lab 2 (R Markdown)](s230s23/intro2.html), [Optional Lab (common hypothesis tests)](s230s23/ht.html)
     - All labs are due Friday 1/27 at 11:59pm
 - Data visualization
-    - [Lab 3 (intro to `ggplot`)](s230s23/ggplot.html), Lab 4 (effective data visualizations)
+    - [Lab 3 (intro to `ggplot`)](s230s23/ggplot.html), [Lab 4 (effective data visualizations)](s230s23/ggplot2.html)
     - All labs are due Friday 2/3 at 11:59pm
 - Data manipulation
 - Working with strings
