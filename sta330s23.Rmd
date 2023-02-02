@@ -32,7 +32,7 @@ In this section you'll find materials used at various stages in the course. Seve
 - [Preparing for a project](s330s23/prep.pdf)
     - [Project descriptions](s330s23/projects.html)
 - [Managing client interactions](s330s23/client.pdf)
-- Best practices in goal setting
+- [Best practices in goal setting](s330s23/goals.html)
 
 ### Assignments and Due Dates
 
