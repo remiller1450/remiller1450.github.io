@@ -65,6 +65,8 @@ Throughout the semester there will be 6-7 homework assignments:
 - [Homework #1](s230s23/hw1.html)
     - [.Rmd template file](s230s23/hw1.zip)
     - Due date: Wednesday 2/1 at 11:59pm
+- [Homework #2](s230s23/hw2.html)
+    - Due date: Monday 2/13 at 11:59pm
     
 ### Projects
 
