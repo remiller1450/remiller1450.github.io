@@ -26,8 +26,9 @@ output:
 **Class Mentors**:
 
 - Brian Goodell, goodellb\@grinnell.edu 
+- Evaan Ahmed, ahmedeva\@grinnell.edu
 
-Brian will primarily provide support during class for Python-related questions. Please direct conceptual/technical machine learning questions content to the instructor.
+Mentors will primarily provide support for Python-related questions. I encourage you to direct your conceptual/technical machine learning questions towards the instructor.
 
 **Course Description**:
 

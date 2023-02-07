@@ -10,9 +10,9 @@ output:
 
 ### Syllabus
 
-Welcome to course website for Sta-330 (cross-listed as Mat-330), Applied Data Science!
+Welcome to course website for Sta-330 (cross-listed as Mat-330), Applied Data Science.
 
-On this page you can information on the course, starting with the syllabus linked below:
+On this page you can find information about the course, starting with the syllabus linked below:
 
 - [Click here](syllabus330s23.html) to view the course syllabus
 
@@ -22,9 +22,9 @@ In this section you'll find materials used at various stages in the course. Seve
 
 **Recurrent materials**:
 
-- Guidelines for project briefing presentations
-- Guidelines for advisory critiques and feedback
-- Guidelines for goal setting and strategic planning
+- [Guidelines for project briefing presentations](s330s23/pres_guidelines.html)
+- [Guidelines for advisory critiques and feedback](s330s23/adv_guidelines.html)
+- [Guidelines for keeping track of goals](s330s23/goal_guidelines.html)
 
 **Other materials**:
 
@@ -37,10 +37,16 @@ In this section you'll find materials used at various stages in the course. Seve
 ### Assignments and Due Dates
 
 - [Project preference reflection](s330s23/pref_reflection.html)
-   - Due date: Wednesday 2/1 at 11:59pm
-- Progress reflection #1
-- Progress reflection #2
-- Progress reflection #3
+    - Due date: Wednesday 2/1 at 11:59pm
+- First progress briefing presentation
+    - Tuesday 2/14 - TBD
+    - Thursday 2/16 - TBD
+    - Tuesday 2/21 - TBD
+    - *Note* no presentations will occur on Thursday 2/23
+- Reflection #1 - available after the first round of progress briefings
+    - due date: Sunday 2/26 at 11:59pm
+- Reflection #2
+- Reflection #3
 - Adviser take-over report
 - Final products
 
@@ -49,18 +55,17 @@ In this section you'll find materials used at various stages in the course. Seve
 Shown below is a generic schedule illustrating how the course will operate for the majority of the semester:
 
 ```{r, echo = FALSE}
-tab <- data.frame(Tues = c("Progress briefing presentations (Groups 1, 2)", "General questions/comments", "Advisory meetings (Groups 1+3, 2+4)"),
-                  Thurs = c("Advisory feedback presentations (Groups 3, 4)", "Goal setting/critique (Groups 1+3, 2+4)", "Time to work/organize"),
-                  Tues = c("Progress briefing presentations (Groups 3, 4)", "General questions/comments", "Advisory meetings (Groups 1+3, 2+4)"),
-                  Thurs = c("Advisory feedback presentations (Groups 1, 2)", "Goal setting/critique (Groups 1+3, 2+4)", "Time to work/organize"))
+tab <- data.frame(Tues1 = c("Progress briefing presentation (Group 1)", "General questions/comments", "Advisory team meetings", "Goal Setting and Critique"),
+                  Thurs1 = c("Progress briefing presentation (Group 2)", "General questions/comments", "Advisory team meetings", "Goal Setting and Critique"),
+Tues2 = c("Progress briefing presentation (Group 3)", "General questions/comments", "Advisory team meetings", "Goal Setting and Critique"),
+                  Thurs2 = c("Time to work/organize", "-", "-", "-"))
 
 knitr::kable(tab)
 ```
 
 Explained in words:
 
-- On Tuesdays two groups will present their work since their most recent update (approximately 20-minutes per group). After these presentations, the remaining groups will meet with the group they are advising to discuss the future direction of the project. 
-- The advisory groups will summarize Tuesday's discussion, add additional critiques, and share a short briefing with the entire class on Thursday (approximately 5-minutes per group) 
-- Also on Thursdays, groups and advisory groups then reconvene and form goals to be achieved by the next progress briefing. 
-- This schedule will repeat, alternating the roles of groups 1 and 3, and groups 2 and 4 each. 
-- Any extra time during a class session will be used for organization/planning.
+- Each day one team will present its progress over the last two-week interval
+- The other two groups will serve as advisory teams, preparing a brief report during class
+- The class session will conclude with the presenting team sharing its goals for the next two-week interval
+- When no group is presenting, class time will be used to make plans, work on the project, or consult with Prof. Miller on technical aspects of the project
