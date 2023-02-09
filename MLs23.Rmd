@@ -39,8 +39,8 @@ Please recognize that this course is new. So, after all of a unit's lectures hav
 
 **Unit #2** - Machine Learning Concepts and Workflow
 
-- Lectures: [$k$-Nearest Neighbors (1/31)](ml23/mod.pdf), [Cross-Validation (2/2)](ml23/cv.pdf), Classifier Performance (2/7), Feature Engineering (2/9)
-- Labs: [kNN and Pre-processing (1/31)](ml23/lab2a.html), [Pipelines, Cross-validation, and Tuning (2/2)](ml23/lab2b.html), Classifier Performance (2/7), Feature Engineering Challenge (2/9)
+- Lectures: [$k$-Nearest Neighbors (1/31)](ml23/mod.pdf), [Cross-Validation (2/2)](ml23/cv.pdf), [Classifier Performance (2/9)](ml23/cm.pdf), Feature Engineering (2/14)
+- Labs: [kNN and Pre-processing (1/31)](ml23/lab2a.html), [Pipelines, Cross-validation, and Tuning (2/2)](ml23/lab2b.html), [Classifier Performance (2/9)](ml23/lab3a.html), Feature Engineering Challenge (2/14)
     - Tentative due-date: Friday 2/17 by midnight
 - Homework: [Homework #1](ml23/hw1.html)
     - Tentative due-date: Tuesday 2/21 by 1pm
