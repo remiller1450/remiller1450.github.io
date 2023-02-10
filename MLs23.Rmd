@@ -22,15 +22,13 @@ Please note: material will not be posted until we've reached that point in the c
 
 ## Course Materials
 
-Most class sessions will involve a lecture and lab component. These sessions will further be grouped into units.
+Most class meetings involve both lecture and lab components.  Topics are grouped into units, which can be found below.  Assignments are generally due at the end of a unit, but I encourage you to complete them as they are made available.
 
-All labs in a unit are due at midnight on the day after the last class session of that unit (ie: midnight on Friday if the last class session was Thursday, or midnight on Wednesday if the last session was Tuesday).
+$~$
 
-Each unit will also have a homework assignment that is to be completed independently and will be due at the start of the next unit (ie: 1pm on a Tuesday/Thursday).
+### Unit #1 
 
-Please recognize that this course is new. So, after all of a unit's lectures have been completed, we may need devote an additional 1-2 class sessions towards finishing up that unit's labs and answering unresolved questions.
-
-### Unit #1 - Introduction and Python Foundations
+**Introduction and Python Foundations**
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 library(knitr)
@@ -46,7 +44,7 @@ x = data.frame(Date = c("1/24", "1/26"),
                Lecture = c("[Introduction to Machine Learning](ml23/intro.pdf)", " "),
                Lab = c(" ", "[Python Foundations](ml23/Lab1.html)"))
 kable(x) %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
+  kable_styling(bootstrap_options = c("hover"))
 ```
 
 **Assignments**:
@@ -55,7 +53,9 @@ kable(x) %>%
 
 $~$
 
-### Unit #2 - Machine Learning Concepts and Workflow
+### Unit #2 
+
+**Machine Learning Concepts and Workflow**
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 library(knitr)
@@ -71,17 +71,19 @@ x = data.frame(Date = c("1/31", "2/2", "2/7", "2/9", "2/14"),
                Lecture = c("[k-Nearest Neighbors](ml23/mod.pdf)", "[Cross-Validation](ml23/cv.pdf)", " ", "[Classifier Performance](ml23/cm.pdf)", "Feature Engineering"),
                Lab = c("[kNN and Pre-processing](ml23/lab2a.html)", "[Pipelines, Cross-validation, and Tuning Parameters](ml23/lab2b.html)", " ", "[Classifier Performance](ml23/lab3a.html)", "Feature Engineering Challenge"))
 kable(x) %>%
-  kable_styling(bootstrap_options = c("striped", "hover"))
+  kable_styling(bootstrap_options = c("hover"))
 ```
 
 **Assignments**: 
 
-- Lab 2 (parts 1 and 2), Lab 3 (parts 1 and 2) - due Friday 2/17 by midnight
+- All labs are due Friday 2/17 by midnight, you may submit one copy per group (make sure both names are included)
 - [Homework #1](ml23/hw1.html) - due Tuesday 2/21 by 1pm
 
 $~$
     
-### Unit #3 - Structured Models and Parameter Optimization
+### Unit #3 
+
+**Structured Models and Optimization**
 
 - Lectures: Gradient Descent and Regression (TBD), Generalized Linear Models (TBD), Regularization (TBD), Splines and polynomials (TBD)
 - Labs: Regression vs. kNN (TBD), Gradient Descent (TBD), Regularized Regression (TBD), Splines and polynomials (TBD)
@@ -89,19 +91,25 @@ $~$
 
 $~$
 
-### Unit #4 - Tree-based Models and Ensembles
+### Unit #4 
+
+**Tree-based Models and Ensembles**
 
 - Lectures: Classification Trees (TBD), Regression Trees (TBD), Random Forest (TBD),
 Boosting (TBD), Extreme Gradient Boosting (TBD)
 - Labs: Classification Trees (TBD), Regression Trees (TBD), Random Forest (TBD), Boosting (TBD), XGBoost Challenge (TBD)
 
-### Unit #5 - Introduction to Deep Learning
+### Unit #5 
+
+**Introduction to Deep Learning**
 
 Coming soon
 
 $~$
 
-### Unit #6 - Unsupervised Learning
+### Unit #6
+
+**Unsupervised Learning**
 
 Coming soon
 
