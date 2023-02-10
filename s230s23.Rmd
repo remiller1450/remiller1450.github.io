@@ -33,7 +33,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 3 (intro to `ggplot`)](s230s23/ggplot.html), [Lab 4 (effective data visualizations)](s230s23/ggplot2.html)
     - All labs are due Friday 2/3 at 11:59pm
 - Data manipulation
-    - [Lab 5 (reshaping data with `tidyr`)](s230s23/tidyr.html), [Lab 6 (manipulation with `dplyr`)](s230s23/dplyr.html), Lab 7 (merging and joining)
+    - [Lab 5 (reshaping data with `tidyr`)](s230s23/tidyr.html), [Lab 6 (manipulation with `dplyr`)](s230s23/dplyr.html), [Lab 7 (merging and joining)](s230s23/joins.html)
     - All labs are due Wednesday 2/15 at 11:59pm - *Note*: our take-home midterm opens at noon on 2/15
 - Working with strings
 - Interactive data visualizations
@@ -68,7 +68,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - [.Rmd template file](s230s23/hw1.zip)
     - Due date: Wednesday 2/1 at 11:59pm
 - [Homework #2](s230s23/hw2.html)
-    - Due date: Monday 2/13 at 11:59pm
+    - Due date: Wednesday 2/15 at 11:59pm
     
 ### Projects
 
@@ -77,6 +77,6 @@ There will be 3 major projects during the semester. Details on each project will
 1. Data cleaning and visualization take-home
     - [Description (available now)](s230s23/takehome1.html)
     - Instructions and Data (emailed Wednesday 2/15 at noon)
-    - Due Friday 2/17 at 11:59pm
+    - Due Sunday 2/19 at 11:59pm
 2. R Shiny application
 3. Data analysis (final)
