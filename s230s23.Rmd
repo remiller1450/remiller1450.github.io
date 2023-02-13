@@ -34,6 +34,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - All labs are due Friday 2/3 at 11:59pm
 - Data manipulation
     - [Lab 5 (reshaping data with `tidyr`)](s230s23/tidyr.html), [Lab 6 (manipulation with `dplyr`)](s230s23/dplyr.html), [Lab 7 (merging and joining)](s230s23/joins.html)
+    - [Optional lab (functions, iteration, and files)](s230s23/misc.html)
     - All labs are due Wednesday 2/15 at 11:59pm - *Note*: our take-home midterm opens at noon on 2/15
 - Working with strings
 - Interactive data visualizations
