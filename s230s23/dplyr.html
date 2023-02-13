@@ -1371,23 +1371,17 @@ overflow-y: auto;
 border: 1px solid #ddd;
 border-radius: 4px;
 }
-.tabset-dropdown > .nav-tabs > li.active:before {
-content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+content: "\e259";
 font-family: 'Glyphicons Halflings';
 display: inline-block;
 padding: 10px;
 border-right: 1px solid #ddd;
 }
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-content: "";
-border: none;
-}
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-content: "";
+content: "\e258";
 font-family: 'Glyphicons Halflings';
-display: inline-block;
-padding: 10px;
-border-right: 1px solid #ddd;
+border: none;
 }
 .tabset-dropdown > .nav-tabs > li.active {
 display: block;
@@ -1847,7 +1841,7 @@ of summary measures:</p>
             Max_Cost = max(Cost))</code></pre>
 <pre><code>##   Min_Cost TenPer_Cost Median_Cost NinetyPer_Cost Max_Cost
 ## 1    20476     22368.2       43520        54256.2    65814</code></pre>
-<p><strong>Question #3</strong>: Using the <code>summary()</code>
+<p><strong>Question #3</strong>: Using the <code>summarize()</code>
 function, report the interquartile range (IQR) and standard deviation of
 the variable “Debt_Cost_Ratio” that you created in Question #2.
 <em>Hint</em>: recall that the IQR is calculated as the 75th percentile
@@ -1877,7 +1871,7 @@ colleges %&gt;%
   filter(Region == &quot;Plains&quot;) %&gt;%
   group_by(State) %&gt;%
   summarize(Median_Cost = median(Cost, na.rm = TRUE))</code></pre>
-<pre><code>## # A tibble: 7 × 2
+<pre><code>## # A tibble: 7 x 2
 ##   State Median_Cost
 ##   &lt;chr&gt;       &lt;dbl&gt;
 ## 1 IA         43520 
@@ -1897,7 +1891,7 @@ colleges %&gt;%
   group_by(State, Private) %&gt;%
   summarize(Median_Cost = median(Cost, na.rm = TRUE),
             N = n())</code></pre>
-<pre><code>## # A tibble: 6 × 4
+<pre><code>## # A tibble: 6 x 4
 ## # Groups:   State [3]
 ##   State Private Median_Cost     N
 ##   &lt;chr&gt; &lt;chr&gt;         &lt;dbl&gt; &lt;int&gt;
@@ -1916,7 +1910,7 @@ colleges %&gt;%
   mutate(Cost_Avg = mean(Cost, na.rm = TRUE),
          Cost_vs_Avg = Cost - mean(Cost, na.rm = TRUE)) %&gt;%
   select(Name, State, Cost, Cost_Avg, Cost_vs_Avg)</code></pre>
-<pre><code>## # A tibble: 65 × 5
+<pre><code>## # A tibble: 65 x 5
 ## # Groups:   State [2]
 ##    Name                     State  Cost Cost_Avg Cost_vs_Avg
 ##    &lt;chr&gt;                    &lt;chr&gt; &lt;int&gt;    &lt;dbl&gt;       &lt;dbl&gt;
@@ -1930,7 +1924,7 @@ colleges %&gt;%
 ##  8 Carleton College         MN    68835   37714.      31121.
 ##  9 Central College          IA    50547   41987.       8560.
 ## 10 Clarke University        IA    44891   41987.       2904.
-## # … with 55 more rows</code></pre>
+## # ... with 55 more rows</code></pre>
 <p>Notice how <code>summarize()</code> returns an object with 1 row per
 group, while <code>mutate()</code> returns an object with 1 row per
 observation.</p>
@@ -1987,7 +1981,7 @@ over 45? 0=no or 1=yes</li>
 patients whose visit involves an infection. Then, for the “Age”
 variable, find the mean, standard deviation, and group size (found using
 the function <code>n()</code>) of patients with and without a previous
-admission in the last 5 months.</p>
+admission in the prior 6 months.</p>
 <p><strong>Question #5</strong>: Considering all ICU patients in these
 data, use the <code>group_by()</code> and <code>mutate()</code>
 functions to a sex-specific Z-score for the variable “HeartRate” of each
