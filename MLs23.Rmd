@@ -68,8 +68,8 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("1/31", "2/2", "2/7", "2/9", "2/14"), 
-               Lecture = c("[k-Nearest Neighbors](ml23/mod.pdf)", "[Cross-Validation](ml23/cv.pdf)", " ", "[Classifier Performance](ml23/cm.pdf)", "Feature Engineering"),
-               Lab = c("[kNN and Pre-processing](ml23/lab2a.html)", "[Pipelines, Cross-validation, and Tuning Parameters](ml23/lab2b.html)", " ", "[Classifier Performance](ml23/lab3a.html)", "Feature Engineering Challenge"))
+               Lecture = c("[k-Nearest Neighbors](ml23/mod.pdf)", "[Cross-Validation](ml23/cv.pdf)", " ", "[Classifier Performance](ml23/cm.pdf)", "[Data Prepartion](ml23/fe.pdf)"),
+               Lab = c("[kNN and Pre-processing](ml23/lab2a.html)", "[Pipelines, Cross-validation, and Tuning Parameters](ml23/lab2b.html)", " ", "[Classifier Performance](ml23/lab3a.html)", "[Feature Engineering Challenge](ml23/lab3b.html)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
