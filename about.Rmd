@@ -5,6 +5,7 @@ title: "Research"
 This page highlights a few different areas I've actively contributed towards throughout my career.  
 
 - If you are a Grinnell College student interested in working with me on a research project I encourage you to read these sections. I am usually willing to collaborate on a [MAP](https://www.grinnell.edu/about/leadership/offices-services/dean/maps) in most summers as long as the intended project is a good fit for both of us.
+    - *Note*: for the time being, I will be using the [common science division MAP application](https://www.grinnell.edu/academics/majors-concentrations/science-division/summer-research)
 
 $~$
 
@@ -15,8 +16,8 @@ Many penalized regression methods such as [LASSO](http://statweb.stanford.edu/~t
 Read more:
 
 - **Marginal false discovery rate control for likelihood-based penalized regression models**, Miller R and Breheny P, *Biometrical Journal*, 2019. [LINK](https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.201800138)
-- **Feature-specific inference for penalized regression models using local false discovery rates**, Miller R and Breheny P, *In Submission* [arxiv link](https://arxiv.org/pdf/1809.05497.pdf)
-- **Marginal false discovery rates for group sparse penalized regression**, Miller R, *Soon to be Submitted*, arxiv link coming soon
+- **Feature-specific inference for penalized regression models using local false discovery rates**, Miller R and Breheny P, *Statistics in Medicine*, 2023. [LINK](https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9678)
+- **Marginal false discovery rates for group sparse penalized regression**, Miller R, *In progress*, [LINK](https://github.com/remiller1450/grp_mfdr_paper)
 
 $~$
 
@@ -27,7 +28,7 @@ With many states contemplating cannabis legalization, a better understanding of 
 Read more:
 
 - **Impact of cannabis and low alcohol concentration on divided attention tasks during driving**, Miller, R, Brown, T, Lee, S, Tibrewal, I, Milavetz, G, Gaffney, G, Hartman, Hartman R, D Gorelick, R Compton, Huestis, M, *Traffic Injury Prevention*, 2020. [LINK](https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956)
-- **Influence of cannabis use history on the impact of acute cannabis smoking on simulated driving performance during a distraction task**, Miller, R, Brown, T,  Wrobel, J, Kosnett, M, Brooks-Russell, A, *Traffic Injury Prevention*, 2022. [LINK](https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956)
+- **Influence of cannabis use history on the impact of acute cannabis smoking on simulated driving performance during a distraction task**, Miller, R, Brown, T,  Wrobel, J, Kosnett, M, Brooks-Russell, A, *Traffic Injury Prevention*, 2022. [LINK](https://www.tandfonline.com/doi/full/10.1080/15389588.2022.2072492)
 
 $~$
 

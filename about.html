@@ -13,8 +13,8 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
-<script src="site_libs/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -143,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -307,7 +311,12 @@ on a research project I encourage you to read these sections. I am
 usually willing to collaborate on a <a
 href="https://www.grinnell.edu/about/leadership/offices-services/dean/maps">MAP</a>
 in most summers as long as the intended project is a good fit for both
-of us.</li>
+of us.
+<ul>
+<li><em>Note</em>: for the time being, I will be using the <a
+href="https://www.grinnell.edu/academics/majors-concentrations/science-division/summer-research">common
+science division MAP application</a></li>
+</ul></li>
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 <div
@@ -332,11 +341,11 @@ penalized regression models</strong>, Miller R and Breheny P,
 href="https://onlinelibrary.wiley.com/doi/abs/10.1002/bimj.201800138">LINK</a></li>
 <li><strong>Feature-specific inference for penalized regression models
 using local false discovery rates</strong>, Miller R and Breheny P,
-<em>In Submission</em> <a
-href="https://arxiv.org/pdf/1809.05497.pdf">arxiv link</a></li>
+<em>Statistics in Medicine</em>, 2023. <a
+href="https://onlinelibrary.wiley.com/doi/full/10.1002/sim.9678">LINK</a></li>
 <li><strong>Marginal false discovery rates for group sparse penalized
-regression</strong>, Miller R, <em>Soon to be Submitted</em>, arxiv link
-coming soon</li>
+regression</strong>, Miller R, <em>In progress</em>, <a
+href="https://github.com/remiller1450/grp_mfdr_paper">LINK</a></li>
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 </div>
@@ -364,7 +373,7 @@ href="https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956">LINK</a
 cannabis smoking on simulated driving performance during a distraction
 task</strong>, Miller, R, Brown, T, Wrobel, J, Kosnett, M,
 Brooks-Russell, A, <em>Traffic Injury Prevention</em>, 2022. <a
-href="https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956">LINK</a></li>
+href="https://www.tandfonline.com/doi/full/10.1080/15389588.2022.2072492">LINK</a></li>
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 </div>
