@@ -37,7 +37,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Optional lab (functions, iteration, and files)](s230s23/misc.html)
     - All labs are due Wednesday 2/15 at 11:59pm - *Note*: our take-home midterm opens at noon on 2/15
 - Working with strings
+    - [Lab 8 (string processing with `stringr`)](s230s23/stringr.html)
+    - Lab 8 is due Wednesday 2/22 at 11:59pm
 - Interactive data visualizations
+    - Lab 9 (interactive graphics with `plotly`), Lab 10 (maps with `ggplot` and `leaflet`)
+    - Labs 9 and 10 are due Wednesday 3/1 at 11:59pm
 - R Shiny applications
 - Principal component analysis
 - Clustering
@@ -60,7 +64,12 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 4 (Data wrangling) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
     - [Ch 5 (Joins) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
     - [Ch 13 (Relational data) - R for Data Science](https://r4ds.had.co.nz/relational-data.html)
-   
+- Working with strings
+    - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)
+- Interactive Data Visualizations
+    - [Ch 2.1 (Intro Plotly) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
+    - [Ch 17 (Maps/Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
+
 ### Homework Assignments
 
 Throughout the semester there will be 6-7 homework assignments:
@@ -70,6 +79,8 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Wednesday 2/1 at 11:59pm
 - [Homework #2](s230s23/hw2.html)
     - Due date: Wednesday 2/15 at 11:59pm
+- [Homework #3](s230s23/hw3.html)
+    - Due date: Friday 3/3 at 11:59pm
     
 ### Projects
 
@@ -80,4 +91,6 @@ There will be 3 major projects during the semester. Details on each project will
     - Instructions and Data (emailed Wednesday 2/15 at noon)
     - Due Sunday 2/19 at 11:59pm
 2. R Shiny application
+    - [Project Description](s230s23/project2.html)
+    - Choose a partner (or to work alone) by Monday 2/27
 3. Data analysis (final)
