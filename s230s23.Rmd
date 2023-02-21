@@ -37,7 +37,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Optional lab (functions, iteration, and files)](s230s23/misc.html)
     - All labs are due Wednesday 2/15 at 11:59pm - *Note*: our take-home midterm opens at noon on 2/15
 - Working with strings
-    - [Lab 8 (string processing with `stringr`)](s230s23/stringr.html)
+    - [Lab 8 (string processing with `stringr`)](s230s23/strings.html)
     - Lab 8 is due Wednesday 2/22 at 11:59pm
 - Interactive data visualizations
     - Lab 9 (interactive graphics with `plotly`), Lab 10 (maps with `ggplot` and `leaflet`)
