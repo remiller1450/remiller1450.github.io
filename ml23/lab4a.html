@@ -15145,7 +15145,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="Part-3---Optimization-and-Gradient-Descent">Part 3 - Optimization and Gradient Descent<a class="anchor-link" href="#Part-3---Optimization-and-Gradient-Descent">&#182;</a></h3><p>Regression is our first example of a model with a structured set of unknown parameters that must be learned from the data.</p>
 <p>These parameters are estimated such that they minimize a pre-determined <em>cost function</em>. For numeric outcomes, this will be squared error loss:</p>
-$$Cost = \sum_{i=1}^{n}(y_i-\hat{y}_i)^2$$<p>Realize that we can write squared error loss in matrix form:</p>
+$$Cost = \tfrac{1}{n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2$$<p>Realize that we can write squared error loss in matrix form:</p>
 $$Cost = \tfrac{1}{n}(\mathbf{y} - \mathbf{X}\hat{\mathbf{w}})^T(\mathbf{y}-\mathbf{X}\hat{\mathbf{w}})$$<p>In this notation:</p>
 <ul>
 <li>$\mathbf{y}$ is a vector of length $n$</li>
@@ -15579,6 +15579,7 @@ class="
 <li>Part C) Apply your gradient descent function to the Iowa City Home Sales dataset using <code>assessed</code> as the only predictor of sale price.  You may use the code below to ascertain this predictor. Print the final estimate of the only estimated weight, $\hat{w}_1$.</li>
 <li>Part D) Compare your estimated weight from Part C with the results of <code>LinearRegression()</code>. Be sure to use the argument <code>fit_intercept=False</code> to avoid fitting an intercept/bias parameter. If these weights are substantially different, try manipulating your learning rate (or number of iterations) until they are similar.</li>
 </ul>
+<p><em>Hint</em>: The object <code>X_assess</code> created below is a pandas Series, you may want it to be a numpy array of a particular shape when using it in <code>LinearRegression()</code> in Part D.</p>
 
 </div>
 </div>
