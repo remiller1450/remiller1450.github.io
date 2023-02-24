@@ -40,7 +40,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 8 (string processing with `stringr`)](s230s23/strings.html)
     - Lab 8 is due Wednesday 2/22 at 11:59pm
 - Interactive data visualizations
-    - [Lab 9 (interactive graphics with `plotly`)](s230s23/plotly.html), Lab 10 (maps with `ggplot` and `leaflet`)
+    - [Lab 9 (interactive graphics with `plotly`)](s230s23/plotly.html), [Lab 10 (maps with `ggplot` and `leaflet`)](s230s23/maps.html)
     - Labs 9 and 10 are due Wednesday 3/1 at 11:59pm
 - R Shiny applications
 - Principal component analysis
