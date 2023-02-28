@@ -148,9 +148,9 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("4/4", "-", "-", "-"), 
+x = data.frame(Date = c("-", "-", "-", "-"), 
                Lecture = c("Artificial Neural Networks", "Convolutional Neural Networks", "Transfer Learning", "Recurrent Neural Networks"),
-               Lab = c("Intro to PyTorch", "CNNs in PyTorch", "Transfer Learning in PyTorch", "RNNs in PyTorch"))
+               Lab = c("Intro to PyTorch", "Building a CNN", "Transfer Learning", "Building an RNN"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
