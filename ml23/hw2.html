@@ -450,7 +450,9 @@ separate the outcome (Class) from the predictors. Then setup a
 pre-processing pipeline that includes three steps: 1. Normalizing
 transformation using the Yeo-Johnson method, 2. Rescaling using a
 min-max scaler, 3. Model fitting using Softmax regression with no
-regularization.</li>
+regularization. Use the “saga” solver with a maximum of 1000 iterations.
+You may ignore the “divide by zero encountered …” and “overflow
+encountered …” warning messages.</li>
 <li><strong>Part B</strong>: Use 5-fold cross-validation to estimate the
 out-of-sample classification accuracy achieved by the modeling pipeline
 from Part A.</li>
@@ -492,10 +494,12 @@ new approach using 5-fold cross-validation (using the
 beneficial, or does it appear to result in overfitting?</li>
 <li><strong>Part D</strong>: Modify the model step of your pipeline from
 Part C to use <code>RidgeCV</code> with a log-spaced sequence of
-regularization amounts going from 0.01 (1.0e-02) to 100 (1.0e+03).
-Report the optimal amount of regularization. E. Does the introduction of
-regularization improve the predictive ability of the model fit during
-Part C? Briefly explain.</li>
+regularization amounts going from 0.01 (1.0e-02) to 100 (1.0e+03). Use
+5-fold cross-validation and <code>neg_root_mean_squared_error</code> as
+the scoring metric. Report the optimal amount of regularization.</li>
+<li><strong>Part E</strong>: Does the introduction of regularization
+improve the predictive ability of the model fit during Part C? Briefly
+explain.</li>
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 </div>
