@@ -97,7 +97,7 @@ library(dplyr)
 
 x = data.frame(Date = c("2/21", "2/23", "2/28", "3/2", "3/7", "3/9"), 
                Lecture = c("[Regression and Gradient Descent Algorithms](ml23/lm.pdf)", "[Logistic and Softmax Regression](ml23/glm.pdf)", "[Regularization](ml23/lasso.pdf)", "No class (working differently day)", " ", "Feature Expansion"),
-               Lab = c("[Linear Regression and Gradient Descent](ml23/lab4a.html)", "[Logistic and Softmax Regression](ml23/lab4b.html)", " " , " ", "Lasso, Ridge, and Elastic Net", "Discretization, Polynomials, and Splines"))
+               Lab = c("[Linear Regression and Gradient Descent](ml23/lab4a.html)", "[Logistic and Softmax Regression](ml23/lab4b.html)", " " , " ", "[Lasso, Ridge, and Elastic Net](ml23/lab5a.html)", "Discretization, Polynomials, and Splines"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
