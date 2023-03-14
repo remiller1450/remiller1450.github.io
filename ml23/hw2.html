@@ -390,14 +390,16 @@ gradient descent (which is not equivalent to maximum likelihood
 estimation for this scenario).</p>
 <ul>
 <li><strong>Part A</strong>: Use chain rule to show that the <span class="math inline">\(Gradient =
-\tfrac{-2}{n}\mathbf{X}^T(\mathbf{I}e^{\mathbf{X}\mathbf{\hat{w}}})(\mathbf{y}
--e^{\mathbf{X}\mathbf{\hat{w}}})\)</span> where <span class="math inline">\(\mathbf{I}\)</span> is the n-by-n identity
-matrix</li>
+\tfrac{-2}{n}\mathbf{X}^T(diag(e^{\mathbf{X}\mathbf{\hat{w}}}))(\mathbf{y}
+-e^{\mathbf{X}\mathbf{\hat{w}}})\)</span> where <span class="math inline">\(diag(v)\)</span> is used to denote a diagonal
+matrix whose diagonal elements are given by <span class="math inline">\(v\)</span> and whose off-diagonal elements are
+zero.</li>
 <li><strong>Part B</strong>: Write Python functions that calculate the
 cost (given <span class="math inline">\(X\)</span>, <span class="math inline">\(\hat{w}\)</span>, and <span class="math inline">\(y\)</span>) and perform gradient descent for this
 scenario. You should use the functions in Lab 4 (part 1) as examples.
-For reference, the minimum cost for the example data (see below) should
-be between 4.69 and 4.70.</li>
+You may also consider using <code>np.diag()</code> to set up a diagonal
+matrix. For reference, the minimum cost for the example data (see below)
+should be between 4.69 and 4.70.</li>
 </ul>
 <pre class="python"><code>## Setup trial data
 ic = pd.read_csv(&quot;https://remiller1450.github.io/data/IowaCityHomeSales.csv&quot;)
