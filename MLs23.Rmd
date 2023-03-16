@@ -124,15 +124,17 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("3/14", "3/16", "-"), 
-               Lecture = c("[Decision Tree Models](ml23/trees.pdf)", "Ensembles", "Boosting"),
-               Lab = c("[Decision Trees](ml23/lab6a.html)", "Ensembles, Stacking, and Random Forests", "XGBoost Challenge"))
+               Lecture = c("[Decision Tree Models](ml23/trees.pdf)", "[Random Forests](ml23/rf.pdf)", "Boosting"),
+               Lab = c("[Decision Trees](ml23/lab6a.html)", "[Ensembles, Stacking, and Random Forests](ml23/lab6b.html)", "XGBoost Challenge"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 **Assignments**: 
 
-- Due dates TBD
+- Labs 6 (parts 1 and 2) and 7 (single part) are due Friday 4/7 by midnight
+- An optional lab on applied linear algebra and multivariable will be made available for 2 points of quiz extra credit if completed by the Tuesday 4/4 at 1pm
+- Homework #3 (available soon) will be due Tuesday 4/11 by 1pm
 
 ### Unit #5 
 
