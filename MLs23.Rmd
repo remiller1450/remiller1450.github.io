@@ -133,8 +133,8 @@ kable(x) %>%
 **Assignments**: 
 
 - Labs 6 (parts 1 and 2) and 7 (single part) are due Friday 4/7 by midnight
-- An optional lab on applied linear algebra and multivariable will be made available for 2 points of quiz extra credit if completed by the Tuesday 4/4 at 1pm
-- Homework #3 (available soon) will be due Tuesday 4/11 by 1pm
+- [Optional Lab](ml23/prereq.html) for 3 points of quiz extra credit if completed by Tuesday 4/4 at 1pm
+- [Homework #3](ml23/hw3.html) - due Tuesday 4/11 by 1pm
 
 ### Unit #5 
 
