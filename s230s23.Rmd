@@ -46,6 +46,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 11 (intro to `shiny`)](s230s23/shiny.html)
     - Lab 11 is due Monday 3/6
 - Principal component analysis
+    - [Lab 12 (intro to PCA)](s230s23/pca.html)
+    - Lab 12 is due Friday 4/7 at 11:59pm
 - Clustering
 - Modeling a numeric outcome
 - Modeling a categorical outcome
@@ -71,7 +73,9 @@ The following readings are *recommended* in conjunction with the block of materi
 - Interactive Data Visualizations
     - [Ch 2.1 (Intro Plotly) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
     - [Ch 17 (Maps/Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
-
+- Principal Component Analysis
+    - [Ch 12.1 and 12.2 (PCA) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+    
 ### Homework Assignments
 
 Throughout the semester there will be 6-7 homework assignments:
@@ -83,6 +87,8 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Wednesday 2/15 at 11:59pm
 - [Homework #3](s230s23/hw3.html)
     - Due date: Friday 3/3 at 11:59pm
+- [Homework #4](s230s23/hw4.html)
+    - Due date: Monday 4/10 at 11:59pm
     
 ### Projects
 
@@ -96,3 +102,4 @@ There will be 3 major projects during the semester. Details on each project will
     - [Project Description](s230s23/project2.html)
     - Choose a partner (or to work alone) by Monday 2/27
 3. Data analysis (final)
+    - Coming soon
