@@ -124,8 +124,8 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("3/14", "3/16", "-"), 
-               Lecture = c("[Decision Tree Models](ml23/trees.pdf)", "[Random Forests](ml23/rf.pdf)", "Boosting"),
-               Lab = c("[Decision Trees](ml23/lab6a.html)", "[Ensembles, Stacking, and Random Forests](ml23/lab6b.html)", "XGBoost Challenge"))
+               Lecture = c("[Decision Tree Models](ml23/trees.pdf)", "[Random Forests](ml23/rf.pdf)", "[Boosting](ml23/boosting.pdf)"),
+               Lab = c("[Decision Trees](ml23/lab6a.html)", "[Ensembles, Stacking, and Random Forests](ml23/lab6b.html)", "[Boosting and `xgboost`](ml23/lab7.html)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -161,13 +161,6 @@ kable(x) %>%
 
 - Due dates TBD
 
-$~$
-
-### Unit #6
-
-**Unsupervised Learning**
-
-Coming soon
 
 $~$
 
