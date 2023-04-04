@@ -47,7 +47,8 @@ In this section you'll find materials used at various stages in the course. Seve
     - due date: Sunday 2/26 at 11:59pm
 - Reflection #2
 - Reflection #3
-- Adviser take-over report
+- [Adviser take-over report](s330s23/takeover.pdf)
+    - due date: Tuesday 4/18 during class
 - Final products
 
 ### General Schedule
