@@ -123,7 +123,7 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("3/14", "3/16", "-"), 
+x = data.frame(Date = c("3/14", "3/16", "4/4"), 
                Lecture = c("[Decision Tree Models](ml23/trees.pdf)", "[Random Forests](ml23/rf.pdf)", "[Boosting](ml23/boosting.pdf)"),
                Lab = c("[Decision Trees](ml23/lab6a.html)", "[Ensembles, Stacking, and Random Forests](ml23/lab6b.html)", "[Boosting and `xgboost`](ml23/lab7.html)"))
 kable(x) %>%
@@ -192,8 +192,8 @@ $~$
 
 The last several weeks of the semester will be devoted to a cumulative final project.  Intermediate deadlines and reminders will be posted here:
 
-- Coming soon
+- First deadline - Choose your project partner(s) by Monday 4/10
 
 Guidelines and a detailed description of the project are posted below:
 
-- Coming soon
+- [Link to guidelines](final_project.pdf)
