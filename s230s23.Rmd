@@ -49,6 +49,9 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 12 (intro to PCA)](s230s23/pca.html)
     - Lab 12 is due Friday 4/7 at 11:59pm
 - Clustering
+    - [Lab 13 (partitional clustering)](s230s23/clustering1.html)
+    - Lab 14 (heirarchical clustering)
+    - Labs 13 and 14 are due Monday 4/19 at 11:59pm 
 - Modeling a numeric outcome
 - Modeling a categorical outcome
 
