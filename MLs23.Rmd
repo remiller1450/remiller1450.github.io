@@ -144,15 +144,10 @@ kable(x) %>%
 library(knitr)
 library(kableExtra)
 library(dplyr)
-# x <- cars[1:3,]
-# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
-# linkID <- c("link1", "link2", "link3")
-# x$website <- paste0("[", linkID, "](http://", urls, ")")
-# kable(x)
 
-x = data.frame(Date = c("-", "-", "-", "-"), 
-               Lecture = c("Artificial Neural Networks", "Convolutional Neural Networks", "Transfer Learning", "Recurrent Neural Networks"),
-               Lab = c("Intro to PyTorch", "Building a CNN", "Transfer Learning", "Building an RNN"))
+x = data.frame(Date = c("4/11", "-", "-", "-"), 
+               Lecture = c("[Artificial Neural Networks](ml23/ann.pdf)", "Convolutional Neural Networks", "Transfer Learning", "Recurrent Neural Networks"),
+               Lab = c("[Tensors and PyTorch](ml23/lab8a.html)", "Building a CNN", "Transfer Learning", "Building an RNN"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
