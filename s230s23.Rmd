@@ -78,6 +78,8 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 17 (Maps/Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
 - Principal Component Analysis
     - [Ch 12.1 and 12.2 (PCA) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Clustering 
+    - [Ch 12.4 (Clustering) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
     
 ### Homework Assignments
 
@@ -92,7 +94,9 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Friday 3/3 at 11:59pm
 - [Homework #4](s230s23/hw4.html)
     - Due date: Monday 4/10 at 11:59pm
-    
+- [Homework #5](s230s23/hw5.html)
+    - Due date: Wednesday 4/19 at 11:59pm
+        
 ### Projects
 
 There will be 3 major projects during the semester. Details on each project will be posted no later than 2 weeks before the project's first deadline.
