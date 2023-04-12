@@ -154,8 +154,17 @@ kable(x) %>%
 
 **Assignments**: 
 
-- Due dates TBD
+- Lab 8 (parts 1 and 2) due Friday 4/21 by 11:59pm
+- Lab 9 (parts 1 and 2) due Friday 4/28 by 11:59pm
+- [Homework #4](ml23/hw4.html) - due Tuesday 5/2 by 1pm
 
+$~$
+
+### Unit #6
+
+**Introduction to Unsupervised Learning** (time permitting, optional lectures and labs)
+
+- Coming soon 
 
 $~$
 
@@ -204,4 +213,4 @@ The last several weeks of the semester will be devoted to a cumulative final pro
 
 Guidelines and a detailed description of the project are posted below:
 
-- [Link to guidelines](final_project.pdf)
+- [Link to guidelines](ml23/final_project.pdf)
