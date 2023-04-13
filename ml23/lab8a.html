@@ -15160,7 +15160,7 @@ class="
 <li>Part B - What happens if the command <code>self.flatten(x)</code> is removed from the network's <code>forward</code> method? Briefly explain the issue.</li>
 <li>Part C - Briefly explain why we want the network's <code>forward</code> method to produce a 10-dimensional output.</li>
 </ul>
-<p>The operations performed within the stack of functions given in <code>nn.Sequential</code> might seem like a black box, so let's next explore how each of these components works using a few simple examples.</p>
+<h3 id="Part-3---Building-Blocks">Part 3 - Building Blocks<a class="anchor-link" href="#Part-3---Building-Blocks">&#182;</a></h3><p>The operations performed within the stack of functions given in <code>nn.Sequential</code> might seem like a black box, so let's next explore how each of these components works using a few simple examples.</p>
 <p>First, <code>nn.Flatten</code> will take any tensor and output a 2-dimensional tensor with dim 0 preserved from the original tensor. This will keep each observation separate, but collapse the rest of the tensor together.</p>
 
 </div>
@@ -15220,11 +15220,52 @@ class="
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>Next, <code>nn.Sequential</code> is used to create an ordered sequence of layers that alternates between <code>nn.Linear</code> and <code>nn.ReLU</code>. Steps that use <code>nn.Linear</code> are applying linear transformations to their inputs and producing a specified number of outputs (neurons).</p>
 <p>For example, we can visually understand the meaning of <code>nn.Linear(3,2)</code> using the diagram below:</p>
-<p><img src="nnlinear.png" alt=""></p>
 
 </div>
 </div>
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[33]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Sorry, this is an easy way to show images in HTML generated from a Python notebook</span>
+<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
+<span class="n">HTML</span><span class="p">(</span><span class="s1">&#39;&lt;img src=&quot;https://www.sharetechnote.com/image/Python_Pytorch_nn_Linear_i3_o2_01.png&quot;&gt;&#39;</span><span class="p">)</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt">Out[33]:</div>
+
+
+
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html">
+<img src="https://www.sharetechnote.com/image/Python_Pytorch_nn_Linear_i3_o2_01.png">
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 </div>
 <div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper">
@@ -15291,8 +15332,8 @@ tensor([ 0.2106, -0.0278], requires_grad=True)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Something to note is that the weight and bias tensors contain an attribute <code>requires_grad</code> that is set to <code>True</code>. This setting means that quantities related to the gradient of these parameters will be calculated whenever the network is used. This is necessary if those weights/biases are to be updated as the network is trained. Later on we'll learn about <em>transfer learning</em>, in which we'll set this attribute to <code>False</code> in order to preserve certain weights in pre-trained networks.</p>
-<p>Moving on, the steps that use <code>nn.ReLU</code> are introducing non-linearity via the <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks">rectified linear unit activation function</a>). Recall that ReLU layers simply map an input to itself if the input is positive and map it to zero otherwise.</p>
+<p>Something else to note is that the weight and bias tensors contain an attribute <code>requires_grad</code> that is set to <code>True</code>. This setting means that quantities related to the gradient of these parameters will be calculated whenever the network is used. This is necessary if those weights/biases are to be updated as the network is trained. Later on we'll learn about <em>transfer learning</em>, in which we'll set this attribute to <code>False</code> in order to preserve certain weights in pre-trained networks.</p>
+<p>Moving on, the steps that use <code>nn.ReLU</code> are introducing non-linearity via the <a href="https://en.wikipedia.org/wiki/Rectifier_(neural_networks">rectified linear unit activation function</a>). Recall that the ReLU function simply maps an input to itself if the input is positive and map it to zero otherwise.</p>
 <p>Below is a demonstration of <code>nn.ReLU</code>:</p>
 
 </div>
@@ -15350,7 +15391,7 @@ tensor([ 0.2106, -0.0278], requires_grad=True)
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p>Note that activation layers do not introduce any new parameters into the model.</p>
+<p>You should note that activation does not introduce any new parameters into the model.</p>
 
 </div>
 </div>

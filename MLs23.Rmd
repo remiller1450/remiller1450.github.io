@@ -204,6 +204,7 @@ $~$
 - [Intro to Statistical Learning, Ch 10 (Deep Learning)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 - [Stanford Engineering Intro to Neural Networks (CS229)](https://www.youtube.com/watch?v=MfIjxPh6Pys)
 - [PyTorch - Learning the Basics](https://pytorch.org/tutorials/beginner/basics/intro.html)
+- [Stanford's Intro to Statistical Learning video 10.2 (Convolutional Neural Networks)](https://www.youtube.com/watch?v=ggOZuZnA6is&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=69)
 
 ## Final Project 
 
