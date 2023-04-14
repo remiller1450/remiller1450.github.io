@@ -107,6 +107,6 @@ There will be 3 major projects during the semester. Details on each project will
     - Due Sunday 2/19 at 11:59pm
 2. R Shiny application
     - [Project Description](s230s23/project2.html)
-    - Choose a partner (or to work alone) by Monday 2/27
+    - All app code is due Friday 3/17 at 11:59pm
 3. Data analysis (final)
     - Coming soon
