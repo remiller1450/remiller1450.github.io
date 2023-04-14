@@ -1764,14 +1764,13 @@ applications.</p>
 1}^{p} h_j( x_{a,j}, x_{b,j})\]</span></p>
 <p>The function <span class="math inline">\(h_j()\)</span> differs
 depending upon whether <span class="math inline">\(X_j\)</span> is
-numeric or category - For numeric variables, <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = \tfrac{|x_{a,j} -
-x_{b,j}|}{R_j}\)</span>, where <span class="math inline">\(R_j\)</span>
-is the observed range of <span class="math inline">\(X_j\)</span> - For
-categorical variables, <span class="math inline">\(h_j(x_{a,j}, x_{b,j})
-= 0\)</span> if the <span class="math inline">\(x_{a,j}\)</span> and
-<span class="math inline">\(x_{b,j}\)</span> are the same category, and
-<span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = 1\)</span>
-otherwise</p>
+numeric or categorical</p>
+<ul>
+<li>For numeric variables, <span class="math inline">\(h_j(x_{a,j},
+x_{b,j}) = \tfrac{|x_{a,j} - x_{b,j}|}{R_j}\)</span>, where <span class="math inline">\(R_j\)</span> is the observed range of <span class="math inline">\(X_j\)</span></li>
+<li>For categorical variables, <span class="math inline">\(h_j(x_{a,j},
+x_{b,j}) = 0\)</span> if the <span class="math inline">\(x_{a,j}\)</span> and <span class="math inline">\(x_{b,j}\)</span> are the same category, and <span class="math inline">\(h_j(x_{a,j}, x_{b,j}) = 1\)</span> otherwise</li>
+</ul>
 <p>Notice that <span class="math inline">\(h_j()\)</span> has a range of
 <span class="math inline">\([0,1]\)</span> regardless of whether <span class="math inline">\(X_j\)</span> is categorical or numeric, so Gower
 distance implicitly standardizes our data (so we don’t need to worry
