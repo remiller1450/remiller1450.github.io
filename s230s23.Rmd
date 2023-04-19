@@ -50,10 +50,10 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - Lab 12 is due Friday 4/7 at 11:59pm
 - Clustering
     - [Lab 13 (partitional clustering)](s230s23/clustering1.html), [Lab 14 (hierarchical clustering)](s230s23/clustering2.html)
-    - Labs 13 and 14 are due Monday 4/19 at 11:59pm 
+    - Labs 13 and 14 are due Monday 4/17 at 11:59pm 
 - Modeling a numeric outcome
     - [Lab 15 (modeling a numeric outcome)](s230s23/model1.html), Lab 16 (cross-validation)
-    - Labs 14 and 15 are due Monday 5/1 at 11:59pm 
+    - Labs 15 and 16 are due Monday 5/1 at 11:59pm 
 - Modeling a categorical outcome
 
 ### Recommended Readings
