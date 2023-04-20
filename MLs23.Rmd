@@ -146,8 +146,8 @@ library(kableExtra)
 library(dplyr)
 
 x = data.frame(Date = c("4/11", "4/13", "4/18", "4/20", "-"), 
-               Lecture = c("[Artificial Neural Networks](ml23/ann.pdf)", " ", "[Convolutional Neural Networks](ml23/cnn.pdf)", "Transfer Learning", "Recurrent Neural Networks"),
-               Lab = c(" ", "[Tensors and PyTorch](ml23/lab8a.html)", "[Convolutional Neural Networks](ml23/lab8b.html)", "Transfer Learning", "Building an RNN"))
+               Lecture = c("[Artificial Neural Networks](ml23/ann.pdf)", " ", "[Convolutional Neural Networks](ml23/cnn.pdf)", " ", "Recurrent Neural Networks"),
+               Lab = c(" ", "[Tensors and PyTorch](ml23/lab8a.html)", "[Convolutional Neural Networks](ml23/lab8b.html)", "[Transfer Learning](ml23/lab9.html)", "Building an RNN"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
