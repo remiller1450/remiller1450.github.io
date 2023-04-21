@@ -55,6 +55,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 15 (modeling a numeric outcome)](s230s23/model1.html), Lab 16 (cross-validation)
     - Labs 15 and 16 are due Monday 5/1 at 11:59pm 
 - Modeling a categorical outcome
+    - Lab 17 (modeling a categorical outcome), Lab 18 (decision tree models)
 
 ### Recommended Readings
 
@@ -100,7 +101,11 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Monday 4/10 at 11:59pm
 - [Homework #5](s230s23/hw5.html)
     - Due date: Wednesday 4/19 at 11:59pm
-- Homework #6 (coming soon)
+- [Homework #6](s230s23/hw6.html)
+    - Due date: Wednesday 5/3 at 11:59pm
+- Homework #7 (coming soon)
+    - Due date: Friday 5/12 at 11:59pm
+    - *Note*: this assignment focuses on data ethics and involves reading and reflection rather than `R` coding.
         
 ### Projects
 
