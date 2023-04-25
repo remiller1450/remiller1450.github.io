@@ -146,8 +146,8 @@ library(kableExtra)
 library(dplyr)
 
 x = data.frame(Date = c("4/11", "4/13", "4/18", "4/20", "-"), 
-               Lecture = c("[Artificial Neural Networks](ml23/ann.pdf)", " ", "[Convolutional Neural Networks](ml23/cnn.pdf)", " ", "Recurrent Neural Networks"),
-               Lab = c(" ", "[Tensors and PyTorch](ml23/lab8a.html)", "[Convolutional Neural Networks](ml23/lab8b.html)", "[Transfer Learning](ml23/lab9.html)", "Building an RNN"))
+               Lecture = c("[Artificial Neural Networks](ml23/ann.pdf)", " ", "[Convolutional Neural Networks](ml23/cnn.pdf)", " ", "[Recurrent Neural Networks](ml23/rnn.pdf)"),
+               Lab = c(" ", "[Tensors and PyTorch](ml23/lab8a.html)", "[Convolutional Neural Networks](ml23/lab8b.html)", "[Transfer Learning](ml23/lab9.html)", "[RNNs in torch](ml23/lab10.html)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -155,7 +155,7 @@ kable(x) %>%
 **Assignments**: 
 
 - Lab 8 (parts 1 and 2) due Friday 4/21 by 11:59pm
-- Lab 9 (parts 1 and 2) due Friday 4/28 by 11:59pm
+- Labs 9 and 10 are due Friday 4/28 by 11:59pm
 - [Homework #4](ml23/hw4.html) - due Tuesday 5/2 by 1pm
 
 $~$
@@ -210,7 +210,7 @@ $~$
 
 The last several weeks of the semester will be devoted to a cumulative final project.  Intermediate deadlines and reminders will be posted here:
 
-- Upcoming deadline - 1-paragraph project proposal by Monday 4/18
+- Upcoming deadline - Create your project repository and add your data and data pre-processing code. Share a link by Friday 4/28 at 11:59pm
 
 Guidelines and a detailed description of the project are posted below:
 
