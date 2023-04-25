@@ -145,7 +145,7 @@ library(knitr)
 library(kableExtra)
 library(dplyr)
 
-x = data.frame(Date = c("4/11", "4/13", "4/18", "4/20", "-"), 
+x = data.frame(Date = c("4/11", "4/13", "4/18", "4/20", "4/25"), 
                Lecture = c("[Artificial Neural Networks](ml23/ann.pdf)", " ", "[Convolutional Neural Networks](ml23/cnn.pdf)", " ", "[Recurrent Neural Networks](ml23/rnn.pdf)"),
                Lab = c(" ", "[Tensors and PyTorch](ml23/lab8a.html)", "[Convolutional Neural Networks](ml23/lab8b.html)", "[Transfer Learning](ml23/lab9.html)", "[RNNs in torch](ml23/lab10.html)"))
 kable(x) %>%
