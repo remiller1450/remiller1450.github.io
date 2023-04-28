@@ -1576,7 +1576,7 @@ mse8 = 1/nrow(rmr_validation)*sum((rmr_validation$rate_kcal - yh_degree8)^2)
 
 ## Print results
 print(sqrt(c(mse1,mse8)))</code></pre>
-<pre><code>## [1]    123.3852 150179.9107</code></pre>
+<pre><code>## [1] 151.7075 159.4829</code></pre>
 <p>Since these RMSE values were calculated using data that were not used
 to train the models, we will describe each as an <em>estimate</em> of
 that model’s <em>out-of-sample</em> RMSE (or out-of-sample error more
@@ -2023,7 +2023,7 @@ modeling strategy for these data? Briefly explain.</li>
 </div>
 <div id="application" class="section level3">
 <h3>Application</h3>
-<p><strong>Question #6</strong>: The data loaded below, <code>oz</code>,
+<p><strong>Question #7</strong>: The data loaded below, <code>oz</code>,
 record the daily ozone concentrations in New York City across 111
 different days in the same year. The variable “Day” describes how many
 days after Jan 1st the measurement occurred. The goal of this
