@@ -123,4 +123,4 @@ There will be 3 major projects during the semester. Details on each project will
     - All app code is due Friday 3/17 at 11:59pm
 3. Data analysis (final)
     - [Project Description](s230s23/final.html)
-    - Project proposal is due Monday 4/24 at 11:59pm
+    - Update email is due Monday 5/1 at 11:59pm, your email should include a 1-paragraph written description of your progress accompanied by a code file or screenshots.
