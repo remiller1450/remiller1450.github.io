@@ -55,7 +55,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 15 (modeling a numeric outcome)](s230s23/model1.html), [Lab 16 (cross-validation)](s230s23/model2.html)
     - Labs 15 and 16 are due Monday 5/1 at 11:59pm 
 - Modeling a categorical outcome
-    - Lab 17 (modeling a categorical outcome), Lab 18 (decision tree models)
+    - [Lab 17 (modeling a categorical outcome)](s230s23/model3.html), Lab 18 (decision tree models)
+    - Labs 17 and 18 are due Wednesday 5/10 at 11:59pm
 
 ### Recommended Readings
 
@@ -88,6 +89,10 @@ The following readings are *recommended* in conjunction with the block of materi
 - Cross-validation
     - [Stanford's Intro to Statistical Learning video 5.2 (k-fold CV)](https://www.youtube.com/watch?v=AMfvd_hLssE&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=28)
     - [Stanford's Intro to Statistical Learning video 5.3 (CV the right and wrong way)](hhttps://www.youtube.com/watch?v=jgoa28FR__Y&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=29)
+- Modeling a categorical outcome
+    - [Ch 4.1, 4.2, and 4.3 (Classification and logistic regression) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Tree-based models
+     - [Ch 8.1 and 8.2 (Decision trees and random forests) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 
 ### Homework Assignments
 
