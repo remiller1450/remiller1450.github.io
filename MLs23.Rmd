@@ -164,7 +164,19 @@ $~$
 
 **Introduction to Unsupervised Learning** (time permitting, optional lectures and labs)
 
-- Coming soon 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+
+x = data.frame(Date = c("5/2"), 
+               Lecture = c("[Introduction to Unsupervised Learning](ml23/unsup.pdf)"),
+               Lab = c("[Introduction to Unsupervised Learning](ml23/lab11.html)"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 11 is optional and can be completed for extra credit by Friday 5/5 at 11:59pm
 
 $~$
 
