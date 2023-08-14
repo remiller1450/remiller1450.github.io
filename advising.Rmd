@@ -1,0 +1,47 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+# Advising Syllabus
+
+### Contact Information
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2218, millerry\@grinnell.edu
+
+**Office Hours**:
+
+My office hours change each semester, but they can always be found in the syllabus of my current courses. You can find materials, including syllabi that contain my current office hours, for my courses [at this link.](https://remiller1450.github.io/)
+
+$~$
+
+### Goals of an Advising Relationship
+
+Advising is a shared commitment between and adviser and advisee. 
+
+$~$
+
+### Expectations
+
+
+$~$
+
+### Materials
+
+These are a few resources that you, as a Grinnell College student, should be familiar with:
+
+- [Departments, Majors, Concentrations](https://catalog.grinnell.edu/content.php?catoid=29&navoid=4904)
+    - A list of majors by division, along with interdisciplinary concentrations. 
+- [Course List by Subject](https://catalog.grinnell.edu/content.php?catoid=29&navoid=4901)
+    - A list of courses that are offered within various disciplines
+    - The first digit of a course number indicates the level of the course, with 100-level courses being accessible to all students and 300/400-level courses expecting proficiency in lower level courses
+- [Academic Policies and Procedures](https://catalog.grinnell.edu/content.php?catoid=12&navoid=2537)
+    - A comprehensive online handbook detailing policies including: graduation requirements, course registration and withdrawal, academic honesty protocols, and much more 
+- [Why Pursue a Liberal Arts Education?](https://catalog.grinnell.edu/content.php?catoid=29&navoid=4912#Elements_of_a_Liberal_Education)
+    - A brief description of the philosophy of liberal arts education and examples of how such an education translates to various professional fields

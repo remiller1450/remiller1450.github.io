@@ -1,0 +1,156 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+## TUT-101-20 - Data, Decisions, and Uncertainty
+
+Syllabus (Fall 2023)
+
+### Course Information
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2218, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- Noyce 2245, 8-9:50am$*$, Tuesday and Thursday - $*$We may opt to start at 8:30am at some point midsemester
+
+**Office Hours**:
+
+- Noyce 2218, Monday 1:30-2:30pm, Tuesday 2:30-3:30pm, Thursday 10-11am
+
+**Course Description**:
+
+First-Year Tutorial provides an academic and social introduction to Grinnell. It will focus on core skills related to reading, writing, oral presentation, and academic honesty while simultaneously covering content related to a particular theme. Our theme is "Data, Decisions, and Uncertainty", and our content will focus on essential concepts related to statistical thinking and the use of data to make informed decisions.
+
+**Texts**:
+
+Some readings will be assigned from [The Flaw of Averages](https://www.amazon.com/Flaw-Averages-Underestimate-Risk-Uncertainty/dp/1118073754), though we will not use the book until the middle of the semester. All other readings are freely available online through links that will be provided.
+
+$~$
+
+### Course Aims
+
+- Develop written and oral communication skills that are appropriately tailored to a range of audiences.
+- Better understand the norms of academic life at Grinnell, including classroom discussions and collaboration, opportunities around campus, and resources available to students.
+- Develop an understanding of data summaries, graphical presentations of data, common issues that arise when using data to make decisions, and the basic principles of statistical analysis and probability.
+
+
+#### Learning Objectives
+
+By the end of this course you should be able to:
+
+1. Analyze writing from a variety of sources to discern the author's core arguments and support for them.
+2. Identify problems with data analyses, especially issues related multivariate relationships and statistical uncertainty.
+3. Organize your own arguments into coherent written work.
+4. Effectively deliver a short presentation to an audience of your peers.
+
+$~$
+
+### Policies
+
+**Class Sessions**
+
+Our class meetings will often be split into short "nuts and bolts" sessions that pertain to a general topic related to academic life at Grinnell (ie: academic honesty, library resources, etc.) and sessions that focus on content related to our Tutorial's theme and reading, writing, and presentation skills. If starting at 8am, we will take a 10-minute break from 8:50-9am.
+
+**Attendance** 
+
+Tutorial is an important part of Grinnell College and consistent attendance is expected. Throughout the entire Fall semester we'll meet fewer than 30 times, or approximately the same number of times you saw each of your high school teachers in the *first 6-weeks of the school year* (assuming your school used a conventional schedule). This makes each and every class meeting an important opportunity to develop yourself as a student, build community with your peers, and learn course content. If you need to miss class for any reason, my expectation is that you contact me in email 12-hours in advance, or as soon as possible (I understand there might be a morning when you wake up horrendously sick, or something else that's completely unexpected). Part of your end of semester grade will be a course engagement score. If you are consistently missing class it will be difficult to demonstrate A-level engagement. Special circumstances necessitating several missed class sessions will be accommodated on a case-by-case basis depending upon the situation and guidance from academic support staff.
+
+**Late Work**
+
+All graded work will have a corresponding assignment portal on Pioneer Web. You should upload a copy of your work prior to the stated deadline to receive full credit. Assignments completed within 24-hours of the stated deadline may receive a 0-10% penalty, and assignments completed after that will receive a 20% penalty. I will generally accept any late assignment so long as it's clear you will still learn something by completing it. Late penalties may be waived depending upon individual circumstances, but you should aim to submit all of your work on time. 
+
+**Computers**
+
+As a course focused on data and uncertainty, I hope to make substantial use of computers during class throughout the semester. I encourage you to bring your own personal laptop to class if you are comfortable doing so. If you'd prefer to use a college laptop, please let me know ahead of time so that I can make the appropriate arrangements.
+
+**Academic Honesty**
+
+At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose. Additional information [can be found here](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  To receive accommodations, students must provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+**Academic Support**
+
+If you have other needs not addressed in previous sections, please let me know soon so that we can work together for the best possible learning environment. In some cases, I will recommend consulting with the Academic Advising staff. They are an excellent resource for developing strategies for academic success and can connect you with other campus resources as well: http://www.grinnell.edu/about/offices-services/academic-advising. If I notice that you are encountering difficulty, in addition to communicating with you directly about it, I will also likely submit an academic alert via Academic Advising's SAL portal. This reminds you of my concern, and it notifies the Academic Advising team and your adviser(s) so that they can reach out to you with additional offers of support.
+
+$~$
+
+### Grading
+
+**Engagement and Participation** - 10\%
+
+Active engagement helps develop "soft skills" that essential to succeeding in scholarly life at Grinnell. These include making useful contributions to discussions, developing effective interpersonal relationships, and working within a group. At the end of the semester you will receive a score based upon my qualitative assessment of your engagement and a 1-page self-reflection on your own engagement. Consistent attendance, regular contributions to discussions, and showing up to class prepared are a few ways to ensure a high score in this grade category.
+
+**Ordinary Assignments** - 30\%
+
+You should expect to submit a variety of shorter assignments for credit (both graded and completion). Examples include short pieces of informal writing, outlines, summaries, peer reviews, write-ups to investigative labs, etc.
+
+**Oral Presentations (4x)** - 20\% (5\% each)
+
+Throughout the semester you will deliver *three* in-class presentations that are approximately 5-10 minutes in length. Each presentation will have it's own prompt, skill emphasis, and rubric.
+
+**Midterm Paper** - 15\%
+
+This is a 2-page paper that selects one case study in *The Flaw of Averages* and argues for (or against) it being an example that every student at Grinnell should learn about. You will have an opportunity to re-submit your midterm paper with revisions to improve your score (if desired).
+
+**Final Paper** - 20\%
+
+This assignment is a longer paper (3-6 pages) with a few different options that you may choose from. An overview of these options is given below. Additional details will provided later in the semester.
+
+1. Performing your own data analysis and writing about the results.
+2. Critiquing an existing presentation or use of data, making direct connections to one or more topics from class.
+3. An argumentative essay that explains the value of formal training in data analysis and statistical methods to a peer using examples and reflections from class.
+
+**Final Paper Reflection** - 5\%
+
+This is a short reflection detailing how you used skills covered throughout the semester while developing your Final Paper.
+
+**Overall Grade**: 
+
+ - The overall grade you receive at the end of the semester will be no lower than "A" if your weighted average exceeds 92%, no lower than "A-" if it exceeds 90%, no lower than "B+" if it exceeds 87%, no lower than "B" if it exceeds 83%, no lower than "B-" if it exceeds 80%, no lower than "C+" if it exceeds 77%, no lower than "C" if it exceeds 70, and no lower than "D" if it exceeds 60%.  
+- Weighted percentages will not be rounded upward or downward except under extreme circumstances. Thus, you should not expect 89.8% to result in an "A-", though 89.99% likely will receive an "A-".
+
+
+$~$
+
+### Topic List
+
+Content throughout the course can be grouped into three major themes:
+
+- Unit 1 - Data
+    - Types of data
+    - Methods of data collection
+    - Summarizing and presenting data
+- Unit 2 - Multivariate relationships
+    - Confounding and Simpson's Paradox
+    - Causal diagrams
+    - Addressing confounding
+- Unit 3 - Navigating uncertainty
+    - Randomness and probability
+    - Statistical inference, bootstrapping, and randomization
+    - Monte Carlo simulation
+
+### Schedule and Class Materials
+
+Our course schedule and materials are located at the following webpage:
+https://remiller1450.github.io/tut23.html
+
+I will try to stick to the schedule posted at the start of the semester, but as the course progresses we may end up adjusting some of these dates. The posted schedule will be updated promptly in response to these adjustments.

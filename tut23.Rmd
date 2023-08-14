@@ -1,0 +1,169 @@
+---
+title: "Tut-101-20 - Data, Decisions, and Uncertainty"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+Welcome to the website for Tut-101-20, Data, Decisions, and Uncertainty. This page will contain a schedule and all materials used throughout the semester. The first of these is the syllabus, which is linked below:
+
+- [Click here](syllabusTut23.html) to view the course syllabus
+
+Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
+
+### Schedule (last updated 8/3/23)
+
+Please note:
+
+1. All readings should be done before coming to class on the posted date
+2. All assignments should be submitted via P-web unless other directions are given.
+3. Dates with a $*$ will begin at 8:30am (rather than 8:00am)
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+
+x = data.frame(Date = c("Thursday 8/24", 
+                        "Tuesday 8/29",
+                        "Thursday 8/31",
+                        "Tuesday 9/5",
+                        "Thursday 9/7",
+                        "Tuesday 9/12",
+                        "Thursday 9/14",
+                        "Tuesday 9/19",
+                        "Thursday 9/21",
+                        "Tuesday 9/26",
+                        "Thursday 9/28",
+                        "Tuesday 10/3",
+                        "Thursday 10/5",
+                        "Tuesday 10/10",
+                        "Thursday 10/12",
+                        "FALL BREAK",
+                        "Tuesday 10/24",
+                        "Thursday 10/26",
+                        "Tuesday 10/31",
+                        "Thursday 11/2",
+                        "Tuesday 11/7",
+                        "Thursday 11/9",
+                        "Tuesday 11/14",
+                        "Thursday 11/16",
+                        "Tuesday 11/21",
+                        "THANKSGIVING BREAK",
+                        "Tuesday 11/28",
+                        "Thursday 11/30",
+                        "Tuesday 12/5",
+                        "Tuesday 12/7",
+                        "Finals Week"
+                        
+                        ), 
+               Content = c("1. Introduction <br> 2. Productive Discussions <br> 3. Discussion", 
+                          "1. Outlining an Argument Activity <br> 2. Descriptive Statistics <br> 3. NYPD Activity",
+                          "1. Thoughtful Critiques <br> 2. Peer-to-peer Feedback <br> 3. NYPD Revisited",
+                          "1. Making Effective Slides <br> 2. Candy Activity <br>",
+                          "1. Presentation #1 <br> 2. Discussion",
+                          "1. Outlining Academic Honesty Activity(CHAT-GPT vs Students) <br> 2. Quoting and Citation Practice",
+                          "1. Death Penalty Sentencing and College Admissions",
+                          "1. Causal Diagrams <br> 2. Causal Diagrams Practice",
+                          "1. Presentation #2 <br> 2. Discussion",
+                          "1. Library Session #1 <br> 2. Addressing Confounding",
+                          "1. Library Session #2 <br> 2. Regression",
+                          "- No Class? (Prof Miller at AAAM Conference, Maybe)",
+                          "- No Class! (Prof Miller at AAAM Conference, Certainly)",
+                          "1. Sources of Uncertainty",
+                          "1. Bootstrapping",
+                          "- No Class (Fall Break)",
+                          "1. Scientific Method <br> 2. Testing Hypotheses using Randomness",
+                          "1. Hypothesis Testing Misconceptions",
+                          "1. Peer Review of Outlines <br> 2. Outline Flaw of Averages Application",
+                          "1. Peer Review of Drafts",
+                          "1. Monte Carlo Simulation Activity",
+                          "1. David White Special Lecture (Wilson Center)",
+                          "1. Simulation",
+                          "1. Presentation #3 <br> 2. Discussion",
+                          "1. Final Paper Workshop",
+                          "- No Class (Thanksgiving)",
+                          "- Paper Conferences (No Class, Individual Meetings)",
+                          "- Paper Conferences (No Class, Individual Meetings)",
+                          "1. Oral Presentation #4",
+                          "1. Oral Presentation #4",
+                          " "
+                          
+                          ),
+               Reading = c(" ", 
+                           "[How to Present Data to Win Arguments, Change Minds, and Save Lives](https://shorturl.at/qsVYZ)",
+                           "[Lessons on How to Lie with Statistics](https://shorturl.at/qrwyY)",
+                           "[How to Tell a Compelling Story in Scientific Presentations](https://www.nature.com/articles/d41586-021-03603-2)",
+                           " ",
+                           "[Academic Honesty Handbook](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources)",
+                           " ",
+                           "[Causal Diagrams for Epidemiologic Inference](https://academic.oup.com/book/8266/chapter/153863534)",
+                           " ",
+                           "[Library Webpage](https://www.grinnell.edu/academics/libraries/students/research)",
+                           "[Why is it Called Regression Anyway](https://shorturl.at/lrtOT)",
+                           "Flaw of Averages Ch 1, 2",
+                           "Flaw of Averages Ch 3, 4, 5",
+                           "1. [Randomness in Statistics](https://shorturl.at/oGJW3) <br> 2. Flaw of Averages Ch 6, 7, 8",
+                           "Flaw of Averages Ch 9, 10, 11",
+                           " ",
+                           "Flaw of Averages Ch 12, 13",
+                           "1. [p-value Ban: Small Step for a Journal, Giant Leap for Science](https://www.sciencenews.org/blog/context/p-value-ban-small-step-journal-giant-leap-science) <br> 2. [p-values are Just the Tip of the Iceberg](https://www.nature.com/articles/520612a)",
+                           " ",
+                           " ",
+                           " ",
+                           "[David White '90 Bio](https://www.grinnell.edu/user/white)",
+                           " ",
+                           " ",
+                           " ",
+                           " ",
+                           " ",
+                           " ",
+                           " ",
+                           " ",
+                           " "
+                           
+                           
+                           ),
+               Assignments = c(" ", 
+                               "NYPD Introduction Paragraph",
+                               "NYPD Deceptive Strategies Reflection",
+                               "Presentation #1",
+                               "Presentation #1 Reflection",
+                               "Academic Honesty Exercises",
+                               "Explanatory Paragraph",
+                               "Presentation #2",
+                               "Presentation #2 Reflection",
+                               " ",
+                               "Regression Assignment",
+                               " ",
+                               " ",
+                               "Randomness Assignment",
+                               "1. Bootstrapping Write-up <br> 2. Flaw of Averages Sign-up",
+                               " ",
+                               "Scientific Method Summary",
+                               "p-value Debate Outline",
+                               "Paper #1 Draft",
+                               "Revise Paper #1 Draft",
+                               "Monte Carlo Activity Reflection",
+                               "David White '90 Lecture Reflection", 
+                               "Presentation #3",
+                               "Presentation #3 Reflection",
+                               "Paper #2 Topic and Outline",
+                               " ",
+                               "Paper #2 Draft",
+                               "Paper #2 Draft",
+                               " ",
+                               " ",
+                               "Final Paper Due"
+                               
+                               ))
+
+kable(x, escape = FALSE) %>%
+  kable_styling(bootstrap_options = c("hover", "striped", "responsive"),
+                fixed_thead = TRUE)
+```

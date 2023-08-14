@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Tut-101-20 - Data, Decisions, and Uncertainty</title>
+
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Tut-101-20 - Data, Decisions, and
+Uncertainty</h1>
+
+</div>
+
+
+<p><span class="math inline">\(~\)</span></p>
+<p>Welcome to the website for Tut-101-20, Data, Decisions, and
+Uncertainty. This page will contain a schedule and all materials used
+throughout the semester. The first of these is the syllabus, which is
+linked below:</p>
+<ul>
+<li><a href="syllabusTut23.html">Click here</a> to view the course
+syllabus</li>
+</ul>
+<p>Please note that some material will not be posted until we’ve reached
+that point in the course, and the schedule may occasionally be revised
+as we progress through the semester.</p>
+<div id="schedule-last-updated-8323" class="section level3">
+<h3>Schedule (last updated 8/3/23)</h3>
+<p>Please note:</p>
+<ol style="list-style-type: decimal">
+<li>All readings should be done before coming to class on the posted
+date</li>
+<li>All assignments should be submitted via P-web unless other
+directions are given.</li>
+<li>Dates with a <span class="math inline">\(*\)</span> will begin at
+8:30am (rather than 8:00am)</li>
+</ol>
+<table class="table table-hover table-striped table-responsive" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Date
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Content
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Reading
+</th>
+<th style="text-align:left;position: sticky; top:0; background-color: #FFFFFF;">
+Assignments
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Thursday 8/24
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Introduction <br> 2. Productive Discussions <br> 3. Discussion
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 8/29
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Outlining an Argument Activity <br> 2. Descriptive Statistics <br>
+3. NYPD Activity
+</td>
+<td style="text-align:left;">
+<a href="https://shorturl.at/qsVYZ">How to Present Data to Win
+Arguments, Change Minds, and Save Lives</a>
+</td>
+<td style="text-align:left;">
+NYPD Introduction Paragraph
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 8/31
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Thoughtful Critiques <br> 2. Peer-to-peer Feedback <br> 3. NYPD
+Revisited
+</td>
+<td style="text-align:left;">
+<a href="https://shorturl.at/qrwyY">Lessons on How to Lie with
+Statistics</a>
+</td>
+<td style="text-align:left;">
+NYPD Deceptive Strategies Reflection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 9/5
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Making Effective Slides <br> 2. Candy Activity <br>
+</td>
+<td style="text-align:left;">
+<a href="https://www.nature.com/articles/d41586-021-03603-2">How to Tell
+a Compelling Story in Scientific Presentations</a>
+</td>
+<td style="text-align:left;">
+Presentation #1
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 9/7
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Presentation #1 <br> 2. Discussion
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Presentation #1 Reflection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 9/12
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Outlining Academic Honesty Activity(CHAT-GPT vs Students) <br> 2.
+Quoting and Citation Practice
+</td>
+<td style="text-align:left;">
+<a
+href="https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources">Academic
+Honesty Handbook</a>
+</td>
+<td style="text-align:left;">
+Academic Honesty Exercises
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 9/14
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Death Penalty Sentencing and College Admissions
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Explanatory Paragraph
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 9/19
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Causal Diagrams <br> 2. Causal Diagrams Practice
+</td>
+<td style="text-align:left;">
+<a href="https://academic.oup.com/book/8266/chapter/153863534">Causal
+Diagrams for Epidemiologic Inference</a>
+</td>
+<td style="text-align:left;">
+Presentation #2
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 9/21
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Presentation #2 <br> 2. Discussion
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Presentation #2 Reflection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 9/26
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Library Session #1 <br> 2. Addressing Confounding
+</td>
+<td style="text-align:left;">
+<a
+href="https://www.grinnell.edu/academics/libraries/students/research">Library
+Webpage</a>
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 9/28
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Library Session #2 <br> 2. Regression
+</td>
+<td style="text-align:left;">
+<a href="https://shorturl.at/lrtOT">Why is it Called Regression
+Anyway</a>
+</td>
+<td style="text-align:left;">
+Regression Assignment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 10/3
+</td>
+<td style="text-align:left;">
+<ul>
+<li>No Class (Prof Miller at AAAM Conference)
+</td>
+<td style="text-align:left;">
+Flaw of Averages Ch 1, 2
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 10/5
+</td>
+<td style="text-align:left;">
+<ul>
+<li>No Class (Prof Miller at AAAM Conference)
+</td>
+<td style="text-align:left;">
+Flaw of Averages Ch 3, 4, 5
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 10/10
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Sources of Uncertainty
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li><a href="https://shorturl.at/oGJW3">Randomness in Statistics</a>
+<br> 2. Flaw of Averages Ch 6, 7, 8
+</td>
+<td style="text-align:left;">
+Randomness Assignment
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 10/12
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Bootstrapping
+</td>
+<td style="text-align:left;">
+Flaw of Averages Ch 9, 10, 11
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Bootstrapping Write-up <br> 2. Flaw of Averages Sign-up
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+FALL BREAK
+</td>
+<td style="text-align:left;">
+<ul>
+<li>No Class (Fall Break)
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 10/24
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Scientific Method <br> 2. Testing Hypotheses using Randomness
+</td>
+<td style="text-align:left;">
+Flaw of Averages Ch 12, 13
+</td>
+<td style="text-align:left;">
+Scientific Method Summary
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 10/26
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Hypothesis Testing Misconceptions
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li><a
+href="https://www.sciencenews.org/blog/context/p-value-ban-small-step-journal-giant-leap-science">p-value
+Ban: Small Step for a Journal, Giant Leap for Science</a> <br> 2. <a
+href="https://www.nature.com/articles/520612a">p-values are Just the Tip
+of the Iceberg</a>
+</td>
+<td style="text-align:left;">
+p-value Debate Outline
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 10/31
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Peer Review of Outlines <br> 2. Outline Flaw of Averages Application
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Paper #1 Draft
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 11/2
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Peer Review of Drafts
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Revise Paper #1 Draft
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 11/7
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Monte Carlo Simulation Activity
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Monte Carlo Activity Reflection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 11/9
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>David White Special Lecture (Wilson Center)
+</td>
+<td style="text-align:left;">
+<a href="https://www.grinnell.edu/user/white">David White ’90 Bio</a>
+</td>
+<td style="text-align:left;">
+David White ’90 Lecture Reflection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 11/14
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Simulation
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Presentation #3
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 11/16
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Presentation #3 <br> 2. Discussion
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Presentation #3 Reflection
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 11/21
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Final Paper Workshop
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Paper #2 Topic and Outline
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+THANKSGIVING BREAK
+</td>
+<td style="text-align:left;">
+<ul>
+<li>No Class (Thanksgiving)
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 11/28
+</td>
+<td style="text-align:left;">
+<ul>
+<li>Paper Conferences (No Class, Individual Meetings)
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Paper #2 Draft
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Thursday 11/30
+</td>
+<td style="text-align:left;">
+<ul>
+<li>Paper Conferences (No Class, Individual Meetings)
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Paper #2 Draft
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 12/5
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Oral Presentation #4
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Tuesday 12/7
+</td>
+<td style="text-align:left;">
+<ol style="list-style-type: decimal">
+<li>Oral Presentation #4
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Finals Week
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Final Paper Due
+</td>
+</tr>
+</tbody>
+</table></li>
+</ol></li>
+</ol></li>
+</ul></li>
+</ul></li>
+</ul></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ul></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ul></li>
+</ul></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol></li>
+</ol>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
