@@ -1,0 +1,71 @@
+---
+title: "STA-230 - Introduction to Data Science (Fall 2023)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+Welcome to the course website for Sta-230, Introduction to Data Science. To begin, you can find the course syllabus linked below:
+
+- [Click here](syllabus230f23.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper left.  
+
+*Note*: Some material may not be posted until we've reached that point in the course.
+
+### Labs
+
+Sta-230 uses a *workshop style* class format. This means that the majority of our class time will be devoted towards collaboratively working through guided lab activities. You should consult the syllabus for a more detailed description of lab procedures and expectations.
+
+**Lab Topics and Links**:
+
+- Introduction to `R`
+    - Lab 1 (intro to R), Optional Lab (hypothesis tests in R)
+- Data visualization
+    - Lab 2 (intro to `ggplot2`), Lab 3 (effective data visualizations)
+- Data manipulation
+    - Lab 4 (reshaping with `tidyr`), Lab 5 (manipulation with `dplyr`), Lab 6 (merging and joining), Optional Lab (files and iteration)
+    - Midterm #1 (take home) will occur after this unit
+- Working with strings
+    - Lab 7 (text processing with `stringr`)
+- Interactive data visualizations
+    - Lab 8 (interactive graphics with `plotly`), Lab 9 (maps with `leaflet`)
+- R Shiny applications
+    - Lab 10 (intro to `shiny`)
+    - Midterm #2 (R Shiny app) will occur after this unit
+- Principal component analysis
+    - Lab 11 (PCA)
+- Clustering
+    - Lab 12 (Partitional clustering), Lab 13 (Hierarchical clustering)
+- Modeling a numeric outcome
+    - Lab 14 (Regression and kNN), Lab 15 (Cross-validation)
+- Modeling a categorical outcome
+    - Lab 16 (Categorical outcomes), Lab 17 (Decision trees and random forest), Optional Lab (boosting)
+
+### Recommended Readings
+
+The following readings are *recommended* in conjunction with the block of material they cover. They are intended to provide another perspective on the topics we'll cover:
+
+- Introduction to R
+    - [Ch 4 (R basics) - R for Data Science](https://r4ds.had.co.nz/workflow-basics.html)
+    - [Ch 27 (R Markdown - R for Data Science)](https://r4ds.had.co.nz/r-markdown.html)
+
+### Homework Assignments
+
+Throughout the semester there will be 6-7 homework assignments:
+
+- Homework #1 (coming soon)
+    - Due date: TBD
+        
+### Projects
+
+There will be 3 major projects during the semester. Details on each project will be posted no later than 2 weeks before the project's first deadline.
+
+1. Data cleaning and visualization take-home (midterm #1)
+2. R Shiny application (midterm #2)
+3. Data analysis report (final)

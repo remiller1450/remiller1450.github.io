@@ -48,7 +48,7 @@ By the end of this course you should be able to:
 
 1. Analyze writing from a variety of sources to discern the author's core arguments and support for them.
 2. Identify problems with data analyses, especially issues related multivariate relationships and statistical uncertainty.
-3. Organize your own arguments into coherent written work.
+3. Present your own arguments and ideas using coherent and concise writing.
 4. Effectively deliver a short presentation to an audience of your peers.
 
 $~$
@@ -57,11 +57,11 @@ $~$
 
 **Class Sessions**
 
-Our class meetings will often be split into short "nuts and bolts" sessions that pertain to a general topic related to academic life at Grinnell (ie: academic honesty, library resources, etc.) and sessions that focus on content related to our Tutorial's theme and reading, writing, and presentation skills. If starting at 8am, we will take a 10-minute break from 8:50-9am.
+Many of our class meetings will often be split into short "nuts and bolts" segments covering a general topic related to academic life at Grinnell (ie: classroom discussions, academic honesty, library resources, etc.) and segments that focus on content related to our Tutorial's theme. When starting at 8am, we will take a 10-minute break from 8:50-9am.
 
 **Attendance** 
 
-Tutorial is an important part of Grinnell College and consistent attendance is expected. Throughout the entire Fall semester we'll meet fewer than 30 times, or approximately the same number of times you saw each of your high school teachers in the *first 6-weeks of the school year* (assuming your school used a conventional schedule). This makes each and every class meeting an important opportunity to develop yourself as a student, build community with your peers, and learn course content. If you need to miss class for any reason, my expectation is that you contact me in email 12-hours in advance, or as soon as possible (I understand there might be a morning when you wake up horrendously sick, or something else that's completely unexpected). Part of your end of semester grade will be a course engagement score. If you are consistently missing class it will be difficult to demonstrate A-level engagement. Special circumstances necessitating several missed class sessions will be accommodated on a case-by-case basis depending upon the situation and guidance from academic support staff.
+Tutorial is an essential part of your introduction to Grinnell College and consistent attendance is expected. Throughout the entire Fall semester we'll meet *fewer than 30 times*, or approximately the same number of times you saw each of your high school teachers in the *first 6-weeks of the school year* (assuming your school used a conventional schedule). This makes each and every class meeting an important opportunity to develop yourself as a student, build community with your peers, and learn new ideas. If you need to miss class for any reason, my expectation is that you contact me in email 12-hours in advance, or as soon as possible (I understand there might be a morning when you wake up horrendously sick, or encounter something else that's completely unexpected). Part of your end of semester grade will be a course engagement score. If you are consistently missing class it will be difficult to demonstrate A-level engagement. Special circumstances necessitating several missed classes will be accommodated on a case-by-case basis.
 
 **Late Work**
 
@@ -69,7 +69,7 @@ All graded work will have a corresponding assignment portal on Pioneer Web. You 
 
 **Computers**
 
-As a course focused on data and uncertainty, I hope to make substantial use of computers during class throughout the semester. I encourage you to bring your own personal laptop to class if you are comfortable doing so. If you'd prefer to use a college laptop, please let me know ahead of time so that I can make the appropriate arrangements.
+I hope to make substantial use of computers during class throughout the semester. I encourage you to bring your own personal laptop to use during class if you are comfortable doing so. If you'd prefer to use a college laptop, please let me know ahead of time and we can make arrangements.
 
 **Academic Honesty**
 
@@ -97,15 +97,15 @@ $~$
 
 **Engagement and Participation** - 10\%
 
-Active engagement helps develop "soft skills" that essential to succeeding in scholarly life at Grinnell. These include making useful contributions to discussions, developing effective interpersonal relationships, and working within a group. At the end of the semester you will receive a score based upon my qualitative assessment of your engagement and a 1-page self-reflection on your own engagement. Consistent attendance, regular contributions to discussions, and showing up to class prepared are a few ways to ensure a high score in this grade category.
+Active engagement helps develop "soft skills" that important in succeeding at Grinnell and afterward. Examples of these skills include making useful contributions to discussions, developing effective interpersonal relationships, and working collaboratively in a group. At the end of the semester you will receive a score based upon my qualitative assessment of your engagement and a 1-page self-reflection on your own engagement. Consistent attendance, regular contributions to discussions, and showing up to class prepared are ways to achieve a high score.
 
 **Ordinary Assignments** - 30\%
 
-You should expect to submit a variety of shorter assignments for credit (both graded and completion). Examples include short pieces of informal writing, outlines, summaries, peer reviews, write-ups to investigative labs, etc.
+Frequent and consistent practice provides the clearest path to improvement. With this in mind, you should expect to submit a variety of shorter assignments for credit (both graded and completion). Examples include short pieces of informal writing, outlines, summaries, peer reviews, write-ups to investigative labs, etc.
 
 **Oral Presentations (4x)** - 20\% (5\% each)
 
-Throughout the semester you will deliver *three* in-class presentations that are approximately 5-10 minutes in length. Each presentation will have it's own prompt, skill emphasis, and rubric.
+Throughout the semester you will deliver *four* in-class presentations that are approximately 5-10 minutes in length. Each presentation will have it's own prompt, emphasis, and rubric.
 
 **Midterm Paper** - 15\%
 
@@ -153,4 +153,4 @@ Content throughout the course can be grouped into three major themes:
 Our course schedule and materials are located at the following webpage:
 https://remiller1450.github.io/tut23.html
 
-I will try to stick to the schedule posted at the start of the semester, but as the course progresses we may end up adjusting some of these dates. The posted schedule will be updated promptly in response to these adjustments.
+I will try to stick to the schedule posted at the start of the semester, but as the course progresses we may end up adjusting some of these dates. The posted schedule will be updated promptly in response to these adjustments. I will include a "last updated" date so that you know when a change has been made.

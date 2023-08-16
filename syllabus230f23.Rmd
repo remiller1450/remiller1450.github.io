@@ -1,0 +1,163 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+# Syllabus - Sta-230-03 (Fall 2023)
+
+### Course Information
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2218, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- HSSC N3170, 1-2:20pm
+
+**Office Hours**:
+
+- Noyce 2218, Monday 1:30-2:30pm, Tuesday 2:30-3:30pm, Thursday 10-11am
+
+**Class Mentors**:
+
+- Information coming soon
+
+**Course Description**:
+
+This course introduces core topics in data science using R programming. This includes introductions to getting and cleaning data, data management, exploratory data analysis, reproducible research, and data visualization. This course incorporates case studies from multiple disciplines and emphasizes the importance of properly communicating statistical ideas. Prerequisite: MAT-209 or STA-209. Suggested CSC-151 or computer programming experience.
+
+**Texts**:
+
+There is no required textbook for this course.  All materials will be posted on the [course website](s230f23.html).  
+
+Materials will be accompanied recommended readings from several published textbooks, all of which are freely available online:
+
+1. [Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/) by Baumer, Kaplan,and Horton
+2. [R for Data Science](https://r4ds.had.co.nz/) by Grolemund and Wickham 
+3. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani 
+
+$~$
+
+### Aims and Objectives
+
+This course aims to develop in students informed critical and theoretical perspectives on data collection, data manipulation and production, and the use algorithmic techniques to process and analyze data.
+
+#### Learning Objectives
+
+After completing this course, students should be able to:
+
+- Apply methods of data exploration, visualization, and modeling to illustrate key findings and make justifiable inferences
+- Translate research questions into quantifiable metrics or models that can be evaluated
+- Use the `R` programming environment to process, manage, and format unstructured data, create meaningful data visualizations, and apply supervised or unsupervised learning models
+- Clearly and concisely communicate findings to statistical and non-statistical audiences
+
+$~$
+
+### Policies
+
+**Class Sessions**
+
+The core component of our class meetings will be working through hands-on labs in a paired programming environment.  Pairs will be assigned weekly for the first half of the semester. During the second half you will be free to choose your own partner (or work independently). During labs it is essential that you and your partner(s) work together, making certain that each of you understand your work equally well.
+
+Most labs will begin with a brief "preamble" section that we will go through together as class. The purpose of this section is to introduce the core topic of the lab and provide a smooth start to each class meeting.
+
+**Attendance** 
+
+This course involves substantial collaboration and absences impact not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absent for any reason I ask to be notified as soon as possible. Showing up late or missing class more than twice without prior notice will negatively impact the participation component of your course grade.
+
+**Late Work**
+
+Assignments are generally due at 11:59pm on their assigned due-date. All assignments have an automatic 48-hour grace period where they can still be submitted with a 5% penalty applied.  After 48-hours, late work may still be accepted on a case-by-case basis subject to an additional penalty.  Special exceptions due to individual circumstances are possible, but should be arranged in advance of an assignment's deadline, and/or coordinated with Grinnell College academic support staff.
+
+**Software**
+
+Software is an essential component of data science and will play an important role in this course.  We will primarily use `R`, an open-source statistical software program. You will also be expected to write, document, and submit code used for projects and assignments throughout the semester.
+
+You are welcome to use your own personal laptop, or a Grinnell College laptop, during the course. `R` is freely available and you can download it and it's UI companion, `R Studio`, here (note: `R` must be downloaded and installed before `R Studio`):
+
+1. Download `R` from http://www.r-project.org/
+2. Download `R Studio` from http://www.rstudio.com/
+
+You may also work on a classroom laptop, all of which will have `R` and `R Studio` pre-installed.
+
+**Academic Honesty**
+
+At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose. Additional information [can be found here](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  To receive accommodations, students must provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+**Academic Support**
+
+If you have other needs not addressed in previous sections, please let me know soon so that we can work together for the best possible learning environment. In some cases, I will recommend consulting with the Academic Advising staff. They are an excellent resource for developing strategies for academic success and can connect you with other campus resources as well: http://www.grinnell.edu/about/offices-services/academic-advising. If I notice that you are encountering difficulty, in addition to communicating with you directly about it, I will also likely submit an academic alert via Academic Advising's SAL portal. This reminds you of my concern, and it notifies the Academic Advising team and your adviser(s) so that they can reach out to you with additional offers of support.
+
+$~$
+
+### Grading
+
+**Engagement and Participation** - 5\%
+
+Participation in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and your partner is expected to help further your understanding.  Everyone will begin the semester with a baseline participation score of 80\%, which will move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score to 100\% by doing a superb job helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  If you are ever unsure of your participation standing, you can email me and I am happy to provide you an interim estimate.
+
+**Labs** - 20\%
+
+In-class labs contain embedded questions that you and your lab partner will answer together. Oftentimes multiple labs will be due at the same time, and you are welcome to upload your answers as a single file. Some lab questions will be scored for accuracy with feedback given, while others may be scored for effort/completion.  If it becomes clear that you are your partner are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized.
+
+**Individual Homework** - 20\%
+
+There will be 5-7 individual homework assignments throughout the semester. These assignments are naturally cumulative, and intended to force you to combine concepts and methods from multiple labs. You are welcome to get help from mentors, classmates, and Professor Miller on these assignments, but your submissions should be your own work, and you should add the name(s) of anyone you received help from as a footnote on the question that they helped you with. Some homeworks will involve reading and writing questions. 
+
+**Data Cleaning/Visualization Take-home** - 10\%
+
+This assessment is intended to *individually* measure your ability to clean and manipulate complex data to arrive at a specific endpoint (recreating the results and visualizations from an analysis). The task is intended to approximately 4 hours to complete, but you will have 48-hours to work on the assessment once it is assigned.
+
+**Midterm Project** - 20\%
+
+For this project, you will develop an `R Shiny` app that visually explores a data set of your choosing. You may work on this project *individually*, or in a group of *two*. You will deliver a 5-minute in-class presentation demonstrating the capabilities of your app and discussing some of the trends in your data that your app displays. You will be evaluated on the functionality of your app, use of data, and communication.
+
+**Final Project** - 25\%
+
+This project is a start-to-finish data science application on a non-trivial data set. The final product is a three-page written report accompanied by R code and documentation. You may work on this project *individually*, or in a *group of two or three*. This project is intended to mirror the [USCLAP Competition](https://www.causeweb.org/usproc/usclap) guidelines, and I encourage any interested students to prepare their project with a competition submission in-mind.
+
+$~$
+
+### Misc
+
+**Why use R for Data Science?**
+
+If you’ve spent any time reading about data science online you’ll undoubtedly have noticed the prominence of the Python programming language. Indeed, research from Cal State University found Python was the most popular data science language in private industry, being mentioned in 42% of data scientist job postings. However, `R`, which was mentioned in 20% of job postings, is not far behind and offers a few advantages when approaching data science from a statistical perspective (hence this course having the STA prefix).  
+
+Both `R` and Python provide plenty of functions for data manipulation. However, because R was created by academic statisticians, it offers very strong data visualization and statistical modeling packages. On the other hand, Python is a general-purpose programming language that excels in production, deployment, and machine learning. Regardless of each language’s strengths and weaknesses, as an introductory course our focus is on the fundamental skills and thought processes used in data science – which is something that can be accomplished regardless of the tools used (which will change over time anyways). Speaking from personal experience, I have used R almost daily for over a decade and my knowledge of R made it possible to learn Python very quickly.
+
+**Getting Help**
+
+In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
+
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced in `R` programming and may be able to troubleshoot coding problems you are having.  Many students who've successfully completed this course have made extensive use of the DASIL work space and its computing resources.
+
+The online platform [Stack Overflow](https://stackoverflow.com/questions/tagged/r) is a useful resource to find user-generated coding solutions to common `R` problems.  Nearly all professional data scientists have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
+
+$~$
+
+### Topic List
+
+1. Introduction to `R` (data structures, functions, packages, help documentation, and `R Markdown`)
+2. Creating graphics (`ggplot2` and data visualization principles)
+3. Data manipulation (reshaping using `tidyr`, wrangling using `dplyr`, merging and joining, string processing and regular expressions)
+4. Interactive data visualizations (`plotly`, maps with `leaflet`, dashboards with `R Shiny`)
+5. Introduction to unsupervised learning (principal component analysis, dimension reduction, and clustering)
+6. Introduction to supervised learning (cross-validation, performance metrics, regression, classification, and machine learning methods)
