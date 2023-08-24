@@ -25,7 +25,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 **Lab Topics and Links**:
 
 - Introduction to `R`
-    - Lab 1 (intro to R), Optional Lab (hypothesis tests in R)
+    - [Lab 1 (intro to R, Part 1)](s230f23/intro.html), Optional Lab (hypothesis tests in R)
 - Data visualization
     - Lab 2 (intro to `ggplot2`), Lab 3 (effective data visualizations)
 - Data manipulation
@@ -59,8 +59,9 @@ The following readings are *recommended* in conjunction with the block of materi
 
 Throughout the semester there will be 6-7 homework assignments:
 
-- Homework #1 (coming soon)
-    - Due date: TBD
+- [Homework #1](s230f23/hw1.html)
+    - [.Rmd Template](s230f23/hw1.zip)
+    - Due date: Friday 9/1 by 11:59pm
         
 ### Projects
 
