@@ -62,7 +62,7 @@ x = data.frame(Date = c("Thursday 8/24",
                         "Finals Week"
                         
                         ), 
-               Content = c("1. Introduction <br> 2. Productive Discussions <br> 3. Discussion", 
+               Content = c("1. Introductions <br> 2. [Productive Discussions](tut23/rf.pdf) <br> 3. [Discussion](tut23/discussion1.html)", 
                           "1. Outlining an Argument Activity <br> 2. Descriptive Statistics <br> 3. NYPD Activity",
                           "1. Thoughtful Critiques <br> 2. Peer-to-peer Feedback <br> 3. NYPD Revisited",
                           "1. Making Effective Slides <br> 2. Candy Activity <br>",
