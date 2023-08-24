@@ -25,7 +25,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 **Lab Topics and Links**:
 
 - Introduction to `R`
-    - [Lab 1 (intro to R, Part 1)](s230f23/intro.html), Optional Lab (hypothesis tests in R)
+    - [Lab 1 (intro to R, Part 1)](s230f23/intro.html), Lab 1 (Part 2), Optional Lab (hypothesis tests in R)
+    - Lab 1 (parts 1 and 2) is due Thursday 8/31 by 11:59pm.
 - Data visualization
     - Lab 2 (intro to `ggplot2`), Lab 3 (effective data visualizations)
 - Data manipulation
