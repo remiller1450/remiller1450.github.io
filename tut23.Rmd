@@ -16,7 +16,7 @@ Welcome to the website for Tut-101-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 8/28/23)
+### Schedule (last updated 8/30/23)
 
 Please note:
 
