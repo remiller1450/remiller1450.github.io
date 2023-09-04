@@ -16,7 +16,7 @@ Welcome to the website for Tut-101-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 8/30/23)
+### Schedule (last updated 9/4/23)
 
 Please note:
 
@@ -65,9 +65,9 @@ x = data.frame(Date = c("Thursday 8/24",
                Content = c("1. Introductions <br> 2. [Productive Discussions](tut23/rf.pdf) <br> 3. [Discussion](tut23/discussion1.html)", 
                           "1. [Components of an Argument](tut23/arguments.pdf) <br> 2. [Descriptive Statistics](tut23/desc_v2.html) <br> 3. [NYPD Activity](tut23/nypd.html)",
                           "1. [Providing Feedback](tut23/nypd_peer_critiques.html) <br> 2. [NYPD Revisited](tut23/nypd_lies.html)",
-                          "1. Making Effective Slides <br> 2. Candy Activity <br>",
+                          "1. [Candy Activity](tut23/candy.html) <br> 2. [Presentation Tips](tut23/pres_tips.html) <br> 3. [Presentation #1 Prep](tut23/pres1_topics.html) <br>",
                           "1. Presentation #1 <br> 2. Discussion",
-                          "1. Outlining Academic Honesty Activity(CHAT-GPT vs Students) <br> 2. Quoting and Citation Practice",
+                          "1. Outlining Academic Honesty Activity (CHAT-GPT vs Students) <br> 2. Quoting and Citation Practice",
                           "1. Death Penalty Sentencing and College Admissions",
                           "1. Causal Diagrams <br> 2. Causal Diagrams Practice",
                           "1. Presentation #2 <br> 2. Discussion",
@@ -131,8 +131,8 @@ x = data.frame(Date = c("Thursday 8/24",
                            ),
                Assignments = c(" ", 
                                "1. NYPD Questions <br> 2. NYPD Paragraph",
-                               "1. NYPD Revised Paragraph and Reflection <br> NYPD Revisited Questions",
-                               "Presentation #1",
+                               "1. NYPD Revised Paragraph and Reflection <br> 2. NYPD Revisited Questions",
+                               "Prepare for Presentation #1",
                                "Presentation #1 Reflection",
                                "Academic Honesty Exercises",
                                "Explanatory Paragraph",
