@@ -26,12 +26,12 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 
 - Introduction to `R`
     - [Lab 1 (intro to R, Part 1)](s230f23/intro.html) and [Lab 1 (Part 2)](s230f23/intro2.html)
-        - Lab 1 (parts 1 and 2) due Thursday 8/31 by 11:59pm.
+        - Lab 1 (parts 1 and 2) due Thursday 8/31 by 11:59pm
         - Please submit your responses (to both parts) as *single document* created using R Markdown
     - [Optional Lab (hypothesis tests in R)](s230f23/ht.html) due Tuesday 9/5 by 11:59pm
 - Data visualization
     - [Lab 2 (intro to `ggplot2`)](s230f23/ggplot.html) and  [Lab 3 (effective data visualizations)](s230f23/ggplot2.html)
-    - Lab 2 and 3 are due Thursday 9/7 by 11:59pm.
+    - Lab 2 and 3 are due Thursday 9/7 by 11:59pm
 - Data manipulation
     - Lab 4 (reshaping with `tidyr`), Lab 5 (manipulation with `dplyr`), Lab 6 (merging and joining), Optional Lab (files and iteration)
     - Midterm #1 (take home) will occur after this unit
