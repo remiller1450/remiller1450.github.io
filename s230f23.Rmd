@@ -25,16 +25,22 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 **Lab Topics and Links**:
 
 - Introduction to `R`
-    - [Lab 1 (intro to R, Part 1)](s230f23/intro.html) and [Lab 1 (Part 2)](s230f23/intro2.html)
+    - [Lab 1 (intro to R, Part 1)](s230f23/intro.html)
+    - [Lab 1 (Part 2)](s230f23/intro2.html)
         - Lab 1 (parts 1 and 2) due Thursday 8/31 by 11:59pm
         - Please submit your responses (to both parts) as *single document* created using R Markdown
     - [Optional Lab (hypothesis tests in R)](s230f23/ht.html) due Tuesday 9/5 by 11:59pm
 - Data visualization
-    - [Lab 2 (intro to `ggplot2`)](s230f23/ggplot.html) and  [Lab 3 (effective data visualizations)](s230f23/ggplot2.html)
-    - Lab 2 and 3 are due Thursday 9/7 by 11:59pm
+    - [Lab 2 (intro to `ggplot2`)](s230f23/ggplot.html)
+    - [Lab 3 (effective data visualizations)](s230f23/ggplot2.html)
+        - Lab 2 and 3 are due Thursday 9/7 by 11:59pm
 - Data manipulation
-    - Lab 4 (reshaping with `tidyr`), Lab 5 (manipulation with `dplyr`), Lab 6 (merging and joining), Optional Lab (files and iteration)
-    - Midterm #1 (take home) will occur after this unit
+    - [Lab 4 (reshaping with `tidyr`)](s230f23/tidyr.html)
+    - Lab 5 (manipulation with `dplyr`)
+    - Lab 6 (merging and joining)
+        - Labs 4, 5, and 6 are due Thursday 9/21
+        - Midterm #1 (take home) will occur after this unit (9/26)
+    - Optional Lab (files, function, and iteration) is due Tuesday 9/26
 - Working with strings
     - Lab 7 (text processing with `stringr`)
 - Interactive data visualizations
@@ -59,14 +65,15 @@ Throughout the semester there will be 6-7 homework assignments:
     - [.Rmd Template](s230f23/hw1.zip)
     - Due date: Tuesday 9/5 by 11:59pm
 - [Homework #2](s230f23/hw2.html)
-    - Due date: Thursday 9/21 
+    - Due date: *Sunday 9/24* by 11:59pm
 
 ### Projects
 
 There will be 3 major projects during the semester. Details on each project will be posted no later than 2 weeks before the project's first deadline.
 
 1. Data cleaning and visualization take-home (midterm #1)
-    - Tentatively planned for either Tuesday 9/26 or Thursday 9/28
+    - Currently planned to be released on Monday 9/25 at noon and due Wednesday 9/27 by 11:59pm
+    - There will be no class on Tuesday 9/26 to provide time for the take-home
     - [Practice take-home (from Spring 2023)](s230f23/takehome2.pdf)
 2. R Shiny application (midterm #2)
 3. Data analysis report (final)
@@ -82,6 +89,10 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 3 (Data visualization) - R for Data Science](https://r4ds.had.co.nz/data-visualisation.html)
     - [Ch 2.1, 2.2, 2.3, 2.4 (Data visualization case study) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizI.html)
     - [Ch 3 (ggplot) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizII.html)
-    
+- Data Manipulation
+    - [Ch 12 (Tidy data) - R for Data Science](https://r4ds.had.co.nz/tidy-data.html)
+    - [Ch 4 (Data wrangling) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
+    - [Ch 5 (Joins) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
+    - [Ch 13 (Relational data) - R for Data Science](https://r4ds.had.co.nz/relational-data.html)   
         
 
