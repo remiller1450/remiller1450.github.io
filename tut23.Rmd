@@ -16,7 +16,7 @@ Welcome to the website for Tut-101-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 9/11/23)
+### Schedule (last updated 9/13/23)
 
 Please note:
 
@@ -68,7 +68,7 @@ x = data.frame(Date = c("Thursday 8/24",
                           "1. [Candy Activity](tut23/candy.html) <br> 2. [Presentation Tips](tut23/pres_tips.html) <br> 3. [Presentation #1 Prep](tut23/pres1_topics.html) <br>",
                           "1. Presentation #1 <br> 2. [Reflection](tut23/pres1_reflection.html)",
                           "1. [Academic Honesty at Grinnell](tut23/honesty.html)",
-                          "1. Death Penalty Sentencing and College Admissions",
+                          "1. [Critical Reading, Quotes & Citation, and things educated citizens should know (about statistics)](tut23/quotes.html)",
                           "1. Causal Diagrams <br> 2. Causal Diagrams Practice",
                           "1. Presentation #2 <br> 2. Discussion",
                           "1. Library Session #1 <br> 2. Addressing Confounding",
@@ -100,8 +100,8 @@ x = data.frame(Date = c("Thursday 8/24",
                            "[Lessons on How to Lie with Statistics](https://shorturl.at/qrwyY)",
                            "[How to Tell a Compelling Story in Scientific Presentations](https://www.nature.com/articles/d41586-021-03603-2)",
                            " ",
-                           "[Academic Honesty Handbook](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources)",
-                           " ",
+                           "[Academic Honesty Handbook (Part I - Integrity)](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources)",
+                           "[Academic Honesty Handbook (Part II - Citation)](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources)",
                            "[Causal Diagrams for Epidemiologic Inference](https://academic.oup.com/book/8266/chapter/153863534)",
                            " ",
                            "[Library Webpage](https://www.grinnell.edu/academics/libraries/students/research)",
