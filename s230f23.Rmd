@@ -36,7 +36,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
         - Lab 2 and 3 are due Thursday 9/7 by 11:59pm
 - Data manipulation
     - [Lab 4 (reshaping with `tidyr`)](s230f23/tidyr.html)
-    - Lab 5 (manipulation with `dplyr`)
+    - [Lab 5 (manipulation with `dplyr`)](s230f23/dplyr.html)
     - Lab 6 (merging and joining)
         - Labs 4, 5, and 6 are due Thursday 9/21
         - Midterm #1 (take home) will occur after this unit (9/26)
