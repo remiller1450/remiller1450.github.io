@@ -10,7 +10,7 @@ output:
 
 $~$
 
-Welcome to the website for Tut-101-20, Data, Decisions, and Uncertainty. This page will contain a schedule and all materials used throughout the semester. The first of these is the syllabus, which is linked below:
+Welcome to the website for Tut-100-20, Data, Decisions, and Uncertainty. This page will contain a schedule and all materials used throughout the semester. The first of these is the syllabus, which is linked below:
 
 - [Click here](syllabusTut23.html) to view the course syllabus
 
@@ -70,7 +70,7 @@ x = data.frame(Date = c("Thursday 8/24",
                           "1. [Academic Honesty at Grinnell](tut23/honesty.html)",
                           "1. [Critical Reading, Quotes & Citation, and things educated citizens should know (about statistics)](tut23/quotes.html)",
                           "1. [Multivariate thinking](tut23/sp.html) <br> 2. [Presentation #2 Prep](tut23/pres2.html)",
-                          "1. Presentation #2 <br> 2. Reflection",
+                          "1. Presentation #2 <br> 2. [Reflection](tut23/pres2_reflection.html)",
                           "1. Library Session #1 <br> 2. Addressing Confounding",
                           "1. Library Session #2 <br> 2. Regression",
                           "- No Class? (Prof Miller at AAAM Conference, Maybe)",
