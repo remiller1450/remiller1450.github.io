@@ -16,7 +16,7 @@ Welcome to the website for Tut-100-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 9/18/23)
+### Schedule (last updated 9/25/23)
 
 Please note:
 
@@ -71,8 +71,8 @@ x = data.frame(Date = c("Thursday 8/24",
                           "1. [Critical Reading, Quotes & Citation, and things educated citizens should know (about statistics)](tut23/quotes.html)",
                           "1. [Multivariate thinking](tut23/sp.html) <br> 2. [Presentation #2 Prep](tut23/pres2.html)",
                           "1. Presentation #2 <br> 2. [Reflection](tut23/pres2_reflection.html)",
-                          "1. Library Session #1 <br> 2. Addressing Confounding",
-                          "1. Library Session #2 <br> 2. Regression",
+                          "1. Library Session #1 <br> 2. [Addressing Confounding (part 1)](tut23/sources.html)",
+                          "1. Library Session #2 <br> 2. Addressing Confounding (part 2)",
                           "- No Class? (Prof Miller at AAAM Conference, Maybe)",
                           "- No Class! (Prof Miller at AAAM Conference, Certainly)",
                           "1. Sources of Uncertainty",
