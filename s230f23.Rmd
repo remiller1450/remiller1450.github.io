@@ -42,7 +42,9 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
         - Midterm #1 (take home) will occur after this unit (9/26)
     - [Optional Lab (files, function, and iteration)](s230f23/files.html) is due Tuesday 9/26
 - Working with strings
-    - Lab 7 (text processing with `stringr`)
+    - [Lab 7 (text processing with `stringr`)](s230f23/strings.html)
+    - Optional Lab (dates and times)
+        - Lab 7 and the optional lab are due *Monday 10/9*
 - Interactive data visualizations
     - Lab 8 (interactive graphics with `plotly`), Lab 9 (maps with `leaflet`)
 - R Shiny applications
@@ -66,6 +68,8 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Tuesday 9/5 by 11:59pm
 - [Homework #2](s230f23/hw2.html)
     - Due date: *Sunday 9/24* by 11:59pm
+- Homework #3 - Coming soon
+    - Due date: Friday 10/13 by 11:59pm
 
 ### Projects
 
@@ -94,5 +98,6 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 4 (Data wrangling) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
     - [Ch 5 (Joins) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
     - [Ch 13 (Relational data) - R for Data Science](https://r4ds.had.co.nz/relational-data.html)   
-        
+- Working with strings
+    - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)       
 
