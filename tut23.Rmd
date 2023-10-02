@@ -16,7 +16,7 @@ Welcome to the website for Tut-100-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 9/25/23)
+### Schedule (last updated 10/2/23)
 
 Please note:
 
@@ -73,7 +73,7 @@ x = data.frame(Date = c("Thursday 8/24",
                           "1. Presentation #2 <br> 2. [Reflection](tut23/pres2_reflection.html)",
                           "1. Library Session #1 <br> 2. [Addressing Confounding (part 1)](tut23/sources.html)",
                           "1. Library Session #2 <br> 2. [Addressing Confounding (part 2)](tut23/eval.html)",
-                          "1. Uncertainty and Bootstrapping <br> 2. Planning for Spring 2024",
+                          "1. [Uncertainty and Bootstrapping](tut23/boot.html) <br> 2. Planning for Spring 2024",
                           "- No Class (Prof Miller at AAAM Conference)",
                           "1. Combinations of Uncertain Numbers <br> 2. Planning for Spring 2024 (part 2)",
                           "1. Interrelated Uncertainties <br> 2. Four-year plan (part 1)",
@@ -140,7 +140,7 @@ x = data.frame(Date = c("Thursday 8/24",
                                "Presentation #2 Reflection",
                                "Addressing Confounding (part 1)",
                                "Addressing Confounding (part 2)",
-                               "[Planning for Spring 2024](tut23/planning_p1.html)",
+                               "1. Write-up and paragraph for bootstrapping <br> 2. [Planning for Spring 2024](tut23/planning_p1.html)",
                                " ",
                                "",
                                "1. Four-year Plan <br> 2. Flaw of Averages Sign-up",
