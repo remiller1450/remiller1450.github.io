@@ -41,23 +41,23 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
         - Labs 4, 5, and 6 are due Thursday 9/21
         - Midterm #1 (take home) will occur after this unit (9/26)
     - [Optional Lab (files, function, and iteration)](s230f23/files.html) is due Tuesday 9/26
-- Working with strings
+- Working with strings and dates
     - [Lab 7 (text processing with `stringr`)](s230f23/strings.html)
-    - Optional Lab (dates and times)
-        - Lab 7 and the optional lab are due *Monday 10/9*
+    - [Lab 8 (date/time processing with `lubridate`)](s230f23/dates.html)
+        - Lab 7 and Lab 8 are due *Monday 10/9*
 - Interactive data visualizations
-    - Lab 8 (interactive graphics with `plotly`), Lab 9 (maps with `leaflet`)
+    - Lab 9 (interactive graphics with `plotly`), Lab 10 (maps with `leaflet`)
 - R Shiny applications
-    - Lab 10 (intro to `shiny`)
+    - Lab 11 (intro to `shiny`)
     - Midterm #2 (R Shiny app) will occur after this unit
 - Principal component analysis
-    - Lab 11 (PCA)
+    - Lab 12 (PCA)
 - Clustering
-    - Lab 12 (Partitional clustering), Lab 13 (Hierarchical clustering)
+    - Lab 13 (Partitional clustering), Lab 14 (Hierarchical clustering)
 - Modeling a numeric outcome
-    - Lab 14 (Regression and kNN), Lab 15 (Cross-validation)
+    - Lab 15 (Regression and kNN), Lab 16 (Cross-validation)
 - Modeling a categorical outcome
-    - Lab 16 (Categorical outcomes), Lab 17 (Decision trees and random forest), Optional Lab (boosting)
+    - Lab 17 (Categorical outcomes), Lab 18 (Decision trees and random forest), Optional Lab (boosting)
 
 ### Homework Assignments
 
@@ -68,7 +68,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Tuesday 9/5 by 11:59pm
 - [Homework #2](s230f23/hw2.html)
     - Due date: *Sunday 9/24* by 11:59pm
-- Homework #3 - Coming soon
+- [Homework #3](s230f23/hw3.html)
     - Due date: Friday 10/13 by 11:59pm
 
 ### Projects
@@ -80,6 +80,7 @@ There will be 3 major projects during the semester. Details on each project will
     - There will be no class on Tuesday 9/26 to provide time for the take-home
     - [Practice take-home (from Spring 2023)](s230f23/takehome2.pdf)
 2. R Shiny application (midterm #2)
+    - Plan for the first week after Fall break
 3. Data analysis report (final)
 
 ### Recommended Readings
@@ -98,6 +99,7 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 4 (Data wrangling) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-dataI.html)
     - [Ch 5 (Joins) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-join.html)
     - [Ch 13 (Relational data) - R for Data Science](https://r4ds.had.co.nz/relational-data.html)   
-- Working with strings
-    - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)       
+- Working with strings and dates
+    - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)     
+    - [Ch 17 (Dates and times) - R for Data Science](https://r4ds.had.co.nz/dates-and-times.html)
 
