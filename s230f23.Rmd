@@ -80,7 +80,7 @@ There will be 3 major projects during the semester. Details on each project will
     - There will be no class on Tuesday 9/26 to provide time for the take-home
     - [Practice take-home (from Spring 2023)](s230f23/takehome2.pdf)
 2. R Shiny application (midterm #2)
-    - Plan for the first week after Fall break
+    - Plan for roughly Oct 31st
 3. Data analysis report (final)
 
 ### Recommended Readings
