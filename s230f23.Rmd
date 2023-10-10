@@ -46,7 +46,9 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 8 (date/time processing with `lubridate`)](s230f23/dates.html)
         - Lab 7 and Lab 8 are due *Monday 10/9*
 - Interactive data visualizations
-    - Lab 9 (interactive graphics with `plotly`), Lab 10 (maps with `leaflet`)
+    - [Lab 9 (interactive graphics with `plotly`)](s230f23/plotly.html)
+    - Lab 10 (maps with `leaflet`)
+        - Labs 9 and 10 are due Tuesday 10/24 at 11:59pm
 - R Shiny applications
     - Lab 11 (intro to `shiny`)
     - Midterm #2 (R Shiny app) will occur after this unit
@@ -80,7 +82,8 @@ There will be 3 major projects during the semester. Details on each project will
     - There will be no class on Tuesday 9/26 to provide time for the take-home
     - [Practice take-home (from Spring 2023)](s230f23/takehome2.pdf)
 2. R Shiny application (midterm #2)
-    - Plan for roughly Oct 31st
+    - Think about a research question and data source before/during Fall break
+    - Plan to present your app on Oct 31st or Nov 2nd
 3. Data analysis report (final)
 
 ### Recommended Readings
@@ -102,4 +105,6 @@ The following readings are *recommended* in conjunction with the block of materi
 - Working with strings and dates
     - [Ch 14 (Strings) - R for Data Science](https://r4ds.had.co.nz/strings.html)     
     - [Ch 17 (Dates and times) - R for Data Science](https://r4ds.had.co.nz/dates-and-times.html)
-
+- Interactive Data Visualizations
+    - [Ch 2.1 (Intro Plotly) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
+    - [Ch 17 (Maps and Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
