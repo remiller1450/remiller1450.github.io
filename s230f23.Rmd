@@ -47,11 +47,11 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
         - Lab 7 and Lab 8 are due *Monday 10/9*
 - Interactive data visualizations
     - [Lab 9 (interactive graphics with `plotly`)](s230f23/plotly.html)
-    - Lab 10 (maps with `leaflet`)
+    - [Lab 10 (maps with `leaflet` and `ggplot`)](s230f23/maps.html)
         - Labs 9 and 10 are due Tuesday 10/24 at 11:59pm
 - R Shiny applications
     - Lab 11 (intro to `shiny`)
-    - Midterm #2 (R Shiny app) will occur after this unit
+        - Lab 11 is due Thursday 10/26 at 11:59pm
 - Principal component analysis
     - Lab 12 (PCA)
 - Clustering
@@ -81,9 +81,9 @@ There will be 3 major projects during the semester. Details on each project will
     - Currently planned to be released on Monday 9/25 at noon and due Wednesday 9/27 by 11:59pm
     - There will be no class on Tuesday 9/26 to provide time for the take-home
     - [Practice take-home (from Spring 2023)](s230f23/takehome2.pdf)
-2. R Shiny application (midterm #2)
-    - Think about a research question and data source before/during Fall break
-    - Plan to present your app on Oct 31st or Nov 2nd
+2. [R Shiny application (midterm #2)](s230f23/rshiny_project.html)
+    - Think about a research question, partner, and data source before/during Fall break
+    - Plan to present your app on Oct 31st and submit the final version on Nov 2nd
 3. Data analysis report (final)
 
 ### Recommended Readings
