@@ -16,7 +16,7 @@ Welcome to the website for Tut-100-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 10/12/23)
+### Schedule (last updated 10/23/23)
 
 Please note:
 
@@ -78,9 +78,9 @@ x = data.frame(Date = c("Thursday 8/24",
                           "1. [Combinations of Uncertain Numbers](tut23/rvs.html) <br> 2. [Planning for Spring 2024 (part 2)](tut23/planning_p2.html)",
                           "1. [Interrelated Uncertainties](tut23/corr.html) <br> 2. [Four-year plan (part 1)](tut23/four_planning.html)",
                           "- No Class (Fall Break)",
-                          "1. Hypothesis Testing 2. Four-year plan (part 2)",
+                          "1. [Hypothesis Testing](tut23/ht.html) <br> 2. [Four-year plan (part 2)](tut23/four_planning2.html)",
                           "1. Hypothesis Testing Misconceptions",
-                          "1. Peer Review of Outlines <br> 2. Outline Flaw of Averages Application",
+                          "No class (individual advising meetings)",
                           "1. Peer Review of Drafts",
                           "1. Monte Carlo Simulation Activity",
                           "1. David White Special Lecture (Wilson Center)",
@@ -145,7 +145,7 @@ x = data.frame(Date = c("Thursday 8/24",
                                "",
                                "1. Four-year Plan <br> 2. [Flaw of Averages Sign-up](tut23/paper1.pdf)",
                                " ",
-                               "Scientific Method Summary",
+                               "[Four-year plan (finish up)](https://remiller1450.github.io/tut23/four_planning.html)",
                                "p-value Debate Outline",
                                "Paper #1 Draft",
                                "Revise Paper #1 Draft",
