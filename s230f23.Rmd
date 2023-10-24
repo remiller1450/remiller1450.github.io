@@ -50,7 +50,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 10 (maps with `leaflet` and `ggplot`)](s230f23/maps.html)
         - Labs 9 and 10 are due Tuesday 10/24 at 11:59pm
 - R Shiny applications
-    - Lab 11 (intro to `shiny`)
+    - [Lab 11 (intro to `shiny`)](s230f23/shiny.html)
         - Lab 11 is due Thursday 10/26 at 11:59pm
 - Principal component analysis
     - Lab 12 (PCA)
@@ -82,8 +82,8 @@ There will be 3 major projects during the semester. Details on each project will
     - There will be no class on Tuesday 9/26 to provide time for the take-home
     - [Practice take-home (from Spring 2023)](s230f23/takehome2.pdf)
 2. [R Shiny application (midterm #2)](s230f23/rshiny_project.html)
-    - Think about a research question, partner, and data source before/during Fall break
-    - Plan to present your app on Oct 31st and submit the final version on Nov 2nd
+    - Send a proposal via email by midnight on Tuesday 10/24
+    - Plan to present your app on Tuesday 11/7
 3. Data analysis report (final)
 
 ### Recommended Readings
@@ -108,3 +108,5 @@ The following readings are *recommended* in conjunction with the block of materi
 - Interactive Data Visualizations
     - [Ch 2.1 (Intro Plotly) - Interactive web-based data visualization with R, plotly, and shiny](https://plotly-r.com/overview.html#intro-plotly)
     - [Ch 17 (Maps and Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
+- R Shiny
+    - [Ch 14.4 (web apps with Shiny) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
