@@ -53,7 +53,8 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 11 (intro to `shiny`)](s230f23/shiny.html)
         - Lab 11 is due Thursday 10/26 at 11:59pm
 - Principal component analysis
-    - Lab 12 (PCA)
+    - [Lab 12 (PCA)](s230f23/pca.html)
+        - Lab 12 is due Thursday 11/9 at 11:59pm
 - Clustering
     - Lab 13 (Partitional clustering), Lab 14 (Hierarchical clustering)
 - Modeling a numeric outcome
@@ -112,3 +113,5 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 17 (Maps and Geospatial data) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-spatial.html#motivation-whats-so-great-about-geospatial-data)
 - R Shiny
     - [Ch 14.4 (web apps with Shiny) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
+- Principal Component Analysis
+    - [Ch 12.1 and 12.2 (PCA) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
