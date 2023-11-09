@@ -75,6 +75,8 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Friday 10/13 by 11:59pm
 - [Homework #4](s230f23/hw4.html)
     - Due date: Tuesday 10/31 by 11:59pm
+- [Homework #5](s230f23/hw5.html)
+    - Due date: Thursday 11/16 by 11:59pm
 
 ### Projects
 
