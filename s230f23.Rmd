@@ -56,7 +56,9 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 12 (PCA)](s230f23/pca.html)
         - Lab 12 is due Thursday 11/9 at 11:59pm
 - Clustering
-    - Lab 13 (Partitional clustering), Lab 14 (Hierarchical clustering)
+    - [Lab 13 (Partitional clustering)](s230f23/clustering1.html)
+    - Lab 14 (Hierarchical clustering)
+    - Labs 13 and 14 are due Tuesday 11/21 at 11:59pm
 - Modeling a numeric outcome
     - Lab 15 (Regression and kNN), Lab 16 (Cross-validation)
 - Modeling a categorical outcome
@@ -77,6 +79,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Tuesday 10/31 by 11:59pm
 - [Homework #5](s230f23/hw5.html)
     - Due date: Thursday 11/16 by 11:59pm
+- Homework #6 (clustering, coming soon)
 
 ### Projects
 
@@ -90,6 +93,7 @@ There will be 3 major projects during the semester. Details on each project will
     - Send a proposal via email by midnight on Tuesday 10/24
     - Plan to present your app on Tuesday 11/7
 3. Data analysis report (final)
+    - Details coming soon
 
 ### Recommended Readings
 
@@ -117,3 +121,5 @@ The following readings are *recommended* in conjunction with the block of materi
     - [Ch 14.4 (web apps with Shiny) - Modern Data Science with R](https://mdsr-book.github.io/mdsr2e/ch-vizIII.html#sec:shiny)
 - Principal Component Analysis
     - [Ch 12.1 and 12.2 (PCA) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- Clustering 
+    - [Ch 12.4 (Clustering) - Intro to Statistical Learning](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
