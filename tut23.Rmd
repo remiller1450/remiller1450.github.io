@@ -16,7 +16,7 @@ Welcome to the website for Tut-100-20, Data, Decisions, and Uncertainty. This pa
 
 Please note that some material will not be posted until we've reached that point in the course, and the schedule may occasionally be revised as we progress through the semester.
 
-### Schedule (last updated 11/7/23)
+### Schedule (last updated 11/14/23)
 
 Please note:
 
@@ -84,7 +84,7 @@ x = data.frame(Date = c("Thursday 8/24",
                           "1. [Peer Review of Drafts](tut23/paper1_peer_rev.html)",
                           "1. [Monte Carlo Simulation Activity](tut23/sim.html)",
                           "1. David White Special Lecture",
-                          "1. More on Simulation",
+                          "1. [Paper to Presentation](tut23/paper_to_pres.html)",
                           "1. [Presentation #3](tut23/pres3.html) <br> 2. Discussion",
                           "1. Final Paper Workshop",
                           "- No Class (Thanksgiving)",
@@ -151,7 +151,7 @@ x = data.frame(Date = c("Thursday 8/24",
                                "1. Peer review reflection <br> 2. Revise Paper #1 Draft",
                                "Monte Carlo Activity",
                                "1. David White '90 Lecture Reflection <br> 2. Paper #1 (due Friday at midnight)", 
-                               "Presentation #3",
+                               "1. Create Presentation #3 <br> 2. Presentation Outline Questions",
                                "Presentation #3 Reflection",
                                "Paper #2 Topic and Outline",
                                " ",
