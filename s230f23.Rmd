@@ -60,8 +60,10 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 14 (Hierarchical clustering)](s230f23/clustering2.html)
     - Labs 13 and 14 are due Tuesday 11/21 at 11:59pm
 - Supervised Learning
-    - Lab 15 Regression vs. Classification
+    - [Lab 15 Regression](s230f23/supervised1.html)
     - Lab 16 Cross-validation
+    - Lab 17 Classification
+        - Labs 15, 16, and 17 are due Friday 12/8 by 11:59pm
 
 ### Homework Assignments
 
@@ -78,7 +80,10 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Tuesday 10/31 by 11:59pm
 - [Homework #5](s230f23/hw5.html)
     - Due date: Thursday 11/16 by 11:59pm
-- Homework #6 (clustering, coming soon)
+- [Homework #6](s230f23/hw6.html)
+    - Due date: Thursday 11/30 by 11:59pm
+- Homework #7 (coming soon)
+    - Due date: Friday 12/8 by 11:59pm
 
 ### Projects
 
