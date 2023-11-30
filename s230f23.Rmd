@@ -63,6 +63,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
     - [Lab 15 (regression)](s230f23/supervised1.html)
     - [Lab 16 (model evaluation using cross-validation)](s230f23/supervised2.html)
     - Lab 17 Classification
+    - Optional lab (boosting and bagging)
         - Labs 15, 16, and 17 are due Friday 12/8 by 11:59pm
 
 ### Homework Assignments
