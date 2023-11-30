@@ -62,7 +62,7 @@ Sta-230 uses a *workshop style* class format. This means that the majority of ou
 - Supervised Learning
     - [Lab 15 (regression)](s230f23/supervised1.html)
     - [Lab 16 (model evaluation using cross-validation)](s230f23/supervised2.html)
-    - Lab 17 Classification
+    - [Lab 17 (classification)](s230f23/supervised3.html)
     - Optional lab (boosting and bagging)
         - Labs 15, 16, and 17 are due Friday 12/8 by 11:59pm
 
@@ -83,7 +83,7 @@ Throughout the semester there will be 6-7 homework assignments:
     - Due date: Thursday 11/16 by 11:59pm
 - [Homework #6](s230f23/hw6.html)
     - Due date: Thursday 11/30 by 11:59pm
-- Homework #7 (coming soon)
+- [Homework #7](s230f23/hw7.html)
     - Due date: Friday 12/8 by 11:59pm
 
 ### Projects
