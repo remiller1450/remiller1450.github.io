@@ -1797,10 +1797,12 @@ when our model predicted should have died (based upon their age and sex
 using a probability threshold of <span class="math inline">\(t =
 0.5\)</span>), while 2 were people that our predicted should have
 survived but they actually died.</p>
-<p><strong>Question #3</strong>: Using the same logistic regression
-model, <code>y ~ age + sex</code>, change the threshold used to map
-predicted probabilities to survival outcomes to <span class="math inline">\(t = 0.6\)</span>. How does this change impact the
-in-sample classification accuracy? How does it influence the
+<p><strong>Question #3</strong>: For the Donner Party data, using the
+same logistic regression model,
+<code>survived_numeric ~ age + sex</code>, that was used above, change
+the threshold used to map predicted probabilities to survival outcomes
+to <span class="math inline">\(t = 0.6\)</span>. How does this change
+impact the in-sample classification accuracy? How does it influence the
 distribution of classification errors in the confusion matrix?</p>
 <p><span class="math inline">\(~\)</span></p>
 </div>
@@ -1891,7 +1893,7 @@ but this is largely due to the accuracy of predictions for females (the
 model actually does worse than guessing for males).</p>
 <p><strong>Question #4</strong>:</p>
 <p><strong>Part A</strong>: Create a single <code>ggplot</code> graphic
-displaying the ROC curves for each model you created in Question #3. You
+displaying the ROC curves for each model you created in Question #2. You
 should display each model’s curve using a different color.
 <em>Hint</em>: You could choose to combine the predicted and observed
 values for each model into a single data frame and add a column to
