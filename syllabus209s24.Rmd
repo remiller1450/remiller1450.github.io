@@ -1,0 +1,175 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+# Syllabus - Sta-209-04 (Spring 2024)
+
+### Course Information
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2218, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- HSSC N2170, 1-2:20pm
+
+**Office Hours**:
+
+- Drop-in hours (Noyce 2218): Monday 2:30-3:30pm, Tuesday 2:30-3:30pm, Thursday 10-11am
+    - Additional availability by appointment
+
+**Course Mentors**:
+
+- Mira Manchanda, manchand\@grinnell.edu
+    - Mentor sessions TBD
+
+**Course Description**:
+
+The course covers the application of basic statistical methods such as univariate graphics and summary statistics, basic statistical inference for one and two samples, linear regression (simple and multiple), one- and two-way ANOVA, and categorical data analysis. Students use statistical software to analyze data and conduct simulations. A student who takes Statistics 209 cannot receive credit for Mathematics 115 or Social Studies 115. Prerequisite: Mathematics 124 or 131
+
+**Texts**:
+
+The course will utilize the text: **Introduction to Modern Statistics** (1st edition) by Mine Çetinkaya-Rundel and Johanna Hardin
+
+- An online web version of the text is available here: https://openintro-ims.netlify.app/
+- A downloadable pdf is available here: https://leanpub.com/imstat 
+    - You may reduce the price to $0 to obtain a free pdf
+
+**Website**:
+
+The official course schedule and materials will be posted on the following website:
+
+- https://remiller1450.github.io/s209s24.html 
+
+All assignment submissions and grades will be managed through https://pioneerweb.grinnell.edu/ unless other instructions are given.
+
+$~$
+
+### Aims and Objectives
+
+This course aims to develop in students informed critical and theoretical perspectives on the social impact of data collection, including the social construction of data production, and the use of algorithmic techniques to process that data.
+
+In plainer terms, the objective of this course is to prepare students to independently perform basic data analyses using justifiable statistical methods.
+
+$~$
+
+#### Learning Objectives
+
+After completing this course, students should be able to:
+
+1. Utilize data visualization, descriptive statistics, regression, and statistical inference to derive meaningful insights from data.
+2. Correctly apply the statistical methods of hypothesis testing and confidence interval estimation to quantify the presence of variability in data.
+3. Use the `R` programming environment to create data visualizations and perform basic statistical analyses.
+4. Clearly and concisely communicate findings to statistical and non-statistical audiences.
+
+$~$
+
+### Policies
+
+**Class Sessions**
+
+At least 50% of in-class time will be devoted towards "lab", which involves working in a group of 2-3 to progress through guided exercises. You will be responsible for the contents of these labs on exams, so it essential that you and your partner(s) work together and make certain that everyone understands each topic in sufficient detail. For most of the semester lab partners will be assigned, but you will have an opportunity to select your own partners towards the end of the semester.
+
+**Attendance** 
+
+This course involves substantial collaboration and absences impact not only yourself, but also your classmates.  That said, I understand that missing class is sometimes necessary.  If you will be absent for any reason I ask to be notified as soon as possible. Showing up late or missing class without notice will negatively impact the "engagement and participation" portion of your final grade.
+
+**Late Work**
+
+Assignments are generally due at 11:59pm on their assigned due-date (as shown on P-web). All assignments have an automatic 48-hour grace period where they can still be submitted with no greater than a 10% penalty applied.  After 48-hours, late work may still be accepted on a case-by-case basis subject to an additional penalty.  Special exceptions due to individual circumstances may be possible, but should be arranged in advance of an assignment's deadline, and/or coordinated with Grinnell College academic support staff.
+
+**Software**
+
+Software is an essential piece of modern applications of statistics and will play an important role in this course.  We will primarily use `R`, an open-source statistical software program. You will also be expected to write, document, and submit code used for projects and assignments throughout the semester.
+
+You are welcome to use your own personal laptop, or a Grinnell College laptop, during the course. `R` is freely available and you can download it and it's UI companion, `R Studio`, here (note: `R` must be downloaded and installed before `R Studio`):
+
+1. Download `R` from http://www.r-project.org/
+2. Download `R Studio` from http://www.rstudio.com/
+
+You may also work on a classroom laptop, all of which will have `R` and `R Studio` pre-installed.
+
+Additionally, you are welcome to use Grinnell's online version of R Studio: https://rstudio.grinnell.edu/
+
+**Academic Honesty**
+
+At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose. Additional information [can be found here](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  To receive accommodations, students must provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+**Academic Support**
+
+If you have other needs not addressed in previous sections, please let me know soon so that we can work together for the best possible learning environment. In some cases, I will recommend consulting with the Academic Advising staff. They are an excellent resource for developing strategies for academic success and can connect you with other campus resources as well: http://www.grinnell.edu/about/offices-services/academic-advising. If I notice that you are encountering difficulty, in addition to communicating with you directly about it, I will also likely submit an academic alert via Academic Advising's SAL portal. This reminds you of my concern, and it notifies the Academic Advising team and your adviser(s) so that they can reach out to you with additional offers of support.
+
+$~$
+
+### Grading
+
+**Engagement and Participation** - 5\%
+
+Participation in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and your partner is expected to help further your understanding.  Everyone will begin the semester with a baseline participation score of 80\%, which will move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score by helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc.  If you are ever unsure of your participation standing, you can email me and I am happy to provide you an interim estimate.
+
+**Labs** - 10\%
+
+In-class labs contain embedded questions that you and your lab partner(s) will answer together. Some lab questions will be scored for accuracy with feedback given, while others may be scored for effort/completion. Additionally, labs are to be completed collaboratively, and if it becomes clear that you are your partner(s) are using a "divide and conquer" approach to answering lab questions your score on that assignment will be penalized.
+
+**Individual Homework** - 20\%
+
+There will be approximately 10 homework assignments throughout the semester, generally with one assignment due each week (with some exceptions around exam dates). Homework is to be completed individually, and answers that are suspiciously similar may be reported as academic honesty violations.  That said, I recognize that you may want to check-in with classmates on homework questions, and you are welcome to do this so long as your submitted answers are uniquely your own and you acknowledge the contributions of anyone or anything (other than official course materials, instructors, and mentors) that substantively shaped your answers.
+
+**Exams (3x)** - 45\% in total
+
+There will be 2 midterms and a final exam. Each midterm will focus on a specific set of content, but because course topics are naturally cumulative there may be some questions involving earlier content.  The final exam will be cumulative.
+
+The 3 exams will contribute 14%, 14%, and 17% towards your end-of-semester grade, with your *highest* exam score (of the 3) contributing 17% and the other exams each contributing 14%.
+
+Exams may contain open-notes sections involving the use of a computer (R Studio) as well as closed-notes sections (formulas will be provided as necessary).
+
+**Project** - 20\%
+
+The course project is intended to provide you an opportunity to perform your own statistical analysis on real-world data. The final product is a three-page written report accompanied by R code and documentation. You may work on this project *individually*, or in a *group of two or three* of your choosing. This project is intended to mirror the [USCLAP Competition](https://www.causeweb.org/usproc/usclap) guidelines, and I encourage any interested students to prepare their project with a competition submission in-mind.
+
+There will be several project check-points throughout the semester, and a comprehensive description of the assignment will be made available later in the semester. 
+
+$~$
+
+### Misc
+
+**Getting Help**
+
+In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
+
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced in `R` programming and may be able to troubleshoot coding problems you are having.
+
+The [Grinnell Math Lab](https://www.grinnell.edu/academics/majors-concentrations/math/math-lab) is located on the 2nd floor of Noyce Science Center in Room 2012 and offers drop-in statistics tutoring.  
+
+The online platform [Stack Overflow](https://stackoverflow.com/questions/tagged/r) is a useful resource to find user-generated coding solutions to common `R` problems.  Nearly all professionals have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
+
+$~$
+
+### Topic List
+
+Check the course webpage an official list of topics. A tentative list of topics is given below:
+
+- Exam 1 content:
+    - Data visualizations, numerical summaries, contingency tables, confounding variables, regression, sources of variability (sampling and random assignment), standard error, confidence intervals
+- Exam 2 content:
+    - Hypothesis testing, p-values, testing errors, hypothesis testing misconceptions, 1 and 2 sample Z/T tests
+- Exam 3 content:
+    - Chi-squared tests, analysis of variance (ANOVA), inference for regression models, logistic regression (time-permitting)

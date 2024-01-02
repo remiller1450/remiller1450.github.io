@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>syllabusML24.knit</title>
+
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="syllabus---sta-395-intro-to-ml-spring-24"
+class="section level1">
+<h1>Syllabus - Sta-395 Intro to ML (Spring ’24)</h1>
+<div id="course-information" class="section level3">
+<h3>Course Information</h3>
+<p><strong>Instructor</strong>:</p>
+<ul>
+<li>Ryan Miller, Noyce 2218, millerry@grinnell.edu</li>
+</ul>
+<p><strong>Class Meetings</strong>:</p>
+<ul>
+<li>Noyce 2402, Tuesday and Thursday 1:00-2:20pm</li>
+</ul>
+<p><strong>Office Hours</strong>:</p>
+<ul>
+<li>Drop-in hours (Noyce 2218): Monday 2:30-3:30pm, Tuesday 2:30-3:30pm,
+Thursday 10-11am
+<ul>
+<li>Additional availability by appointment</li>
+</ul></li>
+</ul>
+<p><strong>Class Mentors</strong>:</p>
+<ul>
+<li>Brian Goodell, goodellb@grinnell.edu
+<ul>
+<li>Mentor session dates/times are currently TBD.</li>
+</ul></li>
+</ul>
+<p><strong>Course Description</strong>:</p>
+<p>Machine learning is a branch of artificial intelligence (AI) rooted
+in computational statistics that focuses on the development of models
+and algorithms capable of identifying patterns in data. In this course,
+students will implement machine learning methods in Python to solve
+problems from a variety of disciplines. Topics include model validation
+and optimization, decision trees, boosting and bagging, neural networks,
+transfer learning, and recently developed methods. Students will
+complete a semester-long capstone project. Prerequisite: MAT-215 and
+STA-230.</p>
+<p><strong>Texts</strong>:</p>
+<p>There is no required textbook for this course. All required materials
+will be posted on our <a href="MLs24.html">course website</a>.</p>
+<p>Course content and recommended readings will be drawn from the
+following sources:</p>
+<ol style="list-style-type: decimal">
+<li><a
+href="https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf">An
+Introduction to Statistical Learning</a> by James, Witten, Hastie, and
+Tibshirani</li>
+<li><a
+href="https://www.oreilly.com/library/view/introduction-to-machine/9781449369880/">Introduction
+to machine learning with Python: a guide for data scientists</a> by
+Andreas Müller</li>
+<li><a href="https://d2l.djl.ai/">Dive into Deep Learning</a> by Zhang,
+Lipton, Li, and Smola</li>
+</ol>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="aims-and-objectives" class="section level3">
+<h3>Aims and Objectives</h3>
+<p>This course aims to develop conceptual, theoretical, and applied
+perspectives on commonly used machine learning algorithms.</p>
+<div id="learning-objectives" class="section level4">
+<h4>Learning Objectives</h4>
+<p>After completing this course, students should be able to:</p>
+<ul>
+<li>Translate research questions that can be appropriately addressed by
+machine learning approaches into models that can be trained and
+tested.</li>
+<li>Implement data pipelines and proper training/validation schemes in
+Python for a variety of machine learning methods.</li>
+<li>Clearly and concisely communicate machine learning methodologies and
+results in both written and oral formats to technical and non-technical
+audiences.</li>
+<li>Organize and execute a machine learning project involving complex,
+real-world data and modern machine learning methods and
+implementations.</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+<div id="policies" class="section level3">
+<h3>Policies</h3>
+<p><strong>Class Sessions</strong></p>
+<p>Class time will be split between “lecture” and “lab”. Most class
+meetings will begin with a short, low-stakes quiz (2-3 conceptual
+questions) to provide an incentive for consistent attendance and review
+of content outside of class. More details on these quizzes can be found
+in the “Grading” section of the syllabus.</p>
+<p>Portions of the class devoted to “lecture” will focus on conceptual
+and mathematical topics with minimal discussion of coding/software.</p>
+<p>Portions of class devoted to “lab” involve working in assigned and/or
+self-formed groups of 2-3 on applications of course topics using
+Python.</p>
+<p><strong>Attendance</strong></p>
+<p>Lab sessions will involve collaboration with others in assigned and
+self-selected groups. This means that attendance during labs is
+especially important. While I understand that missing class is sometimes
+necessary, if you will be absent for any reason I ask to be notified as
+soon as possible so that assigned lab groups can be modified. Showing up
+late or missing class more than once without prior notice will
+negatively impact the participation component of your course grade.</p>
+<p><strong>Software</strong></p>
+<p>Software is an essential component of machine learning, and this
+class will make extensive use of Python (any version 3 release should be
+fine). You are welcome to use any Python IDE that you are familiar with,
+but I encourage you to use <a href="https://jupyter.org/">JupyterLab</a>
+to record your work on labs/assignments.</p>
+<p>You are welcome to use your own personal laptop, or a classroom
+computer during the course. If you are working your own laptop, I
+suggest downloading the most recent <a
+href="https://www.anaconda.com/products/distribution">Anaconda
+Distribution</a> to ensure compatibility with the code examples that
+will be given during class. JupyterLab can be found in the Anaconda
+Navigator, and Anaconda comes with most of the libraries we’ll be using
+pre-installed.</p>
+<p><strong>Academic Honesty</strong></p>
+<p>At Grinnell College you are part of a conversation among scholars,
+professors, and students, one that helps sustain both the intellectual
+community here and the larger world of thinkers, researchers, and
+writers. The tests you take, the research you do, the writing you
+submit-all these are ways you participate in this conversation.</p>
+<p>The College presumes that your work for any course is your own
+contribution to that scholarly conversation, and it expects you to take
+responsibility for that contribution. That is, you should strive to
+present ideas and data fairly and accurately, indicate what is your own
+work, and acknowledge what you have derived from others. This care
+permits other members of the community to trace the evolution of ideas
+and check claims for accuracy.</p>
+<p>Failure to live up to this expectation constitutes academic
+dishonesty. Academic dishonesty is misrepresenting someone else’s
+intellectual effort as your own. Within the context of a course, it also
+can include misrepresenting your own work as produced for that class
+when in fact it was produced for some other purpose. A complete list of
+dishonest behaviors, as defined by Grinnell College, <a
+href="https://catalog.grinnell.edu/content.php?catoid=12&amp;navoid=2537#alleged-violation">can
+be found here</a>.</p>
+<p><strong>Inclusive Classroom</strong></p>
+<p>Grinnell College makes reasonable accommodations for students with
+documented disabilities. To receive accommodations, students must
+provide documentation to the Coordinator for Disability Resources,
+information <a
+href="http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services">can
+be found here</a>. If you plan on using accommodations in this course,
+you should speak with me as early as possible in the semester so that we
+can discuss ways to ensure your full participation in the course.</p>
+<p><strong>Religious Holidays</strong></p>
+<p>Grinnell College encourages students who plan to observe holy days
+that coincide with class meetings or assignment due dates to consult
+with your instructor in the first three weeks of classes so that you may
+reach a mutual understanding of how you can meet the terms of your
+religious observance, and the requirements of the course.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p><strong>Engagement and Participation</strong> - 5%</p>
+<p>Participation in a lab-heavy course is absolutely critical. During
+labs you are expected to help your partner(s) learn the material (which
+goes beyond simply answering the lab questions), and they are expected
+to help you. Everyone will begin the semester with a baseline
+participation score of 80%, which will then move up or down depending on
+my subjective assessment of your behavior during class. You can very
+quickly raise this score to 100% by doing a superb job helping your lab
+partner(s), and working diligently to understand course material during
+class. Alternatively, you can lower this score by skipping class,
+letting your lab partner(s) do most of the work, using your phone or
+surfing the web during class, etc. If you are ever unsure of your
+participation standing, you can email me and I am happy to provide you
+an interim assessment.</p>
+<p><strong>Labs</strong> - 15%</p>
+<p>In-class labs will contain a handful of embedded questions that you
+and your partner(s) should answer to test your understanding of concepts
+and Python implementations. When working as a group, it is acceptable
+for one member to submit the entire group’s responses, so long as
+everyone’s name is included on the work <em>at the time of
+submission</em>.</p>
+<p><strong>Problem Sets</strong> - 20%</p>
+<p>Course content will be divided into 4-5 units. Each unit will have a
+comprehensive homework assignment that is due at the end of the
+unit.</p>
+<p><strong>In-class Quizzes</strong> - 10%</p>
+<p>Short in-class quizes will be delivered during the first 5-minutes of
+<em>most</em> class meetings. These quizzes will contain 1-3 brief
+questions, often multiple choice, covering concepts from previous
+lectures. These quizzes are intended to cover essential concepts that
+any machine learning specialist should have committed memory. Quizzes
+cannot be retaken or made up, but your <em>lowest three quiz scores will
+be dropped</em> at the end of the semester. Pending instructor approval
+and coordination with academic support staff, special exceptions may be
+made for circumstances involving prolonged absences.</p>
+<p><strong>Midterm Exam</strong> - 15%</p>
+<p>There will be one in-class exam towards the middle of the semester,
+with the precise date/time announced no later than 2-weeks in advance of
+the exam. This exam is intended to assess mathematical and conceptual
+topics from the course, thus it is complementary to the applied focus of
+the capstone project (see below). Details and review materials will be
+provided later in the semester.</p>
+<p><strong>Capstone Project</strong> - 35% (Presentation: 5%, Report:
+25%, Code: 5%)</p>
+<p>For this project you will work in a group of 2-4 students on a
+self-selected machine learning problem involving a non-trivial data set
+of your choosing. Your group will be responsible for creating a
+repository containing the code and data used during the project. You
+will present your results in a 10-minute in-class presentation intended
+to mirror a scientific conference presentation (ie: assume a modest
+amount of machine learning knowledge from the audience, with limited
+content area knowledge in the domain of your application). You will also
+prepare a 3-page (single-spaced, not including figures) scientific
+report summarizing your methods and results.</p>
+<p>Additional details on the project will be posted <a
+href="MLs24/final.html">at this link</a> later in the semester.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="misc" class="section level3">
+<h3>Misc</h3>
+<p><strong>Getting Help</strong></p>
+<p>In addition to visiting office hours and completing the recommended
+readings, there are many other ways in which you can find help on
+assignments and projects.</p>
+<p>The <a
+href="https://www.grinnell.edu/academics/resources/data-inquiry-lab">Data
+Science and Social Inquiry Lab (DASIL)</a> is staffed by mentors who are
+experienced programmers and may be able to troubleshoot coding problems
+you are having. Many students who’ve successfully completed this course
+have made extensive use of the DASIL work space and its computing
+resources.</p>
+<p>The online platform <a
+href="https://stackoverflow.com/questions">Stack Overflow</a> is a
+useful resource for finding user-generated coding solutions to coding
+questions. Nearly all professional data scientists have needed to “look
+up” a coding strategy on a site like Stack Overflow at some point in
+their career, and I have no problem with you doing the same on
+assignments or projects. However, if you make substantial use of a Stack
+Overflow answer (ie: actually integrating lines of code written by
+someone else into your work, not just getting help identifying the right
+functions/arguments) the expectation is that you cite or acknowledge
+doing so.</p>
+<p>Large language models, such as ChatGPT or Bard, can be a useful tool
+for explaining and fixing errors in Python code. You are welcome to use
+these tools; however, you are ultimately responsible for the accuracy of
+any code or written work you submit. Relying upon a large language model
+to write for you is a risky endeavor in the sense that the model might
+provide inaccurate information or generate text that is superficial and
+lacking sufficient detail, I encourage you to read <a
+href="https://eriksimpson.sites.grinnell.edu/Connections/Documents/WritingWithLLMs.pdf">Professor
+Erik Simpson’s write-up on writing with LLMs</a> to see some reasons why
+you shouldn’t lean too heavily on these technologies. Nevertheless,
+you’re welcome to use large language models in this course in the same
+way you’d use a website like Stack Overflow or a peer mentor.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="units-and-topics" class="section level3">
+<h3>Units and Topics</h3>
+<p>Below is a list of course topics and tentative time frames for
+covering them.</p>
+<ul>
+<li>Unit #1 - Scattered foundations in Python and unsupervised learning
+<ul>
+<li>Data handling and mathematical operations using <code>numpy</code>
+and <code>pandas</code></li>
+<li>Clustering using <span class="math inline">\(k\)</span>-means and
+hierarchical clustering</li>
+<li>Outlier detection and clustering using DBSCAN</li>
+<li>Dimension reduction using principal component analysis</li>
+</ul></li>
+<li>Unit #2 - Machine learning fundamentals and classic algorithms
+<ul>
+<li>Performance metrics for classification and regression tasks</li>
+<li>Preventing data leakage using pipelines for model training and
+validation</li>
+<li>Decision trees, support vector machines, <span
+class="math inline">\(k\)</span>-nearest neighbors, and generalized
+linear models</li>
+<li>Feature engineering</li>
+</ul></li>
+<li>Unit #3 - Optimization of structured models
+<ul>
+<li>Review of select topics in linear algebra and multivariate
+calculus</li>
+<li>Cost functions</li>
+<li>Gradient descent algorithms</li>
+</ul></li>
+<li>Unit #4 - Introduction to deep learning
+<ul>
+<li>Single and multi-layer feed forward neural networks</li>
+<li>Backpropagation algorithms</li>
+<li>Convolutional neural networks</li>
+<li>Recurrent neural networks and long short term memory</li>
+<li>Transfer learning</li>
+</ul></li>
+<li>Unit #5 - Ensembles and feature importance
+<ul>
+<li>Boosting and bagging</li>
+<li>Stacked generalizations</li>
+<li>Gain-based importance and SHAP-based feature importance</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

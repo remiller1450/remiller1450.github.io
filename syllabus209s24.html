@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>syllabus209s24.knit</title>
+
+<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Ryan Miller</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="about.html">
+    <span class="fa fa-newspaper-o"></span>
+     
+    Research
+  </a>
+</li>
+<li>
+  <a href="teaching.html">
+    <span class="fa fa-graduation-cap"></span>
+     
+    Teaching
+  </a>
+</li>
+<li>
+  <a href="personal.html">
+    <span class="fa fa-dumbbell"></span>
+     
+    Personal
+  </a>
+</li>
+<li>
+  <a href="CV_2018.pdf">
+    <span class="fa fa-file"></span>
+     
+    CV
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+
+</div>
+
+
+<div id="syllabus---sta-209-04-spring-2024" class="section level1">
+<h1>Syllabus - Sta-209-04 (Spring 2024)</h1>
+<div id="course-information" class="section level3">
+<h3>Course Information</h3>
+<p><strong>Instructor</strong>:</p>
+<ul>
+<li>Ryan Miller, Noyce 2218, millerry@grinnell.edu</li>
+</ul>
+<p><strong>Class Meetings</strong>:</p>
+<ul>
+<li>HSSC N2170, 1-2:20pm</li>
+</ul>
+<p><strong>Office Hours</strong>:</p>
+<ul>
+<li>Drop-in hours (Noyce 2218): Monday 2:30-3:30pm, Tuesday 2:30-3:30pm,
+Thursday 10-11am
+<ul>
+<li>Additional availability by appointment</li>
+</ul></li>
+</ul>
+<p><strong>Course Mentors</strong>:</p>
+<ul>
+<li>Mira Manchanda, manchand@grinnell.edu
+<ul>
+<li>Mentor sessions TBD</li>
+</ul></li>
+</ul>
+<p><strong>Course Description</strong>:</p>
+<p>The course covers the application of basic statistical methods such
+as univariate graphics and summary statistics, basic statistical
+inference for one and two samples, linear regression (simple and
+multiple), one- and two-way ANOVA, and categorical data analysis.
+Students use statistical software to analyze data and conduct
+simulations. A student who takes Statistics 209 cannot receive credit
+for Mathematics 115 or Social Studies 115. Prerequisite: Mathematics 124
+or 131</p>
+<p><strong>Texts</strong>:</p>
+<p>The course will utilize the text: <strong>Introduction to Modern
+Statistics</strong> (1st edition) by Mine Çetinkaya-Rundel and Johanna
+Hardin</p>
+<ul>
+<li>An online web version of the text is available here: <a
+href="https://openintro-ims.netlify.app/"
+class="uri">https://openintro-ims.netlify.app/</a></li>
+<li>A downloadable pdf is available here: <a
+href="https://leanpub.com/imstat"
+class="uri">https://leanpub.com/imstat</a>
+<ul>
+<li>You may reduce the price to $0 to obtain a free pdf</li>
+</ul></li>
+</ul>
+<p><strong>Website</strong>:</p>
+<p>The official course schedule and materials will be posted on the
+following website:</p>
+<ul>
+<li><a href="https://remiller1450.github.io/s209s24.html"
+class="uri">https://remiller1450.github.io/s209s24.html</a></li>
+</ul>
+<p>All assignment submissions and grades will be managed through <a
+href="https://pioneerweb.grinnell.edu/"
+class="uri">https://pioneerweb.grinnell.edu/</a> unless other
+instructions are given.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="aims-and-objectives" class="section level3">
+<h3>Aims and Objectives</h3>
+<p>This course aims to develop in students informed critical and
+theoretical perspectives on the social impact of data collection,
+including the social construction of data production, and the use of
+algorithmic techniques to process that data.</p>
+<p>In plainer terms, the objective of this course is to prepare students
+to independently perform basic data analyses using justifiable
+statistical methods.</p>
+<p><span class="math inline">\(~\)</span></p>
+<div id="learning-objectives" class="section level4">
+<h4>Learning Objectives</h4>
+<p>After completing this course, students should be able to:</p>
+<ol style="list-style-type: decimal">
+<li>Utilize data visualization, descriptive statistics, regression, and
+statistical inference to derive meaningful insights from data.</li>
+<li>Correctly apply the statistical methods of hypothesis testing and
+confidence interval estimation to quantify the presence of variability
+in data.</li>
+<li>Use the <code>R</code> programming environment to create data
+visualizations and perform basic statistical analyses.</li>
+<li>Clearly and concisely communicate findings to statistical and
+non-statistical audiences.</li>
+</ol>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+<div id="policies" class="section level3">
+<h3>Policies</h3>
+<p><strong>Class Sessions</strong></p>
+<p>At least 50% of in-class time will be devoted towards “lab”, which
+involves working in a group of 2-3 to progress through guided exercises.
+You will be responsible for the contents of these labs on exams, so it
+essential that you and your partner(s) work together and make certain
+that everyone understands each topic in sufficient detail. For most of
+the semester lab partners will be assigned, but you will have an
+opportunity to select your own partners towards the end of the
+semester.</p>
+<p><strong>Attendance</strong></p>
+<p>This course involves substantial collaboration and absences impact
+not only yourself, but also your classmates. That said, I understand
+that missing class is sometimes necessary. If you will be absent for any
+reason I ask to be notified as soon as possible. Showing up late or
+missing class without notice will negatively impact the “engagement and
+participation” portion of your final grade.</p>
+<p><strong>Late Work</strong></p>
+<p>Assignments are generally due at 11:59pm on their assigned due-date
+(as shown on P-web). All assignments have an automatic 48-hour grace
+period where they can still be submitted with no greater than a 10%
+penalty applied. After 48-hours, late work may still be accepted on a
+case-by-case basis subject to an additional penalty. Special exceptions
+due to individual circumstances may be possible, but should be arranged
+in advance of an assignment’s deadline, and/or coordinated with Grinnell
+College academic support staff.</p>
+<p><strong>Software</strong></p>
+<p>Software is an essential piece of modern applications of statistics
+and will play an important role in this course. We will primarily use
+<code>R</code>, an open-source statistical software program. You will
+also be expected to write, document, and submit code used for projects
+and assignments throughout the semester.</p>
+<p>You are welcome to use your own personal laptop, or a Grinnell
+College laptop, during the course. <code>R</code> is freely available
+and you can download it and it’s UI companion, <code>R Studio</code>,
+here (note: <code>R</code> must be downloaded and installed before
+<code>R Studio</code>):</p>
+<ol style="list-style-type: decimal">
+<li>Download <code>R</code> from <a href="http://www.r-project.org/"
+class="uri">http://www.r-project.org/</a></li>
+<li>Download <code>R Studio</code> from <a
+href="http://www.rstudio.com/"
+class="uri">http://www.rstudio.com/</a></li>
+</ol>
+<p>You may also work on a classroom laptop, all of which will have
+<code>R</code> and <code>R Studio</code> pre-installed.</p>
+<p>Additionally, you are welcome to use Grinnell’s online version of R
+Studio: <a href="https://rstudio.grinnell.edu/"
+class="uri">https://rstudio.grinnell.edu/</a></p>
+<p><strong>Academic Honesty</strong></p>
+<p>At Grinnell College you are part of a conversation among scholars,
+professors, and students, one that helps sustain both the intellectual
+community here and the larger world of thinkers, researchers, and
+writers. The tests you take, the research you do, the writing you
+submit-all these are ways you participate in this conversation.</p>
+<p>The College presumes that your work for any course is your own
+contribution to that scholarly conversation, and it expects you to take
+responsibility for that contribution. That is, you should strive to
+present ideas and data fairly and accurately, indicate what is your own
+work, and acknowledge what you have derived from others. This care
+permits other members of the community to trace the evolution of ideas
+and check claims for accuracy.</p>
+<p>Failure to live up to this expectation constitutes academic
+dishonesty. Academic dishonesty is misrepresenting someone’s
+intellectual effort as your own. Within the context of a course, it also
+can include misrepresenting your own work as produced for that class
+when in fact it was produced for some other purpose. Additional
+information <a
+href="https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources">can
+be found here</a>.</p>
+<p><strong>Inclusive Classroom</strong></p>
+<p>Grinnell College makes reasonable accommodations for students with
+documented disabilities. To receive accommodations, students must
+provide documentation to the Coordinator for Disability Resources,
+information <a
+href="http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services">can
+be found here</a>. If you plan on using accommodations in this course,
+you should speak with me as early as possible in the semester so that we
+can discuss ways to ensure your full participation in the course.</p>
+<p><strong>Religious Holidays</strong></p>
+<p>Grinnell College encourages students who plan to observe holy days
+that coincide with class meetings or assignment due dates to consult
+with your instructor in the first three weeks of classes so that you may
+reach a mutual understanding of how you can meet the terms of your
+religious observance, and the requirements of the course.</p>
+<p><strong>Academic Support</strong></p>
+<p>If you have other needs not addressed in previous sections, please
+let me know soon so that we can work together for the best possible
+learning environment. In some cases, I will recommend consulting with
+the Academic Advising staff. They are an excellent resource for
+developing strategies for academic success and can connect you with
+other campus resources as well: <a
+href="http://www.grinnell.edu/about/offices-services/academic-advising"
+class="uri">http://www.grinnell.edu/about/offices-services/academic-advising</a>.
+If I notice that you are encountering difficulty, in addition to
+communicating with you directly about it, I will also likely submit an
+academic alert via Academic Advising’s SAL portal. This reminds you of
+my concern, and it notifies the Academic Advising team and your
+adviser(s) so that they can reach out to you with additional offers of
+support.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="grading" class="section level3">
+<h3>Grading</h3>
+<p><strong>Engagement and Participation</strong> - 5%</p>
+<p>Participation in a lab-heavy course is absolutely critical. During
+labs you are expected to help your partner(s) learn the material (which
+goes beyond simply answering the lab questions), and your partner is
+expected to help further your understanding. Everyone will begin the
+semester with a baseline participation score of 80%, which will move up
+or down depending on my subjective assessment of your behavior during
+class. You can very quickly raise this score by helping your lab
+partner(s), and working diligently to understand course material during
+class. Alternatively, you can lower this score by skipping class,
+letting your lab partner(s) do most of the work, using your phone or
+surfing the web during class, etc. If you are ever unsure of your
+participation standing, you can email me and I am happy to provide you
+an interim estimate.</p>
+<p><strong>Labs</strong> - 10%</p>
+<p>In-class labs contain embedded questions that you and your lab
+partner(s) will answer together. Some lab questions will be scored for
+accuracy with feedback given, while others may be scored for
+effort/completion. Additionally, labs are to be completed
+collaboratively, and if it becomes clear that you are your partner(s)
+are using a “divide and conquer” approach to answering lab questions
+your score on that assignment will be penalized.</p>
+<p><strong>Individual Homework</strong> - 20%</p>
+<p>There will be approximately 10 homework assignments throughout the
+semester, generally with one assignment due each week (with some
+exceptions around exam dates). Homework is to be completed individually,
+and answers that are suspiciously similar may be reported as academic
+honesty violations. That said, I recognize that you may want to check-in
+with classmates on homework questions, and you are welcome to do this so
+long as your submitted answers are uniquely your own and you acknowledge
+the contributions of anyone or anything (other than official course
+materials, instructors, and mentors) that substantively shaped your
+answers.</p>
+<p><strong>Exams (3x)</strong> - 45% in total</p>
+<p>There will be 2 midterms and a final exam. Each midterm will focus on
+a specific set of content, but because course topics are naturally
+cumulative there may be some questions involving earlier content. The
+final exam will be cumulative.</p>
+<p>The 3 exams will contribute 14%, 14%, and 17% towards your
+end-of-semester grade, with your <em>highest</em> exam score (of the 3)
+contributing 17% and the other exams each contributing 14%.</p>
+<p>Exams may contain open-notes sections involving the use of a computer
+(R Studio) as well as closed-notes sections (formulas will be provided
+as necessary).</p>
+<p><strong>Project</strong> - 20%</p>
+<p>The course project is intended to provide you an opportunity to
+perform your own statistical analysis on real-world data. The final
+product is a three-page written report accompanied by R code and
+documentation. You may work on this project <em>individually</em>, or in
+a <em>group of two or three</em> of your choosing. This project is
+intended to mirror the <a
+href="https://www.causeweb.org/usproc/usclap">USCLAP Competition</a>
+guidelines, and I encourage any interested students to prepare their
+project with a competition submission in-mind.</p>
+<p>There will be several project check-points throughout the semester,
+and a comprehensive description of the assignment will be made available
+later in the semester.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="misc" class="section level3">
+<h3>Misc</h3>
+<p><strong>Getting Help</strong></p>
+<p>In addition to visiting office hours and completing the recommended
+readings, there are many other ways in which you can find help on
+assignments and projects.</p>
+<p>The <a
+href="https://www.grinnell.edu/academics/resources/data-inquiry-lab">Data
+Science and Social Inquiry Lab (DASIL)</a> is staffed by mentors who are
+experienced in <code>R</code> programming and may be able to
+troubleshoot coding problems you are having.</p>
+<p>The <a
+href="https://www.grinnell.edu/academics/majors-concentrations/math/math-lab">Grinnell
+Math Lab</a> is located on the 2nd floor of Noyce Science Center in Room
+2012 and offers drop-in statistics tutoring.</p>
+<p>The online platform <a
+href="https://stackoverflow.com/questions/tagged/r">Stack Overflow</a>
+is a useful resource to find user-generated coding solutions to common
+<code>R</code> problems. Nearly all professionals have needed to “look
+up” a coding strategy on a site like Stack Overflow at some point in
+their career, and I have no problem with you doing the same on
+assignments or projects. However, if you make substantial use of a Stack
+Overflow answer (ie: actually integrating lines of code written by
+someone else into your work, not just getting help identifying the right
+functions/arguments) the expectation is that you cite or acknowledge
+doing so.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="topic-list" class="section level3">
+<h3>Topic List</h3>
+<p>Check the course webpage an official list of topics. A tentative list
+of topics is given below:</p>
+<ul>
+<li>Exam 1 content:
+<ul>
+<li>Data visualizations, numerical summaries, contingency tables,
+confounding variables, regression, sources of variability (sampling and
+random assignment), standard error, confidence intervals</li>
+</ul></li>
+<li>Exam 2 content:
+<ul>
+<li>Hypothesis testing, p-values, testing errors, hypothesis testing
+misconceptions, 1 and 2 sample Z/T tests</li>
+</ul></li>
+<li>Exam 3 content:
+<ul>
+<li>Chi-squared tests, analysis of variance (ANOVA), inference for
+regression models, logistic regression (time-permitting)</li>
+</ul></li>
+</ul>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
