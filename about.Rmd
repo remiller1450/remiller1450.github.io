@@ -7,7 +7,24 @@ This page highlights a few different areas I've actively contributed towards thr
 - If you are a Grinnell College student interested in working with me on a research project I encourage you to read these sections. I am usually willing to collaborate on a [MAP](https://www.grinnell.edu/about/leadership/offices-services/dean/maps) in most summers as long as the intended project is a good fit for both of us.
     - *Note*: for the time being, I will be using the [common science division MAP application](https://www.grinnell.edu/academics/majors-concentrations/science-division/summer-research)
 
+## Current Opportunities
+
+I'm currently working on vehicle-based detection of impaired driving using machine learning methods. Some of this work was presented at the [2024 Transportation Research Board Annual Meeting](https://www.trb.org/AnnualMeeting/AnnualMeeting.aspx)
+
+- Here are the [presentation slides](TRB24_slides.pdf)
+
+There are a variety of areas that I'd like to devote further attention to:
+
+1. Performance of deep learning models (Inception Time) developed to detect cannabis impairment on other sources of impairment (alcohol, combined cannabis+alcohol, drowsiness) and on-road control data.
+2. Trade-offs between complexity of data and performance. The idea would be to explore whether features that are less invasive to collect (speed, acceleration, lateral position) can be used to develop models that perform as well as models involving more invasive features (brake pedal/steering wheel inputs)
+3. Two-stage approaches that match input data to a driving scenario (ie: 4-lane interstate, 2-lane rural, or urban city) and apply an impairment detection model that was trained for that scenario.
+4. Applications of explainable AI (XAI) methods to better understand successful predictors of various types of impairment
+
+I am open to working with any student with coding experience (Python or R) and interest/experience in machine learning.
+
 $~$
+
+## Areas of Interest
 
 ### 1. False Discovery Rate Methods in High Dimensional Regression Modeling
 
@@ -29,6 +46,7 @@ Read more:
 
 - **Impact of cannabis and low alcohol concentration on divided attention tasks during driving**, Miller, R, Brown, T, Lee, S, Tibrewal, I, Milavetz, G, Gaffney, G, Hartman, Hartman R, D Gorelick, R Compton, Huestis, M, *Traffic Injury Prevention*, 2020. [LINK](https://www.tandfonline.com/doi/abs/10.1080/15389588.2020.1814956)
 - **Influence of cannabis use history on the impact of acute cannabis smoking on simulated driving performance during a distraction task**, Miller, R, Brown, T,  Wrobel, J, Kosnett, M, Brooks-Russell, A, *Traffic Injury Prevention*, 2022. [LINK](https://www.tandfonline.com/doi/full/10.1080/15389588.2022.2072492)
+- **Predicting changes in driving performance in individuals who use cannabis following acute use based on self-reported readiness to drive**, Miller, R, Brown, T,  Schmitt, R, Gaffney, G, Milavetz, G, *Accident Analysis and Prevention*, 2024. [LINK](https://www.sciencedirect.com/science/article/abs/pii/S0001457523004232)
 
 $~$
 

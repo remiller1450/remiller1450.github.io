@@ -1,0 +1,112 @@
+---
+title: "STA-209 - Applied Statistics (Spring 2024)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+### Syllabus
+
+Welcome to the course website for Sta-209-04 (Applied Statistics). You can find the course syllabus linked below:
+
+- [Click here](syllabus395s23.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper left.  
+
+Please note that some material will not be posted until we've reached that point in the course.
+
+## Course Materials
+
+Most class meetings involve both lecture and lab components. Partners will be assigned for each lab. Labs will generally be due 1-2 class meetings after they are assigned, while homework is consistently due every Friday at midnight (with some exceptions surrounding exams).
+
+$~$
+
+### Exam #1 Content
+
+**Week 1**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+# x <- cars[1:3,]
+# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
+# linkID <- c("link1", "link2", "link3")
+# x$website <- paste0("[", linkID, "](http://", urls, ")")
+# kable(x)
+
+x = data.frame(Date = c("Mon 1/22", "Wed 1/24", "Fri 1/26"), 
+               Lecture = c("[Data Basics](s209s24/base.pdf)", 
+                           "[Data Visualization](s209s24/viz.pdf)",
+                           " "),
+               Lab = c("[Introduction to `R`](ml23/base_lab.html)", 
+                       "[Data Visualization (part 1)](ml23/viz_lab1.html)",
+                       "[Data Visualization (part 2)](ml23/viz_lab2.html)"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+**Assignments and Deadlines**:
+
+- The Introduction to `R` and Data Visualization (parts 1 & 2) labs are Monday 1/29 (via P-web)
+- Homework 1 is due Friday 1/26 (via P-web)
+
+**Week 2**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+# x <- cars[1:3,]
+# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
+# linkID <- c("link1", "link2", "link3")
+# x$website <- paste0("[", linkID, "](http://", urls, ")")
+# kable(x)
+
+x = data.frame(Date = c("Mon 1/29", "Wed 1/31", "Fri 2/2"), 
+               Lecture = c("[Numerical Summaries](s209s24/num.pdf)", 
+                           "[Contingency Tables](s209s24/viz.pdf)",
+                           " "),
+               Lab = c("[Data summarization (part 1)](ml23/dsum1.html)", 
+                       "[Data summarization (part 2)](ml23/dsum2.html)",
+                       "[Multivariate relationships](ml23/mv.html)"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+**Assignments and Deadlines**:
+
+- TBD
+
+$~$
+
+### Exam #2 Content
+
+Coming soon
+
+$~$
+
+### Exam #3 Content
+
+Coming soon
+
+$~$
+
+## Recommended Readings
+
+These 
+
+## Project 
+
+Information about the course project will be posted here
+
+## Exams
+
+Information about exams (including dates and practice materials) will be posted here.
+
+Unless otherwise indicated you are responsible for the content of all lectures and labs in a unit on its corresponding exam.
