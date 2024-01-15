@@ -99,14 +99,19 @@ $~$
 
 ## Recommended Readings
 
-These 
+The chapters/materials listed below are resources that I recommend you read during the week provided in order to deepen your understanding of course topics and expose yourself to additional perspectives. It has been my observation that students who complete these readings have been the most successful.
+
+- Week 1 (1/22 - 1/26):
+    - 
+- Week 2:
+    - TBD
 
 ## Project 
 
-Information about the course project will be posted here
+Information about the course project will be posted here at a later date.
 
 ## Exams
 
-Information about exams (including dates and practice materials) will be posted here.
+Information about exams (including dates and study materials) will be posted here.
 
-Unless otherwise indicated you are responsible for the content of all lectures and labs in a unit on its corresponding exam.
+Unless otherwise indicated you are responsible for the content of all lectures and labs on the corresponding exam.
