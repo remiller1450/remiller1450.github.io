@@ -55,7 +55,7 @@ $~$
 
 This course aims to develop in students informed critical and theoretical perspectives on the social impact of data collection, including the social construction of data production, and the use of algorithmic techniques to process that data.
 
-More simply, the fundamental aim of this course is to prepare students to independently perform basic data analyses using justifiable statistical methods.
+Put simply, the goal of this course is to prepare students to independently analyze data using justifiable statistical methods.
 
 $~$
 
@@ -74,7 +74,7 @@ $~$
 
 **Class Sessions**
 
-At least 50% of in-class time will be devoted towards "lab" activities that entail working in a group of 2-3 to progress through guided exercises involving the analysis of data using `R`. You are responsible for the content that appears in these labs on exams, so it essential that you and your partner(s) work together and make certain that everyone understands each topic in sufficient detail. For most of the semester lab partners will be assigned, but you will have an opportunity to select your own lab partners towards the end of the semester.
+At least 50% of in-class time will be devoted towards "lab" activities that involve working in a group of 2-3 through guided exercises involving the analysis of data using `R`. You are responsible for the content appearing in labs on exams, so it essential that you and your partner(s) work together and make certain that everyone understands each topic in sufficient detail. For most of the semester, lab partners will be assigned, but eventually you will have an opportunity to select your own lab partners.
 
 **Attendance** 
 
@@ -82,11 +82,11 @@ This course involves substantial collaboration and absences impact not only your
 
 **Late Work**
 
-Assignments are generally due at 11:59pm on their assigned due-date (as shown on P-web). All assignments have an automatic 48-hour grace period where they can still be submitted with no greater than a 10% penalty applied.  After 48-hours, late work may still be accepted on a case-by-case basis subject to an additional penalty.  Special exceptions due to individual circumstances may be possible, but should be arranged in advance of an assignment's deadline, and/or coordinated with Grinnell College academic support staff.
+Assignments are generally due at 11:59pm on the posted due-date (as shown on P-web). All deadlines have an automatic 48-hour "partial extension" where they can still be submitted with a penalty of no more than 10\% (ie: a penalty between 0\% and 10\% depending upon the circumstances and frequency of late work).  After 48-hours, late work may still be accepted on a case-by-case basis subject to an additional penalty.  Special exceptions due to individual circumstances and unexpected events are possible, but should be arranged as far in advance of an assignment's deadline as is possible, and/or coordinated with Grinnell College academic support staff.
 
 **Software**
 
-Software is an essential tool in statistics, and it will play an important role in this course.  We will primarily use `R`, an open-source statistical software program. You will also be expected to write, document, and submit code used on assignments and a course project.
+Software is an essential tool used by statisticians and will play an important role in this course.  We will primarily use `R`, an open-source statistical software program. You will also be expected to write, document, and submit code used on assignments and a course project.
 
 You are welcome to use your own personal laptop, or a Grinnell College laptop, during the course. `R` is freely available and you can download it and it's UI companion, `R Studio`, here (note: `R` must be downloaded and installed before `R Studio`):
 
@@ -161,11 +161,15 @@ The [Grinnell Math Lab](https://www.grinnell.edu/academics/majors-concentrations
 
 The online platform [Stack Overflow](https://stackoverflow.com/questions/tagged/r) is a useful resource to find user-generated coding solutions to common `R` problems.  Nearly all professionals have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
 
+**Large Language Models**
+
+Large language models, such as ChatGPT, Bing Chat, or Bard, can be a useful tool for explaining and fixing errors in your `R` code, or helping you understand example code. You are welcome to use these tools; however, you are ultimately responsible for the accuracy of any code or written work you submit. Relying upon a large language model to write for you is a risky endeavor. The model may provide inaccurate information or generate text that is superficial and lacking sufficient detail, I encourage you to read [Professor Erik Simpson's write-up on writing with LLMs](https://eriksimpson.sites.grinnell.edu/Connections/Documents/WritingWithLLMs.pdf) to see some reasons why you shouldn't lean too heavily on these technologies. Nevertheless, you're welcome to use large language models in this course in the same way you'd use a website like Stack Overflow or a peer mentor.
+
 $~$
 
 ### Topic List
 
-Check the course webpage an official list of topics. A tentative list of topics is given below:
+Consult the course webpage for an official list of topics. A tentative list of topics is provided below:
 
 - Exam 1 content:
     - Data visualizations, numerical summaries, contingency tables, confounding variables, regression, sources of variability (sampling and random assignment), standard error, confidence intervals

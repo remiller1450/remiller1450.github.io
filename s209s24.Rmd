@@ -10,11 +10,9 @@ output:
 
 $~$
 
-### Syllabus
-
 Welcome to the course website for Sta-209-04 (Applied Statistics). You can find the course syllabus linked below:
 
-- [Click here](syllabus395s23.html) to view the course syllabus
+- [Click here](syllabus209s24.html) to view the course syllabus
 
 You can locate course content by scrolling, or by using the navigation bar in the upper left.  
 
@@ -53,8 +51,12 @@ kable(x) %>%
 
 **Assignments and Deadlines**:
 
-- The Introduction to `R` and Data Visualization (parts 1 & 2) labs are Monday 1/29 (via P-web)
-- Homework 1 is due Friday 1/26 (via P-web)
+- The Introduction to `R` and Data Visualization (parts 1 & 2) labs
+    - Due Monday 1/29 (via P-web)
+- Homework 1 - IMS Ch 4.8: #4, #5, #6; IMS Ch 5.10: #1, #2; [additional exercises (click here)](s209s24/hw1.html) 
+    - Due Friday 1/26 (via P-web)
+
+$~$
 
 **Week 2**:
 
@@ -69,12 +71,12 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Mon 1/29", "Wed 1/31", "Fri 2/2"), 
-               Lecture = c("[Numerical Summaries](s209s24/num.pdf)", 
-                           "[Contingency Tables](s209s24/viz.pdf)",
+               Lecture = c("Numerical Summaries", 
+                           "Contingency Tables",
                            " "),
-               Lab = c("[Data summarization (part 1)](ml23/dsum1.html)", 
-                       "[Data summarization (part 2)](ml23/dsum2.html)",
-                       "[Multivariate relationships](ml23/mv.html)"))
+               Lab = c("Numerical Summaries and `dplyr` (part 1)", 
+                       "Numerical Summaries and `dplyr` (part 2)",
+                       "Exploring multivariate relationships"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -102,9 +104,9 @@ $~$
 The chapters/materials listed below are resources that I recommend you read during the week provided in order to deepen your understanding of course topics and expose yourself to additional perspectives. It has been my observation that students who complete these readings have been the most successful.
 
 - Week 1 (1/22 - 1/26):
-    - 
-- Week 2:
-    - TBD
+    - IMS Ch 1.2, 1.3, 4.1, 4.2, 4.6, 5.1, 5.3, 5.5 (focus on the types of graphs discussed in Ch 4/5)
+- Week 2 (1/29 - 2/2)
+    - IMS Ch 1.1, 4.3, 5.2, 5.4, 5.5, 5.6 (focus on understanding numerical summaries and tables)
 
 ## Project 
 
