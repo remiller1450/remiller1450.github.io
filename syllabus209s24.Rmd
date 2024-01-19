@@ -139,7 +139,7 @@ There will be 2 midterms and a final exam. Each midterm will focus on a specific
 
 The 3 exams will contribute 14%, 13%, and 13% towards your end-of-semester grade, with your *highest* exam score (of the 3) contributing 14% and the other exams each contributing 13%.
 
-Exams may contain open-notes sections involving the use of a computer (R Studio) as well as closed-notes sections (formulas will be provided as necessary) depending upon the nature of the material being tested.
+Exams will be closed notes but you will be given a formula sheet in advance that can be used on the exam. You will not be responsible for writing your own R code on exams, but you should expect to encounter output from R as well as the code that produced it during each exam.
 
 **Project** - 20\%
 

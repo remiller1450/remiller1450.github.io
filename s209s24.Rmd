@@ -53,7 +53,7 @@ kable(x) %>%
 
 - The Introduction to `R` and Data Visualization (parts 1 & 2) labs
     - Due Monday 1/29 (via P-web)
-- Homework 1 - IMS Ch 4.8: #4, #5, #6; IMS Ch 5.10: #1, #2; [additional exercises (click here)](s209s24/hw1.html) 
+- [Homework 1](s209s24/hw1.html) 
     - Due Friday 1/26 (via P-web)
 
 $~$
