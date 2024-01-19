@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction</title>
+<title>STA-395 - Introduction to Machine Learning (Spring ’24)</title>
 
 <script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -228,6 +233,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +303,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -298,62 +376,133 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Introduction</h1>
+<h1 class="title toc-ignore">STA-395 - Introduction to Machine Learning
+(Spring ’24)</h1>
 
 </div>
 
 
-<p><img style="float: right; width:30%; height:30%;" src="pphoto.jpg">
-Welcome to my website! I’m currently an Assistant Professor of
-Statistics in the <a
-href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell
-College Department of Mathematics and Statistics</a>.</p>
-<p>I’ve previously worked as a tenure-track Assistant Professor in the
-<a href="https://www.xavier.edu/mathematics-department/index">Xavier
-University Math Deparment</a>, and as a Visiting Assistant Professor of
-Statistics in the <a
-href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell
-College Department of Mathematics and Statistics</a> where I taught
-classes in statistics and data science.</p>
-<p>My graduate training is in <a
-href="https://www.public-health.uiowa.edu/biostat/">Biostatistics</a>,
-and I completed my PhD at the University of Iowa in August of 2018. As
-an undergraduate I studied Mathematics at <a
-href="https://www.augustana.edu/">Augustana College</a> in Rock Island,
-Illinois.</p>
-<p>Below are links to my current courses, as well as the most recent
-version of courses I’ve previously taught:</p>
-<p><strong>Current Courses</strong>:</p>
+<p><span class="math inline">\(~\)</span></p>
+<p>Welcome to the course website for Sta-395, Introduction to Machine
+Learning. To begin, you can find the course syllabus linked below:</p>
 <ul>
-<li><a href="s209s24.html">Sta-209, Applied Statistics</a></li>
-<li><a href="MLs24.html">Sta-395, Intro to Machine Learning</a></li>
+<li><a href="syllabusML24.html">Click here</a> to view the course
+syllabus</li>
 </ul>
-<p><strong>Previous Courses (Grinnell College)</strong>:</p>
+<p>You can locate course content by scrolling, or by using the
+navigation bar in the upper left.</p>
+<div id="course-materials" class="section level2">
+<h2>Course Materials</h2>
+<p>Most class meetings involve both lecture and lab components. Topics
+are grouped into units, which can be found below. Assignments are
+generally due at the end of a unit, but I encourage you to complete them
+as they are made available.</p>
+<p><span class="math inline">\(~\)</span></p>
+<div id="unit-1" class="section level3">
+<h3>Unit #1</h3>
+<p><strong>Overview, Introductory Python, and Unsupervised
+Learning</strong>:</p>
+<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Lecture
+</th>
+<th style="text-align:left;">
+Lab
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+1/23
+</td>
+<td style="text-align:left;">
+<a href="ml24/intro.pdf">Introduction and k-means</a>
+</td>
+<td style="text-align:left;">
+<a href="ml24/intro_clustering.html">Lab 1 - Python Foundations and
+k-means</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1/25
+</td>
+<td style="text-align:left;">
+<a href="ml24/clust.pdf">Hierarchical clustering and DBSCAN</a>
+</td>
+<td style="text-align:left;">
+<a href="ml24/more_clustering.html">Lab 2 - Clustering and Outlier
+Detection</a>
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+1/30
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+2/1
+</td>
+<td style="text-align:left;">
+Principal Component Analysis
+</td>
+<td style="text-align:left;">
+Lab 3 - Principal Component Analysis
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Assignments</strong>:</p>
 <ul>
-<li><a href="tut23.html">Tut-100, First-Year Tutorial (Fall
-’23)</a></li>
-<li><a href="sta209s20.html">Sta-209, Applied Statistics (Spring
-’20)</a></li>
-<li><a href="s230f23.html">Sta-230, Intro to Data Science (Fall
-’23)</a></li>
-<li><a href="sta330s23.html">Sta-330, Applied Data Science (Spring
-’23)</a></li>
-<li><a href="MLs23.html">Sta-395, Intro to Machine Learning (Spring
-’23)</a></li>
-</ul>
-<p><strong>Previous Courses (Xavier University)</strong>:</p>
+<li>Labs 1, 2, and 3 are due Friday 2/2 by 11:59pm
 <ul>
-<li><a href="m146s22.html">Math-146, Introductory Biostatistics (Spring
-’22)</a></li>
-<li><a href="m156s22.html">Math-156, General Statistics (Spring
-’22)</a></li>
-<li><a href="m256f21.html">Math-256, Intro to Probability and Statistics
-(Fall ’21)</a></li>
-<li><a href="m257s21.html">Math-257, Data Modeling (Spring ’21)</a></li>
+<li>Please submit an Jupyter Notebook containing all code and written
+responses</li>
+</ul></li>
+<li><a href="ml24/hw1.pdf">Homework 1</a> due Tuesday 2/6 by 1:00pm</li>
 </ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="unit-2" class="section level3">
+<h3>Unit #2</h3>
+</div>
+</div>
+<div id="supplemental-resources" class="section level2">
+<h2>Supplemental Resources</h2>
+<p><strong>Unit #1</strong>:</p>
+<ul>
+<li><a
+href="https://sscc.wisc.edu/sscc/pubs/dwp/Python_Fundamentals.html">UW-Madison
+SSCC Python Data Wrangling tutorials (balanced)</a></li>
+<li><a
+href="https://jakevdp.github.io/PythonDataScienceHandbook/">Python Data
+Science Handbook Chapters 2,3,4 (more technical)</a></li>
+<li><a href="https://github.com/stefmolin/pandas-workshop">Stefanie
+Molin’s Pandas workshop tutorials 1, 2 (less technical)</a></li>
+</ul>
+</div>
+<div id="final-project" class="section level2">
+<h2>Final Project</h2>
+<p>The last several weeks of the semester will be devoted to a
+cumulative final project. Intermediate deadlines and reminders will be
+posted here at a later date.</p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -386,6 +535,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

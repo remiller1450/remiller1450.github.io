@@ -21,7 +21,7 @@ output:
 
 **Office Hours**:
 
-- Drop-in hours (Noyce 2218): Monday 2:30-3:30pm, Tuesday 2:30-3:30pm, Thursday 10-11am
+- Drop-in hours (in Noyce 2218): Monday 2:30-3:30pm, Tuesday 2:30-3:30pm, Thursday 10-11am
     - Additional availability by appointment
     
 **Class Mentors**:
@@ -64,7 +64,7 @@ $~$
 
 **Class Sessions**
 
-Class time will be split between "lecture" and "lab". Most class meetings will begin with a short, low-stakes quiz (2-3 conceptual questions) to provide an incentive for consistent attendance and review of content outside of class.  More details on these quizzes can be found in the "Grading" section of the syllabus.
+Class time will be split between "lecture" and "lab". Most class meetings will begin with a short, low-stakes quiz (2-3 conceptual questions) to provide an incentive for consistent attendance and review of course content outside of class. Additional details on these quizzes can be found in the "Grading" section of the syllabus.
 
 Portions of the class devoted to "lecture" will focus on conceptual and mathematical topics with minimal discussion of coding/software.
 
@@ -79,6 +79,8 @@ Lab sessions will involve collaboration with others in assigned and self-selecte
 Software is an essential component of machine learning, and this class will make extensive use of Python (any version 3 release should be fine). You are welcome to use any Python IDE that you are familiar with, but I encourage you to use [JupyterLab](https://jupyter.org/) to record your work on labs/assignments.
 
 You are welcome to use your own personal laptop, or a classroom computer during the course.  If you are working your own laptop, I suggest downloading the most recent [Anaconda Distribution](https://www.anaconda.com/products/distribution) to ensure compatibility with the code examples that will be given during class.  JupyterLab can be found in the Anaconda Navigator, and Anaconda comes with most of the libraries we'll be using pre-installed.
+
+You may also use [Anaconda Cloud](https://anaconda.cloud/) during the early stages of the course if you'd like to use Anaconda but don't want to download the full version onto your personal computer. That said, a free-tier account has disk space limits that will be problematic when we begin studying deep learning.
 
 **Academic Honesty**
 
@@ -138,7 +140,9 @@ The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/acade
 
 The online platform [Stack Overflow](https://stackoverflow.com/questions) is a useful resource for finding user-generated coding solutions to coding questions. Nearly all professional data scientists have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
 
-Large language models, such as ChatGPT or Bard, can be a useful tool for explaining and fixing errors in Python code. You are welcome to use these tools; however, you are ultimately responsible for the accuracy of any code or written work you submit. Relying upon a large language model to write for you is a risky endeavor in the sense that the model might provide inaccurate information or generate text that is superficial and lacking sufficient detail, I encourage you to read [Professor Erik Simpson's write-up on writing with LLMs](https://eriksimpson.sites.grinnell.edu/Connections/Documents/WritingWithLLMs.pdf) to see some reasons why you shouldn't lean too heavily on these technologies. Nevertheless, you're welcome to use large language models in this course in the same way you'd use a website like Stack Overflow or a peer mentor.
+**Large language models**:
+
+Large language models, such as ChatGPT, Bing Chat, or Google Bard, can be a useful tool for explaining and fixing errors in Python code. You are welcome to use these tools; however, you are ultimately responsible for the accuracy of any code or written work you submit. Relying upon a large language model to write for you is a risky endeavor in the sense that the model might provide inaccurate information or generate text that is superficial and lacking sufficient detail, I encourage you to read [Professor Erik Simpson's write-up on writing with LLMs](https://eriksimpson.sites.grinnell.edu/Connections/Documents/WritingWithLLMs.pdf) to see some reasons why you shouldn't lean too heavily on these technologies. Nevertheless, you're welcome to use large language models in this course in the same way you'd use a website like Stack Overflow or a peer mentor.
 
 $~$
 
