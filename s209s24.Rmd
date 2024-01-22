@@ -39,22 +39,22 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Mon 1/22", "Wed 1/24", "Fri 1/26"), 
-               Lecture = c("[Data Basics](s209s24/base.pdf)", 
-                           "[Data Visualization](s209s24/viz.pdf)",
+               Lecture = c("[Data Basics](s209s24/data_basics.pdf)", 
+                           "Data Visualization",
                            " "),
-               Lab = c("[Introduction to `R`](ml23/base_lab.html)", 
-                       "[Data Visualization (part 1)](ml23/viz_lab1.html)",
-                       "[Data Visualization (part 2)](ml23/viz_lab2.html)"))
+               Lab = c("[Introduction to `R`](s209s24/R_basics.html)", 
+                       "Data Visualization (part 1)",
+                       "Data Visualization (part 2)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-**Assignments and Deadlines**:
+**Assignments and Deadlines (week 1)**:
 
 - The Introduction to `R` and Data Visualization (parts 1 & 2) labs
-    - Due Monday 1/29 (via P-web)
+    - Due Monday 1/29 at 11:59pm (via P-web)
 - [Homework 1](s209s24/hw1.html) 
-    - Due Friday 1/26 (via P-web)
+    - Due Friday 1/26 at 11:59pm (via P-web)
 
 $~$
 
@@ -81,7 +81,7 @@ kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-**Assignments and Deadlines**:
+**Assignments and Deadlines (week 2)**:
 
 - TBD
 
