@@ -10,15 +10,15 @@ output:
 
 $~$
 
-Welcome to the course website for Sta-395, Introduction to Machine Learning. To begin, you can find the course syllabus linked below:
+Welcome to the website for **Sta-395, Introduction to Machine Learning**! To begin, you can find the course syllabus linked below:
 
 - [Click here](syllabusML24.html) to view the course syllabus
 
-You can locate course content by scrolling, or by using the navigation bar in the upper left.
+You can locate course content by scrolling, or by using the navigation bar in the upper-left.
 
 ## Course Materials
 
-Most class meetings involve both lecture and lab components.  Topics are grouped into units, which can be found below.  Assignments are generally due at the end of a unit, but I encourage you to complete them as they are made available.
+Most class meetings involve both lecture and lab components. Topics are organized into units, which can be found below. Assignment submissions should be made via P-web following the instructions that are provided. Labs are generally due on Fridays at midnight, while homework is due at the start of the class session when we begin the next unit.
 
 $~$
 
@@ -37,21 +37,40 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("1/23", "1/25", "1/30", "2/1"), 
-               Lecture = c("[Introduction and k-means](ml24/intro.pdf)", "[Hierarchical clustering and DBSCAN](ml24/clust.pdf)", " ", "Principal Component Analysis"),
-               Lab = c("[Lab 1 - Python Foundations and k-means](ml24/intro_clustering.html)", "[Lab 2 - Clustering and Outlier Detection](ml24/more_clustering.html)", " ", "Lab 3 - Principal Component Analysis"))
+               Lecture = c("[Introduction and k-means](ml24/intro.pdf)", " ", "Hierarchical clustering and DBSCAN", "Principal Components"),
+               Lab = c("[Lab 1 - Python Foundations and k-means](ml24/intro_clustering.html)", "Continue Lab 1", "Lab 2 - Clustering and Anomoly Detection", "Lab 3 - Principal Components"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 **Assignments**:
 
-- Labs 1, 2, and 3 are due Friday 2/2 by 11:59pm
-    - Please submit an Jupyter Notebook containing all code and written responses
-- [Homework 1](ml24/hw1.pdf) due Tuesday 2/6 by 1:00pm
+- Introduction to Python and $k$-means clustering lab (Lab 1) is due Friday 1/26 at 11:59pm
+    - Please submit a Jupyter Notebook via P-web containing all code and written responses
+- The clustering and outlier detection lab (Lab 2), as well as the principal components lab (Lab 3) are due Friday 2/2 at 11:59pm
+    - Please submit a Jupyter Notebook via P-web containing all code and written responses
+- Homework 1 (coming soon) due Tuesday 2/6 at 1:00pm
+    - Please submit a Jupyter Notebook via P-web containing all code and written responses
 
 $~$
 
 ### Unit #2 
+
+Coming Soon
+
+$~$
+
+## Midterm Exam
+
+Information and study materials for the midterm exam will be posted here.
+
+$~$
+
+## Final Project 
+
+Deadlines and information regarding the course project will be posted here at a later date.
+
+$~$
 
 ## Supplemental Resources
 
@@ -61,6 +80,3 @@ $~$
 - [Python Data Science Handbook Chapters 2,3,4 (more technical)](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [Stefanie Molin's Pandas workshop tutorials 1, 2 (less technical)](https://github.com/stefmolin/pandas-workshop)
 
-## Final Project 
-
-The last several weeks of the semester will be devoted to a cumulative final project.  Intermediate deadlines and reminders will be posted here at a later date.
