@@ -40,10 +40,10 @@ library(dplyr)
 
 x = data.frame(Date = c("Mon 1/22", "Wed 1/24", "Fri 1/26"), 
                Lecture = c("[Data Basics](s209s24/data_basics.pdf)", 
-                           "Data Visualization",
+                           "[Data Visualization](s209s24/data_viz.pdf)",
                            " "),
                Lab = c("[Introduction to `R`](s209s24/R_basics.html)", 
-                       "Data Visualization (part 1)",
+                       "[Data Visualization (part 1)](s209s24/ggplot1.html)",
                        "Data Visualization (part 2)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
