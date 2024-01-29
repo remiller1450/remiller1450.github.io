@@ -51,10 +51,10 @@ kable(x) %>%
 
 **Assignments and Deadlines (week 1)**:
 
-- The Introduction to `R` and Data Visualization (parts 1 & 2) labs
-    - Due Monday 1/29 at 11:59pm (via P-web)
+- The Introduction to `R` and Data Visualization labs
+    - Due ~~Monday 1/29~~ Wednesday 1/31 at 11:59pm (via P-web)
 - [Homework 1](s209s24/hw1.html) 
-    - Due Friday 1/26 at 11:59pm (via P-web)
+    - Due ~~Friday 1/26~~ Tuesday 1/30 at 11:59pm (via P-web)
 
 $~$
 
@@ -71,19 +71,22 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Mon 1/29", "Wed 1/31", "Fri 2/2"), 
-               Lecture = c("Numerical Summaries", 
-                           "Contingency Tables",
-                           " "),
-               Lab = c("Numerical Summaries and `dplyr` (part 1)", 
-                       "Numerical Summaries and `dplyr` (part 2)",
-                       "Exploring multivariate relationships"))
+               Lecture = c("", 
+                           "Descriptive statistics (categorical data)",
+                           "Descriptive statistics (quantitative data)"),
+               Lab = c("[Extra credit lab](s209s24/ggplot2.html)", 
+                       "Descriptive statistics and `dplyr` (part 1)",
+                       "Descriptive statistics and `dplyr` (part 2)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 **Assignments and Deadlines (week 2)**:
 
-- TBD
+- Week 2 labs (Descriptive statistics parts 1 and 2)
+    - Due Monday 2/5 at 11:59pm (via P-web)
+- [Homework #2](s209s24/hw2.html)
+    - Due Friday 2/2 at 11:59pm (via P-web)
 
 $~$
 
