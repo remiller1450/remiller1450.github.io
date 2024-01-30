@@ -37,8 +37,8 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("1/23", "1/25", "1/30", "2/1"), 
-               Lecture = c("[Introduction and k-means](ml24/intro.pdf)", " ", "Hierarchical clustering and DBSCAN", "Principal Components"),
-               Lab = c("[Lab 1 - Python Foundations and k-means](ml24/intro_clustering.html)", "Continue Lab 1", "Lab 2 - Clustering and Anomoly Detection", "Lab 3 - Principal Components"))
+               Lecture = c("[Introduction and k-means](ml24/intro.pdf)", " ", "[Hierarchical clustering and DBSCAN](ml24/dbscan.pdf)", "Principal Components"),
+               Lab = c("[Lab 1 - Python Foundations and k-means](ml24/intro_clustering.html)", "Continue Lab 1", "[Lab 2 - More Clustering](ml24/lab2_clustering.html)", "Lab 3 - Principal Components"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
