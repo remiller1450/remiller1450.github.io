@@ -72,10 +72,10 @@ library(dplyr)
 
 x = data.frame(Date = c("Mon 1/29", "Wed 1/31", "Fri 2/2"), 
                Lecture = c("", 
-                           "Descriptive statistics (categorical data)",
+                           "[Descriptive statistics (categorical data)](s209s24/descriptive_stats.pdf)",
                            "Descriptive statistics (quantitative data)"),
                Lab = c("[Extra credit lab](s209s24/ggplot2.html)", 
-                       "Descriptive statistics and `dplyr` (part 1)",
+                       "[R Markdown and Tables](s209s24/tables.html)",
                        "Descriptive statistics and `dplyr` (part 2)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -83,7 +83,7 @@ kable(x) %>%
 
 **Assignments and Deadlines (week 2)**:
 
-- Week 2 labs (Descriptive statistics parts 1 and 2)
+- Week 2 labs (R Markdown and Tables, and Descriptive Statistics)
     - Due Monday 2/5 at 11:59pm (via P-web)
 - [Homework #2](s209s24/hw2.html)
     - Due Friday 2/2 at 11:59pm (via P-web)
