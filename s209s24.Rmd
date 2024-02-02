@@ -61,22 +61,13 @@ $~$
 **Week 2**:
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-library(knitr)
-library(kableExtra)
-library(dplyr)
-# x <- cars[1:3,]
-# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
-# linkID <- c("link1", "link2", "link3")
-# x$website <- paste0("[", linkID, "](http://", urls, ")")
-# kable(x)
-
 x = data.frame(Date = c("Mon 1/29", "Wed 1/31", "Fri 2/2"), 
                Lecture = c("", 
                            "[Descriptive statistics (categorical data)](s209s24/descriptive_stats.pdf)",
-                           "Descriptive statistics (quantitative data)"),
+                           "[More on contingency tables](s209s24/more_contingency.html)"),
                Lab = c("[Extra credit lab](s209s24/ggplot2.html)", 
                        "[R Markdown and Tables](s209s24/tables.html)",
-                       "Descriptive statistics and `dplyr` (part 2)"))
+                       " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -89,6 +80,30 @@ kable(x) %>%
     - Due Friday 2/2 at 11:59pm (via P-web)
 
 $~$
+
+**Week 3**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 2/5", "Wed 2/7", "Fri 2/9"), 
+               Lecture = c("Descriptive statistics (quantitative outcomes)", 
+                           "Descriptive statistics (correlation and regression)",
+                           " "),
+               Lab = c("Summarizing data with `dplyr`", 
+                       "Correlation and regression",
+                       "Multivariate relationships"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+**Assignments and Deadlines (week 3)**:
+
+- Week 3 labs (`dplyr`, correlation and regression, multivariate relationships)
+    - Due Monday 2/12 at 11:59pm (via P-web)
+- [Homework #3](s209s24/hw3.html)
+    - Due Friday 2/9 at 11:59pm (via P-web)
+
+$~$
+
 
 ### Exam #2 Content
 
@@ -110,6 +125,8 @@ The chapters/materials listed below are resources that I recommend you read duri
     - IMS Ch 1.2, 1.3, 4.1, 4.2, 4.6, 5.1, 5.3, 5.5 (focus on the types of graphs discussed in Ch 4/5)
 - Week 2 (1/29 - 2/2)
     - IMS Ch 1.1, 4.3, 5.2, 5.4, 5.5, 5.6 (focus on understanding numerical summaries and tables)
+- Week 3 (2/5 - 2/9)
+    - IMS Ch 5.5, 5.6, 7.1, 7.2, 7.3
 
 ## Project 
 
@@ -118,5 +135,7 @@ Information about the course project will be posted here at a later date.
 ## Exams
 
 Information about exams (including dates and study materials) will be posted here.
+
+
 
 Unless otherwise indicated you are responsible for the content of all lectures and labs on the corresponding exam.
