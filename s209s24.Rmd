@@ -85,10 +85,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/5", "Wed 2/7", "Fri 2/9"), 
-               Lecture = c("Descriptive statistics (quantitative outcomes)", 
+               Lecture = c("[Descriptive statistics (quantitative outcomes)](s209s24/descriptive_stats2.pdf)", 
                            "Descriptive statistics (correlation and regression)",
                            " "),
-               Lab = c("Summarizing data with `dplyr`", 
+               Lab = c("[Summarizing data with `dplyr`](s209s24/dplyr.html)", 
                        "Correlation and regression",
                        "Multivariate relationships"))
 kable(x) %>%
@@ -104,16 +104,35 @@ kable(x) %>%
 
 $~$
 
+**Week 4**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 2/12", "Wed 2/14", "Fri 2/16"), 
+               Lecture = c("Multivariable regression (part 1)", 
+                           "Multivariable regression (part 2)",
+                           "Review/buffer"),
+               Lab = c("", 
+                       "Correlation and regression",
+                       "Multivariate relationships"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Note: Exam #1 is currently planned for Monday 2/19 and will cover all material from Weeks 1-4. Expect the exam to focus on data visualizations (univariate and bivariate) and describing associations (contingency tables, group differences, correlation, and regression).
 
 ### Exam #2 Content
 
-Coming soon
+Topics:
+
+- Sampling, randomized experiments, variability, confidence intervals, 1-sample and 2-sample hypothesis tests
 
 $~$
 
 ### Exam #3 Content
 
-Coming soon
+Topics:
+
+- Outliers/transformations and non-parametric tests, Chi-squared tests, ANOVA, multiple comparisons, inference for regression
 
 $~$
 
@@ -136,6 +155,7 @@ Information about the course project will be posted here at a later date.
 
 Information about exams (including dates and study materials) will be posted here.
 
-
+- **Exam 1**: Planned for *Wednesday* 2/21 during class
+    - A practice exam will be posted here by the end of this week
 
 Unless otherwise indicated you are responsible for the content of all lectures and labs on the corresponding exam.
