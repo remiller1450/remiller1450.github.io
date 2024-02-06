@@ -49,7 +49,7 @@ kable(x) %>%
     - Please submit a Jupyter Notebook via P-web containing all code and written responses
 - The clustering and outlier detection lab (Lab 2), as well as the principal components lab (Lab 3) are due Friday 2/2 at 11:59pm
     - Please submit a Jupyter Notebook via P-web containing all code and written responses
-- [Homework 1](ml24/hw1.html) due Tuesday 2/6 at 1:00pm
+- [Homework 1](ml24/hw1.html) due Thursday 2/8 at 1:00pm
     - Please submit a Jupyter Notebook via P-web containing all code and written responses
 
 $~$
