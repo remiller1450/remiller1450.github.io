@@ -86,11 +86,11 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/5", "Wed 2/7", "Fri 2/9"), 
                Lecture = c("[Descriptive statistics (quantitative outcomes)](s209s24/descriptive_stats2.pdf)", 
-                           "Descriptive statistics (correlation and regression)",
+                           "Descriptive statistics (correlation)",
                            " "),
                Lab = c("[Summarizing data with `dplyr`](s209s24/dplyr.html)", 
-                       "Correlation and regression",
-                       "Multivariate relationships"))
+                       " ",
+                       "Correlation and regression"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -108,17 +108,33 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/12", "Wed 2/14", "Fri 2/16"), 
-               Lecture = c("Multivariable regression (part 1)", 
-                           "Multivariable regression (part 2)",
-                           "Review/buffer"),
-               Lab = c("", 
-                       "Correlation and regression",
-                       "Multivariate relationships"))
+               Lecture = c("Stratification", 
+                           "Multivariable regression (part 1)",
+                           "Multivariable regression (part 2)"),
+               Lab = c("Multivariate Relationships", 
+                       "Multivariable regression",
+                       " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Note: Exam #1 is currently planned for Monday 2/19 and will cover all material from Weeks 1-4. Expect the exam to focus on data visualizations (univariate and bivariate) and describing associations (contingency tables, group differences, correlation, and regression).
+$~$
+
+**Week 5**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 2/19", "Wed 2/21", "Fri 2/23"), 
+               Lecture = c("Review/buffer", 
+                           "Exam 1",
+                           "Sources of uncertainty"),
+               Lab = c(" ", 
+                       "Exam 1",
+                       " "))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- *Note*: There is no homework assignment due this week due to Exam 1
 
 ### Exam #2 Content
 
@@ -155,7 +171,8 @@ Information about the course project will be posted here at a later date.
 
 Information about exams (including dates and study materials) will be posted here.
 
-- **Exam 1**: Planned for *Wednesday* 2/21 during class
-    - A practice exam will be posted here by the end of this week
+- **Exam 1**: Planned for *Wednesday* 2/21 during class (1-2:20pm)
+    - [Practice exam](s209s24/practice_exam1.pdf)
+    - Solutions to the practice exam will be posted on Monday 2/19
 
-Unless otherwise indicated you are responsible for the content of all lectures and labs on the corresponding exam.
+Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.
