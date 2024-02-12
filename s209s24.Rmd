@@ -108,15 +108,20 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/12", "Wed 2/14", "Fri 2/16"), 
-               Lecture = c("Stratification", 
-                           "Multivariable regression (part 1)",
-                           "Multivariable regression (part 2)"),
-               Lab = c("Multivariate Relationships", 
-                       "Multivariable regression",
-                       " "))
+               Lecture = c("[Stratification](s209s24/strat.pdf)", 
+                           " ",
+                           " "),
+               Lab = c("[Multivariate Relationships](s209s24/sp.html)", 
+                       "Multivariable regression (part 1)",
+                       "Multivariable regression (part 2)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Week 4 labs (multivariate relationships, and multivariable regression parts 1 and 2)
+    - Due Monday 2/19 at 11:59pm (via P-web)
+- [Homework #4](s209s24/hw4.html)
+    - Due Friday 2/16 at 11:59pm (via P-web)
 
 $~$
 
@@ -134,7 +139,9 @@ kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- *Note*: There is no homework assignment due this week due to Exam 1
+- Exam 1 will take place in *Noyce 2022* at 1pm on Wednesday 2/21
+   - You may use a basic calculator (but not one that can store data). If you don't have a suitable calculator, some from the science division will be available during the exam.
+- There is no homework assignment this week due to Exam 1
 
 ### Exam #2 Content
 
@@ -162,6 +169,10 @@ The chapters/materials listed below are resources that I recommend you read duri
     - IMS Ch 1.1, 4.3, 5.2, 5.4, 5.5, 5.6 (focus on understanding numerical summaries and tables)
 - Week 3 (2/5 - 2/9)
     - IMS Ch 5.5, 5.6, 7.1, 7.2, 7.3
+- Week 4 (2/12 - 2/16)
+    - IMS Ch 7.1, 7.2, 8.1, 8.3
+- Week 5 (2/19 - 2/23)
+    - None  
 
 ## Project 
 
