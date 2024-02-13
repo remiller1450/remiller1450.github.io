@@ -69,8 +69,8 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("2/6", "2/8", "2/13", "2/15", "2/20"), 
-               Lecture = c("[Training, Validation, and KNN](ml24/val.pdf)", " ", "Cross-validation", "Decision Trees", "Support Vector Machines"),
-               Lab = c("[Lab 4 - Workflow and pipelines](ml24/Lab4_workflow.html)", "Continue Lab 4", "Lab 5 - Cross-validation and Classifier performance", "Lab 6 - Model comparisons", " "))
+               Lecture = c("[Training, Validation, and KNN](ml24/val.pdf)", " ", "[Cross-validation](ml24/cv.pdf)", "Decision Trees", "Support Vector Machines"),
+               Lab = c("[Lab 4 - Workflow and pipelines](ml24/Lab4_workflow.html)", "Continue Lab 4", "[Lab 5 - Cross-validation](ml24/lab5_cv.html)", "Lab 6 - Model comparisons", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
