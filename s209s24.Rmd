@@ -112,8 +112,8 @@ x = data.frame(Date = c("Mon 2/12", "Wed 2/14", "Fri 2/16"),
                            " ",
                            " "),
                Lab = c("[Multivariate Relationships](s209s24/sp.html)", 
-                       "Multivariable regression (part 1)",
-                       "Multivariable regression (part 2)"))
+                       "[Multivariable regression (part 1)](s209s24/mreg1.html)",
+                       "[Multivariable regression (part 2)](s209s24/mreg2.html)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
