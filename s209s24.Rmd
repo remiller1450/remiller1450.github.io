@@ -140,7 +140,10 @@ kable(x) %>%
 ```
 
 - Exam 1 will take place in *Noyce 2022* at 1pm on Wednesday 2/21
-   - You may use a basic calculator (but not one that can store data). If you don't have a suitable calculator, some from the science division will be available during the exam.
+   - You may use a basic calculator (but not one that can store data).
+   - A practice exam is [found here](s209s24/practice_exam1.pdf)
+   - A study guide is [found here](s209s24/Exam1_StudyGuide.pdf)
+- If you don't have a suitable calculator, some from the science division will be available during the exam.
 - There is no homework assignment this week due to Exam 1
 
 ### Exam #2 Content
@@ -182,8 +185,9 @@ Information about the course project will be posted here at a later date.
 
 Information about exams (including dates and study materials) will be posted here.
 
-- **Exam 1**: Planned for *Wednesday* 2/21 during class (1-2:20pm)
+- **Exam 1**: Planned for *Wednesday* 2/21 during class (1-2:20pm) in *Noyce 2022*
     - [Practice exam](s209s24/practice_exam1.pdf)
+    - [Study guide](s209s24/Exam1_StudyGuide.pdf)
     - Solutions to the practice exam will be posted on Monday 2/19
 
 Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.

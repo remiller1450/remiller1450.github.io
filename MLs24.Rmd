@@ -85,9 +85,55 @@ kable(x) %>%
 
 $~$
 
+### Unit #3 
+
+**Ensembles**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+# x <- cars[1:3,]
+# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
+# linkID <- c("link1", "link2", "link3")
+# x$website <- paste0("[", linkID, "](http://", urls, ")")
+# kable(x)
+
+x = data.frame(Date = c("2/27", "2/29"), 
+               Lecture = c("Random Forests", "Boosting"),
+               Lab = c("Ensembles and Stacking", "XGBoost"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+### Unit #4
+
+**Structured Models and the Mathematics of "Learning"**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+# x <- cars[1:3,]
+# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
+# linkID <- c("link1", "link2", "link3")
+# x$website <- paste0("[", linkID, "](http://", urls, ")")
+# kable(x)
+
+x = data.frame(Date = c("3/5", "3/7", "3/12", "3/14", "4/2", "4/4"), 
+               Lecture = c("Gradient Descent Algorithms", "Logistic and Softmax Regression", "Regularized Regression", "Splines, Polynomials, and Discretization", "Artificial Neural Networks", " "),
+               Lab = c("Gradient Descent Algorithms", "Regression", "Lasso, Ridge, and Elastic Net", "Feature Expansion", " ", "Backpropagation"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
 ## Midterm Exam
 
-Information and study materials for the midterm exam will be posted here.
+Information and study materials for the midterm exam will be posted here. The exam is tentatively planned to occur after Unit #4.
 
 $~$
 
