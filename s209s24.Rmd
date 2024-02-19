@@ -129,7 +129,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/19", "Wed 2/21", "Fri 2/23"), 
-               Lecture = c("Review/buffer", 
+               Lecture = c("[Exam 1 Review](s209s24/exam1_revq.html)", 
                            "Exam 1",
                            "Sources of uncertainty"),
                Lab = c(" ", 
@@ -142,6 +142,7 @@ kable(x) %>%
 - Exam 1 will take place in *Noyce 2022* at 1pm on Wednesday 2/21
    - You may use a basic calculator (but not one that can store data).
    - A practice exam is [found here](s209s24/practice_exam1.pdf)
+       - The sketch solution is [found here](s209s24/practice_exam1_soln.pdf)
    - A study guide is [found here](s209s24/Exam1_StudyGuide.pdf)
 - If you don't have a suitable calculator, some from the science division will be available during the exam.
 - There is no homework assignment this week due to Exam 1
