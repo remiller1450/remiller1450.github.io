@@ -14992,8 +14992,7 @@ class="
 <ul>
 <li><strong>Part A</strong>: Using the training data, <code>train_ic_X</code>, create a scatterplot displaying a home's living area on the x-axis and its sale amount on the y-axis.</li>
 <li><strong>Part B</strong>: Notice that all splitting rules in the example tree given above involve the predictor <code>area.living</code>. For this question, use <code>hlines()</code> with the argument <code>color = 'red'</code> to display this tree's <em>predicted values</em> for different values <code>area.living</code>. <em>Hint</em>: your graph should display several horizontal lines, similar to the "resting metabolism" example in our lecture slides. You should consult the <a href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.hlines.html">hlines documentation</a> for additional information on how to use this function.</li>
-<li><strong>Part C</strong>: Simple linear regression (using only <code>area.living</code> as the predictor) would produce predicted values that follow the straight line that best fits these data. Using your plot from Part B, what advantages and disadvantages do you see in the decision model compared to simple linear regression?</li>
-<li><strong>Part D</strong>: </li>
+<li><strong>Part C</strong>: Simple linear regression (using only <code>area.living</code> as the predictor) would produce predicted values that follow the straight line that best fits these data. Using your plot from Part B, what advantages and disadvantages do you see in the decision tree model when compared with simple linear regression?</li>
 </ul>
 
 </div>
@@ -15122,9 +15121,9 @@ Index([&#39;area.living&#39;, &#39;bedrooms&#39;], dtype=&#39;object&#39;)
 <li><strong>Part A</strong>: - Create a new predictor matrix for the Iowa City home sales data that contains the predictors <code>'built'</code>, <code>'bedrooms'</code>, <code>'area.base'</code>, <code>'area.living'</code>, <code>'area.garage1'</code>, and <code>'area.lot'</code>.</li>
 <li><strong>Part B</strong>: - Use 5-fold cross-validation to tune the <code>max_depth</code> and <code>min_samples_split</code> parameters of a decision tree model that uses the predictors from Part A to predict sale price.</li>
 <li><strong>Part C</strong>: - Find the importance of each predictor in the best decision tree model identified in Part B.</li>
-<li><strong>Part E</strong>: - Conduct a small-scale grid search to find a reasonable $k$-nearest neighbors model for this application. Be sure to include a standardization step.</li>
-<li><strong>Part F</strong>: - Compare the performance of the best KNN model from Part E with the best decision tree model from Part B using the test set and root-mean squared error.</li>
-<li><strong>Part G</strong>: - Write a short paragraph summarizing the main results from Parts A-F. Your paragraph should be written in a professional tone that would be suitable for a scientific paper. You should mention all important details, including your model building steps/comparisons, the strengths/weaknesses of your best model, and any additional supporting details or limitations.</li>
+<li><strong>Part D</strong>: - Conduct a small-scale grid search to find a reasonable $k$-nearest neighbors model for this application. Be sure to include a standardization step.</li>
+<li><strong>Part E</strong>: - Compare the performance of the best KNN model from Part E with the best decision tree model from Part B using the test set and root-mean squared error.</li>
+<li><strong>Part F</strong>: - Write a short paragraph summarizing the main results from Parts A-F. Your paragraph should be written in a professional tone that would be suitable for a scientific paper. You should mention all important details, including your model building steps/comparisons, the strengths/weaknesses of your best model, and any additional supporting details or limitations.</li>
 </ul>
 
 </div>
