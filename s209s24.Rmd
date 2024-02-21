@@ -129,7 +129,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/19", "Wed 2/21", "Fri 2/23"), 
-               Lecture = c("[Exam 1 Review](s209s24/exam1_revq.html)", 
+               Lecture = c("[Exam 1 Review](s209s24/exam1_revq.html) ---  [sample solution](s209s24/exam1_revq_soln.html)", 
                            "Exam 1",
                            "Sources of uncertainty"),
                Lab = c(" ", 
