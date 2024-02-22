@@ -68,9 +68,9 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("2/6", "2/8", "2/13", "2/15", "2/20", "2/22"), 
-               Lecture = c("[Training, Validation, and KNN](ml24/val.pdf)", " ", "[Cross-validation](ml24/cv.pdf)", "[Classifier Performance](ml24/perform.pdf)", "[Decision Trees](ml24/trees.pdf)", "[Support Vector Machines](ml24/svm.pdf)"),
-               Lab = c("[Lab 4 - Workflow and pipelines](ml24/Lab4_workflow.html)", "Continue Lab 4", "[Lab 5 - Cross-validation](ml24/lab5_cv.html)", "[Lab 6 - Classifier Performance](ml24/lab6_perform.html)", "[Lab 7 - Decision Trees](ml24/lab7_trees.html)", "[Lab 8 - SVMs](ml24/lab8_svm.html)"))
+x = data.frame(Date = c("2/6", "2/8", "2/13", "2/15", "2/20", "2/22", "2/27"), 
+               Lecture = c("[Training, Validation, and KNN](ml24/val.pdf)", " ", "[Cross-validation](ml24/cv.pdf)", "[Classifier Performance](ml24/perform.pdf)", "[Decision Trees](ml24/trees.pdf)", "[Support Vector Machines](ml24/svm.pdf)", " "),
+               Lab = c("[Lab 4 - Workflow and pipelines](ml24/Lab4_workflow.html)", "Continue Lab 4", "[Lab 5 - Cross-validation](ml24/lab5_cv.html)", "[Lab 6 - Classifier Performance](ml24/lab6_perform.html)", "[Lab 7 - Decision Trees](ml24/lab7_trees.html)", "[Lab 8 - SVMs](ml24/lab8_svm.html)", "Finish labs 7 and 8"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -99,7 +99,7 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("2/27", "2/29", "3/5"), 
+x = data.frame(Date = c("2/29", "3/5", "3/7"), 
                Lecture = c("Random Forests", "Boosting", " "),
                Lab = c("Ensembles and Stacking", "XGBoost", "Feature Engineering"))
 kable(x) %>%
@@ -122,7 +122,7 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("3/7", "3/12", "3/14", "4/2", "4/4", "4/9"), 
+x = data.frame(Date = c(" ", " ", " ", " ", " ", " "), 
                Lecture = c("Gradient Descent Algorithms", "Logistic and Softmax Regression", "Regularized Regression", "Splines, Polynomials, and Discretization", "Artificial Neural Networks", " "),
                Lab = c("Gradient Descent Algorithms", "Regression", "Lasso, Ridge, and Elastic Net", "Feature Expansion", " ", "Backpropagation"))
 kable(x) %>%
