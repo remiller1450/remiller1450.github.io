@@ -147,25 +147,27 @@ kable(x) %>%
 - There is no homework assignment this week due to Exam 1.
 - Lab 9 (Sampling variability) will not be due until *Monday 3/4*.
 
+$~$
+
 ### Exam #2 Content
 
-**Sampling from a population** (covered Friday 2/23) will be a topic on Exam 2, along with the following content:
+The **sampling from a population** lecture and lab from Friday 2/23 will be a topic on Exam 2, along with the following content:
 
 **Week 6**:
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/26", "Wed 2/28", "Fri 3/1"), 
                Lecture = c("Interval Estimation",
-                           "Bootstrapping",
+                           "Normal Approximations",
                            " "),
-               Lab = c(" ", 
+               Lab = c("Bootstrapping", 
                        "Confidence Intervals",
                        "Confidence Intervals (cont.)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Week 6 labs (Confidence Intervals) and Lab 9 from Friday 2/23
+- Week 6 labs (bootstrapping and confidence intervals) and Lab 9 from Friday 2/23
     - Due Monday 3/4 at 11:59pm (via P-web)
 - Homework #6
     - Due Friday 3/1 at 11:59pm (via P-web)
@@ -194,6 +196,8 @@ The chapters/materials listed below are resources that I recommend you read duri
     - IMS Ch 7.1, 7.2, 8.1, 8.3
 - Week 5 (2/19 - 2/23)
     - None  
+- Week 6 (2/26 - 3/1)
+    - IMS Ch 12.1, 12.2, 12.3, 13.1, 13.2
 
 ## Project 
 
