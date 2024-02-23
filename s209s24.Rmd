@@ -131,10 +131,10 @@ $~$
 x = data.frame(Date = c("Mon 2/19", "Wed 2/21", "Fri 2/23"), 
                Lecture = c("[Exam 1 Review](s209s24/exam1_revq.html) ---  [sample solution](s209s24/exam1_revq_soln.html)", 
                            "Exam 1",
-                           "Sources of uncertainty"),
+                           "[Sampling from a Population](s209s24/sampling.pdf)"),
                Lab = c(" ", 
                        "Exam 1",
-                       " "))
+                       "[Sampling Variability](s209s24/sampling.html)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -144,14 +144,31 @@ kable(x) %>%
    - A practice exam is [found here](s209s24/practice_exam1.pdf)
        - The sketch solution is [found here](s209s24/practice_exam1_soln.pdf)
    - A study guide is [found here](s209s24/Exam1_StudyGuide.pdf)
-- If you don't have a suitable calculator, some from the science division will be available during the exam.
-- There is no homework assignment this week due to Exam 1
+- There is no homework assignment this week due to Exam 1.
+- Lab 9 (Sampling variability) will not be due until *Monday 3/4*.
 
 ### Exam #2 Content
 
-Topics:
+**Sampling from a population** (covered Friday 2/23) will be a topic on Exam 2, along with the following content:
 
-- Sampling, randomized experiments, variability, confidence intervals, 1-sample and 2-sample hypothesis tests
+**Week 6**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 2/26", "Wed 2/28", "Fri 3/1"), 
+               Lecture = c("Interval Estimation",
+                           "Bootstrapping",
+                           " "),
+               Lab = c(" ", 
+                       "Confidence Intervals",
+                       "Confidence Intervals (cont.)"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Week 6 labs (Confidence Intervals) and Lab 9 from Friday 2/23
+    - Due Monday 3/4 at 11:59pm (via P-web)
+- Homework #6
+    - Due Friday 3/1 at 11:59pm (via P-web)
 
 $~$
 
