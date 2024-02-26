@@ -157,19 +157,19 @@ The **sampling from a population** lecture and lab from Friday 2/23 will be a to
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/26", "Wed 2/28", "Fri 3/1"), 
-               Lecture = c("Interval Estimation",
+               Lecture = c("[Interval Estimation](s209s24/intervals.pdf)",
                            "Normal Approximations",
                            " "),
-               Lab = c("Bootstrapping", 
-                       "Confidence Intervals",
-                       "Confidence Intervals (cont.)"))
+               Lab = c("[Bootstrapping](s209s24/conf_ints.html)", 
+                       "Bootstapping (cont.)",
+                       "Normal Approximations"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - Week 6 labs (bootstrapping and confidence intervals) and Lab 9 from Friday 2/23
     - Due Monday 3/4 at 11:59pm (via P-web)
-- Homework #6
+- [Homework #5](s209s24/hw5.html)
     - Due Friday 3/1 at 11:59pm (via P-web)
 
 $~$
