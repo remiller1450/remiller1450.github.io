@@ -158,21 +158,37 @@ The **sampling from a population** lecture and lab from Friday 2/23 will be a to
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/26", "Wed 2/28", "Fri 3/1"), 
                Lecture = c("[Interval Estimation](s209s24/intervals.pdf)",
-                           "Normal Approximations",
-                           " "),
+                           "[Normal Approximations](s209s24/normal_ci1.pdf)",
+                           "The $t$-distribution"),
                Lab = c("[Bootstrapping](s209s24/conf_ints.html)", 
-                       "Bootstapping (cont.)",
-                       "Normal Approximations"))
+                       "Bootstrapping (cont.)",
+                       " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Week 6 labs (bootstrapping and confidence intervals) and Lab 9 from Friday 2/23
+- Week 6 labs (bootstrapping) and Lab 9 from Friday 2/23
     - Due Monday 3/4 at 11:59pm (via P-web)
 - [Homework #5](s209s24/hw5.html)
     - Due Friday 3/1 at 11:59pm (via P-web)
 
 $~$
+
+**Week 7**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 3/4", "Wed 3/6", "Fri 3/8"), 
+               Lecture = c(" ",
+                           "Null hypotheses and $p$-values",
+                           " "),
+               Lab = c("Confidence Intervals", 
+                       " ",
+                       "Randomization Tests"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+
 
 ### Exam #3 Content
 
@@ -201,15 +217,20 @@ The chapters/materials listed below are resources that I recommend you read duri
 
 ## Project 
 
-Information about the course project will be posted here at a later date.
+Information on the course project is found below:
+
+- [This link](s209s24/final_project.html) contains the official assignment description and guidelines.
+- The first due-date is Monday 3/4, you should contact me about your project group by this date
 
 ## Exams
 
 Information about exams (including dates and study materials) will be posted here.
 
-- **Exam 1**: Planned for *Wednesday* 2/21 during class (1-2:20pm) in *Noyce 2022*
+- **Exam 1**: Planned for *Wednesday 2/21* during class (1-2:20pm) in *Noyce 2022*
     - [Practice exam](s209s24/practice_exam1.pdf)
     - [Study guide](s209s24/Exam1_StudyGuide.pdf)
     - Solutions to the practice exam will be posted on Monday 2/19
+- **Exam 2**: Tentatively planned for *Monday 4/8* during class (1-2:20pm)
+    - A practice exam and study guide will be posted at least 2 weeks prior to the exam
 
 Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.
