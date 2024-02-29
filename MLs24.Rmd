@@ -100,11 +100,13 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("2/29", "3/5", "3/7"), 
-               Lecture = c("Random Forests", "Boosting", " "),
-               Lab = c("Ensembles and Stacking", "XGBoost", "Feature Engineering"))
+               Lecture = c("[Random Forests](ml24/rf.pdf)", "Boosting", " "),
+               Lab = c("[Ensembles and Stacking](ml24/lab9_ensembles.html)", "XGBoost", "Feature Engineering"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Labs 9 and 10 are due Friday 3/8 at 11:59pm
 
 $~$
 
