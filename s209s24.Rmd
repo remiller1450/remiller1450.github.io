@@ -158,8 +158,8 @@ The **sampling from a population** lecture and lab from Friday 2/23 will be a to
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/26", "Wed 2/28", "Fri 3/1"), 
                Lecture = c("[Interval Estimation](s209s24/intervals.pdf)",
-                           "[Normal Approximations](s209s24/normal_ci1.pdf)",
-                           "The $t$-distribution"),
+                           " ",
+                           "[Normal Approximations](s209s24/normal_ci1.pdf)"),
                Lab = c("[Bootstrapping](s209s24/conf_ints.html)", 
                        "Bootstrapping (cont.)",
                        " "))
@@ -178,7 +178,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/4", "Wed 3/6", "Fri 3/8"), 
-               Lecture = c(" ",
+               Lecture = c("Student's $t$-distribution",
                            "Null hypotheses and $p$-values",
                            " "),
                Lab = c("Confidence Intervals", 
