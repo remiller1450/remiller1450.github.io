@@ -178,17 +178,20 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/4", "Wed 3/6", "Fri 3/8"), 
-               Lecture = c("Student's $t$-distribution",
-                           "Null hypotheses and $p$-values",
-                           " "),
-               Lab = c("Confidence Intervals", 
-                       " ",
-                       "Randomization Tests"))
+               Lecture = c("[Student's $t$-distribution](s209s24/normal_ci2.pdf)",
+                           " ",
+                           "Null hypotheses and $p$-values"),
+               Lab = c("[Confidence Intervals in `R`](s209s24/conf_ints2.html)", 
+                       "Confidence Intervals in `R` (cont.)",
+                       " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-
+- Week 7 labs (confidence intervals in `R`)
+    - Due Monday 3/11 at 11:59pm (via P-web)
+- [Homework #6](s209s24/hw6.html)
+    - Due Friday 3/8 at 11:59pm (via P-web)
 
 ### Exam #3 Content
 
