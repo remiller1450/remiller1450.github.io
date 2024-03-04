@@ -193,6 +193,24 @@ kable(x) %>%
 - [Homework #6](s209s24/hw6.html)
     - Due Friday 3/8 at 11:59pm (via P-web)
 
+$~$
+
+**Week 8**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 3/11", "Wed 3/13", "Fri 3/15"), 
+               Lecture = c(" ",
+                           "Testing Errors, Power and Multiple Comparisons",
+                           "Class Project"),
+               Lab = c("Randomization Tests", 
+                       " ",
+                       "Class Project"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
 ### Exam #3 Content
 
 Topics:
