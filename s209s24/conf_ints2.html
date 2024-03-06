@@ -1738,7 +1738,7 @@ first alphabetical value in the <code>y</code> variable, or
 <code>ac = &quot;No&quot;</code> in this example. And the group appearing the
 numerator of the odds ratio will be the first alphabetical value of the
 <code>x</code> variable.</p>
-<p>We can change these defaults using the <code>relevel()</code>
+<p>We can change these defaults using the <code>factor()</code>
 function:</p>
 <pre class="r"><code>## Example using relevel() to compare the odds of &quot;Yes&quot;
 result = fisher.test(x = ic_homes$style, y = factor(ic_homes$ac, levels = c(&quot;Yes&quot;,&quot;No&quot;)), conf.level = 0.90)
