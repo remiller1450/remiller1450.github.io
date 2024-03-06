@@ -180,7 +180,7 @@ $~$
 x = data.frame(Date = c("Mon 3/4", "Wed 3/6", "Fri 3/8"), 
                Lecture = c("[Student's $t$-distribution](s209s24/normal_ci2.pdf)",
                            " ",
-                           "Null hypotheses and $p$-values"),
+                           "[Null hypotheses and $p$-values](s209s24/ht1.pdf)"),
                Lab = c("[Confidence Intervals in `R`](s209s24/conf_ints2.html)", 
                        "Confidence Intervals in `R` (cont.)",
                        " "))
