@@ -180,10 +180,9 @@ $~$
 x = data.frame(Date = c("Mon 3/4", "Wed 3/6", "Fri 3/8"), 
                Lecture = c("[Student's $t$-distribution](s209s24/normal_ci2.pdf)",
                            " ",
-                           "[Null hypotheses and $p$-values](s209s24/ht1.pdf)"),
-               Lab = c("[Confidence Intervals in `R`](s209s24/conf_ints2.html)", 
-                       "Confidence Intervals in `R` (cont.)",
-                       " "))
+                           " "),
+               Lab = c(" ", "[Confidence Intervals in `R`](s209s24/conf_ints2.html)",
+                       "Confidence Intervals in `R` (cont.)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -199,15 +198,20 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/11", "Wed 3/13", "Fri 3/15"), 
-               Lecture = c(" ",
-                           "Testing Errors, Power and Multiple Comparisons",
+               Lecture = c("[Null hypotheses,  $p$-values, and decisions](s209s24/ht1.pdf)",
+                           " ",
                            "Class Project"),
-               Lab = c("Randomization Tests", 
-                       " ",
+               Lab = c("", 
+                       "[Randomization Tests](s209s24/ht1.html)",
                        "Class Project"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Week 8 lab (Randomization Tests)
+    - Due Friday 3/15 at 11:59pm (via P-web)
+- [Homework #7](s209s24/hw7.html)
+    - Due Friday 3/15 at 11:59pm (via P-web)
 
 $~$
 
@@ -251,7 +255,7 @@ Information about exams (including dates and study materials) will be posted her
     - [Practice exam](s209s24/practice_exam1.pdf)
     - [Study guide](s209s24/Exam1_StudyGuide.pdf)
     - Solutions to the practice exam will be posted on Monday 2/19
-- **Exam 2**: Tentatively planned for *Monday 4/8* during class (1-2:20pm)
+- **Exam 2**: Tentatively planned for *Wednesday 4/10* during class (1-2:20pm)
     - A practice exam and study guide will be posted at least 2 weeks prior to the exam
 
 Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.

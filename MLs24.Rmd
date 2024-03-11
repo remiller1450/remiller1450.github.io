@@ -165,3 +165,12 @@ $~$
 - [Stanford's Intro to Statistical Learning video 5.2 (k-fold CV)](https://www.youtube.com/watch?v=AMfvd_hLssE&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=28)
 - [Stanford's Intro to Statistical Learning video 5.3 (CV the right and wrong way)](hhttps://www.youtube.com/watch?v=jgoa28FR__Y&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=29)
 - [Intro to ML with Python Ch 5 (Model Evaluation and Improvement)](https://github.com/amueller/introduction_to_ml_with_python)
+
+**Unit #3**:
+
+- [Intro to Statistical Learning, Ch 8 (Decision Tree Models)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- [Stanford's Intro to Statistical Learning video 8.4 (Bagging and Random Forest)](https://www.youtube.com/watch?v=_cKAxjnInfA&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=57)
+- [Stanford's Intro to Statistical Learning video 8.5 (Boosting)](https://www.youtube.com/watch?v=_cKAxjnInfA&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=58)
+- [Google's Intro to Gradient Boosted Trees](https://developers.google.com/machine-learning/decision-forests/intro-to-gbdt)
+
+
