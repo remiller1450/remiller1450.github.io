@@ -127,12 +127,14 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c(" ", " ", " ", " ", " ", " "), 
-               Lecture = c("Gradient Descent Algorithms", "Logistic and Softmax Regression", "Regularized Regression", "Splines, Polynomials, and Discretization", "Artificial Neural Networks", " "),
-               Lab = c("Gradient Descent Algorithms", "Regression", "Lasso, Ridge, and Elastic Net", "Feature Expansion", " ", "Backpropagation"))
+x = data.frame(Date = c("3/14", " "," ", " ", " ", " ", " "), 
+               Lecture = c(" ","Gradient Descent Algorithms", "Logistic and Softmax Regression", "Regularized Regression", "Splines, Polynomials, and Discretization", "Artificial Neural Networks", " "),
+               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "Gradient Descent Algorithms", "Regression", "Lasso, Ridge, and Elastic Net", "Feature Expansion", " ", "Backpropagation"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- The optional lab (linear and algebra and calculus review) is due Tuesday 4/2
 
 $~$
 
