@@ -15444,7 +15444,7 @@ $$\nabla f(\mathbf{w}) = 4\mathbf{w} \equiv 4\mathbf{w}^T$$</p>
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="The-Jacobian-matrix">The Jacobian matrix<a class="anchor-link" href="#The-Jacobian-matrix">&#182;</a></h3><p>In our previous example, $f(\mathbf{w})$ mapped a 3-dimensional input, the vector $\mathbf{w}$, into a scalar output. This allowed us to have a single gradient vector. However, let's now consider the function: 
+<h3 id="The-Jacobian-matrix">The Jacobian matrix<a class="anchor-link" href="#The-Jacobian-matrix">&#182;</a></h3><p>In our previous example, $f(\mathbf{w})$ mapped a 3-dimensional input, the vector $\mathbf{w}$, to a scalar output. This allowed us to have a single gradient vector. However, let's now consider the function: 
 $f(\mathbf{w}) = 2\mathbf{w}$</p>
 <p>This scenario is a different because the output of $f$ is now a 3-dimensional vector.</p>
 <p>The <em>Jacobian matrix</em>, $\mathbf{J} = \tfrac{d \mathbf{f}}{d \mathbf{w}}$, is defined as the matrix of all partial derivatives (ie: each output with respect to each input). In our example:</p>
@@ -15474,7 +15474,7 @@ $f(\mathbf{w}) = 2\mathbf{w}$</p>
 \end{pmatrix}
 \end{equation*}<h3 id="Question-%233">Question #3<a class="anchor-link" href="#Question-%233">&#182;</a></h3><ul>
 <li>Part A: Consider the parameter vector $\mathbf{w} = [w_1, w_2, w_3]$, a matrix of constants, $\mathbf{A}$, consisting of the row vectors <code>[1,1,0]</code> and <code>[3,0,2]</code>, and the function $f(\mathbf{w}) = \mathbf{A}\mathbf{w}^2$ where the notation $\mathbf{w}^2$ represent element-wise squaring of the components of $\mathbf{w}$. Calculate: $\tfrac{d \mathbf{f}}{d \mathbf{w}}$</li>
-<li>Part B: Modify Part A to use the function $f(\mathbf{w}) = \mathbf{A}^T \mathbf{w}^T\mathbf{w}$ and recalculate $\tfrac{d \mathbf{f}}{d \mathbf{w}}$.</li>
+<li>Part B: Modify Part A to use the function $f(\mathbf{w}) = \mathbf{A}^T \mathbf{w}^T\mathbf{w}$ and recalculate $\tfrac{d \mathbf{f}}{d \mathbf{w}}$. <em>Hint</em>: This question involves a generalization of the concepts from this section. You may choose to organize your results as a multi-dimensional array (essentially a matrix where each entry is itself a matrix).</li>
 </ul>
 
 </div>
