@@ -256,6 +256,6 @@ Information about exams (including dates and study materials) will be posted her
     - [Study guide](s209s24/Exam1_StudyGuide.pdf)
     - Solutions to the practice exam will be posted on Monday 2/19
 - **Exam 2**: Tentatively planned for *Wednesday 4/10* during class (1-2:20pm)
-    - A practice exam and study guide will be posted at least 2 weeks prior to the exam
+    - [Practice exam](s209s24/practice_exam2.pdf)
 
 Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.
