@@ -219,7 +219,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/1", "Wed 4/3", "Fri 4/5"), 
-               Lecture = c("Normal Approximations for Hypothesis Testing",
+               Lecture = c("[Normal Approximations for Hypothesis Testing](s209s24/ht2.pdf)",
                            " ",
                            " "),
                Lab = c(" ", 
@@ -283,13 +283,15 @@ The chapters/materials listed below are resources that I recommend you read duri
     - None  
 - Week 6 (2/26 - 3/1)
     - IMS Ch 12.1, 12.2, 12.3, 13.1, 13.2
+- Week 8 (4/1 - 4/5)
+    - IMS Ch 13.5, 16.2.4, 17.3.3, 19.2.1, 19.2.5
 
 ## Project 
 
 Information on the course project is found below:
 
 - [This link](s209s24/final_project.html) contains the official assignment description and guidelines.
-- The first due-date is Monday 3/4, you should contact me about your project group by this date
+- By Friday 4/26 an exploratory analysis of your final data set is due. See the assignment description for additional details.
 
 ## Exams
 
