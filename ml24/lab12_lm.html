@@ -14861,7 +14861,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 <p><strong>Question 1</strong>: Suppose we'd like to model a home's <em>assessed value</em> rather than its sale price.</p>
 <ul>
 <li><strong>Part A</strong>: Create two objects, <code>train_X_assessed</code> and <code>train_y_assessed</code> where the latter records each home's assessed value and the former is a matrix containing the predictors: <code>area.living</code>, <code>bedrooms</code>, and <code>area.lot</code>.</li>
-<li><strong>Part B</strong>: Create a pipeline that includes a Yeo-Johnson normalizing transformation on the model's predictors as a preprocessing step prior to fitting a linear regression model as the pipeline's final step.</li>
+<li><strong>Part B</strong>: Create a pipeline that includes min-max scaling followed by a Yeo-Johnson normalizing transformation on the model's predictors as preprocessing step priors to fitting a linear regression model in the pipeline's final step.</li>
 <li><strong>Part C</strong>: Use a cross-validated grid search with RMSE as the scoring metric to evaluate whether the use of a normalizing transformation on these predictors improves performance relative to an approach that doesn't involve any normalization.</li>
 <li><strong>Part D</strong>: Print the estimated weights of the best model in Part C. Is the predictor with the largest estimated weight the most important contributor in this model? <em>Hint</em>: think about the scale of each predictor and how that influences your interpretation of the corresponding weight parameter.</li>
 </ul>
@@ -14936,7 +14936,7 @@ $$Cost = \tfrac{1}{n}(\mathbf{y} - \mathbf{X}\hat{\mathbf{w}})^T(\mathbf{y}-\mat
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><strong>Question 3</strong>: To explore the cost function defined above, create a line graph showing the cost associated with a sequence of 10 different values of $w_1$ ranging from 2 to 4</p>
+<p><strong>Question 3</strong>: To explore the cost function defined above, create a line graph showing the cost associated with a sequence of 20 different values of $w_1$ ranging from 2 to 4</p>
 
 </div>
 </div>

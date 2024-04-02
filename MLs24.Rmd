@@ -135,7 +135,8 @@ kable(x) %>%
 ```
 
 - The optional lab (linear and algebra and calculus review) is due Tuesday 4/2
-- Homework 3 is due Tuesday 4/16
+- Labs 12 and 13 are due Tuesday 4/9
+- [Homework 4](ml24/hw4.html) is due Tuesday 4/16
 - Study materials for the midterm exam can be found below:
     - [Study guide](ml24/Exam_Study_Guide.pdf)
     - [Practice exam](ml24/Practice_Exam.pdf)
