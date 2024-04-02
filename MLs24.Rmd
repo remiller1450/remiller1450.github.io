@@ -127,20 +127,18 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("3/14", " "," ", " ", " ", " ", " "), 
-               Lecture = c(" ","Gradient Descent Algorithms", "Logistic and Softmax Regression", "Regularized Regression", "Splines, Polynomials, and Discretization", "Artificial Neural Networks", " "),
-               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "Gradient Descent Algorithms", "Regression", "Lasso, Ridge, and Elastic Net", "Feature Expansion", " ", "Backpropagation"))
+x = data.frame(Date = c("3/14", "4/2", "4/4", "4/9", "4/11", "4/16", "4/18"), 
+               Lecture = c(" ","[Linear Regression and Gradient Descent Algorithms](ml24/lm.pdf)", "Logistic and Softmax Regression", "Regularized Regression", "Artificial Neural Networks", "Review/catch up", "Exam"),
+               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "[Lab 12 - Linear Regression and Gradient Descent](ml24/lab12_lm.html)", "Logistic Regression", "Lasso, Ridge, and Elastic Net", " ", " ", "Exam"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - The optional lab (linear and algebra and calculus review) is due Tuesday 4/2
-
-$~$
-
-## Midterm Exam
-
-Information and study materials for the midterm exam will be posted here. The exam is tentatively planned to occur after Unit #4.
+- Homework 3 is due Tuesday 4/16
+- Study materials for the midterm exam can be found below:
+    - [Study guide](ml24/Exam_Study_Guide.pdf)
+    - [Practice exam](ml24/Practice_Exam.pdf)
 
 $~$
 
