@@ -1560,12 +1560,12 @@ n_male_ca = sum(inf_heart$Sex == &quot;Male&quot; &amp; inf_heart$Treatment == &
 n_total_ca = sum(inf_heart$Treatment == &quot;Circulatory arrest&quot;)
 
 ## Use prop.test, printing the sample difference in proportions and the corresponding p-value for H0: p1 - p2 = 0
-results = prop.test(x = c(n_male_lf, n_male_ca), n = c(n_total_lf, n_total_ca))
+results = prop.test(x = c(n_male_lf, n_male_ca), n = c(n_total_lf, n_total_ca), correct = FALSE)
 results$estimate</code></pre>
 <pre><code>##    prop 1    prop 2 
 ## 0.6714286 0.7123288</code></pre>
 <pre class="r"><code>results$p.value</code></pre>
-<pre><code>## [1] 0.7274565</code></pre>
+<pre><code>## [1] 0.5962946</code></pre>
 <p>Here we can conclude that there is no statistical evidence of an
 imbalance in the distribution of sexes assigned to each type of surgery.
 This should align with our expectations as each infant in the study was
@@ -1741,7 +1741,7 @@ the test statistic in these scenarios). In these situations you can take
 1 minus the output of <code>pt()</code>, or you can input your test
 statistic as a negative value (even if it were calculated to be
 positive). Because we’ll generally use two-sided <span class="math inline">\(p\)</span>-values, we will multiply this area by
-two anyways in order to reflect possible differences from <span class="math inline">\(H0\)</span> that could occur in either
+two anyways in order to reflect possible differences from <span class="math inline">\(H_0\)</span> that could occur in either
 direction.</p>
 <p><strong>Question 6</strong>: The <code>pnorm()</code> function can be
 used to calculate areas from the Standard Normal distribution in a

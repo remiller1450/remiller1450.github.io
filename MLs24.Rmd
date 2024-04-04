@@ -128,15 +128,15 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("3/14", "4/2", "4/4", "4/9", "4/11", "4/16", "4/18"), 
-               Lecture = c(" ","[Linear Regression and Gradient Descent Algorithms](ml24/lm.pdf)", "Logistic and Softmax Regression", "Regularized Regression", "Artificial Neural Networks", "Review/catch up", "Exam"),
-               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "[Lab 12 - Linear Regression and Gradient Descent](ml24/lab12_lm.html)", "Logistic Regression", "Lasso, Ridge, and Elastic Net", " ", " ", "Exam"))
+               Lecture = c(" ","[Linear Regression and Gradient Descent Algorithms](ml24/lm.pdf)", "[Logistic and Softmax Regression](ml24/glm.pdf)", "Regularization", "Artificial Neural Networks", "Review/catch up", "Exam"),
+               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "[Lab 12 - Linear Regression and Gradient Descent](ml24/lab12_lm.html)", "[Lab 13 - Logistic Regression and Stochastic Gradient Descent](ml24/lab13_glm.html)", "Lasso, Ridge, and Elastic Net", " ", " ", "Exam"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - The optional lab (linear and algebra and calculus review) is due Tuesday 4/2
-- Labs 12 and 13 are due Tuesday 4/9
-- [Homework 4](ml24/hw4.html) is due Tuesday 4/16
+- Labs 12 and 13 are due Tuesday 4/9 by 11:59pm
+- [Homework 4](ml24/hw4.html) is due Wednesday 4/17 by 11:59pm
 - Study materials for the midterm exam can be found below:
     - [Study guide](ml24/Exam_Study_Guide.pdf)
     - [Practice exam](ml24/Practice_Exam.pdf)
@@ -174,4 +174,9 @@ $~$
 - [Stanford's Intro to Statistical Learning video 8.5 (Boosting)](https://www.youtube.com/watch?v=_cKAxjnInfA&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=58)
 - [Google's Intro to Gradient Boosted Trees](https://developers.google.com/machine-learning/decision-forests/intro-to-gbdt)
 
+**Unit #4**:
 
+- [Intro to ML with Python Ch 2 (Linear Models)](https://github.com/amueller/introduction_to_ml_with_python)
+- [Intro to Statistical Learning, Ch 4.2 and 4.3 (Logistic Regression)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- [Intro to Statistical Learning, Ch 6.2 (Regularization)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
+- [Stanford Engineering Intro to Neural Networks (CS229)](https://www.youtube.com/watch?v=MfIjxPh6Pys)

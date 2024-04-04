@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-209-04 (Spring 24) Homework #8</title>
+<title>Homework #4</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -354,72 +354,157 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Sta-209-04 (Spring 24) Homework #8</h1>
+<h1 class="title toc-ignore">Homework #4</h1>
 
 </div>
 
 
-<p>From the Introduction to Modern Statistics (IMS) textbook, complete
-the following exercises:</p>
+<p><strong>Directions</strong>:</p>
 <ul>
-<li>Ch 16.4 Exercise: #28</li>
-<li>Ch 17.5 Exercises: #7, #18, #22</li>
-<li>Ch 19.4 Exercises: #14, #17</li>
+<li>Homework must be completed individually</li>
+<li>Please submit a single Jupyter Notebook containing your responses
+via P-web. Use markdown chunks to format the assignment and record
+responses to questions that involve written answers.</li>
 </ul>
-<p>For any question involving a hypothesis test you must:</p>
-<ol style="list-style-type: decimal">
-<li>Clearly state your null and alternative hypotheses using
-<em>both</em> words and statistical symbols</li>
-<li>Clearly state the test you’re using and show the calculation of an
-appropriate test statistic for that test</li>
-<li>Find a two-sided <span class="math inline">\(p\)</span>-value and
-provide a 1-sentence interpretation that involves the context behind the
-application</li>
-</ol>
 <p><span class="math inline">\(~\)</span></p>
-<p>Additionally, complete the following exercise:</p>
-<p><strong>Question #1</strong>: For this question you’ll use the
-“Professor Salaries” data set provided below. For context, this data set
-contains the 9-month academic year salaries of faculty members at a
-major US public university. In addition to salaries from the 2008-09
-academic year, it also contains de-identified documentation of the sex,
-rank, discipline, and experience of each faculty member. These data were
-obtained from the “carData” <code>R</code> package.</p>
-<blockquote>
-<p><a href="https://remiller1450.github.io/data/Salaries.csv" class="uri">https://remiller1450.github.io/data/Salaries.csv</a></p>
-</blockquote>
-<p>For this question you should perform all hypothesis tests using
-<code>R</code>. However, you should still clearly state your null and
-alternative hypotheses and provide the <span class="math inline">\(p\)</span>-value of your test along with a
-context-based conclusion.</p>
+<div id="question-1" class="section level2">
+<h2>Question 1</h2>
+<p>Consider gradient boosting applied to the linear regression model
+using the squared error cost function. To begin, recall that linear
+regression has a closed form solution in this scenario: <span class="math display">\[\hat{\mathbf{w}} =
+(\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}^T\mathbf{y}\]</span></p>
 <ul>
-<li><strong>Part A</strong>: Use <code>ggplot()</code> to create an
-appropriate data visualization showing the relationship between the
-explanatory variable “sex” and the response variable “salary”. Using
-your graph, briefly explain whether these variables appear to be
-associated.</li>
-<li><strong>Part B</strong>: Perform an appropriate hypothesis test to
-evaluate whether there is a difference in the mean salaries of male and
-female faculty at this university.</li>
-<li><strong>Part C</strong>: Now consider the third variable
-“yrs.since.phd” and create an appropriate data visualization showing the
-relationship between this variable and “salary”. Do these variables
-appear to be associated?</li>
-<li><strong>Part D</strong>: <del>Perform an appropriate hypothesis test
-to evaluate whether there is a statistically significant relationship
-between “yrs.since.phd” and “salary” (at the <span class="math inline">\(\alpha = 0.05\)</span> significance
-level).</del></li>
-<li><strong>Part E</strong>: Create an appropriate data visualization
-showing the relationship between “yrs.since.phd” and “sex”. Do these
-variables appear associated?</li>
-<li><strong>Part F</strong>: Now perform an appropriate hypothesis test
-to evaluate whether there is a statistically significant relationship
-between “yrs.since.phd” and “sex” (at the <span class="math inline">\(\alpha = 0.05\)</span> significance level).</li>
-<li><strong>Part G</strong>: Considering your responses to Parts C-F,
-does the variable “yrs.since.phd” a confound the relationship between
-“sex” and “salary”? How does this impact the conclusions you draw from
-the hypothesis test you performed in Part B? Briefly explain.</li>
+<li><strong>Part A</strong>: After fitting a regression model using the
+weights given above, denote the residuals <span class="math inline">\(\mathbf{r}^{(1)}\)</span>, then determine the
+weights of the second model (call them - <span class="math inline">\(\hat{\mathbf{w}}^{(2)}\)</span>) in the ensemble
+in terms of <span class="math inline">\(\mathbf{r}_1\)</span>.</li>
+<li><strong>Part B</strong>: Substitute the <span class="math inline">\(\mathbf{y} -
+\mathbf{X}\hat{\mathbf{w}^{(1)}}\)</span> into the expression you
+provided in Part A, then argue that <span class="math inline">\(\hat{\mathbf{w}}^{(2)} = \mathbf{0}\)</span>.</li>
+<li><strong>Part C</strong>: Provide a conceptual argument for why
+gradient boosting fails to improve the linear regression model.</li>
 </ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="question-2" class="section level2">
+<h2>Question 2</h2>
+<p>Recall that squared error cost function can be written:</p>
+<p><span class="math display">\[Cost = \tfrac{1}{n}(\mathbf{y} -
+\mathbf{\hat{y}})^T(\mathbf{y} - \mathbf{\hat{y}})\]</span></p>
+<p>Here <span class="math inline">\(\mathbf{y}\)</span> is the vector of
+observed outcomes and <span class="math inline">\(\mathbf{\hat{y}}\)</span> is a vector of model
+predictions.</p>
+<p>In <em>Poisson Regression</em>, <span class="math inline">\(\mathbf{\hat{y}} =
+e^{\mathbf{X}\mathbf{\hat{w}}}\)</span></p>
+<p>The standard approach to Poisson regression is estimate the unknown
+weights using <em>maximum likelihood estimation</em>. However, for this
+question I’ll ask you to estimate a reasonable set of weights by
+differentiating the squared error cost function and optimizing it via
+gradient descent (which is not equivalent to maximum likelihood
+estimation for this scenario).</p>
+<ul>
+<li><strong>Part A</strong>: Use chain rule to show that the <span class="math inline">\(Gradient =
+\tfrac{-2}{n}\mathbf{X}^T(diag(e^{\mathbf{X}\mathbf{\hat{w}}}))(\mathbf{y}
+-e^{\mathbf{X}\mathbf{\hat{w}}})\)</span> where <span class="math inline">\(diag(v)\)</span> is used to denote a diagonal
+matrix whose diagonal elements are given by <span class="math inline">\(v\)</span> and whose off-diagonal elements are
+zero.</li>
+<li><strong>Part B</strong>: Write Python functions that calculate the
+cost (given <span class="math inline">\(X\)</span>, <span class="math inline">\(\hat{w}\)</span>, and <span class="math inline">\(y\)</span>) and perform gradient descent for this
+scenario. You should use the functions provided in this unit’s labs as
+examples. You may also consider using <code>np.diag()</code> to set up a
+diagonal matrix. For reference, the minimum cost for the example data
+(see below) should be between 4.69 and 4.70.</li>
+</ul>
+<pre class="python"><code>## Setup trial data
+ic = pd.read_csv(&quot;https://remiller1450.github.io/data/IowaCityHomeSales.csv&quot;)
+ic_y = ic[&#39;bedrooms&#39;]
+ic_X = ic[[&#39;assessed&#39;,&#39;area.living&#39;]]
+
+## Scale X
+from sklearn.preprocessing import StandardScaler
+ic_Xs = StandardScaler().fit_transform(ic_X)
+
+## Fit via grad descent, 250 iter w/ 0.01 learning rate 
+gdres = grad_descent(X=ic_Xs,y=ic_y,w=np.zeros(2),alpha=0.01, n_iter=250)
+
+## Min of cost function
+print(min(gdres[1]))</code></pre>
+<ul>
+<li><strong>Part C</strong>: Graph the cost function for 300 iterations
+of gradient descent with a <em>learning rate of 0.001</em>. Comment on
+whether this learning rate is appropriate.</li>
+<li><strong>Part D</strong>: Graph the cost function for 300 iterations
+of gradient descent with a <em>learning rate of 0.1</em>. Comment on
+whether this learning rate is appropriate.</li>
+</ul>
+<p><em>Comments</em>: Poisson regression can be fit via maximum
+likelihood in <code>sklearn</code> using the
+<code>PoissonRegressor</code> function. The arguments
+<code>alpha=0</code> and <code>fit_intercept=False</code> can be used to
+mimic the model fit to the example data in this question. However, you
+should expect somewhat different weight estimates since maximum
+likelihood estimation is not equivalent to minimizing squared error loss
+for the Poisson regression model. Further, in this example, the
+variables “assessed” and “area.living” are highly correlated, so there
+are many combinations of weights that will fit the training data
+similarly well.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="question-3" class="section level2">
+<h2>Question 3</h2>
+<p>Consider a simple neural network consisting of 1 hidden layer
+containing 4 neurons that use the sigmoid activation function. The
+network will predict a numeric outcome, so the weighted outputs of each
+neuron contribute directly to the outcome (rather than being passed into
+another sigmoid function).</p>
+<p>For future reference, this network will applied to Iowa City home
+sales data set, using <code>sale.amount</code> as the outcome and
+<code>area.living</code>, <code>area.lot</code>, and
+<code>bedrooms</code> as the predictors.</p>
+<p>Because the outcome is numeric, you will use the squared error cost
+function: <span class="math display">\[Cost = \tfrac{1}{n}(\mathbf{y} -
+\mathbf{\hat{y}})^T(\mathbf{y} - \mathbf{\hat{y}})\]</span></p>
+<ul>
+<li><strong>Part A</strong>: How many weight parameters are used to
+generate the neurons in this network from the input features? Briefly
+explain.</li>
+<li><strong>Part B</strong>: How many weight parameters are used to
+generate the predicted outcome from this network from the hidden
+neurons? Briefly explain.</li>
+<li><strong>Part C</strong>: Consider data on a single training example
+with its predictors stored in the vector <span class="math inline">\(\mathbf{x}_i\)</span>. To prepare for <em>only
+one</em> stochastic gradient descent, differentiate the cost function
+with respect to each weight parameter in the final layer of the
+network.</li>
+<li><strong>Part D</strong>: Now find the gradient component for each of
+the remaining parameters, which are the biases and the remaining
+weights.</li>
+<li><strong>Part E</strong>: Using functions from this unit’s labs as a
+guide, write your function that performs stochastic gradient descent
+function to train this network.</li>
+<li><strong>Part F</strong>: Load the Iowa City home sales data (located
+at <a href="https://remiller1450.github.io/data/IowaCityHomeSales.csv" class="uri">https://remiller1450.github.io/data/IowaCityHomeSales.csv</a>),
+perform an 80-20 train-test split with <code>random_state=7</code>, then
+separate the predictors from the the outcome.</li>
+<li><strong>Part G</strong>: Standardize the model outcome,
+<code>sale.amount</code>, by subtracting its mean then dividing by its
+standard deviation (given by <code>np.std</code>), and re-scale the
+predictors using <code>MinMaxScaler()</code>. <em>Note</em>: these steps
+provide numerical stability.</li>
+<li><strong>Part H</strong>: Train your network with a learning rate of
+0.00001 and graph the cost function over 100 passes through the training
+data. Your network should reach a minimum cost of approximately 0.91 (if
+you’ve standardized properly)</li>
+<li><strong>Part I</strong>: Use <code>MLPRegressor</code>, the
+implementation of neural networks in <code>sklearn</code>, to fit the
+same model to the same data. Be sure to specify the proper activation
+function, number of hidden layers, and number of neurons. Then, print
+the fitted model’s final loss and verify that it’s roughly 0.45.
+<em>Note</em>: this loss should be half of what you found because
+<code>sklearn</code> defines squared error cost as <span class="math inline">\(\tfrac{1}{2n}\sum_{i=1}^{n}(y_i-\hat{y}_i)^2\)</span>,
+but we haven’t included the “2”.</li>
+</ul>
+</div>
 
 
 
