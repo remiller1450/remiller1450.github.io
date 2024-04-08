@@ -256,6 +256,7 @@ kable(x) %>%
     - [Practice exam](s209s24/practice_exam2.pdf) 
         - The sketch solution is [found here](s209s24/practice_exam2_soln.pdf) 
     - [Study guide](s209s24/Exam2_StudyGuide.pdf)
+        - [Q and A from the class survey](s209s24/Exam2_QA.pdf)
 - There is no homework assignment this week due to Exam 2
 
 $~$
