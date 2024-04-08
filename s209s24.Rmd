@@ -253,7 +253,8 @@ kable(x) %>%
 
 
 - **Exam 2** is planned for *Wednesday 4/10* during class (1-2:20pm)
-    - [Practice exam](s209s24/practice_exam2.pdf)
+    - [Practice exam](s209s24/practice_exam2.pdf) 
+        - The sketch solution is [found here](s209s24/practice_exam2_soln.pdf) 
     - [Study guide](s209s24/Exam2_StudyGuide.pdf)
 - There is no homework assignment this week due to Exam 2
 
@@ -263,7 +264,7 @@ $~$
 
 Topics:
 
-- Outliers/transformations and non-parametric tests, Chi-squared tests, ANOVA, multiple comparisons, inference for regression
+- Outliers/transformations and non-parametric tests, Chi-squared tests, ANOVA, post-hoc testing, inference for regression
 
 $~$
 
@@ -300,9 +301,11 @@ Information about exams (including dates and study materials) will be posted her
 - **Exam 1**: Planned for *Wednesday 2/21* during class (1-2:20pm) in *Noyce 2022*
     - [Practice exam](s209s24/practice_exam1.pdf)
     - [Study guide](s209s24/Exam1_StudyGuide.pdf)
-    - Solutions to the practice exam will be posted on Monday 2/19
-- **Exam 2**: Tentatively planned for *Wednesday 4/10* during class (1-2:20pm)
+    - Solutions to the practice exam will be posted Monday 2/19
+- **Exam 2**: Planned for *Wednesday 4/10* during class (1-2:20pm) in *Noyce 2022* 
     - [Practice exam](s209s24/practice_exam2.pdf)
     - [Study guide](s209s24/Exam2_StudyGuide.pdf)
+    - Solutions to the practice exam will be posted Monday 4/8
+- **Exam 3**: Planned for *Friday 5/10* during class (1-2:20pm)
 
 Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.
