@@ -128,15 +128,16 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("3/14", "4/2", "4/4", "4/9", "4/11", "4/16", "4/18"), 
-               Lecture = c(" ","[Linear Regression and Gradient Descent Algorithms](ml24/lm.pdf)", "[Logistic and Softmax Regression](ml24/glm.pdf)", "Regularization", "Artificial Neural Networks", "Review/catch up", "Exam"),
-               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "[Lab 12 - Linear Regression and Gradient Descent](ml24/lab12_lm.html)", "[Lab 13 - Logistic Regression and Stochastic Gradient Descent](ml24/lab13_glm.html)", "Lasso, Ridge, and Elastic Net", " ", " ", "Exam"))
+               Lecture = c(" ","[Linear Regression and Gradient Descent Algorithms](ml24/lm.pdf)", "[Logistic and Softmax Regression](ml24/glm.pdf)", "[Regularization and Regression](ml24/lasso.pdf)", "Artificial Neural Networks", "Review/catch up", "Exam"),
+               Lab = c("[Linear Algebra and Calculus Review (optional)](ml24/linear.html)", "[Lab 12 - Linear Regression and Gradient Descent](ml24/lab12_lm.html)", "[Lab 13 - Logistic Regression and Stochastic Gradient Descent](ml24/lab13_glm.html)", "[Lab 14 - Lasso, Ridge, and Elastic Net](ml24/lab14_las.html)", " ", " ", "Exam"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - The optional lab (linear and algebra and calculus review) is due Tuesday 4/2
-- Labs 12 and 13 are due Tuesday 4/9 by 11:59pm
-- [Homework 4](ml24/hw4.html) is due Wednesday 4/17 by 11:59pm
+- Labs 12 and 13 are due Tuesday 4/9 at 11:59pm
+- Lab 14 is due Friday 4/12 at 11:59pm
+- [Homework 4](ml24/hw4.html) is due Wednesday 4/17 at 11:59pm
 - Study materials for the midterm exam can be found below:
     - [Study guide](ml24/Exam_Study_Guide.pdf)
     - [Practice exam](ml24/Practice_Exam.pdf)
