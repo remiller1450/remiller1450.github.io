@@ -263,11 +263,74 @@ $~$
 
 ### Exam #3 Content
 
-Topics:
 
-- Outliers/transformations and non-parametric tests, Chi-squared tests, ANOVA, post-hoc testing, inference for regression
+**Week 11**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/15", "Wed 4/17", "Fri 4/19"), 
+               Lecture = c("[Chi-squared Testing](s209s24/chi_sq.pdf)",
+                           "Chi-squared Testing (cont)",
+                           " "),
+               Lab = c(" ", 
+                       "Chi-squared Testing in `R`",
+                       "Chi-squared Testing in `R` (cont)"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Week 11 lab (Chi-Squared Testing in `R`)
+    - Due Monday 4/22 at 11:59pm (via P-web)
+- [Homework #9](s209s24/hw9.html)
+    - Due Friday 4/19 at 11:59pm (via P-web)
 
 $~$
+
+**Week 12**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/22", "Wed 4/24", "Fri 4/26"), 
+               Lecture = c("Analysis of Variance (ANOVA)",
+                           " ",
+                           "Work on Project"),
+               Lab = c(" ", 
+                       "Analysis of Variance in `R`",
+                       "Work on Project"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+**Week 13**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/29", "Wed 5/1", "Fri 5/3"), 
+               Lecture = c("Outliers, Transformations, and Non-parametric tests",
+                           "Hypothesis Testing for Regression Models",
+                           " "),
+               Lab = c(" ", 
+                       "Transformations, Non-parametric tests, and Regression", "Transformations, Non-parametric tests, and Regression (cont)"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+**Week 14**:
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 5/6", "Wed 5/8", "Fri 5/10"), 
+               Lecture = c("Project Presentations (part 1)",
+                           "Project Presentations (part 2)",
+                           "Exam 3"),
+               Lab = c(" ", 
+                       " ",
+                       "Exam 3"))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Project Final Reports are due Friday 5/17 at 5pm
 
 ## Recommended Readings
 
