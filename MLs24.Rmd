@@ -141,6 +141,7 @@ kable(x) %>%
 - Study materials for the midterm exam can be found below:
     - [Study guide](ml24/Exam_Study_Guide.pdf)
     - [Practice exam](ml24/Practice_Exam.pdf)
+        - [Sketch solution](ml24/prac_soln.pdf)
 
 $~$
 
