@@ -145,6 +145,18 @@ kable(x) %>%
 
 $~$
 
+### Unit #5
+
+**Introduction to Deep Learning**:
+
+```{r}
+
+```
+
+- There will be no homework assignment during this unit so that you can prioritize working on the project outside of class
+    - Due to scheduling constraints, we will not be having project briefings on 4/25 and you'll be asked to share a short update via email instead
+
+
 ## Final Project 
 
 Below is the assignment page describing the final project:

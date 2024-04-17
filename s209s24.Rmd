@@ -272,7 +272,7 @@ x = data.frame(Date = c("Mon 4/15", "Wed 4/17", "Fri 4/19"),
                            "Chi-squared Testing (cont)",
                            " "),
                Lab = c(" ", 
-                       "Chi-squared Testing in `R`",
+                       "[Chi-squared Testing in `R`](s209s24/chisq.html)",
                        "Chi-squared Testing in `R` (cont)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
