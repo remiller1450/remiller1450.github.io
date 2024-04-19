@@ -1822,11 +1822,13 @@ loss? Perform an appropriate statistical test, clearly stating your null
 hypothesis, <span class="math inline">\(p\)</span>-value, and
 conclusion. You should use <code>R</code> to perform the test.</p>
 <p><span class="math inline">\(~\)</span></p>
-<p><strong>Question 6</strong>: Are cell phones and laptops more likely
-to be the subject of a property damage claim than a property loss claim?
-<em>Hint</em>: You’ll need to use the <code>filter()</code> and/or
-<code>mutate()</code> and <code>ifelse()</code> functions in order to
-prepare the data for this question.</p>
+<p><strong>Question 6</strong>: Among laptops and cell phones, which
+device is more likely to be the subject of a property loss claim than a
+property damage claim? <em>Hint</em>: You’ll need to use the
+<code>filter()</code> and/or <code>mutate()</code> and
+<code>ifelse()</code> functions in order to prepare the data for this
+question. You should ignore all other items and claim types for this
+question.</p>
 <ul>
 <li><strong>Part A</strong>: After preparing the data, create an
 appropriate data visualization related to this research question.</li>
@@ -1835,10 +1837,14 @@ clearly stating your null hypothesis, <span class="math inline">\(p\)</span>-val
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 <p><strong>Question 7</strong>: Do property loss claims tend to result
-in higher close amounts (payouts) than property damage claims? Perform
-an appropriate statistical test, clearly stating your null hypothesis,
-<span class="math inline">\(p\)</span>-value, and conclusion. You should
-use <code>R</code> to perform the test.</p>
+in higher close amounts (payouts) than property damage claims? You
+should consider only these two claim types in this question.</p>
+<ul>
+<li><strong>Part A</strong>: After preparing the data, create an
+appropriate data visualization related to this research question.</li>
+<li><strong>Part B</strong>: Perform an appropriate statistical test,
+clearly stating your null hypothesis, <span class="math inline">\(p\)</span>-value, and conclusion.</li>
+</ul>
 <p><span class="math inline">\(~\)</span></p>
 <p><strong>Question 8</strong>: Considering all available categories in
 each variable, is the status of claim associated with the claim site?
@@ -1850,9 +1856,9 @@ conclusion. You should use <code>R</code> to perform the test.
 <p><strong>Question 9</strong>: What happens when you filter out the
 “Other” category before performing the hypothesis test in Question 8?
 Repeat this test after subsetting the data using the
-<code>filter()</code> function (introduced in <a href="https://remiller1450.github.io/s209s24/dplyr.html">Lab 4</a>) and
-briefly discuss the consequences, if any, of removing this category from
-the analysis.</p>
+<code>filter()</code> function to remove cases in the “Other” category,
+then briefly discuss the consequences, if any, of removing this category
+from the analysis.</p>
 </div>
 </div>
 
