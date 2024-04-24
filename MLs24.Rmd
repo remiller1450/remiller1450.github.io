@@ -198,3 +198,6 @@ $~$
 - [Intro to Statistical Learning, Ch 4.2 and 4.3 (Logistic Regression)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 - [Intro to Statistical Learning, Ch 6.2 (Regularization)](https://hastie.su.domains/ISLR2/ISLRv2_website.pdf)
 - [Stanford Engineering Intro to Neural Networks (CS229)](https://www.youtube.com/watch?v=MfIjxPh6Pys)
+
+**Unit #5**:
+
