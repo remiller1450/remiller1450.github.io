@@ -293,7 +293,7 @@ x = data.frame(Date = c("Mon 4/22", "Wed 4/24", "Fri 4/26"),
                            " ",
                            "Work on Project"),
                Lab = c(" ", 
-                       "Analysis of Variance in `R`",
+                       "[Analysis of Variance in `R`](s209s24/anova.html)",
                        "Work on Project"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
