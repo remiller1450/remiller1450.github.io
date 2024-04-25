@@ -152,7 +152,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("4/23", "4/25", "4/30", "5/2", "5/7", "5/9"), 
                Lecture = c(" ", "[Convolutional Neural Networks](ml24/cnn.pdf)", " ", "Reccurent Neural Networks", "Presentations (part 1)", "Presentations (part 2)"),
-               Lab = c("[Lab 15 - Introduction to PyTorch](ml24/torch_lab1.html)", "[CNNs in PyTorch](ml24/torch_lab2.html)", "Transfer Learning using PyTorch", "RNNs in PyTorch", " ", " "))
+               Lab = c("[Lab 15 - Introduction to PyTorch](ml24/torch_lab1.html)", "[Lab 16 - CNNs in PyTorch](ml24/torch_lab2.html)", "Transfer Learning using PyTorch", "RNNs in PyTorch", " ", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
