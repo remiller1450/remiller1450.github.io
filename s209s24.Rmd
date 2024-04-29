@@ -311,14 +311,18 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/29", "Wed 5/1", "Fri 5/3"), 
-               Lecture = c("Outliers, Transformations, and Non-parametric tests",
-                           "Hypothesis Testing for Regression Models",
+               Lecture = c("[Hypothesis Testing for Regression Models](s209s24/reg_inf.pdf)",
+                           " ",
                            " "),
                Lab = c(" ", 
-                       "Transformations, Non-parametric tests, and Regression", "Transformations, Non-parametric tests, and Regression (cont)"))
+                       "[Hypothesis Testing for Regression Models in `R`](s209s24/reg_inf.html)",
+                       "Hypothesis Testing for Regression Models in `R` (cont.)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- There is no homework assignment this week to allow you additional time work on your project and prepare for Exam 3
+- Lab 16 is due Monday 5/6 at 11:59pm
 
 $~$
 
@@ -335,6 +339,12 @@ x = data.frame(Date = c("Mon 5/6", "Wed 5/8", "Fri 5/10"),
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- **Exam 3** is planned for *Friday 5/10* during class. The exam is not intended to be cumulative, but since we've continued to focus on hypothesis testing you should expect conceptual questions about this topic.
+    - [Practice exam](s209s24/practice_exam3.pdf) 
+        - Sketch solutions will be posted by Monday 5/6
+    - [Study guide](s209s24/Exam3_StudyGuide.pdf)
+- There is no homework assignment this week
 
 - *Note*: Project reports are due Friday 5/17 at 5pm. No late submissions will be accepted as per college policies.
 
