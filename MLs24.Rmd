@@ -152,7 +152,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("4/23", "4/25", "4/30", "5/2", "5/7", "5/9"), 
                Lecture = c(" ", "[Convolutional Neural Networks](ml24/cnn.pdf)", " ", "Reccurent Neural Networks", "Presentations (part 1)", "Presentations (part 2)"),
-               Lab = c("[Lab 15 - Introduction to PyTorch](ml24/torch_lab1.html)", "[Lab 16 - CNNs in PyTorch](ml24/torch_lab2.html)", "Transfer Learning using PyTorch", "RNNs in PyTorch", " ", " "))
+               Lab = c("[Lab 15 - Introduction to PyTorch](ml24/torch_lab1.html)", "[Lab 16 - CNNs in PyTorch](ml24/torch_lab2.html)", "[Lab 17 - Transfer Learning using PyTorch](ml24/torch_lab3.html)", "RNNs in PyTorch (optional)", " ", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -201,4 +201,7 @@ $~$
 - [Stanford Engineering Intro to Neural Networks (CS229)](https://www.youtube.com/watch?v=MfIjxPh6Pys)
 
 **Unit #5**:
+
+- [PyTorch - Learning the Basics](https://pytorch.org/tutorials/beginner/basics/intro.html)
+- [Stanford's Intro to Statistical Learning video 10.2 (Convolutional Neural Networks)](https://www.youtube.com/watch?v=ggOZuZnA6is&list=PLoROMvodv4rOzrYsAxzQyHb8n_RWNuS1e&index=69)
 
