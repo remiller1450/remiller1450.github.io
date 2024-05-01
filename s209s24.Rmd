@@ -321,7 +321,7 @@ kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- There is no homework assignment this week to allow you additional time work on your project and prepare for Exam 3
+- There is no homework assignment this week to allow you additional time to work on your project and prepare for Exam 3
 - Lab 16 is due Monday 5/6 at 11:59pm
 
 $~$
@@ -342,9 +342,9 @@ kable(x) %>%
 
 - **Exam 3** is planned for *Friday 5/10* during class. The exam is not intended to be cumulative, but since we've continued to focus on hypothesis testing you should expect conceptual questions about this topic.
     - [Practice exam](s209s24/practice_exam3.pdf) 
-        - Sketch solutions will be posted by Monday 5/6
+        - Sketch solutions will be posted on Monday 5/6
     - [Study guide](s209s24/Exam3_StudyGuide.pdf)
-- There is no homework assignment this week
+- There is no homework assignment this week due project presentations and Exam 3
 
 - *Note*: Project reports are due Friday 5/17 at 5pm. No late submissions will be accepted as per college policies.
 
@@ -396,5 +396,8 @@ Information about exams (including dates and study materials) will be posted her
     - [Study guide](s209s24/Exam2_StudyGuide.pdf)
     - Solutions to the practice exam will be posted Monday 4/8
 - **Exam 3**: Planned for *Friday 5/10* during class (1-2:20pm)
-
+    - [Practice exam](s209s24/practice_exam3.pdf)
+    - [Study guide](s209s24/Exam3_StudyGuide.pdf)
+    - Solutions to the practice exam will be posted Monday 5/6
+    
 Unless otherwise indicated, you are responsible for the content of all lectures, labs, and homework on the corresponding exam.
