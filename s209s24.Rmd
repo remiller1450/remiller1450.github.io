@@ -342,7 +342,7 @@ kable(x) %>%
 
 - **Exam 3** is planned for *Friday 5/10* during class. The exam is not intended to be cumulative, but since we've continued to focus on hypothesis testing you should expect conceptual questions about this topic.
     - [Practice exam](s209s24/practice_exam3.pdf) 
-        - Sketch solutions will be posted on Monday 5/6
+        - The sketch solution is [found here](s209s24/practice_exam3_soln.pdf) 
     - [Study guide](s209s24/Exam3_StudyGuide.pdf)
 - There is no homework assignment this week due project presentations and Exam 3
 
