@@ -1,0 +1,539 @@
+Chamber,State,District,Name,Age,Birthdate,Party
+House,CA,CA-31,Grace F. Napolitano,86,12/4/1936,D
+House,DC,DC-AL,Eleanor Holmes Norton,85,6/13/1937,D
+House,KY,KY-05,Harold Rogers,85,12/31/1937,R
+House,NJ,NJ-09,Bill Pascrell Jr.,85,1/25/1937,D
+House,CA,CA-43,Maxine Waters,84,8/15/1938,D
+House,MD,MD-05,Steny H. Hoyer,83,6/14/1939,D
+House,SC,SC-06,James E. Clyburn,82,7/21/1940,D
+House,CA,CA-11,Nancy Pelosi,82,3/26/1940,D
+House,IL,IL-07,Danny K. Davis,81,9/6/1941,D
+House,TX,TX-31,John Carter,81,11/6/1941,R
+House,CA,CA-16,Anna G. Eshoo,80,12/13/1942,D
+House,FL,FL-24,Frederica S. Wilson,80,11/5/1942,D
+House,CT,CT-03,Rosa DeLauro,79,3/2/1943,D
+House,NC,NC-05,Virginia Foxx,79,6/29/1943,R
+House,TX,TX-12,Kay Granger,79,1/18/1943,R
+House,CA,CA-07,Doris Matsui,78,9/25/1944,D
+House,IL,IL-09,Jan Schakowsky,78,5/26/1944,D
+House,MO,MO-05,Emanuel Cleaver II,78,10/26/1944,D
+House,GA,GA-13,David Scott,77,6/27/1945,D
+House,IN,IN-04,Jim Baird,77,6/4/1945,R
+House,NJ,NJ-12,Bonnie Watson Coleman,77,2/6/1945,D
+House,CA,CA-08,John Garamendi,77,1/24/1945,D
+House,OH,OH-09,Marcy Kaptur,76,6/17/1946,D
+House,TX,TX-37,Lloyd Doggett,76,10/6/1946,D
+House,CA,CA-12,Barbara Lee,76,7/16/1946,D
+House,NC,NC-12,Alma Adams,76,5/27/1946,D
+House,MD,MD-02,C.A. Dutch Ruppersberger,76,1/31/1946,D
+House,TX,TX-09,Al Green,75,9/1/1947,D
+House,VA,VA-03,Robert C. Scott,75,4/30/1947,D
+House,GA,GA-02,Sanford D. Bishop Jr.,75,2/4/1947,D
+House,NY,NY-12,Jerrold Nadler,75,6/13/1947,D
+House,CA,CA-18,Zoe Lofgren,75,12/21/1947,D
+House,FL,FL-08,Bill Posey,75,12/18/1947,R
+House,AS,AS-AL,Aumua Amata Coleman Radewagen,75,12/29/1947,R
+House,SC,SC-02,Joe Wilson,75,7/31/1947,R
+House,MI,MI-01,Jack Bergman,75,2/2/1947,R
+House,FL,FL-22,Lois Frankel,74,5/16/1948,D
+House,MS,MS-02,Bennie Thompson,74,1/28/1948,D
+House,OR,OR-03,Earl Blumenauer,74,8/16/1948,D
+House,CT,CT-01,John B. Larson,74,7/22/1948,D
+House,AZ,AZ-07,Raul M. Grijalva,74,2/19/1948,D
+House,PA,PA-16,Mike Kelly,74,5/10/1948,R
+House,TX,TX-36,Brian Babin,74,3/23/1948,R
+House,MD,MD-07,Kweisi Mfume,74,10/24/1948,D
+House,NY,NY-20,Paul Tonko,73,6/18/1949,D
+House,TN,TN-09,Steve Cohen,73,5/24/1949,D
+House,OK,OK-04,Tom Cole,73,4/28/1949,R
+House,TX,TX-25,Roger Williams,73,9/13/1949,R
+House,MA,MA-01,Richard E. Neal,73,2/14/1949,D
+House,FL,FL-11,Daniel Webster,73,4/27/1949,R
+House,ID,ID-02,Mike Simpson,72,9/8/1950,R
+House,TX,TX-29,Sylvia R. Garcia,72,9/6/1950,D
+House,NV,NV-01,Dina Titus,72,5/23/1950,D
+House,OH,OH-03,Joyce Beatty,72,3/12/1950,D
+House,VA,VA-11,Gerald E. Connolly,72,3/30/1950,D
+House,WV,WV-01,Carol Miller,72,11/4/1950,R
+House,TX,TX-18,Sheila Jackson Lee,72,1/12/1950,D
+House,TX,TX-26,Michael C. Burgess,72,12/23/1950,R
+House,VA,VA-08,Donald S. Beyer Jr.,72,6/20/1950,D
+House,FL,FL-16,Vern Buchanan,71,5/8/1951,R
+House,CA,CA-04,Mike Thompson,71,1/24/1951,D
+House,NJ,NJ-06,Frank Pallone Jr.,71,10/30/1951,D
+House,WI,WI-04,Gwen Moore,71,4/18/1951,D
+House,MI,MI-05,Tim Walberg,71,4/12/1951,R
+House,GA,GA-12,Rick W. Allen,71,11/7/1951,R
+House,UT,UT-04,Burgess Owens,71,8/2/1951,R
+House,CA,CA-21,Jim Costa,70,4/13/1952,D
+House,MA,MA-09,William Keating,70,9/6/1952,D
+House,FL,FL-05,John Rutherford,70,9/2/1952,R
+House,CA,CA-26,Julia Brownley,70,8/28/1952,D
+House,CA,CA-10,Mark DeSaulnier,70,3/31/1952,D
+House,OR,OR-02,Cliff Bentz,70,1/12/1952,R
+House,MO,MO-03,Blaine Luetkemeyer,70,5/7/1952,R
+House,HI,HI-01,Ed Case,70,9/27/1952,D
+House,MI,MI-06,Debbie Dingell,69,11/23/1953,D
+House,CA,CA-28,Judy Chu,69,7/7/1953,D
+House,CA,CA-41,Ken Calvert,69,6/8/1953,R
+House,NY,NY-07,Nydia M. Velazquez,69,3/28/1953,D
+House,TX,TX-03,Keith Self,69,3/20/1953,R
+House,CA,CA-48,Darrell Issa,69,11/1/1953,R
+House,CT,CT-02,Joe Courtney,69,4/6/1953,D
+House,NJ,NJ-02,Jeff Van Drew,69,2/23/1953,R
+House,NY,NY-05,Gregory W. Meeks,69,9/25/1953,D
+House,TX,TX-14,Randy Weber,69,7/2/1953,R
+House,FL,FL-02,Neal Dunn,69,2/16/1953,R
+House,SC,SC-05,Ralph Norman,69,6/20/1953,R
+House,NJ,NJ-04,Christopher H. Smith,69,3/4/1953,R
+House,PA,PA-03,Dwight Evans,68,5/16/1954,D
+House,MI,MI-13,Shri Thanedar,68,1/1/1955,D
+House,OR,OR-01,Suzanne Bonamici,68,10/14/1954,D
+House,GA,GA-04,Hank Johnson,68,10/2/1954,D
+House,NY,NY-13,Adriano Espaillat,68,9/27/1954,D
+House,MN,MN-04,Betty McCollum,68,7/12/1954,D
+House,CA,CA-32,Brad Sherman,68,10/24/1954,D
+House,AL,AL-06,Gary Palmer,68,5/14/1954,R
+House,FL,FL-28,Carlos Gimenez,68,1/17/1954,R
+House,OH,OH-06,Bill Johnson,68,11/10/1954,R
+House,CO,CO-05,Doug Lamborn,68,5/24/1954,R
+House,WI,WI-06,Glenn Grothman,67,7/3/1955,R
+House,IL,IL-11,Bill Foster,67,10/7/1955,D
+House,TX,TX-28,Henry Cuellar,67,9/19/1955,D
+House,IA,IA-01,Mariannette Miller-Meeks,67,9/6/1955,R
+House,WA,WA-04,Dan Newhouse,67,7/10/1955,R
+House,CA,CA-45,Michelle Steel,67,6/21/1955,R
+House,MA,MA-08,Stephen F. Lynch,67,3/31/1955,D
+House,TX,TX-17,Pete Sessions,67,3/22/1955,R
+House,ME,ME-01,Chellie Pingree,67,4/2/1955,D
+House,MD,MD-06,David Trone,67,9/21/1955,D
+House,AR,AR-02,French Hill,66,12/5/1956,R
+House,NH,NH-02,Ann McLane Kuster,66,9/5/1956,D
+House,CA,CA-05,Tom McClintock,66,7/10/1956,R
+House,NC,NC-04,Valerie P. Foushee,66,5/7/1956,D
+House,IL,IL-02,Robin Kelly,66,4/30/1956,D
+House,OH,OH-05,Bob Latta,66,4/18/1956,R
+House,NC,NC-06,Kathy Manning,66,12/3/1956,D
+House,KS,KS-04,Ron Estes,66,7/19/1956,R
+House,IL,IL-04,"Jesus ""Chuy"" Garcia",66,4/12/1956,D
+House,IN,IN-06,Greg Pence,66,11/14/1956,R
+House,CO,CO-01,Diana DeGette,65,7/29/1957,D
+House,PA,PA-07,Susan Wild,65,6/7/1957,D
+House,WI,WI-07,Tom Tiffany,65,12/30/1957,R
+House,GA,GA-01,"Earl L. ""Buddy"" Carter",65,9/6/1957,R
+House,NY,NY-25,Joseph D. Morelle,65,4/29/1957,D
+House,OH,OH-14,David Joyce,65,3/17/1957,R
+House,AR,AR-03,Steve Womack,65,2/18/1957,R
+House,PA,PA-13,John Joyce,65,2/8/1957,R
+House,MD,MD-01,Andy Harris,65,1/25/1957,R
+House,IL,IL-05,Mike Quigley,64,10/17/1958,D
+House,CA,CA-50,Scott Peters,64,6/17/1958,D
+House,OH,OH-02,Brad Wenstrup,64,6/17/1958,R
+House,NV,NV-02,Mark Amodei,64,6/12/1958,R
+House,NJ,NJ-10,Donald M. Payne Jr.,64,12/17/1958,D
+House,NJ,NJ-01,Donald Norcross,64,12/13/1958,D
+House,AZ,AZ-09,Paul Gosar,64,11/27/1958,R
+House,AZ,AZ-08,Debbie Lesko,64,11/14/1958,R
+House,MI,MI-08,Dan Kildee,64,8/11/1958,D
+House,AL,AL-03,Mike D. Rogers,64,7/16/1958,R
+House,AL,AL-01,Jerry Carl,64,6/17/1958,R
+House,VA,VA-09,Morgan Griffith,64,3/15/1958,R
+House,CA,CA-46,Lou Correa,64,1/24/1958,D
+House,AZ,AZ-05,Andy Biggs,64,11/7/1958,R
+House,TN,TN-01,Diana Harshbarger,63,1/1/1960,R
+House,MS,MS-04,Mike Ezell,63,4/6/1959,R
+House,MA,MA-02,Jim McGovern,63,11/20/1959,D
+House,NY,NY-26,Brian Higgins,63,10/6/1959,D
+House,CO,CO-04,Ken Buck,63,2/16/1959,R
+House,VA,VA-01,Rob Wittman,63,2/3/1959,R
+House,PA,PA-05,Mary Gay Scanlon,63,8/30/1959,D
+House,PA,PA-15,"Glenn ""GT"" Thompson",63,7/27/1959,R
+House,NM,NM-03,Teresa Leger Fernandez,63,7/1/1959,D
+House,PA,PA-04,Madeleine Dean,63,6/6/1959,D
+House,IL,IL-15,Mary Miller,63,8/7/1959,R
+House,CA,CA-39,Mark Takano,62,12/10/1960,D
+House,NC,NC-11,Chuck Edwards,62,9/13/1960,R
+House,CA,CA-30,Adam B. Schiff,62,6/22/1960,D
+House,GA,GA-07,Lucy McBath,62,6/1/1960,D
+House,OH,OH-10,Michael R. Turner,62,1/11/1960,R
+House,IL,IL-12,Mike Bost,62,12/30/1960,R
+House,MT,MT-02,Matt Rosendale,62,7/7/1960,R
+House,OK,OK-03,Frank D. Lucas,62,1/6/1960,R
+House,CA,CA-01,Doug LaMalfa,62,7/2/1960,R
+House,UT,UT-02,Chris Stewart,62,7/15/1960,R
+House,UT,UT-03,John Curtis,62,5/10/1960,R
+House,RI,RI-01,David Cicilline,61,7/15/1961,D
+House,FL,FL-26,Mario Diaz-Balart,61,9/25/1961,R
+House,NY,NY-24,Claudia Tenney,61,2/4/1961,R
+House,FL,FL-27,Maria Elvira Salazar,61,11/1/1961,R
+House,IL,IL-10,Brad Schneider,61,8/20/1961,D
+House,PA,PA-08,Matt Cartwright,61,5/1/1961,D
+House,CA,CA-52,Juan C. Vargas,61,3/7/1961,D
+House,OK,OK-01,Kevin Hern,61,12/4/1961,R
+House,MT,MT-01,Ryan Zinke,61,11/1/1961,R
+House,LA,LA-03,Clay Higgins,61,8/24/1961,R
+House,MI,MI-02,John Moolenaar,61,5/8/1961,R
+House,MD,MD-04,Glenn F. Ivey,61,2/27/1961,D
+House,MN,MN-06,Tom Emmer,61,3/3/1961,R
+House,WY,WY-AL,Harriet M. Hageman,60,10/18/1962,R
+House,AZ,AZ-01,David Schweikert,60,3/3/1962,R
+House,OH,OH-12,Troy Balderson,60,1/16/1962,R
+House,WA,WA-10,Marilyn Strickland,60,9/25/1962,D
+House,GU,GU-AL,James C. Moylan,60,7/18/1962,R
+House,PA,PA-10,Scott Perry,60,5/27/1962,R
+House,WA,WA-01,Suzan DelBene,60,2/17/1962,D
+House,DE,DE-AL,Lisa Blunt Rochester,60,2/10/1962,D
+House,MD,MD-08,Jamie Raskin,60,12/13/1962,D
+House,TN,TN-03,Chuck Fleischmann,60,10/11/1962,R
+House,MO,MO-02,Ann Wagner,60,9/13/1962,R
+House,MD,MD-03,John Sarbanes,60,5/22/1962,D
+House,ID,ID-01,Russ Fulcher,60,3/9/1962,R
+House,CA,CA-40,Young Kim,60,10/18/1962,R
+House,IN,IN-08,Larry Bucshon,60,5/31/1962,R
+House,TX,TX-10,Michael McCaul,60,1/14/1962,R
+House,GA,GA-09,Andrew Clyde,59,11/22/1963,R
+House,NC,NC-02,Deborah K. Ross,59,6/20/1963,D
+House,LA,LA-02,Troy Carter,59,10/26/1963,D
+House,GA,GA-11,Barry Loudermilk,59,12/22/1963,R
+House,WI,WI-05,Scott Fitzgerald,59,11/16/1963,R
+House,MO,MO-06,Sam Graves,59,11/7/1963,R
+House,MO,MO-04,Mark Alford,59,10/4/1963,R
+House,MA,MA-05,Katherine M. Clark,59,7/17/1963,D
+House,NC,NC-03,Greg Murphy,59,3/5/1963,R
+House,NE,NE-02,Don Bacon,59,8/16/1963,R
+House,CA,CA-29,Tony Cardenas,59,3/31/1963,D
+House,FL,FL-12,Gus Bilirakis,59,2/8/1963,R
+House,AL,AL-07,Terri A. Sewell,58,1/1/1965,D
+House,NY,NY-09,Yvette D. Clarke,58,11/21/1964,D
+House,WI,WI-02,Mark Pocan,58,8/14/1964,D
+House,TN,TN-02,Tim Burchett,58,8/25/1964,R
+House,NC,NC-08,Dan Bishop,58,7/1/1964,R
+House,CA,CA-24,Salud Carbajal,58,11/18/1964,D
+House,TN,TN-07,Mark E. Green,58,11/8/1964,R
+House,CA,CA-02,Jared Huffman,58,2/18/1964,D
+House,OR,OR-04,Val Hoyle,58,2/14/1964,D
+House,FL,FL-18,Scott Franklin,58,8/23/1964,R
+House,KY,KY-02,Brett Guthrie,58,2/18/1964,R
+House,PA,PA-09,Dan Meuser,58,2/10/1964,R
+House,PA,PA-11,Lloyd K. Smucker,58,1/23/1964,R
+House,TN,TN-04,Scott DesJarlais,58,2/21/1964,R
+House,OH,OH-04,Jim Jordan,58,2/17/1964,R
+House,CA,CA-06,Ami Bera,57,3/2/1965,D
+House,MN,MN-07,Michelle Fischbach,57,11/3/1965,R
+House,LA,LA-01,Steve Scalise,57,10/6/1965,R
+House,WA,WA-07,Pramila Jayapal,57,9/21/1965,D
+House,AL,AL-04,Robert B. Aderholt,57,7/22/1965,R
+House,WA,WA-02,Rick Larsen,57,6/15/1965,D
+House,WA,WA-09,Adam Smith,57,6/15/1965,D
+House,TN,TN-06,John W. Rose,57,2/23/1965,R
+House,CA,CA-20,Kevin McCarthy,57,1/26/1965,R
+House,VA,VA-05,Bob Good,57,9/11/1965,R
+House,CA,CA-35,Norma J. Torres,57,4/23/1965,D
+House,NV,NV-03,Susie Lee,56,11/7/1966,D
+House,TN,TN-08,David Kustoff,56,10/8/1966,R
+House,FL,FL-14,Kathy Castor,56,8/20/1966,D
+House,CT,CT-04,Jim Himes,56,7/5/1966,D
+House,AR,AR-01,Rick Crawford,56,1/22/1966,R
+House,FL,FL-25,Debbie Wasserman Schultz,56,9/27/1966,D
+House,MS,MS-01,Trent Kelly,56,3/1/1966,R
+House,IL,IL-01,Jonathan L. Jackson,56,1/7/1966,D
+House,SC,SC-03,Jeff Duncan,56,1/7/1966,R
+House,AL,AL-02,Barry Moore,56,9/26/1966,R
+House,MN,MN-08,Pete Stauber,56,5/10/1966,R
+House,MI,MI-09,Lisa McClain,56,4/7/1966,R
+House,CA,CA-13,John Duarte,56,9/9/1966,R
+House,VI,VI-AL,Stacey Plaskett,56,5/13/1966,D
+House,GA,GA-03,Drew Ferguson,56,11/15/1966,R
+House,TX,TX-34,Vicente Gonzalez,55,9/4/1967,D
+House,NY,NY-22,Brandon Williams,55,5/22/1967,R
+House,TX,TX-04,Pat Fallon,55,12/19/1967,R
+House,PA,PA-06,Chrissy Houlahan,55,6/5/1967,D
+House,GA,GA-10,Mike Collins,55,7/2/1967,R
+House,TX,TX-13,Ronny Jackson,55,5/4/1967,R
+House,FL,FL-04,Aaron Bean,55,1/25/1967,R
+House,AR,AR-04,Bruce Westerman,55,11/18/1967,R
+House,WA,WA-08,Kim Schrier,54,8/23/1968,D
+House,NJ,NJ-07,Thomas H. Kean Jr.,54,9/5/1968,R
+House,VA,VA-10,Jennifer Wexton,54,5/27/1968,D
+House,VT,VT-AL,Becca Balint,54,5/4/1968,D
+House,OR,OR-05,Lori Chavez-DeRemer,54,4/7/1968,R
+House,IL,IL-16,Darin LaHood,54,7/5/1968,R
+House,TX,TX-22,Troy Nehls,54,4/7/1968,R
+House,GA,GA-06,Rich McCormick,54,10/7/1968,R
+House,OR,OR-06,Andrea Salinas,53,12/6/1969,D
+House,CA,CA-38,Linda T. Sanchez,53,1/28/1969,D
+House,CA,CA-19,Jimmy Panetta,53,10/1/1969,D
+House,TX,TX-16,Veronica Escobar,53,9/15/1969,D
+House,IN,IN-01,Frank J. Mrvan,53,4/16/1969,D
+House,CA,CA-36,Ted Lieu,53,3/29/1969,D
+House,MN,MN-03,Dean Phillips,53,1/20/1969,D
+House,GA,GA-08,Austin Scott,53,12/10/1969,R
+House,WA,WA-05,Cathy McMorris Rodgers,53,5/22/1969,R
+House,WI,WI-03,Derrick Van Orden,53,9/15/1969,R
+House,IA,IA-04,Randy Feenstra,53,1/14/1969,R
+House,MI,MI-04,Bill Huizenga,53,1/31/1969,R
+House,NE,NE-03,Adrian Smith,52,12/19/1970,R
+House,TX,TX-33,Marc Veasey,52,1/3/1971,D
+House,TX,TX-24,Beth Van Duyne,52,11/16/1970,R
+House,CA,CA-23,Jay Obernolte,52,8/18/1970,R
+House,NY,NY-08,Hakeem Jeffries,52,8/4/1970,D
+House,CA,CA-15,Kevin Mullin,52,6/15/1970,D
+House,AL,AL-05,Dale Strong,52,5/8/1970,R
+House,AZ,AZ-04,Greg Stanton,52,3/8/1970,D
+House,OH,OH-08,Warren Davidson,52,3/1/1970,R
+House,MS,MS-03,Michael Guest,52,2/4/1970,R
+House,TX,TX-06,Jake Ellzey,52,1/24/1970,R
+House,NC,NC-09,Richard Hudson,51,11/4/1971,R
+House,IL,IL-06,Sean Casten,51,11/23/1971,D
+House,NC,NC-01,Don Davis,51,8/29/1971,D
+House,TN,TN-05,Andy Ogles,51,6/18/1971,R
+House,WV,WV-02,Alex X. Mooney,51,6/7/1971,R
+House,OH,OH-15,Mike Carey,51,3/13/1971,R
+House,VA,VA-02,Jen Kiggans,51,6/18/1971,R
+House,KY,KY-04,Thomas Massie,51,1/13/1971,R
+House,NC,NC-07,David Rouzer,50,2/16/1972,R
+House,CA,CA-25,Raul Ruiz,50,8/25/1972,D
+House,TX,TX-21,Chip Roy,50,8/7/1972,R
+House,VA,VA-06,Ben Cline,50,2/29/1972,R
+House,KY,KY-01,James R. Comer,50,8/19/1972,R
+House,CA,CA-37,Sydney Kamlager,50,7/20/1972,D
+House,TX,TX-19,Jodey C. Arrington,50,3/9/1972,R
+House,LA,LA-06,Garret Graves,50,1/31/1972,R
+House,MN,MN-02,Angie Craig,50,2/14/1972,D
+House,LA,LA-04,Mike Johnson,50,1/30/1972,R
+House,NJ,NJ-11,Mikie Sherrill,50,1/19/1972,D
+House,PA,PA-01,Brian Fitzpatrick,49,12/17/1973,R
+House,WA,WA-06,Derek Kilmer,49,1/1/1974,D
+House,OK,OK-05,Stephanie Bice,49,11/11/1973,R
+House,MA,MA-03,Lori Trahan,49,10/27/1973,D
+House,KY,KY-06,Andy Barr,49,7/24/1973,R
+House,CA,CA-47,Katie Porter,49,1/3/1974,D
+House,IL,IL-08,Raja Krishnamoorthi,49,7/19/1973,D
+House,NV,NV-04,Steven Horsford,49,4/29/1973,D
+House,AK,AK-AL,Mary Peltola,49,8/31/1973,D
+House,CT,CT-05,Jahana Hayes,49,3/8/1973,D
+House,CA,CA-34,Jimmy Gomez,48,11/25/1974,D
+House,MA,MA-07,Ayanna S. Pressley,48,2/3/1974,D
+House,IN,IN-07,Andre Carson,48,10/16/1974,D
+House,TX,TX-15,Monica De La Cruz,48,11/11/1974,R
+House,FL,FL-06,Michael Waltz,48,1/31/1974,R
+House,TX,TX-20,Joaquin Castro,48,9/16/1974,D
+House,GA,GA-14,Marjorie Taylor Greene,48,5/27/1974,R
+House,FL,FL-15,Laurel Lee,48,3/26/1974,R
+House,TX,TX-01,Nathaniel Moran,48,9/23/1974,R
+House,OH,OH-11,Shontel Brown,47,6/24/1975,D
+House,TX,TX-07,Lizzie Fletcher,47,2/13/1975,D
+House,NC,NC-13,Wiley Nickel,47,11/23/1975,D
+House,TX,TX-08,Morgan Luttrell,47,11/7/1975,R
+House,NC,NC-10,Patrick T. McHenry,47,10/22/1975,R
+House,NY,NY-06,Grace Meng,47,10/1/1975,D
+House,NJ,NJ-05,Josh Gottheimer,47,3/8/1975,D
+House,NE,NE-01,Mike Flood,47,2/23/1975,R
+House,TX,TX-27,Michael Cloud,47,5/13/1975,R
+House,NY,NY-19,Marc Molinaro,47,10/8/1975,R
+House,CA,CA-44,Nanette Barragan,46,9/15/1976,D
+House,IL,IL-17,Eric Sorensen,46,3/18/1976,D
+House,OH,OH-01,Greg Landsman,46,12/4/1976,D
+House,ND,ND-AL,Kelly Armstrong,46,10/8/1976,R
+House,MO,MO-07,Eric Burlison,46,10/2/1976,R
+House,CA,CA-17,Ro Khanna,46,9/13/1976,D
+House,MI,MI-12,Rashida Tlaib,46,7/24/1976,D
+House,MO,MO-01,Cori Bush,46,7/21/1976,D
+House,MI,MI-07,Elissa Slotkin,46,7/10/1976,D
+House,CA,CA-27,Mike Garcia,46,4/24/1976,R
+House,HI,HI-02,Jill N. Tokuda,46,3/3/1976,D
+House,SD,SD-AL,Dusty Johnson,46,9/30/1976,R
+House,IN,IN-09,Erin Houchin,46,9/24/1976,R
+House,NY,NY-16,Jamaal Bowman,46,4/1/1976,D
+House,KS,KS-01,Tracey Mann,46,12/17/1976,R
+House,NY,NY-10,Dan Goldman,46,2/26/1976,D
+House,MN,MN-01,Brad Finstad,46,5/30/1976,R
+House,CA,CA-42,Robert Garcia,45,12/2/1977,D
+House,IL,IL-13,Nikki Budzinski,45,3/11/1977,D
+House,PA,PA-02,Brendan F. Boyle,45,2/6/1977,D
+House,SC,SC-01,Nancy Mace,45,12/4/1977,R
+House,TX,TX-11,August Pfluger,45,12/28/1977,R
+House,CA,CA-22,David Valadao,45,4/14/1977,R
+House,FL,FL-09,Darren Soto,44,2/25/1978,D
+House,GA,GA-05,Nikema Williams,44,7/30/1978,D
+House,FL,FL-17,Greg Steube,44,5/19/1978,R
+House,MA,MA-06,Seth Moulton,44,10/24/1978,D
+House,CA,CA-49,Mike Levin,44,10/20/1978,D
+House,IN,IN-05,Victoria Spartz,44,10/6/1978,R
+House,FL,FL-19,Byron Donalds,44,10/28/1978,R
+House,NY,NY-01,Nick LaLota,44,6/23/1978,R
+House,NM,NM-01,Melanie Stansbury,43,1/31/1979,D
+House,AZ,AZ-03,Ruben Gallego,43,11/20/1979,D
+House,AZ,AZ-02,Eli Crane,43,1/3/1980,R
+House,CA,CA-33,Pete Aguilar,43,6/19/1979,D
+House,CO,CO-06,Jason Crow,43,3/15/1979,D
+House,FL,FL-20,Sheila Cherfilus-McCormick,43,1/25/1979,D
+House,KY,KY-03,Morgan McGarvey,43,12/23/1979,D
+House,VA,VA-07,Abigail Spanberger,43,8/7/1979,D
+House,IN,IN-03,Jim Banks,43,7/16/1979,R
+House,OK,OK-02,Josh Brecheen,43,6/19/1979,R
+House,IA,IA-03,Zach Nunn,43,5/4/1979,R
+House,CO,CO-08,Yadira Caraveo,42,12/23/1980,D
+House,NY,NY-11,Nicole Malliotakis,42,11/11/1980,R
+House,FL,FL-07,Cory Mills,42,7/13/1980,R
+House,MO,MO-08,Jason Smith,42,6/16/1980,R
+House,NH,NH-01,Chris Pappas,42,6/4/1980,D
+House,KS,KS-03,Sharice Davids,42,5/22/1980,D
+House,FL,FL-23,Jared Moskowitz,42,12/18/1980,D
+House,CA,CA-14,Eric Swalwell,42,11/16/1980,D
+House,FL,FL-21,Brian Mast,42,7/10/1980,R
+House,UT,UT-01,Blake D. Moore,42,6/22/1980,R
+House,TX,TX-23,Tony Gonzales,42,10/10/1980,R
+House,TX,TX-30,Jasmine Crockett,41,3/29/1981,D
+House,WI,WI-01,Bryan Steil,41,3/3/1981,R
+House,CO,CO-07,Brittany Pettersen,41,12/6/1981,D
+House,NY,NY-23,Nick Langworthy,41,2/27/1981,R
+House,TX,TX-38,Wesley Hunt,41,11/13/1981,R
+House,LA,LA-05,Julia Letlow,41,3/16/1981,R
+House,MI,MI-10,John James,41,6/8/1981,R
+House,ME,ME-02,Jared Golden,40,7/25/1982,D
+House,FL,FL-01,Matt Gaetz,40,5/7/1982,R
+House,NY,NY-04,Anthony D'Esposito,40,2/22/1982,R
+House,TX,TX-05,Lance Gooden,40,12/1/1982,R
+House,NJ,NJ-03,Andy Kim,40,7/12/1982,D
+House,NY,NY-18,Pat Ryan,40,3/28/1982,D
+House,MI,MI-03,Hillary Scholten,40,2/22/1982,D
+House,MN,MN-05,Ilhan Omar,40,10/4/1982,D
+House,NC,NC-14,Jeff Jackson,40,9/12/1982,D
+House,AZ,AZ-06,Juan Ciscomani,40,8/31/1982,R
+House,IL,IL-03,Delia Ramirez,39,7/2/1983,D
+House,MI,MI-11,Haley Stevens,39,6/24/1983,D
+House,PA,PA-14,Guy Reschenthaler,39,4/17/1983,R
+House,RI,RI-02,Seth Magaziner,39,7/22/1983,D
+House,IA,IA-02,Ashley Hinson,39,6/27/1983,R
+House,TX,TX-32,Colin Allred,39,4/15/1983,D
+House,NY,NY-02,Andrew Garbarino,38,9/27/1984,R
+House,NM,NM-02,Gabe Vasquez,38,8/3/1984,D
+House,SC,SC-04,William R. Timmons IV,38,4/30/1984,R
+House,TX,TX-02,Daniel Crenshaw,38,3/14/1984,R
+House,NY,NY-21,Elise Stefanik,38,7/2/1984,R
+House,CO,CO-02,Joe Neguse,38,5/13/1984,D
+House,WI,WI-08,Mike Gallagher,38,3/3/1984,R
+House,PA,PA-17,Chris Deluzio,38,7/13/1984,D
+House,IN,IN-02,Rudy Yakym III,38,2/24/1984,R
+House,CA,CA-03,Kevin Kiley,37,1/30/1985,R
+House,SC,SC-07,Russell Fry,37,1/31/1985,R
+House,NJ,NJ-08,Rob Menendez,37,7/12/1985,D
+House,IL,IL-14,Lauren Underwood,36,10/4/1986,D
+House,OH,OH-13,Emilia Sykes,36,1/4/1986,D
+House,NY,NY-17,Mike Lawler,36,9/9/1986,R
+House,CA,CA-09,Josh Harder,36,8/1/1986,D
+House,CO,CO-03,Lauren Boebert,36,12/19/1986,R
+House,PA,PA-12,Summer Lee,35,11/26/1987,D
+House,OH,OH-07,Max Miller,34,11/13/1988,R
+House,NY,NY-03,George Santos,34,7/22/1988,R
+House,NY,NY-15,Ritchie Torres,34,3/12/1988,D
+House,FL,FL-03,Kat Cammack,34,2/16/1988,R
+House,WA,WA-03,Marie Gluesenkamp Perez,34,6/4/1988,D
+House,MA,MA-04,Jake Auchincloss,34,1/29/1988,D
+House,KS,KS-02,Jake LaTurner,34,2/17/1988,R
+House,NY,NY-14,Alexandria Ocasio-Cortez,33,10/13/1989,D
+House,FL,FL-13,Anna Paulina Luna,33,5/6/1989,R
+House,TX,TX-35,Greg Casar,33,5/4/1989,D
+House,CA,CA-51,Sara Jacobs,33,2/1/1989,D
+House,FL,FL-10,Maxwell Alejandro Frost,25,1/17/1997,D
+Senate,IA,,Charles E. Grassley,89,9/17/1933,R
+Senate,CA,,Dianne Feinstein,89,6/22/1933,D
+Senate,VT,,Bernie Sanders,81,9/8/1941,D
+Senate,KY,,Mitch McConnell,80,2/20/1942,R
+Senate,MD,,Benjamin L. Cardin,79,10/5/1943,D
+Senate,ID,,Jim Risch,79,5/3/1943,R
+Senate,IL,,Richard J. Durbin,78,11/21/1944,D
+Senate,ME,,Angus King,78,3/31/1944,D
+Senate,MA,,Edward J. Markey,76,7/11/1946,D
+Senate,CT,,Richard Blumenthal,76,2/13/1946,D
+Senate,UT,,Mitt Romney,75,3/12/1947,R
+Senate,VT,,Peter Welch,75,5/2/1947,D
+Senate,HI,,Mazie K. Hirono,75,11/3/1947,D
+Senate,WV,,Joe Manchin III,75,8/24/1947,D
+Senate,NH,,Jeanne Shaheen,75,1/28/1947,D
+Senate,DE,,Thomas R. Carper,75,1/23/1947,D
+Senate,RI,,Jack Reed,73,11/12/1949,D
+Senate,OR,,Ron Wyden,73,5/3/1949,D
+Senate,MA,,Elizabeth Warren,73,6/22/1949,D
+Senate,AR,,John Boozman,72,12/10/1950,R
+Senate,MI,,Debbie Stabenow,72,4/29/1950,D
+Senate,NY,,Charles E. Schumer,72,11/23/1950,D
+Senate,WA,,Patty Murray,72,10/11/1950,D
+Senate,MS,,Roger Wicker,71,7/5/1951,R
+Senate,ID,,Michael D. Crapo,71,5/20/1951,R
+Senate,LA,,John Kennedy,71,11/21/1951,R
+Senate,NE,,Deb Fischer,71,3/1/1951,R
+Senate,CO,,John Hickenlooper,70,2/7/1952,D
+Senate,FL,,Rick Scott,70,12/1/1952,R
+Senate,TX,,John Cornyn,70,2/2/1952,R
+Senate,WY,,John Barrasso,70,7/21/1952,R
+Senate,ME,,Susan Collins,70,12/7/1952,R
+Senate,OH,,Sherrod Brown,70,11/9/1952,D
+Senate,TN,,Marsha Blackburn,70,6/6/1952,R
+Senate,WV,,Shelley Moore Capito,69,11/26/1953,R
+Senate,NJ,,Bob Menendez,69,1/1/1954,D
+Senate,VA,,Mark Warner,68,12/15/1954,D
+Senate,AL,,Tommy Tuberville,68,9/18/1954,R
+Senate,KS,,Jerry Moran,68,5/29/1954,R
+Senate,IN,,Mike Braun,68,3/24/1954,R
+Senate,SD,,Mike Rounds,68,10/24/1954,R
+Senate,WY,,Cynthia Lummis,68,9/10/1954,R
+Senate,SC,,Lindsey Graham,67,7/9/1955,R
+Senate,WI,,Ron Johnson,67,4/8/1955,R
+Senate,RI,,Sheldon Whitehouse,67,10/20/1955,D
+Senate,OR,,Jeff Merkley,66,10/24/1956,D
+Senate,MT,,Jon Tester,66,8/21/1956,D
+Senate,AK,,Lisa Murkowski,65,5/22/1957,R
+Senate,LA,,Bill Cassidy,65,9/28/1957,R
+Senate,ND,,John Hoeven,65,3/13/1957,R
+Senate,NV,,Jacky Rosen,65,8/2/1957,D
+Senate,MN,,Tina Smith,64,3/4/1958,D
+Senate,VA,,Tim Kaine,64,2/26/1958,D
+Senate,WA,,Maria Cantwell,64,10/13/1958,D
+Senate,MI,,Gary Peters,64,12/1/1958,D
+Senate,NH,,Maggie Hassan,64,2/27/1958,D
+Senate,MD,,Chris Van Hollen,63,1/10/1959,D
+Senate,MS,,Cindy Hyde-Smith,63,5/10/1959,R
+Senate,TN,,Bill Hagerty,63,8/14/1959,R
+Senate,NC,,Thom Tillis,62,8/30/1960,R
+Senate,MN,,Amy Klobuchar,62,5/25/1960,D
+Senate,KS,,Roger Marshall,62,8/9/1960,R
+Senate,PA,,Bob Casey,62,4/13/1960,D
+Senate,ND,,Kevin Cramer,61,1/21/1961,R
+Senate,SD,,John Thune,61,1/7/1961,R
+Senate,MT,,Steve Daines,60,8/20/1962,R
+Senate,WI,,Tammy Baldwin,60,2/11/1962,D
+Senate,DE,,Chris Coons,59,9/9/1963,D
+Senate,KY,,Rand Paul,59,1/7/1963,R
+Senate,AK,,Dan Sullivan,58,11/13/1964,R
+Senate,CO,,Michael Bennet,58,11/28/1964,D
+Senate,NV,,Catherine Cortez Masto,58,3/29/1964,D
+Senate,AZ,,Mark Kelly,58,2/21/1964,D
+Senate,SC,,Tim Scott,57,9/19/1965,R
+Senate,NY,,Kirsten Gillibrand,56,12/9/1966,D
+Senate,IL,,Tammy Duckworth,54,3/12/1968,D
+Senate,OK,,James Lankford,54,3/4/1968,R
+Senate,NJ,,Cory Booker,53,4/27/1969,D
+Senate,PA,,John Fetterman,53,8/15/1969,D
+Senate,GA,,Raphael Warnock,53,7/23/1969,D
+Senate,TX,,Ted Cruz,52,12/22/1970,R
+Senate,IA,,Joni Ernst,52,7/1/1970,R
+Senate,UT,,Mike Lee,51,6/4/1971,R
+Senate,NM,,Martin Heinrich,51,10/17/1971,D
+Senate,NC,,Ted Budd,51,10/21/1971,R
+Senate,FL,,Marco Rubio,51,5/28/1971,R
+Senate,NM,,Ben Ray Lujan,50,6/7/1972,D
+Senate,HI,,Brian Schatz,50,10/20/1972,D
+Senate,IN,,Todd Young,50,8/24/1972,R
+Senate,NE,,Ben Sasse,50,2/22/1972,R
+Senate,CA,,Alex Padilla,49,3/22/1973,D
+Senate,CT,,Christopher S. Murphy,49,8/3/1973,D
+Senate,MO,,Eric Schmitt,47,6/20/1975,R
+Senate,AZ,,Kyrsten Sinema,46,7/12/1976,I
+Senate,AR,,Tom Cotton,45,5/13/1977,R
+Senate,OK,,Markwayne Mullin,45,7/26/1977,R
+Senate,MO,,Josh Hawley,43,12/31/1979,R
+Senate,AL,,Katie Britt,40,2/2/1982,R
+Senate,OH,,J.D. Vance,38,8/2/1984,R
+Senate,GA,,Jon Ossoff,35,2/16/1987,D

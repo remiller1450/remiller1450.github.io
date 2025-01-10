@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction</title>
+<title>STA-330 Applied Data Science (Spring 2025)</title>
 
 <script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,6 +29,9 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -228,6 +231,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +301,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -298,62 +374,197 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Introduction</h1>
+<h1 class="title toc-ignore">STA-330 Applied Data Science (Spring
+2025)</h1>
 
 </div>
 
 
-<p><img style="float: right; width:30%; height:30%;" src="pphoto.jpg">
-Welcome to my website! I’m currently an Assistant Professor of
-Statistics in the <a
-href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell
-College Department of Mathematics and Statistics</a>.</p>
-<p>I’ve previously worked as a tenure-track Assistant Professor in the
-<a href="https://www.xavier.edu/mathematics-department/index">Xavier
-University Math Deparment</a>, and as a Visiting Assistant Professor of
-Statistics in the <a
-href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell
-College Department of Mathematics and Statistics</a> where I taught
-classes in statistics and data science.</p>
-<p>My graduate training is in <a
-href="https://www.public-health.uiowa.edu/biostat/">Biostatistics</a>,
-and I completed my PhD at the University of Iowa in August of 2018. As
-an undergraduate I studied Mathematics at <a
-href="https://www.augustana.edu/">Augustana College</a> in Rock Island,
-Illinois.</p>
-<p>Below are links to my current courses, as well as the most recent
-version of courses I’ve previously taught:</p>
-<p><strong>Current Courses</strong>:</p>
+<p><span class="math inline">\(~\)</span></p>
+<p>Welcome to the course website for Sta-330 (Applied Data Science). You
+can find the course syllabus linked below:</p>
 <ul>
-<li><a href="s209s25.html">Sta-209, Applied Statistics</a></li>
-<li><a href="s330s25.html">Sta-330, Applied Data Science</a></li>
+<li><a href="syllabus330s25.html">Click here</a> to view the course
+syllabus</li>
 </ul>
-<p><strong>Previous Courses (Grinnell College)</strong>:</p>
+<p>You can locate course content by scrolling, or by using the
+navigation bar in the upper left.</p>
+<div id="materials" class="section level3">
+<h3>Materials</h3>
+<p>In this section you’ll content used at various stages in the course.
+Some materials will be re-used continually, while others are only
+relevant at specific points in the semester.</p>
+<p><strong>Recurring materials</strong>:</p>
 <ul>
-<li><a href="tut23.html">Tut-100, First-Year Tutorial (Fall
-’23)</a></li>
-<li><a href="s209s24.html">Sta-209, Applied Statistics (Spring
-’24)</a></li>
-<li><a href="s230f23.html">Sta-230, Intro to Data Science (Fall
-’23)</a></li>
-<li><a href="sta330s23.html">Sta-330, Applied Data Science (Spring
-’23)</a></li>
-<li><a href="MLs23.html">Sta-395, Intro to Machine Learning (Spring
-’24)</a></li>
+<li>[Guidelines for progress briefing presentations]</li>
+<li>[Guidelines for advisory feedback reports]</li>
+<li>[Guidelines for goal setting]</li>
 </ul>
-<p><strong>Previous Courses (Xavier University)</strong>:</p>
+<p><strong>One-time materials</strong>:</p>
 <ul>
-<li><a href="m146s22.html">Math-146, Introductory Biostatistics (Spring
-’22)</a></li>
-<li><a href="m156s22.html">Math-156, General Statistics (Spring
-’22)</a></li>
-<li><a href="m256f21.html">Math-256, Intro to Probability and Statistics
-(Fall ’21)</a></li>
-<li><a href="m257s21.html">Math-257, Data Modeling (Spring ’21)</a></li>
+<li>Ice-breaker activity (Tuesday 1/21)</li>
+<li>Communicating with data (Thursday 1/23)</li>
+<li>Project management (Tuesday 1/28)</li>
 </ul>
+</div>
+<div id="assignments" class="section level3">
+<h3>Assignments</h3>
+<ul>
+<li>Project preferences reflection
+<ul>
+<li>Due Tuesday 1/28 at 11:59pm (via P-web)</li>
+</ul></li>
+<li>Personal growth reflection #1
+<ul>
+<li>Tentatively due</li>
+</ul></li>
+<li>Personal growth reflection #2</li>
+<li>Personal growth reflection #2</li>
+</ul>
+</div>
+<div id="progress-briefing-schedule" class="section level3">
+<h3>Progress Briefing Schedule</h3>
+<p>Below is a schedule of progress briefing presentations with some
+additional key dates marked. On dates where your team is not presenting
+you are expected to prepare a brief advisory report for the team that
+presented containing your feedback on their most recent work.</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Date</th>
+<th align="left">Presenter</th>
+<th align="left">Number</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Tuesday 2/4</td>
+<td align="left">Group 1</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 2/6</td>
+<td align="left">Group 2</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 2/11</td>
+<td align="left">Group 3</td>
+<td align="left">1</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 2/13</td>
+<td align="left">Group 4</td>
+<td align="left">1</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 2/18</td>
+<td align="left">Group 1</td>
+<td align="left">2</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 2/20</td>
+<td align="left">Group 2</td>
+<td align="left">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 2/25</td>
+<td align="left">Group 3</td>
+<td align="left">2</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 2/27</td>
+<td align="left">Group 4</td>
+<td align="left">2</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 3/4</td>
+<td align="left">Group 1</td>
+<td align="left">3</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 3/6</td>
+<td align="left">Group 2</td>
+<td align="left">3</td>
+</tr>
+<tr class="odd">
+<td align="left">3/8- 3/24 (Spring Break)</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="even">
+<td align="left">Tuesday 3/25</td>
+<td align="left">Group 3</td>
+<td align="left">3</td>
+</tr>
+<tr class="odd">
+<td align="left">Thursday 3/27</td>
+<td align="left">Group 4</td>
+<td align="left">3</td>
+</tr>
+<tr class="even">
+<td align="left">3/31 - 4/4 (Advisory Takeover)</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="odd">
+<td align="left">4/8 (Takeover Presentations)</td>
+<td align="left">-</td>
+<td align="left">-</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 4/10</td>
+<td align="left">Group 1</td>
+<td align="left">4</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 4/15</td>
+<td align="left">Group 2</td>
+<td align="left">4</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 4/17</td>
+<td align="left">Group 3</td>
+<td align="left">4</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 4/22</td>
+<td align="left">Group 4</td>
+<td align="left">4</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 4/24</td>
+<td align="left">Group 1</td>
+<td align="left">5</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 4/29</td>
+<td align="left">Group 2</td>
+<td align="left">5</td>
+</tr>
+<tr class="even">
+<td align="left">Thursday 5/1</td>
+<td align="left">Group 3</td>
+<td align="left">5</td>
+</tr>
+<tr class="odd">
+<td align="left">Tuesday 5/6</td>
+<td align="left">Group 4</td>
+<td align="left">5</td>
+</tr>
+<tr class="even">
+<td align="left">Exam Week (Final Presentations)</td>
+<td align="left">All Groups</td>
+<td align="left">-</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -386,6 +597,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

@@ -12,16 +12,16 @@ Below are links to my current courses, as well as the most recent version of cou
 
 **Current Courses**:
 
-- [Sta-209, Applied Statistics](s209s24.html)
-- [Sta-395, Intro to Machine Learning](MLs24.html)
+- [Sta-209, Applied Statistics](s209s25.html)
+- [Sta-330, Applied Data Science](s330s25.html)
 
 **Previous Courses (Grinnell College)**:
 
 - [Tut-100, First-Year Tutorial (Fall '23)](tut23.html)
-- [Sta-209, Applied Statistics (Spring '20)](sta209s20.html)
+- [Sta-209, Applied Statistics (Spring '24)](s209s24.html)
 - [Sta-230, Intro to Data Science (Fall '23)](s230f23.html)
 - [Sta-330, Applied Data Science (Spring '23)](sta330s23.html)
-- [Sta-395, Intro to Machine Learning (Spring '23)](MLs23.html)
+- [Sta-395, Intro to Machine Learning (Spring '24)](MLs23.html)
     
 **Previous Courses (Xavier University)**:
 

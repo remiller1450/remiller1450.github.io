@@ -11,7 +11,7 @@
 
 
 
-<title>Introduction</title>
+<title>STA-209 - Applied Statistics (Spring 2025)</title>
 
 <script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -29,9 +29,14 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="site_libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -228,6 +233,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -235,6 +303,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -298,62 +376,208 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Introduction</h1>
+<h1 class="title toc-ignore">STA-209 - Applied Statistics (Spring
+2025)</h1>
 
 </div>
 
 
-<p><img style="float: right; width:30%; height:30%;" src="pphoto.jpg">
-Welcome to my website! I’m currently an Assistant Professor of
-Statistics in the <a
-href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell
-College Department of Mathematics and Statistics</a>.</p>
-<p>I’ve previously worked as a tenure-track Assistant Professor in the
-<a href="https://www.xavier.edu/mathematics-department/index">Xavier
-University Math Deparment</a>, and as a Visiting Assistant Professor of
-Statistics in the <a
-href="http://www.grinnell.edu/academics/areas/math-stats">Grinnell
-College Department of Mathematics and Statistics</a> where I taught
-classes in statistics and data science.</p>
-<p>My graduate training is in <a
-href="https://www.public-health.uiowa.edu/biostat/">Biostatistics</a>,
-and I completed my PhD at the University of Iowa in August of 2018. As
-an undergraduate I studied Mathematics at <a
-href="https://www.augustana.edu/">Augustana College</a> in Rock Island,
-Illinois.</p>
-<p>Below are links to my current courses, as well as the most recent
-version of courses I’ve previously taught:</p>
-<p><strong>Current Courses</strong>:</p>
+<p><span class="math inline">\(~\)</span></p>
+<p>Welcome to the course website for Sta-209 (Applied Statistics)
+Sections 01 and 03. You can find the course syllabus linked below:</p>
 <ul>
-<li><a href="s209s25.html">Sta-209, Applied Statistics</a></li>
-<li><a href="s330s25.html">Sta-330, Applied Data Science</a></li>
+<li><a href="syllabus209s25.html">Click here</a> to view the course
+syllabus</li>
 </ul>
-<p><strong>Previous Courses (Grinnell College)</strong>:</p>
+<p>You can locate course content by scrolling, or by using the
+navigation bar in the upper left.</p>
+<p>Please note that some material will not be posted until we’ve reached
+that point in the course.</p>
+<div id="course-materials" class="section level2">
+<h2>Course Materials</h2>
+<p>Many class meetings involve both lab and lectures. Partners will be
+assigned for most labs, which will will typically be due on Mondays.
+Homework will typically be due on Friday at midnight (with some
+exceptions surrounding exams).</p>
+<p><span class="math inline">\(~\)</span></p>
+<div id="exam-1-content" class="section level3">
+<h3>Exam #1 Content</h3>
+<p><strong>Week 1</strong> - Data Basics and an Introduction to
+<code>R</code></p>
+<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Lecture
+</th>
+<th style="text-align:left;">
+Lab
+</th>
+<th style="text-align:left;">
+Resources
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Mon 1/20
+</td>
+<td style="text-align:left;">
+No class
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wed 1/22
+</td>
+<td style="text-align:left;">
+<a href="s209s25/data_basics.pdf">Data Basics</a>
+</td>
+<td style="text-align:left;">
+<a href="s209s25/intro.html">Lab 1 - Introduction to R</a>
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fri 1/24
+</td>
+<td style="text-align:left;">
+<a href="s209s25/univariate.pdf">Univariate Summaries and
+Visualizations</a>
+</td>
+<td style="text-align:left;">
+<a href="s209s25/ggplot.html">Lab 2 - Intro to <code>ggplot</code></a>
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Assignments and Deadlines (week 1)</strong>:</p>
 <ul>
-<li><a href="tut23.html">Tut-100, First-Year Tutorial (Fall
-’23)</a></li>
-<li><a href="s209s24.html">Sta-209, Applied Statistics (Spring
-’24)</a></li>
-<li><a href="s230f23.html">Sta-230, Intro to Data Science (Fall
-’23)</a></li>
-<li><a href="sta330s23.html">Sta-330, Applied Data Science (Spring
-’23)</a></li>
-<li><a href="MLs23.html">Sta-395, Intro to Machine Learning (Spring
-’24)</a></li>
+<li>Labs 1 and 2 are due <em>Monday 1/27 at 11:59pm</em></li>
+<li><a href="s209s25/hw1.html">Homework 1</a> is due <em>Friday 1/25 at
+11:59pm</em></li>
 </ul>
-<p><strong>Previous Courses (Xavier University)</strong>:</p>
+<p><span class="math inline">\(~\)</span></p>
+<p><strong>Week 2</strong> - Multivariate Data Visualizations and
+Contingency Tables</p>
+<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Lecture
+</th>
+<th style="text-align:left;">
+Lab
+</th>
+<th style="text-align:left;">
+Resources
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+Mon 1/27
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+<a href="s209s25/multi_viz.html">Lab 3 - Multivariate
+Visualizations</a>)
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Wed 1/29
+</td>
+<td style="text-align:left;">
+Contingency tables (part 1)
+</td>
+<td style="text-align:left;">
+<a href="s209s25/tables.html">Lab 4 - Tables and R Markdown</a>
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Fri 1/31
+</td>
+<td style="text-align:left;">
+Contingency tables (part 2)
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math inline">\(~\)</span></p>
 <ul>
-<li><a href="m146s22.html">Math-146, Introductory Biostatistics (Spring
-’22)</a></li>
-<li><a href="m156s22.html">Math-156, General Statistics (Spring
-’22)</a></li>
-<li><a href="m256f21.html">Math-256, Intro to Probability and Statistics
-(Fall ’21)</a></li>
-<li><a href="m257s21.html">Math-257, Data Modeling (Spring ’21)</a></li>
+<li>Labs 3 and 4 are due <em>Monday 2/3 at 11:59pm</em></li>
+<li>Homework 2 is due <em>Friday 1/31 at 11:59pm</em></li>
 </ul>
+<p><span class="math inline">\(~\)</span></p>
+<p><strong>Week 3</strong> - Correlation and Simple Linear
+Regression</p>
+<p><span class="math inline">\(~\)</span></p>
+<p><strong>Week 4</strong> - Marginal vs. Conditional Effects,
+Stratification, and Multivariable Linear Regression</p>
+<p><span class="math inline">\(~\)</span></p>
+<p><strong>Week 5</strong> - Multivariable Linear Regression (cont.) and
+Exam 1</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="exam-2-content" class="section level3">
+<h3>Exam #2 Content</h3>
+<p><em>Coming soon</em></p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="exam-3-content" class="section level3">
+<h3>Exam #3 Content</h3>
+<p><em>Coming soon</em></p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+<div id="project" class="section level2">
+<h2>Project</h2>
+<p>Information about the project will be posted here after Exam 1.</p>
+</div>
+<div id="exams" class="section level2">
+<h2>Exams</h2>
+<p>Information about exams (including dates and study materials) will be
+posted here.</p>
+<ul>
+<li>You may anticipate <strong>Exam 1</strong> being approximately 4-5
+weeks into the semester. A practice exam will be posted closer to the
+precise exam date.</li>
+</ul>
+<p>Unless otherwise indicated, you are responsible for the content of
+all lectures, labs, and homework on the corresponding exam.</p>
+</div>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -386,6 +610,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

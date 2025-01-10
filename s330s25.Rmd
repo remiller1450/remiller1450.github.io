@@ -1,0 +1,65 @@
+---
+title: "STA-330 Applied Data Science (Spring 2025)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+Welcome to the course website for Sta-330 (Applied Data Science). You can find the course syllabus linked below:
+
+- [Click here](syllabus330s25.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper left. 
+
+### Materials
+
+In this section you'll content used at various stages in the course. Some materials will be re-used continually, while others are only relevant at specific points in the semester. 
+
+**Recurring materials**:
+
+- [Guidelines for progress briefing presentations](s330s25/prog.html)
+- [Guidelines for advisory feedback reports](s330s25/adv.html)
+- [Guidelines for goal setting](s330s25/goal.html)
+
+**One-time materials**:
+
+- Ice-breaker activity (Tuesday 1/21)
+- Communicating with data (Thursday 1/23)
+- Project management (Tuesday 1/28)
+
+
+### Assignments
+
+- Project preferences reflection
+    - Due Tuesday 1/28 at 11:59pm (via P-web)
+- Personal growth reflection #1
+    - Tentatively due 
+- Personal growth reflection #2
+- Personal growth reflection #2
+
+### Progress Briefing Schedule
+
+Below is a schedule of progress briefing presentations with some additional key dates marked. On dates where your team is not presenting you are expected to prepare a brief advisory report for the team that presented containing your feedback on their most recent work.
+
+```{r, echo = FALSE}
+n=2
+tab <- data.frame(Date = c("Tuesday 2/4", "Thursday 2/6", "Tuesday 2/11", "Thursday 2/13",
+                           "Tuesday 2/18", "Thursday 2/20", "Tuesday 2/25", "Thursday 2/27", 
+                           "Tuesday 3/4", "Thursday 3/6",
+                           "3/8- 3/24 (Spring Break)",
+                           "Tuesday 3/25", "Thursday 3/27",
+                           "3/31 - 4/4 (Advisory Takeover)", "4/8 (Takeover Presentations)",
+                           "Thursday 4/10", "Tuesday 4/15", "Thursday 4/17", "Tuesday 4/22",
+                           "Thursday 4/24", "Tuesday 4/29", "Thursday 5/1", "Tuesday 5/6", "Exam Week (Final Presentations)"),
+                  Presenter = c(rep(c("Group 1", "Group 2", "Group 3", "Group 4"), times=2), 
+                                "Group 1", "Group 2", "-", "Group 3", "Group 4", "-", "-", rep(c("Group 1", "Group 2", "Group 3", "Group 4"),times=2), 
+                                "All Groups"),
+                  Number = c(rep(1:n, each=4), 3, 3, "-", 3, 3, "-", "-", rep(4:5,each=4), "-"))
+
+knitr::kable(tab)
+```
