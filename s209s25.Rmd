@@ -45,7 +45,7 @@ x = data.frame(Date = c("Mon 1/20", "Wed 1/22", "Fri 1/24"),
                Lab = c(" ", 
                        "[Lab 1 - Introduction to R](s209s25/intro.html)",
                        "[Lab 2 - Intro to `ggplot`](s209s25/ggplot.html)"),
-               Resources = c(" ", " ", " "))
+               Resources = c(" ", "[IMS Ch 1](https://openintro-ims.netlify.app/data-hello), [HOPR Ch 2](https://rstudio-education.github.io/hopr/basics.html)", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```

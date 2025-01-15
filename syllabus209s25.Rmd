@@ -7,7 +7,7 @@ output:
       smooth_scroll: false
 ---
 
-# Syllabus - Sta-209-04 (Spring 2024)
+## Syllabus - Sta-209 - Sections 01 and 03 (Spring 2025)
 
 ### Course Information
 
@@ -145,7 +145,7 @@ There will be approximately 10 homework assignments throughout the semester, gen
 
 There will be 3 exams throughout the semester, each covering 3-4 weeks of course content. Because our course content builds upon itself, these exams are incidentally cumulative, but the focus will always be on the most recent set of material. Exams are closed-notes, but you will be provided a formula page containing content I do not want you to memorize. You will be given the exam's formula page as well as a practice version of the exam at least 1-week prior to the exam date.
 
-- *Mastery Policy*: While my hope is that you are able to master course content on a schedule that aligns with our scheduled units/exams, I am much more interested in you mastering the content by the time you exit the course, not by a somewhat arbitrary exam date. Consequently, you have have the opportunity to *take a replacement version of any or all of the course's 3 exams* during our assigned final exam slot for a maximum exam of 90% (the intent of this is to provide an incentive for studying for the original exam and not waiting until final's week). Replacement exams will be approximately the same duration and difficulty level as the originals, and anyone receiving a score lower than 90% on an exam is eligible to take the corresponding replacement exam.
+- *Mastery Policy*: My hope is that everyone thoroughly understands our course content on a schedule aligned with exam dates; However, I am more interested in everyone understanding this content when the course is over, not by a somewhat arbitrary exam date. Consequently, you will have the opportunity to *take a replacement version of any or all of the course's 3 exams* during our assigned final exam period for a maximum score of 90% on each exam you re-take. Please note that the intent of this grade cap is to provide an incentive for studying for the original exam and not waiting until final's week. Replacement exams will be approximately the same duration and difficulty level as their counterparts. Anyone receiving a score lower than 90% on an exam is eligible to take the corresponding replacement exam. If you score lower on the replacement than your original exam the two scores will be averaged. The intent of this averaging policy is to provide an incentive for you to thoughtfully prepare for any replacement exams you opt to take during final's week rather than deciding to take them on whim hoping you'll get a higher score.
 
 **Project** - 20\%
 
