@@ -56,10 +56,10 @@ tab <- data.frame(Date = c("Tuesday 2/4", "Thursday 2/6", "Tuesday 2/11", "Thurs
                            "3/31 - 4/4 (Advisory Takeover)", "4/8 (Takeover Presentations)",
                            "Thursday 4/10", "Tuesday 4/15", "Thursday 4/17", "Tuesday 4/22",
                            "Thursday 4/24", "Tuesday 4/29", "Thursday 5/1", "Tuesday 5/6", "Exam Week (Final Presentations)"),
-                  Presenter = c(rep(c("Group 1", "Group 2", "Group 3", "Group 4"), times=2), 
+                  Group = c(rep(c("Group 1", "Group 2", "Group 3", "Group 4"), times=2), 
                                 "Group 1", "Group 2", "-", "Group 3", "Group 4", "-", "-", rep(c("Group 1", "Group 2", "Group 3", "Group 4"),times=2), 
-                                "All Groups"),
-                  Number = c(rep(1:n, each=4), 3, 3, "-", 3, 3, "-", "-", rep(4:5,each=4), "-"))
+                                "All"),
+                  Briefing = c(rep(1:n, each=4), 3, 3, "-", 3, 3, "-", "-", rep(4:5,each=4), "-"))
 
 knitr::kable(tab)
 ```
