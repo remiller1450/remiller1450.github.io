@@ -10,7 +10,7 @@ My graduate training is in [Biostatistics](https://www.public-health.uiowa.edu/b
 
 Below are links to my current courses, as well as the most recent version of courses I've previously taught:
 
-**Current Courses**:
+**Current Courses (Spring 2025)**:
 
 - [Sta-209, Applied Statistics](s209s25.html)
 - [Sta-330, Applied Data Science](s330s25.html)
@@ -21,7 +21,7 @@ Below are links to my current courses, as well as the most recent version of cou
 - [Sta-209, Applied Statistics (Spring '24)](s209s24.html)
 - [Sta-230, Intro to Data Science (Fall '23)](s230f23.html)
 - [Sta-330, Applied Data Science (Spring '23)](sta330s23.html)
-- [Sta-395, Intro to Machine Learning (Spring '24)](MLs23.html)
+- [Sta-395, Intro to Machine Learning (Spring '24)](MLs24.html)
     
 **Previous Courses (Xavier University)**:
 

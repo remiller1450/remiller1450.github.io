@@ -43,8 +43,8 @@ x = data.frame(Date = c("Mon 1/20", "Wed 1/22", "Fri 1/24"),
                            "[Data Basics](s209s25/data_basics.pdf)",
                            "[Univariate Summaries and Visualizations](s209s25/univariate.pdf)"),
                Lab = c(" ", 
-                       "[Lab 1 - Introduction to R](s209s25/intro.html)",
-                       "[Lab 2 - Intro to `ggplot`](s209s25/ggplot.html)"),
+                       "[Lab 1 - Introduction to R](s209s25/R_basics.html)",
+                       "[Lab 2 - Intro to `ggplot` and R Markdown](s209s25/ggplot1.html)"),
                Resources = c(" ", "[IMS Ch 1](https://openintro-ims.netlify.app/data-hello), [HOPR Ch 2](https://rstudio-education.github.io/hopr/basics.html)", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -65,8 +65,8 @@ x = data.frame(Date = c("Mon 1/27", "Wed 1/29", "Fri 1/31"),
                            "Contingency tables (part 1)",
                            "Contingency tables (part 2)"),
                Lab = c("[Lab 3 - Multivariate Visualizations](s209s25/multi_viz.html))", 
-                       "[Lab 4 - Tables and R Markdown](s209s25/tables.html)",
-                       " "),
+                       "[Lab 4 - Tables](s209s25/tables.html)",
+                       "Lab 4 (cont.)"),
                Resources = c(" ", " ", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
