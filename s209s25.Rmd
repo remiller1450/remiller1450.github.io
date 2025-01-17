@@ -39,7 +39,7 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Mon 1/20", "Wed 1/22", "Fri 1/24"), 
-               Lecture = c("No class", 
+               Lecture = c("No class (MLK Day)", 
                            "[Data Basics](s209s25/data_basics.pdf)",
                            "[Univariate Summaries and Visualizations](s209s25/univariate.pdf)"),
                Lab = c(" ", 
@@ -62,11 +62,11 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 1/27", "Wed 1/29", "Fri 1/31"), 
                Lecture = c(" ", 
-                           "Contingency tables (part 1)",
-                           "Contingency tables (part 2)"),
-               Lab = c("[Lab 3 - Multivariate Visualizations](s209s25/multi_viz.html))", 
-                       "[Lab 4 - Tables](s209s25/tables.html)",
-                       "Lab 4 (cont.)"),
+                           "Contingency tables",
+                           "No class (faculty retreat)"),
+               Lab = c("Lab 3 - Multivariate Visualizations", 
+                       "Lab 4 - Contingency Tables",
+                       " "),
                Resources = c(" ", " ", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))

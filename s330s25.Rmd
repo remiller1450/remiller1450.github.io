@@ -28,7 +28,7 @@ In this section you'll content used at various stages in the course. Some materi
 
 **One-time materials**:
 
-- Ice-breaker activity (Tuesday 1/21)
+- [Ice-breaker activity](s330s25/intro.html) (Tuesday 1/21)
 - Communicating with data (Thursday 1/23)
 - Project management (Tuesday 1/28)
 
