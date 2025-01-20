@@ -98,13 +98,13 @@ Grinnell College encourages students who plan to observe holy days that coincide
     - Each reflection will include a prompt for you to assess yourself and your teammates
     - Your work will be scored on quality of writing and honesty (ie: alignment with instructor observations, willingness to admit shortcomings and unresolved issues, etc.)
 - Five Bi-weekly progress presentations (20%)
-    - Your work will be scored primarily on clarity, depth, and technical accuracy
-- Bi-weekly advisory reports (10%)
-    - Your work will be scored on the clarity, depth, and usefulness of advice you provide the team you are assessing
+    - Your work will be scored primarily on clarity of communication, depth, and technical accuracy
+- Advisory reports (10%)
+    - Your work will be scored holistically on overall quality of the feedback you provide the team you are reviewing
 - Adviser take-over memo (10%)
     - Your work will be scored holistically based upon the overall quality of a written memo, code submission, and presentation
 - Class engagement (5%)
-    - Your score will be determined by your class attendance and contributions to open Q&A following progress briefings and advisory presentations.
+    - Your score will be based upon your contributions during class. This includes: arriving on time, even when your team isn't presenting, asking good clarification questions during progress briefings, and providing thoughtful comments when discussing a presenting group's work and future goals. 
 
 **Final Products** (40%):
 
@@ -115,9 +115,9 @@ Grinnell College encourages students who plan to observe holy days that coincide
 - Oral presentation (10%)
     - A 20 minute presentation summarizing the project from start-to-finish
 - Final deliverable (10%)
-    - A finished tool or model developed for the client, including documented source code and a user-guide targeted towards a non-technical audience
+    - A finished analysis, model, or tool developed for the client, including documented source code and a user-guide targeted towards a non-technical audience
     - Feedback from your client will be solicited when determining your score on the final deliverable
 
-##Schedule
+## Schedule
 
 A schedule for the semester can be found on the course website: https://remiller1450.github.io/s330s25.html
