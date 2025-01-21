@@ -41,10 +41,10 @@ library(dplyr)
 x = data.frame(Date = c("Mon 1/20", "Wed 1/22", "Fri 1/24"), 
                Lecture = c("No class (MLK Day)", 
                            "[Data Basics](s209s25/data_basics.pdf)",
-                           "[Univariate Summaries and Visualizations](s209s25/univariate.pdf)"),
+                           "Univariate Summaries and Visualizations"),
                Lab = c(" ", 
                        "[Lab 1 - Introduction to R](s209s25/R_basics.html)",
-                       "[Lab 2 - Intro to `ggplot` and R Markdown](s209s25/ggplot1.html)"),
+                       "Lab 2 - Intro to `ggplot` and R Markdown"),
                Resources = c(" ", "[IMS Ch 1](https://openintro-ims.netlify.app/data-hello), [HOPR Ch 2](https://rstudio-education.github.io/hopr/basics.html)", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
