@@ -35,7 +35,7 @@ In this section you'll content used at various stages in the course. Some materi
 
 ### Assignments
 
-- Project preferences reflection
+- [Project preferences reflection](s330s25/pref.html)
     - Due Tuesday 1/28 at 11:59pm (via P-web)
 - Personal growth reflection #1
     - Tentatively due Friday 2/28 at 11:59pm
@@ -45,6 +45,8 @@ In this section you'll content used at various stages in the course. Some materi
 ### Progress Briefing Schedule
 
 Below is a schedule of progress briefing presentations with some additional key dates marked. On dates where your team is not presenting you are expected to prepare a brief advisory report for the team that presented containing your feedback on their most recent work.
+
+*Coming soon (will depend upon group assignments)*
 
 ```{r, echo = FALSE, eval = FALSE}
 n=2
