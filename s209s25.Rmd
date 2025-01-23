@@ -53,7 +53,7 @@ kable(x) %>%
 **Assignments and Deadlines**:
 
 - Labs 1 and 2 are due Monday 1/27 at 11:59pm
-- [Homework 1](s209s25/hw1.html) is due Friday 1/25 at 11:59pm
+- [Homework 1](s209s25/hw1.html) is due Friday 1/24 at 11:59pm
 
 $~$
 
