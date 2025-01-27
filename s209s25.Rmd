@@ -57,17 +57,17 @@ kable(x) %>%
 
 $~$
 
-**Week 2** - Multivariate Data Visualizations and Contingency Tables
+**Week 2** - Data Visualizations and Contingency Tables
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 1/27", "Wed 1/29", "Fri 1/31"), 
                Lecture = c(" ", 
                            "Contingency tables",
                            "No class (faculty retreat)"),
-               Lab = c("Lab 3 - Multivariate Visualizations", 
+               Lab = c("[Lab 3 - Bivariate Visualizations and Finding Association](s209s25/ggplot2.html)", 
                        "Lab 4 - Contingency Tables",
                        " "),
-               Resources = c(" ", " ", " "))
+               Resources = c("[IMS Ch 4 and 5](https://openintro-ims.netlify.app/explore-categorical)", " ", " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -75,7 +75,7 @@ kable(x) %>%
 **Assignments and Deadlines**:
 
 - Labs 3 and 4 are due *Monday 2/3 at 11:59pm*
-- Homework 2 is due *Friday 1/31 at 11:59pm*
+- [Homework 2](s209s25/hw2.html) is due *Friday 1/31 at 11:59pm*
 
 $~$
 
