@@ -30,7 +30,7 @@ In this section you'll content used at various stages in the course. Some materi
 
 - [Ice-breaker activity](s330s25/intro.html) (Tuesday 1/21)
 - [Communicating with data](s330s25/communication.html) (Thursday 1/23)
-- Project management (Tuesday 1/28)
+- [Project management](s330s25/procs.pdf)  (Tuesday 1/28)
 
 
 ### Assignments
