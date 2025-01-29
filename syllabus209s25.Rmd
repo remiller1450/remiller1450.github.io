@@ -30,7 +30,7 @@ output:
 
 - Hannah Kim (Sec-01) kimhanna3\@grinnell.edu
 - Elene Sturua (Sec-03) sturuael\@grinnell.edu
-    - Each mentor will host a weekly help session, and you are welcome to attend either mentor's session. Dates and times for these sessions will be posted when available.
+    - Mentor sessions will be held in Noyce 2401 from 7-8pm on Tuesday and 6-7pm on Thursday. You are welcome to attend either (or both) sessions.
 
 **Course Description**:
 
