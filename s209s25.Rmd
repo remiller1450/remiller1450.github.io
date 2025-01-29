@@ -62,10 +62,10 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 1/27", "Wed 1/29", "Fri 1/31"), 
                Lecture = c(" ", 
-                           "Contingency tables",
+                           "[Contingency tables](s209s25/cont.pdf)",
                            "No class (faculty retreat)"),
                Lab = c("[Lab 3 - Bivariate Visualizations and Finding Association](s209s25/ggplot2.html)", 
-                       "Lab 4 - Contingency Tables",
+                       "[Lab 4 - Contingency Tables](s209s25/ct.html)",
                        " "),
                Resources = c("[IMS Ch 4 and 5](https://openintro-ims.netlify.app/explore-categorical)", " ", " "))
 kable(x) %>%
