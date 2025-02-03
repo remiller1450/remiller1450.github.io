@@ -74,12 +74,30 @@ kable(x) %>%
 
 **Assignments and Deadlines**:
 
-- Labs 3 and 4 are due *Monday 2/3 at 11:59pm*
+- Labs 3 and 4 are due *Tuesday 2/4 at 11:59pm*
 - [Homework 2](s209s25/hw2.html) is due *Friday 1/31 at 11:59pm*
 
 $~$
 
 **Week 3** - Correlation and Simple Linear Regression
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 2/3", "Wed 2/5", "Fri 2/7"), 
+               Lecture = c("[Correlation](s209s25/corr.pdf)", 
+                           "Simple Linear Regression",
+                           " "),
+               Lab = c("Finish Lab 4", 
+                       "[Lab 5 - Correlation and Regression](s209s25/cor_reg.html)",
+                       "Finish Lab 5"),
+               Resources = c("[IMS Ch 7](https://openintro-ims.netlify.app/model-slr)", " ", " "))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+**Assignments and Deadlines**:
+
+- Labs 5 is due *Monday 2/10 at 11:59pm*
+- [Homework 3](s209s25/hw3.html) is due *Friday 2/7 at 11:59pm*
 
 $~$
 
