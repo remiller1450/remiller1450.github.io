@@ -84,7 +84,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/3", "Wed 2/5", "Fri 2/7"), 
                Lecture = c("[Correlation](s209s25/corr.pdf)", 
-                           "Simple Linear Regression",
+                           "[Simple Linear Regression](s209s25/reg.pdf)",
                            " "),
                Lab = c("Finish Lab 4", 
                        "[Lab 5 - Correlation and Regression](s209s25/cor_reg.html)",
