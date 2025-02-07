@@ -50,16 +50,16 @@ Below is a schedule of progress briefing presentations with some additional key 
 
 ```{r, echo = FALSE, eval = TRUE}
 n=2
-tab <- data.frame(Date = c("Tuesday 2/4", "Thursday 2/6", "Tuesday 2/11", "Thursday 2/13",
+tab <- data.frame(Date = c("Thursday 2/6", "Tuesday 2/11", "Thursday 2/13",
                            "Tuesday 2/18", "Thursday 2/20", "Tuesday 2/25", "Thursday 2/27", 
                            "Tuesday 3/4", "Thursday 3/6",
                            "3/8- 3/24 (Spring Break)",
                            "Tuesday 3/25", "Thursday 3/27",
                            "3/31 - 4/4 (Advisory Takeover)", "4/8 (Takeover Presentations)",
                            "Thursday 4/10", "Tuesday 4/15", "Thursday 4/17", "Tuesday 4/22",
-                           "Thursday 4/24", "Tuesday 4/29", "Thursday 5/1", "Tuesday 5/6", "Exam Week (Final Presentations)"),
-                  Group = c(rep(c("Group 1", "Group 2", "Group 3", "Group 4"), times=2), 
-                                "Group 1", "Group 2", "-", "Group 3", "Group 4", "-", "-", rep(c("Group 1", "Group 2", "Group 3", "Group 4"),times=2), 
+                           "Thursday 4/24", "Tuesday 4/29", "Thursday 5/1", "Tuesday 5/6", "Thursday 5/8",
+                           "Exam Week (Final Presentations)"),
+                  Group = c("Bioinformatics","", 
                                 "All"),
                   Briefing = c(rep(1:n, each=4), 3, 3, "-", 3, 3, "-", "-", rep(4:5,each=4), "-"))
 
