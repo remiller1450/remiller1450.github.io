@@ -106,13 +106,15 @@ $~$
 x = data.frame(Date = c("Mon 2/10", "Wed 2/12", "Fri 2/14"), 
                Lecture = c(" ","Multivariable Regression (part 1)", 
                            "Multivariable Regression (part 2)"),
-               Lab = c("Lab 6 - Marginal vs. Conditional Effects and Stratification", 
+               Lab = c("[Lab 6 - Marginal vs. Conditional Effects and Stratification](s209s25/strat.html)", 
                        "Lab 7 - Multivariable Regression",
                        "Finish Lab 7"),
                Resources = c(" ", "[IMS Ch 8](https://openintro-ims.netlify.app/model-mlr)",  " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+**Assignments and Deadlines**:
 
 - Labs 6 and 7 are due *Monday 2/17*
 - [Homework 4](s209s25/hw4.html) is due *Friday 2/14 at 11:59pm*
@@ -133,10 +135,12 @@ kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+**Assignments and Deadlines**:
 
 - Lab 8 is due *Wednesday 2/19*
 - There is no homework assignment this week, use the extra time to study for Exam 1
-- A practice version of Exam 1 will be posted here soon, solutions will be posted immediately before class on Wednesday 2/19
+- [Practice Version of Exam 1](s209s25/practice_exam1.pdf)
+    - Solutions will be posted here by noon on Tuesday 2/18
 
 $~$
 
