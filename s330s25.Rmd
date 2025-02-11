@@ -59,8 +59,9 @@ tab <- data.frame(Date = c("Thursday 2/6", "Tuesday 2/11", "Thursday 2/13",
                            "Thursday 4/10", "Tuesday 4/15", "Thursday 4/17", "Tuesday 4/22",
                            "Thursday 4/24", "Tuesday 4/29", "Thursday 5/1", "Tuesday 5/6", "Thursday 5/8",
                            "Exam Week (Final Presentations)"),
-                  Group = c("Bioinformatics","", 
-                                "All"),
+                  Group = c("Bioinformatics","ITS tickets",
+                            "Baseball", "Database","Bioinformatics","ITS tickets",
+                            "Baseball", "Database", "Bioinformatics", "-", "ITS Tickets", "Baseball"),
                   Briefing = c(rep(1:n, each=4), 3, 3, "-", 3, 3, "-", "-", rep(4:5,each=4), "-"))
 
 knitr::kable(tab)

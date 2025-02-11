@@ -104,10 +104,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/10", "Wed 2/12", "Fri 2/14"), 
-               Lecture = c(" ","Multivariable Regression (part 1)", 
+               Lecture = c(" ","[Multivariable Regression (part 1)](s209s25/mreg.pdf)", 
                            "Multivariable Regression (part 2)"),
                Lab = c("[Lab 6 - Marginal vs. Conditional Effects and Stratification](s209s25/strat.html)", 
-                       "Lab 7 - Multivariable Regression",
+                       "[Lab 7 - Multivariable Regression](s209s25/mreg1.html)",
                        "Finish Lab 7"),
                Resources = c(" ", "[IMS Ch 8](https://openintro-ims.netlify.app/model-mlr)",  " "))
 kable(x) %>%
@@ -141,6 +141,8 @@ kable(x) %>%
 - There is no homework assignment this week, use the extra time to study for Exam 1
 - [Practice Version of Exam 1](s209s25/practice_exam1.pdf)
     - Solutions will be posted here by noon on Tuesday 2/18
+- [Study Guide for Exam 1](s209s25/exam1_study_guide.pdf)
+    - You might also find [this study guide](s209s24/Exam1_StudyGuide.pdf) I wrote for last Spring's first exam helpful
 
 $~$
 
