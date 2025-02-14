@@ -105,7 +105,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/10", "Wed 2/12", "Fri 2/14"), 
                Lecture = c(" ","[Multivariable Regression (part 1)](s209s25/mreg.pdf)", 
-                           "Multivariable Regression (part 2)"),
+                           "[Multivariable Regression (part 2)](s209s25/mr2.html)"),
                Lab = c("[Lab 6 - Marginal vs. Conditional Effects and Stratification](s209s25/strat.html)", 
                        "[Lab 7 - Multivariable Regression](s209s25/mreg1.html)",
                        "Finish Lab 7"),
