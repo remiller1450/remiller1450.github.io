@@ -1552,26 +1552,28 @@ lm(sale.amount ~ bsmt, data = homes)</code></pre>
 ## (Intercept)      bsmt3/4    bsmtCrawl     bsmtFull     bsmtNone  
 ##      199333       105667       -19333        -3892       -71149</code></pre>
 <pre class="r"><code>## Change the reference to &quot;None&quot;, the natural reference category
-lm(sale.amount ~ factor(bsmt, levels = c(&quot;None&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;)), data = homes)</code></pre>
+lm(sale.amount ~ factor(bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;)), data = homes)</code></pre>
 <pre><code>## 
 ## Call:
-## lm(formula = sale.amount ~ factor(bsmt, levels = c(&quot;None&quot;, &quot;3/4&quot;, 
-##     &quot;Crawl&quot;, &quot;Full&quot;)), data = homes)
+## lm(formula = sale.amount ~ factor(bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, 
+##     &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;)), data = homes)
 ## 
 ## Coefficients:
-##                                                   (Intercept)  
-##                                                        128184  
-##   factor(bsmt, levels = c(&quot;None&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))3/4  
-##                                                        176816  
-## factor(bsmt, levels = c(&quot;None&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))Crawl  
-##                                                         51816  
-##  factor(bsmt, levels = c(&quot;None&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))Full  
-##                                                         67257</code></pre>
+##                                                          (Intercept)  
+##                                                               128184  
+##   factor(bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))1/2  
+##                                                                71149  
+##   factor(bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))3/4  
+##                                                               176816  
+## factor(bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))Crawl  
+##                                                                51816  
+##  factor(bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))Full  
+##                                                                67257</code></pre>
 <p>Notice how <code>lm()</code> gives us really ugly looking variable
 names with this approach. An alternative is to assign the levels before
 using <code>lm()</code>:</p>
 <pre class="r"><code>## Overwrite the existing &quot;bsmt&quot; variable
-homes$bsmt = factor(homes$bsmt, levels = c(&quot;None&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))
+homes$bsmt = factor(homes$bsmt, levels = c(&quot;None&quot;, &quot;1/2&quot;, &quot;3/4&quot;, &quot;Crawl&quot;, &quot;Full&quot;))
 
 ## Fit regression model
 lm(sale.amount ~ bsmt, data = homes)</code></pre>
@@ -1580,8 +1582,8 @@ lm(sale.amount ~ bsmt, data = homes)</code></pre>
 ## lm(formula = sale.amount ~ bsmt, data = homes)
 ## 
 ## Coefficients:
-## (Intercept)      bsmt3/4    bsmtCrawl     bsmtFull  
-##      128184       176816        51816        67257</code></pre>
+## (Intercept)      bsmt1/2      bsmt3/4    bsmtCrawl     bsmtFull  
+##      128184        71149       176816        51816        67257</code></pre>
 <p><span class="math inline">\(~\)</span></p>
 </div>
 <div id="lab" class="section level2">
@@ -1791,14 +1793,14 @@ had a lot size larger than 1.3 acres, and the average lot size was 9388
 square-feet (0.21 acres). Considering this information, would the
 removal of this home from the data set greatly influence the estimated
 slope coefficient you reported in Part C? Briefly explain.</li>
-<li><strong>Part F</strong>: Fit a multivariable linear regression model
+<li><strong>Part E</strong>: Fit a multivariable linear regression model
 using the explanatory variables <code>area.lot</code> and
 <code>area.living</code> and the response variable
 <code>sale.amount</code>. If two homes have the same living area, is
 having a larger sized lot still associated with a higher sale
 amount?</li>
-<li><strong>Part G</strong>: The coefficient of <code>area.lot</code> in
-the model you fit in Part F is much smaller than this variable’s
+<li><strong>Part F</strong>: The coefficient of <code>area.lot</code> in
+the model you fit in Part E is much smaller than this variable’s
 coefficient in the model you fit in Part C. How do you explain this
 decrease?</li>
 </ul>
