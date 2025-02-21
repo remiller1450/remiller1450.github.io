@@ -37,8 +37,8 @@ In this section you'll content used at various stages in the course. Some materi
 
 - [Project preferences reflection](s330s25/pref.html)
     - Due Tuesday 1/28 at 11:59pm (via P-web)
-- Personal growth reflection #1
-    - Tentatively due Friday 2/28 at 11:59pm
+- [Personal growth reflection #1](s330s25/refl1.pdf)
+    - Due Friday 3/7 at 11:59pm (via P-web)
 - Personal growth reflection #2
 - Personal growth reflection #2
 
@@ -58,13 +58,13 @@ tab <- data.frame(Date = c("Thursday 2/6", "Tuesday 2/11", "Thursday 2/13",
                            "3/31 - 4/4 (Advisory Takeover)", "4/8 (Takeover Presentations)",
                            "Thursday 4/10", "Tuesday 4/15", "Thursday 4/17", "Tuesday 4/22",
                            "Thursday 4/24", "Tuesday 4/29", "Thursday 5/1", "Tuesday 5/6", "Thursday 5/8",
-                           "Exam Week (Final Presentations)"),
+                           "Friday 5/16 (9am)"),
                   Group = c("Bioinformatics","ITS tickets",
                             "Baseball", "Database","Bioinformatics","ITS tickets",
                             "Baseball", "Database", "Bioinformatics", "-", "ITS Tickets", "Baseball", "-", "-", 
                              "Database","Bioinformatics","ITS tickets","Bioinformatics", 
-                            "Database","Bioinformatics","ITS tickets", "Baseball", "Database", "-"),
-                  Briefing = c(rep(1,4), rep(2,4), 3, "-", rep(3,2), "-", "-", 3, rep(4,4), rep(5,4), "-"))
+                            "Database","Bioinformatics","ITS tickets", "Baseball", "Database", "All groups"),
+                  Briefing = c(rep(1,4), rep(2,4), 3, "-", rep(3,2), "-", "-", 3, rep(4,4), rep(5,4), "Final Presentations"))
 
 knitr::kable(tab)
 ```
