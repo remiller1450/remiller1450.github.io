@@ -180,5 +180,7 @@ $~$
 
 ## Project 
 
-Information about the project will be posted here after Exam 1.
+Below is a description of the class project:
 
+- [Project Description](s209s25/final_project.html)
+    - The first deadline is to choose your project group by Friday 2/28. Check your email for the project group form
