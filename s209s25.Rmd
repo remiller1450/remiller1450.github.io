@@ -157,7 +157,7 @@ x = data.frame(Date = c("Mon 2/24", "Wed 2/26", "Fri 2/28"),
                Lecture = c("[Random Processes, Probability, and Sampling](s209s25/sampling.pdf)", " ", 
                            "Interval Estimation"),
                Lab = c("[Lab 8 - Sampling](s209s25/sampling.html)", 
-                       "Normal Distributions",
+                       "[Lab 9 - Normal Distributions and Central Limit Theorem](s209s25/clt_ci.html)",
                        "Confidence Intervals"),
                Resources = c(" ", "[IMS Ch 13.2](https://openintro-ims.netlify.app/foundations-mathematical)",  "[IMS Ch 12](https://openintro-ims.netlify.app/foundations-bootstrapping)"))
 kable(x) %>%
