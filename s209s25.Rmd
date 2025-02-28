@@ -155,11 +155,11 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 2/24", "Wed 2/26", "Fri 2/28"), 
                Lecture = c("[Random Processes, Probability, and Sampling](s209s25/sampling.pdf)", " ", 
-                           "Interval Estimation"),
+                           "[Interval Estimation](s209s25/conf.pdf)"),
                Lab = c("[Lab 8 - Sampling](s209s25/sampling.html)", 
                        "[Lab 9 - Normal Distributions and Central Limit Theorem](s209s25/clt_ci.html)",
-                       "Confidence Intervals"),
-               Resources = c(" ", "[IMS Ch 13.2](https://openintro-ims.netlify.app/foundations-mathematical)",  "[IMS Ch 12](https://openintro-ims.netlify.app/foundations-bootstrapping)"))
+                       " "),
+               Resources = c(" ", "[IMS Ch 13.2](https://openintro-ims.netlify.app/foundations-mathematical)",  "[3Blue1Brown Video about CLT](https://www.youtube.com/watch?v=zeJD6dqJ5lo)"))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -169,6 +169,24 @@ kable(x) %>%
 - Labs 8 and 9 are due on Monday 3/3
 - [Homework 5](s209s25/hw5.html) is due *Friday 2/28 at 11:59pm*
 
+$~$
+
+**Week 7** - Using Confidence Intervals to Draw Conclusions
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 3/3", "Wed 3/5", "Fri 3/7"), 
+               Lecture = c(" ", "Bootstrapping", 
+                           " "),
+               Lab = c("Lab 10 - Confidence Intervals using CLT", 
+                       "Lab 11 - Bootstrapping",
+                       " "),
+               Resources = c(" ", "[IMS Ch 12](https://openintro-ims.netlify.app/foundations-bootstrapping)",  " "))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Labs 9 and 10 are due *Friday 3/7 at 11:59pm*
+- Homework 6 is due *Friday 3/7 at 11:59pm*
 
 $~$
 
