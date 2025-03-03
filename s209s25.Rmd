@@ -186,7 +186,7 @@ kable(x) %>%
 ```
 
 - Labs 10 and 11 are due *Friday 3/7 at 11:59pm*
-- Homework 6 is due *Friday 3/7 at 11:59pm*
+- [Homework 6](s209s25/hw6.html) is due *Friday 3/7 at 11:59pm*
 
 $~$
 
