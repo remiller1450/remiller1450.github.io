@@ -175,11 +175,11 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/3", "Wed 3/5", "Fri 3/7"), 
-               Lecture = c("[Interval Estimation](s209s25/conf.pdf)", "Student's t-distribution", 
+               Lecture = c("[Interval Estimation](s209s25/conf.pdf)", "[Student's t-distribution](s209s25/t_dist.pdf)", 
                            " "),
                Lab = c("[Lab 10 - Confidence Intervals for a Proportion](s209s25/conf_int.html)", 
-                       "Lab 11 - Confidence Intervals for Other Descriptive Statistics",
-                       " "),
+                       "[Lab 11 - Confidence Intervals for Other Descriptive Statistics](s209s25/conf_int2.html)",
+                       "Finish Lab 11"),
                Resources = c(" ", "[IMS Ch 12](https://openintro-ims.netlify.app/foundations-bootstrapping)",  " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
