@@ -190,9 +190,71 @@ kable(x) %>%
 
 $~$
 
+**Week 8** - Hypothesis Testing
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 3/24", "Wed 3/26", "Fri 3/28"), 
+               Lecture = c("[Hypothesis Tests and $p$-values](s209s25/ht1.pdf)", "Decision Errors", 
+                           " "),
+               Lab = c("Lab 12 - Using Simulations to find $p$-values", 
+                       "Lab 13 - Using Probability Models to find $p$-values ",
+                       "Finish Lab 13"),
+               Resources = c(" ", "[IMS Ch 12](https://openintro-ims.netlify.app/foundations-bootstrapping)",  " "))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Labs 12 and 13 are due *Monday 3/31 at 11:59pm*
+- [Homework 7](s209s25/hw7.html) is due *Friday 3/28 at 11:59pm*
+
+$~$
+
+**Week 9** - More Hypothesis Testing
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 3/31", "Wed 4/2", "Fri 4/4"), 
+               Lecture = c("Outliers, Transformations, and Non-parametric Tests", "Flex day (candidate visit?)", 
+                           " "),
+               Lab = c("Lab 14 - Transformations and Non-parametric Tests", 
+                       "",
+                       "Finish Lab 14/Exam 2 Review"),
+               Resources = c(" ", " ",  " "))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 14 is due *Friday 4/4 at 11:59pm*
+- There is no homework assignment this week, use the extra time to study for Exam 2 on Monday 4/7
+- A practice exam will be posted here soon
+
+**Week 10** - Exam 2 and Chi-squared Tests
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/7", "Wed 4/9", "Fri 4/11"), 
+               Lecture = c("Exam 2", "Chi-Squared Tests", 
+                           " "),
+               Lab = c(" ", 
+                       "Lab 15 - Chi-Squared Tests",
+                       "Finish Lab 15"),
+               Resources = c(" ", " ",  " "))
+kable(x) %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+
+$~$
+
 ### Exam #3 Content
 
-*Coming soon*
+*Note*: Chi-squared tests from Week 10 are included on Exam #3
+
+**Week 11** - Analysis of Variance (ANOVA)
+
+**Week 12** - Statistical Inference for Regression Models
+
+**Week 13** - Logistic Regression
+
+**Week 14** - Exam 3 and Project Presentations
 
 $~$
 
@@ -201,4 +263,5 @@ $~$
 Below is a description of the class project:
 
 - [Project Description](s209s25/final_project.html)
-    - The first deadline is to choose your project group by Friday 2/28. Check your email for the project group form
+    - ~~The first deadline is to choose your project group by Friday 2/28. Check your email for the project group form.~~
+    - The second deadline is to submit your project proposal by Monday 3/24. Read the project description for guidelines on what to include in your proposal.
