@@ -195,10 +195,10 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/24", "Wed 3/26", "Fri 3/28"), 
                Lecture = c("[Hypothesis Tests and $p$-values](s209s25/ht1.pdf)", "Decision Errors", 
-                           " "),
-               Lab = c("[Lab 12 - Using Simulations to find $p$-values](s209s25/ht_sim.html)", 
-                       "Lab 13 - Using Probability Models to find $p$-values ",
-                       "Finish Lab 13"),
+                           ""),
+               Lab = c(" ", 
+                       "[Lab 12 - Using Simulations to find $p$-values](s209s25/ht_sim.html)",
+                       "Lab 13 - Using Probability Models to find $p$-values"),
                Resources = c(" ", "[IMS Ch 12](https://openintro-ims.netlify.app/foundations-bootstrapping)",  " "))
 kable(x) %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -213,10 +213,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/31", "Wed 4/2", "Fri 4/4"), 
-               Lecture = c("Outliers, Transformations, and Non-parametric Tests", "Flex day (candidate visit?)", 
+               Lecture = c("Candidate Visit (flex day)", " ", 
                            " "),
-               Lab = c("Lab 14 - Transformations and Non-parametric Tests", 
-                       "",
+               Lab = c("", 
+                       "Lab 14 - Transformations, Outliers, and Non-parametric Tests",
                        "Finish Lab 14/Exam 2 Review"),
                Resources = c(" ", " ",  " "))
 kable(x) %>%
