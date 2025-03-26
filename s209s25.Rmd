@@ -194,7 +194,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 3/24", "Wed 3/26", "Fri 3/28"), 
-               Lecture = c("[Hypothesis Tests and $p$-values](s209s25/ht1.pdf)", "Decision Errors", 
+               Lecture = c("[Hypothesis Tests and $p$-values](s209s25/ht1.pdf)", "[Decision Errors](s209s25/ht2.pdf)", 
                            ""),
                Lab = c(" ", 
                        "[Lab 12 - Using Simulations to find $p$-values](s209s25/ht_sim.html)",
