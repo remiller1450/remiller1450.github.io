@@ -217,7 +217,7 @@ x = data.frame(Date = c("Mon 3/31", "Wed 4/2", "Fri 4/4"),
                Lecture = c("Candidate Visit (flex day)", " ", 
                            " "),
                Lab = c("", 
-                       "Lab 14 - Transformations, Outliers, and Non-parametric Tests",
+                       "[Lab 14 - Transformations, Outliers, and Non-parametric Tests](s209s25/ht_outliers.html)",
                        "Finish Lab 14/Exam 2 Review"),
                Resources = c(" ", " ",  " "))
 knitr::kable(x, format = "html") %>%
@@ -268,4 +268,5 @@ Below is a description of the class project:
 
 - [Project Description](s209s25/final_project.html)
     - ~~The first deadline is to choose your project group by Friday 2/28. Check your email for the project group form.~~
-    - The second deadline is to submit your project proposal by Monday 3/24. Read the project description for guidelines on what to include in your proposal.
+    - ~~The second deadline is to submit your project proposal by Monday 3/24. Read the project description for guidelines on what to include in your proposal.~~
+    - The third deadline is to complete an exploratory analysis of your data by Friday 4/18. You should prepare a brief document using R Markdown that includes descriptions of your variables, at least two data visualizations, and a set of descriptive statistics or a regression model.
