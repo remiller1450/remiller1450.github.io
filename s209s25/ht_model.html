@@ -1595,31 +1595,31 @@ side of the distribution (which is symmetric).</p>
 and <code>binom.test()</code> (which uses the binomial distribution, an
 exact probability model for proportions).</p>
 <pre class="r"><code>## Finding the p-value using prop.test
-prop.test(x = 99, n = 144, p = 0.5, correct = FALSE)</code></pre>
+prop.test(x = 99, n = 143, p = 0.5, correct = FALSE)</code></pre>
 <pre><code>## 
 ##  1-sample proportions test without continuity correction
 ## 
-## data:  99 out of 144, null probability 0.5
-## X-squared = 20.25, df = 1, p-value = 6.795e-06
+## data:  99 out of 143, null probability 0.5
+## X-squared = 21.154, df = 1, p-value = 4.238e-06
 ## alternative hypothesis: true p is not equal to 0.5
 ## 95 percent confidence interval:
-##  0.6077538 0.7575023
+##  0.6124572 0.7620965
 ## sample estimates:
-##      p 
-## 0.6875</code></pre>
+##         p 
+## 0.6923077</code></pre>
 <pre class="r"><code>## Finding the p-value using binom.test
-binom.test(x = 99, n = 144, p = 0.5)</code></pre>
+binom.test(x = 99, n = 143, p = 0.5)</code></pre>
 <pre><code>## 
 ##  Exact binomial test
 ## 
-## data:  99 and 144
-## number of successes = 99, number of trials = 144, p-value = 7.953e-06
+## data:  99 and 143
+## number of successes = 99, number of trials = 143, p-value = 4.887e-06
 ## alternative hypothesis: true probability of success is not equal to 0.5
 ## 95 percent confidence interval:
-##  0.6050180 0.7620797
+##  0.6097308 0.7667202
 ## sample estimates:
 ## probability of success 
-##                 0.6875</code></pre>
+##              0.6923077</code></pre>
 <p>Regardless of the precise approach chosen, the <span class="math inline">\(p\)</span>-value is on the order of 1e-6, or
 around 0.000001. This indicates overwhelming statistical evidence that
 males are more common among infants born with congenital heart
