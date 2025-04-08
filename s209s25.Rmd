@@ -236,11 +236,11 @@ knitr::kable(x, format = "html") %>%
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/7", "Wed 4/9", "Fri 4/11"), 
-               Lecture = c("Exam 2", "Chi-Squared Tests (part 1 - goodness of fit)", "Chi-Squared Tests (part 2 - independence)"),
+               Lecture = c("Exam 2", "[Chi-Squared Tests (part 1 - goodness of fit)](s209s25/chisq1.pdf)", "Chi-Squared Tests (part 2 - independence)"),
                Lab = c(" ", 
-                       "Lab 15 - Chi-Squared Tests",
+                       "[Lab 15 - Chi-Squared Tests](s209s25/chisq.html)",
                        "Finish Lab 15"),
-               Resources = c(" ", " ",  " "))
+               Resources = c(" ", "[IMS Ch 18](https://openintro-ims.netlify.app/inference-tables)",  " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
