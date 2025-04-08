@@ -236,8 +236,7 @@ knitr::kable(x, format = "html") %>%
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/7", "Wed 4/9", "Fri 4/11"), 
-               Lecture = c("Exam 2", "Chi-Squared Tests", 
-                           " "),
+               Lecture = c("Exam 2", "Chi-Squared Tests (part 1 - goodness of fit)", "Chi-Squared Tests (part 2 - independence)"),
                Lab = c(" ", 
                        "Lab 15 - Chi-Squared Tests",
                        "Finish Lab 15"),
@@ -246,18 +245,38 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+- Lab 15 is due *Monday 4/14*
+- [Homework 8](s209s25/hw8.html) is due *Monday 4/14 at 11:59pm*
+
 
 $~$
 
 ### Exam #3 Content
 
-*Note*: Chi-squared tests from Week 10 are included on Exam #3
+*Note*: The topic of Chi-squared testing from Week 10 is included on Exam #3
 
 **Week 11** - Analysis of Variance (ANOVA)
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/14", "Wed 4/16", "Fri 4/18"), 
+               Lecture = c("Analysis of Variance (ANOVA)", " ", " "),
+               Lab = c("Lab 16 - Analysis of Variance (ANOVA)", 
+                       "Finish Lab 16",
+                       "Project Worktime and Check-in"),
+               Resources = c(" ", " ",  " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 16 is due *Monday 4/21*
+- Homework 9 is due *Friday 4/18 by 11:59 pm*
+- Project exploratory analysis is due *Friday 4/18 by 11:59pm*
+
 **Week 12** - Statistical Inference for Regression Models
 
+
 **Week 13** - Logistic Regression
+
 
 **Week 14** - Exam 3 and Project Presentations
 
