@@ -1744,10 +1744,11 @@ chisq.test(x = ap_exam_data, p = c(0.2, 0.2, 0.2, 0.2, 0.2))</code></pre>
 ## 
 ## data:  ap_exam_data
 ## X-squared = 3.425, df = 4, p-value = 0.4894</code></pre>
-<p>In addition to reporting the <span class="math inline">\(p\)</span>-value, the conclusion we draw from any
-hypothesis should involve directional relationships found in the data.
-For a Chi-squared test, this involves compared the observed and expected
-frequencies to identify where the largest discrepancies are:</p>
+<p>In addition to reporting the <span class="math inline">\(p\)</span>-value, the conclusion we draw from a
+hypothesis test should involve any directional relationships that are
+identified. For a Chi-squared test, this can be accomplished by
+comparing the observed and expected frequencies to identify where the
+largest discrepancies are:</p>
 <pre class="r"><code>## Store the test results
 test_results = chisq.test(x = ap_exam_data, p = c(0.2, 0.2, 0.2, 0.2, 0.2))
 
@@ -1755,22 +1756,30 @@ test_results = chisq.test(x = ap_exam_data, p = c(0.2, 0.2, 0.2, 0.2, 0.2))
 test_results$expected</code></pre>
 <pre><code>## [1] 80 80 80 80 80</code></pre>
 <p>Notice how the category with the largest deviation from its expected
-count was the answer choice “E”. It’s easy to identify this when all of
-the categories have the same expected frequency, but a more general
-approach is to calculate a <strong>standardized residual</strong>: <span class="math display">\[\text{stdres} = \frac{\text{Observed Frequency} -
-\text{Expected Frequency}}{SE}\]</span></p>
-<p>Here SE is the standard error of the table cell in question, which is
-the expected count adjusted by a scaling factor.</p>
+count was the answer choice “E”. This was easy to see in our example, as
+all of the categories had the same expected frequency, but a more
+general approach is to look at <strong>standardized residuals</strong>:
+<span class="math display">\[\text{stdres} = \frac{\text{Observed
+Frequency} - \text{Expected Frequency}}{SE}\]</span></p>
+<p>Here SE is the standard error of the table cell in question, which
+estimated via the expected count adjusted by a scaling factor.</p>
 <ul>
 <li><a href="https://cscu.cornell.edu/wp-content/uploads/conttableresid.pdf">This
-document</a> provides a good overview of the adjustment if you are
-interested in the details.</li>
-<li>More generally, the main idea here is that any cell with a
-standardized residual whose absolute value is above 3 represents a
-significant deviation from what is expected. Furthermore, the sign of
-the residual indicates whether the observed count was higher (positive)
-or lower (negative) than what is expected under the null
-hypothesis.</li>
+document</a> provides a good overview of the calculation, standard error
+estimation, and adjustment if you are interested in the details.</li>
+<li>More generally, the main idea you should know is that any cell with
+a standardized residual that is large in absolute magnitude represents a
+category where the data deviate from the null hypothesis.
+<ul>
+<li>If we consider the <a href="https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule">68-95-99
+rule</a> we’d expect a standardized residual of 2 or larger to occur
+roughly 5% of the time when the null hypothesis is true, and a
+standardized residual of 3 or larger to occur less than 1% of the
+time.</li>
+<li>Additionally, the sign of the residual indicates whether the
+observed count was higher (positive) or lower (negative) than what is
+expected under the null hypothesis.</li>
+</ul></li>
 </ul>
 <p>Below are the standardized residuals for our AP Exam example:</p>
 <pre class="r"><code>## Table of standardized residuals
@@ -1781,7 +1790,7 @@ largest discrepancy, but it was only 1.5 standard deviations below what
 was expected. The largest positive deviation was “B”, and it was only
 1.25 standard deviations above what was expected.</p>
 <p>Additionally, you should notice that none of these standardized
-residuals exceeds 3, which is consistent with the Chi-squared test
+residuals exceeds 2, which is consistent with the Chi-squared test
 failing to reject the null hypothesis.</p>
 <p><strong>Question #1</strong>: In court cases jurors are selected from
 a pool of eligible adults that is supposed to be randomly chosen from
