@@ -236,7 +236,7 @@ knitr::kable(x, format = "html") %>%
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/7", "Wed 4/9", "Fri 4/11"), 
-               Lecture = c("Exam 2", "[Chi-Squared Tests (part 1 - goodness of fit)](s209s25/chisq1.pdf)", "Chi-Squared Tests (part 2 - independence)"),
+               Lecture = c("Exam 2", "[Chi-Squared Tests (part 1 - goodness of fit)](s209s25/chisq1.pdf)", "[Chi-Squared Tests (part 2 - independence)](s209s25/chisq2.pdf)"),
                Lab = c(" ", 
                        "[Lab 15 - Chi-Squared Tests](s209s25/chisq.html)",
                        "Finish Lab 15"),
