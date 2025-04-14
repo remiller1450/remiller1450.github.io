@@ -259,8 +259,8 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/14", "Wed 4/16", "Fri 4/18"), 
-               Lecture = c("Analysis of Variance (ANOVA)", " ", " "),
-               Lab = c("Lab 16 - Analysis of Variance (ANOVA)", 
+               Lecture = c("[Analysis of Variance (ANOVA)](s209s25/anova.pdf)", " ", " "),
+               Lab = c("[Lab 16 - Analysis of Variance (ANOVA)](s209s25/anova.html)", 
                        "Finish Lab 16",
                        "Project Worktime and Check-in"),
                Resources = c(" ", " ",  " "))
@@ -269,7 +269,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Lab 16 is due *Monday 4/21*
-- Homework 9 is due *Friday 4/18 by 11:59 pm*
+- [Homework 9](s209s25/hw9.html) is due *Monday 4/21 by 11:59 pm*
 - Project exploratory analysis is due *Friday 4/18 by 11:59pm*
 
 **Week 12** - Statistical Inference for Regression Models
