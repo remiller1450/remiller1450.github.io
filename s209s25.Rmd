@@ -231,6 +231,7 @@ knitr::kable(x, format = "html") %>%
     - [Practice Version of Exam 2](s209s25/practice_exam2.pdf)
         - [Practice Exam Solution](s209s25/practice_exam2_soln.pdf)
 
+$~$
 
 **Week 10** - Exam 2 and Chi-squared Tests
 
@@ -263,22 +264,69 @@ x = data.frame(Date = c("Mon 4/14", "Wed 4/16", "Fri 4/18"),
                Lab = c("[Lab 16 - Analysis of Variance (ANOVA)](s209s25/anova.html)", 
                        "Finish Lab 16",
                        "Project Worktime and Check-in"),
-               Resources = c(" ", " ",  " "))
+               Resources = c("[IMS Ch 22](https://openintro-ims.netlify.app/inference-many-means)", " ",  " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - Lab 16 is due *Monday 4/21*
-- [Homework 9](s209s25/hw9.html) is due *Monday 4/21 by 11:59 pm*
+- [Homework 9](s209s25/hw9.html) is due *Monday 4/21 by 11:59pm*
 - Project exploratory analysis is due *Friday 4/18 by 11:59pm*
 
-**Week 12** - Statistical Inference for Regression Models
+$~$
 
+**Week 12** - Statistical Inference for Linear Regression Models
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/21", "Wed 4/23", "Fri 4/25"), 
+               Lecture = c("[Inference for Linear Regression (F-tests)](s209s25/reg_inf.pdf)", "Inference for Linear Regression (t-tests)", "Logistic Regression (part 1)"),
+               Lab = c("[Lab 17 - Inference for Linear Regression](s209s25/reg_if.html)", 
+                       "Finish Lab 17",
+                       "Lab 18 - Logistic Regression"),
+               Resources = c("[IMS Ch 25](https://openintro-ims.netlify.app/inf-model-mlr)", " ",  "[IMS Ch 9](https://openintro-ims.netlify.app/model-logistic)"))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 17 is due *Monday 4/28*
+- Homework 10 is due *Friday 5/2 by 11:59pm* 
+
+$~$
 
 **Week 13** - Logistic Regression
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 4/28", "Wed 4/30", "Fri 5/2"), 
+               Lecture = c("Logistic Regression (part 2)", "Logistic Regression (part 3)", "Exam 3 Review"),
+               Lab = c("Continue Lab 18", 
+                       "Finish Lab 18",
+                       " "),
+               Resources = c(" ", " ",  " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Homework 10 is due *Friday 5/2 by 11:59pm* 
+- Lab 18 is due *Friday 5/2 by 11:59pm*
+
+$~$
 
 **Week 14** - Exam 3 and Project Presentations
+
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 5/5", "Wed 4/30", "Fri 5/2"), 
+               Lecture = c("Exam 3", "Project Presentations", "Project Presentations"),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" ", " ",  " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Exam retakes are Tuesday 5/13 from 2-5pm (Sec-01) and Wednesday from 2-5pm (Sec-03)
+- Project Reports are due Wednesday 5/14 at 5pm (the end of the semester for the later section)
 
 $~$
 
