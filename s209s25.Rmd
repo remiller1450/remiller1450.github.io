@@ -315,7 +315,7 @@ $~$
 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-x = data.frame(Date = c("Mon 5/5", "Wed 4/30", "Fri 5/2"), 
+x = data.frame(Date = c("Mon 5/5", "Wed 5/7", "Fri 5/9"), 
                Lecture = c("Exam 3", "Project Presentations", "Project Presentations"),
                Lab = c(" ", 
                        " ",
