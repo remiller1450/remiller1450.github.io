@@ -279,7 +279,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/21", "Wed 4/23", "Fri 4/25"), 
-               Lecture = c("[Inference for Linear Regression (F-tests)](s209s25/reg_inf.pdf)", "Inference for Linear Regression (t-tests)", "Logistic Regression (part 1)"),
+               Lecture = c("[Inference for Linear Regression (F-tests)](s209s25/reg_inf.pdf)", "[Inference for Linear Regression (t-tests)](s209s25/reg_inf2.pdf)", "Logistic Regression (part 1)"),
                Lab = c("[Lab 17 - Inference for Linear Regression](s209s25/reg_if.html)", 
                        "Finish Lab 17",
                        "Lab 18 - Logistic Regression"),
@@ -289,7 +289,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Lab 17 is due *Monday 4/28*
-- Homework 10 is due *Friday 5/2 by 11:59pm* 
+- [Homework 10](s209s25/hw10.html) is due *Friday 5/2 by 11:59pm* 
 
 $~$
 
