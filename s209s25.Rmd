@@ -279,10 +279,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/21", "Wed 4/23", "Fri 4/25"), 
-               Lecture = c("[Inference for Linear Regression (F-tests)](s209s25/reg_inf.pdf)", "[Inference for Linear Regression (t-tests)](s209s25/reg_inf2.pdf)", "Logistic Regression (part 1)"),
+               Lecture = c("[Inference for Linear Regression (F-tests)](s209s25/reg_inf.pdf)", "[Inference for Linear Regression (t-tests)](s209s25/reg_inf2.pdf)", "[Logistic Regression (part 1)](s209s25/logr1.pdf)"),
                Lab = c("[Lab 17 - Inference for Linear Regression](s209s25/reg_if.html)", 
                        "Finish Lab 17",
-                       "Lab 18 - Logistic Regression"),
+                       "[Lab 18 - Logistic Regression](s209s25/logr.html)"),
                Resources = c("[IMS Ch 25](https://openintro-ims.netlify.app/inf-model-mlr)", " ",  "[IMS Ch 9](https://openintro-ims.netlify.app/model-logistic)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -298,7 +298,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/28", "Wed 4/30", "Fri 5/2"), 
                Lecture = c("Logistic Regression (part 2)", "Logistic Regression (part 3)", "Exam 3 Review"),
-               Lab = c("Continue Lab 18", 
+               Lab = c("[Continue Lab 18](s209s25/logr.html)", 
                        "Finish Lab 18",
                        " "),
                Resources = c(" ", " ",  " "))
