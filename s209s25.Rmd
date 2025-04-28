@@ -297,7 +297,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 4/28", "Wed 4/30", "Fri 5/2"), 
-               Lecture = c("Logistic Regression (part 2)", "Logistic Regression (part 3)", "Exam 3 Review"),
+               Lecture = c("[Logistic Regression (part 2)](s209s25/logr2.pdf)", " ", "Exam 3 Review"),
                Lab = c("[Continue Lab 18](s209s25/logr.html)", 
                        "Finish Lab 18",
                        " "),
