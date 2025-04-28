@@ -308,6 +308,10 @@ knitr::kable(x, format = "html") %>%
 
 - Homework 10 is due *Friday 5/2 by 11:59pm* 
 - Lab 18 is due *Friday 5/2 by 11:59pm*
+- Exam 3 is on Monday 5/5
+    - [Study Guide](s209s25/exam3_study_guide.pdf)
+    - [Practice version of the exam](s209s25/practice_exam3.pdf)
+
 
 $~$
 
