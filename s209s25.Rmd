@@ -311,6 +311,7 @@ knitr::kable(x, format = "html") %>%
 - Exam 3 is on Monday 5/5
     - [Study Guide](s209s25/exam3_study_guide.pdf)
     - [Practice version of the exam](s209s25/practice_exam3.pdf)
+        - [Solutions to the practice exam](s209s25/practice_exam3_soln.pdf)
 
 
 $~$
@@ -341,4 +342,5 @@ Below is a description of the class project:
 - [Project Description](s209s25/final_project.html)
     - ~~The first deadline is to choose your project group by Friday 2/28. Check your email for the project group form.~~
     - ~~The second deadline is to submit your project proposal by Monday 3/24. Read the project description for guidelines on what to include in your proposal.~~
-    - The third deadline is to complete an exploratory analysis of your data by Friday 4/18. You should prepare a brief document using R Markdown that includes descriptions of your variables, at least two data visualizations, and a set of descriptive statistics or a regression model.
+    - ~~The third deadline is to complete an exploratory analysis of your data by Friday 4/18. You should prepare a brief document using R Markdown that includes descriptions of your variables, at least two data visualizations, and a set of descriptive statistics or a regression model.~~
+    - Project presentations are Wednesday 5/7 and Friday 5/9 during class. Project reports are due Wednesday 5/14 at 5pm.
