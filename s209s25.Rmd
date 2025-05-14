@@ -141,7 +141,7 @@ knitr::kable(x, format = "html") %>%
 - Remember that Lab 7 is due Wednesday 2/19
 - There is no homework assignment this week, use the extra time to study for Exam 1
 - [Practice Version of Exam 1](s209s25/practice_exam1.pdf)
-    - 
+    - [Sample solution](s209s25/practice_exam1_soln.pdf)
 - [Study Guide for Exam 1](s209s25/exam1_study_guide.pdf)
     - You might also find [this study guide](s209s24/Exam1_StudyGuide.pdf) I wrote for last Spring's first exam helpful
 
