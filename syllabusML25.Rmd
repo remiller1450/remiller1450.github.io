@@ -1,0 +1,167 @@
+---
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+---
+
+# Syllabus - Sta-395 Intro to ML (Spring '25)
+
+### Course Information
+
+**Instructor**:
+
+- Ryan Miller, Noyce 2218, millerry\@grinnell.edu
+
+**Class Meetings**: 
+
+- Noyce 2401, Tuesday and Thursday 1:00-2:20pm
+
+**Office Hours**:
+
+- Drop-in hours (Noyce 2218): Monday 1:30-2:30pm, Tuesday 11-noon, Thursday 2:30-3:30pm
+    - Additional availability by appointment
+    
+**Class Mentors**:
+
+- Preston Yoshino, yoshinop\@grinnell.edu 
+    - Additional information about mentor sessions will be added here when available 
+
+**Course Description**:
+
+Machine learning is a branch of artificial intelligence (AI) rooted in computational statistics that focuses on the development of models and algorithms capable of identifying patterns in data. In this course, students will implement machine learning methods in Python to solve problems from a variety of disciplines. Topics include model validation and optimization, decision trees, boosting and bagging, neural networks, transfer learning, and recently developed methods. Students will complete a semester-long capstone project. Prerequisite: MAT-215 and STA-230.
+
+**Texts**:
+
+There is no required textbook for this course.  All required materials will be posted on our [course website](MLf25.html).  
+
+Most of our course materials are based upon information in the follow textbooks:
+
+1. [Machine Learning with PyTorch and Scikit-Learn](https://sebastianraschka.com/blog/2022/ml-pytorch-book.html) by Raschka and Liu
+2. [An Introduction to Statistical Learning](https://www-bcf.usc.edu/~gareth/ISL/ISLR%20Seventh%20Printing.pdf) by James, Witten, Hastie, and Tibshirani 
+2. [Dive into Deep Learning](https://d2l.djl.ai/) by Zhang, Lipton, Li, and Smola
+
+$~$
+
+### Aims and Objectives
+
+This course aims to develop conceptual, theoretical, and applied perspectives on commonly used machine learning algorithms.
+
+#### Learning Objectives
+
+After completing this course, students should be able to:
+
+- Translate research questions that can be appropriately addressed by machine learning approaches into models that can be trained and tested.
+- Implement data pipelines and proper training/validation schemes in Python for a variety of machine learning methods.
+- Clearly and concisely communicate machine learning methodologies and results in both written and oral formats to technical and non-technical audiences.
+- Organize and execute a machine learning project involving complex, real-world data and modern machine learning methods and implementations.
+
+$~$
+
+### Policies
+
+**Class Sessions**
+
+Class time will be split between "lecture" and "lab". Most class meetings will begin with a short, low-stakes quiz (2-3 conceptual questions) to provide an incentive for consistent attendance and review of course content outside of class. Additional details on these quizzes can be found in the "Grading" section of the syllabus.
+
+Portions of the class devoted to "lecture" will focus on conceptual and mathematical topics with minimal discussion of coding/software.
+
+Portions of class devoted to "lab" involve working in assigned and/or self-formed groups of 2-3 on applications of course topics using Python. 
+
+**Attendance** 
+
+Lab sessions will involve collaboration with others in assigned and self-selected groups. This means that attendance during labs is especially important. While I understand that missing class is sometimes necessary, if you will be absent for any reason I ask to be notified as soon as possible so that assigned lab groups can be modified. Showing up late or missing class more than once without prior notice will negatively impact the participation component of your course grade.
+
+**Software**
+
+Software is an essential component of machine learning, and this class will make extensive use of Python (any version 3 release should be fine). You are welcome to use any Python IDE that you are familiar with, but I encourage you to use [Jupyter](https://jupyter.org/) to record your work on labs/assignments.
+
+You are welcome to use your own personal laptop, or a classroom computer during the course.  If you are working your own laptop, I suggest downloading the most recent [Anaconda Distribution](https://www.anaconda.com/products/distribution) to ensure compatibility with the code examples that will be given during class. Jupyter Notebook and Jupyter Lab can both be found in the Anaconda Navigator, and Anaconda comes with most of the libraries we'll be using pre-installed.
+
+There are popular cloud-based platforms capable of running Python code that you might opt to use; however, these platforms are not sanctioned by Grinnell College.
+
+**Academic Honesty**
+
+At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+
+The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
+
+Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone else's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose.  A complete list of dishonest behaviors, as defined by Grinnell College, [can be found here](https://catalog.grinnell.edu/content.php?catoid=12&navoid=2537#alleged-violation).
+
+**Inclusive Classroom**
+
+Grinnell College makes reasonable accommodations for students with documented disabilities.  To receive accommodations, students must provide documentation to the Coordinator for Disability Resources, information [can be found here](http://www.grinnell.edu/about/offices-services/accessibility-disability/disability-services).  If you plan on using accommodations in this course, you should speak with me as early as possible in the semester so that we can discuss ways to ensure your full participation in the course.
+
+**Religious Holidays**
+
+Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
+
+$~$
+
+### Grading
+
+**Engagement, Labs, and Personal Growth** - 15\%
+
+In-class labs contain embedded questions that you and your lab partner(s) should answer together in a single document. A few select lab questions will be scored for accuracy with feedback given, while most will be scored for effort/completion. Labs will contribute to roughly 5\% of this grade category.
+
+By the end of the semester you are to submit a 1-2 page growth statement expressing how you've deepened your understanding of machine learning and furthered your academic or career goals throughout the semester. There is no required structure to this statement, and it will be used in conjunction with my own observations throughout the semester to form an engagement score comprising the remaining 10\% of this grade category. To facilitate this you should have specific goals for yourself in the course and keep track of specific events that you believe to support your progress towards these goals.
+
+Daily engagement in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and your partner is expected to help further your understanding.  Everyone will begin the semester with a baseline engagement score of 80, which will move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score by helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc. Reports from lab or project partners that you are not contributing equally to group efforts may also influence this score.
+
+**Homework** - 25\%
+
+There will be 5-6 homework assignments throughout the semester. These will contain a mixture of mathematical/theoretical, applied, and written/conceptual questions.
+
+**In-class Quizzes** - 15\%
+
+Short in-class quizes will be delivered during the first 5-minutes of *most* class meetings. These quizzes will contain 1-3 brief questions, often multiple choice, covering concepts from previous lectures. These quizzes are intended to cover essential concepts that any machine learning specialist should have committed memory. Quizzes cannot be retaken or made up, but your *lowest two quiz scores will be dropped* at the end of the semester. Pending instructor approval and coordination with academic support staff, special exceptions may be made for circumstances involving prolonged absences.
+
+**Midterm Exam** - 20\%
+
+There will be an in-class exam roughly two-thirds of the way into the semester (sometime in November). The precise date/time will be announced no later than 2-weeks in advance of the exam. This exam focuses on conceptual and mathematical topics from the course, thus it is intended to be complementary to the applied focus of the capstone project (see below). Details and review materials will be provided later in the semester.
+
+**Capstone Project** - 25\% (Presentation: 5\%, Report: 15\%, Code: 5\%)
+
+For this project you will work in a group of 2-4 students on a self-selected machine learning problem involving a non-trivial data set of your choosing. Your group will be responsible for creating a repository containing the code and data used during the project. You will present your results in a 10-minute in-class presentation intended to mirror a scientific conference presentation (ie: assume a modest amount of machine learning knowledge from the audience, with limited content area knowledge in the domain of your application). You will also prepare a 3-page (single-spaced, not including figures) scientific report summarizing your methods and results.
+
+$~$
+
+### Misc
+
+**Getting Help**
+
+In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
+
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced programmers and may be able to troubleshoot coding problems you are having.  Many students who've successfully completed this course have made extensive use of the DASIL work space and its computing resources.
+
+The online platform [Stack Overflow](https://stackoverflow.com/questions) is a useful resource for finding user-generated coding solutions to coding questions. Nearly all professional data scientists have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
+
+**Large Language Models and AI**
+
+Grinnell's college-wide Academic Honesty policy requires that use of generative AI be appropriately cited or acknowledged as any other source would be. In this course you are fully permitted to use generative AI for assistance on in-class work or homework assignments, so long as you properly acknowledge your use and work within the statistical and coding frameworks described in our lectures and labs. Using generative AI to produce solutions that are inconsistent with the approaches and methods discussed in our lectures and labs will result in low scores on assignments. Some particular cases where generative AI can be helpful in this course include: checking your written work for errors or typos, understanding coding error messages, and explaining example code in an a more interactive manner.  If you decide to use generative AI to assist with in-class work or homework it is essential for you to recognize that you will not have access to these tools on in-class exams, which comprise the majority of your end-of-semester grade. Thus, it is critical that you use AI as a tool, not as a replacement for your own thinking and understanding of course topics.
+
+$~$
+
+### Units and Topics
+
+Below is a list of course topics and tentative time frames for covering them.
+
+- Unit #1 - Introduction, Fundamentals, and Models for Tabular Data
+    - Training vs testing
+    - Pipelines and pre-processing
+    - Cross-validation
+    - Decision trees, support vector machines, KNN, and regression
+    - Ensembles, random forest, and gradient boosting
+- Unit #2 - Mathematical Details
+    - Review of linear algebra and multivariable calculus (matrix-vector operations, derivatives, chain rule)
+    - Cost functions and gradient descent
+    - Stochastic and batch gradient descent
+    - Backpropagation and neural networks
+- Unit #3 - Neural Networks and an Introduction to Deep Learning
+    - Creating artificial neural network architectures in PyTorch
+    - Convolution neural networks
+    - Transfer learning and pre-trained models
+    - Recurrent neural networks
+    - Attention and transformers (time-permitting)

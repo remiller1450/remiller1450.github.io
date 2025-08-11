@@ -1,0 +1,135 @@
+---
+title: "STA-395 - Introduction to Machine Learning (Fall '25)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+Welcome to the website for **Sta-395, Introduction to Machine Learning**! To begin, you can find the course syllabus linked below:
+
+- [Click here](syllabusML25.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper-left.
+
+## Course Materials
+
+Most class meetings involve both lecture and lab components. Topics are organized into units, which can be found below. The assignments and due-dates for a given week can be found below that week's course materials. Unless otherwise indicated, all assignments are to be submitted via Canvas by 11:59pm.
+
+$~$
+
+### Unit #1 - Concepts, Workflow, and Methods for Tabular Data
+
+#### Week 0/1 - Introduction to Python and `sklearn`
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+# x <- cars[1:3,]
+# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
+# linkID <- c("link1", "link2", "link3")
+# x$website <- paste0("[", linkID, "](http://", urls, ")")
+# kable(x)
+
+x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
+               Lecture = c("Introduction and History", 
+                           "Training, Validation, and Testing",
+                           " "),
+               Lab = c("Lab 1 - Crash Course in Python", 
+                       "Lab 2 - Introduction to `sklearn`",
+                       "Lab 3 - Preprocessing and pipelines"),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Labs 1-3 are due Monday 9/8 at 11:59pm on Canvas
+
+$~$
+
+#### Week 2 - Cross-validation and model comparisons
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/9", "Th 9/11"), 
+               Lecture = c("Cross-validation", 
+                           "Classifier Performance"),
+               Lab = c("Lab 4 - Hyperparameter tuning using cross-validation", 
+                       "Lab 5 - Comparing classifiers"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+- Homework 1 is due Friday 9/12 at 11:59pm on Canvas
+- Labs 4 and 4 are due Monday 9/15 at 11:59pm on Canvas
+
+#### Week 3 - Regression and machine learning
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/16", "Th 9/18"), 
+               Lecture = c("Regression and Machine Learning",
+                           "Regularization"),
+               Lab = c("Lab 6 - Feature Transformations and Expansions",
+                       "Lab 7 - LASSO, Ridge, and Elastic Net"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+#### Week 4 - More models
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/23", "Th 9/25"), 
+               Lecture = c("Support Vector Machines",
+                           "Other Commonly Discussed Methods"),
+               Lab = c("Lab 8 - Support Vector Machines",
+                       "Lab 9 - Exploring Model Limitations"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+#### Week 5 - Ensembles
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/30", "Th 10/2"), 
+               Lecture = c("Support Vector Machines",
+                           "Other Commonly Discussed Methods"),
+               Lab = c("Lab 8 - Support Vector Machines",
+                       "Lab 9 - Exploring Model Limitations"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+### Unit #2 - The Mathematics of "Learning"
+
+
+$~$
+
+## Final Project 
+
+Information about the course project will be posted here later in the semester (approximately week 5)
+
+$~$
+
+## Supplemental Resources
+
+**Unit #1**:
+
+- [UW-Madison SSCC Python Data Wrangling tutorials (balanced)](https://sscc.wisc.edu/sscc/pubs/dwp/Python_Fundamentals.html)
+- [Python Data Science Handbook Chapters 2,3,4 (more technical)](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [Stefanie Molin's Pandas workshop tutorials 1, 2 (less technical)](https://github.com/stefmolin/pandas-workshop)
