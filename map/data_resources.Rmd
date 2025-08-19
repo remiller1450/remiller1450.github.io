@@ -15,3 +15,5 @@ $~$
 - SCORE Sports Data Repository: https://data.scorenetwork.org/
 - Data.gov: https://data.gov/ 
 - Grinnell Libraries Data Resources: https://grinnell.libguides.com/data 
+
+I also have several Grinnell-specific data sets that I am happy to share with you via OneDrive
