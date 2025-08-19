@@ -98,6 +98,18 @@ Grinnell College makes reasonable accommodations for students with documented di
 
 Grinnell College encourages students who plan to observe holy days that coincide with class meetings or assignment due dates to consult with your instructor in the first three weeks of classes so that you may reach a mutual understanding of how you can meet the terms of your religious observance, and the requirements of the course.
 
+**Getting Help**
+
+In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
+
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced programmers and may be able to troubleshoot coding problems you are having.  Many students who've successfully completed this course have made extensive use of the DASIL work space and its computing resources.
+
+The online platform [Stack Overflow](https://stackoverflow.com/questions) is a useful resource for finding user-generated coding solutions to coding questions. Nearly all professional data scientists have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
+
+**Large Language Models and AI**
+
+Grinnell's college-wide Academic Honesty policy requires that use of generative AI be appropriately cited or acknowledged as any other source would be. In this course you are fully permitted to use generative AI for assistance on in-class work or homework assignments, so long as you properly acknowledge your use and work within the statistical and coding frameworks described in our lectures and labs. Using generative AI to produce solutions that are inconsistent with the approaches and methods discussed in our lectures and labs will result in low scores on assignments. Some particular cases where generative AI can be helpful in this course include: checking your written work for errors or typos, understanding coding error messages, and explaining example code in an a more interactive manner.  If you decide to use generative AI to assist with in-class work or homework it is essential for you to recognize that you will not have access to these tools on in-class exams, which comprise the majority of your end-of-semester grade. Thus, it is critical that you use AI as a tool, not as a replacement for your own thinking and understanding of course topics.
+
 $~$
 
 ### Grading
@@ -110,7 +122,7 @@ By the end of the semester you are to submit a 1-2 page growth statement express
 
 Daily engagement in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and your partner is expected to help further your understanding.  Everyone will begin the semester with a baseline engagement score of 80, which will move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score by helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc. Reports from lab or project partners that you are not contributing equally to group efforts may also influence this score.
 
-**Homework** - 25\%
+**Homework** - 20\%
 
 There will be 5-6 homework assignments throughout the semester. These will contain a mixture of mathematical/theoretical, applied, and written/conceptual questions.
 
@@ -122,25 +134,9 @@ Short in-class quizes will be delivered during the first 5-minutes of *most* cla
 
 There will be an in-class exam roughly two-thirds of the way into the semester (sometime in November). The precise date/time will be announced no later than 2-weeks in advance of the exam. This exam focuses on conceptual and mathematical topics from the course, thus it is intended to be complementary to the applied focus of the capstone project (see below). Details and review materials will be provided later in the semester.
 
-**Capstone Project** - 25\% (Presentation: 5\%, Report: 15\%, Code: 5\%)
+**Capstone Project** - 30\% (Presentation: 7\%, Report: 18\%, Code: 5\%)
 
 For this project you will work in a group of 2-4 students on a self-selected machine learning problem involving a non-trivial data set of your choosing. Your group will be responsible for creating a repository containing the code and data used during the project. You will present your results in a 10-minute in-class presentation intended to mirror a scientific conference presentation (ie: assume a modest amount of machine learning knowledge from the audience, with limited content area knowledge in the domain of your application). You will also prepare a 3-page (single-spaced, not including figures) scientific report summarizing your methods and results.
-
-$~$
-
-### Misc
-
-**Getting Help**
-
-In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
-
-The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced programmers and may be able to troubleshoot coding problems you are having.  Many students who've successfully completed this course have made extensive use of the DASIL work space and its computing resources.
-
-The online platform [Stack Overflow](https://stackoverflow.com/questions) is a useful resource for finding user-generated coding solutions to coding questions. Nearly all professional data scientists have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
-
-**Large Language Models and AI**
-
-Grinnell's college-wide Academic Honesty policy requires that use of generative AI be appropriately cited or acknowledged as any other source would be. In this course you are fully permitted to use generative AI for assistance on in-class work or homework assignments, so long as you properly acknowledge your use and work within the statistical and coding frameworks described in our lectures and labs. Using generative AI to produce solutions that are inconsistent with the approaches and methods discussed in our lectures and labs will result in low scores on assignments. Some particular cases where generative AI can be helpful in this course include: checking your written work for errors or typos, understanding coding error messages, and explaining example code in an a more interactive manner.  If you decide to use generative AI to assist with in-class work or homework it is essential for you to recognize that you will not have access to these tools on in-class exams, which comprise the majority of your end-of-semester grade. Thus, it is critical that you use AI as a tool, not as a replacement for your own thinking and understanding of course topics.
 
 $~$
 

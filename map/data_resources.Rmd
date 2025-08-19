@@ -1,0 +1,17 @@
+---
+title: "Data Resources"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+$~$
+
+- Datasets used in my courses: https://github.com/remiller1450/remiller1450.github.io/tree/master/data
+- Fivethirtyeight data: https://github.com/fivethirtyeight/data 
+- Washington Post: https://github.com/orgs/washingtonpost/repositories
+- SCORE Sports Data Repository: https://data.scorenetwork.org/
+- Data.gov: https://data.gov/ 
+- Grinnell Libraries Data Resources: https://grinnell.libguides.com/data 
