@@ -41,3 +41,4 @@ $~$
     
 - Wednesday 8/20
     - [STA-330 Icebreaker Activity](https://remiller1450.github.io/s330s25/intro.html)
+    - A few labs on how to make "prettier" ggplot graphics: [First lab](https://remiller1450.github.io/s209s24/ggplot2.html), [Second lab](https://remiller1450.github.io/s230f23/ggplot2.html)
