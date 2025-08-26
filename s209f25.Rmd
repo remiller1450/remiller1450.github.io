@@ -42,11 +42,11 @@ x = data.frame(Date = c("Fri 8/29", "Mon 9/1", "Wed 9/3", "Fri 9/5"),
                Lecture = c("Introduction to Statistical Thinking", 
                            "No class (Labor Day)",
                            "Hypothesis Testing (part 1)",
-                           "Hypothesis Testing (part 2"),
+                           "Hypothesis Testing (part 2)"),
                Lab = c("Lab 1 - A first hypothesis test", 
-                       " - ",
-                       "Lab 2 - One-sample tests",
-                       "Lab 3 - Two-sample tests"),
+                       "  ",
+                       "Lab 2 - One-sample tests and data visualizations in `R`",
+                       "Lab 2 (cont.)"),
                Resources = c(" ", " ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -54,8 +54,8 @@ knitr::kable(x, format = "html") %>%
 
 **Assignments and Deadlines**:
 
-- Labs 1, 2, and 3 are due Friday 9/5 by 11:59pm
-- Homework 1 is due Monday 9/8
+- Labs 1, 2, and 3 are due Friday 9/5 by 11:59pm (submit via Canvas)
+- Homework 1 is due Monday 9/8 (submit via Canvas)
 
 $~$
 
@@ -63,11 +63,11 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"), 
-               Lecture = c("Correlation", 
-                           " - ",
-                           " - "),
-               Lab = c("Lab 4", 
-                       "Lab 5 - Data visualizations and descriptive statistics",
+               Lecture = c("Two-sample tests", 
+                           "Correlation",
+                           "Simple Linear Regression"),
+               Lab = c("Lab 4 - Two-sample tests and data visualizations", 
+                       "Lab 5 - Correlation and simple linear regression",
                        "Lab 5 (cont.)"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%

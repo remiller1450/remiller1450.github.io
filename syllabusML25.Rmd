@@ -7,7 +7,7 @@ output:
       smooth_scroll: false
 ---
 
-# Syllabus - Sta-395 Intro to ML (Spring '25)
+# Syllabus - Sta-395 Intro to ML (Fall '25)
 
 ### Course Information
 
@@ -116,9 +116,9 @@ $~$
 
 **Engagement, Labs, and Personal Growth** - 15\%
 
-In-class labs contain embedded questions that you and your lab partner(s) should answer together in a single document. A few select lab questions will be scored for accuracy with feedback given, while most will be scored for effort/completion. Labs will contribute to roughly 5\% of this grade category.
+In-class labs contain embedded questions that you and your lab partner(s) should answer together in a single document. A few select lab questions will be scored for accuracy with feedback given, while most will be scored for effort/completion. Your submitted lab work will contribute to roughly half of this grade category.
 
-By the end of the semester you are to submit a 1-2 page growth statement expressing how you've deepened your understanding of machine learning and furthered your academic or career goals throughout the semester. There is no required structure to this statement, and it will be used in conjunction with my own observations throughout the semester to form an engagement score comprising the remaining 10\% of this grade category. To facilitate this you should have specific goals for yourself in the course and keep track of specific events that you believe to support your progress towards these goals.
+By the end of the semester you are to submit a 1-2 page growth statement expressing how you've deepened your understanding of machine learning and furthered your academic or career goals throughout the semester. There is no required structure to this statement, and it will be used in conjunction with my own observations throughout the semester to form an engagement score comprising the remaining half of this grade category. To facilitate this you should have specific goals for yourself in the course and keep track of specific events that you believe to support your progress towards these goals.
 
 Daily engagement in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and your partner is expected to help further your understanding.  Everyone will begin the semester with a baseline engagement score of 80, which will move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score by helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc. Reports from lab or project partners that you are not contributing equally to group efforts may also influence this score.
 

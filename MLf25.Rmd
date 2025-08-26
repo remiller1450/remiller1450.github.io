@@ -1,5 +1,5 @@
 ---
-title: "STA-395 - Introduction to Machine Learning (Fall '25)"
+title: "STA-395 - Intro to Machine Learning (Fall '25)"
 output:
   html_document:
     toc: true
@@ -39,10 +39,10 @@ library(dplyr)
 x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
                Lecture = c("Introduction and History", 
                            "Training, Validation, and Testing",
-                           " "),
+                           "KNN and Decision Trees"),
                Lab = c("Lab 1 - Crash Course in Python", 
                        "Lab 2 - Introduction to `sklearn`",
-                       "Lab 3 - Preprocessing and pipelines"),
+                       "Finish Labs 1 and 2"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -65,10 +65,10 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-$~$
-
 - Homework 1 is due Friday 9/12 at 11:59pm on Canvas
 - Labs 4 and 4 are due Monday 9/15 at 11:59pm on Canvas
+
+$~$
 
 #### Week 3 - Regression and machine learning
 
@@ -104,10 +104,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/30", "Th 10/2"), 
-               Lecture = c("Support Vector Machines",
-                           "Other Commonly Discussed Methods"),
-               Lab = c("Lab 8 - Support Vector Machines",
-                       "Lab 9 - Exploring Model Limitations"),
+               Lecture = c(" ",
+                           " "),
+               Lab = c(" ",
+                       " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -117,12 +117,19 @@ $~$
 
 ### Unit #2 - The Mathematics of "Learning"
 
+Coming soon
+
+$~$
+
+### Unit #3 - Introduction to Deep Learning
+
+Coming soon
 
 $~$
 
 ## Final Project 
 
-Information about the course project will be posted here later in the semester (approximately week 5)
+Information about the course project will be posted here later in the semester (week 6 or 7)
 
 $~$
 
