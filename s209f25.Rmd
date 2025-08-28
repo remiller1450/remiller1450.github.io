@@ -59,16 +59,16 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-**Week 2** - Working with Data in `R`
+**Week 2** - Analyses Involving Two Variables
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"), 
                Lecture = c("Two-sample tests", 
-                           "Correlation",
-                           "Simple Linear Regression"),
+                           " ",
+                           "Correlation"),
                Lab = c("Lab 4 - Two-sample tests and data visualizations", 
-                       "Lab 5 - Correlation and simple linear regression",
-                       "Lab 5 (cont.)"),
+                       "Lab 4 (cont.)",
+                       "Lab 5 - Correlation and Regression"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))

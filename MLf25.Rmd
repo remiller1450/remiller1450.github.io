@@ -37,12 +37,12 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
-               Lecture = c("Introduction and History", 
+               Lecture = c("[Introduction](ml25/intro.pdf)", 
                            "Training, Validation, and Testing",
                            "KNN and Decision Trees"),
-               Lab = c("Lab 1 - Crash Course in Python", 
-                       "Lab 2 - Introduction to `sklearn`",
-                       "Finish Labs 1 and 2"),
+               Lab = c("[Lab 1 - Crash Course in Python](ml25/Lab_1_F25.html)", 
+                       " ",
+                       "Lab 2 - Introduction to `sklearn`"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -65,7 +65,7 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Homework 1 is due Friday 9/12 at 11:59pm on Canvas
+- [Homework 1](ml25/hw1.html) is due Friday 9/12 at 11:59pm on Canvas
 - Labs 4 and 4 are due Monday 9/15 at 11:59pm on Canvas
 
 $~$
