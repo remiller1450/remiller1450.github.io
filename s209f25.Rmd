@@ -39,11 +39,11 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Fri 8/29", "Mon 9/1", "Wed 9/3", "Fri 9/5"), 
-               Lecture = c("Introduction to Statistical Thinking", 
+               Lecture = c("[Introduction to Statistical Thinking](s209f25/intro.pdf)", 
                            "No class (Labor Day)",
                            "Hypothesis Testing (part 1)",
                            "Hypothesis Testing (part 2)"),
-               Lab = c("Lab 1 - A first hypothesis test", 
+               Lab = c("[Lab 1 - A first hypothesis test](s209f25/first_test.html)", 
                        "  ",
                        "Lab 2 - One-sample tests and data visualizations in `R`",
                        "Lab 2 (cont.)"),
