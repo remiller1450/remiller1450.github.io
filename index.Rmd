@@ -18,7 +18,7 @@ Below are links to my current courses, as well as the most recent version of cou
 **Previous Courses (Grinnell College)**:
 
 - [Tut-100, First-Year Tutorial (Fall '23)](tut23.html)
-- [Sta-209, Applied Statistics (Spring '25)](s209s24.html)
+- [Sta-209, Applied Statistics (Spring '25)](s209s25.html)
 - [Sta-230, Intro to Data Science (Fall '23)](s230f23.html)
 - [Sta-330, Applied Data Science (Spring '25)](sta330s25.html)
 - [Sta-395, Intro to Machine Learning (Spring '24)](MLs24.html)

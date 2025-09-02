@@ -38,17 +38,17 @@ library(dplyr)
 
 x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
                Lecture = c("[Introduction](ml25/intro.pdf)", 
-                           "KNN and Decision Trees",
-                           " "),
+                           "[KNN and Decision Trees](ml25/simple_models.pdf)",
+                           "Data Pre-processing"),
                Lab = c("[Lab 1 - Crash Course in Python](ml25/Lab_1_F25.html)", 
                        " ",
-                       "Lab 2 - Introduction to `sklearn`"),
+                       "[Lab 2 - Introduction to `sklearn`](ml25/Lab_2_F25.html)"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Labs 1-3 are due Monday 9/8 at 11:59pm on Canvas
+- Labs 1 and 2 are due Monday 9/8 at 11:59pm on Canvas
 
 $~$
 
@@ -90,7 +90,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/23", "Th 9/25"), 
                Lecture = c("Support Vector Machines",
-                           "Other Commonly Discussed Methods"),
+                           " "),
                Lab = c("Lab 8 - Support Vector Machines",
                        "Lab 9 - Exploring Model Limitations"),
                Resources = c(" ", " "))
@@ -104,8 +104,8 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/30", "Th 10/2"), 
-               Lecture = c(" ",
-                           " "),
+               Lecture = c("Random Forests",
+                           "Boosting"),
                Lab = c(" ",
                        " "),
                Resources = c(" ", " "))
