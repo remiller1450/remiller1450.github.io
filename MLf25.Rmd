@@ -74,9 +74,9 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/16", "Th 9/18"), 
-               Lecture = c("Regression and Machine Learning",
+               Lecture = c("Feature Transformations and Expansions",
                            "Regularization"),
-               Lab = c("Lab 6 - Feature Transformations and Expansions",
+               Lab = c("Lab 6 - Regression and Machine Learning",
                        "Lab 7 - LASSO, Ridge, and Elastic Net"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%

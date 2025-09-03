@@ -41,21 +41,21 @@ library(dplyr)
 x = data.frame(Date = c("Fri 8/29", "Mon 9/1", "Wed 9/3", "Fri 9/5"), 
                Lecture = c("[Introduction to Statistical Thinking](s209f25/intro.pdf)", 
                            "No class (Labor Day)",
-                           "Hypothesis Testing (part 1)",
+                           "[Hypothesis Testing (part 1)](s209f25/ht1.pdf)",
                            "Hypothesis Testing (part 2)"),
                Lab = c("[Lab 1 - A first hypothesis test](s209f25/first_test.html)", 
                        "  ",
-                       "Lab 2 - One-sample tests and data visualizations in `R`",
+                       "[Lab 2 - Intro to `R` and one-sample categorical data](s209f25/one_sample_cat.html)",
                        "Lab 2 (cont.)"),
-               Resources = c(" ", " ", " ", " "))
+               Resources = c(" ", " ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 **Assignments and Deadlines**:
 
-- Labs 1, 2, and 3 are due Friday 9/5 by 11:59pm (submit via Canvas)
-- Homework 1 is due Monday 9/8 (submit via Canvas)
+- Labs 1 and 2 are due Friday 9/5 by 11:59pm (submit via Canvas)
+- [Homework 1](s209f25/hw1.html) is due Monday 9/8 (submit via Canvas)
 
 $~$
 
