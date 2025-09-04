@@ -41,12 +41,12 @@ library(dplyr)
 x = data.frame(Date = c("Fri 8/29", "Mon 9/1", "Wed 9/3", "Fri 9/5"), 
                Lecture = c("[Introduction to Statistical Thinking](s209f25/intro.pdf)", 
                            "No class (Labor Day)",
-                           "[Hypothesis Testing (part 1)](s209f25/ht1.pdf)",
-                           "Hypothesis Testing (part 2)"),
+                           "[Hypothesis Testing](s209f25/ht1.pdf)",
+                           " "),
                Lab = c("[Lab 1 - A first hypothesis test](s209f25/first_test.html)", 
                        "  ",
-                       "[Lab 2 - Intro to `R` and one-sample categorical data](s209f25/one_sample_cat.html)",
-                       "Lab 2 (cont.)"),
+                       "Finish/discuss Lab 1",
+                       "[Lab 2 - Intro to `R` and one-sample categorical data](s209f25/one_sample_cat.html)"),
                Resources = c(" ", " ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -59,16 +59,16 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-**Week 2** - Analyses Involving Two Variables
+**Week 2** - Formalizing One-sample Tests
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"), 
-               Lecture = c("Two-sample tests", 
-                           " ",
-                           "Correlation"),
-               Lab = c("Lab 4 - Two-sample tests and data visualizations", 
-                       "Lab 4 (cont.)",
-                       "Lab 5 - Correlation and Regression"),
+               Lecture = c(" ", 
+                           "Z and T tests",
+                           "Two-sample tests"),
+               Lab = c("Lab 3 - More `R` and one-sample quantitative data", 
+                       "Lab 4 - Hypothesis testing in `R`",
+                       "Finish Lab 4"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))

@@ -39,7 +39,7 @@ library(dplyr)
 x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
                Lecture = c("[Introduction](ml25/intro.pdf)", 
                            "[KNN and Decision Trees](ml25/simple_models.pdf)",
-                           "Data Pre-processing"),
+                           "[Data Pre-processing](ml25/preproc.pdf)"),
                Lab = c("[Lab 1 - Crash Course in Python](ml25/Lab_1_F25.html)", 
                        " ",
                        "[Lab 2 - Introduction to `sklearn`](ml25/Lab_2_F25.html)"),
