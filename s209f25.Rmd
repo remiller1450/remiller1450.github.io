@@ -59,17 +59,17 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-**Week 2** - Formalizing One-sample Tests
+**Week 2** - More Hypothesis Tests
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"), 
                Lecture = c(" ", 
                            "Z and T tests",
-                           "Two-sample tests"),
-               Lab = c("Lab 3 - More `R` and one-sample quantitative data", 
-                       "Lab 4 - Hypothesis testing in `R`",
+                           "Z and T tests (cont.)"),
+               Lab = c("[Lab 3 - More `R` and one-sample quantitative data](s209f25/more_R.html)", 
+                       "Lab 4 - Data manipulation and hypothesis tests in `R`",
                        "Finish Lab 4"),
-               Resources = c(" ", " ", " "))
+               Resources = c("[Data visualization from R for Data Science](https://r4ds.hadley.nz/layers.html) and [`ggplot` Cheatsheet](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -84,7 +84,7 @@ $~$
 ## Tentative Exam Dates
 
 - Exam 1 - Friday 10/3
-- Exam 2 - Friday 11/15
+- Exam 2 - Friday 11/14
 - Exam 3 - Monday 12/8
 
 $~$
