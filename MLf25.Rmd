@@ -41,7 +41,7 @@ x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"),
                            "[KNN and Decision Trees](ml25/simple_models.pdf)",
                            "[Data Pre-processing](ml25/preproc.pdf)"),
                Lab = c("[Lab 1 - Crash Course in Python](ml25/Lab_1_F25.html)", 
-                       " ",
+                       "Finish Lab 1",
                        "[Lab 2 - Introduction to `sklearn`](ml25/Lab_2_F25.html)"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
@@ -56,17 +56,17 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/9", "Th 9/11"), 
-               Lecture = c("Cross-validation", 
+               Lecture = c("[Cross-validation](ml25/cv.pdf)", 
                            "Classifier Performance"),
-               Lab = c("Lab 4 - Hyperparameter tuning using cross-validation", 
-                       "Lab 5 - Comparing classifiers"),
+               Lab = c("[Lab 3 - Pipelines and Cross-Validation](ml25/Lab_3_F25.html)", 
+                       "Finish Lab 3"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - [Homework 1](ml25/hw1.html) is due Friday 9/12 at 11:59pm on Canvas
-- Labs 4 and 4 are due Monday 9/15 at 11:59pm on Canvas
+- Labs 3 is due Monday 9/15 at 11:59pm on Canvas
 
 $~$
 
