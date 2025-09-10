@@ -64,12 +64,12 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"), 
                Lecture = c(" ", 
-                           "Z and T tests",
-                           "Z and T tests (cont.)"),
+                           "[One-sample Z and T tests](s209f25/ht2.pdf)",
+                           " "),
                Lab = c("[Lab 3 - More `R` and one-sample quantitative data](s209f25/more_R.html)", 
-                       "Lab 4 - Data manipulation and hypothesis tests in `R`",
-                       "Finish Lab 4"),
-               Resources = c("[Data visualization from R for Data Science](https://r4ds.hadley.nz/layers.html) and [`ggplot` Cheatsheet](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)", " ", " "))
+                       "Finish/discuss Lab 3",
+                       "Lab 4 - Data manipulation and hypothesis tests in `R`"),
+               Resources = c("[Data visualization from R for Data Science](https://r4ds.hadley.nz/layers.html) and [`ggplot` Cheatsheet](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)", "[IMS Z-test for a single proportion](https://openintro-ims.netlify.app/inference-one-prop#hypothesis-test-for-a-proportion)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
