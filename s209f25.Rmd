@@ -59,7 +59,7 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-**Week 2** - More Hypothesis Tests
+**Week 2** - More Hypothesis Testing
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"), 
@@ -77,7 +77,11 @@ knitr::kable(x, format = "html") %>%
 **Assignments and Deadlines**:
 
 - Labs 4 and 5 are due Friday 9/12 by 11:59pm
-- Homework 2 is due Monday 9/15
+- [Homework 2](s209f25/hw2.html) is due Monday 9/15
+
+$~$
+
+**Week 3** - Two-sample Tests
 
 $~$
 
