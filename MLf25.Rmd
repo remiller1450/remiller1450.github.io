@@ -57,24 +57,37 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/9", "Th 9/11"), 
-               Lecture = c("[Cross-validation](ml25/cv.pdf)", 
-                           "Classifier Performance"),
-               Lab = c("[Lab 3 - Pipelines and Cross-Validation](ml25/Lab_3_F25.html)", 
-                       "Finish Lab 3"),
+               Lecture = c(" ", 
+                           "[Cross-validation](ml25/cv.pdf)"),
+               Lab = c("Finish/discuss Lab 2", 
+                       "[Lab 3 - Pipelines and Cross-Validation](ml25/Lab_3_F25.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - [Homework 1](ml25/hw1.html) is due Friday 9/12 at 11:59pm on Canvas
-- Labs 3 is due Monday 9/15 at 11:59pm on Canvas
+- Lab 3 is due Monday 9/15 at 11:59pm on Canvas
 
 $~$
 
-#### Week 3 - Regression and machine learning
+#### Week 3 - Classifier performance
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/16", "Th 9/18"), 
+               Lecture = c("Assessing classifier performance",
+                           " "),
+               Lab = c("Lab 4 - Scoring Metrics",
+                       "Finish/discuss Lab 4"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+#### Week 4 - Regression and machine learning
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/23", "Th 9/25"), 
                Lecture = c("Feature Transformations and Expansions",
                            "Regularization"),
                Lab = c("Lab 6 - Regression and Machine Learning",
@@ -86,10 +99,10 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 4 - More models
+#### Week 5 - More models
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-x = data.frame(Date = c("T 9/23", "Th 9/25"), 
+x = data.frame(Date = c("T 9/30", "Th 10/2"), 
                Lecture = c("Support Vector Machines",
                            " "),
                Lab = c("Lab 8 - Support Vector Machines",
@@ -102,17 +115,6 @@ knitr::kable(x, format = "html") %>%
 $~$
 
 #### Week 5 - Ensembles
-
-```{r, echo = FALSE, message = FALSE, warning = FALSE}
-x = data.frame(Date = c("T 9/30", "Th 10/2"), 
-               Lecture = c("Random Forests",
-                           "Boosting"),
-               Lab = c(" ",
-                       " "),
-               Resources = c(" ", " "))
-knitr::kable(x, format = "html") %>%
-  kable_styling(bootstrap_options = c("hover"))
-```
 
 $~$
 
