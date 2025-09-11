@@ -68,7 +68,7 @@ x = data.frame(Date = c("Mon 9/8", "Wed 9/10", "Fri 9/12"),
                            " "),
                Lab = c("[Lab 3 - More `R` and one-sample quantitative data](s209f25/more_R.html)", 
                        "Finish/discuss Lab 3",
-                       "Lab 4 - One-sample hypothesis tests in `R`"),
+                       "[Lab 4 - One-sample hypothesis tests in `R`](s209f25/Z_and_T.html)"),
                Resources = c("[Data visualization from R for Data Science](https://r4ds.hadley.nz/layers.html) and [`ggplot` Cheatsheet](https://posit.co/wp-content/uploads/2022/10/data-visualization-1.pdf)", "[IMS Z-test for a single proportion](https://openintro-ims.netlify.app/inference-one-prop#hypothesis-test-for-a-proportion)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -83,7 +83,54 @@ $~$
 
 **Week 3** - Two-sample Tests
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 9/15", "Wed 9/17", "Fri 9/19"), 
+               Lecture = c("Two-sample Z and T tests", 
+                           " ",
+                           "Correlation"),
+               Lab = c("Finish/discuss Lab 4", 
+                       "Lab 5 - Analyzing two-sample data in `R`",
+                       "Finish/discuss Lab 5"),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
 $~$
+
+**Week 4** - Measures of Association
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 9/22", "Wed 9/24", "Fri 9/26"), 
+               Lecture = c("Simple Linear Regression", 
+                           " ",
+                           "Contingency Tables"),
+               Lab = c("Lab 6 - Correlation and Simple Linear Regression", 
+                       "Finish/discuss Lab 6",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$ 
+
+**Week 5** - Issues with Hypothesis Tests and Exam 1
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 9/29", "Wed 10/1", "Fri 10/3"), 
+               Lecture = c("Errors and Multiple Comparisons", 
+                           " ",
+                           "Exam 1"),
+               Lab = c(" ", 
+                       "Review Session",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$ 
 
 ## Tentative Exam Dates
 
