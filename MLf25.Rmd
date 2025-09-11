@@ -67,7 +67,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - [Homework 1](ml25/hw1.html) is due Friday 9/12 at 11:59pm on Canvas
-- Lab 3 is due Monday 9/15 at 11:59pm on Canvas
+- Lab 3 is due Wednesday 9/17 at 11:59pm on Canvas
 
 $~$
 
