@@ -76,8 +76,9 @@ knitr::kable(x, format = "html") %>%
 
 **Assignments and Deadlines**:
 
-- Labs 4 and 5 are due Friday 9/12 by 11:59pm
-- [Homework 2](s209f25/hw2.html) is due Monday 9/15
+- Lab 3 is due Friday 9/12 by 11:59pm
+- Lab 4 is due Monday 9/15 by 11:59pm
+- [Homework 2](s209f25/hw2.html) is due Monday 9/15 by 11:59pm
 
 $~$
 
