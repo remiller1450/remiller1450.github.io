@@ -86,7 +86,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/15", "Wed 9/17", "Fri 9/19"), 
-               Lecture = c("Two-sample Z and T tests", 
+               Lecture = c("[Two-sample Z and T tests](s209f25/ht3.pdf)", 
                            " ",
                            "Correlation"),
                Lab = c("Finish/discuss Lab 4", 
