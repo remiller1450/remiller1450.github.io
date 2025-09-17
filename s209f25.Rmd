@@ -90,12 +90,15 @@ x = data.frame(Date = c("Mon 9/15", "Wed 9/17", "Fri 9/19"),
                            " ",
                            "Correlation"),
                Lab = c("Finish/discuss Lab 4", 
-                       "Lab 5 - Analyzing two-sample data in `R`",
+                       "[Lab 5 - Analyzing two-sample data in `R`](s209f25/two_sample.html)",
                        "Finish/discuss Lab 5"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 5 is due Monday 9/22 at 11:59pm
+- [Homework 3](s209f25/hw3.html) is due Monday 9/22 by 11:59pm
 
 $~$
 
