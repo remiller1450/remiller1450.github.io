@@ -78,13 +78,16 @@ x = data.frame(Date = c("T 9/16", "Th 9/18"),
                Lecture = c("[Assessing classifier performance](ml25/perform.pdf)",
                            " "),
                Lab = c("Finish/discuss Lab 3",
-                       "Lab 4 - Scoring Metrics"),
+                       "[Lab 4 - Scoring Metrics](ml25/Lab_4_F25.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+- [Homework 2](ml25/hw1.html) is due Monday 9/29 at 11:59pm on Canvas
 - Lab 4 is due Monday 9/22 at 11:59pm
+
+$~$
 
 #### Week 4 - Regression and machine learning
 

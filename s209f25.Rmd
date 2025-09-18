@@ -86,9 +86,9 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/15", "Wed 9/17", "Fri 9/19"), 
-               Lecture = c("[Two-sample Z and T tests](s209f25/ht3.pdf)", 
-                           " ",
-                           "Correlation"),
+               Lecture = c("", 
+                           "[Two-sample Z and T tests](s209f25/ht3.pdf)",
+                           " "),
                Lab = c("Finish/discuss Lab 4", 
                        "[Lab 5 - Analyzing two-sample data in `R`](s209f25/two_sample.html)",
                        "Finish/discuss Lab 5"),
