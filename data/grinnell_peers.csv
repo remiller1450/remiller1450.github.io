@@ -1,19 +1,19 @@
 "Institution","City","State","Region","Religious","Adm_Rate","Med_ACT","Enrollment","P_White","P_Black","P_Hispanic","P_Asian","P_Female","P_Pell","Avg_Fac_Salary","Med_Grad_Debt","Ret_Rate","Med_Grad_Earnings_4Y"
-"Pomona College","Claremont","CA","Pacific","Yes",0.0702,34,1699,0.3161,0.1006,0.1589,0.1736,0.5474,0.1852,14220,"11782",0.9623,55809
-"Grinnell College","Grinnell","IA","West_North_Central","Yes",0.1076,33,1709,0.526,0.0439,0.0831,0.0755,0.5278,0.1774,11658,"17500",0.9321,47752
-"Bowdoin College","Brunswick","ME","New_England","Yes",0.0919,34,1909,0.5563,0.0602,0.1325,0.0932,0.516,0.1561,13417,"18500",0.9632,60191
-"Colby College","Waterville","ME","New_England","Yes",0.0761,34,2299,0.5607,0.0535,0.08,0.0983,0.5241,0.1406,11925,"19157",0.928,58184
-"Amherst College","Amherst","MA","New_England","Yes",0.0726,34,1898,0.3815,0.108,0.1586,0.1391,0.5169,0.2363,14046,"13740",0.9533,70140
-"Smith College","Northampton","MA","New_England","Yes",0.2286,33,2515,0.5109,0.0541,0.1225,0.0958,0.9996,0.1836,12547,"17550",0.9083,47136
-"Carleton College","Northfield","MN","West_North_Central","Yes",0.1663,33,2007,0.5237,0.0673,0.0957,0.1001,0.5037,0.1424,13285,"16750",0.955,55541
-"Macalester College","Saint Paul","MN","West_North_Central","No",0.2842,32,2164,0.5374,0.0587,0.1021,0.0758,0.5767,0.1843,11297,"23000",0.9118,47382
-"St Olaf College","Northfield","MN","West_North_Central","No",0.5641,30,3019,0.6711,0.0338,0.0835,0.058,0.5803,0.2021,8925,"26000",0.9007,48919
-"Hamilton College","Clinton","NY","Mid_Atlantic","Yes",0.1178,34,2071,0.6451,0.0314,0.0951,0.0903,0.5519,0.182,12129,"17000",0.9512,65661
-"Skidmore College","Saratoga Springs","NY","Mid_Atlantic","Yes",0.2554,31,2744,0.6334,0.0441,0.0995,0.0554,0.5856,0.1513,10034,"19500",0.8759,50769
-"Vassar College","Poughkeepsie","NY","Mid_Atlantic","Yes",0.1866,33,2430,0.5407,0.0391,0.121,0.1214,0.6152,0.2096,12502,"18625",0.9379,49885
-"Davidson College","Davidson","NC","Southeast","No",0.1695,32,1922,0.6207,0.064,0.0973,0.0531,0.5328,0.1543,11975,"18688",0.9378,57755
-"Kenyon College","Gambier","OH","East_North_Central","Yes",0.343,33,1877,0.6638,0.0293,0.0762,0.0448,0.561,0.0996,9273,"18527",0.8839,44382
-"Oberlin College","Oberlin","OH","East_North_Central","Yes",0.3487,32,2986,0.6149,0.0455,0.082,0.0516,0.5914,0.0921,10435,"26000",0.8656,40633
-"Haverford College","Haverford","PA","Mid_Atlantic","Yes",0.1421,34,1417,0.494,0.0529,0.1284,0.1235,0.5441,0.1423,10994,"13621",0.9611,58828
-"Swarthmore College","Swarthmore","PA","Mid_Atlantic","Yes",0.0693,33,1619,0.3162,0.0902,0.1427,0.1767,0.512,0.1951,13487,"17500",0.9604,55739
-"Middlebury College","Middlebury","VT","New_England","Yes",0.1269,34,2751,0.5609,0.0542,0.1203,0.0727,0.5325,0.1498,13224,"13857",0.9544,64971
+"Pomona College","Claremont","CA","Pacific","Yes",0.0702,34,1699,0.3161,0.1006,0.1589,0.1736,0.5474,0.1852,14220,11782,0.9623,55809
+"Grinnell College","Grinnell","IA","West_North_Central","Yes",0.1076,33,1709,0.526,0.0439,0.0831,0.0755,0.5278,0.1774,11658,17500,0.9321,47752
+"Bowdoin College","Brunswick","ME","New_England","Yes",0.0919,34,1909,0.5563,0.0602,0.1325,0.0932,0.516,0.1561,13417,18500,0.9632,60191
+"Colby College","Waterville","ME","New_England","Yes",0.0761,34,2299,0.5607,0.0535,0.08,0.0983,0.5241,0.1406,11925,19157,0.928,58184
+"Amherst College","Amherst","MA","New_England","Yes",0.0726,34,1898,0.3815,0.108,0.1586,0.1391,0.5169,0.2363,14046,13740,0.9533,70140
+"Smith College","Northampton","MA","New_England","Yes",0.2286,33,2515,0.5109,0.0541,0.1225,0.0958,0.9996,0.1836,12547,17550,0.9083,47136
+"Carleton College","Northfield","MN","West_North_Central","Yes",0.1663,33,2007,0.5237,0.0673,0.0957,0.1001,0.5037,0.1424,13285,16750,0.955,55541
+"Macalester College","Saint Paul","MN","West_North_Central","No",0.2842,32,2164,0.5374,0.0587,0.1021,0.0758,0.5767,0.1843,11297,23000,0.9118,47382
+"St Olaf College","Northfield","MN","West_North_Central","No",0.5641,30,3019,0.6711,0.0338,0.0835,0.058,0.5803,0.2021,8925,26000,0.9007,48919
+"Hamilton College","Clinton","NY","Mid_Atlantic","Yes",0.1178,34,2071,0.6451,0.0314,0.0951,0.0903,0.5519,0.182,12129,17000,0.9512,65661
+"Skidmore College","Saratoga Springs","NY","Mid_Atlantic","Yes",0.2554,31,2744,0.6334,0.0441,0.0995,0.0554,0.5856,0.1513,10034,19500,0.8759,50769
+"Vassar College","Poughkeepsie","NY","Mid_Atlantic","Yes",0.1866,33,2430,0.5407,0.0391,0.121,0.1214,0.6152,0.2096,12502,18625,0.9379,49885
+"Davidson College","Davidson","NC","Southeast","No",0.1695,32,1922,0.6207,0.064,0.0973,0.0531,0.5328,0.1543,11975,18688,0.9378,57755
+"Kenyon College","Gambier","OH","East_North_Central","Yes",0.343,33,1877,0.6638,0.0293,0.0762,0.0448,0.561,0.0996,9273,18527,0.8839,44382
+"Oberlin College","Oberlin","OH","East_North_Central","Yes",0.3487,32,2986,0.6149,0.0455,0.082,0.0516,0.5914,0.0921,10435,26000,0.8656,40633
+"Haverford College","Haverford","PA","Mid_Atlantic","Yes",0.1421,34,1417,0.494,0.0529,0.1284,0.1235,0.5441,0.1423,10994,13621,0.9611,58828
+"Swarthmore College","Swarthmore","PA","Mid_Atlantic","Yes",0.0693,33,1619,0.3162,0.0902,0.1427,0.1767,0.512,0.1951,13487,17500,0.9604,55739
+"Middlebury College","Middlebury","VT","New_England","Yes",0.1269,34,2751,0.5609,0.0542,0.1203,0.0727,0.5325,0.1498,13224,13857,0.9544,64971
