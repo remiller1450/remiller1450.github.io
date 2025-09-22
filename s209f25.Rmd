@@ -106,16 +106,20 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/22", "Wed 9/24", "Fri 9/26"), 
-               Lecture = c("Correlation", 
+               Lecture = c("[Correlation](s209f25/cor.pdf)", 
                            "Simple Linear Regression",
-                           "Cofidence Intervals"),
-               Lab = c("Lab 6 - Correlation and Simple Linear Regression", 
-                       "Finish/discuss Lab 6",
-                       " "),
+                           " "),
+               Lab = c("", 
+                       "[Lab 6 - Correlation and Simple Linear Regression](s209f25/cor_reg.html)",
+                       "Finish/discuss Lab 6"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 6 is due Friday 9/26
+- Homework 4 is due Monday 9/29
+- We have our first exam next week
 
 $~$ 
 
@@ -123,7 +127,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/29", "Wed 10/1", "Fri 10/3"), 
-               Lecture = c("Errors and Multiple Comparisons", 
+               Lecture = c("Testing Errors and Multiple Comparisons", 
                            " ",
                            "Exam 1"),
                Lab = c(" ", 
@@ -133,6 +137,8 @@ x = data.frame(Date = c("Mon 9/29", "Wed 10/1", "Fri 10/3"),
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- A practice exam will be posted here soon
 
 $~$ 
 
