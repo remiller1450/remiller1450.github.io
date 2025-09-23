@@ -93,14 +93,16 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/23", "Th 9/25"), 
-               Lecture = c("Feature Transformations and Expansions",
-                           "Regularization"),
-               Lab = c("Lab 6 - Regression and Machine Learning",
-                       "Lab 7 - LASSO, Ridge, and Elastic Net"),
+               Lecture = c("[Feature Transformations and Expansions](ml25/reg1.pdf)",
+                           "Regression for Classification"),
+               Lab = c("Finish/discuss Lab 4",
+                       "Lab 5 - Regression and Machine Learning"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 5 is due Monday 9/29 at 11:59pm
 
 $~$
 
@@ -109,9 +111,26 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/30", "Th 10/2"), 
                Lecture = c("Support Vector Machines",
+                           "Random Forest"),
+               Lab = c("Lab 6 - Support Vector Machines",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Homework 3 is due 10/17 at 11:59pm
+
+$~$
+
+#### Week 6 - Ensembles
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 10/7", "Th 10/9"), 
+               Lecture = c("Gradient Boosting",
                            " "),
-               Lab = c("Lab 8 - Support Vector Machines",
-                       "Lab 9 - Exploring Model Limitations"),
+               Lab = c("Lab 7 - Ensemble Models",
+                       "Finish/discuss Lab 7"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -119,9 +138,6 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 5 - Ensembles
-
-$~$
 
 ### Unit #2 - The Mathematics of "Learning"
 
