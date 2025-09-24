@@ -107,7 +107,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/22", "Wed 9/24", "Fri 9/26"), 
                Lecture = c("[Correlation](s209f25/cor.pdf)", 
-                           "Simple Linear Regression",
+                           "[Simple Linear Regression](s209f25/reg.pdf)",
                            " "),
                Lab = c("", 
                        "[Lab 6 - Correlation and Simple Linear Regression](s209f25/cor_reg.html)",
@@ -118,8 +118,9 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Lab 6 is due Friday 9/26
-- Homework 4 is due Monday 9/29
+- [Homework 4](s209f25/hw4.html) is due Monday 9/29
 - We have our first exam next week
+    - [Exam 1 study guide](s209f25/Exam_1_study_guide.pdf) 
 
 $~$ 
 
