@@ -117,7 +117,7 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Lab 6 is due Friday 9/26
+- Lab 6 is due Monday 9/29
 - [Homework 4](s209f25/hw4.html) is due Monday 9/29
 - We have our first exam next week
     - [Exam 1 study guide](s209f25/Exam_1_study_guide.pdf) 
