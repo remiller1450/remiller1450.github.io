@@ -128,7 +128,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 9/29", "Wed 10/1", "Fri 10/3"), 
-               Lecture = c("Testing Errors and Multiple Comparisons", 
+               Lecture = c("[Study Design and Contingency Tables](s209f25/design.pdf)", 
                            " ",
                            "Exam 1"),
                Lab = c(" ", 
