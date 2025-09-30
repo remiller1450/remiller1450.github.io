@@ -110,16 +110,17 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/30", "Th 10/2"), 
-               Lecture = c("Support Vector Machines",
-                           "Random Forest"),
-               Lab = c("Lab 6 - Support Vector Machines",
+               Lecture = c("[Regularization](ml25/reg3.pdf)",
+                           "Support Vector Machines"),
+               Lab = c("Finish Lab 5, Start [Lab 6 - Regularized Regression](ml25/Lab_6_F25.html)",
                        " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Homework 3 is due 10/17 at 11:59pm
+- Lab 6 is due Monday 10/6 at 11:59pm
+- Homework 3 is due Friday 10/17 at 11:59pm
 
 $~$
 
