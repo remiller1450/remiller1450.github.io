@@ -106,14 +106,14 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 5 - More models
+#### Week 5 - Regularization
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/30", "Th 10/2"), 
                Lecture = c("[Regularization](ml25/reg3.pdf)",
                            "Support Vector Machines"),
-               Lab = c("Finish Lab 5, Start [Lab 6 - Regularized Regression](ml25/Lab_6_F25.html)",
-                       " "),
+               Lab = c("Finish/discuss Lab 5",
+                       "[Lab 6 - Regularized Regression](ml25/Lab_6_F25.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))

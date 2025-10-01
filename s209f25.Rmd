@@ -140,8 +140,78 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - [Practice Exam 1](s209f25/Exam1_Practice.pdf) 
+   - [Practice Exam Solutions](s209f25/Exam1_soln.pdf) 
 
 $~$ 
+
+### Exam #2 Content
+
+**Week 6** - Contingency Tables and Chi-Squared Tests
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 10/6", "Wed 10/8", "Fri 10/10"), 
+               Lecture = c("[Study Design and Contingency Tables (continued)](s209f25/design.pdf)", 
+                           "Chi-squared Tests (part 1 - Goodness of Fit)",
+                           "Chi-squared Tests (part 2 - Testing Independence"),
+               Lab = c("Lab 7 - Contingency Tables", 
+                       "Lab 8 - Chi-squared Tests",
+                       "Finish/discuss Lab 8"),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+**Week 7**: Analysis of Variance
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 10/13", "Wed 10/15", "Fri 10/17"), 
+               Lecture = c(" ", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+ **Week 8**: Multiple Comparisons and Data Transformations
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 10/27", "Wed 10/29", "Fri 10/31"), 
+               Lecture = c(" ", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+**Week 9**: Confidence Intervals
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+x = data.frame(Date = c("Mon 11/3", "Wed 11/5", "Fri 11/7"), 
+               Lecture = c(" ", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+
+$~$
 
 ## Tentative Exam Dates
 
