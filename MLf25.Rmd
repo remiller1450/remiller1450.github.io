@@ -111,7 +111,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/30", "Th 10/2"), 
                Lecture = c("[Regularization](ml25/reg3.pdf)",
-                           "Support Vector Machines"),
+                           " "),
                Lab = c("Finish/discuss Lab 5",
                        "[Lab 6 - Regularized Regression](ml25/Lab_6_F25.html)"),
                Resources = c(" ", " "))
@@ -120,7 +120,8 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Lab 6 is due Monday 10/6 at 11:59pm
-- Homework 3 is due Friday 10/17 at 11:59pm
+- [Homework 3](ml25/hw3.html) is due Friday 10/17 at 11:59pm
+    - Benchmark scores for this assignment will be released next week
 
 $~$
 
