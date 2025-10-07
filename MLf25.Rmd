@@ -119,27 +119,40 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Lab 6 is due Monday 10/6 at 11:59pm
+- Lab 6 is due Wednesday 10/8 at 11:59pm
 - [Homework 3](ml25/hw3.html) is due Friday 10/17 at 11:59pm
-    - Benchmark scores for this assignment will be released next week
+    - Benchmark scores for this assignment will be released soon
+$~$
+
+#### Week 6 - More Models
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 10/7", "Th 10/9"), 
+               Lecture = c("[Support Vector Machines](ml25/svm.pdf)",
+                           "Random Forest"),
+               Lab = c("[Lab 7 - Support Vector Machines](ml25/Lab_7_F25.html)",
+                       "Lab 8 - Ensembles and Feature Engineering"),
+               Resources = c("[An Idiot's Guide to SVMs](https://web.mit.edu/6.034/wwwbob/svm.pdf)", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 7 is due Monday 10/14 
 
 $~$
 
-#### Week 6 - Ensembles
+#### Week 7 - More Models (cont.)
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/7", "Th 10/9"), 
                Lecture = c("Gradient Boosting",
                            " "),
-               Lab = c("Lab 7 - Ensemble Models",
-                       "Finish/discuss Lab 7"),
+               Lab = c("Lab 8 (cont.)",
+                       " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
-
-$~$
-
 
 ### Unit #2 - The Mathematics of "Learning"
 
