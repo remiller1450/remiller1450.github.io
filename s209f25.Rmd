@@ -151,18 +151,18 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 10/6", "Wed 10/8", "Fri 10/10"), 
                Lecture = c("[Study Design and Contingency Tables (continued)](s209f25/design.pdf)", 
-                           "Chi-squared Tests (part 1 - Goodness of Fit)",
-                           "Chi-squared Tests (part 2 - Testing Independence"),
+                           "[Chi-squared Tests (part 1 - Goodness of Fit)](s209f25/chisq1.pdf)",
+                           "Chi-squared Tests (part 2 - Testing Independence)"),
                Lab = c("[Lab 7 - Contingency Tables](s209f25/tables.html)", 
-                       "Lab 8 - Chi-squared Tests",
+                       "[Lab 8 - Chi-squared Tests](s209f25/chisq.html)",
                        "Finish/discuss Lab 8"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Lab 6 is due Friday 10/10
-- Lab 7 is due Monday 10/13
+- Lab 7 is due Friday 10/10
+- Lab 8 is due Monday 10/13
 - [Homework 5](s209f25/hw5.html) is due Monday 10/13
 
 $~$
