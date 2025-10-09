@@ -129,15 +129,16 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/7", "Th 10/9"), 
                Lecture = c("[Support Vector Machines](ml25/svm.pdf)",
-                           "Random Forest"),
+                           "[Random Forest](ml25/rf.pdf)"),
                Lab = c("[Lab 7 - Support Vector Machines](ml25/Lab_7_F25.html)",
-                       "Lab 8 - Ensembles and Feature Engineering"),
+                       "[Lab 8 - Ensembles and Feature Engineering](ml25/Lab_8_F25.html)"),
                Resources = c("[An Idiot's Guide to SVMs](https://web.mit.edu/6.034/wwwbob/svm.pdf)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - Lab 7 is due Monday 10/14 
+- Lab 8 is due Wednesday 10/16
 
 $~$
 
