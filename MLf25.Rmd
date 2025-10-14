@@ -157,9 +157,37 @@ knitr::kable(x, format = "html") %>%
 
 - Lab 9 is due Friday 10/17
 
+$~$
+
 ### Unit #2 - The Mathematics of "Learning"
 
-Coming soon
+#### Week 8 - Gradient Descent Algorithms
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 10/28", "Th 10/30"), 
+               Lecture = c("Gradient Descent",
+                           "Mini-batch and Stochastic Gradient Descent"),
+               Lab = c("Lab 10 - Linear Algebra Review and Gradient Descent",
+                       "Finish/discuss Lab 10"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+#### Week 9 - Neural Networks and Backpropogation
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/4", "Th 11/6"), 
+               Lecture = c("Neural Networks",
+                           " "),
+               Lab = c(" ",
+                       "Lab 11 - Neural Networks"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 $~$
 
