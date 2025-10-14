@@ -146,14 +146,16 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/14", "Th 10/16"), 
-               Lecture = c("Gradient Boosting",
+               Lecture = c("[Gradient Boosting](ml25/boost.pdf)",
                            " "),
                Lab = c("Lab 8 (cont.)",
-                       "Lab 9 - Gradient Boosting with `xgboost`"),
+                       "[Lab 9 - Gradient Boosting with `xgboost`](ml25/Lab_9_F25.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 9 is due Friday 10/17
 
 ### Unit #2 - The Mathematics of "Learning"
 
