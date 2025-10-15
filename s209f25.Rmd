@@ -163,7 +163,7 @@ knitr::kable(x, format = "html") %>%
 
 - Lab 7 is due Friday 10/10
 - Lab 8 is due Wednesday 10/15
-- [Homework 5](s209f25/hw5.html) is due Monday 10/13
+- [Homework 5](s209f25/hw5.html) is due Wednesday 10/15
 
 $~$
 
@@ -172,17 +172,18 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 10/13", "Wed 10/15", "Fri 10/17"), 
                Lecture = c("[Chi-squared Tests (Part 2 - Independence)](s209f25/chisq2.pdf)", 
-                           " ",
+                           "[One-way ANOVA](s209f25/anova.pdf)",
                            " "),
                Lab = c("Finish/discuss Lab 8", 
-                       " ",
-                       " "),
+                       "[Lab 9 - ANOVA](s209f25/anova.html)",
+                       "Finish/discuss Lab 9"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - Lab 8 is due Wednesday 10/15
+- Lab 9 is due Friday 10/17
 - Homework 6 is due Monday 10/27
 
 $~$
