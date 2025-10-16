@@ -199,7 +199,7 @@ $~$
 
 ## Final Project 
 
-Information about the course project will be posted here later in the semester (week 6 or 7)
+[Final Project Description](ml25/final_project.pdf)
 
 $~$
 
