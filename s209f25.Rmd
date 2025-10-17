@@ -184,7 +184,8 @@ knitr::kable(x, format = "html") %>%
 
 - Lab 8 is due Wednesday 10/15
 - Lab 9 is due Friday 10/17
-- Homework 6 is due Monday 10/27
+- [Homework 6](s209f25/hw6.html) is due Monday 11/3
+    - *Note*: this assignment will eventually contain three questions, but I'm posting the question focused on ANOVA in case you wanted to work on it.
 
 $~$
 
