@@ -193,16 +193,22 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 10/27", "Wed 10/29", "Fri 10/31"), 
-               Lecture = c(" ", 
+               Lecture = c("[Testing Errors and Multiple Comparisons](s209f25/mcomp.pdf)", 
                            " ",
                            " "),
-               Lab = c(" ", 
-                       " ",
-                       " "),
+               Lab = c("[Lab 10 - Outliers, Transformations, and Multiple Comparisons](s209f25/mcomp_trans.html)", 
+                       "Finish/discuss Lab 10",
+                       "Project Exploratory Analysis"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- [Homework 6](s209f25/hw6.html) is due Monday 11/3
+- Lab 10 is due Friday 10/31
+- An exploratory analysis of your project data is due Friday 10/31. If you are collecting your own data you should aim to have at least some of it collected before then.
+
+$~$
 
 **Week 9**: Confidence Intervals
 
@@ -219,6 +225,10 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+
+$~$
+
+**Week 10**: Wrap-up and Exam 2
 
 $~$
 
