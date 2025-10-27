@@ -437,9 +437,82 @@ testing to expand upon the results of the one-way ANOVA you performed in
 Part I. Briefly explain why you believe post-hoc testing would or would
 not be worthwhile in this situation.</li>
 </ul>
-<p><em>Note</em>: There will be two additional questions added to this
-assignment after Fall break on the topics of testing errors/multiple
-comparisons and data transformations.</p>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="question-2" class="section level3">
+<h3>Question #2</h3>
+<p>In an experiment conducted in 1982, researchers had 12 subjects
+perform a visual motor task where they had to steer a pencil along a
+moving track. Each subject was tested on two different tracks: a
+straight track and an oscillating one. The researchers were not
+interested in how well the participants kept their pencil on the track,
+but rather their blink rate (measured in blinks per minute) under each
+condition. The columns <code>Straight</code> and
+<code>Oscillating</code> record each subject’s blink rate in each of
+these conditions.</p>
+<pre class="r"><code>blink = read.csv(&quot;https://remiller1450.github.io/data/blink.csv&quot;)</code></pre>
+<ul>
+<li><strong>Part A</strong>: This study uses a paired design (see our <a href="https://remiller1450.github.io/s209f25/ht3.pdf">two-sample
+hypothesis testing slides</a> for a refresher). Create a new variable
+that records the difference in blink rate for each subject
+(<code>Straight</code> minus <code>Oscillating</code>) and display the
+distribution of these differences using a histogram with 13 bins.</li>
+<li><strong>Part B</strong>: Consider the assumptions of the paired
+(one-sample) <span class="math inline">\(T\)</span>-test and the
+characteristics of these data. Why would it be inappropriate to use a
+<span class="math inline">\(T\)</span>-test to evaluate whether blink
+rate is associated with the type of track?</li>
+<li><strong>Part C</strong>: Apply a log-2 transformation to the
+variable you created in Part A to create a new outcome
+<code>log_difference</code>. Create a histogram using 13 bins to confirm
+that the data seem to be reasonably Normally distributed.</li>
+<li><strong>Part D</strong>: Consider two hypothetical subjects, one
+whose value of <code>log_difference</code> is 4 and another whose value
+of <code>log_difference</code> is 1. In terms of the original units
+(before the log transformation) how many times larger was the blink
+difference for the first subject compared to the second?</li>
+<li><strong>Part E</strong>: Perform a one-sample <span class="math inline">\(T\)</span>-test on the <code>log_difference</code>
+variable you created in Part C and provide a one-sentence conclusion
+that includes context, the <span class="math inline">\(p\)</span>-value,
+and a statement about how blink rates compare across experimental
+conditions.</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="question-3" class="section level3">
+<h3>Question #3</h3>
+<p>In an educational study aimed at informing people of the problems
+associated with multiple comparisons, Canadian researchers performed a
+study looking at various reasons for hospitalization and their potential
+associations with astrological signs. They performed a total of 24
+different hypothesis tests.</p>
+<ul>
+<li><strong>Part A</strong>: If the researchers compare the <span class="math inline">\(p\)</span>-value of each test they performed to
+<span class="math inline">\(\alpha = 0.05\)</span>, how many
+statistically significant findings would you expect if in reality there
+are no associations between astrological signs and reasons for
+hospitalization?</li>
+<li><strong>Part B</strong>: If the Bonferroni correction is applied to
+keep the family-wise type I error rate at 5%, what is the new
+significance threshold that <span class="math inline">\(p\)</span>-values should be compared to?</li>
+<li><strong>Part C</strong>: The study obtained two “significant”
+findings (without applying any corrections): individuals born under Leo
+had a higher probability of gastrointestinal hemorrhage (p = 0.0447),
+while Sagittarians had a higher probability of humerus fracture (p =
+0.0123) compared to all other signs combined. Using the adjusted
+threshold you found in Part B, are either of these findings
+statistically significant in light of the multiple comparisons the
+investigators performed?</li>
+<li><strong>Part D</strong>: Suppose that instead of using the
+Bonferroni correction, as was done in Parts B and C, you used a false
+discovery rate control procedure to limit the false discovery rate to
+5%. Is using this procedure <em>more likely</em> or <em>less likely</em>
+to produce type I errors than the Bonferroni procedure?</li>
+<li><strong>Part E</strong>: Suppose that some astrological signs
+actually do predispose individuals to certain reasons for
+hospitalization. Which procedure, the Bonferroni correction or false
+discovery rate control, is more prone to <em>type II errors</em>?</li>
+</ul>
 </div>
 
 
