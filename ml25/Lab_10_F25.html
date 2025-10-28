@@ -15260,7 +15260,7 @@ $$\mathbf{x} = \mathbf{A}^{-1} \cdot \mathbf{B}$$</p>
 <li><strong>Part B</strong>: Let $\mathbf{M}$ be an $n$ x $p$ matrix, $\mathbf{a}$ be an $n$-dimensional vector, $\mathbf{b}$ be a $p$-dimensional vector, and $\mathbf{0}$ be an $n$-dimensional vector of zeroes. Solve the equation $\mathbf{M}^T (\mathbf{a} - \mathbf{M} \cdot \mathbf{b}) = \mathbf{0}$ for $\mathbf{b}$.</li>
 <li><strong>Part C</strong>: For the matrices and vectors defined in Part B, suppose we observe the data given below. Use linear algebra operations in <code>numpy</code> to find the values of each element of $\mathbf{b}$ in the equation given in Part B.</li>
 </ul>
-$$\mathbf{y} = [1,-1,2,3,-2,1,2]  \quad \text{and} \quad \mathbf{X} = 
+$$\mathbf{a} = [1,-1,2,3,-2,1,2]  \quad \text{and} \quad \mathbf{M} = 
 \begin{bmatrix}
 1 &amp; -1 \\
 2 &amp; -1 \\
@@ -15317,7 +15317,7 @@ $$
 $$<p><strong>Question #3</strong>:</p>
 <ul>
 <li><strong>Part A</strong>: Consider the parameter vector $\mathbf{w} = [w_1, w_2, w_3]$ and a matrix of constants $\mathbf{A}$ consisting of the row vectors $[1, 1, 0]$ and $[3, 0, 2]$. Let $f(\mathbf{w}) = \mathbf{A} \mathbf{w}^2$, where $\mathbf{w}^2$ contains the squared elements of $\mathbf{w}$ (ie: $[w_1^2, w_2^2, w_3^2]$). Find the Jacobian $\frac{\partial \mathbf{f}}{\partial \mathbf{w}}$.</li>
-<li><strong>Part B</strong>: Consider $\mathbf{w} = [w_1, w_2, w_3]$ and the function $f(\mathbf{w}) = w_1 + \mathbf{w} \mathbf{I}$ where $\mathbf{I}$ is the identity matrix. Find the Jacobian $\frac{\partial \mathbf{f}}{\partial \mathbf{w}}$.</li>
+<li><strong>Part B</strong>: Consider $\mathbf{w} = [w_1, w_2, w_3]$ and the function $f(\mathbf{w}) = w_1 + \mathbf{w} \cdot \mathbf{I} \cdot [1, 0, 1]^T$ where $\mathbf{I}$ is the identity matrix. Find the Jacobian $\frac{\partial \mathbf{f}}{\partial \mathbf{w}}$.</li>
 </ul>
 
 </div>
@@ -15349,7 +15349,11 @@ $$\frac{\partial \mathbf{f}}{\partial \mathbf{w}} = \frac{\partial \mathbf{f}}{\
 <p>This approach is superior because $\frac{\partial \mathbf{f}}{\partial \mathbf{v}}$ is easy to find, it is $diag(e^\mathbf{v})$ if you recognize that each of the $n$ elements of $exp(\mathbf{v})$ has a non-zero derivative with respect to a single element of $\mathbf{v}$</p>
 <p>It is also easy to find $\frac{\partial \mathbf{v}}{\partial \mathbf{w}}$, which we can do by applying the matrix derivative short cuts to arrive at $\mathbf{X}$.</p>
 <p>Thus, we have: $\frac{\partial \mathbf{f}}{\partial \mathbf{w}} = diag(e^\mathbf{v}) \cdot \mathbf{X}$</p>
-<p><strong>Question #4</strong>: Consider the function $f(\mathbf{w}) = log\big(\frac{1}{1+exp(-\mathbf{x}^T \mathbf{w})}\big)$ where $\mathbf{x}$ is a $p$-dimensional vector of constants, and $\mathbf{w}$ is a $p$-dimensional vector of weight parameters. Use chain rule to find $\frac{\partial \mathbf{f}}{\partial \mathbf{w}}$. <em>Hint</em>: You should introduce your own notation to facilitate the use of chain rule.</p>
+<p><strong>Question #4</strong>:</p>
+<ul>
+<li><strong>Part A</strong>: Consider the function $f(\mathbf{w}) = log\big(\frac{1}{1+exp(-\mathbf{x}^T \mathbf{w})}\big)$ where $\mathbf{x}$ is a $p$-dimensional vector of constants, and $\mathbf{w}$ is a $p$-dimensional vector of weight parameters. Use chain rule to find $\frac{\partial \mathbf{f}}{\partial \mathbf{w}}$. <em>Hint</em>: You should introduce your own notation to facilitate the use of chain rule.</li>
+<li><strong>Part B</strong>: Now suppose $f(\mathbf{w}) = \sum_{i=1}^{n}log\big(\frac{1}{1+exp(-\mathbf{x}_i^T \mathbf{w})}\big)$ where each $\mathbf{x}_i$ is a different $p$-dimensional vector of constants. Using your results from Part A, what is $\frac{\partial \mathbf{f}}{\partial \mathbf{w}}$ in this scenario? <em>Hint</em>: You may introduce some additional notation of your own here, and you do not need to find any new partial derivatives.</li>
+</ul>
 
 </div>
 </div>
