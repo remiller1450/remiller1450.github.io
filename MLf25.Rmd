@@ -159,20 +159,24 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-### Unit #2 - The Mathematics of "Learning"
+### Unit #2 - Mathematics and "Deep Learning"
 
 #### Week 8 - Gradient Descent Algorithms
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/28", "Th 10/30"), 
-               Lecture = c("Gradient Descent",
-                           "Mini-batch and Stochastic Gradient Descent"),
-               Lab = c("Lab 10 - Linear Algebra Review and Gradient Descent",
-                       "Finish/discuss Lab 10"),
+               Lecture = c(" ",
+                           "Gradient Descent Algorithms"),
+               Lab = c("[Lab 10 - Linear Algebra Review](ml25/Lab_10_F25.html)",
+                       "Lab 11 - Gradient Descent Algorithms"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 9 (from before break) is due Wednesday 10/29
+- Lab 10 is due Friday 10/31
+- [Homework 4](ml25/hw4.html) is due Tuesday 11/11
 
 $~$
 
@@ -183,7 +187,7 @@ x = data.frame(Date = c("T 11/4", "Th 11/6"),
                Lecture = c("Neural Networks",
                            " "),
                Lab = c(" ",
-                       "Lab 11 - Neural Networks"),
+                       "Lab 12 - Neural Networks using PyTorch"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -191,9 +195,50 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-### Unit #3 - Introduction to Deep Learning
+#### Week 10 - Convolutional Neural Networks
 
-Coming soon
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/11", "Th 11/13"), 
+               Lecture = c("Convolutional Neural Networks",
+                           " "),
+               Lab = c("Lab 13 - Convolutional Neural Networks",
+                       "Lab 14 - Transfer Learning"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+#### Week 11 - Exam Preparation 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/18", "Th 11/20"), 
+               Lecture = c("Exam Review",
+                           " "),
+               Lab = c("Finishing up previous labs",
+                       "Exam"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+Our exam is on Thursday 11/20. We will have a review session on Tuesday 11/18 and you will be able to retake up to 3 quizzes at the end of the review session.
+
+$~$
+
+#### Week 12 - Recurrent Neural Networks 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/25", "Th 11/27"), 
+               Lecture = c("Reccurent Neural Networks",
+                           "No class - Thanksgiving"),
+               Lab = c("Lab 15",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 $~$
 
@@ -201,12 +246,7 @@ $~$
 
 [Final Project Description](ml25/final_project.pdf)
 
-$~$
+- The first project deadline is Tuesday 10/28 - one team member must indicate all members of your project team via email
+- The second project deadline is Friday 10/31 - one team member must share a short (1-2 paragraph) proposal via email describing your planned topic, including the data source.
 
-## Supplemental Resources
 
-**Unit #1**:
-
-- [UW-Madison SSCC Python Data Wrangling tutorials (balanced)](https://sscc.wisc.edu/sscc/pubs/dwp/Python_Fundamentals.html)
-- [Python Data Science Handbook Chapters 2,3,4 (more technical)](https://jakevdp.github.io/PythonDataScienceHandbook/)
-- [Stefanie Molin's Pandas workshop tutorials 1, 2 (less technical)](https://github.com/stefmolin/pandas-workshop)
