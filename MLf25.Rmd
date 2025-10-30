@@ -166,9 +166,9 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/28", "Th 10/30"), 
                Lecture = c(" ",
-                           "Gradient Descent Algorithms"),
+                           "[Gradient Descent Algorithms](ml25/grad.pdf)"),
                Lab = c("[Lab 10 - Linear Algebra Review](ml25/Lab_10_F25.html)",
-                       "Lab 11 - Gradient Descent Algorithms"),
+                       "[Lab 11 - Gradient Descent Algorithms](ml25/Lab_11_F25.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -186,12 +186,14 @@ $~$
 x = data.frame(Date = c("T 11/4", "Th 11/6"), 
                Lecture = c("Neural Networks",
                            " "),
-               Lab = c(" ",
+               Lab = c("Finish/discuss Lab 11",
                        "Lab 12 - Neural Networks using PyTorch"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 11 is due Friday 11/7
 
 $~$
 
@@ -234,6 +236,36 @@ x = data.frame(Date = c("T 11/25", "Th 11/27"),
                Lecture = c("Reccurent Neural Networks",
                            "No class - Thanksgiving"),
                Lab = c("Lab 15",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+#### Week 13 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 12/2", "Th 12/4"), 
+               Lecture = c(" ",
+                           " "),
+               Lab = c(" ",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+#### Week 14
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 12/9", "Th 12/11"), 
+               Lecture = c("Project Presentations #1",
+                           "Project Presentations #2"),
+               Lab = c(" ",
                        " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
