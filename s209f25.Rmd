@@ -214,17 +214,21 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
 x = data.frame(Date = c("Mon 11/3", "Wed 11/5", "Fri 11/7"), 
-               Lecture = c(" ", 
+               Lecture = c("[Confidence Intervals](s209f25/ci.pdf)", 
                            " ",
-                           " "),
-               Lab = c(" ", 
-                       " ",
-                       " "),
+                           "Bootstrapping"),
+               Lab = c("[Lab 11 - Confidence Intervals](s209f25/ci1.html)", 
+                       "Finish/discuss Lab 11",
+                       "Lab 12 - Bootstrapping"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+
+- Homework 7 is due Monday 11/10
+- Lab 11 is due Friday 11/7
+- Exam 2 is next Friday, a practice exam and study guide will be posted here by the end of this week
 
 $~$
 
