@@ -212,7 +212,7 @@ $~$
 
 **Week 9**: Confidence Intervals
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 11/3", "Wed 11/5", "Fri 11/7"), 
                Lecture = c("[Confidence Intervals](s209f25/ci.pdf)", 
                            " ",
