@@ -168,7 +168,7 @@ x = data.frame(Date = c("T 10/28", "Th 10/30"),
                Lecture = c(" ",
                            "[Gradient Descent Algorithms](ml25/grad.pdf)"),
                Lab = c("[Lab 10 - Linear Algebra Review](ml25/Lab_10_F25.html)",
-                       "[Lab 11 - Gradient Descent Algorithms](ml25/Lab_11_F25.html)"),
+                       " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -184,9 +184,9 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/4", "Th 11/6"), 
-               Lecture = c("Neural Networks",
-                           " "),
-               Lab = c("Finish/discuss Lab 11",
+               Lecture = c(" ",
+                           "Neural Networks"),
+               Lab = c("[Lab 11 - Gradient Descent Algorithms](ml25/Lab_11_F25.html)",
                        "Lab 12 - Neural Networks using PyTorch"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
@@ -225,7 +225,9 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-Our exam is on Thursday 11/20. We will have a review session on Tuesday 11/18 and you will be able to retake up to 3 quizzes at the end of the review session.
+- Our exam is on Thursday 11/20. We will have a review session on Tuesday 11/18 and you will be able to retake up to 3 quizzes at the end of the review session.
+- [Here is a practice exam](ml25/Practice_Exam.pdf). It is slightly shorter than the actual exam will be, but it should provide a good indication of the format and style of questions used in the actual exam.
+
 
 $~$
 
