@@ -185,9 +185,9 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/4", "Th 11/6"), 
                Lecture = c(" ",
-                           "Neural Networks"),
+                           "[Neural Networks](ml25/nn.pdf)"),
                Lab = c("[Lab 11 - Gradient Descent Algorithms](ml25/Lab_11_F25.html)",
-                       "Lab 12 - Neural Networks using PyTorch"),
+                       "Finish/discuss Lab 11"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -197,7 +197,7 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 10 - Convolutional Neural Networks
+#### Week 10 - Neural Networks
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/11", "Th 11/13"), 
@@ -231,7 +231,7 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 12 - Recurrent Neural Networks 
+#### Week 12 - More Neural Networks 
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/25", "Th 11/27"), 
