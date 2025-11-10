@@ -199,7 +199,7 @@ x = data.frame(Date = c("Mon 10/27", "Wed 10/29", "Fri 10/31"),
                Lab = c("[Lab 10 - Outliers, Transformations, and Multiple Comparisons](s209f25/mcomp_trans.html)", 
                        "Finish/discuss Lab 10",
                        "Project Exploratory Analysis"),
-               Resources = c(" " , " ", " "))
+               Resources = c("[UVA article on interpretting log-transformations](https://library.virginia.edu/data/articles/interpreting-log-transformations-in-a-linear-model)" , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -219,8 +219,8 @@ x = data.frame(Date = c("Mon 11/3", "Wed 11/5", "Fri 11/7"),
                            "[Bootstrapping](s209f25/boot.pdf)"),
                Lab = c("[Lab 11 - Confidence Intervals](s209f25/ci1.html)", 
                        "Finish/discuss Lab 11",
-                       "Lab 12 - Bootstrapping"),
-               Resources = c(" " , " ", " "))
+                       " "),
+               Resources = c(" " , " ", "[IMS chapter on Bootstrapping](https://openintro-ims.netlify.app/foundations-bootstrapping)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -236,7 +236,28 @@ $~$
 
 **Week 10**: Wrap-up and Exam 2
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 11/10", "Wed 11/12", "Fri 11/14"), 
+               Lecture = c(" ", 
+                           "Exam 2 Review",
+                           "Exam 2"),
+               Lab = c("[Lab 12 - Bootstrapping](s209f25/ci2.html)", 
+                       "Finish/discuss Lab 12 (if needed)",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- There is no homework assignment this week due to Exam 2
+- Lab 12 is due Wednesday 11/12
+- Exam 2 is Friday 11/14
+    - [Practice Exam 2](s209f25/Practice_Exam2.pdf) 
+    - [Study Guide](s209f25/Exam_2_Study_Guide.pdf) 
+
 $~$
+
+
 
 ## Tentative Exam Dates
 
@@ -252,4 +273,5 @@ Information and deadlines for the course project are [found here](s209f25/projec
 
 - ~~The first deadline is to decide upon your group members (2 or 3 people per group) by Monday 10/6~~
 - ~~The second deadline will be to submit a proposal for your project topic by Friday 10/10~~
-- The third deadline is to submit your exploratory analysis by Friday 10/31
+- ~~The third deadline is to submit your exploratory analysis by Friday 10/31~~
+- Project presentations will take place on Wed 12/10 and Fri 12/12. There will be one class meeting in Decemeber where you will have an opportunity to work on your project and discuss your final analyses with me.
