@@ -230,7 +230,7 @@ knitr::kable(x, format = "html") %>%
 - Lab 11 is due Friday 11/7
 - Exam 2 is next Friday
     - [Practice Exam 2](s209f25/Practice_Exam2.pdf) 
-    - [Study Guide](s209f25/Exam_2_Study_Guide.pdf) 
+    - [Study Guide](s209f25/Exam_2_study_guide.pdf) 
 
 $~$
 
@@ -253,7 +253,7 @@ knitr::kable(x, format = "html") %>%
 - Lab 12 is due Wednesday 11/12
 - Exam 2 is Friday 11/14
     - [Practice Exam 2](s209f25/Practice_Exam2.pdf) 
-    - [Study Guide](s209f25/Exam_2_Study_Guide.pdf) 
+    - [Study Guide](s209f25/Exam_2_study_guide.pdf) 
 
 $~$
 
