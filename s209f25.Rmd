@@ -258,6 +258,61 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
+**Week 11**: Confounding and Stratification
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 11/17", "Wed 11/19", "Fri 11/21"), 
+               Lecture = c(" ", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+**Week 12**: Multivariable Regression
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 11/24", "Wed 11/26", "Fri 11/28"), 
+               Lecture = c(" ", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+
+**Week 13**: Logistic Regression
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("Mon 12/1", "Wed 12/3", "Fri 12/5"), 
+               Lecture = c(" ", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       " ",
+                       " "),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+**Week 14**: Project presentations and Exam 3
+
+$~$
 
 
 ## Tentative Exam Dates
