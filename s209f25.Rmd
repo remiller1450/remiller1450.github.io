@@ -263,11 +263,11 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 11/17", "Wed 11/19", "Fri 11/21"), 
                Lecture = c(" ", 
-                           " ",
-                           " "),
-               Lab = c(" ", 
-                       " ",
-                       " "),
+                           "Marginal vs. Adjusted Effects",
+                           "Regression with Categorical Predictors"),
+               Lab = c("Lab 13 - Three-way Tables and Confounding", 
+                       "Finish/discuss Lab 13",
+                       "Lab 14"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -282,7 +282,7 @@ x = data.frame(Date = c("Mon 11/24", "Wed 11/26", "Fri 11/28"),
                Lecture = c(" ", 
                            " ",
                            " "),
-               Lab = c(" ", 
+               Lab = c("Lab 14 (cont.)x", 
                        " ",
                        " "),
                Resources = c(" " , " ", " "))
