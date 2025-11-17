@@ -11,7 +11,7 @@
 
 
 
-<title>Sta-209 (Fall 2025) Homework #7</title>
+<title>Sta-209 (Fall 2025) Homework #8</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -348,7 +348,7 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Sta-209 (Fall 2025) Homework #7</h1>
+<h1 class="title toc-ignore">Sta-209 (Fall 2025) Homework #8</h1>
 
 </div>
 
@@ -378,92 +378,119 @@ website (such as external websites and AI)</li>
 </ul>
 <div id="question-1" class="section level3">
 <h3>Question #1</h3>
-<p>Previous assignments have introduced the American Community Survey
-(ACS) data set, which is a random sample of US adults that is collected
-as part of the US Census. The data provided below are from the most
-recent ACS (part of the 2020 Census):</p>
-<pre class="r"><code>acs = read.csv(&quot;https://remiller1450.github.io/data/EmployedACS.csv&quot;)</code></pre>
-<p>The ACS data linked above includes the following variables:</p>
-<pre><code>- Sex - &#39;1&#39; for males and &#39;0&#39; for females
-- Age - age in years
-- Married - &#39;1&#39; for married individuals and &#39;0&#39; for unmarried individuals
-- Income - annual income (in thousands of dollars)
-- HoursWk - average hours worked per week
-- Race - self-described race
-- USCitizen - citizenship status, &#39;1&#39; for US citizens and &#39;0&#39; for non-citizens
-- HealthInsurance - &#39;1&#39; if the individual has health insurance, &#39;0&#39; otherwise
-- Language - &#39;1&#39; if the individual’s first/native language is English, &#39;0&#39; otherwise</code></pre>
-<p><span class="math inline">\(~\)</span></p>
+<p>A commonly referenced example of <a href="https://en.wikipedia.org/wiki/Simpson%27s_paradox">Simpson’s
+Paradox</a> involves the batting averages of professional baseball
+players. In 1995, Derek Jeter got a hit at 12 of 48 at bats (0.250
+batting average) while David Justice got a hit at 104 of 411 at bats
+(0.253 batting average). In 1996, Derek Jeter got a hit at 183 of 582 at
+bats (0.314 batting average), while David Justice got a hit at 45 of 140
+at bats (0.321 batting average). Thus, David Justice had a higher
+batting average than Derek Jeter in both of these two seasons.</p>
 <ul>
-<li><strong>Part A</strong>: Consider using the annual incomes reported
-by ACS respondents to estimate the average income of all US adults. Show
-how the margin of error of a 95% confidence interval is calculated in
-this scenario. You should get the calibration value, <span class="math inline">\(c\)</span>, <a href="https://www.lock5stat.com/StatKey/">from StatKey</a>, and you
-should show how the standard error is calculated as intermediate steps
-in your calculation.</li>
-<li><strong>Part B</strong>: Use the margin of error you found in Part A
-to produce a 95% confidence interval estimate for the average annual
-income of all US adults. Report the endpoints of the interval.</li>
-<li><strong>Part C</strong>: The average annual income in the ACS sample
-is $44,519. According to the confidence interval you found in Part B, is
-it plausible that the average annual income in the population
-represented by these data is $46,000? Briefly explain.</li>
-<li><strong>Part D</strong>: Use an appropriate <code>R</code> function
-to find a 90% confidence interval estimate for the difference in mean
-incomes of male and female US adults.</li>
-<li><strong>Part E</strong>: Based upon the interval you found in Part
-D, is it plausible males and females earn the same incomes (on average)?
-Briefly explain. <span class="math inline">\(~\)</span></li>
+<li><strong>Part A</strong>: Combining data from both seasons, which
+player had the higher batting average? Why is this result considered
+paradoxical when it is compared to the conditional outcomes (that
+condition on the season)? Briefly explain.</li>
+<li><strong>Part B</strong>: Using the example calculation in the
+“Adjusted Effects” section of Lab 13 as a template, show that Derek
+Jeter’s overall batting average (combined across both seasons) equals a
+weighted sum of his batting averages in each season.</li>
+<li><strong>Part C</strong>: Following the example calculation in Lab
+13, adjust Derek Jeter’s marginal effect (overall batting average
+combined across both seasons) so that his distribution of at bats each
+year matches the distribution of David Justice’s at bats each year (ie:
+use David Justice as a reference). Show your calculation.</li>
 </ul>
+<p><span class="math inline">\(~\)</span></p>
 </div>
 <div id="question-2" class="section level3">
 <h3>Question #2</h3>
-<p>For each scenario described below, explain whether the change that is
-described will <em>increase</em> or <em>decrease</em> the width of the
-confidence interval estimate. Unless it is explicitly mentioned as
-changing, you are to assume that everything else involved in the
-calculation of the interval remains unchanged.</p>
+<p>The <a href="https://www.youtube.com/watch?v=Dw5rR1yqyp8">Indoor
+Obstacle Course Test</a> (IOCT) is an obstacle course that all Cadets at
+West Point Academy are tested on and must successfully complete prior to
+graduation. The data set below records IOCT completion times for 384
+graduates of the academy:</p>
+<pre class="r"><code>ioct = read.csv(&quot;https://data.scorenetwork.org/data/ioct_west_point.csv&quot;)</code></pre>
 <ul>
-<li><strong>Part A</strong>: A random sample of <span class="math inline">\(n=100\)</span> is taken instead of a random sample
-of size <span class="math inline">\(n=80\)</span>.</li>
-<li><strong>Part B</strong>: A quantitative variable is sampled from a
-population that is more homogeneous (less variability among its members)
-rather than from a population that is less homogeneous.</li>
-<li><strong>Part C</strong>: The confidence level is increased from 90%
-to 95%.</li>
-<li><strong>Part D</strong>: The interval uses the <span class="math inline">\(t\)</span>-distribution as its underlying
-probability model rather than the Normal distribution.</li>
+<li><strong>Part A</strong>: Find Pearson’s correlation coefficient
+measuring the strength of association between the variables
+<code>height</code> and <code>IOCT_Time</code>. Based upon this
+correlation, do taller Cadets tend to finish the course faster or slower
+than shorter Cadets? Briefly explain.</li>
+<li><strong>Part B</strong>: Create a scatter plot showing the
+relationship between the explanatory variable <code>height</code> and
+the response variable <code>IOCT_Time</code> that includes both linear
+and moving average smoothers. Briefly explain why Pearson’s correlation
+coefficient is appropriate for measuring the strength of association for
+these data.</li>
+<li><strong>Part C</strong>: Fit the simple linear regression model
+<code>IOCT_Time ~ height</code> and interpret the slope coefficient that
+describes the effect of changes in <code>height</code> on the expected
+completion time in the fitted model.</li>
+<li><strong>Part D</strong>: Create an appropriate data visualization to
+determine whether the variables <code>sex</code> and <code>height</code>
+are associated in these data. Using your visualization, briefly explain
+whether or not you believe these variables are associated.</li>
+<li><strong>Part E</strong>: Create an appropriate data visualization to
+determine whether the variables <code>sex</code> and
+<code>IOCT_Time</code> are associated in these data. Using your
+visualization, briefly explain whether or not you believe these
+variables are associated.</li>
+<li><strong>Part F</strong>: Based upon your answers to Parts D and E,
+state whether or not you believe <code>sex</code> confounds the
+relationship between <code>height</code> and
+<code>IOCT_Time</code>.</li>
+<li><strong>Part G</strong>: Use the <code>group_by()</code> and
+<code>summarize()</code> functions in the <code>dplyr</code> package to
+perform a <em>stratified analysis</em> that reports the correlation
+between <code>height</code> and <code>IOCT_Time</code> separately for
+each category of <code>sex</code>. <em>Hint</em>: If you are specifying
+the data as the first step in the pipeline you should reference the
+variables <code>height</code> and <code>IOCT_Time</code> without using
+the <code>$</code> operator inside of the <code>summarize()</code>
+function.</li>
+<li><strong>Part H</strong>: Briefly interpret the results of the
+stratified analysis you performed in Part G. That is, does
+<code>height</code> appear associated with <code>IOCT_Time</code> after
+you account for the variable <code>sex</code>?</li>
+<li><strong>Part I</strong>: Fit the multivariable linear regression
+model <code>IOCT_Time ~ height + sex</code> and interpret the slope
+coefficient that describes the effect of changes in <code>height</code>
+on the expected completion time in the fitted model. Briefly explain the
+difference between this effect and the one from Part C.</li>
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 </div>
 <div id="question-3" class="section level3">
 <h3>Question #3</h3>
-<p>Below are various interpretations involving confidence interval
-estimates. You are to determine whether each interpretation is
-<em>correct</em> or <em>incorrect</em>. For any incorrect
-interpretations you must provide a one-sentence explanation of what is
-incorrect.</p>
+<p>For this question you’ll work with the “2023 Boston Marathon” data
+set found below:</p>
+<pre class="r"><code>marathon = read.csv(&quot;https://data.scorenetwork.org/data/boston_marathon_2023.csv&quot;)</code></pre>
+<p>This data set records information on each finisher of the 2023 Boston
+Marathon, with the variable <code>finish_net_sec</code> (finishing time
+in seconds) being the outcome of interest for this question.</p>
 <ul>
-<li><strong>Part A</strong>: Suppose a scientifically rigorous study
-reports a 95% confidence interval estimate for the mean cholesterol
-level of US adults as (202.4, 225.6). This interval suggests 95% of the
-US adult population has a cholesterol level between 202.4 and
-225.6.</li>
-<li><strong>Part B</strong>: A representative sample of <span class="math inline">\(n=1000\)</span> US adults is polled to gauge
-support for a proposed policy change. It was found that 57% of the
-sampled individuals supported the change, with a 90% confidence interval
-estimate of (0.53, 0.61). This interval tells us that 90% of future
-random samples of US adults will show between 53% and 61% of the
-population supporting the proposed change.</li>
-<li><strong>Part C</strong>: You and your friend each take a random
-sample and you each calculate a 95% confidence interval estimate for the
-proportion of student athletes at Grinnell who have taken a statistics
-course using a statistically valid procedure. Your friend’s sample
-contained <span class="math inline">\(n=50\)</span> student athletes,
-while yours only contained <span class="math inline">\(n=30\)</span>
-student athletes. This distinction leads your friend to conclude that
-their confidence interval is more likely to contain the true proportion
-than yours.</li>
+<li><strong>Part A</strong>: Create a frequency table of the variable
+<code>age_group</code> and briefly describe the distribution of finisher
+ages.</li>
+<li><strong>Part B</strong>: Fit the regression model
+<code>finish_net_sec ~ age_group</code>. Based upon your fitted model,
+which age group has the fastest expected finish time?</li>
+<li><strong>Part C</strong>: Briefly interpret the estimated coefficient
+for “age_group50-54” in the model you fit in Part B.</li>
+<li><strong>Part D</strong>: Create a data visualization showing the
+relationship between <code>half_time_sec</code> (the runner’s time at
+the race’s halfway point) and <code>finish_net_sec</code>. Using this
+visualization, briefly describe the relationship between these two
+variables.</li>
+<li><strong>Part E</strong> Fit the regression model
+<code>finish_net_sec ~ half_time_sec</code>. Briefly interpret the slope
+and intercept of this model. If the intercept is not meaningful, you
+should indicate this.</li>
+<li><strong>Part F</strong>: Now fit the multivariable regression model
+<code>finish_net_sec ~ half_time_sec + age_group</code>. Explain why the
+coefficient of “age_group50-54” in this model is so different from the
+coefficient in the model you fit in Part B.</li>
 </ul>
 </div>
 
