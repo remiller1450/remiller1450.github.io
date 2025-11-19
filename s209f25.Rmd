@@ -263,11 +263,11 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("Mon 11/17", "Wed 11/19", "Fri 11/21"), 
                Lecture = c(" ", 
-                           "Regression with Categorical Predictors",
-                           "Multivariable Regression"),
+                           "[Multivariable Regression](s209f25/mr1.pdf)",
+                           " "),
                Lab = c("[Lab 13 - Confounding, Stratification, and Adjusted Effects](s209f25/strat.html)", 
                        "Finish/discuss Lab 13",
-                       "Lab 14"),
+                       "[Lab 14](s209f25/mr1.html)"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -281,13 +281,13 @@ $~$
 
 **Week 12**: Multivariable Regression
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 11/24", "Wed 11/26", "Fri 11/28"), 
-               Lecture = c(" ", 
+               Lecture = c("Comparing Multivariable Regression Models", 
                            " ",
                            " "),
-               Lab = c("Lab 14 (cont.)x", 
-                       " ",
+               Lab = c("Lab 15", 
+                       "Finish Lab 15/project check-in",
                        " "),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
@@ -301,12 +301,12 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
 x = data.frame(Date = c("Mon 12/1", "Wed 12/3", "Fri 12/5"), 
-               Lecture = c(" ", 
-                           " ",
+               Lecture = c("Logistic Regression", 
+                           "Job Candidate Visit",
                            " "),
                Lab = c(" ", 
                        " ",
-                       " "),
+                       "Logistic Regression"),
                Resources = c(" " , " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -315,6 +315,8 @@ knitr::kable(x, format = "html") %>%
 $~$
 
 **Week 14**: Project presentations and Exam 3
+
+
 
 $~$
 
