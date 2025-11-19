@@ -258,6 +258,8 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
+### Exam #3 Content
+
 **Week 11**: Confounding and Stratification
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
