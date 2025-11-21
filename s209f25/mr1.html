@@ -1600,7 +1600,7 @@ ic_homes &lt;- read.csv(&quot;https://remiller1450.github.io/data/IowaCityHomeSa
 categorical explanatory variable:</p>
 <pre class="r"><code>model1 = lm(sale.amount ~ bsmt, data = ic_homes)</code></pre>
 <p>The code given above fits a model that uses the explanatory variable
-<code>attic</code> to predict the outcome <code>sale.amount</code> for
+<code>bsmt</code> to predict the outcome <code>sale.amount</code> for
 the <code>ic_homes</code> dataset. Printing the model will give us the
 estimated coefficients for each dummy variable used to represent this
 categorical explanatory variable.</p>
