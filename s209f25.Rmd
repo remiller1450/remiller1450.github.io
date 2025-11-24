@@ -285,10 +285,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 11/24", "Wed 11/26", "Fri 11/28"), 
-               Lecture = c("Comparing Multivariable Regression Models", 
+               Lecture = c("[Comparing Multivariable Regression Models](s209f25/mr2.pdf)", 
                            " ",
                            " "),
-               Lab = c("Lab 15", 
+               Lab = c("[Lab 15 - Inference for Multivariable Regression](s209f25/mr2.html)", 
                        "Finish Lab 15/project check-in",
                        " "),
                Resources = c(" " , " ", " "))
@@ -296,12 +296,14 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-$~$
+- Lab 14 is due Wednesday 11/26
+- Lab 15 is due Monday 12/1
 
+$~$
 
 **Week 13**: Logistic Regression
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 12/1", "Wed 12/3", "Fri 12/5"), 
                Lecture = c("Logistic Regression", 
                            "Job Candidate Visit",
