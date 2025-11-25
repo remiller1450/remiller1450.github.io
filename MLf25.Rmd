@@ -238,14 +238,16 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/25", "Th 11/27"), 
-               Lecture = c("Reccurent Neural Networks",
+               Lecture = c(" ",
                            "No class - Thanksgiving"),
-               Lab = c("Lab 15",
+               Lab = c("[Lab 14 - Transfer Learning](ml25/Lab_14_F25.html)",
                        " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 13 (CNNs) is due Wednesday 11/26
 
 $~$
 
@@ -253,14 +255,17 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 12/2", "Th 12/4"), 
-               Lecture = c(" ",
+               Lecture = c("Recurrent Neural Networks",
                            " "),
-               Lab = c(" ",
-                       " "),
+               Lab = c("Lab 15 - RNNs",
+                       "Finish Labs 14/15 and Project Prep"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 14 is due Friday 12/5
+- Lab 15 can be completed for extra credit and I'll accept it any time before Friday 
 
 $~$
 
@@ -285,5 +290,7 @@ $~$
 
 - The first project deadline is Tuesday 10/28 - one team member must indicate all members of your project team via email
 - The second project deadline is Friday 10/31 - one team member must share a short (1-2 paragraph) proposal via email describing your planned topic, including the data source.
+- During Week 13 (the week of Tuesday 12/2) each group is to share an informal, 3-5 minute progress briefing regarding the status of your project. You should be prepared to describe your research aims, data, and current progress. You do not need to prepare any materials or have any formal results yet.
+
 
 
