@@ -298,6 +298,7 @@ knitr::kable(x, format = "html") %>%
 
 - Lab 14 is due Wednesday 11/26
 - Lab 15 is due Monday 12/1
+- [Homework 9](s209f25/hw9.html) is due Friday 12/5
 
 $~$
 
@@ -305,8 +306,8 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 12/1", "Wed 12/3", "Fri 12/5"), 
-               Lecture = c("Logistic Regression", 
-                           "Job Candidate Visit",
+               Lecture = c("Job Candidate Visit", 
+                           "Logistic Regression",
                            " "),
                Lab = c(" ", 
                        " ",
@@ -315,6 +316,9 @@ x = data.frame(Date = c("Mon 12/1", "Wed 12/3", "Fri 12/5"),
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- [Homework 9](s209f25/hw9.html) is due Friday 12/5
+- Lab 16 is due Friday 12/5
 
 $~$
 
@@ -340,4 +344,4 @@ Information and deadlines for the course project are [found here](s209f25/projec
 - ~~The first deadline is to decide upon your group members (2 or 3 people per group) by Monday 10/6~~
 - ~~The second deadline will be to submit a proposal for your project topic by Friday 10/10~~
 - ~~The third deadline is to submit your exploratory analysis by Friday 10/31~~
-- Project presentations will take place on Wed 12/10 and Fri 12/12. There will be one class meeting in Decemeber where you will have an opportunity to work on your project and discuss your final analyses with me.
+- Project presentations will take place on Wed 12/10 and Fri 12/12.
