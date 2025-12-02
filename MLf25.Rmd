@@ -255,10 +255,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 12/2", "Th 12/4"), 
-               Lecture = c("Recurrent Neural Networks",
+               Lecture = c("[Recurrent Neural Networks](ml25/rnn.pdf)",
                            " "),
-               Lab = c("Lab 15 - RNNs",
-                       "Finish Labs 14/15 and Project Prep"),
+               Lab = c("[Lab 15 - RNNs (optional)](ml25/Lab_15_F25.html)",
+                       "Finish Labs 14, 15 and Project Prep"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
