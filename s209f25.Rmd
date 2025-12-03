@@ -306,25 +306,41 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 12/1", "Wed 12/3", "Fri 12/5"), 
-               Lecture = c("Job Candidate Visit", 
-                           "Logistic Regression",
+               Lecture = c("~~Job Candidate Visit~~", 
+                           "[Logistic Regression](s209f25/logr1.pdf)",
                            " "),
                Lab = c(" ", 
-                       " ",
-                       "Logistic Regression"),
-               Resources = c(" " , " ", " "))
+                       "[Lab 16 - Logistic Regression](s209f25/lr.html)",
+                       "Finish/discuss Lab 16"),
+               Resources = c(" " , "[Logistic Regression in IMS](https://openintro-ims.netlify.app/model-logistic#sec-modelingTheProbabilityOfAnEvent)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - [Homework 9](s209f25/hw9.html) is due Friday 12/5
 - Lab 16 is due Friday 12/5
+- Exam 3 is on Monday 12/8
+    - There will be no practice exam this time (you should now be familiar enough with the format)
+    - [Here is a study guide](s209f25/Exam_3_study_guide.pdf) with a list of topics to study and links to practice questions from previous exams I've given on this content
 
 $~$
 
 **Week 14**: Project presentations and Exam 3
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 12/8", "Wed 12/10", "Fri 12/12"), 
+               Lecture = c("Exam 3", 
+                           " ",
+                           " "),
+               Lab = c(" ", 
+                       "Project Presentations",
+                       "Project Presentations"),
+               Resources = c(" " , " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
+Our final exam meeting time is Thursday 12/18 from 9am-noon (in Noyce 2402). Recall that you are not required to attend, but may retake alternate versions of any of our exams during this time to replace your previous score (see syllabus for details).
 
 $~$
 
