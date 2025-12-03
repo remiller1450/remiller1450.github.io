@@ -1547,9 +1547,11 @@ it is attempted from a distance of zero feet is 0.4
 <li>We should <em>always apply the inverse transformation</em> when
 interpreting, so <span class="math inline">\(exp(0.4) = 1.49\)</span>
 suggests the expected odds of a being made from zero feet are 1.49</li>
-<li>We could use an <a href="https://www.profitduel.com/betting-calculators/implied-probability-calculator">implied
-probability calculator</a> to determine this is an implied probability
-of 67.11%</li>
+<li>If we wanted a predicted probability, we could plug in our predicted
+log-odds (0.414 in the intercept-only model) into the inverse function
+<span class="math inline">\(1/(1+exp(-x))\)</span>, which suggests a
+59.87% probability of a shot taken from zero feet from the basket being
+made.</li>
 </ul></li>
 <li>The estimated coefficient, <span class="math inline">\(\hat{\beta}_1
 = -0.044\)</span>, tells us the expected log-odds of a shot being made
