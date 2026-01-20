@@ -8,20 +8,17 @@ I've previously worked as a tenure-track Assistant Professor in the [Xavier Univ
 
 My graduate training is in [Biostatistics](https://www.public-health.uiowa.edu/biostat/), and I completed my PhD at the University of Iowa in August of 2018. As an undergraduate I studied Mathematics at [Augustana College](https://www.augustana.edu/) in Rock Island, Illinois.
 
+During Spring 2026 I am on research leave and not teaching any courses. You may find links to the most recent version of each of my courses below:
+
 Below are links to my current courses, as well as the most recent version of courses I've previously taught:
-
-**Current Courses (Fall 2025)**:
-
-- [Sta-209, Applied Statistics](s209f25.html)
-- [Sta-395, Intro to Machine Learning](MLf25.html)
 
 **Previous Courses (Grinnell College)**:
 
 - [Tut-100, First-Year Tutorial (Fall '23)](tut23.html)
-- [Sta-209, Applied Statistics (Spring '25)](s209s25.html)
+- [Sta-209, Applied Statistics (Fall '25)](s209f25.html)
 - [Sta-230, Intro to Data Science (Fall '23)](s230f23.html)
 - [Sta-330, Applied Data Science (Spring '25)](sta330s25.html)
-- [Sta-395, Intro to Machine Learning (Spring '24)](MLs24.html)
+- [Sta-395, Intro to Machine Learning (Fall '25)](MLf25.html)
     
 **Previous Courses (Xavier University)**:
 

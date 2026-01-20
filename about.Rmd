@@ -2,29 +2,31 @@
 title: "Research"
 ---
 
-This page highlights a few different areas I've actively contributed towards throughout my career.  
+This page highlights a few different research areas where I've made contributions throughout my career. If you are a Grinnell College student interested in working with me on a research project, please read the information below:
 
-- If you are a Grinnell College student interested in working with me on a research project I encourage you to read these sections. I am usually willing to collaborate on a [MAP](https://www.grinnell.edu/about/leadership/offices-services/dean/maps) in most summers as long as the intended project is a good fit for both of us.
-    - *Note*: for the time being, I will be using the [common science division MAP application](https://www.grinnell.edu/academics/majors-concentrations/science-division/summer-research)
-
-## Current Opportunities
-
-I'm currently working on vehicle-based detection of impaired driving using machine learning methods. Some of this work was presented at the [2024 Transportation Research Board Annual Meeting](https://www.trb.org/AnnualMeeting/AnnualMeeting.aspx)
-
-- Here are the [presentation slides](TRB24_slides.pdf)
-
-There are a variety of areas that I'd like to devote further attention to:
-
-1. Performance of deep learning models (Inception Time) developed to detect cannabis impairment on other sources of impairment (alcohol, combined cannabis+alcohol, drowsiness) and on-road control data.
-2. Trade-offs between complexity of data and performance. The idea would be to explore whether features that are less invasive to collect (speed, acceleration, lateral position) can be used to develop models that perform as well as models involving more invasive features (brake pedal/steering wheel inputs)
-3. Two-stage approaches that match input data to a driving scenario (ie: 4-lane interstate, 2-lane rural, or urban city) and apply an impairment detection model that was trained for that scenario.
-4. Applications of explainable AI (XAI) methods to better understand successful predictors of various types of impairment
-
-I am open to working with any student with coding experience (Python or R) and interest/experience in machine learning.
+1. Most summers I supervise 1-2 two research projects involving 2-4 students. Preliminary topics for these projects are determined in early February, but they can be adjusted depending upon student interests and abilities.
+2. Summer MAPs currently require a [common application](https://www.grinnell.edu/academics/majors-concentrations/science-division/summer-research) that is advertised by the Science Division Office in February. I encourage you to meet with me (or drop-in during my office hours) if you are interested in applying to work on a Summer MAP with me.
+3. Summer MAP applications are competitive, so even if you and I are both interested in a project it is possible that other applicants are better equipped for specific needs of a project. It is my obligation to construct the most effective teams when reading applications and making offers.
 
 $~$
 
-## Areas of Interest
+## Current Opportunities
+
+I am currently working on passive detection of drug-impaired driving using machine learning and time-series data streams (ocular and vehicle) from driver monitoring systems. In particular, I'm planning on the following projects for Summer 2026:
+
+1. Understanding and extracting comprehensible eye-movement features using convolution-based deep learning methods (ROCKET and InceptionTime), essentially an explainable AI task (XAI) involving the development of specialized methods.
+2. Investigating the performance of machine learning methods trained for alcohol detection on new (unseen) driving environments and new sources of impairment (cannabis and fatigue).
+
+The only necessary requirement for me to consider your application is intermediate-level programming experience in either R or Python (ie: organized projects involving more than just a few lines of data analysis code). Experience in machine learning and/or statistical modeling is desirable, but not required for consideration.
+
+To better understand this line of research, I encourage you to browse the presentation slides linked below:
+
+- [TRB 2026 Annual Meeting](TRB26_ML_ALC_DETECT.pdf)
+- [TRB 2024 Annual Meeting](TRB24_slides.pdf)
+
+$~$
+
+## Previous Contributions
 
 ### 1. False Discovery Rate Methods in High Dimensional Regression Modeling
 

@@ -13,7 +13,7 @@
 
 <title>Research</title>
 
-<script src="site_libs/header-attrs-2.15/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -180,8 +180,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -189,16 +189,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -303,53 +296,58 @@ $(document).ready(function () {
 </div>
 
 
-<p>This page highlights a few different areas I’ve actively contributed
-towards throughout my career.</p>
-<ul>
-<li>If you are a Grinnell College student interested in working with me
-on a research project I encourage you to read these sections. I am
-usually willing to collaborate on a <a
-href="https://www.grinnell.edu/about/leadership/offices-services/dean/maps">MAP</a>
-in most summers as long as the intended project is a good fit for both
-of us.
-<ul>
-<li><em>Note</em>: for the time being, I will be using the <a
+<p>This page highlights a few different research areas where I’ve made
+contributions throughout my career. If you are a Grinnell College
+student interested in working with me on a research project, please read
+the information below:</p>
+<ol style="list-style-type: decimal">
+<li>Most summers I supervise 1-2 two research projects involving 2-4
+students. Preliminary topics for these projects are determined in early
+February, but they can be adjusted depending upon student interests and
+abilities.</li>
+<li>Summer MAPs currently require a <a
 href="https://www.grinnell.edu/academics/majors-concentrations/science-division/summer-research">common
-science division MAP application</a></li>
-</ul></li>
-</ul>
+application</a> that is advertised by the Science Division Office in
+February. I encourage you to meet with me (or drop-in during my office
+hours) if you are interested in applying to work on a Summer MAP with
+me.</li>
+<li>Summer MAP applications are competitive, so even if you and I are
+both interested in a project it is possible that other applicants are
+better equipped for specific needs of a project. It is my obligation to
+construct the most effective teams when reading applications and making
+offers.</li>
+</ol>
+<p><span class="math inline">\(~\)</span></p>
 <div id="current-opportunities" class="section level2">
 <h2>Current Opportunities</h2>
-<p>I’m currently working on vehicle-based detection of impaired driving
-using machine learning methods. Some of this work was presented at the
-<a href="https://www.trb.org/AnnualMeeting/AnnualMeeting.aspx">2024
-Transportation Research Board Annual Meeting</a></p>
-<ul>
-<li>Here are the <a href="TRB24_slides.pdf">presentation slides</a></li>
-</ul>
-<p>There are a variety of areas that I’d like to devote further
-attention to:</p>
+<p>I am currently working on passive detection of drug-impaired driving
+using machine learning and time-series data streams (ocular and vehicle)
+from driver monitoring systems. In particular, I’m planning on the
+following projects for Summer 2026:</p>
 <ol style="list-style-type: decimal">
-<li>Performance of deep learning models (Inception Time) developed to
-detect cannabis impairment on other sources of impairment (alcohol,
-combined cannabis+alcohol, drowsiness) and on-road control data.</li>
-<li>Trade-offs between complexity of data and performance. The idea
-would be to explore whether features that are less invasive to collect
-(speed, acceleration, lateral position) can be used to develop models
-that perform as well as models involving more invasive features (brake
-pedal/steering wheel inputs)</li>
-<li>Two-stage approaches that match input data to a driving scenario
-(ie: 4-lane interstate, 2-lane rural, or urban city) and apply an
-impairment detection model that was trained for that scenario.</li>
-<li>Applications of explainable AI (XAI) methods to better understand
-successful predictors of various types of impairment</li>
+<li>Understanding and extracting comprehensible eye-movement features
+using convolution-based deep learning methods (ROCKET and
+InceptionTime), essentially an explainable AI task (XAI) involving the
+development of specialized methods.</li>
+<li>Investigating the performance of machine learning methods trained
+for alcohol detection on new (unseen) driving environments and new
+sources of impairment (cannabis and fatigue).</li>
 </ol>
-<p>I am open to working with any student with coding experience (Python
-or R) and interest/experience in machine learning.</p>
+<p>The only necessary requirement for me to consider your application is
+intermediate-level programming experience in either R or Python (ie:
+organized projects involving more than just a few lines of data analysis
+code). Experience in machine learning and/or statistical modeling is
+desirable, but not required for consideration.</p>
+<p>To better understand this line of research, I encourage you to browse
+the presentation slides linked below:</p>
+<ul>
+<li><a href="TRB26_ML_ALC_DETECT.pdf">TRB 2026 Annual Meeting</a></li>
+<li><a href="TRB24_slides.pdf">TRB 2024 Annual Meeting</a></li>
+</ul>
 <p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="areas-of-interest" class="section level2">
-<h2>Areas of Interest</h2>
+<div id="previous-contributions" class="section level2">
+<h2>Previous Contributions</h2>
 <div
 id="false-discovery-rate-methods-in-high-dimensional-regression-modeling"
 class="section level3">
