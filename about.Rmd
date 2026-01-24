@@ -14,7 +14,7 @@ $~$
 
 I am currently working on passive detection of drug-impaired driving using machine learning and time-series data streams (ocular and vehicle) from driver monitoring systems. In particular, I'm planning on the following projects for Summer 2026:
 
-1. Understanding and extracting comprehensible eye-movement features using convolution-based deep learning methods (ROCKET and InceptionTime), essentially an explainable AI task (XAI) involving the development of specialized methods.
+1. Understanding and extracting comprehensible eye-movement features using convolution-based deep learning methods (ROCKET and InceptionTime), essentially an explainable AI task.
 2. Investigating the performance of machine learning methods trained for alcohol detection on new (unseen) driving environments and new sources of impairment (cannabis and fatigue).
 
 The only necessary requirement for me to consider your application is intermediate-level programming experience in either R or Python (ie: organized projects involving more than just a few lines of data analysis code). Experience in machine learning and/or statistical modeling is desirable, but not required for consideration.
