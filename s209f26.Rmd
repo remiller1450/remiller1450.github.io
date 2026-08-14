@@ -1,0 +1,83 @@
+---
+title: "STA-209 - Applied Statistics (Fall 2026)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+Welcome to the course website for Sta-209-04 (Applied Statistics). You can find the course syllabus linked below:
+
+- [Click here](syllabus209f26.html) to view the course syllabus
+
+You can locate course content by scrolling, or by using the navigation bar in the upper left.  
+
+Please note that some material will not be posted until we've reached that point in the course.
+
+## Course Materials
+
+Course meetings typically involve a short lecture followed by a lab activity. The labs from a given week are generally due on Friday, and the corresponding homework assignment is due on the following Monday. Unless otherwise mentioned, all assignments are due by 11:59pm (midnight) on their due date.
+
+$~$
+
+### Exam #1 Content
+
+**Week 0/1** - Statistical Thinking and Simple Hypothesis Tests
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+library(knitr)
+library(kableExtra)
+library(dplyr)
+# x <- cars[1:3,]
+# urls <- c("stackoverflow.com", "stats.stackexchange.com", "homebrew.stackexchange.com")
+# linkID <- c("link1", "link2", "link3")
+# x$website <- paste0("[", linkID, "](http://", urls, ")")
+# kable(x)
+
+x = data.frame(Date = c("Fri 8/28", "Mon 8/31", "Wed 9/2", "Fri 9/4"), 
+               Lecture = c("Introduction to Statistical Thinking", 
+                           "Hypothesis Testing",
+                           " ",
+                           " "),
+               Lab = c("Lab 1 - A first hypothesis test", 
+                       "Finish/discuss Lab 1",
+                       "Lab 2 - Intro to `R` and one-sample categorical data",
+                       "Lab 3 - More `R` and one-sample quantitative data"),
+               Resources = c(" ", " ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+**Assignments and Deadlines**:
+
+- Lab 1 is due Monday 8/31
+- Labs 2 and 3 are due Wednesday 9/7
+- [Homework 1](s209f26/hw1.html) is due Friday 9/4 
+
+All assignments should be submitted via Canvas.
+
+$~$
+
+**Week 2** - More Hypothesis Testing
+
+
+
+$~$
+
+## Exam Dates
+
+Study materials (practice test, study guide, etc.) will be released approximately 1-week prior to each exam.
+
+- Exam 1 - Friday 10/2
+- Exam 2 - Friday 11/13
+- Exam 3 - Monday 12/7
+
+$~$
+
+## Project 
+
+Information and deadlines for the course project will appear here. The project will not formally be introduced until after Exam 1.

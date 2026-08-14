@@ -7,7 +7,7 @@ output:
       smooth_scroll: false
 ---
 
-## Syllabus - Sta-209-02 (Fall 2026)
+## Syllabus - Sta-209-04 (Fall 2026)
 
 ### Course Information
 
@@ -86,7 +86,7 @@ Our class sessions involve substantial collaboration and absences impact not onl
 
 **Late Work**
 
-Assignments are generally due at 11:59pm on the posted due-date. All deadlines have an automatic 48-hour "partial extension" where I will accept your submission with a penalty of no more 10\% (ie: a penalty between 0\% and 10\% depending upon the circumstances and frequency of late work). You do not need to ask for this extension, and if a majority of your previous assignment submissions have been on-time your late penalty will be 0\%.
+Assignments are generally due at 11:59pm on the posted due-date. All deadlines have an automatic 48-hour "partial extension" where I will accept your submission with a penalty of no more than 10\% (ie: a penalty between 0\% and 10\% depending upon the circumstances and frequency of late work). You do not need to ask for this extension, and if a majority of your previous assignment submissions have been on-time your late penalty will be 0\%.
 
 After 48-hours, late work may still be accepted on a case-by-case basis, potentially subject to a penalty greater than or equal to 10\%.  Special exceptions involving individual circumstances and unexpected events may be allowed, but they should be arranged as far in advance of an assignment's deadline as is possible, and/or coordinated with academic support staff.
 
@@ -105,11 +105,15 @@ Finally, Grinnell hosts an online version of R Studio that you may use while on 
 
 **Academic Honesty**
 
-At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit-all these are ways you participate in this conversation.
+At Grinnell College you are part of a conversation among scholars, professors, and students, one that helps sustain both the intellectual community here and the larger world of thinkers, researchers, and writers. The tests you take, the research you do, the writing you submit - all of these are ways you participate in this conversation.
 
 The College presumes that your work for any course is your own contribution to that scholarly conversation, and it expects you to take responsibility for that contribution. That is, you should strive to present ideas and data fairly and accurately, indicate what is your own work, and acknowledge what you have derived from others. This care permits other members of the community to trace the evolution of ideas and check claims for accuracy.
 
 Failure to live up to this expectation constitutes academic dishonesty. Academic dishonesty is misrepresenting someone's intellectual effort as your own. Within the context of a course, it also can include misrepresenting your own work as produced for that class when in fact it was produced for some other purpose. Additional information [can be found here](https://www.grinnell.edu/about/leadership/offices-services/academic-advising/resources).
+
+**Generative AI Use**
+
+To succeed in course you should be devoting your energy towards conceptual understanding, proper decision making, and developing statistical intuition. In this regard, some uses of AI might hinder your success, while other uses might enhance it. Relying on AI to make data analysis decisions and interpret results will likely hinder your growth, potentially leading to lower than expected scores on in-class exams, which constitute the majority of the final course grade. On the other hand, using AI to decipher coding error messages and critique your own interpretations for conceptual understanding can be a productive use of time. Additionally, this course will abide by college-wide academic honesty policies, which require the use of AI to be properly acknowledged.
 
 **Inclusive Classroom**
 
@@ -126,6 +130,14 @@ Grinnell College is committed to compliance with Title IX and to supporting the 
 **Academic Support**
 
 If you have other needs not addressed above, please let me know soon so that we can work together for the best possible learning environment. In some cases, I will recommend consulting with the Academic Success Center (ASC): https://www.grinnell.edu/about/leadership/offices-services/academic-success-center. They are an excellent resource for developing strategies for your learning, and they can connect you with other resources. If I notice that you are encountering difficulty, and I have reached out to you and not received a response, or if you have missed multiple class sessions or are not meeting our class objectives repeatedly, I will submit an academic alert via the ASC’s SAL portal. A message notifying you of my concern will get sent to you, along with the Academic Success Center staff and your adviser(s), so that they can reach out to you with additional offers of support.
+
+**Getting Help**
+
+In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
+
+The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced in `R` programming and may be able to troubleshoot coding problems you are having.
+
+The [Grinnell Math Lab](https://www.grinnell.edu/academics/majors-concentrations/math/math-lab) is located on the 2nd floor of Noyce Science Center in Room 2012 and offers drop-in statistics tutoring.  
 
 $~$
 
@@ -154,24 +166,6 @@ There will be 3 exams throughout the semester, each covering approximately 4-wee
 The course project is intended to provide you an opportunity to perform your own statistical analysis on real-world data. The final product is a three-page written report accompanied by R code and documentation. You may work on this project *individually*, or in a *group of two or three* of your choosing. This project is intended to mirror the [USCLAP Competition](https://www.causeweb.org/usproc/usclap) guidelines, and I encourage any interested students to prepare their project with a competition submission in-mind.
 
 There will be several project check-points throughout the semester, and a comprehensive description of the assignment will be made available later in the semester. 
-
-$~$
-
-### Misc
-
-**Getting Help**
-
-In addition to visiting office hours and completing the recommended readings, there are many other ways in which you can find help on assignments and projects.
-
-The [Data Science and Social Inquiry Lab (DASIL)](https://www.grinnell.edu/academics/resources/data-inquiry-lab) is staffed by mentors who are experienced in `R` programming and may be able to troubleshoot coding problems you are having.
-
-The [Grinnell Math Lab](https://www.grinnell.edu/academics/majors-concentrations/math/math-lab) is located on the 2nd floor of Noyce Science Center in Room 2012 and offers drop-in statistics tutoring.  
-
-The online platform [Stack Overflow](https://stackoverflow.com/questions/tagged/r) is a useful resource to find user-generated coding solutions to common `R` problems.  Nearly all professionals have needed to "look up" a coding strategy on a site like Stack Overflow at some point in their career, and I have no problem with you doing the same on assignments or projects.  However, if you make substantial use of a Stack Overflow answer (ie: actually integrating lines of code written by someone else into your work, not just getting help identifying the right functions/arguments) the expectation is that you cite or acknowledge doing so.
-
-**Large Language Models and AI**
-
-Grinnell's college-wide Academic Honesty policy requires that use of generative AI be appropriately cited or acknowledged as any other source would be. In this course you are fully permitted to use generative AI for assistance on in-class work or homework assignments, so long as you properly acknowledge your use and work within the statistical and coding frameworks described in our lectures and labs. Using generative AI to produce solutions that are inconsistent with the approaches and methods discussed in our lectures and labs will result in low scores on assignments. Some particular cases where generative AI can be helpful in this course include: checking your work for errors or typos, understanding coding error messages, generating additional practice questions similar to those on practice exams, and explaining example code in an a more interactive manner.  If you decide to use generative AI to assist with in-class work or homework it is essential for you to recognize that you will not have access to these tools on in-class exams, which comprise the majority of your end-of-semester grade. Thus, it is critical that you use AI as a tool, not as a replacement for your own thinking and understanding of course topics.
 
 $~$
 

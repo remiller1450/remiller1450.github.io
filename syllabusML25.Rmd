@@ -7,7 +7,7 @@ output:
       smooth_scroll: false
 ---
 
-# Syllabus - Sta-395 Intro to ML (Fall '25)
+# Syllabus - Sta-395 Intro to ML (Fall '26)
 
 ### Course Information
 
@@ -21,12 +21,12 @@ output:
 
 **Office Hours**:
 
-- Drop-in hours (Noyce 2218): Monday 1:30-2:30pm, Tuesday 11-noon, Thursday 2:30-3:30pm
+- Drop-in hours (Noyce 2218): Monday 1:30-2:30pm, Wednesday 9:30-10:30am, Thursday 2:30-3:30pm
     - Additional availability by appointment
-    
+
 **Class Mentors**:
 
-- Preston Yoshino, yoshinop\@grinnell.edu 
+- Colton Benson, bensoncp\@grinnell.edu 
     - Additional information about mentor sessions will be added here when available 
 
 **Course Description**:
@@ -35,7 +35,7 @@ Machine learning is a branch of artificial intelligence (AI) rooted in computati
 
 **Texts**:
 
-There is no required textbook for this course.  All required materials will be posted on our [course website](MLf25.html).  
+There is no required textbook for this course.  All required materials will be posted on our [course website](MLf26.html).  
 
 Most of our course materials are based upon information in the follow textbooks:
 
@@ -64,11 +64,11 @@ $~$
 
 **Class Sessions**
 
-Class time will be split between "lecture" and "lab". Most class meetings will begin with a short, low-stakes quiz (2-3 conceptual questions) to provide an incentive for consistent attendance and review of course content outside of class. Additional details on these quizzes can be found in the "Grading" section of the syllabus.
+Most class meetings will be split between "lecture", involving structured introductions to concepts and mathematical details, and "lab", involving coding and investigation using Python. Some class meetings will begin with short (15-minute maximum) conceptually-focused quizzes to encourage everyone to keep up with course topics.
 
-Portions of the class devoted to "lecture" will focus on conceptual and mathematical topics with minimal discussion of coding/software.
+Roughly once per 2-3 weeks we will deviate from our typical lecture/lab sessions and have paper discussions. Each discussion involves two influential papers, you are expected to read both. During class, you and a partner will be discussion leaders for one paper and discussion participants for the other paper. 
 
-Portions of class devoted to "lab" involve working in assigned and/or self-formed groups of 2-3 on applications of course topics using Python. 
+As a discussion leader it is your responsibility to develop insightful questions that facilitate a productive discussion of the main contributions of each paper as well as how they relate to what we've learned this semester. As a discussion participant it is your responsibility to thoughtfully engage with the discussion leaders. After these small-group discussions, you will summarize your group's conversation for the class and then rate the preparedness and understanding of yourself and each of your group members.
 
 **Attendance** 
 
@@ -118,19 +118,23 @@ $~$
 
 In-class labs contain embedded questions that you and your lab partner(s) should answer together in a single document. A few select lab questions will be scored for accuracy with feedback given, while most will be scored for effort/completion. Your submitted lab work will contribute to roughly half of this grade category.
 
-By the end of the semester you are to submit a 1-2 page growth statement expressing how you've deepened your understanding of machine learning and furthered your academic or career goals throughout the semester. There is no required structure to this statement, and it will be used in conjunction with my own observations throughout the semester to form an engagement score comprising the remaining half of this grade category. To facilitate this you should have specific goals for yourself in the course and keep track of specific events that you believe to support your progress towards these goals.
+Near the end of the semester you are to submit a 1-2 page growth statement expressing how you've deepened your understanding of machine learning and furthered your academic or career goals throughout the semester. There is no required structure to this statement, and it will be used in conjunction with my own observations throughout the semester to form an engagement score comprising the remaining half of this grade category. To facilitate this you should have specific goals for yourself in the course and keep track of specific events that you believe to support your progress towards these goals.
 
 Daily engagement in a lab-heavy course is absolutely critical. During labs you are expected to help your partner(s) learn the material (which goes beyond simply answering the lab questions), and your partner is expected to help further your understanding.  Everyone will begin the semester with a baseline engagement score of 80, which will move up or down depending on my subjective assessment of your behavior during class.  You can very quickly raise this score by helping your lab partner(s), and working diligently to understand course material during class.  Alternatively, you can lower this score by skipping class, letting your lab partner(s) do most of the work, using your phone or surfing the web during class, etc. Reports from lab or project partners that you are not contributing equally to group efforts may also influence this score.
 
-**Homework** - 20\%
+**Homework** - 10\%
 
-There will be 5-6 homework assignments throughout the semester. These will contain a mixture of mathematical/theoretical, applied, and written/conceptual questions.
+There will be 4-5 homework assignments throughout the semester. These will contain a mixture of mathematical/theoretical, applied, and written/conceptual questions.
 
-**In-class Quizzes** - 15\%
+**In-class Quizzes** - 10\%
 
-Short in-class quizes will be delivered during the first 5-minutes of *most* class meetings. These quizzes will contain 1-3 brief questions, often multiple choice, covering concepts from previous lectures. These quizzes are intended to cover essential concepts that any machine learning specialist should have committed memory. Quizzes cannot be retaken or made up, but your *lowest two quiz scores will be dropped* at the end of the semester. Pending instructor approval and coordination with academic support staff, special exceptions may be made for circumstances involving prolonged absences.
+There will be 5 conceptually-focused quizzes, most of which are concentrated in the early weeks of the semester. These are intended to take no more than 15-minutes and involve a variety short-answer and multiple choice questions that should be fairly easy to answer correctly if you've stayed on top of recent topics. The purpose of these quizzes is to ensure you take the time to internalize essential concepts that someone who is trained in machine learning should be able to recall without needing to look up an answer. Your lowest score on these quizzes will be dropped.
 
-**Midterm Exam** - 20\%
+**In-class Paper Discussions** - 10\%
+
+You will receive a score on your engagement in each paper discussion that is informed by your self-reported ratings and reflection, feedback from the others in your small group, and my observations as an instructor. It is intended that you receive a relatively high score in this category so long as you actually read the papers and try your best to contribute during discussions.
+
+**Exam** - 25\%
 
 There will be an in-class exam roughly two-thirds of the way into the semester (sometime in November). The precise date/time will be announced no later than 2-weeks in advance of the exam. This exam focuses on conceptual and mathematical topics from the course, thus it is intended to be complementary to the applied focus of the capstone project (see below). Details and review materials will be provided later in the semester.
 
@@ -142,22 +146,29 @@ $~$
 
 ### Units and Topics
 
-Below is a list of course topics and tentative time frames for covering them.
+Below is a rough list of course topics and tentative time frames for covering them.
 
 - Unit #1 - Introduction, Fundamentals, and Models for Tabular Data
     - Training vs testing
     - Pipelines and pre-processing
     - Cross-validation
-    - Decision trees, support vector machines, KNN, and regression
-    - Ensembles, random forest, and gradient boosting
+    - Decision trees, support vector machines, nearest neighbors, and regression
+    - Ensembles, random forests, and gradient boosting
+    - Interpretability using SHAP and LIME
 - Unit #2 - Mathematical Details
     - Review of linear algebra and multivariable calculus (matrix-vector operations, derivatives, chain rule)
     - Cost functions and gradient descent
     - Stochastic and batch gradient descent
     - Backpropagation and neural networks
-- Unit #3 - Neural Networks and an Introduction to Deep Learning
+- Unit #3 - Introduction to Deep Learning
     - Creating artificial neural network architectures in PyTorch
-    - Convolution neural networks
+    - Convolutional neural networks
     - Transfer learning and pre-trained models
-    - Recurrent neural networks
     - Attention and transformers (time-permitting)
+    
+$~$
+
+### Papers for Discussion
+
+1. Statistical Modeling: The Two Cultures - [link](https://www.jstor.org/stable/2676681?seq=1) and A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection - [link](https://robotics.stanford.edu/~ronnyk/accEst.pdf)
+2. Coming Soon
