@@ -1,0 +1,68 @@
+---
+title: "Grinnell Science Project 2026 - Lab Experience (Statistics and Data Science)"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: true
+      smooth_scroll: false
+---
+
+$~$
+
+### Planned schedule:
+
+- Tuesday 8/18
+    - 1:15-1:45 - Introductions
+        - Examples of lab-related descriptions from syllabi
+        - Student and instructor views on "lab"
+    - 1:45-2:30 - Work through Lab 1 from Sta-209 (Applied Statistics)
+        - Paired programming practice
+    - 2:30-2:45 - Break
+    - 2:45-2:50 - Debrief Lab 1
+        - Take questions about lab contents and/or paired programming
+    - 2:50-3:50 - Work through `ggplot` data visualization lab
+        - If extra time, find/choose data for tomorrow's lab activity
+    - 3:50-4:00 - Wrap-up, tips for choice of data
+    
+- Wednesday 8/19
+    - 1:15-1:25 - Questions/thoughts from Tuesday
+    - 1:25-2:15 - Icebreaker activity from Sta-330 (Applied Data Science)
+    - 2:15-2:30 - Break
+    - 2:30-3:15 - Create a multivariable data visualization with your chosen data
+    - 3:15-3:30 - Share your visualization and wrap-up
+    
+   
+### Materials:
+
+Examples of "lab" descriptions from Statistics, Data Science and Computer Science faculty:
+
+- STA-209 Applied Statistics (Fall 2026) - Prof. Ryan Miller
+    - https://remiller1450.github.io/syllabus209f25.html 
+    - Highlights: Class time is split between lab and lecture, with most days involving at least some lab. Groups assigned each week early in the semester, choose your own later in the semester. Primarily graded for completion. No expectation you finish outside of class if your group was sufficiently engaged during class.
+
+- STA-230 Intro to Data Science (Spring 2026) - 
+    - https://nfriedrichsen.github.io/STA230_S26/syllabus230s26.html
+    - Highlights: Almost every class involves working on lab exercises. Submitted labs must be complete and are assessed for credit. Groups are Assigned.
+
+- CSC-161 (Fall 2024) - Prof. Nicole Eikmeier
+    - https://eikmeier.sites.grinnell.edu/csc-161-fall-2024/syllabus/ 
+    - Highlights: Most class time is spent working on daily labs with assigned partners. Groups change each week. All questions must be answered in a group lab report, but there is generally enough time to finish the lab report during class. Work that is correct or nearly correct with evidence of significant effort will earn full credit.
+
+- CSC-151 (Fall 2025) - Prof. Sam Rebelsky
+    - https://rebelsky.cs.grinnell.edu/Courses/CSC151/2025Sp/schedule/
+    - Highlights: Notice 2/17 devoted to explaining Pair Programming
+
+Labs we will work on:
+
+- [STA-209 Lab 1](https://remiller1450.github.io/s209s25/R_basics.html)
+- [`ggplot` data visualization lab](https://remiller1450.github.io/s209s24/ggplot1.html)
+- [STA-330 Icebreaker Activity](https://remiller1450.github.io/s330s25/intro.html)
+- Bonus labs on making "prettier" ggplot graphics: [First lab](https://remiller1450.github.io/s209s24/ggplot2.html), [Second lab](https://remiller1450.github.io/s230f23/ggplot2.html)
+
+Finding your own data for Wednesday:
+
+- [Grinnell Libraries Data Page](https://grinnell.libguides.com/c.php?g=1057667&p=7685496)
+- [DASIL downloads page](https://dasil.sites.grinnell.edu/downloadable-data/)
+- [Guide I use in STA-209](https://remiller1450.github.io/map/data_resources.html)
+    
