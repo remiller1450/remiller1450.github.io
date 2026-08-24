@@ -1,5 +1,5 @@
 ---
-title: "STA-395 - Intro to Machine Learning (Fall '26)"
+title: "STA-370 - Intro to Machine Learning (Fall '26)"
 output:
   html_document:
     toc: true
@@ -10,7 +10,7 @@ output:
 
 $~$
 
-Welcome to the website for **Sta-395, Introduction to Machine Learning**! To begin, you can find the course syllabus linked below:
+Welcome to the website for **Sta-370, Introduction to Machine Learning**! To begin, you can find the course syllabus linked below:
 
 - [Click here](syllabusML26.html) to view the course syllabus
 
@@ -36,7 +36,7 @@ library(dplyr)
 # x$website <- paste0("[", linkID, "](http://", urls, ")")
 # kable(x)
 
-x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
+x = data.frame(Date = c("Th 8/27", "T 9/1", "Th 9/3"), 
                Lecture = c("[Introduction](ml26/intro.pdf)", 
                            "Simple Models",
                            "Data Preprocessing"),
@@ -48,14 +48,14 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Lab 1 is due Monday 9/8 at 11:59pm on Canvas
-- Lab 2 is due Wednesday 9/10  at 11:59pm on Canvas
+- Lab 1 is due Monday 9/7 at 11:59pm on Canvas
+- Lab 2 is due Wednesday 9/9  at 11:59pm on Canvas
 - Homework #1 is due Tuesday 9/15 at 11:59pm on Canvas
 
 #### Week 2 - Cross-validation
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
-x = data.frame(Date = c("T 9/9", "Th 9/11"), 
+x = data.frame(Date = c("T 9/8", "Th 9/10"), 
                Lecture = c("Cross-validation",
                            " "),
                Lab = c("Lab 3 - Pipelines and Cross-validation",
@@ -65,7 +65,7 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Lab 3 is due Monday 9/15 at 11:59pm on Canvas
+- Lab 3 is due Monday 9/14 at 11:59pm on Canvas
 - Concept Quiz #1 is on Tuesday 9/8
     - Topics: training vs. testing, reducible vs. irreducible error, bias-variance trade off, KNN and decision tree algorithms
 - Paper discussion #1 is on Thursday 9/10
