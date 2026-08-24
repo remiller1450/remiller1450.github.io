@@ -37,12 +37,12 @@ library(dplyr)
 # kable(x)
 
 x = data.frame(Date = c("Th 8/28", "T 9/2", "Th 9/4"), 
-               Lecture = c("[Introduction](ml25/intro.pdf)", 
-                           "[KNN and Decision Trees](ml25/simple_models.pdf)",
-                           "[Data Pre-processing](ml25/preproc.pdf)"),
-               Lab = c("[Lab 1 - Crash Course in Python](ml25/Lab_1_F25.html)", 
+               Lecture = c("[Introduction](ml26/intro.pdf)", 
+                           "Simple Models",
+                           "Data Preprocessing"),
+               Lab = c("[Lab 1 - Crash Course in Python](ml26/Lab_1_F25.html)", 
                        "Finish Lab 1",
-                       "[Lab 2 - Introduction to `sklearn`](ml25/Lab_2_F25.html)"),
+                       "Lab 2 - Introduction to `sklearn`"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -50,10 +50,25 @@ knitr::kable(x, format = "html") %>%
 
 - Lab 1 is due Monday 9/8 at 11:59pm on Canvas
 - Lab 2 is due Wednesday 9/10  at 11:59pm on Canvas
+- Homework #1 is due Tuesday 9/15 at 11:59pm on Canvas
 
-#### Week 2
+#### Week 2 - Cross-validation
 
-Coming soon...
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/9", "Th 9/11"), 
+               Lecture = c("Cross-validation",
+                           " "),
+               Lab = c("Lab 3 - Pipelines and Cross-validation",
+                       "Finish/discuss Lab 3"),
+               Resources = c(" ", "[discussion paper](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 3 is due Monday 9/15 at 11:59pm on Canvas
+- Concept Quiz #1 is on Tuesday 9/8
+    - Topics: training vs. testing, reducible vs. irreducible error, bias-variance trade off, KNN and decision tree algorithms
+- Paper discussion #1 is on Thursday 9/10
 
 $~$
 

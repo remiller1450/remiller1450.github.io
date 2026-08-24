@@ -7,7 +7,7 @@ output:
       smooth_scroll: false
 ---
 
-# Syllabus - Sta-395 Intro to ML (Fall '26)
+# Syllabus - Sta-370 Intro to ML (Fall '26)
 
 ### Course Information
 
