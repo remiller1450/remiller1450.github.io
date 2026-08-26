@@ -52,23 +52,109 @@ knitr::kable(x, format = "html") %>%
 - Lab 2 is due Wednesday 9/9  at 11:59pm on Canvas
 - Homework #1 is due Tuesday 9/15 at 11:59pm on Canvas
 
-#### Week 2 - Cross-validation
+$~$
+
+#### Week 2 - Dimension Reduction
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/8", "Th 9/10"), 
+               Lecture = c("Principal Components",
+                           " "),
+               Lab = c("Lab 3 - Dimension reduction via PCA",
+                       "Finish/discuss Lab 3"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 3 is due Monday 9/14
+- Concept Quiz #1 is on Tuesday 9/8 - see the last slide in each of our first three lectures for a list of possible topics
+
+$~$
+
+#### Week 3 - Cross-validation
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/15", "Th 9/17"), 
                Lecture = c("Cross-validation",
                            " "),
-               Lab = c("Lab 3 - Pipelines and Cross-validation",
-                       "Finish/discuss Lab 3"),
+               Lab = c("Lab 4 - Pipelines and Cross-validation",
+                       "Finish/discuss Lab 4"),
                Resources = c(" ", "[discussion paper](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Lab 3 is due Monday 9/14 at 11:59pm on Canvas
-- Concept Quiz #1 is on Tuesday 9/8
-    - Topics: training vs. testing, reducible vs. irreducible error, bias-variance trade off, KNN and decision tree algorithms
-- Paper discussion #1 is on Thursday 9/10
+- Paper discussion #1 is on Thursday 9/17
+    - A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection by Kohavi (1995) 
+- Lab 4 is due Monday 9/21
+
+$~$
+
+#### Week 4 - Evaluation Metrics
+
+- Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (mostly cross-validation)
+
+$~$
+
+#### Week 5 - More Models
+
+- Paper discussion #2 on Thursday 10/1 
+    - Statistical Modeling: The Two Cultures by Breiman (2001)
+
+$~$
+
+#### Week 6 - Gradient Boosting
+
+- Concept Quiz #3 is on Tuesday 10/6 - it will cover evaluation metrics and the random forest and SVM algorithms
+
+$~$
+
+#### Week 7 - Explainability
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 10/13", "Th 10/15"), 
+               Lecture = c("Global Importance",
+                           "Local Importance"),
+               Lab = c("Lab",
+                       "Finish/discuss Lab"),
+               Resources = c(" ", "[discussion paper](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Paper discussion #3 on Thursday 10/15
+    - "Why Should I Trust You?" Explaining the Predictions of Any Classiﬁer by Ribeiro, Singh, and Guestrin (2016)
+
+$~$
+
+#### Week 8 - Gradient Descent
+
+- Concept Quiz #4 is on Tuesday 10/27 - it will cover gradient boosting and model explainability
+
+$~$
+
+#### Week 9 - Neural Networks
+
+#### Week 10 - More Neural Networks
+
+- Paper discussion #4 on Thursday 11/12
+    - ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky, Sutskever, and Hinton (2012)
+
+#### Week 11 - Exam Prep
+
+- Review session and quiz retakes on Tuesday, exam on Thursday
+
+#### Week 12 - Transfer Learning
+
+#### Week 13 - Transformers 
+
+- Paper discussion #5
+    - On the Dangers of Stochastic Parrots:Can Language Models Be Too Big? by Bender, Gebru, McMillan-Major, and Shmitchell (2021)
+
+#### Week 14 - Projects
+
+- Presentations split across Tues/Thurs
 
 $~$
 

@@ -463,9 +463,10 @@ Lab 2 - Introduction to <code>sklearn</code>
 <li>Lab 2 is due Wednesday 9/9 at 11:59pm on Canvas</li>
 <li>Homework #1 is due Tuesday 9/15 at 11:59pm on Canvas</li>
 </ul>
+<p><span class="math inline">\(~\)</span></p>
 </div>
-<div id="week-2---cross-validation" class="section level4">
-<h4>Week 2 - Cross-validation</h4>
+<div id="week-2---dimension-reduction" class="section level4">
+<h4>Week 2 - Dimension Reduction</h4>
 <table class="table table-hover" style="margin-left: auto; margin-right: auto;">
 <thead>
 <tr>
@@ -489,10 +490,10 @@ Resources
 T 9/8
 </td>
 <td style="text-align:left;">
-Cross-validation
+Principal Components
 </td>
 <td style="text-align:left;">
-Lab 3 - Pipelines and Cross-validation
+Lab 3 - Dimension reduction via PCA
 </td>
 <td style="text-align:left;">
 </td>
@@ -507,6 +508,60 @@ Th 9/10
 Finish/discuss Lab 3
 </td>
 <td style="text-align:left;">
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Lab 3 is due Monday 9/14</li>
+<li>Concept Quiz #1 is on Tuesday 9/8 - see the last slide in each of
+our first three lectures for a list of possible topics</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-3---cross-validation" class="section level4">
+<h4>Week 3 - Cross-validation</h4>
+<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Lecture
+</th>
+<th style="text-align:left;">
+Lab
+</th>
+<th style="text-align:left;">
+Resources
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+T 9/15
+</td>
+<td style="text-align:left;">
+Cross-validation
+</td>
+<td style="text-align:left;">
+Lab 4 - Pipelines and Cross-validation
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Th 9/17
+</td>
+<td style="text-align:left;">
+</td>
+<td style="text-align:left;">
+Finish/discuss Lab 4
+</td>
+<td style="text-align:left;">
 <a href="https://robotics.stanford.edu/~ronnyk/accEst.pdf">discussion
 paper</a>
 </td>
@@ -514,13 +569,144 @@ paper</a>
 </tbody>
 </table>
 <ul>
-<li>Lab 3 is due Monday 9/14 at 11:59pm on Canvas</li>
-<li>Concept Quiz #1 is on Tuesday 9/8
+<li>Paper discussion #1 is on Thursday 9/17
 <ul>
-<li>Topics: training vs. testing, reducible vs. irreducible error,
-bias-variance trade off, KNN and decision tree algorithms</li>
+<li>A Study of Cross-Validation and Bootstrap for Accuracy Estimation
+and Model Selection by Kohavi (1995)</li>
 </ul></li>
-<li>Paper discussion #1 is on Thursday 9/10</li>
+<li>Lab 4 is due Monday 9/21</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-4---evaluation-metrics" class="section level4">
+<h4>Week 4 - Evaluation Metrics</h4>
+<ul>
+<li>Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and
+cross-validation (mostly cross-validation)</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-5---more-models" class="section level4">
+<h4>Week 5 - More Models</h4>
+<ul>
+<li>Paper discussion #2 on Thursday 10/1
+<ul>
+<li>Statistical Modeling: The Two Cultures by Breiman (2001)</li>
+</ul></li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-6---gradient-boosting" class="section level4">
+<h4>Week 6 - Gradient Boosting</h4>
+<ul>
+<li>Concept Quiz #3 is on Tuesday 10/6 - it will cover evaluation
+metrics and the random forest and SVM algorithms</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-7---explainability" class="section level4">
+<h4>Week 7 - Explainability</h4>
+<table class="table table-hover" style="margin-left: auto; margin-right: auto;">
+<thead>
+<tr>
+<th style="text-align:left;">
+Date
+</th>
+<th style="text-align:left;">
+Lecture
+</th>
+<th style="text-align:left;">
+Lab
+</th>
+<th style="text-align:left;">
+Resources
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left;">
+T 10/13
+</td>
+<td style="text-align:left;">
+Global Importance
+</td>
+<td style="text-align:left;">
+Lab
+</td>
+<td style="text-align:left;">
+</td>
+</tr>
+<tr>
+<td style="text-align:left;">
+Th 10/15
+</td>
+<td style="text-align:left;">
+Local Importance
+</td>
+<td style="text-align:left;">
+Finish/discuss Lab
+</td>
+<td style="text-align:left;">
+<a href="https://robotics.stanford.edu/~ronnyk/accEst.pdf">discussion
+paper</a>
+</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Paper discussion #3 on Thursday 10/15
+<ul>
+<li>“Why Should I Trust You?” Explaining the Predictions of Any
+Classiﬁer by Ribeiro, Singh, and Guestrin (2016)</li>
+</ul></li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-8---gradient-descent" class="section level4">
+<h4>Week 8 - Gradient Descent</h4>
+<ul>
+<li>Concept Quiz #4 is on Tuesday 10/27 - it will cover gradient
+boosting and model explainability</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+<div id="week-9---neural-networks" class="section level4">
+<h4>Week 9 - Neural Networks</h4>
+</div>
+<div id="week-10---more-neural-networks" class="section level4">
+<h4>Week 10 - More Neural Networks</h4>
+<ul>
+<li>Paper discussion #4 on Thursday 11/12
+<ul>
+<li>ImageNet Classification with Deep Convolutional Neural Networks by
+Krizhevsky, Sutskever, and Hinton (2012)</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-11---exam-prep" class="section level4">
+<h4>Week 11 - Exam Prep</h4>
+<ul>
+<li>Review session and quiz retakes on Tuesday, exam on Thursday</li>
+</ul>
+</div>
+<div id="week-12---transfer-learning" class="section level4">
+<h4>Week 12 - Transfer Learning</h4>
+</div>
+<div id="week-13---transformers" class="section level4">
+<h4>Week 13 - Transformers</h4>
+<ul>
+<li>Paper discussion #5
+<ul>
+<li>On the Dangers of Stochastic Parrots:Can Language Models Be Too Big?
+by Bender, Gebru, McMillan-Major, and Shmitchell (2021)</li>
+</ul></li>
+</ul>
+</div>
+<div id="week-14---projects" class="section level4">
+<h4>Week 14 - Projects</h4>
+<ul>
+<li>Presentations split across Tues/Thurs</li>
 </ul>
 <p><span class="math inline">\(~\)</span></p>
 </div>

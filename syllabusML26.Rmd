@@ -122,9 +122,9 @@ At three points in the semester (beginning, middle, and end) you will be asked t
 
 There will be 4-5 homework assignments throughout the semester. These will contain a mixture of mathematical/theoretical, applied, and written/conceptual questions.
 
-**In-class Quizzes** - 10\% (2\% each)
+**In-class Quizzes** - 10\% 
 
-Each Tuesday from September 8 through October 6 will have a short quiz covering essential concepts from recent lectures and labs. You will have a maximum of 15-minutes to complete each quiz. The purpose of these quizzes is to provide an incentive for you to take the time to review and internalize essential concepts that someone who is trained in machine learning should be able to recall without needing to look up an answer. You will be allowed to retake up to two of these quizzes on a review date prior to the exam to replace your scores.
+Every other Tuesday from September 8 through October 20 will have a short quiz covering essential concepts from recent lectures and labs. You will have a maximum of 15-minutes to complete each quiz. The purpose of these quizzes is to provide an incentive for you to take the time to review and internalize essential concepts that someone who is trained in machine learning should be able to recall without needing to look up an answer. You will be allowed to retake up to two of these quizzes on a review day prior to the exam to replace your previous scores.
 
 **In-class Paper Discussions** - 5\%
 
@@ -150,6 +150,7 @@ Below is a rough list of course topics and tentative time frames for covering th
     - Cross-validation
     - Decision trees, support vector machines, nearest neighbors, and regression
     - Ensembles, random forests, and gradient boosting
+    - Model explainability (Permutation approaches, PDP, ICE, LIME, SHAP)
 - Unit #2 - Mathematical Details
     - Review of linear algebra and multivariable calculus (matrix-vector operations, derivatives, chain rule)
     - Cost functions and gradient descent
@@ -168,7 +169,6 @@ $~$
 
 1. *A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection* by Kohavi (1995) - [link](https://robotics.stanford.edu/~ronnyk/accEst.pdf)
 2. *Statistical Modeling: The Two Cultures* by Breiman (2001) - [link](https://www.jstor.org/stable/2676681?seq=1)
-3. *Random Forests* by Breiman (2001) - [link](https://link.springer.com/article/10.1023/A:1010933404324)
-4. *“Why Should I Trust You?” Explaining the Predictions of Any Classiﬁer* by Ribeiro, Singh, and Guestrin (2016)
-5. *ImageNet Classification with Deep Convolutional Neural Networks* by Krizhevsky, Sutskever, and Hinton (2012)
-6. *On the Dangers of Stochastic Parrots:Can Language Models Be Too Big?* by Bender, Gebru, McMillan-Major, and Shmitchell (2021)
+3. *“Why Should I Trust You?” Explaining the Predictions of Any Classiﬁer* by Ribeiro, Singh, and Guestrin (2016)
+4. *ImageNet Classification with Deep Convolutional Neural Networks* by Krizhevsky, Sutskever, and Hinton (2012)
+5. *On the Dangers of Stochastic Parrots:Can Language Models Be Too Big?* by Bender, Gebru, McMillan-Major, and Shmitchell (2021)
