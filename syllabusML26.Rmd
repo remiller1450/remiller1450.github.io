@@ -1,10 +1,12 @@
 ---
 output:
+  pdf_document:
+    toc: yes
   html_document:
-    toc: true
+    toc: yes
     toc_float:
-      collapsed: false
-      smooth_scroll: false
+      collapsed: no
+      smooth_scroll: no
 ---
 
 # Syllabus - Sta-370 Intro to ML (Fall '26)
@@ -17,11 +19,11 @@ output:
 
 **Class Meetings**: 
 
-- Noyce 2401, Tuesday and Thursday 1:00-2:20pm
+- Noyce 2401, Tuesday and Thursday 1:10-2:30pm
 
 **Office Hours**:
 
-- Drop-in hours (Noyce 2218): Monday 1:30-2:30pm, Wednesday 9:30-10:30am, Thursday 2:30-3:30pm
+- Drop-in hours (Noyce 2218): Monday 1:30-2:30pm, Wednesday 9:30-10:30am, Thursday 2:40-3:40pm
     - Additional availability by appointment
 
 **Class Mentors**:
