@@ -151,7 +151,7 @@ Participation in a lab-heavy course is absolutely critical. During labs you are 
 
 You will have the option to write a 1-page personal growth statement at the end of the semester to help strengthen/shape your course engagement grade. To facilitate this you should have specific goals for yourself in the course and keep track of specific events that you believe to support your progress towards these goals.
 
-**Individual Homework** - 15\%
+**Individual Homework** - 10\%
 
 There will be approximately 10 homework assignments throughout the semester, generally with one assignment due each week (with some exceptions around exam dates). Homework is to be completed individually, and answers that are suspiciously similar may be reported as academic honesty violations.  That said, I understand that you may want to discuss homework questions with your classmates. You are welcome to do this so long as your submitted answers are uniquely yours, and if you receive substantial help you acknowledge the contributions of anyone or anything (other than official course materials, instructors, and mentors) that substantively shaped your answers.
 
@@ -161,7 +161,7 @@ There will be 3 exams throughout the semester, each covering approximately 4-wee
 
 - *Mastery Policy*: My hope is that everyone thoroughly understands our course content on a schedule aligned with exam dates; However, I am more interested in everyone understanding this content when the course is over, not by a somewhat arbitrary exam date. Consequently, you will have the opportunity to *take a replacement version of any or all of the course's 3 exams* during our assigned final exam period for a maximum score of 90% on each exam you re-take. Please note that the intent of this grade cap is to provide an incentive for studying for the original exam and not waiting until final's week. Replacement exams will be approximately the same duration and difficulty level as their counterparts. Anyone receiving a score lower than 90% on an exam is eligible to take the corresponding replacement exam. If you score lower on the replacement than your original exam the two scores will be averaged. The intent of this averaging policy is to provide an incentive for you to thoughtfully prepare for any replacement exams you opt to take during final's week rather than deciding to take them on whim hoping you'll get a higher score.
 
-**Project** - 15\%
+**Project** - 20\%
 
 The course project is intended to provide you an opportunity to perform your own statistical analysis on real-world data. The final product is a three-page written report accompanied by R code and documentation. You may work on this project *individually*, or in a *group of two or three* of your choosing. This project is intended to mirror the [USCLAP Competition](https://www.causeweb.org/usproc/usclap) guidelines, and I encourage any interested students to prepare their project with a competition submission in-mind.
 
