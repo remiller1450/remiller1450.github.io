@@ -20,7 +20,7 @@ Please note that some material will not be posted until we've reached that point
 
 ## Course Materials
 
-Course meetings typically involve a short lecture followed by a lab activity. The labs from a given week are generally due on Friday, and the corresponding homework assignment is due on the following Monday. Unless otherwise mentioned, all assignments are due by 11:59pm (midnight) on their due date.
+Course meetings typically involve a short lecture followed by a lab activity. Unless otherwise mentioned, all assignments are due by 11:59pm (midnight) on their due date.
 
 $~$
 
