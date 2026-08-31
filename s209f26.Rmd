@@ -40,14 +40,14 @@ library(dplyr)
 
 x = data.frame(Date = c("Fri 8/28", "Mon 8/31", "Wed 9/2", "Fri 9/4"), 
                Lecture = c("[Statistical Thinking and Probability](s209f26/intro.pdf)", 
-                           "Hypothesis Testing",
+                           "[Hypothesis Testing (part 1: sampling)](s209f26/ht1.pdf)",
                            " ",
                            " "),
                Lab = c("[Lab 1 - A first hypothesis test](s209f26/first_test.html)", 
                        "Finish/discuss Lab 1",
                        "Lab 2 - Intro to `R` and one-sample categorical data",
                        "Lab 3 - More `R` and one-sample quantitative data"),
-               Resources = c(" ", " ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
+               Resources = c(" ", "[Ch 2.1 - Sampling Principles from Intro to Modern Statistics](https://openintrostat.github.io/ims/data-design.html) ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -64,6 +64,18 @@ $~$
 
 **Week 2** - More Hypothesis Testing
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+x = data.frame(Date = c("Mon 9/7", "Wed 9/2", "Fri 9/4"), 
+               Lecture = c("No classes - Labor Day", 
+                           "One-sample Z-tests",
+                           "One-sample T-tests"),
+               Lab = c(" - ",
+                       "Lab 4 - One-sample tests in `R`",
+                       "Finish/discuss Lab 4"),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 
 $~$
