@@ -45,7 +45,7 @@ x = data.frame(Date = c("Fri 8/28", "Mon 8/31", "Wed 9/2", "Fri 9/4"),
                            " "),
                Lab = c("[Lab 1 - A first hypothesis test](s209f26/first_test.html)", 
                        "Finish/discuss Lab 1",
-                       "Lab 2 - Intro to `R` and one-sample categorical data",
+                       "[Lab 2 - Intro to `R` and one-sample categorical data](s209f26/one_sample_cat.html)",
                        "Lab 3 - More `R` and one-sample quantitative data"),
                Resources = c(" ", "[Ch 2.1 - Sampling Principles from Intro to Modern Statistics](https://openintrostat.github.io/ims/data-design.html) ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
 knitr::kable(x, format = "html") %>%
@@ -56,7 +56,7 @@ knitr::kable(x, format = "html") %>%
 
 - Lab 1 is due Monday 8/31
 - Labs 2 and 3 are due Wednesday 9/7
-- [Homework 1](s209f26/hw1.html) is due Friday 9/4 
+- [Homework 1](s209f26/hw1.html) is due ~~Friday 9/4~~ Tuesday 9/8
 
 All assignments should be submitted via Canvas.
 
