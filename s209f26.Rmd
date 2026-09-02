@@ -55,7 +55,7 @@ knitr::kable(x, format = "html") %>%
 **Assignments and Deadlines**:
 
 - Lab 1 is due Monday 8/31
-- Labs 2 and 3 are due Wednesday 9/7
+- Labs 2 and 3 are due Wednesday 9/9
 - [Homework 1](s209f26/hw1.html) is due ~~Friday 9/4~~ Tuesday 9/8
 
 All assignments should be submitted via Canvas.
@@ -64,12 +64,12 @@ $~$
 
 **Week 2** - More Hypothesis Testing
 
-```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/7", "Wed 9/2", "Fri 9/4"), 
                Lecture = c("No classes - Labor Day", 
                            "One-sample Z-tests",
                            "One-sample T-tests"),
-               Lab = c(" - ",
+               Lab = c("  ",
                        "Lab 4 - One-sample tests in `R`",
                        "Finish/discuss Lab 4"),
                Resources = c(" ", " ", " "))
@@ -77,6 +77,8 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+
+- 
 
 $~$
 
