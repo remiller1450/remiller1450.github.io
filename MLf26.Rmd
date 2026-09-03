@@ -39,10 +39,10 @@ library(dplyr)
 x = data.frame(Date = c("Th 8/27", "T 9/1", "Th 9/3"), 
                Lecture = c("[Introduction](ml26/intro.pdf)", 
                            "[Simple Models](ml26/models.pdf)",
-                           "Data Preprocessing"),
+                           "[Data Preprocessing](ml26/prepro.pdf)"),
                Lab = c("[Lab 1 - Crash Course in Python](ml26/Lab_1_F26.html)", 
                        "Finish Lab 1",
-                       "Lab 2 - Introduction to `sklearn`"),
+                       "[Lab 2 - Introduction to `sklearn`](ml26/Lab_2_F26.html)"),
                Resources = c(" ", "[Comprehensive Review of KNN](https://link.springer.com/article/10.1186/s40537-024-00973-y)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -80,7 +80,7 @@ x = data.frame(Date = c("T 9/15", "Th 9/17"),
                            " "),
                Lab = c("Lab 4 - Pipelines and Cross-validation",
                        "Finish/discuss Lab 4"),
-               Resources = c(" ", "[discussion paper](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
+               Resources = c(" ", "[Discussion paper #1](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
