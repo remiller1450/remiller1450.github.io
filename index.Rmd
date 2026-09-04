@@ -13,7 +13,7 @@ Below are links to my current courses, as well as the most recent version of cou
 **Current Courses**:
 
 - [Sta-209, Applied Statistics (Fall '26)](s209f26.html)
-- [Sta-395, Intro to Machine Learning (Fall '26)](MLf26.html)
+- [Sta-370, Intro to Machine Learning (Fall '26)](MLf26.html)
 
 **Previous Courses (Grinnell College)**:
 

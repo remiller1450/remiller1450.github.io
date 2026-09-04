@@ -46,7 +46,7 @@ x = data.frame(Date = c("Fri 8/28", "Mon 8/31", "Wed 9/2", "Fri 9/4"),
                Lab = c("[Lab 1 - A first hypothesis test](s209f26/first_test.html)", 
                        "Finish/discuss Lab 1",
                        "[Lab 2 - Intro to `R` and one-sample categorical data](s209f26/one_sample_cat.html)",
-                       "Lab 3 - More `R` and one-sample quantitative data"),
+                       "[Lab 3 - More `R` and one-sample quantitative data](s209f26/one_sample_quant.html)"),
                Resources = c(" ", "[Ch 2.1 - Sampling Principles from Intro to Modern Statistics](https://openintrostat.github.io/ims/data-design.html) ", "[`R` Basics from Modern Statistics with R](https://www.modernstatisticswithr.com/thebasics.html)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -65,7 +65,7 @@ $~$
 **Week 2** - More Hypothesis Testing
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
-x = data.frame(Date = c("Mon 9/7", "Wed 9/2", "Fri 9/4"), 
+x = data.frame(Date = c("Mon 9/7", "Wed 9/9", "Fri 9/11"), 
                Lecture = c("No classes - Labor Day", 
                            "One-sample Z-tests",
                            "One-sample T-tests"),
@@ -78,7 +78,9 @@ knitr::kable(x, format = "html") %>%
 ```
 
 
-- 
+- Homework 2 is due Monday 9/14
+- Labs 2 and 3 are due Wednesday 9/9
+- Lab 4 is due Friday 9/11
 
 $~$
 

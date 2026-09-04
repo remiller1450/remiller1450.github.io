@@ -91,7 +91,7 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 4 - Evaluation Metrics
+#### Week 4 - Evaluation Metrics and Feature Engineering
 
 - Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (mostly cross-validation)
 
