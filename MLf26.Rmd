@@ -61,7 +61,7 @@ x = data.frame(Date = c("T 9/8", "Th 9/10"),
                Lecture = c("[Principal Component Analysis](ml26/pca.pdf)",
                            " "),
                Lab = c("",
-                       "Lab 3 - Dimension reduction via PCA"),
+                       "[Lab 3 - Dimension reduction via PCA](ml26/Lab_3_F26.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
