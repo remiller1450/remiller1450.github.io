@@ -70,8 +70,8 @@ x = data.frame(Date = c("Mon 9/7", "Wed 9/9", "Fri 9/11"),
                            "One-sample Z-tests",
                            "One-sample T-tests"),
                Lab = c("  ",
-                       "Lab 4 - One-sample tests in `R`",
-                       "Finish/discuss Lab 4"),
+                       "Finish/discuss Lab 3",
+                       "Lab 4 - One-sample tests in `R`"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -81,6 +81,24 @@ knitr::kable(x, format = "html") %>%
 - Homework 2 is due Monday 9/14
 - Labs 2 and 3 are due Wednesday 9/9
 - Lab 4 is due Friday 9/11
+
+$~$
+
+**Week 3** - Two-sample Hypothesis Tests
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = FALSE}
+x = data.frame(Date = c("Mon 9/14", "Wed 9/16", "Fri 9/18"), 
+               Lecture = c(" ", 
+                           "Two-sample Tests (Z and T)",
+                           " "),
+               Lab = c("Finish/discuss Lab 4",
+                       " ",
+                       "Lab 5 - Two-sample Tests in `R`"),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
 
 $~$
 
