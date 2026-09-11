@@ -72,7 +72,7 @@ x = data.frame(Date = c("Mon 9/7", "Wed 9/9", "Fri 9/11"),
                Lab = c("  ",
                        "[Lab 3 - More `R` and one-sample quantitative data](s209f26/one_sample_quant.html)",
                        "Lab 3"),
-               Resources = c(" ", " ", " "))
+               Resources = c(" ", " ", "[Exploring Numerical Data - IMS Ch 5](https://openintro-ims.netlify.app/explore-numerical)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -81,6 +81,7 @@ knitr::kable(x, format = "html") %>%
 - [Homework 2](s209f26/hw2.html) is due Friday 9/18
 - Lab 2 is due Wednesday 9/9
 - Lab 3 is due ~~Friday 9/11~~ Monday 9/14
+    - [Bonus lab](https://remiller1450.github.io/s209s24/ggplot2.html) (for extra credit) if you completed Lab 3 outside of class or early.
 
 $~$
 
