@@ -69,7 +69,7 @@ knitr::kable(x, format = "html") %>%
 
 - Concept Quiz #1 is on Tuesday 9/8 - see the last slide in each of our first three lectures for a list of possible topics
 - Lab 2 (from last week) is due Wednesday 9/9
-- Lab 3 is due Monday 9/14
+- Lab 3 is due ~~Monday 9/14~~ Wednesday 9/16
 
 
 $~$
@@ -78,25 +78,38 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/15", "Th 9/17"), 
-               Lecture = c("Cross-validation",
+               Lecture = c("[Cross-validation](ml26/cv.pdf)",
                            " "),
-               Lab = c("Lab 4 - Pipelines and Cross-validation",
-                       "Finish/discuss Lab 4"),
+               Lab = c("[Lab 4 - Pipelines and Cross-validation](ml26/Lab_4_F26.html)",
+                       "Continue Lab 4"),
                Resources = c(" ", "[Discussion paper #1](ml26/Kohavi_1995.pdf)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+- [Homework #1](ml26/hw1.html) (assigned Week 1) is due Tuesday 9/15
+- Lab 3 (from last week) is due Wednesday 9/16
 - Paper discussion #1 is on Thursday 9/17
     - A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection by Kohavi (1995) 
     - [Paper discussion guidelines](ml26/discussion_guide.html)
-- Lab 4 is due Monday 9/21
+- Lab 4 is due Wednesday 9/23
 
 $~$
 
 #### Week 4 - Evaluation Metrics and Feature Engineering
 
-- Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (mostly cross-validation)
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/22", "Th 9/24"), 
+               Lecture = c("Evaluating Classifier Performance",
+                           ""),
+               Lab = c("Finish/discuss Lab 4 (from last week)",
+                       "Lab 5 - Classifier Performance and Feature Engineering"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (but mostly cross-validation)
 
 $~$
 
