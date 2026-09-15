@@ -88,7 +88,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - [Homework #1](ml26/hw1.html) (assigned Week 1) is due Tuesday 9/15
-- Lab 3 (from last week) is due Wednesday 9/16
+- Lab 3 (from last week) is due Wednesday 9/16 - *Note*: you do not need to complete Question 5
 - Paper discussion #1 is on Thursday 9/17
     - A Study of Cross-Validation and Bootstrap for Accuracy Estimation and Model Selection by Kohavi (1995) 
     - [Paper discussion guidelines](ml26/discussion_guide.html)
