@@ -96,25 +96,27 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-#### Week 4 - Evaluation Metrics and Feature Engineering
+#### Week 4 - Classifier Evaluation Metrics
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/22", "Th 9/24"), 
                Lecture = c("Evaluating Classifier Performance",
                            ""),
                Lab = c("Finish/discuss Lab 4 (from last week)",
-                       "Lab 5 - Classifier Performance and Feature Engineering"),
+                       "Lab 5 - Classifier Performance"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+- [Homework #2](ml26/hw2.html) is due Tuesday 9/29
 - Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (but mostly cross-validation)
 
 $~$
 
 #### Week 5 - More Models
 
+- [Homework #2](ml26/hw2.html) is due Tuesday 9/29
 - Paper discussion #2 on Thursday 10/1 
     - Statistical Modeling: The Two Cultures by Breiman (2001)
 

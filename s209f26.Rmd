@@ -62,7 +62,7 @@ All assignments should be submitted via Canvas.
 
 $~$
 
-**Week 2** - More Hypothesis Testing
+**Week 2** - One-Sample Hypothesis Testing
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/7", "Wed 9/9", "Fri 9/11"), 
@@ -85,17 +85,17 @@ knitr::kable(x, format = "html") %>%
 
 $~$
 
-**Week 3** - Two-sample Hypothesis Tests
+**Week 3** - Z and T Tests
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/14", "Wed 9/16", "Fri 9/18"), 
                Lecture = c("[Hypothesis Testing (part 3: the T test)](s209f26/ht3.pdf)", 
-                           "Hypothesis Testing (part 4: two-sample Z and T tests)",
-                           " "),
+                           " ",
+                           "Hypothesis Testing (part 4: two-sample Z and T tests)"),
                Lab = c("[Lab 4 - One-sample Tests in `R`](s209f26/one_sample_Z_T.html)",
                        "Finish/discuss Lab 4",
                        "Lab 5 - Analyzing Two-sample Data in `R`"),
-               Resources = c(" ", " ", " "))
+               Resources = c(" ", " ", "[Inference for Two Means - IMS Ch 20](https://openintro-ims.netlify.app/inference-two-means)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -105,6 +105,39 @@ knitr::kable(x, format = "html") %>%
 - Lab 4 is due Wednesday 9/16
 
 $~$
+
+**Week 4** - Issues with Hypothesis Testing
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 9/21", "Wed 9/23", "Fri 9/25"), 
+               Lecture = c(" ", 
+                           "Testing Errors and Multiple Comparisons",
+                           " "),
+               Lab = c("Finish/discuss Lab 5",
+                       "Lab 6 - Multiple Comparisons",
+                       "Lab 7 - Transformations and Outliers"),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
+**Week 5** - Exam 1 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 9/28", "Wed 9/30", "Fri 10/2"), 
+               Lecture = c("TBD", 
+                           "Review",
+                           "Exam 1"),
+               Lab = c(" ",
+                       "Review",
+                       " "),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
 
 ## Exam Dates
 
