@@ -91,10 +91,10 @@ $~$
 x = data.frame(Date = c("Mon 9/14", "Wed 9/16", "Fri 9/18"), 
                Lecture = c("[Hypothesis Testing (part 3: the T test)](s209f26/ht3.pdf)", 
                            " ",
-                           "Hypothesis Testing (part 4: two-sample Z and T tests)"),
+                           "[Hypothesis Testing (part 4: two-sample Z and T tests)](s209f26/ht4.pdf)"),
                Lab = c("[Lab 4 - One-sample Tests in `R`](s209f26/one_sample_Z_T.html)",
                        "Finish/discuss Lab 4",
-                       "Lab 5 - Analyzing Two-sample Data in `R`"),
+                       "[Lab 5 - Analyzing Two-sample Data in `R`](s209f26/two_sample_Z_T.html)"),
                Resources = c(" ", " ", "[Inference for Two Means - IMS Ch 20](https://openintro-ims.netlify.app/inference-two-means)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -114,12 +114,15 @@ x = data.frame(Date = c("Mon 9/21", "Wed 9/23", "Fri 9/25"),
                            "Testing Errors and Multiple Comparisons",
                            " "),
                Lab = c("Finish/discuss Lab 5",
-                       "Lab 6 - Multiple Comparisons",
-                       "Lab 7 - Transformations and Outliers"),
+                       "",
+                       "Lab 6 - Multiple Comparisons"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 5 is due Monday 9/21
+- Homework 3 is due Friday 9/25
 
 $~$
 
@@ -127,10 +130,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/28", "Wed 9/30", "Fri 10/2"), 
-               Lecture = c("TBD", 
+               Lecture = c(" ", 
                            "Review",
                            "Exam 1"),
-               Lab = c(" ",
+               Lab = c("Lab 7 - Transformations and Outliers",
                        "Review",
                        " "),
                Resources = c(" ", " ", " "))
