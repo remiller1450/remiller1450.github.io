@@ -111,6 +111,7 @@ knitr::kable(x, format = "html") %>%
 
 - [Homework #2](ml26/hw2.html) is due Tuesday 9/29
 - Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (but mostly cross-validation)
+- Lab 5 is due Friday 9/25
 
 $~$
 
