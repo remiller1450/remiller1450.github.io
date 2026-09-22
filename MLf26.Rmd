@@ -100,10 +100,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/22", "Th 9/24"), 
-               Lecture = c("Evaluating Classifier Performance",
+               Lecture = c("[Evaluating Classifier Performance](ml26/perform.pdf)",
                            ""),
                Lab = c("Finish/discuss Lab 4 (from last week)",
-                       "Lab 5 - Classifier Performance"),
+                       "[Lab 5 - Classifier Performance](ml26/Lab_5_F26.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
