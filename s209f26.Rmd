@@ -111,10 +111,10 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/21", "Wed 9/23", "Fri 9/25"), 
                Lecture = c(" ", 
-                           "Testing Errors and Multiple Comparisons",
+                           "[Testing Errors and Multiple Comparisons](s209f26/mcomp.pdf)",
                            " "),
                Lab = c("[Lab 5 - Analyzing Two-sample Data in `R`](s209f26/two_sample_Z_T.html)",
-                       "",
+                       "Finish/discuss Lab 5",
                        "Lab 6 - Multiple Comparisons"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
@@ -142,6 +142,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Practice exam and study guide will be posted here by Friday 9/25
+
 
 $~$
 
