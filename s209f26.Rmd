@@ -116,13 +116,14 @@ x = data.frame(Date = c("Mon 9/21", "Wed 9/23", "Fri 9/25"),
                Lab = c("[Lab 5 - Analyzing Two-sample Data in `R`](s209f26/two_sample_Z_T.html)",
                        "Finish/discuss Lab 5",
                        "Lab 6 - Multiple Comparisons"),
-               Resources = c(" ", " ", " "))
+               Resources = c(" ", "[Decsion Errors - IMS Ch 14](https://openintro-ims.netlify.app/foundations-errors)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - Lab 5 is due Wednesday 9/23
 - [Homework 3](s209f26/hw3.html) is due Friday 9/25
+- Lab 6 is due Monday 9/28
 
 $~$
 
@@ -130,7 +131,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/28", "Wed 9/30", "Fri 10/2"), 
-               Lecture = c(" ", 
+               Lecture = c("Transformations and Outliers", 
                            "Review",
                            "Exam 1"),
                Lab = c("Lab 7 - Transformations and Outliers",
@@ -141,7 +142,10 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
-- Practice exam and study guide will be posted here by Friday 9/25
+- Lab 6 (from last week) is due Monday 9/28
+- Lab 7 is due Wednesday 9/30
+- [Study guide for Exam 1](s209f26/exam1_study_guide.pdf)
+- [Practice version of Exam 1](s209f26/prac_exam1.pdf)
 
 
 $~$

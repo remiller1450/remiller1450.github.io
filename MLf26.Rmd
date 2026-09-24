@@ -111,11 +111,22 @@ knitr::kable(x, format = "html") %>%
 
 - [Homework #2](ml26/hw2.html) is due Tuesday 9/29
 - Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (but mostly cross-validation)
-- Lab 5 is due Friday 9/25
+- Lab 5 is due Monday 9/28
 
 $~$
 
 #### Week 5 - More Models
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/29", "Th 10/1"), 
+               Lecture = c("Random Forests",
+                           " "),
+               Lab = c("Lab 6 - Ensemble Models",
+                       "Finish/discuss Lab 6"),
+               Resources = c(" ", "[Discussion paper #2](https://www.jstor.org/stable/2676681?seq=17)"))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 - [Homework #2](ml26/hw2.html) is due Tuesday 9/29
 - Paper discussion #2 on Thursday 10/1 
@@ -125,7 +136,18 @@ $~$
 
 #### Week 6 - Gradient Boosting
 
-- Concept Quiz #3 is on Tuesday 10/6 - it will cover evaluation metrics and the random forest and SVM algorithms
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 9/29", "Th 10/1"), 
+               Lecture = c("Gradient Boosting",
+                           " "),
+               Lab = c("Lab 7 - XGBoost",
+                       "Finish/discuss Lab 7"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Concept Quiz #3 is on Tuesday 10/6 - it will cover evaluation metrics and the random forests
 
 $~$
 
@@ -135,8 +157,8 @@ $~$
 x = data.frame(Date = c("T 10/13", "Th 10/15"), 
                Lecture = c("Global Importance",
                            "Local Importance"),
-               Lab = c("Lab",
-                       "Finish/discuss Lab"),
+               Lab = c("Lab 8 - Importance Measures",
+                       "Finish/discuss Lab 8"),
                Resources = c(" ", "[discussion paper](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
