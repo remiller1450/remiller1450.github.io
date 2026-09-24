@@ -115,7 +115,7 @@ x = data.frame(Date = c("Mon 9/21", "Wed 9/23", "Fri 9/25"),
                            " "),
                Lab = c("[Lab 5 - Analyzing Two-sample Data in `R`](s209f26/two_sample_Z_T.html)",
                        "Finish/discuss Lab 5",
-                       "Lab 6 - Multiple Comparisons"),
+                       "[Lab 6 - Multiple Comparisons](s209f26/mcomp.html)"),
                Resources = c(" ", "[Decsion Errors - IMS Ch 14](https://openintro-ims.netlify.app/foundations-errors)", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
