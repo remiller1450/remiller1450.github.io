@@ -111,7 +111,7 @@ knitr::kable(x, format = "html") %>%
 
 - [Homework #2](ml26/hw2.html) is due Tuesday 9/29
 - Concept Quiz #2 is on Tuesday 9/22 - it will cover PCA and cross-validation (but mostly cross-validation)
-- Lab 5 is due Monday 9/28
+- Lab 5 is due ~~Monday 9/28~~ Wednesday 9/30
 
 $~$
 
@@ -119,10 +119,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 9/29", "Th 10/1"), 
-               Lecture = c("Random Forests",
+               Lecture = c("[Random Forests](ml26/rf.pdf)",
                            " "),
-               Lab = c("Lab 6 - Ensemble Models",
-                       "Finish/discuss Lab 6"),
+               Lab = c("Finish/discuss Lab 5",
+                       "Lab 6 - Ensemble Models"),
                Resources = c(" ", "[Discussion paper #2](https://www.jstor.org/stable/2676681?seq=17)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
