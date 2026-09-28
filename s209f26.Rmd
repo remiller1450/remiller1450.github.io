@@ -131,10 +131,10 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 9/28", "Wed 9/30", "Fri 10/2"), 
-               Lecture = c("Transformations and Outliers", 
+               Lecture = c(" ", 
                            "Review",
                            "Exam 1"),
-               Lab = c("Lab 7 - Transformations and Outliers",
+               Lab = c("[Lab 7 - Transformations and Outliers](s209f26/log_trans.html)",
                        "Review",
                        " "),
                Resources = c(" ", " ", " "))
