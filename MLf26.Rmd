@@ -139,16 +139,18 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/6", "Th 10/8"), 
-               Lecture = c("Gradient Boosting",
-                           " "),
-               Lab = c("Lab 7 - XGBoost",
-                       "Finish/discuss Lab 7"),
+               Lecture = c(" ",
+                           "[Gradient Boosting](ml26/boost.pdf)"),
+               Lab = c("Finish/discuss Lab 6",
+                       "Lab 7 - XGBoost"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
 - Concept Quiz #3 is on Tuesday 10/6 - it will cover evaluation metrics and the random forests
+- Lab 6 (from last week) is due Wednesday 10/7
+- [Homework 3](ml26/hw3.html) is due Tuesday 10/27
 
 $~$
 
@@ -167,6 +169,8 @@ knitr::kable(x, format = "html") %>%
 
 - Paper discussion #3 on Thursday 10/15
     - "Why Should I Trust You?" Explaining the Predictions of Any Classiﬁer by Ribeiro, Singh, and Guestrin (2016)
+- Lab 7 (from last week) is due Wednesday 10/14
+- Lab 8 is due Friday 10/16
 
 $~$
 
