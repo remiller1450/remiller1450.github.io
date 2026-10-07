@@ -161,7 +161,7 @@ x = data.frame(Date = c("Mon 10/5", "Wed 10/7", "Fri 10/9"),
                            " ",
                            "Simple Linear Regression"),
                Lab = c(" ",
-                       "Lab 8 - Scatterplots and Correlation",
+                       "[Lab 8 - Scatterplots and Correlation](s209f26/cor.html)",
                        " "),
                Resources = c("[Spurious Correlations](https://www.tylervigen.com/spurious-correlations)", " ", " "))
 knitr::kable(x, format = "html") %>%
@@ -186,4 +186,7 @@ $~$
 
 ## Project 
 
-Information and deadlines for the course project will appear here. The project will not formally be introduced until after Exam 1.
+- [Final Project Description](s209f26/project.html)
+    - The first step is to form a group of two or three by Monday 10/12. Have one member of your group email Prof. Miller the members of your group. Additionally, if you are a group of two and would be open to adding a third member please let me know in your email.
+    
+    
