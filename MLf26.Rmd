@@ -142,7 +142,7 @@ x = data.frame(Date = c("T 10/6", "Th 10/8"),
                Lecture = c(" ",
                            "[Gradient Boosting](ml26/boost.pdf)"),
                Lab = c("Finish/discuss Lab 6",
-                       "Lab 7 - XGBoost"),
+                       "[Lab 7 - XGBoost](ml26/Lab_7_F26.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -173,6 +173,8 @@ knitr::kable(x, format = "html") %>%
 - Lab 8 is due Friday 10/16
 
 $~$
+
+### Unit #2 - Introduction to Deep Learning
 
 #### Week 8 - Gradient Descent
 
