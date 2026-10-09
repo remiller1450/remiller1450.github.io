@@ -159,7 +159,7 @@ $~$
 x = data.frame(Date = c("Mon 10/5", "Wed 10/7", "Fri 10/9"), 
                Lecture = c("[Scatterplots and Correlation](s209f26/scorr.pdf)", 
                            " ",
-                           "Simple Linear Regression"),
+                           "[Simple Linear Regression](s209f26/reg1.pdf)"),
                Lab = c(" ",
                        "[Lab 8 - Scatterplots and Correlation](s209f26/cor.html)",
                        " "),
@@ -171,6 +171,27 @@ knitr::kable(x, format = "html") %>%
 - [Homework 4](s209f26/hw4.html) is due Friday 10/7
 - Lab 8 is due Friday 10/7
 - Project groups are due Monday 10/12
+
+$~$
+
+**Week 7** - Linear Regression
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 10/12", "Wed 10/14", "Fri 10/16"), 
+               Lecture = c(" ", 
+                           "Categorical Predictors",
+                           " "),
+               Lab = c("[Lab 9 - Linear Regression (part 1)](s209f26/lr1.html)",
+                       " ",
+                       "Lab 10 - Linear Regression (part 2)"),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Project proposals are due Friday 10/16
+- Homework 5 is due Friday 10/7
+- Lab 9 is due Wednesday 10/7
 
 $~$
 
