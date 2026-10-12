@@ -190,8 +190,29 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Project proposals are due Friday 10/16
-- Homework 5 is due Friday 10/7
-- Lab 9 is due Wednesday 10/7
+- [Homework 5](s209f26/hw5.html) is due Friday 10/16
+- Lab 9 is due Wednesday 10/14
+
+<div style="display: flex; align-items: center; margin: 20px 0;">
+  <span style="padding-right: 10px; font-weight: bold; color: #555;">Fall Break</span>
+  <div style="flex-grow: 1; border-bottom: 1px solid #ccc;"></div>
+</div>
+
+**Week 8** - Analysis of Variance (ANOVA)
+
+**Week 9** - Multiple Linear Regression
+
+**Week 10** - Exam 2
+
+**Week 11** - Confidence Intervals
+
+**Week 12** - Observational Study Designs and Odds Ratios
+
+**Week 13** - Chi-squared Tests
+
+**Week 14** - Logistic Regression (time-permitting)
+
+**Week 15** - Exam 3 and projects
 
 $~$
 
@@ -208,6 +229,7 @@ $~$
 ## Project 
 
 - [Final Project Description](s209f26/project.html)
-    - The first step is to form a group of two or three by Monday 10/12. Have one member of your group email Prof. Miller the members of your group. Additionally, if you are a group of two and would be open to adding a third member please let me know in your email.
+    - ~~The first step is to form a group of two or three by Monday 10/12. Have one member of your group email Prof. Miller the members of your group. Additionally, if you are a group of two and would be open to adding a third member please let me know in your email.~~
+    - The second step is to submit a 1-2 paragraph project proposal following the guidelines found under "Timeline" in the project description.
     
     
