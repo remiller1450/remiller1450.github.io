@@ -179,7 +179,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 10/12", "Wed 10/14", "Fri 10/16"), 
                Lecture = c(" ", 
-                           "Categorical Predictors",
+                           "[Regression with a Categorical Predictor](s209f26/cat_reg.pdf)",
                            " "),
                Lab = c("[Lab 9 - Linear Regression (part 1)](s209f26/lr1.html)",
                        " ",

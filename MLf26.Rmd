@@ -162,7 +162,7 @@ x = data.frame(Date = c("T 10/13", "Th 10/15"),
                            " "),
                Lab = c("[Lab 8 - Importance Measures](ml26/Lab_8_F26.html)",
                        "Finish/discuss Lab 8"),
-               Resources = c("[a non-technical guide to SHAP](https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/) ", "[discussion paper](https://robotics.stanford.edu/~ronnyk/accEst.pdf)"))
+               Resources = c("[a non-technical guide to SHAP](https://www.aidancooper.co.uk/a-non-technical-guide-to-interpreting-shap-analyses/) ", "[Discussion paper #3](https://dl.acm.org/doi/pdf/10.1145/2939672.2939778)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -208,7 +208,7 @@ $~$
 
 ## Final Project 
 
-[Final project guidelines]()
+[Final project guidelines](ml26/f26_final_project.pdf)
 
 
 
