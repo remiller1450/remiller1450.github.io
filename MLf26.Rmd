@@ -178,7 +178,7 @@ $~$
 
 #### Week 8 - Gradient Descent
 
-- Concept Quiz #4 is on Tuesday 10/27 - it will cover gradient boosting and model explainability
+- Concept Quiz #4 is on Tuesday 10/27 - it will cover gradient boosting (mostly) and model explainability (less so)
 
 $~$
 

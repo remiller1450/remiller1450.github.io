@@ -182,8 +182,8 @@ x = data.frame(Date = c("Mon 10/12", "Wed 10/14", "Fri 10/16"),
                            "[Regression with a Categorical Predictor](s209f26/cat_reg.pdf)",
                            " "),
                Lab = c("[Lab 9 - Linear Regression (part 1)](s209f26/lr1.html)",
-                       " ",
-                       "Lab 10 - Linear Regression (part 2)"),
+                       "Continue Lab 9",
+                       "[Lab 10 - Linear Regression (part 2)](s209f26/lr2.html)"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -191,7 +191,8 @@ knitr::kable(x, format = "html") %>%
 
 - Project proposals are due Friday 10/16
 - [Homework 5](s209f26/hw5.html) is due Friday 10/16
-- Lab 9 is due Wednesday 10/14
+- Lab 9 is due ~~Wednesday 10/14~~
+- Lab 10 is due Monday 10/26
 
 <div style="display: flex; align-items: center; margin: 20px 0;">
   <span style="padding-right: 10px; font-weight: bold; color: #555;">Fall Break</span>
