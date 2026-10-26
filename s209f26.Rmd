@@ -201,6 +201,23 @@ knitr::kable(x, format = "html") %>%
 
 **Week 8** - Analysis of Variance (ANOVA)
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 10/26", "Wed 10/28", "Fri 10/30"), 
+               Lecture = c("[Analysis of Variance (ANOVA)](s209f26/anova.pdf)", 
+                           " ",
+                           "Multivariable Regression"),
+               Lab = c("Finish/discuss Lab 10",
+                       "Lab 11 - ANOVA",
+                       " "),
+               Resources = c("[Inference for Many Means - IMS Ch 22](https://openintro-ims.netlify.app/inference-many-means)", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- [Homework 6](s209f26/hw6.html) is due Friday 10/30
+
+$~$
+
 **Week 9** - Multiple Linear Regression
 
 **Week 10** - Exam 2
