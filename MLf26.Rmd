@@ -178,20 +178,70 @@ $~$
 
 #### Week 8 - Gradient Descent
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 10/27", "Th 10/29"), 
+               Lecture = c("[Linear Algebra](ml26/lin.pdf)",
+                           "Gradient Descent"),
+               Lab = c(" ",
+                       "Lab 9 - Gradient Descent"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
 - Concept Quiz #4 is on Tuesday 10/27 - it will cover gradient boosting (mostly) and model explainability (less so)
+- Homework 3 (from before break) is due Tuesday 10/27
+- Lab 9 is due Wednesday 11/4
 
 $~$
 
 #### Week 9 - Neural Networks
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/3", "Th 11/5"), 
+               Lecture = c("Neural Networks and Backpropagation",
+                           " "),
+               Lab = c(" ",
+                       "Lab 10 - Introduction to PyTorch"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
+
 #### Week 10 - More Neural Networks
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/10", "Th 11/12"), 
+               Lecture = c("Convolutional Neural Networks",
+                           " "),
+               Lab = c("Lab 11 - CNNs in PyTorch",
+                       "Finish/discuss Lab 11"),
+               Resources = c(" ", "[Discussion paper #4](https://dl.acm.org/doi/pdf/10.1145/3065386)"))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 - Paper discussion #4 on Thursday 11/12
     - ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky, Sutskever, and Hinton (2012)
 
+$~$
+
 #### Week 11 - Exam Prep
 
-- Review session and quiz retakes on Tuesday, exam on Thursday
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/17", "Th 11/19"), 
+               Lecture = c("Review and Quiz Retakes",
+                           "Exam"),
+               Lab = c(" ",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+$~$
 
 #### Week 12 - Transfer Learning
 
