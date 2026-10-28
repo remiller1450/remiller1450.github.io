@@ -207,7 +207,7 @@ x = data.frame(Date = c("Mon 10/26", "Wed 10/28", "Fri 10/30"),
                            " ",
                            "Multivariable Regression"),
                Lab = c("Finish/discuss Lab 10",
-                       "Lab 11 - ANOVA",
+                       "[Lab 11 - ANOVA](s209f26/anova.html)",
                        " "),
                Resources = c("[Inference for Many Means - IMS Ch 22](https://openintro-ims.netlify.app/inference-many-means)", " ", " "))
 knitr::kable(x, format = "html") %>%
@@ -215,6 +215,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - [Homework 6](s209f26/hw6.html) is due Friday 10/30
+- Lab 11 is due Friday 10/30
 
 $~$
 
