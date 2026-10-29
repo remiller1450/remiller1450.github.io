@@ -208,7 +208,7 @@ x = data.frame(Date = c("Mon 10/26", "Wed 10/28", "Fri 10/30"),
                            "Multivariable Regression"),
                Lab = c("Finish/discuss Lab 10",
                        "[Lab 11 - ANOVA](s209f26/anova.html)",
-                       " "),
+                       "Finish/discuss Lab 11"),
                Resources = c("[Inference for Many Means - IMS Ch 22](https://openintro-ims.netlify.app/inference-many-means)", " ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -220,6 +220,19 @@ knitr::kable(x, format = "html") %>%
 $~$
 
 **Week 9** - Multiple Linear Regression
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 11/2", "Wed 11/4", "Fri 11/6"), 
+               Lecture = c(" ", 
+                           " ",
+                           "Project Workday/Progress Meetings"),
+               Lab = c(" ",
+                       " ",
+                       " "),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 **Week 10** - Exam 2
 
@@ -249,6 +262,7 @@ $~$
 
 - [Final Project Description](s209f26/project.html)
     - ~~The first step is to form a group of two or three by Monday 10/12. Have one member of your group email Prof. Miller the members of your group. Additionally, if you are a group of two and would be open to adding a third member please let me know in your email.~~
-    - The second step is to submit a 1-2 paragraph project proposal following the guidelines found under "Timeline" in the project description.
+    - ~~The second step is to submit a 1-2 paragraph project proposal following the guidelines found under "Timeline" in the project description.~~
+    - The third step is to have at least some of your data ready to work with by the start of class on Friday 11/6. If you are collecting your own data, you should begin the process early enough to allow for this.
     
     

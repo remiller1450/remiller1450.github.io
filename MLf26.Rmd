@@ -181,9 +181,9 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 10/27", "Th 10/29"), 
                Lecture = c("[Linear Algebra](ml26/lin.pdf)",
-                           "Gradient Descent"),
+                           "[Gradient Descent](ml26/grad.pdf)"),
                Lab = c(" ",
-                       "Lab 9 - Gradient Descent"),
+                       "[Lab 9 - Gradient Descent](ml26/Lab_9_F26.html)"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
@@ -199,9 +199,9 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/3", "Th 11/5"), 
-               Lecture = c("Neural Networks and Backpropagation",
-                           " "),
-               Lab = c(" ",
+               Lecture = c("Logistic Regression",
+                           "Neural Networks and Backpropagation"),
+               Lab = c("Finish/discuss Lab 9",
                        "Lab 10 - Introduction to PyTorch"),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
