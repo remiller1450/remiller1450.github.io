@@ -205,7 +205,7 @@ knitr::kable(x, format = "html") %>%
 x = data.frame(Date = c("Mon 10/26", "Wed 10/28", "Fri 10/30"), 
                Lecture = c("[Analysis of Variance (ANOVA)](s209f26/anova.pdf)", 
                            " ",
-                           "Multivariable Regression"),
+                           "[Multivariable Regression (part 1)](s209f26/mr1.pdf)"),
                Lab = c("Finish/discuss Lab 10",
                        "[Lab 11 - ANOVA](s209f26/anova.html)",
                        "Finish/discuss Lab 11"),
@@ -223,11 +223,11 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 11/2", "Wed 11/4", "Fri 11/6"), 
-               Lecture = c(" ", 
+               Lecture = c("Multivariable Regression (part 2)", 
                            " ",
                            "Project Workday/Progress Meetings"),
-               Lab = c(" ",
-                       " ",
+               Lab = c("Lab 12 - Multivariable Regression",
+                       "Finish/discuss Lab 12",
                        " "),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%

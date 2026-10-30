@@ -208,6 +208,8 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+- [Homework 4](ml26/hw4.html) is due Tuesday 11/17
+
 $~$
 
 #### Week 10 - More Neural Networks
