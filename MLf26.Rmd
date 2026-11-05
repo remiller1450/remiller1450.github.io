@@ -200,10 +200,10 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/3", "Th 11/5"), 
                Lecture = c(" ",
-                           "Neural Networks and Backpropagation"),
+                           "[Neural Networks](ml26/nn.pdf)"),
                Lab = c("[Lab 9 - Gradient Descent](ml26/Lab_9_F26.html)",
                        " "),
-               Resources = c(" ", " "))
+               Resources = c(" ", "[Video introduction to neural nets](https://www.youtube.com/watch?v=aircAruvnKk), \n  [Gradient descent for neural networks](https://www.youtube.com/watch?v=IHZwWFHWa-w)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
@@ -220,7 +220,7 @@ x = data.frame(Date = c("T 11/10", "Th 11/12"),
                Lecture = c("Convolutional Neural Networks",
                            " "),
                Lab = c("Lab 10 - Introduction to PyTorch",
-                       "Lab 11 - CNNs in PyTorch"),
+                       "Finish Lab 10"),
                Resources = c(" ", "[Discussion paper #4](https://dl.acm.org/doi/pdf/10.1145/3065386)"))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))

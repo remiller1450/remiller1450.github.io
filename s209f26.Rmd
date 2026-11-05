@@ -224,7 +224,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 11/2", "Wed 11/4", "Fri 11/6"), 
                Lecture = c("[Multivariable Regression (part 1)](s209f26/mr1.pdf)", 
-                           "[Multivariable Regression (part 2)](s209f26/mr2.pdf)",
+                           " ",
                            "Project Workday/Progress Meetings"),
                Lab = c("[Lab 12 - Multivariable Regression](s209f26/mr1.html)",
                        "Finish/discuss Lab 12",
@@ -235,7 +235,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - [Homework 7](s209f26/hw7.html) is due Friday 11/6
-- Lab 12 is due Wednesday 11/4
+- Lab 12 is due ~~Wednesday 11/4~~ Friday 11/6
 
 $~$
 
@@ -243,7 +243,7 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
 x = data.frame(Date = c("Mon 11/9", "Wed 11/11", "Fri 11/13"), 
-               Lecture = c("Multivariable Regression (part 2)", 
+               Lecture = c("[Multivariable Regression (part 2)](s209f26/mr2.pdf)", 
                            " ",
                            "Exam 2"),
                Lab = c("Lab 13 - Regression Loose Ends",
@@ -255,9 +255,9 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - Lab 13 is due Wednesday 11/11
-- Exam 2 Study Guide
-- Practice Exam 2
-
+- [Exam 2 Study Guide](s209f26/exam2_study_guide.pdf)
+- [Practice Exam 2](s209f26/alt_exam2.pdf)
+    - Sketch solutions will be posted after class on Wednesday 11/11
 
 $~$
 
