@@ -246,7 +246,7 @@ x = data.frame(Date = c("Mon 11/9", "Wed 11/11", "Fri 11/13"),
                Lecture = c("[Multivariable Regression (part 2)](s209f26/mr2.pdf)", 
                            " ",
                            "Exam 2"),
-               Lab = c("Lab 13 - Regression Loose Ends",
+               Lab = c("[Lab 13 - Regression Loose Ends](s209f26/mr2.html)",
                        "Finish/discuss Lab 13",
                        " "),
                Resources = c(" ", " ", " "))
