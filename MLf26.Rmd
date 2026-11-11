@@ -217,8 +217,8 @@ $~$
 
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/10", "Th 11/12"), 
-               Lecture = c("Convolutional Neural Networks",
-                           " "),
+               Lecture = c(" ",
+                           "[Convolutional Neural Networks](ml26/cnn.pdf"),
                Lab = c("[Lab 10 - Introduction to PyTorch](ml26/Lab_10_F26.html)",
                        "Finish Lab 10"),
                Resources = c(" ", "[Discussion paper #4](https://dl.acm.org/doi/pdf/10.1145/3065386)"))
@@ -228,6 +228,7 @@ knitr::kable(x, format = "html") %>%
 
 - Paper discussion #4 on Thursday 11/12
     - ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky, Sutskever, and Hinton (2012)
+- Lab 10 is due Friday 11/13
 
 $~$
 
@@ -244,18 +245,52 @@ knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
 
+- [Practice Exam](ml26/Practice_Exam_F26.pdf)
+- Homework 4 (introduced in Week 9) is due Wednesday 11/18
+
 $~$
 
-#### Week 12 - Transfer Learning
+#### Week 12 - CNNs
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 11/24", "Th 11/19"), 
+               Lecture = c(" ",
+                           "No Class (Thanksgiving)"),
+               Lab = c("Lab 11 - Convolutional Neural Networks",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 #### Week 13 - Transformers 
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 12/1", "Th 12/3"), 
+               Lecture = c(" ",
+                           "Transformers and Language Models"),
+               Lab = c("Lab 12 - Transfer Learning",
+                       "Lab 13 (time-permitting, optional)"),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 - Paper discussion #5
     - On the Dangers of Stochastic Parrots:Can Language Models Be Too Big? by Bender, Gebru, McMillan-Major, and Shmitchell (2021)
 
 #### Week 14 - Projects
 
-- Presentations split across Tues/Thurs
+```{r, echo = FALSE, message = FALSE, warning = FALSE}
+x = data.frame(Date = c("T 12/8", "Th 12/10"), 
+               Lecture = c("Presentations #1",
+                           "Presentations #2"),
+               Lab = c(" ",
+                       " "),
+               Resources = c(" ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 $~$
 

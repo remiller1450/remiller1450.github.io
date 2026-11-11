@@ -257,7 +257,7 @@ knitr::kable(x, format = "html") %>%
 - Lab 13 is due Wednesday 11/11
 - [Exam 2 Study Guide](s209f26/exam2_study_guide.pdf)
 - [Practice Exam 2](s209f26/alt_exam2.pdf)
-    - Sketch solutions will be posted after class on Wednesday 11/11
+    - [Practice Exam 2 Sketch Solution](s209f26/alt_exam2_soln.pdf)
 
 $~$
 
