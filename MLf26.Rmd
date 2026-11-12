@@ -218,7 +218,7 @@ $~$
 ```{r, echo = FALSE, message = FALSE, warning = FALSE}
 x = data.frame(Date = c("T 11/10", "Th 11/12"), 
                Lecture = c(" ",
-                           "[Convolutional Neural Networks](ml26/cnn.pdf"),
+                           "[Convolutional Neural Networks](ml26/cnn.pdf)"),
                Lab = c("[Lab 10 - Introduction to PyTorch](ml26/Lab_10_F26.html)",
                        "Finish Lab 10"),
                Resources = c(" ", "[Discussion paper #4](https://dl.acm.org/doi/pdf/10.1145/3065386)"))
