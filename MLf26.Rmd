@@ -228,7 +228,7 @@ knitr::kable(x, format = "html") %>%
 
 - Paper discussion #4 on Thursday 11/12
     - ImageNet Classification with Deep Convolutional Neural Networks by Krizhevsky, Sutskever, and Hinton (2012)
-- Lab 10 is due Friday 11/13
+- Lab 10 is due Tuesday 11/17
 
 $~$
 
