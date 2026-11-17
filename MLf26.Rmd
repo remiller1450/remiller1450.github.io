@@ -246,6 +246,7 @@ knitr::kable(x, format = "html") %>%
 ```
 
 - [Practice Exam](ml26/Practice_Exam_F26.pdf)
+    - [Sketch Solution](ml26/Practice_Exam_F26_SOLN.pdf)
 - Homework 4 (introduced in Week 9) is due Wednesday 11/18
 
 $~$
