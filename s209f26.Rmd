@@ -271,7 +271,7 @@ x = data.frame(Date = c("Mon 11/16", "Wed 11/18", "Fri 11/20"),
                            "Finish Confidence Intervals",
                            " "),
                Lab = c(" ",
-                       "Lab 14 - Confidence Intervals",
+                       "[Lab 14 - Confidence Intervals](s209f26/ci.html)",
                        "Finish/discuss Lab 14"),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
