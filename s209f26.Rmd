@@ -283,6 +283,23 @@ knitr::kable(x, format = "html") %>%
 
 **Week 12** - Observational Study Designs and Odds Ratios
 
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 11/23", "Wed 11/25", "Fri 11/27"), 
+               Lecture = c("[Study Design](s209f26/design.pdf)", 
+                           "",
+                           " "),
+               Lab = c("Finish/discuss Question 4 of Lab 14",
+                       "Contingency Tables",
+                       " "),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
+
+- Lab 14 (from last week) is due Monday 11/23
+- Lab 15 is due Monday 11/30
+- Project checkpoint (see assignment guidelines) due Wednesday 11/25
+
 **Week 13** - Chi-squared Tests
 
 **Week 14** - Logistic Regression (time-permitting)
