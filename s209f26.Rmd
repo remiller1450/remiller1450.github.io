@@ -288,8 +288,8 @@ x = data.frame(Date = c("Mon 11/23", "Wed 11/25", "Fri 11/27"),
                Lecture = c("[Study Design](s209f26/design.pdf)", 
                            "",
                            " "),
-               Lab = c("Finish/discuss Question 4 of Lab 14",
-                       "Contingency Tables",
+               Lab = c("Finish/discuss Question 4 of Lab 14 ",
+                       "Lab 15 - Contingency Tables",
                        " "),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
@@ -300,11 +300,41 @@ knitr::kable(x, format = "html") %>%
 - Lab 15 is due Monday 11/30
 - Project checkpoint (see assignment guidelines) due Wednesday 11/25
 
+$~$
+
 **Week 13** - Chi-squared Tests
 
-**Week 14** - Logistic Regression (time-permitting)
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 11/30", "Wed 12/2", "Fri 12/4"), 
+               Lecture = c("Chi-squared Tests (part 1 - goodness of fit)", 
+                           "Chi-squared Tests (part 2 - independence)",
+                           " "),
+               Lab = c("Lab 16 - Chi-squared Tests",
+                       "Continue Lab 16",
+                       "Finish/discuss Lab 16"),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
-**Week 15** - Exam 3 and projects
+- Homework 9 is due Friday 12/4
+
+$~$
+
+**Week 14** - Exam 3 and projects
+
+```{r, echo = FALSE, message = FALSE, warning = FALSE, eval = TRUE}
+x = data.frame(Date = c("Mon 12/7", "Wed 12/9", "Fri 12/11"), 
+               Lecture = c("Exam 3", 
+                           "Project Presentations (day 1)",
+                           "Project Presentations (day 2)"),
+               Lab = c(" ",
+                       " ",
+                       " "),
+               Resources = c(" ", " ", " "))
+knitr::kable(x, format = "html") %>%
+  kable_styling(bootstrap_options = c("hover"))
+```
 
 $~$
 

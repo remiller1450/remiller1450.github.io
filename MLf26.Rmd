@@ -257,12 +257,16 @@ $~$
 x = data.frame(Date = c("T 11/24", "Th 11/19"), 
                Lecture = c(" ",
                            "No Class (Thanksgiving)"),
-               Lab = c("Lab 11 - Convolutional Neural Networks",
+               Lab = c("[Lab 11 - Convolutional Neural Networks](ml26/Lab_11_F26.html)",
                        " "),
                Resources = c(" ", " "))
 knitr::kable(x, format = "html") %>%
   kable_styling(bootstrap_options = c("hover"))
 ```
+
+- Lab 11 is due Tuesday 12/1
+
+$~$
 
 #### Week 13 - Transformers 
 
