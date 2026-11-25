@@ -289,7 +289,7 @@ x = data.frame(Date = c("Mon 11/23", "Wed 11/25", "Fri 11/27"),
                            "",
                            " "),
                Lab = c("Finish/discuss Question 4 of Lab 14 ",
-                       "Lab 15 - Contingency Tables",
+                       "[Lab 15 - Study Design and Odds Ratios](s209f26/odds.html)",
                        " "),
                Resources = c(" ", " ", " "))
 knitr::kable(x, format = "html") %>%
